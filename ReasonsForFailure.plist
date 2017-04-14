@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Provided_Proxy</key>
+	<string>The provided proxy could not be contacted. If you are in the UK the proxy in 
+preferences should be set to none. 
+If you are in fact outside the country, please report the failed proxy 
+using the menu item located in the application menu.</string>
+	<key>Custom_Proxy</key>
+	<string>The proxy you specified could not be contacted.
+If you are in the UK the proxy in preferences should be set to none.
+If you are outside the UK, please either specify a new proxy of your own or use the one that is 
+provided.</string>
+	<key>Internet_Connection</key>
+	<string>The ITV site could not be contacted. Please check
+your internet connection.</string>
+	<key>Specified_Modes</key>
+	<string>None of the download formats you specified were available for this show.
+Please add more download formats to your list in preferences.</string>
+	<key>Unresumable_File</key>
+	<string>The download of the show could not be resumed. Please either delete or rename the 
+partial file left behind in your download folder. The downloaded portion will be playable 
+with Adobe Media Player or similar.</string>
+	<key>ShowNotFound</key>
+	<string>The show could not be located on iPlayer/ITV Player.
+If outside the UK, use a proxy.</string>
+	<key>InHistory</key>
+	<string>This programme has already been downloaded and is in the history.
+To re-download it, go to File-&gt;Edit Download History,
+remove it, and try again.</string>
+	<key>FileExists</key>
+	<string>This show already exists in the download directory. If you would
+like to download it again, delete the file first.</string>
+	<key>Outside_UK</key>
+	<string>Broadcaster thinks you are outside the UK. Please enable the provided
+proxy option in preferences.</string>
+	<key>MetadataProcessing</key>
+	<string>GiA could not process this programme. Please submit a bug report.</string>
+	<key>ITVFormatListEmpty</key>
+	<string>Please go to Preferences -&gt; Other Formats and add
+at least one download format to the list.</string>
+	<key>NoSpecifiedFormatAvailableITV</key>
+	<string>None of the specified formats were available. Please go to Preferences -&gt;
+Other Formats and add at least one download format to the list.</string>
+	<key>AudioDescribedOnly</key>
+	<string>This show is only available in audiodescribed and/or signed versions.
+Please enable these versions in preferences if you would like to download this show.</string>
+	<key>External_Disconnected</key>
+	<string>The specified download directory could not be written to.
+Most likely this is because your external hard drive is disconnected.</string>
+	<key>Download_Directory_Permissions</key>
+	<string>The specified download directory could not be written to.
+Please check your write permission for your download directory or choose a
+new download directory.</string>
+</dict>
+</plist>
