@@ -7,3 +7,10 @@ The goal of Get iPlayer Automator is to allow iTunes and your Mac to become the 
 
 ### [Report Issues](https://github.com/GetiPlayerAutomator/get-iplayer-automator/wiki/Reporting-Issues)
 
+MediaHub
+--------
+
+[MediaHub](MediaHub/README.md) is a prototype menu-bar successor living in
+this repository: a small SwiftUI app that wraps get_iplayer's PVR to
+auto-download your series links on a schedule. See its README for details.
+
