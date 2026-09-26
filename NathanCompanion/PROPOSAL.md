@@ -139,3 +139,20 @@ Raised by Dáithí mid-session. Pupils who struggle to attend, retain and memori
 The exam script suits this fork better than the dictionary page, which is dense by nature.
 
 Rulings on the two open conditions, same day: the pen is **red**, matching marking at St Paul's; the marking hand is **Dáithí's own handwriting**, to be digitised from a photographed sample sheet.
+
+## 11. The Key Stage 3 framework (TransformED, Northern Ireland Curriculum 2028, draft for consultation)
+
+Read 26 September 2026: the draft Modern Languages framework, the explanation of its appendices, and Appendix 3, Irish (phonics, vocabulary by frequency, alphabetical and by part of speech, grammar).
+
+**What it changes for the app.** The framework is built on exactly the three things the companion drills: sound-symbol correspondences, high-frequency vocabulary, and grammar for meaning (tense, person, negation, question). It names regular revisiting and recall as the method, wants pupils to write from memory, wants unprepared speech, and wants pupils to keep a small personal vocabulary. The app should therefore span Key Stage 3 to GCSE with two spines in one data model: the KS3 list (about 800 headwords, frequency-ranked, part of speech and gender given) for Years 8 to 10, and the GCSE list for Years 11 and 12. Only about 230 headwords are on both, so the KS3 list is largely new material, not a subset.
+
+**Good news.** The KS3 Irish list leans Ulster: fosta not freisin, madadh not madra, cad é mar, achan, ar na mallaibh. It also carries gender and part of speech cleanly, which the GCSE list does not. It should become the primary vocabulary spine and the GCSE list the second.
+
+**Modules the framework adds.** A phonics module from the appendix's source and cluster words (hear and type; read aloud and record), and a personal vocabulary the pupil adds to (the appendix itself leaves placeholders for a placename and the pupil's surname). Prepositional pronoun paradigms (agam, agat, aige...) and verbs in positive, negative and interrogative forms are explicitly listed, so the grammar engine's scope is now defined by the appendix.
+
+**Dependencies.** Listening input "in a standard variety" collides with an Ulster classroom; the Abair Ulster voice is the practical answer. Audio is needed for phonics, which pushes Abair earlier in the build order than section 5 put it.
+
+**Defects in the draft appendix worth raising in the consultation.**
+1. In the Irish grammar sheet, columns A to D carry the Spanish appendix's content (feminine nouns "-o changes to -a", ser and estar, algún). The Irish grammar proper sits in columns E and F and runs to nine rows. The Irish grammar appendix is both contaminated and thin.
+2. 29 vocabulary rows have no part of speech; several common words are absent (cailín, buachaill, go raibh maith agat) while madadh sits at rank 3806.
+3. "Standard variety" pronunciation is undefined for Irish, which has three.
