@@ -137,3 +137,5 @@ Raised by Dáithí mid-session. Pupils who struggle to attend, retain and memori
 - spacing intervals shorter than the usual defaults, and re-tests of the same item inside one session.
 
 The exam script suits this fork better than the dictionary page, which is dense by nature.
+
+Rulings on the two open conditions, same day: the pen is **red**, matching marking at St Paul's; the marking hand is **Dáithí's own handwriting**, to be digitised from a photographed sample sheet.
