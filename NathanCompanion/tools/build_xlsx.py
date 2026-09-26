@@ -1,3 +1,4 @@
+import sys
 import json, re
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
@@ -68,10 +69,23 @@ def dv(ws,col,key,last):
     d=DataValidation(type='list',formula1=f"=Lists!${L}$2:${L}${n+1}",allow_blank=True,showErrorMessage=True,errorTitle='Not on the list',error=f'Choose a value from the {key} list (Lists sheet), or leave blank.')
     ws.add_data_validation(d); d.add(f"{col}2:{col}{last}")
 
+# ---------------- KS3 appendix ----------------
+from openpyxl import load_workbook
+KS=load_workbook(sys.argv[3],data_only=True)
+ksv=[r for r in KS['Irish KS3 Vocab-by frequency'].iter_rows(min_row=2,values_only=True) if r[3]]
+def ks_key(h):
+    h=re.sub(r'[\*]','',str(h)); h=re.split(r'[|/;]',h)[0]; h=re.sub(r'\([^)]*\)','',h); return h.strip().strip('()').lower()
+ks_rank={}
+for r in ksv:
+    k=ks_key(r[3])
+    if k and k not in ks_rank: ks_rank[k]=r[1]
+def gcse_key(head):
+    h=re.split(r'[,/(]',head)[0]; return h.strip().lower()
+
 # ---------------- Vocabulary ----------------
 vs=wb.create_sheet('Vocabulary')
-cols=['ID','Irish','Gender','Number','Type','Verb root','Verbal noun','Preposition','English','Context','Topic','Sub-topic','Tier','Status','Origin','Source page','Notes','Irish as printed']
-widths=[8,34,8,8,13,22,24,12,38,30,32,24,6,10,12,8,30,34]
+cols=['ID','Irish','Gender','Number','Type','Verb root','Verbal noun','Preposition','English','Context','Topic','Sub-topic','Tier','Status','Origin','Source page','Notes','Irish as printed','KS3 rank']
+widths=[8,34,8,8,13,22,24,12,38,30,32,24,6,10,12,8,30,34,9]
 header(vs,cols,widths)
 r=2
 for e in c['vocab']:
@@ -79,7 +93,8 @@ for e in c['vocab']:
     head,g,n,t,root,vn,prep=split_entry(e['ga'],sub,topic)
     notes=''
     if not e['en']: notes='English missing in the source layout; entry may be split across two rows.'
-    vals=[f"V{r-1:04d}",head,g,n,t,root,vn,prep,e['en'],ctx_label(e),topic,sub,'', 'Raw','Source list',e['page'],notes,e['ga']]
+    rk=ks_rank.get(gcse_key(head)) or ks_rank.get(gcse_key(root)) if (head or root) else None
+    vals=[f"V{r-1:04d}",head,g,n,t,root,vn,prep,e['en'],ctx_label(e),topic,sub,'', 'Raw','Source list',e['page'],notes,e['ga'],rk]
     for j,v in enumerate(vals,1): vs.cell(row=r,column=j,value=v)
     r+=1
 LASTV=r-1; SPARE=4000
@@ -158,6 +173,56 @@ for col,key in [('E','Tier'),('F','Status')]: dv(rs,col,key,RSPARE)
 for row in rs.iter_rows(min_row=2,max_row=RSPARE,min_col=2,max_col=7):
     for cl in row: cl.fill=EDIT
 
+# ---------------- KS3 vocabulary ----------------
+kv=wb.create_sheet('KS3 vocabulary')
+kvcols=['ID','List order','Frequency rank','Part of speech','Headword','English','Category','Status','Notes']; kvw=[8,10,12,16,34,40,14,10,30]
+header(kv,kvcols,kvw); r=2
+for row in ksv:
+    for j,v in enumerate([f"K{r-1:03d}",row[0],row[1],row[2],row[3],row[4],row[5],'Raw',''],1): kv.cell(row=r,column=j,value=v)
+    r+=1
+LASTK=r-1; KSPARE=1500
+finish(kv,len(kvcols),KSPARE)
+dv(kv,'H','Status',KSPARE)
+for row in kv.iter_rows(min_row=2,max_row=KSPARE,min_col=4,max_col=9):
+    for cl in row: cl.fill=EDIT
+
+# ---------------- KS3 phonics ----------------
+kp=wb.create_sheet('KS3 phonics')
+kpcols=['Sound-symbol correspondence','Source word','English','Frequency','Cluster word 1','English','Frequency','Cluster word 2','English','Frequency','Status','Notes']; kpw=[30,16,22,10,16,22,10,16,22,10,10,30]
+header(kp,kpcols,kpw); r=2
+prow=[x for x in KS.worksheets[0].iter_rows(min_row=1,values_only=True) if any(x)]
+started=False
+for row in prow:
+    a=str(row[0] or '')
+    if a.startswith('Irish sound-symbol'): started=True; continue
+    if not started: continue
+    vals=[row[0],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],'Raw' if row[2] else '','']
+    for j,v in enumerate(vals,1):
+        cl=kp.cell(row=r,column=j,value=v)
+        if not row[2]: cl.font=BOLD
+    r+=1
+LASTP=r-1; PSPARE=300
+finish(kp,len(kpcols),PSPARE)
+for row in kp.iter_rows(min_row=2,max_row=PSPARE,min_col=1,max_col=12):
+    for cl in row:
+        if cl.font!=BOLD: cl.fill=EDIT
+dv(kp,'K','Status',PSPARE)
+
+# ---------------- KS3 grammar ----------------
+kg=wb.create_sheet('KS3 grammar')
+kgcols=['ID','Term','Irish grammar features','Status','Notes']; kgw=[8,30,90,10,30]
+header(kg,kgcols,kgw); r=2
+for row in KS['Irish KS3 Grammar'].iter_rows(min_row=2,values_only=True):
+    if row[4] or row[5]:
+        for j,v in enumerate([f"KG{r-1:02d}",row[4],row[5],'Raw',''],1): kg.cell(row=r,column=j,value=v)
+        r+=1
+LASTKG=r-1; KGSPARE=200
+finish(kg,len(kgcols),KGSPARE)
+dv(kg,'D','Status',KGSPARE)
+for row in kg.iter_rows(min_row=2,max_row=KGSPARE,min_col=2,max_col=5):
+    for cl in row: cl.fill=EDIT
+for rr in range(2,LASTKG+1): kg.row_dimensions[rr].height=110
+
 # ---------------- READ ME ----------------
 rm=wb.create_sheet('READ ME',0)
 rm.column_dimensions['A'].width=30; rm.column_dimensions['B'].width=95
@@ -174,6 +239,10 @@ lines=[('Nathán companion: corpus workbook',H1),('',ARIAL),
 ('Grammar','The checklist of structures examined, with examples. Receptive only means the pupil need only recognise it.'),
 ('Rubrics','Exam instruction wording, Irish and English, for the decoder cards.'),
 ('Irish as printed','The original string before any splitting, kept so a bad automatic split can be recovered. Never exported.'),
+('KS3 rank','The word\'s frequency rank in the Key Stage 3 Irish appendix, where the headword matches. Blank means the word is not on the KS3 list, or is written differently there.'),
+('KS3 vocabulary','The Key Stage 3 appendix list as issued for consultation, in its frequency order: about 800 headwords with part of speech, gender and frequency rank. The primary spine for Years 8 to 10.'),
+('KS3 phonics','The sound-symbol correspondences from the same appendix, each with a source word and cluster words.'),
+('KS3 grammar','The Irish grammar features from the appendix. Only the two Irish columns were taken; the draft sheet\'s first four columns carry Spanish content by mistake and were left out.'),
 ('',ARIAL),('Example of an added row (Vocabulary)',BOLD),
 ('','ID V2248 | Irish: scáthán | Gender: m | Number: sg | Type: noun | English: mirror | Context: 2 Local, National, International and Global | Topic: My local environment | Sub-topic: In my house | Status: Added | Origin: Added'),
 ('',ARIAL),('Counts',BOLD)]
@@ -186,8 +255,8 @@ for a,b in lines:
 counts=[('Vocabulary rows',f"=COUNTA(Vocabulary!A2:A{SPARE})"),('  Raw',f'=COUNTIF(Vocabulary!N2:N{SPARE},"Raw")'),('  Checked',f'=COUNTIF(Vocabulary!N2:N{SPARE},"Checked")'),('  Edited',f'=COUNTIF(Vocabulary!N2:N{SPARE},"Edited")'),('  Added',f'=COUNTIF(Vocabulary!N2:N{SPARE},"Added")'),('  Remove',f'=COUNTIF(Vocabulary!N2:N{SPARE},"Remove")'),
 ('  Verbs',f'=COUNTIF(Vocabulary!E2:E{SPARE},"verb")'),('  Nouns marked masculine',f'=COUNTIF(Vocabulary!C2:C{SPARE},"m")'),('  Nouns marked feminine',f'=COUNTIF(Vocabulary!C2:C{SPARE},"f")'),('  English missing',f'=COUNTIFS(Vocabulary!A2:A{SPARE},"<>",Vocabulary!I2:I{SPARE},"")'),
 ('Speaking questions',f"=COUNTA('Speaking questions'!A2:A{QSPARE})"),('  with a Foundation model answer',f"=COUNTIFS('Speaking questions'!A2:A{QSPARE},\"<>\",'Speaking questions'!G2:G{QSPARE},\"<>\")"),
-('Grammar points',f"=COUNTA(Grammar!A2:A{GSPARE})"),('Rubrics',f"=COUNTA(Rubrics!A2:A{RSPARE})")]
+('Grammar points',f"=COUNTA(Grammar!A2:A{GSPARE})"),('Rubrics',f"=COUNTA(Rubrics!A2:A{RSPARE})"),('KS3 headwords',f"=COUNTA('KS3 vocabulary'!A2:A{KSPARE})"),('  GCSE words with a KS3 rank',f"=COUNT(Vocabulary!S2:S{SPARE})"),('KS3 sound-symbol correspondences',f"=COUNTIF('KS3 phonics'!K2:K{PSPARE},\"Raw\")"),('KS3 grammar terms',f"=COUNTA('KS3 grammar'!A2:A{KGSPARE})")]
 for a,f in counts:
     rm.cell(row=r,column=1,value=a).font=ARIAL; cl=rm.cell(row=r,column=2,value=f); cl.font=ARIAL; cl.alignment=Alignment(horizontal='left'); r+=1
-rm.cell(row=r+1,column=1,value='Source: the specification appendices supplied as a PDF (71 pages), extracted automatically on 26 September 2026. Source page numbers refer to that PDF.').font=Font(name='Arial',size=9,italic=True)
+rm.cell(row=r+1,column=1,value='Sources: the specification appendices supplied as a PDF (71 pages; Source page numbers refer to it), and the Key Stage 3 Irish appendix spreadsheet issued for consultation. Both extracted automatically on 26 September 2026.').font=Font(name='Arial',size=9,italic=True)
 wb.save(sys.argv[2]); print('saved',LASTV,LASTQ,LASTG,LASTR)
