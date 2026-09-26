@@ -172,3 +172,7 @@ Dáithí uploaded a 186-page scan of the school grammar workbook Gramadach Gan D
 ## 14. Whole-school rulings, 26 September 2026
 
 On CONCEPT.md second version: the default calendar of pages per year is **accepted** as the starting point. The department **cannot reliably** hold one real conversation per class each half term with partner-ticked cards, so the cover's date for Years 8 to 10 cannot be a staged conversation. That point goes back to the panel; the rest of the brief stands.
+
+## 15. Synthetic and analytic verb forms, 26 September 2026
+
+Ruling: the app carries both an fhoirm tháite and an fhoirm scartha, with a setting to choose which is shown, because teachers use either or both. The pen accepts either form whatever the setting. The past tense first person plural is never the -amar or -eamar form: always chuir muid, d'ól muid. The exact scope of the toggle by tense and person is being settled with Dáithí; the grammar exemplars will carry both variants once it is.
