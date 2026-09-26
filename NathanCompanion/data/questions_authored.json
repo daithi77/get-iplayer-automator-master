@@ -1,0 +1,4618 @@
+{
+ "questions": [
+  {
+   "id": "Q001",
+   "ga": "Cad é an t-ainm atá ort?",
+   "variants": [],
+   "en": "What is your name?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q009",
+   "opener": "Bhuel, is mise",
+   "keyWords": [
+    "cad é",
+    "ainm",
+    "ort"
+   ],
+   "note": "The natural opener is simply \"Is mise\"; \"Bhuel\" is added only to reach three words. Drop it if you prefer the bare form."
+  },
+  {
+   "id": "Q002",
+   "ga": "Cá bhfuil tú i do chónaí?",
+   "variants": [],
+   "en": "Where do you live?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q003",
+   "opener": "Tá mé i mo chónaí i",
+   "keyWords": [
+    "cá",
+    "cónaí"
+   ],
+   "note": "The opener ends in \"i\". If the pupil's place begins with a vowel it must become \"in\" (in Iúr Cinn Trá), and a consonant takes eclipsis (i mBéal Feirste). The app may need to handle this when it fills in the place."
+  },
+  {
+   "id": "Q003",
+   "ga": "Cá mhéad duine atá sa teaghlach?",
+   "variants": [],
+   "en": "How many people are in your family at home?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q004",
+   "opener": "Sa teaghlach s'againne, tá",
+   "keyWords": [
+    "cá mhéad",
+    "duine",
+    "teaghlach"
+   ],
+   "note": "Pupil continues with a personal numeral: beirt, triúr, ceathrar, cúigear, seisear (sa teaghlach s'againne, tá cúigear againn). Check that \"s'againne\" is the form you want pupils to use."
+  },
+  {
+   "id": "Q004",
+   "ga": "Cá mhéad deartháir atá agat?",
+   "variants": [],
+   "en": "How many brothers do you have?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q005",
+   "opener": "Bhuel, tá",
+   "keyWords": [
+    "cá mhéad",
+    "deartháir",
+    "agat"
+   ],
+   "note": "Pupil continues: deartháir amháin agam, beirt deartháireacha agam, triúr deartháireacha agam. A pupil with none needs \"Níl deartháir ar bith agam\", which the opener does not cover."
+  },
+  {
+   "id": "Q005",
+   "ga": "Cá mhéad deirfiúr atá agat?",
+   "variants": [],
+   "en": "How many sisters do you have?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q012",
+   "opener": "Bhuel, tá",
+   "keyWords": [
+    "cá mhéad",
+    "deirfiúr",
+    "agat"
+   ],
+   "note": "Pupil continues: deirfiúr amháin agam, beirt deirfiúracha agam. A pupil with none needs \"Níl deirfiúr ar bith agam\", which the opener does not cover."
+  },
+  {
+   "id": "Q006",
+   "ga": "Cá bhfuil tú ar scoil?",
+   "variants": [],
+   "en": "Where do you go to school? Which school are you at?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q007",
+   "opener": "Tá mé ar scoil i",
+   "keyWords": [
+    "cá",
+    "scoil"
+   ],
+   "note": "Confirm the Irish form of the school's name that pupils should use after \"i\" (for example i Scoil Ard Naomh Pól). If it begins with a vowel the opener needs \"in\"."
+  },
+  {
+   "id": "Q007",
+   "ga": "Cad é an rang ina bhfuil tú?",
+   "variants": [],
+   "en": "What class or year are you in?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tá mé i",
+   "keyWords": [
+    "cad é",
+    "rang",
+    "ina bhfuil"
+   ],
+   "note": "Pupil continues with Rang a Deich or mBliain a Deich (eclipsis after i). Decide whether pupils should answer with Rang or Bliain."
+  },
+  {
+   "id": "Q008",
+   "ga": "Déan cur síos ort féin.",
+   "variants": [],
+   "en": "Describe yourself: what you look like and what kind of person you are.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bhuel, tá mé",
+   "keyWords": [
+    "déan",
+    "cur síos",
+    "ort féin"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q009",
+   "ga": "Cad é an aois thú?",
+   "variants": [],
+   "en": "What age are you?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q010",
+   "opener": "Tá mé",
+   "keyWords": [
+    "cad é",
+    "aois",
+    "thú"
+   ],
+   "note": "Opener is two words because the number comes next (Tá mé cúig bliana déag d'aois). Padding it would sound forced."
+  },
+  {
+   "id": "Q010",
+   "ga": "Cad é dáta do lá breithe?",
+   "variants": [],
+   "en": "When is your birthday? Give the date.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tá mo lá breithe ar an",
+   "keyWords": [
+    "dáta",
+    "lá breithe"
+   ],
+   "note": "Pupil continues with an ordinal and the month (chéad lá de mhí Eanáir, dara lá déag de mhí an Mhárta). Check the Ulster lenition after \"ar an\" (ar an chéad lá) is what you teach."
+  },
+  {
+   "id": "Q011",
+   "ga": "Cé hé an duine is sine/is óige sa teaghlach?",
+   "variants": [
+    "Cé hé an duine is sine sa teaghlach?",
+    "Cé hé an duine is óige sa teaghlach?"
+   ],
+   "en": "Who is the oldest, or the youngest, person in your family?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q013",
+   "opener": "Sa teaghlach s'againne,",
+   "keyWords": [
+    "cé hé",
+    "is sine",
+    "is óige",
+    "teaghlach"
+   ],
+   "note": "The opener is gender neutral so the pupil can continue \"is é mo dhaidí an duine is sine\" or \"is í mo dheirfiúr an duine is óige\". The question keeps \"Cé hé\" whatever the answer."
+  },
+  {
+   "id": "Q012",
+   "ga": "Cá mhéad atá níos sine/óige ná tú?",
+   "variants": [
+    "Cá mhéad atá níos sine ná tú?",
+    "Cá mhéad atá níos óige ná tú?"
+   ],
+   "en": "How many of your brothers and sisters are older, or younger, than you?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q011",
+   "opener": "Bhuel, tá",
+   "keyWords": [
+    "cá mhéad",
+    "níos sine",
+    "níos óige",
+    "ná"
+   ],
+   "note": "Read here as \"how many are older than you\", following on from the sibling questions. If you intend \"how much older\" the gloss needs changing. Pupil continues \"beirt acu níos sine ná mé\"; an only child would need a different answer."
+  },
+  {
+   "id": "Q013",
+   "ga": "Déan cur síos ar do dheartháir/dheirfiúr.",
+   "variants": [
+    "Déan cur síos ar do dheartháir.",
+    "Déan cur síos ar do dheirfiúr."
+   ],
+   "en": "Describe your brother, or your sister: what they look like and what they are like.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q014",
+   "opener": "Bhuel, tá mo",
+   "keyWords": [
+    "cur síos",
+    "deartháir",
+    "deirfiúr"
+   ],
+   "note": "Opener works for either variant (tá mo dheartháir ard, tá mo dheirfiúr cairdiúil)."
+  },
+  {
+   "id": "Q014",
+   "ga": "Cad é a dhéanann do dheartháir/dheirfiúr?",
+   "variants": [
+    "Cad é a dhéanann do dheartháir?",
+    "Cad é a dhéanann do dheirfiúr?"
+   ],
+   "en": "What does your brother, or your sister, do? Are they at school, at university or working?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q015",
+   "opener": "Tá mo",
+   "keyWords": [
+    "cad é",
+    "déan",
+    "deartháir",
+    "deirfiúr"
+   ],
+   "note": "Opener is two words so it fits both variants (Tá mo dheartháir ag obair i siopa, Tá mo dheirfiúr ar an ollscoil). A pupil answering with a copula (Is múinteoir í) cannot use it."
+  },
+  {
+   "id": "Q015",
+   "ga": "Cad é mar a réitíonn tú le do chlann?",
+   "variants": [],
+   "en": "How do you get on with your family?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar an iomlán, réitím",
+   "keyWords": [
+    "cad é mar",
+    "réitigh le",
+    "clann"
+   ],
+   "note": "\"Clann\" strictly means one's children rather than the household; confirm you are happy with it here rather than \"teaghlach\" or \"muintir\"."
+  },
+  {
+   "id": "Q016",
+   "ga": "Inis dom fút féin.",
+   "variants": [],
+   "en": "Tell me about yourself: your name, age, where you live, your family and what you like.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bhuel, is mise",
+   "keyWords": [
+    "inis",
+    "dom",
+    "fút féin"
+   ],
+   "note": "Covers the same ground as Q008; treat them as alternatives rather than a pair."
+  },
+  {
+   "id": "Q017",
+   "ga": "Déan cur síos ar do chara is fearr.",
+   "variants": [],
+   "en": "Describe your best friend.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q020",
+   "opener": "Tá cara maith agam darb ainm",
+   "keyWords": [
+    "cur síos",
+    "cara",
+    "is fearr"
+   ],
+   "note": "Opener chosen to be gender neutral; the pupil follows with the name and then \"Tá sé\" or \"Tá sí\". Check you are happy with \"darb ainm\" in an Ulster answer."
+  },
+  {
+   "id": "Q018",
+   "ga": "Déan cur síos ar an phopcheoltóir is fearr.",
+   "variants": [],
+   "en": "Describe your favourite pop singer or musician.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An popcheoltóir is fearr liom ná",
+   "keyWords": [
+    "cur síos",
+    "popcheoltóir",
+    "is fearr"
+   ],
+   "note": "As written the question says \"the best pop musician\" rather than \"the one you like best\"; the gloss and opener assume \"is fearr leat\" was intended. The opener uses the spoken \"X is fearr liom ná Y\" pattern without a copula; change it if you want \"Is é/í ... an popcheoltóir is fearr liom\"."
+  },
+  {
+   "id": "Q019",
+   "ga": "Déan cur síos ar dhuine a bhfuil meas agat air/uirthi.",
+   "variants": [
+    "Déan cur síos ar dhuine a bhfuil meas agat air.",
+    "Déan cur síos ar dhuine a bhfuil meas agat uirthi."
+   ],
+   "en": "Describe someone you respect or look up to.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá meas mór agam ar",
+   "keyWords": [
+    "cur síos",
+    "duine",
+    "meas",
+    "air",
+    "uirthi"
+   ],
+   "note": "A name following the opener takes lenition after \"ar\" (Tá meas mór agam ar Sheán); \"mo mháthair\" and similar are unaffected."
+  },
+  {
+   "id": "Q020",
+   "ga": "Cad é a dhéanann tú féin agus do chairde le chéile?",
+   "variants": [],
+   "en": "What do you and your friends do together?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q021",
+   "opener": "Nuair a bhíonn muid le chéile,",
+   "keyWords": [
+    "cad é",
+    "déan",
+    "cairde",
+    "le chéile"
+   ],
+   "note": "Opener uses the Ulster \"bíonn muid\" rather than \"bímid\"; pupil continues with any present habitual verb (téann muid go dtí an phictiúrlann)."
+  },
+  {
+   "id": "Q021",
+   "ga": "Cad chuige a bhfuil sé tábhachtach cara maith a bheith agat?",
+   "variants": [],
+   "en": "Why is it important to have a good friend?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá sé tábhachtach mar",
+   "keyWords": [
+    "cad chuige",
+    "tábhachtach",
+    "cara",
+    "a bheith agat"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q022",
+   "ga": "An bhfuil ríomhaire agat?",
+   "variants": [],
+   "en": "Do you have a computer? A simple yes or no, then say what kind it is or where it is at home.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q023",
+   "opener": "Tá, tá ríomhaire agam agus",
+   "keyWords": [
+    "ríomhaire",
+    "agat"
+   ],
+   "note": "The opener assumes a yes. A pupil with no computer answers \"Níl\" and could add \"ach tá guthán cliste agam\"."
+  },
+  {
+   "id": "Q023",
+   "ga": "An imríonn tú cluichí ar do ríomhaire?",
+   "variants": [],
+   "en": "Do you play games on your computer? Yes or no, then how often or with whom.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q024",
+   "opener": "Imrím, imrím cluichí",
+   "keyWords": [
+    "imir",
+    "cluichí",
+    "ríomhaire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q024",
+   "ga": "Cad iad na cluichí a imríonn tú ar do ríomhaire?",
+   "variants": [],
+   "en": "Which games do you play on your computer? Name one or two and say why you like them.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Imrím cluichí cosúil le",
+   "keyWords": [
+    "cluichí",
+    "imir",
+    "ríomhaire"
+   ],
+   "note": "Game titles stay in English; the pupil should not try to translate them."
+  },
+  {
+   "id": "Q025",
+   "ga": "An íoslódálann tú ceol ar do ríomhaire?",
+   "variants": [],
+   "en": "Do you download music on your computer? Yes or no, then what kind of music or where you get it.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Íoslódálaim ceol ó",
+   "keyWords": [
+    "íoslódáil",
+    "ceol",
+    "ríomhaire"
+   ],
+   "note": "Most pupils stream rather than download; they may prefer to answer \"Ní íoslódálaim, éistim le ceol ar Spotify\". Check the principal is happy with \"íoslódálaim\" as the present form."
+  },
+  {
+   "id": "Q026",
+   "ga": "An ndéanann tú comhrá le do chairde ar líne?",
+   "variants": [],
+   "en": "Do you chat with your friends online? Yes or no, then which app you use and when.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q027",
+   "opener": "Déanaim, déanaim comhrá le",
+   "keyWords": [
+    "déan comhrá",
+    "cairde",
+    "ar líne"
+   ],
+   "note": "Near duplicate of Q028; an examiner would ask one or the other, not both."
+  },
+  {
+   "id": "Q027",
+   "ga": "An dtéann tú ar shuíomhanna meáin shóisialta?",
+   "variants": [],
+   "en": "Do you go on social media sites? Yes or no, then which ones and how often.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q030",
+   "opener": "Téim, téim ar",
+   "keyWords": [
+    "téigh ar",
+    "suíomhanna",
+    "meáin shóisialta"
+   ],
+   "note": "Check the phrase \"suíomhanna meáin shóisialta\"; the principal may prefer \"suíomhanna na meán sóisialta\" or simply \"na meáin shóisialta\"."
+  },
+  {
+   "id": "Q028",
+   "ga": "An labhraíonn tú le do chairde ar líne?",
+   "variants": [],
+   "en": "Do you talk to your friends online? Yes or no, then how, for example by video call or messages.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q029",
+   "opener": "Labhraím, labhraím le mo chairde ar",
+   "keyWords": [
+    "labhair",
+    "cairde",
+    "ar líne"
+   ],
+   "note": "Near duplicate of Q026."
+  },
+  {
+   "id": "Q029",
+   "ga": "Cén cineál rudaí a dhéanann tú ar líne?",
+   "variants": [],
+   "en": "What kind of things do you do online? Give two or three activities, for example watching videos, messaging or shopping.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Nuair a bhím ar líne,",
+   "keyWords": [
+    "cineál",
+    "rudaí",
+    "déan",
+    "ar líne"
+   ],
+   "note": "\"Cén\" rather than the Ulster \"Cad é an\" used in Q034; the principal may want them consistent."
+  },
+  {
+   "id": "Q030",
+   "ga": "An bhfuil na meáin shóisialta tábhachtach i do shaol?",
+   "variants": [],
+   "en": "Are social media important in your life? Give your view and a reason for it.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q031",
+   "opener": "Tá, tá siad iontach tábhachtach mar",
+   "keyWords": [
+    "meáin shóisialta",
+    "tábhachtach",
+    "saol"
+   ],
+   "note": "The opener assumes a yes. A pupil who disagrees can say \"Níl, níl siad rótábhachtach mar\"."
+  },
+  {
+   "id": "Q031",
+   "ga": "Cad iad na buntáistí/míbhuntáistí a bhaineann leis na meáin shóisialta?",
+   "variants": [
+    "Cad iad na buntáistí a bhaineann leis na meáin shóisialta?",
+    "Cad iad na míbhuntáistí a bhaineann leis na meáin shóisialta?"
+   ],
+   "en": "What are the advantages, or the disadvantages, of social media? Give two points and explain each briefly.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q033",
+   "opener": "Ar an chéad dul síos,",
+   "keyWords": [
+    "buntáistí",
+    "míbhuntáistí",
+    "bain le",
+    "meáin shóisialta"
+   ],
+   "note": "The opener is neutral so it fits both variants. If the app shows one opener per variant, \"Is é an buntáiste is mó ná\" and \"Is é an míbhuntáiste is mó ná\" would be more natural."
+  },
+  {
+   "id": "Q032",
+   "ga": "An bhfuil go leor oideachais sna scoileanna faoi na meáin shóisialta?",
+   "variants": [],
+   "en": "Is there enough education in schools about social media? Say what you think and give an example from your own school.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I mo bharúil féin,",
+   "keyWords": [
+    "go leor",
+    "oideachas",
+    "scoileanna",
+    "meáin shóisialta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q033",
+   "ga": "An mbraitheann an t-aos óg barraíocht ar na meáin shóisialta?",
+   "variants": [],
+   "en": "Do young people depend too much on social media? Give your opinion with a reason or an example.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Braitheann, braitheann siad barraíocht orthu mar",
+   "keyWords": [
+    "braith ar",
+    "aos óg",
+    "barraíocht",
+    "meáin shóisialta"
+   ],
+   "note": "The opener assumes a yes. \"Barraíocht\" is the Ulster form, as intended."
+  },
+  {
+   "id": "Q034",
+   "ga": "Cad é an cineál teicneolaíochta a úsáideann tú?",
+   "variants": [],
+   "en": "What kind of technology do you use? List the devices you use, for example a phone, a laptop or a games console.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q035",
+   "opener": "Úsáidim cuid mhór teicneolaíochta, mar shampla",
+   "keyWords": [
+    "cineál",
+    "teicneolaíocht",
+    "úsáid"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q035",
+   "ga": "An bhfuil fón cliste/táibléad agat?",
+   "variants": [
+    "An bhfuil fón cliste agat?",
+    "An bhfuil táibléad agat?"
+   ],
+   "en": "Do you have a smartphone, or a tablet? Yes or no, then what kind and what you mainly use it for.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q036",
+   "opener": "Tá, tá fón cliste agam agus",
+   "keyWords": [
+    "fón cliste",
+    "táibléad",
+    "agat"
+   ],
+   "note": "The opener fits the smartphone variant; for the tablet variant \"Tá, tá táibléad agam agus\" would be needed. This question says \"fón cliste\" while Q036 says \"guthán cliste\"; the principal may want one form throughout."
+  },
+  {
+   "id": "Q036",
+   "ga": "Cad iad an cineál rudaí a thig leat a dhéanamh ar do ghuthán cliste?",
+   "variants": [],
+   "en": "What kind of things can you do on your smartphone? Give three or four uses, for example taking photos, messaging or listening to music.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q037",
+   "opener": "Ar mo ghuthán, thig liom",
+   "keyWords": [
+    "cineál",
+    "rudaí",
+    "thig le",
+    "guthán cliste"
+   ],
+   "note": "Check the grammar of \"Cad iad an cineál rudaí\": plural \"iad\" with singular \"cineál\". The principal may prefer \"Cad é an cineál rudaí\" or \"Cad iad na rudaí\". \"Thig leat\" is the Ulster form, as intended."
+  },
+  {
+   "id": "Q037",
+   "ga": "Cad iad na buntáistí/míbhuntáistí a bhaineann leis an teicneolaíocht chliste?",
+   "variants": [
+    "Cad iad na buntáistí a bhaineann leis an teicneolaíocht chliste?",
+    "Cad iad na míbhuntáistí a bhaineann leis an teicneolaíocht chliste?"
+   ],
+   "en": "What are the advantages, or the disadvantages, of smart technology? Give two points and explain each briefly.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q038",
+   "opener": "Sílim go bhfuil cuid mhór",
+   "keyWords": [
+    "buntáistí",
+    "míbhuntáistí",
+    "teicneolaíocht chliste"
+   ],
+   "note": "The opener is neutral so it fits both variants: the pupil continues \"buntáistí ann\" or \"míbhuntáistí ann\"."
+  },
+  {
+   "id": "Q038",
+   "ga": "An mbraitheann an t-aos óg barraíocht ar theicneolaíocht chliste?",
+   "variants": [],
+   "en": "Do young people depend too much on smart technology? Give your opinion with a reason or an example.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Braitheann, gan dabht ar bith, mar",
+   "keyWords": [
+    "braith ar",
+    "aos óg",
+    "barraíocht",
+    "teicneolaíocht chliste"
+   ],
+   "note": "The opener assumes a yes."
+  },
+  {
+   "id": "Q039",
+   "ga": "Cad é an caitheamh aimsire is fearr leat?",
+   "variants": [],
+   "en": "What is your favourite hobby?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q060",
+   "opener": "Is é an caitheamh aimsire is fearr liom ná",
+   "keyWords": [
+    "caitheamh aimsire",
+    "is fearr leat"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q040",
+   "ga": "An maith leat an teilifís/spórt?",
+   "variants": [
+    "An maith leat an teilifís?",
+    "An maith leat an spórt?"
+   ],
+   "en": "Do you like television? Or, do you like sport?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q042",
+   "opener": "Is maith liom",
+   "keyWords": [
+    "is maith leat",
+    "teilifís",
+    "spórt"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q041",
+   "ga": "Cad é an clár teilifíse is fearr leat?",
+   "variants": [],
+   "en": "What is your favourite television programme?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "An clár is fearr liom ná",
+   "keyWords": [
+    "clár",
+    "teilifís",
+    "is fearr leat"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q042",
+   "ga": "An imríonn tú spórt ar bith?",
+   "variants": [],
+   "en": "Do you play any sport?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q044",
+   "opener": "Imrím cúpla spórt, mar shampla",
+   "keyWords": [
+    "imir",
+    "spórt",
+    "ar bith"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q043",
+   "ga": "An amharcann tú ar an teilifís?",
+   "variants": [],
+   "en": "Do you watch television?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q041",
+   "opener": "Amharcaim ar an teilifís",
+   "keyWords": [
+    "amharc ar",
+    "teilifís"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q044",
+   "ga": "Cé hé/hí an popcheoltóir/an t-imreoir is fearr leat?",
+   "variants": [
+    "Cé hé an popcheoltóir is fearr leat?",
+    "Cé hí an popcheoltóir is fearr leat?",
+    "Cé hé an t-imreoir is fearr leat?",
+    "Cé hí an t-imreoir is fearr leat?"
+   ],
+   "en": "Who is your favourite pop singer? Or, who is your favourite sports player? The examiner says hé for a man and hí for a woman.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "An duine is fearr liom ná",
+   "keyWords": [
+    "popcheoltóir",
+    "imreoir",
+    "is fearr leat"
+   ],
+   "note": "The opener uses 'duine' so that it covers singer or player, man or woman; check the principal is content with that rather than a separate opener per variant."
+  },
+  {
+   "id": "Q045",
+   "ga": "Inis dom trí rud a dhéanann tú ag deireadh na seachtaine.",
+   "variants": [],
+   "en": "Tell me three things you do at the weekend.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ag deireadh na seachtaine,",
+   "keyWords": [
+    "inis",
+    "trí rud",
+    "deireadh na seachtaine"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q046",
+   "ga": "An imríonn tú cluichí ar an ríomhaire/ar líne?",
+   "variants": [
+    "An imríonn tú cluichí ar an ríomhaire?",
+    "An imríonn tú cluichí ar líne?"
+   ],
+   "en": "Do you play games on the computer? Or, do you play games online?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q047",
+   "opener": "Imrím cluichí ar líne",
+   "keyWords": [
+    "imir",
+    "cluichí",
+    "ríomhaire",
+    "ar líne"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q047",
+   "ga": "An bhfuil consól cluichí agat?",
+   "variants": [],
+   "en": "Do you have a games console?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tá consól cluichí agam",
+   "keyWords": [
+    "consól",
+    "cluichí",
+    "agat"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q048",
+   "ga": "An dtéann tú chuig an phictiúrlann?",
+   "variants": [],
+   "en": "Do you go to the cinema?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q054",
+   "opener": "Téim chuig an phictiúrlann",
+   "keyWords": [
+    "téigh",
+    "pictiúrlann"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q049",
+   "ga": "Cad é a dhéanann tú le do chairde?",
+   "variants": [],
+   "en": "What do you do with your friends?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Bím féin agus mo chairde ag",
+   "keyWords": [
+    "déan",
+    "cairde"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q050",
+   "ga": "Cad é mar a chaitheann tú d’am saor?",
+   "variants": [],
+   "en": "How do you spend your free time?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Nuair a bhíonn am saor agam,",
+   "keyWords": [
+    "cad é mar",
+    "caith",
+    "am saor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q051",
+   "ga": "Cad é a rinne/dhéanann/dhéanfaidh tú ag deireadh na seachtaine?",
+   "variants": [
+    "Cad é a rinne tú ag deireadh na seachtaine?",
+    "Cad é a dhéanann tú ag deireadh na seachtaine?",
+    "Cad é a dhéanfaidh tú ag deireadh na seachtaine?"
+   ],
+   "en": "What did you do at the weekend? Or, what do you do at the weekend? Or, what will you do at the weekend? The examiner picks one tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q052",
+   "opener": "Ag deireadh na seachtaine,",
+   "keyWords": [
+    "rinne",
+    "déan",
+    "deireadh na seachtaine"
+   ],
+   "note": "Three tenses; the opener is a time phrase so it fits all three."
+  },
+  {
+   "id": "Q052",
+   "ga": "Déan cur síos ar dheireadh na seachtaine dom.",
+   "variants": [],
+   "en": "Describe your weekend to me.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ag an deireadh seachtaine, de ghnáth",
+   "keyWords": [
+    "cur síos",
+    "deireadh na seachtaine"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q053",
+   "ga": "Cad é a dhéanann tú faoi choinne saol sóisialta?",
+   "variants": [],
+   "en": "What do you do for a social life? In other words, what do you do to get out and meet people?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q057",
+   "opener": "Téim amach le mo chairde",
+   "keyWords": [
+    "faoi choinne",
+    "saol sóisialta",
+    "déan"
+   ],
+   "note": "Strict grammar would give the genitive 'faoi choinne saoil shóisialta'; the question is left exactly as given for the principal to decide."
+  },
+  {
+   "id": "Q054",
+   "ga": "Inis dom faoin scannán is fearr dá bhfaca tú riamh.",
+   "variants": [],
+   "en": "Tell me about the best film you have ever seen.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An scannán is fearr liom ná",
+   "keyWords": [
+    "scannán",
+    "is fearr",
+    "dá bhfaca",
+    "riamh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q055",
+   "ga": "An fearr dul chuig an phictiúrlann nó scannán a íoslódáil ar do ríomhaire?",
+   "variants": [],
+   "en": "Is it better to go to the cinema or to download a film on your computer? The pupil should compare the two and give reasons.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim gur fearr",
+   "keyWords": [
+    "is fearr",
+    "pictiúrlann",
+    "íoslódáil",
+    "ríomhaire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q056",
+   "ga": "Cad é a rinne/dhéanann/dhéanfaidh tú i ndiaidh na scoile/ag an deireadh seachtaine?",
+   "variants": [
+    "Cad é a rinne tú i ndiaidh na scoile?",
+    "Cad é a dhéanann tú i ndiaidh na scoile?",
+    "Cad é a dhéanfaidh tú i ndiaidh na scoile?",
+    "Cad é a rinne tú ag an deireadh seachtaine?",
+    "Cad é a dhéanann tú ag an deireadh seachtaine?",
+    "Cad é a dhéanfaidh tú ag an deireadh seachtaine?"
+   ],
+   "en": "What did you do, what do you do, or what will you do after school? Or the same question about the weekend. The examiner picks one tense and one time.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An chéad rud,",
+   "keyWords": [
+    "rinne",
+    "déan",
+    "i ndiaidh na scoile",
+    "deireadh seachtaine"
+   ],
+   "note": "Six variants (three tenses by two times). The opener 'An chéad rud,' is tense-neutral and time-neutral; the principal may prefer a time phrase per variant."
+  },
+  {
+   "id": "Q057",
+   "ga": "Cad iad na háiseanna sóisialta atá anseo?",
+   "variants": [],
+   "en": "What social facilities are there here, in your area? Places for young people to go and things for them to do.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sa cheantar seo, tá",
+   "keyWords": [
+    "áiseanna",
+    "sóisialta",
+    "anseo"
+   ],
+   "note": "'Anseo' is taken to mean the pupil's own area; the question has no blank, so no {áit} placeholder is used."
+  },
+  {
+   "id": "Q058",
+   "ga": "An bhfuil dúil agat sa spórt?",
+   "variants": [],
+   "en": "Are you keen on sport? Do you like sport?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q059",
+   "opener": "Tá dúil mhór agam sa spórt",
+   "keyWords": [
+    "dúil",
+    "spórt"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q059",
+   "ga": "Cad chuige a bhfuil rudaí cosúil le spórt tábhachtach?",
+   "variants": [],
+   "en": "Why are things like sport important?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá spórt tábhachtach mar",
+   "keyWords": [
+    "cad chuige",
+    "cosúil le",
+    "tábhachtach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q060",
+   "ga": "Cad chuige a bhfuil sé tábhachtach caitheamh aimsire a bheith agat?",
+   "variants": [],
+   "en": "Why is it important to have a hobby?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá sé tábhachtach mar",
+   "keyWords": [
+    "cad chuige",
+    "tábhachtach",
+    "caitheamh aimsire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q061",
+   "ga": "An mbaineann tú úsáid as an teicneolaíocht mar chaitheamh aimsire?",
+   "variants": [],
+   "en": "Do you use technology as a hobby? Phones, games and computers in your free time.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q062",
+   "opener": "Bainim úsáid as an teicneolaíocht",
+   "keyWords": [
+    "bain úsáid as",
+    "teicneolaíocht",
+    "caitheamh aimsire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q062",
+   "ga": "An mbraitheann an t-aos óg barraíocht ar an teicneolaíocht mar chaitheamh aimsire?",
+   "variants": [],
+   "en": "Do young people depend too much on technology for their leisure?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go mbraitheann siad",
+   "keyWords": [
+    "braith ar",
+    "aos óg",
+    "barraíocht",
+    "teicneolaíocht"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q063",
+   "ga": "Cad é an t-am ar éirigh/a n-éiríonn tú/a n-éireoidh tú/gach lá/Dé Sathairn?",
+   "variants": [
+    "Cad é an t-am ar éirigh tú gach lá?",
+    "Cad é an t-am ar éirigh tú Dé Sathairn?",
+    "Cad é an t-am a n-éiríonn tú gach lá?",
+    "Cad é an t-am a n-éiríonn tú Dé Sathairn?",
+    "Cad é an t-am a n-éireoidh tú gach lá?",
+    "Cad é an t-am a n-éireoidh tú Dé Sathairn?"
+   ],
+   "en": "What time did you get up, do you get up, or will you get up? Either every day or on a Saturday. The examiner picks one tense and one time.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q064",
+   "opener": "De ghnáth, éirím ar a",
+   "keyWords": [
+    "am",
+    "éirigh",
+    "gach lá",
+    "Dé Sathairn"
+   ],
+   "note": "The source omits 'tú' after 'ar éirigh'; it is restored in the variants. The past and future with 'gach lá' read oddly, so the principal may wish to drop those two variants. The opener is present tense only; the past would be 'D'éirigh mé ar a' and the future 'Éireoidh mé ar a'. 'Gach lá' is left as given, though the house form is 'achan lá'."
+  },
+  {
+   "id": "Q064",
+   "ga": "Cé a dhéanann an bricfeasta/dinnéar réidh?",
+   "variants": [
+    "Cé a dhéanann an bricfeasta réidh?",
+    "Cé a dhéanann an dinnéar réidh?"
+   ],
+   "en": "Who makes the breakfast? Or, who makes the dinner? Who gets it ready at home.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q065",
+   "opener": "Sa teach s’againne,",
+   "keyWords": [
+    "déan réidh",
+    "bricfeasta",
+    "dinnéar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q065",
+   "ga": "Cad é a itheann tú don bhricfeasta/lón?",
+   "variants": [
+    "Cad é a itheann tú don bhricfeasta?",
+    "Cad é a itheann tú don lón?"
+   ],
+   "en": "What do you eat for breakfast? Or, what do you eat for lunch?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "De ghnáth, ithim",
+   "keyWords": [
+    "ith",
+    "bricfeasta",
+    "lón"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q066",
+   "ga": "Cad é mar a chuaigh tú/théann tú ar scoil?",
+   "variants": [
+    "Cad é mar a chuaigh tú ar scoil?",
+    "Cad é mar a théann tú ar scoil?"
+   ],
+   "en": "How did you get to school? Or, how do you get to school? By bus, by car or on foot.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q067",
+   "opener": "Téim ar scoil",
+   "keyWords": [
+    "cad é mar",
+    "téigh",
+    "ar scoil"
+   ],
+   "note": "The opener is present tense only; the past variant would begin 'Chuaigh mé ar scoil'."
+  },
+  {
+   "id": "Q067",
+   "ga": "Cad é an t-am a dtosaíonn/a gcríochnaíonn an scoil?",
+   "variants": [
+    "Cad é an t-am a dtosaíonn an scoil?",
+    "Cad é an t-am a gcríochnaíonn an scoil?"
+   ],
+   "en": "What time does school start? Or, what time does school finish?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q068",
+   "opener": "Tosaíonn an scoil ar a",
+   "keyWords": [
+    "am",
+    "tosaigh",
+    "críochnaigh",
+    "scoil"
+   ],
+   "note": "The opener fits the 'start' variant; the 'finish' variant would begin 'Críochnaíonn an scoil ar a'."
+  },
+  {
+   "id": "Q068",
+   "ga": "Cad é a dhéanann tú i ndiaidh na scoile?",
+   "variants": [],
+   "en": "What do you do after school?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "I ndiaidh na scoile,",
+   "keyWords": [
+    "déan",
+    "i ndiaidh na scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q069",
+   "ga": "Cad é an t-am a n-éiríonn tú ag an deireadh seachtaine?",
+   "variants": [],
+   "en": "What time do you get up at the weekend?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Éirím ar a",
+   "keyWords": [
+    "am",
+    "éirigh",
+    "deireadh seachtaine"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q070",
+   "ga": "Déan cur síos ar ghnáthlá scoile dom.",
+   "variants": [],
+   "en": "Describe an ordinary school day to me.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar ghnáthlá scoile, éirím ar a",
+   "keyWords": [
+    "cur síos",
+    "gnáthlá",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q071",
+   "ga": "Inis dom cad é a rinne/a dhéanann/a dhéanfaidh tú Dé Sathairn.",
+   "variants": [
+    "Inis dom cad é a rinne tú Dé Sathairn.",
+    "Inis dom cad é a dhéanann tú Dé Sathairn.",
+    "Inis dom cad é a dhéanfaidh tú Dé Sathairn."
+   ],
+   "en": "Tell me what you did on Saturday, what you do on Saturdays, or what you will do on Saturday. The examiner picks one tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Maidin Dé Sathairn,",
+   "keyWords": [
+    "inis",
+    "rinne",
+    "déan",
+    "Dé Sathairn"
+   ],
+   "note": "Three tenses; the opener is a time phrase so it fits all three."
+  },
+  {
+   "id": "Q072",
+   "ga": "Cad é mar a chuidíonn tú sa teach?",
+   "variants": [],
+   "en": "How do you help in the house? What jobs do you do at home?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sa bhaile, cuidím le",
+   "keyWords": [
+    "cad é mar",
+    "cuidigh le",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q073",
+   "ga": "Inis dom cad é a dhéanfaidh tú inniu nuair a bheidh an scoil thart.",
+   "variants": [],
+   "en": "Tell me what you will do today when school is over.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Inniu, i ndiaidh na scoile,",
+   "keyWords": [
+    "inis",
+    "dhéanfaidh",
+    "inniu",
+    "thart"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q074",
+   "ga": "Inis dom cad é a rinne tú inné.",
+   "variants": [],
+   "en": "Tell me what you did yesterday.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q075",
+   "opener": "Inné, d’éirigh mé ar a",
+   "keyWords": [
+    "inis",
+    "rinne",
+    "inné"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q075",
+   "ga": "Inis dom cad é a dhéanfaidh tú amárach.",
+   "variants": [],
+   "en": "Tell me what you will do tomorrow.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Amárach, éireoidh mé ar a",
+   "keyWords": [
+    "inis",
+    "dhéanfaidh",
+    "amárach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q076",
+   "ga": "Inis dom cad é a dhéanann tú lá ar bith i do laethanta saoire.",
+   "variants": [],
+   "en": "Tell me what you do on an ordinary day during your holidays.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I rith na laethanta saoire,",
+   "keyWords": [
+    "inis",
+    "lá ar bith",
+    "laethanta saoire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q077",
+   "ga": "Cad é mar a chaith/chaitheann/chaithfidh tú d’am ag deireadh na seachtaine?",
+   "variants": [
+    "Cad é mar a chaith tú d’am ag deireadh na seachtaine?",
+    "Cad é mar a chaitheann tú d’am ag deireadh na seachtaine?",
+    "Cad é mar a chaithfidh tú d’am ag deireadh na seachtaine?"
+   ],
+   "en": "How did you spend, how do you spend, or how will you spend your time at the weekend? The examiner picks one tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ag deireadh na seachtaine,",
+   "keyWords": [
+    "cad é mar",
+    "caith",
+    "am",
+    "deireadh na seachtaine"
+   ],
+   "note": "Three tenses; the opener is a time phrase so it fits all three. The curly apostrophe in d’am is kept as in the source."
+  },
+  {
+   "id": "Q078",
+   "ga": "Cad é an mhí ina mbíonn do lá breithe/an Samhain/an Cháisc/an Nollaig?",
+   "variants": [
+    "Cad é an mhí ina mbíonn do lá breithe?",
+    "Cad é an mhí ina mbíonn an Samhain?",
+    "Cad é an mhí ina mbíonn an Cháisc?",
+    "Cad é an mhí ina mbíonn an Nollaig?"
+   ],
+   "en": "Which month is your birthday in? The examiner might ask about Halloween, Easter or Christmas instead of your birthday. Give the month.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q082",
+   "opener": "Bíonn sé i mí",
+   "keyWords": [
+    "mí",
+    "lá breithe",
+    "Samhain",
+    "Cáisc",
+    "Nollaig"
+   ],
+   "note": "The question has 'an Samhain'; the usual form after the article is 'an tSamhain' (feminine). Check whether the file should read 'an tSamhain'. The opener is kept general so it fits all four variants; the pupil must supply the month in the genitive after 'mí' (mí na Samhna, mí na Nollag, mí Aibreáin)."
+  },
+  {
+   "id": "Q079",
+   "ga": "Cad é a dhéanann tú ag an Nollaig?",
+   "variants": [],
+   "en": "What do you do at Christmas? Tell me about how you spend Christmas.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q080",
+   "opener": "Ag an Nollaig, bíonn mé",
+   "keyWords": [
+    "cad é",
+    "déan",
+    "Nollaig"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q080",
+   "ga": "Cé acu is fearr leat – do lá breithe nó an Nollaig?",
+   "variants": [],
+   "en": "Which do you prefer, your birthday or Christmas?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q081",
+   "opener": "Is fearr liom",
+   "keyWords": [
+    "cé acu",
+    "is fearr",
+    "lá breithe",
+    "Nollaig"
+   ],
+   "note": "The question as given contains an en dash before 'do lá breithe'. It has been left exactly as in the file, but the house rule bans dashes, so a comma may be preferred if the file is edited."
+  },
+  {
+   "id": "Q081",
+   "ga": "Cén cineál bronntanais is fearr leat a fháil?",
+   "variants": [],
+   "en": "What kind of present do you like to get best?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q084",
+   "opener": "An bronntanas is fearr liom ná",
+   "keyWords": [
+    "cineál",
+    "bronntanas",
+    "is fearr",
+    "faigh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q082",
+   "ga": "Inis dom cad é a dhéanann tú ar do lá breithe/ag an Samhain/ag an Nollaig.",
+   "variants": [
+    "Inis dom cad é a dhéanann tú ar do lá breithe.",
+    "Inis dom cad é a dhéanann tú ag an Samhain.",
+    "Inis dom cad é a dhéanann tú ag an Nollaig."
+   ],
+   "en": "Tell me what you do on your birthday. The examiner might ask about Halloween or Christmas instead. Describe how you spend the day.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar an lá sin, bíonn mé",
+   "keyWords": [
+    "inis",
+    "déan",
+    "lá breithe",
+    "Samhain",
+    "Nollaig"
+   ],
+   "note": "The question has 'ag an Samhain'; the usual form after the article is 'ag an tSamhain'. Check whether the file should read 'ag an tSamhain'. The opener is kept general so it fits all three variants."
+  },
+  {
+   "id": "Q083",
+   "ga": "Cé acu an t-am den bhliain is fearr leat agus cad chuige?",
+   "variants": [],
+   "en": "Which is your favourite time of the year, and why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An t-am is fearr liom ná",
+   "keyWords": [
+    "cé acu",
+    "am",
+    "bliain",
+    "is fearr",
+    "cad chuige"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q084",
+   "ga": "An síleann tú go bhfuil barraíocht béime ar bhronntanais anois?",
+   "variants": [],
+   "en": "Do you think there is too much emphasis on presents nowadays?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I mo thuairim féin,",
+   "keyWords": [
+    "síl",
+    "barraíocht",
+    "béim",
+    "bronntanas"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q085",
+   "ga": "An bhfuil suim agat i gcultúir eile?",
+   "variants": [],
+   "en": "Are you interested in other cultures?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q086",
+   "opener": "Tá, tá suim agam i gcultúir eile, go háirithe",
+   "keyWords": [
+    "suim",
+    "cultúr",
+    "eile"
+   ],
+   "note": "Opener revised on the checker's advice: ending on 'go háirithe' lets the pupil add a place or culture in the nominative (go háirithe cultúr na Spáinne, go háirithe an Fhrainc) with no mutation trap, and the leading 'Tá' answers the 'An bhfuil' question naturally. The opener assumes a yes answer; a pupil answering no would start 'Níl' instead."
+  },
+  {
+   "id": "Q086",
+   "ga": "Cad é mar a fhoghlaimíonn tú faoi chultúir eile?",
+   "variants": [],
+   "en": "How do you learn about other cultures?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Foghlaimím faoi chultúir eile",
+   "keyWords": [
+    "cad é mar",
+    "foghlaim",
+    "cultúr",
+    "eile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q087",
+   "ga": "Cá bhfuil tú i do chónaí?",
+   "variants": [],
+   "en": "Where do you live? Name your town, village or townland.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q088",
+   "opener": "Tá mé i mo chónaí i",
+   "keyWords": [
+    "cá",
+    "cónaí"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q088",
+   "ga": "Cad é an cineál tí atá agat?",
+   "variants": [],
+   "en": "What kind of house do you have? For example detached, semi-detached, terraced, a bungalow or a flat.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q089",
+   "opener": "Tá mé i mo chónaí i dteach",
+   "keyWords": [
+    "cineál",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q089",
+   "ga": "Cá mhéad seomra atá sa teach?",
+   "variants": [],
+   "en": "How many rooms are there in the house altogether?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q090",
+   "opener": "Sa teach s'againne, tá",
+   "keyWords": [
+    "cá mhéad",
+    "seomra",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q090",
+   "ga": "Cá mhéad seomra atá thuas staighre?",
+   "variants": [],
+   "en": "How many rooms are upstairs, and which ones?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q091",
+   "opener": "Thuas staighre, tá",
+   "keyWords": [
+    "cá mhéad",
+    "seomra",
+    "thuas staighre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q091",
+   "ga": "Cá mhéad seomra atá thíos staighre?",
+   "variants": [],
+   "en": "How many rooms are downstairs, and which ones?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q092",
+   "opener": "Thíos staighre, tá",
+   "keyWords": [
+    "cá mhéad",
+    "seomra",
+    "thíos staighre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q092",
+   "ga": "Déan cur síos ar do sheomra leapa.",
+   "variants": [],
+   "en": "Describe your bedroom: its size, colour, what is in it and what you do there.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá mo sheomra leapa",
+   "keyWords": [
+    "cur síos",
+    "seomra leapa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q093",
+   "ga": "Cad é an seomra sa teach ina bhfaigheann tú __________?",
+   "variants": [],
+   "en": "Which room in the house do you get a particular thing in? The teacher names the thing, for example your dinner or your breakfast, and you name the room.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Faighim é sa",
+   "keyWords": [
+    "seomra",
+    "teach",
+    "faigh"
+   ],
+   "note": "The blank here is a thing, not a place, so it has not been turned into the {áit} placeholder. Please confirm what the teacher is meant to put in the blank, for example an dinnéar or an bricfeasta, so the app can offer a fixed version. The opener uses é, which suits a masculine noun such as an dinnéar."
+  },
+  {
+   "id": "Q094",
+   "ga": "An maith leat __________?",
+   "variants": [
+    "An maith leat {áit}?"
+   ],
+   "en": "Do you like a place the teacher names? Say yes or no and give a reason.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q106",
+   "opener": "Is maith liom",
+   "keyWords": [
+    "is maith le"
+   ],
+   "note": "The blank has been treated as the pupil's own place, given the topic. Please confirm."
+  },
+  {
+   "id": "Q095",
+   "ga": "An maith leat do cheantar?",
+   "variants": [],
+   "en": "Do you like your local area? Say yes or no and give a reason.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q096",
+   "opener": "Is maith liom mo cheantar mar",
+   "keyWords": [
+    "is maith le",
+    "ceantar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q096",
+   "ga": "Inis dom rud amháin nach maith leat i do cheantar.",
+   "variants": [],
+   "en": "Tell me one thing you do not like about your local area.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Rud amháin nach maith liom ná",
+   "keyWords": [
+    "inis",
+    "rud",
+    "nach maith le",
+    "ceantar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q097",
+   "ga": "Cá háit go díreach a bhfuil do theach suite?",
+   "variants": [],
+   "en": "Where exactly is your house? For example in the middle of the town, on the edge of the village, on a main road or out in the country near somewhere.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q098",
+   "opener": "Tá mo theach suite",
+   "keyWords": [
+    "cá háit",
+    "go díreach",
+    "suite",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q098",
+   "ga": "Cad iad na háiseanna atá cóngarach don teach?",
+   "variants": [],
+   "en": "What facilities are near your house? For example a shop, a school, a church, a park or a bus stop.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Cóngarach don teach, tá",
+   "keyWords": [
+    "áis",
+    "cóngarach",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q099",
+   "ga": "Déan cur síos iomlán ar an teach.",
+   "variants": [],
+   "en": "Give a full description of your house: the type of house, the rooms upstairs and downstairs, the garden and what it is like outside.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá an teach s'againne",
+   "keyWords": [
+    "cur síos",
+    "iomlán",
+    "teach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q100",
+   "ga": "An maith leat an áit ina bhfuil tú i do chónaí?",
+   "variants": [],
+   "en": "Do you like the place where you live? Say yes or no and give a reason.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q109",
+   "opener": "Is maith liom an áit mar",
+   "keyWords": [
+    "is maith le",
+    "áit",
+    "cónaí"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q101",
+   "ga": "Cad é an sórt áite í __________?",
+   "variants": [
+    "Cad é an sórt áite í {áit}?"
+   ],
+   "en": "What sort of place is your town or village? For example a small quiet village, a busy town, a place in the country.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q102",
+   "opener": "Is áit í atá",
+   "keyWords": [
+    "sórt",
+    "áit"
+   ],
+   "note": "The í agrees with áit, so it works whatever the place name is."
+  },
+  {
+   "id": "Q102",
+   "ga": "Déan cur síos ar __________.",
+   "variants": [
+    "Déan cur síos ar {áit}."
+   ],
+   "en": "Describe your town or village: where it is, how big it is, what is in it and what it is like.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q103",
+   "opener": "Tá an áit suite",
+   "keyWords": [
+    "cur síos"
+   ],
+   "note": "The place name should be lenited after ar, for example ar Bhéal Feirste, and the placeholder cannot do that on its own. Please check how the app inserts the place."
+  },
+  {
+   "id": "Q103",
+   "ga": "Cad iad na buntáistí/míbhuntáistí a bhaineann le __________?",
+   "variants": [
+    "Cad iad na buntáistí a bhaineann le {áit}?",
+    "Cad iad na míbhuntáistí a bhaineann le {áit}?"
+   ],
+   "en": "What are the advantages, or the disadvantages, of living in your town or village?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar an chéad dul síos, tá",
+   "keyWords": [
+    "buntáiste",
+    "míbhuntáiste",
+    "bain le"
+   ],
+   "note": "A place name beginning with a vowel takes h after le, for example le hArd Mhacha, and the placeholder cannot do that on its own."
+  },
+  {
+   "id": "Q104",
+   "ga": "Cad é mar atá an saol sóisialta i(n) __________?",
+   "variants": [
+    "Cad é mar atá an saol sóisialta i {áit}?",
+    "Cad é mar atá an saol sóisialta in {áit}?"
+   ],
+   "en": "What is social life like in your town or village? What is there for people to do in the evenings and at weekends?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q107",
+   "opener": "Tá an saol sóisialta",
+   "keyWords": [
+    "cad é mar",
+    "saol",
+    "sóisialta"
+   ],
+   "note": "The i(n) gives i before a consonant and in before a vowel. After i the place name is eclipsed, for example i mBéal Feirste but in Ard Mhacha. The app needs to choose the right form for the pupil's place."
+  },
+  {
+   "id": "Q105",
+   "ga": "An bhfuil fadhbanna sóisialta ar bith i(n) __________?",
+   "variants": [
+    "An bhfuil fadhbanna sóisialta ar bith i {áit}?",
+    "An bhfuil fadhbanna sóisialta ar bith in {áit}?"
+   ],
+   "en": "Are there any social problems in your town or village? For example drugs, drink, vandalism or nothing for young people to do.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go bhfuil",
+   "keyWords": [
+    "fadhb",
+    "sóisialta",
+    "ar bith"
+   ],
+   "note": "Same i(n) and eclipsis point as Q104."
+  },
+  {
+   "id": "Q106",
+   "ga": "Cad é an rud is mó/is lú a thaitníonn leat faoi __________?",
+   "variants": [
+    "Cad é an rud is mó a thaitníonn leat faoi {áit}?",
+    "Cad é an rud is lú a thaitníonn leat faoi {áit}?"
+   ],
+   "en": "What do you like most, or least, about your town or village?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Thar rud ar bith eile,",
+   "keyWords": [
+    "rud",
+    "is mó",
+    "is lú",
+    "taitin le"
+   ],
+   "note": "The place name is lenited after faoi, for example faoi Bhéal Feirste, and the placeholder cannot do that on its own."
+  },
+  {
+   "id": "Q107",
+   "ga": "An bhfuil mórán ann le déanamh ag an aos óg?",
+   "variants": [],
+   "en": "Is there much for young people to do in your area?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q108",
+   "opener": "Don aos óg, tá",
+   "keyWords": [
+    "mórán",
+    "déan",
+    "aos óg"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q108",
+   "ga": "Cad iad na háiseanna atá ar fáil i do cheantar dúchais?",
+   "variants": [],
+   "en": "What facilities are available in your home area? For example shops, a leisure centre, a GAA club, a park, a library.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I mo cheantar dúchais, tá",
+   "keyWords": [
+    "áis",
+    "ar fáil",
+    "ceantar dúchais"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q109",
+   "ga": "Ar mhaith leat a bheith i do chónaí in áit ar bith eile? Cad chuige?",
+   "variants": [],
+   "en": "Would you like to live anywhere else? Where, and why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ba mhaith liom cónaí",
+   "keyWords": [
+    "ar mhaith le",
+    "cónaí",
+    "áit eile",
+    "cad chuige"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q110",
+   "ga": "Cad é an difear idir bheith i do chónaí sa chathair nó faoin tuath?",
+   "variants": [],
+   "en": "What is the difference between living in the city and living in the country?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q111",
+   "opener": "Sa chathair, tá",
+   "keyWords": [
+    "difear",
+    "cathair",
+    "faoin tuath",
+    "cónaí"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q111",
+   "ga": "Cé acu ab’fhearr leat agus cad chuige?",
+   "variants": [],
+   "en": "Which would you prefer, the city or the country, and why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "B'fhearr liom a bheith",
+   "keyWords": [
+    "cé acu",
+    "ab fhearr le",
+    "cad chuige"
+   ],
+   "note": "The source has ab’fhearr with a curly apostrophe and no space. The standard form is ab fhearr. Please confirm the correction before it goes into the app."
+  },
+  {
+   "id": "Q112",
+   "ga": "An maith leat a bheith i do chónaí in Éirinn/i dTuaisceart na hÉireann?",
+   "variants": [
+    "An maith leat a bheith i do chónaí in Éirinn?",
+    "An maith leat a bheith i do chónaí i dTuaisceart na hÉireann?"
+   ],
+   "en": "Do you like living in Ireland, or in Northern Ireland? Say yes or no and give a reason.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q113",
+   "opener": "Is maith liom a bheith",
+   "keyWords": [
+    "is maith le",
+    "cónaí",
+    "Éire",
+    "Tuaisceart na hÉireann"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q113",
+   "ga": "Cad é atá deas faoi Éirinn/Thuaisceart na hÉireann?",
+   "variants": [
+    "Cad é atá deas faoi Éirinn?",
+    "Cad é atá deas faoi Thuaisceart na hÉireann?"
+   ],
+   "en": "What is nice about Ireland, or about Northern Ireland? For example the people, the scenery, the music, the sport.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q114",
+   "opener": "Rud amháin atá deas ná",
+   "keyWords": [
+    "deas",
+    "Éire",
+    "Tuaisceart na hÉireann"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q114",
+   "ga": "Cad é nach maith leat faoi Éirinn/Thuaisceart na hÉireann?",
+   "variants": [
+    "Cad é nach maith leat faoi Éirinn?",
+    "Cad é nach maith leat faoi Thuaisceart na hÉireann?"
+   ],
+   "en": "What do you not like about Ireland, or about Northern Ireland? For example the weather, the cost of living, the politics.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ní maith liom",
+   "keyWords": [
+    "nach maith le",
+    "Éire",
+    "Tuaisceart na hÉireann"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q115",
+   "ga": "An raibh tú riamh sa Ghaeltacht?",
+   "variants": [],
+   "en": "Have you ever been to the Gaeltacht? If so, say where and when.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q116",
+   "opener": "Bhí mé sa Ghaeltacht",
+   "keyWords": [
+    "riamh",
+    "Gaeltacht"
+   ],
+   "note": "The opener assumes a yes. A pupil answering no would start Ní raibh mé riamh."
+  },
+  {
+   "id": "Q116",
+   "ga": "Cad é an teanga a labhraíonn daoine sa Ghaeltacht?",
+   "variants": [],
+   "en": "What language do people speak in the Gaeltacht?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q120",
+   "opener": "Labhraíonn na daoine sa Ghaeltacht",
+   "keyWords": [
+    "teanga",
+    "labhair",
+    "Gaeltacht"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q117",
+   "ga": "An raibh tú riamh ar choláiste samhraidh?",
+   "variants": [],
+   "en": "Have you ever been to an Irish summer college? If so, say where and when.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q121",
+   "opener": "Bhí mé ar choláiste samhraidh",
+   "keyWords": [
+    "riamh",
+    "coláiste samhraidh"
+   ],
+   "note": "The opener assumes a yes. A pupil answering no would start Ní raibh mé riamh."
+  },
+  {
+   "id": "Q118",
+   "ga": "Cad é an rud is mó a thaitníonn/nach dtaitníonn leat faoi do shaol in Éirinn/ i dTuaisceart na hÉireann?",
+   "variants": [
+    "Cad é an rud is mó a thaitníonn leat faoi do shaol in Éirinn?",
+    "Cad é an rud is mó a thaitníonn leat faoi do shaol i dTuaisceart na hÉireann?",
+    "Cad é an rud is mó nach dtaitníonn leat faoi do shaol in Éirinn?",
+    "Cad é an rud is mó nach dtaitníonn leat faoi do shaol i dTuaisceart na hÉireann?"
+   ],
+   "en": "What do you like most, or dislike most, about your life in Ireland or in Northern Ireland?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q119",
+   "opener": "Caithfidh mé a rá",
+   "keyWords": [
+    "rud",
+    "is mó",
+    "taitin le",
+    "saol"
+   ],
+   "note": "Two sets of alternatives give four resolved questions. The source has a stray space after the second slash, which has been dropped in the variants."
+  },
+  {
+   "id": "Q119",
+   "ga": "Cad é mar atá muintir na hÉireann?",
+   "variants": [],
+   "en": "What are the Irish people like? For example friendly, welcoming, fond of a chat, fond of sport.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá muintir na hÉireann",
+   "keyWords": [
+    "cad é mar",
+    "muintir",
+    "Éire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q120",
+   "ga": "Cad é atá speisialta faoi cheantar Gaeltachta?",
+   "variants": [],
+   "en": "What is special about a Gaeltacht area? Think about the language, the culture, the music and the scenery.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Rud speisialta faoin Ghaeltacht ná",
+   "keyWords": [
+    "speisialta",
+    "ceantar",
+    "Gaeltacht"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q121",
+   "ga": "Inis dom cad é a tharlaíonn i gcoláiste samhraidh/Cuir síos ar lá i gcoláiste samhraidh.",
+   "variants": [
+    "Inis dom cad é a tharlaíonn i gcoláiste samhraidh.",
+    "Cuir síos ar lá i gcoláiste samhraidh."
+   ],
+   "en": "Tell me what happens at a summer college, or describe a typical day there: classes in the morning, sport in the afternoon, the céilí at night.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q122",
+   "opener": "I gcoláiste samhraidh, bíonn",
+   "keyWords": [
+    "inis",
+    "tarlaigh",
+    "coláiste samhraidh",
+    "cur síos",
+    "lá"
+   ],
+   "note": "The slash here separates two whole questions rather than two words, so each has been given as its own variant."
+  },
+  {
+   "id": "Q122",
+   "ga": "An é do bharúil go gcuidíonn coláiste samhraidh le do chuid Gaeilge? Cad chuige?",
+   "variants": [],
+   "en": "Do you think a summer college helps your Irish? Why, or why not?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go gcuidíonn sé mar",
+   "keyWords": [
+    "barúil",
+    "cuidigh le",
+    "Gaeilge",
+    "cad chuige"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q123",
+   "ga": "Cad é a dhéanann grúpa cosúil le Trócaire/Concern/Oxfam?",
+   "variants": [
+    "Cad é a dhéanann grúpa cosúil le Trócaire?",
+    "Cad é a dhéanann grúpa cosúil le Concern?",
+    "Cad é a dhéanann grúpa cosúil le Oxfam?"
+   ],
+   "en": "What does a charity group like Trócaire (or Concern, or Oxfam) actually do? Tell me about the work they do and who they help.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q124",
+   "opener": "Cuidíonn an grúpa sin le",
+   "keyWords": [
+    "déan",
+    "grúpa",
+    "cosúil le"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q124",
+   "ga": "An ndearna tú obair ar bith do ghrúpa cosúil le Trócaire/Concern/Oxfam?",
+   "variants": [
+    "An ndearna tú obair ar bith do ghrúpa cosúil le Trócaire?",
+    "An ndearna tú obair ar bith do ghrúpa cosúil le Concern?",
+    "An ndearna tú obair ar bith do ghrúpa cosúil le Oxfam?"
+   ],
+   "en": "Have you ever done any work for a charity like Trócaire (or Concern, or Oxfam)? Say what you did.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Rinne mé obair dheonach",
+   "keyWords": [
+    "déan",
+    "obair",
+    "ar bith",
+    "grúpa"
+   ],
+   "note": "The opener stops before the charity is named; a pupil who says 'do Thrócaire' needs the lenition after 'do'. Concern and Oxfam do not change."
+  },
+  {
+   "id": "Q125",
+   "ga": "Ar bhailigh tú airgead riamh do ghrúpa cosúil leis na Samaritans?",
+   "variants": [],
+   "en": "Have you ever collected money for a group like the Samaritans? Say when and how you did it.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q132",
+   "opener": "Bhailigh mé airgead do",
+   "keyWords": [
+    "bailigh",
+    "airgead",
+    "riamh",
+    "grúpa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q126",
+   "ga": "An bhfuil grúpa deonach sa scoil s’agatsa?",
+   "variants": [],
+   "en": "Is there a volunteer group in your school? Say yes or no and name it if you can.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q127",
+   "opener": "Tá grúpa deonach sa scoil",
+   "keyWords": [
+    "grúpa",
+    "deonach",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q127",
+   "ga": "Cad é an cineál obair dheonach a tharlaíonn sa scoil s’agatsa?",
+   "variants": [],
+   "en": "What kind of voluntary work goes on in your school? Give some examples of what pupils do.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bailíonn na daltaí airgead do",
+   "keyWords": [
+    "cineál",
+    "obair",
+    "deonach",
+    "tarlaigh"
+   ],
+   "note": "After 'cineál' the formal genitive would be 'oibre deonaí'; the nominative 'obair dheonach' reflects spoken usage and is left as given. Please confirm it may stand."
+  },
+  {
+   "id": "Q128",
+   "ga": "Cad é an cineál rudaí a dhéantar sa scoil s’agatsa le cuidiú le daoine bochta?",
+   "variants": [],
+   "en": "What kinds of things are done in your school to help poor people? Think of fundraising days, collections and events.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sa scoil s’againne, bíonn",
+   "keyWords": [
+    "cineál",
+    "déan",
+    "cuidigh le",
+    "bocht"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q129",
+   "ga": "An bhfuil baint agat le grúpa deonach ar bith sa scoil nó sa phobal?",
+   "variants": [],
+   "en": "Are you involved with any volunteer group, either at school or in your local community? Say which one.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q130",
+   "opener": "Tá, tá baint agam le",
+   "keyWords": [
+    "baint",
+    "grúpa",
+    "deonach",
+    "pobal"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q130",
+   "ga": "Cad é a dhéanann an grúpa?",
+   "variants": [],
+   "en": "What does that group do? Describe the kind of work it does and who it helps.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Cuidíonn an grúpa le",
+   "keyWords": [
+    "déan",
+    "grúpa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q131",
+   "ga": "Ar reáchtáil tú imeacht riamh le cuidiú le daoine bochta? Cad é a rinne tú? Cé a tháinig chuige?",
+   "variants": [],
+   "en": "Have you ever organised an event to help poor people? Say what you did and who came along to it.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q132",
+   "opener": "Anuraidh, reáchtáil mé",
+   "keyWords": [
+    "reáchtáil",
+    "imeacht",
+    "riamh",
+    "cuidigh le",
+    "tar"
+   ],
+   "note": "Three questions in one; the pupil needs a short past-tense narrative covering the event, what they did and who attended. Marked H for that reason although it asks for no opinion."
+  },
+  {
+   "id": "Q132",
+   "ga": "Cá mhéad airgid a bhailigh tú?",
+   "variants": [],
+   "en": "How much money did you collect? Give a rough amount.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bhailigh muid thart faoi",
+   "keyWords": [
+    "cá mhéad",
+    "airgead",
+    "bailigh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q133",
+   "ga": "An síleann tú go gcuidíonn obair dheonach leat le scileanna idirphearsanta a fhoghlaim?",
+   "variants": [],
+   "en": "Do you think doing voluntary work helps you learn people skills, such as working with others and communicating? Say why.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q134",
+   "opener": "Sílim go gcuidíonn sé, mar",
+   "keyWords": [
+    "síl",
+    "cuidigh le",
+    "obair dheonach",
+    "scil",
+    "idirphearsanta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q134",
+   "ga": "Cad iad na scileanna sin?",
+   "variants": [],
+   "en": "What are those skills? Name a few, for example teamwork, communication or confidence.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Foghlaimíonn tú scileanna cosúil le",
+   "keyWords": [
+    "scil",
+    "sin"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q135",
+   "ga": "Cad é an cineál bia a itheann tú le tú féin a choinneáil sláintiúil?",
+   "variants": [],
+   "en": "What kind of food do you eat to keep yourself healthy?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q136",
+   "opener": "Itheann mé cuid mhór",
+   "keyWords": [
+    "cineál",
+    "bia",
+    "ith",
+    "coinnigh",
+    "sláintiúil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q136",
+   "ga": "Cad é an bia nár chóir duit a ithe?",
+   "variants": [],
+   "en": "What food should you not eat? What food ought you to keep away from?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Níor chóir duit",
+   "keyWords": [
+    "bia",
+    "cóir",
+    "ith"
+   ],
+   "note": "The opener keeps the general 'duit' of the question (you meaning anyone); a pupil may prefer 'Níor chóir dom'."
+  },
+  {
+   "id": "Q137",
+   "ga": "Cad é a dhéanann tú le coinneáil sláintiúil?",
+   "variants": [],
+   "en": "What do you do to keep healthy?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q138",
+   "opener": "Le coinneáil sláintiúil, déanann mé",
+   "keyWords": [
+    "déan",
+    "coinnigh",
+    "sláintiúil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q138",
+   "ga": "An dtéann tú chuig an spórtlann go minic?",
+   "variants": [],
+   "en": "Do you go to the gym often?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q139",
+   "opener": "Téim chuig an spórtlann",
+   "keyWords": [
+    "téigh",
+    "spórtlann",
+    "go minic"
+   ],
+   "note": "The opener assumes a yes; a pupil who does not go would begin 'Ní théim'."
+  },
+  {
+   "id": "Q139",
+   "ga": "Cad iad na háiseanna sa cheantar s’agatsa atá maith le cuidiú leat a bheith sláintiúil?",
+   "variants": [],
+   "en": "What facilities are there in your area that are good for helping you stay healthy?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sa cheantar s’agamsa, tá",
+   "keyWords": [
+    "áiseanna",
+    "ceantar",
+    "cuidigh",
+    "sláintiúil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q140",
+   "ga": "An bhfuil an bia i gceaintín na scoile sláintiúil?",
+   "variants": [],
+   "en": "Is the food in the school canteen healthy?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q149",
+   "opener": "Tá an bia sa cheaintín",
+   "keyWords": [
+    "bia",
+    "ceaintín",
+    "scoil",
+    "sláintiúil"
+   ],
+   "note": "The opener works for a yes or a no: the pupil finishes with 'sláintiúil go leor' or 'míshláintiúil'."
+  },
+  {
+   "id": "Q141",
+   "ga": "Cad é an cineál fadhbanna sóisialta atá sa cheantar s’agatsa?",
+   "variants": [],
+   "en": "What kind of social problems are there in your area?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q143",
+   "opener": "Sa cheantar s’agamsa, tá fadhb le",
+   "keyWords": [
+    "cineál",
+    "fadhb",
+    "sóisialta",
+    "ceantar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q142",
+   "ga": "An mbíonn fadhbanna sóisialta i do cheantar?",
+   "variants": [],
+   "en": "Are there social problems in your area? Do social problems happen where you live?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q141",
+   "opener": "Bíonn, bíonn fadhbanna ann le",
+   "keyWords": [
+    "bíonn",
+    "fadhb",
+    "sóisialta",
+    "ceantar"
+   ],
+   "note": "The opener assumes a yes; a pupil might instead say 'Ní bhíonn, is ceantar ciúin é'."
+  },
+  {
+   "id": "Q143",
+   "ga": "Cad é is cúis leis na fadhbanna sóisialta?",
+   "variants": [],
+   "en": "What causes the social problems? What is the reason behind them?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q145",
+   "opener": "Sílim gurb í an chúis ná",
+   "keyWords": [
+    "cúis",
+    "fadhb",
+    "sóisialta"
+   ],
+   "note": "Opener uses 'gurb í' because cúis is feminine; check the principal is happy with the 'ná' construction here."
+  },
+  {
+   "id": "Q144",
+   "ga": "An mbíonn fadhb leo seo i do cheantar: drugaí, alcól, spraoithiomáint nó iompar míshóisialta?",
+   "variants": [],
+   "en": "Is there a problem with any of these in your area: drugs, alcohol, joyriding or antisocial behaviour?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q143",
+   "opener": "Sa cheantar s’agamsa, bíonn fadhb le",
+   "keyWords": [
+    "fadhb",
+    "drugaí",
+    "alcól",
+    "spraoithiomáint",
+    "iompar"
+   ],
+   "note": "The list in the question is a prompt, not slashes offering alternatives, so no variants were made."
+  },
+  {
+   "id": "Q145",
+   "ga": "An ndéanann an scoil go leor le heolas a thabhairt do na scoláirí faoi na contúirtí atá ann?",
+   "variants": [],
+   "en": "Does the school do enough to tell pupils about the dangers that are out there?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q146",
+   "opener": "Sílim go ndéanann an scoil",
+   "keyWords": [
+    "scoil",
+    "go leor",
+    "eolas",
+    "scoláirí",
+    "contúirt"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q146",
+   "ga": "Cad é a dhéanann an scoil?",
+   "variants": [],
+   "en": "What does the school do about it?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bíonn ceachtanna againn faoi",
+   "keyWords": [
+    "déan",
+    "scoil"
+   ],
+   "note": "A follow-up to Q145; on its own the pupil needs the context of the dangers just discussed. The pupil must lenite after 'faoi', for example 'faoi dhrugaí'."
+  },
+  {
+   "id": "Q147",
+   "ga": "Cad iad na rudaí a thig leat a dhéanamh le tú féin a choinneáil sláintiúil?",
+   "variants": [],
+   "en": "What things can you do to keep yourself healthy?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar dtús, thig liom",
+   "keyWords": [
+    "rud",
+    "thig le",
+    "déan",
+    "coinnigh",
+    "sláintiúil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q148",
+   "ga": "An gcuireann an scoil béim ar bhia sláintiúil?",
+   "variants": [],
+   "en": "Does the school put an emphasis on healthy food?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q140",
+   "opener": "Cuireann an scoil béim mhór ar",
+   "keyWords": [
+    "cuir",
+    "scoil",
+    "béim",
+    "bia",
+    "sláintiúil"
+   ],
+   "note": "The pupil must lenite after 'ar', for example 'ar bhia sláintiúil', as in the question itself."
+  },
+  {
+   "id": "Q149",
+   "ga": "Cad é faoin bhia i gceaintín na scoile – cad é atá ann atá sláintiúil?",
+   "variants": [],
+   "en": "What about the food in the school canteen: what is there that is healthy?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I gceaintín na scoile, tá",
+   "keyWords": [
+    "bia",
+    "ceaintín",
+    "scoil",
+    "sláintiúil"
+   ],
+   "note": "The question as given in the file contains an en dash between its two halves; it has been kept exactly as supplied. The principal may wish to replace it with a comma or a colon in the source."
+  },
+  {
+   "id": "Q150",
+   "ga": "An bhfuil suim agat sa domhan mór?",
+   "variants": [],
+   "en": "Are you interested in the wider world, in what is going on beyond your own area?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q151",
+   "opener": "Tá, tá suim mhór agam",
+   "keyWords": [
+    "suim",
+    "domhan",
+    "mór"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q151",
+   "ga": "Cad é an cineál ruda a bhfuil suim agat ann?",
+   "variants": [],
+   "en": "What kind of thing are you interested in? Which world issues catch your attention?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá suim mhór agam",
+   "keyWords": [
+    "cineál",
+    "rud",
+    "suim"
+   ],
+   "note": "A follow-up to Q150; the expected answers are world issues such as the environment or current affairs, not hobbies."
+  },
+  {
+   "id": "Q152",
+   "ga": "An gcuidíonn tú le carthanacht ar bith?",
+   "variants": [],
+   "en": "Do you help any charity?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q153",
+   "opener": "Cuidíonn, cuidíonn mé le",
+   "keyWords": [
+    "cuidigh",
+    "carthanacht",
+    "ar bith"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q153",
+   "ga": "An ndéanann an scoil rudaí le cuidiú le daoine bochta?",
+   "variants": [],
+   "en": "Does the school do things to help poor people?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q156",
+   "opener": "Déanann, bailíonn muid airgead",
+   "keyWords": [
+    "déan",
+    "scoil",
+    "cuidigh",
+    "daoine",
+    "bocht"
+   ],
+   "note": "The pupil continues with the charity, leniting after 'do', for example 'do Thrócaire'."
+  },
+  {
+   "id": "Q154",
+   "ga": "Cad é mar a thig linn cuidiú leis an domhan mór?",
+   "variants": [],
+   "en": "How can we help the wider world?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q155",
+   "opener": "Sílim gur chóir dúinn",
+   "keyWords": [
+    "thig le",
+    "cuidigh",
+    "domhan",
+    "mór"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q155",
+   "ga": "Cad é mar a thig linn cuidiú le daoine bochta?",
+   "variants": [],
+   "en": "How can we help poor people?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar dtús, thig linn",
+   "keyWords": [
+    "thig le",
+    "cuidigh",
+    "daoine",
+    "bocht"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q156",
+   "ga": "An ndéanann an scoil go leor le heolas a thabhairt do na scoláirí faoin domhan mór/faoi dhaoine bochta sa tríú domhan/faoi dhaoine bochta inár dtír féin?",
+   "variants": [
+    "An ndéanann an scoil go leor le heolas a thabhairt do na scoláirí faoin domhan mór?",
+    "An ndéanann an scoil go leor le heolas a thabhairt do na scoláirí faoi dhaoine bochta sa tríú domhan?",
+    "An ndéanann an scoil go leor le heolas a thabhairt do na scoláirí faoi dhaoine bochta inár dtír féin?"
+   ],
+   "en": "Does the school do enough to tell pupils about the wider world, or about poor people in the developing world, or about poor people in our own country?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Déanann, déanann an scoil cuid mhór",
+   "keyWords": [
+    "scoil",
+    "go leor",
+    "eolas",
+    "scoláirí",
+    "domhan"
+   ],
+   "note": "Three alternatives separated by slashes have been resolved into three variants. 'An tríú domhan' is dated phrasing; the principal may prefer 'tíortha i mbéal forbartha' in the source."
+  },
+  {
+   "id": "Q157",
+   "ga": "Cad é mar a thig linn cuidiú leis an timpeallacht dhomhanda?",
+   "variants": [],
+   "en": "How can we help the global environment?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ba chóir dúinn",
+   "keyWords": [
+    "thig le",
+    "cuidigh",
+    "timpeallacht",
+    "domhanda"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q158",
+   "ga": "Cá háit a ndeachaigh tú ar do laethanta saoire anuraidh?",
+   "variants": [],
+   "en": "Where did you go on your holidays last year?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q159",
+   "opener": "Anuraidh chuaigh mé",
+   "keyWords": [
+    "cá háit",
+    "chuaigh",
+    "laethanta saoire",
+    "anuraidh"
+   ],
+   "note": "The opener stops before the preposition on purpose: the pupil adds go (go Dún na nGall) or go dtí an (go dtí an Spáinn) depending on whether the place takes the article."
+  },
+  {
+   "id": "Q159",
+   "ga": "Cé a bhí leat?",
+   "variants": [],
+   "en": "Who was with you? In other words, who did you go on holiday with?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q160",
+   "opener": "Chuaigh mé ann le mo",
+   "keyWords": [
+    "cé",
+    "bhí",
+    "leat"
+   ],
+   "note": "After le mo the pupil lenites: le mo mhamaí, le mo theaghlach, le mo chairde."
+  },
+  {
+   "id": "Q160",
+   "ga": "Cad é mar a chuaigh tú ann?",
+   "variants": [],
+   "en": "How did you get there? What transport did you use?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q161",
+   "opener": "Chuaigh mé ann",
+   "keyWords": [
+    "cad é mar",
+    "chuaigh",
+    "ann"
+   ],
+   "note": "Pupil continues with ar an eitleán, ar an bhád, ar an bhus, ar an traein or sa charr. Ulster lenites after ar an (ar an bhád) but not d, t, s (ar an traein)."
+  },
+  {
+   "id": "Q161",
+   "ga": "Cá háit ar stop tú?",
+   "variants": [],
+   "en": "Where did you stay? What sort of place did you stay in?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q162",
+   "opener": "Stop mé agus mo theaghlach",
+   "keyWords": [
+    "cá háit",
+    "stop"
+   ],
+   "note": "Opener assumes the pupil went with family; a pupil who went with friends says Stop mé agus mo chairde. Pupil then adds in óstán, in árasán, i dteach or ar láthair champála (in before a vowel, i before a consonant)."
+  },
+  {
+   "id": "Q162",
+   "ga": "Cá fhad a d’fhan tú?",
+   "variants": [],
+   "en": "How long did you stay?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q163",
+   "opener": "D'fhan mé ann ar feadh",
+   "keyWords": [
+    "cá fhad",
+    "fan",
+    "ar feadh"
+   ],
+   "note": "Genitive after ar feadh: ar feadh seachtaine, ar feadh coicíse, ar feadh deich lá. Pupils often say ar feadh seachtain in error."
+  },
+  {
+   "id": "Q163",
+   "ga": "Cad é mar a bhí an aimsir?",
+   "variants": [],
+   "en": "What was the weather like?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q164",
+   "opener": "Bhí an aimsir",
+   "keyWords": [
+    "cad é mar",
+    "aimsir"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q164",
+   "ga": "Cad é a rinne tú nuair a bhí tú ar laethanta saoire?",
+   "variants": [],
+   "en": "What did you do while you were on holiday?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q165",
+   "opener": "Nuair a bhí mé ann",
+   "keyWords": [
+    "rinne",
+    "nuair",
+    "laethanta saoire"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q165",
+   "ga": "Cad é mar a bhí an lóistín?",
+   "variants": [],
+   "en": "What was the accommodation like? The hotel, apartment or house you stayed in.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q166",
+   "opener": "Bhí an lóistín",
+   "keyWords": [
+    "cad é mar",
+    "lóistín"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q166",
+   "ga": "Cad é mar a bhí an bia?",
+   "variants": [],
+   "en": "What was the food like?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q167",
+   "opener": "Bhí an bia",
+   "keyWords": [
+    "cad é mar",
+    "bia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q167",
+   "ga": "Cad é a thaitin/nár thaitin leat?",
+   "variants": [
+    "Cad é a thaitin leat?",
+    "Cad é nár thaitin leat?"
+   ],
+   "en": "What did you like about it? Or, in the other form, what did you not like about it?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An rud a thaitin liom ná",
+   "keyWords": [
+    "taitin le",
+    "thaitin",
+    "nár"
+   ],
+   "note": "Marked F although it asks for a simple like or dislike, as no justification is required; please confirm. The opener suits the positive form; for the nár form the pupil says An rud nár thaitin liom ná."
+  },
+  {
+   "id": "Q168",
+   "ga": "Inis dom faoi do laethanta saoire anuraidh.",
+   "variants": [],
+   "en": "Tell me about your holidays last year. An open question: where you went, who with, what you did.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Anuraidh chuaigh mé ar laethanta saoire",
+   "keyWords": [
+    "inis",
+    "laethanta saoire",
+    "anuraidh"
+   ],
+   "note": "Pupil continues with go or go dtí an plus the place, then le mo theaghlach and so on."
+  },
+  {
+   "id": "Q169",
+   "ga": "Cé acu is fearr leat – laethanta saoire le do chairde nó laethanta saoire le do theaghlach? Cad chuige?",
+   "variants": [],
+   "en": "Which do you prefer, holidays with your friends or holidays with your family? And why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is fearr liom laethanta saoire le",
+   "keyWords": [
+    "cé acu",
+    "is fearr leat",
+    "cairde",
+    "teaghlach",
+    "cad chuige"
+   ],
+   "note": "The question text as given contains an en dash; house rules ban dashes, so consider a comma or colon in the source. Pupil continues mo chairde or mo theaghlach, then mar plus a reason."
+  },
+  {
+   "id": "Q170",
+   "ga": "Déan cur síos ar an áit a raibh tú ar do laethanta saoire anuraidh.",
+   "variants": [],
+   "en": "Describe the place where you spent your holidays last year. Say what it was like, where it is and what was there.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q171",
+   "opener": "Tá an áit sin",
+   "keyWords": [
+    "cur síos",
+    "áit",
+    "laethanta saoire",
+    "anuraidh"
+   ],
+   "note": "Present tense opener on purpose, since the place still exists: Tá an áit sin go hálainn, Tá an áit sin cois farraige. Pupil may prefer Bhí."
+  },
+  {
+   "id": "Q171",
+   "ga": "Cad é an rud is mó a thaitin leat/nár thaitin leat faoin áit?",
+   "variants": [
+    "Cad é an rud is mó a thaitin leat faoin áit?",
+    "Cad é an rud is mó nár thaitin leat faoin áit?"
+   ],
+   "en": "What did you like most about the place? Or, in the other form, what did you like least about it?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An rud ab fhearr liom ná",
+   "keyWords": [
+    "is mó",
+    "taitin le",
+    "áit",
+    "faoin"
+   ],
+   "note": "Opener suits the positive form; for the nár form the pupil says An rud nár thaitin liom ná. Please check ab fhearr (past copula) is what you want the pupils to hear; An rud is mó a thaitin liom ná is the fuller version but runs to seven words."
+  },
+  {
+   "id": "Q172",
+   "ga": "Inis dom na rudaí a rinne tú nuair a bhí tú ar laethanta saoire.",
+   "variants": [],
+   "en": "Tell me the things you did while you were on holiday. A list of activities is expected.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Achan lá chuaigh mé",
+   "keyWords": [
+    "inis",
+    "rudaí",
+    "rinne",
+    "laethanta saoire"
+   ],
+   "note": "Pupil continues ag snámh, chuig an trá, ag siúl. Achan lá is the Ulster form of gach aon lá."
+  },
+  {
+   "id": "Q173",
+   "ga": "Cá háit a rachaidh tú ar do laethanta saoire i mbliana?",
+   "variants": [],
+   "en": "Where will you go on your holidays this year?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q174",
+   "opener": "I mbliana rachaidh mé",
+   "keyWords": [
+    "cá háit",
+    "rachaidh",
+    "i mbliana"
+   ],
+   "note": "Pupil adds go or go dtí an plus the place. Some pupils will say Tá mé ag dul go instead, which is fine."
+  },
+  {
+   "id": "Q174",
+   "ga": "Cad iad na cineálacha rudaí a ba mhaith leat a dhéanamh/a fheiceáil?",
+   "variants": [
+    "Cad iad na cineálacha rudaí a ba mhaith leat a dhéanamh?",
+    "Cad iad na cineálacha rudaí a ba mhaith leat a fheiceáil?"
+   ],
+   "en": "What kinds of things would you like to do there? Or, in the other form, what kinds of things would you like to see there?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ba mhaith liom",
+   "keyWords": [
+    "cineálacha",
+    "ba mhaith leat",
+    "déan",
+    "feic"
+   ],
+   "note": "Marked H because it asks the pupil to project and elaborate in the conditional; a Foundation pupil could manage a short Ba mhaith liom dul ag snámh, so please confirm the tier."
+  },
+  {
+   "id": "Q175",
+   "ga": "Déan cur síos ar an áit is deise dá raibh tú riamh ann.",
+   "variants": [],
+   "en": "Describe the nicest place you have ever been to.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An áit is deise ná",
+   "keyWords": [
+    "cur síos",
+    "áit",
+    "is deise",
+    "riamh"
+   ],
+   "note": "Opener is clipped to stay within six words; the fuller An áit is deise dá raibh mé riamh ann ná is the model answer. Please check you are happy with the shortened form."
+  },
+  {
+   "id": "Q176",
+   "ga": "Cé acu is fearr leat – laethanta saoire thar sáile nó laethanta saoire in Éirinn? Cad chuige?",
+   "variants": [],
+   "en": "Which do you prefer, holidays abroad or holidays in Ireland? And why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is fearr liom laethanta saoire",
+   "keyWords": [
+    "cé acu",
+    "is fearr leat",
+    "thar sáile",
+    "in Éirinn",
+    "cad chuige"
+   ],
+   "note": "The question text as given contains an en dash; house rules ban dashes, so consider a comma or colon in the source. Pupil continues thar sáile or in Éirinn, then mar plus a reason."
+  },
+  {
+   "id": "Q177",
+   "ga": "An síleann tú go bhfuil taisteal tábhachtach?",
+   "variants": [],
+   "en": "Do you think travel is important? Give your view and a reason.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q178",
+   "opener": "Sílim go bhfuil taisteal",
+   "keyWords": [
+    "síl",
+    "taisteal",
+    "tábhachtach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q178",
+   "ga": "An maith leat a bheith ag taisteal? Cad chuige?",
+   "variants": [],
+   "en": "Do you like travelling? Why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q179",
+   "opener": "Is maith liom taisteal mar",
+   "keyWords": [
+    "an maith leat",
+    "taisteal",
+    "cad chuige"
+   ],
+   "note": "Opener assumes a positive answer and echoes the question's An maith leat. Taisteal stands as a verbal noun here, as in Is maith liom snámh. Is maith liom a bheith ag taisteal mar is the fuller form but runs to seven words."
+  },
+  {
+   "id": "Q179",
+   "ga": "Cad iad na rudaí a fhoghlaimíonn tú agus tú ag taisteal?",
+   "variants": [],
+   "en": "What things do you learn when you travel? For example about other people, languages or cultures.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Agus mé ag taisteal, foghlaimím",
+   "keyWords": [
+    "rudaí",
+    "foghlaim",
+    "taisteal"
+   ],
+   "note": "Pupil continues cuid mhór faoi chultúir eile, faoi theangacha eile and so on; lenition after faoi."
+  },
+  {
+   "id": "Q180",
+   "ga": "Cá mhéad ábhar a dhéanann tú don TGMO?",
+   "variants": [],
+   "en": "How many subjects are you doing for your GCSEs? Give the number.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q181",
+   "opener": "Tá mé ag déanamh",
+   "keyWords": [
+    "cá mhéad",
+    "ábhar",
+    "déan",
+    "TGMO"
+   ],
+   "note": "TGMO is the qualification (GCSE), not a board name. Check the pupils recognise the abbreviation."
+  },
+  {
+   "id": "Q181",
+   "ga": "Cad iad na hábhair a dhéanann tú ar scoil?",
+   "variants": [],
+   "en": "What subjects do you do at school? List them.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q182",
+   "opener": "Na hábhair a dhéanaim ná",
+   "keyWords": [
+    "ábhar",
+    "déan",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q182",
+   "ga": "Cad é an t-ábhar is fearr leat?",
+   "variants": [],
+   "en": "What is your favourite subject?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q183",
+   "opener": "An t-ábhar is fearr liom ná",
+   "keyWords": [
+    "ábhar",
+    "is fearr le"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q183",
+   "ga": "Cad chuige ar maith leat an t-ábhar sin?",
+   "variants": [],
+   "en": "Why do you like that subject? Give a reason.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is maith liom é mar",
+   "keyWords": [
+    "cad chuige",
+    "is maith le",
+    "ábhar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q184",
+   "ga": "Cad é an t-ábhar nach maith leat?",
+   "variants": [],
+   "en": "Which subject do you not like?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q185",
+   "opener": "Ní maith liom",
+   "keyWords": [
+    "ábhar",
+    "ní maith le"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q185",
+   "ga": "Cad chuige nach maith leat an t-ábhar sin?",
+   "variants": [],
+   "en": "Why do you not like that subject? Give a reason.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ní maith liom é mar",
+   "keyWords": [
+    "cad chuige",
+    "ní maith le",
+    "ábhar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q186",
+   "ga": "Inis dom faoi na hábhair a dhéanann tú ar scoil.",
+   "variants": [],
+   "en": "Tell me about the subjects you do at school: what they are and a little about them.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q187",
+   "opener": "Ar scoil, déanaim",
+   "keyWords": [
+    "inis",
+    "ábhar",
+    "déan",
+    "scoil"
+   ],
+   "note": "Overlaps with Q181; this one invites a fuller answer."
+  },
+  {
+   "id": "Q187",
+   "ga": "Cad é a dhéanann ábhar ar bith suimiúil?",
+   "variants": [],
+   "en": "What makes any subject interesting? A general opinion, not just your own favourite.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Bíonn ábhar suimiúil nuair a",
+   "keyWords": [
+    "ábhar",
+    "ar bith",
+    "suimiúil"
+   ],
+   "note": "The pupil continues after 'nuair a' with a lenited verb, for example 'bhíonn an múinteoir maith'."
+  },
+  {
+   "id": "Q188",
+   "ga": "Cé acu is fearr leat – ábhar le measúnú rialaithe nó ábhar gan é? Cad chuige?",
+   "variants": [],
+   "en": "Which do you prefer: a subject with controlled assessment (coursework done in class) or one without? Give your reason.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is fearr liom ábhar",
+   "keyWords": [
+    "cé acu",
+    "is fearr le",
+    "measúnú rialaithe",
+    "cad chuige"
+   ],
+   "note": "The question text contains a dash, kept as given. Check that 'measúnú rialaithe' (controlled assessment) is still the term the pupils meet in their current specifications."
+  },
+  {
+   "id": "Q189",
+   "ga": "An bhfuil barraíocht brú ar scoláirí mar gheall ar scrúduithe?",
+   "variants": [],
+   "en": "Is there too much pressure on pupils because of exams? Say what you think and why.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go bhfuil",
+   "keyWords": [
+    "barraíocht",
+    "brú",
+    "scoláire",
+    "scrúdú"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q190",
+   "ga": "Cad iad na hábhair a dhéanfaidh tú ar an bhliain seo chugainn? Cad chuige?",
+   "variants": [],
+   "en": "What subjects will you do next year, and why have you chosen them?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An bhliain seo chugainn, déanfaidh mé",
+   "keyWords": [
+    "ábhar",
+    "déan",
+    "an bhliain seo chugainn",
+    "cad chuige"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q191",
+   "ga": "Cá bhfuil tú ar scoil?",
+   "variants": [],
+   "en": "Where do you go to school? Name the school and where it is.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q192",
+   "opener": "Tá mé ag freastal ar",
+   "keyWords": [
+    "cá",
+    "scoil"
+   ],
+   "note": "Opener uses 'ag freastal ar' so the school name follows without an i/in choice. Check the Irish form of the school's name the pupils are taught."
+  },
+  {
+   "id": "Q192",
+   "ga": "Cad é an rang ina bhfuil tú?",
+   "variants": [],
+   "en": "What year (class) are you in?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tá mé i mBliain",
+   "keyWords": [
+    "cad é",
+    "rang"
+   ],
+   "note": "Here 'rang' means year group; the opener uses 'Bliain' as the pupils say 'Bliain a Dó Dhéag'."
+  },
+  {
+   "id": "Q193",
+   "ga": "Cad é an sórt scoile í?",
+   "variants": [],
+   "en": "What kind of school is it? For example mixed, Catholic, large or small.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is scoil mheasctha í agus",
+   "keyWords": [
+    "sórt",
+    "scoil"
+   ],
+   "note": "Opener assumes a mixed school; adjust if pupils should lead with something else."
+  },
+  {
+   "id": "Q194",
+   "ga": "Cad é an t-am a dtosaíonn/a gcríochnaíonn an scoil?",
+   "variants": [
+    "Cad é an t-am a dtosaíonn an scoil?",
+    "Cad é an t-am a gcríochnaíonn an scoil?"
+   ],
+   "en": "What time does school start and finish?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q195",
+   "opener": "Tosaíonn an scoil ar a",
+   "keyWords": [
+    "am",
+    "tosaigh",
+    "críochnaigh",
+    "scoil"
+   ],
+   "note": "Opener suits the start variant, or a combined answer; the finish variant on its own would begin 'Críochnaíonn an scoil ar a'."
+  },
+  {
+   "id": "Q195",
+   "ga": "Cá mhéad rang a bhíonn ann gach lá?",
+   "variants": [],
+   "en": "How many lessons are there each day?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q196",
+   "opener": "Achan lá, bíonn",
+   "keyWords": [
+    "cá mhéad",
+    "rang",
+    "bíonn",
+    "gach lá"
+   ],
+   "note": "Question has 'gach lá'; the opener uses the Ulster 'achan lá'. Check you are happy with the mix."
+  },
+  {
+   "id": "Q196",
+   "ga": "Cá fhad a mhaireann gach rang?",
+   "variants": [],
+   "en": "How long does each lesson last?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Maireann gach rang",
+   "keyWords": [
+    "cá fhad",
+    "mair",
+    "rang"
+   ],
+   "note": "'Gach' as in the question; 'achan' would be the Ulster choice if you want it changed."
+  },
+  {
+   "id": "Q197",
+   "ga": "Cad é mar a thagann tú ar scoil?",
+   "variants": [],
+   "en": "How do you get to school? Bus, car, walking and so on.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tagaim ar scoil",
+   "keyWords": [
+    "cad é mar",
+    "tar",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q198",
+   "ga": "An bhfuil a lán rialacha sa scoil?",
+   "variants": [],
+   "en": "Are there a lot of rules in the school?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q199",
+   "opener": "Sa scoil s’againne, tá",
+   "keyWords": [
+    "a lán",
+    "riail",
+    "scoil"
+   ],
+   "note": "Opener uses the Ulster 's’againne'; check you are content with it in an exam answer."
+  },
+  {
+   "id": "Q199",
+   "ga": "An aontaíonn tú leis na rialacha?",
+   "variants": [],
+   "en": "Do you agree with the rules? Say what you think.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go bhfuil na rialacha",
+   "keyWords": [
+    "aontaigh",
+    "riail"
+   ],
+   "note": "Near duplicate of Q208, which adds 'Cad chuige?'."
+  },
+  {
+   "id": "Q200",
+   "ga": "An maith leat an éide scoile?",
+   "variants": [],
+   "en": "Do you like the school uniform?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q202",
+   "opener": "Maidir leis an éide scoile,",
+   "keyWords": [
+    "is maith le",
+    "éide scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q201",
+   "ga": "Cad é an dath atá ar d’éide scoile?",
+   "variants": [],
+   "en": "What colour is your school uniform?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q211",
+   "opener": "Tá m’éide scoile",
+   "keyWords": [
+    "dath",
+    "éide scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q202",
+   "ga": "Cad é nach maith leat faoin éide scoile?",
+   "variants": [],
+   "en": "What do you not like about the school uniform?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An rud nach maith liom ná",
+   "keyWords": [
+    "ní maith le",
+    "éide scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q203",
+   "ga": "Déan cur síos ar ghnáthlá scoile.",
+   "variants": [],
+   "en": "Describe a normal school day, from getting up to going home.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q204",
+   "opener": "Ar ghnáthlá scoile, éirím ar a",
+   "keyWords": [
+    "cur síos",
+    "gnáthlá",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q204",
+   "ga": "Cad é a dhéanann tú ag am lóin/am sosa?",
+   "variants": [
+    "Cad é a dhéanann tú ag am lóin?",
+    "Cad é a dhéanann tú ag am sosa?"
+   ],
+   "en": "What do you do at lunchtime or at break?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "De ghnáth, bíonn mé",
+   "keyWords": [
+    "déan",
+    "am lóin",
+    "am sosa"
+   ],
+   "note": "Opener is neutral so it works for both variants."
+  },
+  {
+   "id": "Q205",
+   "ga": "Cad é an rud is mó/is lú a thaitníonn leat faoin scoil?",
+   "variants": [
+    "Cad é an rud is mó a thaitníonn leat faoin scoil?",
+    "Cad é an rud is lú a thaitníonn leat faoin scoil?"
+   ],
+   "en": "What do you like most, or least, about school?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "An rud is fearr liom ná",
+   "keyWords": [
+    "is mó",
+    "is lú",
+    "taitin le",
+    "scoil"
+   ],
+   "note": "Opener suits the 'is mó' variant; the 'is lú' variant would begin 'An rud is lú a thaitníonn liom ná'."
+  },
+  {
+   "id": "Q206",
+   "ga": "Déan cur síos iomlán ar an scoil.",
+   "variants": [],
+   "en": "Give a full description of the school: its size, type, buildings and what it is like.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q209",
+   "opener": "Tá mo scoil mór agus",
+   "keyWords": [
+    "cur síos",
+    "iomlán",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q207",
+   "ga": "Déan cur síos ar rialacha na scoile.",
+   "variants": [],
+   "en": "Describe the school rules: what you must and must not do.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q208",
+   "opener": "Sa scoil, caithfidh tú",
+   "keyWords": [
+    "cur síos",
+    "riail",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q208",
+   "ga": "An aontaíonn tú leis na rialacha. Cad chuige?",
+   "variants": [],
+   "en": "Do you agree with the rules? Why or why not?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Aontaím leis na rialacha mar",
+   "keyWords": [
+    "aontaigh",
+    "riail",
+    "cad chuige"
+   ],
+   "note": "The first sentence ends with a full stop rather than a question mark in the source; kept as given. Opener assumes agreement; a pupil who disagrees would begin 'Ní aontaím'."
+  },
+  {
+   "id": "Q209",
+   "ga": "Cad iad na háiseanna atá ar fáil sa scoil seo?",
+   "variants": [],
+   "en": "What facilities does this school have? For example sports hall, library, computer rooms.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q210",
+   "opener": "Sa scoil seo, tá",
+   "keyWords": [
+    "áis",
+    "ar fáil",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q210",
+   "ga": "Cad é atá speisialta faoin scoil seo?",
+   "variants": [],
+   "en": "What is special about this school? What makes it stand out?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá an scoil seo speisialta mar",
+   "keyWords": [
+    "speisialta",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q211",
+   "ga": "Déan cur síos ar d’éide scoile.",
+   "variants": [],
+   "en": "Describe your school uniform: the items and their colours.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q212",
+   "opener": "Ar scoil, caithim",
+   "keyWords": [
+    "cur síos",
+    "éide scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q212",
+   "ga": "An síleann tú gur rud maith í an éide scoile?",
+   "variants": [],
+   "en": "Do you think school uniform is a good thing? Give your view with reasons.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Maidir leis an éide scoile, sílim",
+   "keyWords": [
+    "síl",
+    "rud maith",
+    "éide scoile"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q213",
+   "ga": "An bhfuil tú i do bhall de chlub ar bith i ndiaidh na scoile?",
+   "variants": [],
+   "en": "Are you a member of any club after school?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q214",
+   "opener": "Tá, tá mé i mo bhall de",
+   "keyWords": [
+    "ball",
+    "club",
+    "i ndiaidh",
+    "scoil"
+   ],
+   "note": "The pupil continues with the club name lenited after de, for example de chlub peile."
+  },
+  {
+   "id": "Q214",
+   "ga": "An imríonn tú spórt ar bith ar scoil?",
+   "variants": [],
+   "en": "Do you play any sport at school?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q215",
+   "opener": "Ar scoil, imrím",
+   "keyWords": [
+    "imir",
+    "spórt",
+    "ar bith",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q215",
+   "ga": "An bhfuil tú ar fhoireann na scoile?",
+   "variants": [],
+   "en": "Are you on the school team?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "",
+   "opener": "Tá, tá mé ar fhoireann",
+   "keyWords": [
+    "foireann",
+    "scoil",
+    "ar"
+   ],
+   "note": "The pupil continues with the sport in the genitive, for example ar fhoireann peile na scoile."
+  },
+  {
+   "id": "Q216",
+   "ga": "An raibh tú riamh ar turas scoile?",
+   "variants": [],
+   "en": "Have you ever been on a school trip?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q217",
+   "opener": "Bhí, bhí mé ar thuras scoile",
+   "keyWords": [
+    "riamh",
+    "turas",
+    "scoil",
+    "raibh"
+   ],
+   "note": "The question has ar turas without lenition; ar thuras would be expected. The opener uses ar thuras. Please check which form should stand and make the question and opener match."
+  },
+  {
+   "id": "Q217",
+   "ga": "Cá háit a ndeachaigh tú?",
+   "variants": [],
+   "en": "Where did you go?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q221",
+   "opener": "Chuaigh muid go dtí",
+   "keyWords": [
+    "cá háit",
+    "téigh",
+    "ndeachaigh"
+   ],
+   "note": "Opener uses go dtí rather than go so that it stays correct before a place name with the article, for example go dtí an Fhrainc. Follows Q216, which supplies the trip context."
+  },
+  {
+   "id": "Q218",
+   "ga": "Cad é a dhéanann tú ag am lóin/am sosa/i ndiaidh na scoile?",
+   "variants": [
+    "Cad é a dhéanann tú ag am lóin?",
+    "Cad é a dhéanann tú ag am sosa?",
+    "Cad é a dhéanann tú i ndiaidh na scoile?"
+   ],
+   "en": "What do you do at lunchtime, at break, or after school?",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q219",
+   "opener": "De ghnáth, bíonn mé ag",
+   "keyWords": [
+    "déan",
+    "am lóin",
+    "am sosa",
+    "i ndiaidh na scoile"
+   ],
+   "note": "Opener is neutral across all three variants; the pupil continues with a verbal noun, for example ag caint le mo chairde."
+  },
+  {
+   "id": "Q219",
+   "ga": "Inis dom faoi imeachtaí/clubanna atá ann i ndiaidh na scoile.",
+   "variants": [
+    "Inis dom faoi imeachtaí atá ann i ndiaidh na scoile.",
+    "Inis dom faoi chlubanna atá ann i ndiaidh na scoile."
+   ],
+   "en": "Tell me about the activities or clubs that run after school.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q220",
+   "opener": "Tá go leor clubanna ann, mar shampla",
+   "keyWords": [
+    "inis",
+    "imeacht",
+    "club",
+    "i ndiaidh na scoile"
+   ],
+   "note": "The second variant resolves faoi clubanna to faoi chlubanna, lenition after faoi. Please confirm."
+  },
+  {
+   "id": "Q220",
+   "ga": "An síleann tú go bhfuil sé tábhachtach a bheith páirteach i gclubanna, i bhfoirne agus ar eile?",
+   "variants": [],
+   "en": "Do you think it is important to take part in clubs, teams and so on?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go bhfuil sé tábhachtach mar",
+   "keyWords": [
+    "síl",
+    "tábhachtach",
+    "páirteach",
+    "club",
+    "foireann"
+   ],
+   "note": "The closing agus ar eile looks like a slip for agus araile (and so on). Please check."
+  },
+  {
+   "id": "Q221",
+   "ga": "Déan cur síos ar turas scoile a raibh tú air.",
+   "variants": [],
+   "en": "Describe a school trip you went on.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q222",
+   "opener": "Chuaigh mé ar thuras scoile go dtí",
+   "keyWords": [
+    "cur síos",
+    "turas",
+    "scoil",
+    "raibh"
+   ],
+   "note": "As with Q216, the question has ar turas without lenition; ar thuras would be expected. The opener uses ar thuras. Please check."
+  },
+  {
+   "id": "Q222",
+   "ga": "An síleann tú gur rud maith é don oideachas rud cosúil le turas sciála mar thuras scoile?",
+   "variants": [],
+   "en": "Do you think something like a ski trip as a school trip is a good thing for education?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim gur rud maith é mar",
+   "keyWords": [
+    "síl",
+    "oideachas",
+    "turas sciála",
+    "cosúil le"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q223",
+   "ga": "An bhfuil post páirtaimseartha agat?",
+   "variants": [],
+   "en": "Do you have a part-time job? A yes or no answer, then say what it is.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q224",
+   "opener": "Tá post páirtaimseartha agam agus oibrím",
+   "keyWords": [
+    "post",
+    "páirtaimseartha"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q224",
+   "ga": "Cá háit a n-oibríonn tú?",
+   "variants": [],
+   "en": "Where do you work? Name the place, for example a shop, a cafe or a farm.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q225",
+   "opener": "Bím ag obair i",
+   "keyWords": [
+    "cá háit",
+    "oibrigh"
+   ],
+   "note": "Opener ends with 'i'; pupils naming a place with the article will need 'sa' or 'san' instead."
+  },
+  {
+   "id": "Q225",
+   "ga": "Cá mhéad uair an chloig a oibríonn tú?",
+   "variants": [],
+   "en": "How many hours do you work? Give a number of hours, usually per week.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q226",
+   "opener": "Oibrím thart faoi",
+   "keyWords": [
+    "cá mhéad",
+    "uair an chloig",
+    "oibrigh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q226",
+   "ga": "Cá mhéad airgid a fhaigheann tú?",
+   "variants": [],
+   "en": "How much money do you get? Say what you are paid, per hour or per week.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q227",
+   "opener": "Faighim thart faoi",
+   "keyWords": [
+    "cá mhéad",
+    "airgead",
+    "faigh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q227",
+   "ga": "An maith leat an obair?",
+   "variants": [],
+   "en": "Do you like the work? Say yes or no and give a simple reason.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q228",
+   "opener": "Is maith liom an obair mar",
+   "keyWords": [
+    "is maith le",
+    "obair"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q228",
+   "ga": "Cad é a cheannaíonn tú leis an airgead?",
+   "variants": [],
+   "en": "What do you buy with the money? Name the things you spend your wages on.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Leis an airgead, ceannaím",
+   "keyWords": [
+    "ceannaigh",
+    "airgead"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q229",
+   "ga": "An raibh tú ar thaithí oibre?",
+   "variants": [],
+   "en": "Were you on work experience? Yes or no, then say where or when.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q230",
+   "opener": "Bhí, bhí mé ar thaithí oibre",
+   "keyWords": [
+    "taithí oibre",
+    "bhí"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q230",
+   "ga": "Cá háit a raibh tú?",
+   "variants": [],
+   "en": "Where were you? Name the place you did your work experience.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q231",
+   "opener": "Bhí mé ag obair i",
+   "keyWords": [
+    "cá háit",
+    "bhí"
+   ],
+   "note": "Follow-up to Q229; only makes sense once work experience has been mentioned. Same 'i' versus 'sa' point as Q224."
+  },
+  {
+   "id": "Q231",
+   "ga": "Cad é a rinne tú?",
+   "variants": [],
+   "en": "What did you do? Describe the jobs you were given on work experience, in the past tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q232",
+   "opener": "Gach lá bhí mé ag",
+   "keyWords": [
+    "déan",
+    "rinne"
+   ],
+   "note": "Follow-up to Q230; the pupil continues with a verbal noun, for example 'ag cuidiú' or 'ag glanadh'."
+  },
+  {
+   "id": "Q232",
+   "ga": "Ar thaitin an obair leat?",
+   "variants": [],
+   "en": "Did you enjoy the work? Yes or no, with a reason, in the past tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Thaitin an obair go mór liom mar",
+   "keyWords": [
+    "taitin le",
+    "obair"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q233",
+   "ga": "Inis dom faoi d’obair pháirtaimseartha.",
+   "variants": [],
+   "en": "Tell me about your part-time job. Say where you work, when, and what you do.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q234",
+   "opener": "Tá post páirtaimseartha agam agus",
+   "keyWords": [
+    "inis",
+    "obair",
+    "páirtaimseartha"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q234",
+   "ga": "Cad é go díreach a dhéanann tú?",
+   "variants": [],
+   "en": "What exactly do you do? Give the actual tasks, for example serving customers or stacking shelves.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Gach lá san obair bím ag",
+   "keyWords": [
+    "go díreach",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q235",
+   "ga": "Inis dom faoi do thaithí oibre.",
+   "variants": [],
+   "en": "Tell me about your work experience. Say where you went, how long for, and what you did.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q236",
+   "opener": "Bhí mé ar thaithí oibre i",
+   "keyWords": [
+    "inis",
+    "taithí oibre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q236",
+   "ga": "Cad é mar a chuidigh taithí oibre leat?",
+   "variants": [],
+   "en": "How did work experience help you? Say what you learned or gained from it.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q237",
+   "opener": "Chuidigh taithí oibre go mór liom mar",
+   "keyWords": [
+    "cuidigh le",
+    "taithí oibre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q237",
+   "ga": "Déan cur síos ar lá nuair a bhí tú ar thaithí oibre.",
+   "variants": [],
+   "en": "Describe a day when you were on work experience. Take the examiner through the day from morning to finishing time.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Thosaigh mé ag obair ar a",
+   "keyWords": [
+    "cur síos",
+    "lá",
+    "taithí oibre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q238",
+   "ga": "An é do bharúil gur rud maith í obair pháirtaimseartha?",
+   "variants": [],
+   "en": "Do you think a part-time job is a good thing? Give your opinion.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q239",
+   "opener": "Sílim gur rud maith í mar",
+   "keyWords": [
+    "barúil",
+    "rud maith",
+    "obair pháirtaimseartha"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q239",
+   "ga": "Cad chuige?",
+   "variants": [],
+   "en": "Why? Explain the reason for what you have just said.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim é sin mar",
+   "keyWords": [
+    "cad chuige"
+   ],
+   "note": "Follow-up to Q238; on its own it has no content."
+  },
+  {
+   "id": "Q240",
+   "ga": "An gcuidíonn obair pháirtaimseartha le d’obair scoile nó an gcuireann se isteach uirthi?",
+   "variants": [],
+   "en": "Does a part-time job help with your school work, or does it get in the way of it? Weigh it up and say which.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I mo bharúil féin,",
+   "keyWords": [
+    "cuidigh le",
+    "cuir isteach ar",
+    "obair scoile"
+   ],
+   "note": "'se' is missing its fada in the source. Also 'obair' is feminine, so 'sí' would match 'uirthi' later in the same sentence. Suggest 'nó an gcuireann sí isteach uirthi'."
+  },
+  {
+   "id": "Q241",
+   "ga": "An mbeidh post páirtaimseartha agat i rith an tsamhraidh?",
+   "variants": [],
+   "en": "Will you have a part-time job over the summer? Answer in the future tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q242",
+   "opener": "Beidh, beidh mé ag obair i",
+   "keyWords": [
+    "beidh",
+    "post",
+    "samhradh"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q242",
+   "ga": "Cad é a dhéanfaidh tú?",
+   "variants": [],
+   "en": "What will you do? Describe the summer job in the future tense.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "I rith an tsamhraidh beidh mé ag",
+   "keyWords": [
+    "déan",
+    "dhéanfaidh"
+   ],
+   "note": "Follow-up to Q241; the pupil continues with a verbal noun."
+  },
+  {
+   "id": "Q243",
+   "ga": "Cad iad na scileanna a fhoghlaimíonn tú má bhíonn obair pháirtaimseartha agat?",
+   "variants": [],
+   "en": "What skills do you learn if you have a part-time job? Name skills such as teamwork, punctuality or handling money.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Foghlaimíonn tú a lán scileanna, mar shampla",
+   "keyWords": [
+    "scil",
+    "foghlaim",
+    "obair pháirtaimseartha"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q244",
+   "ga": "An bhfaigheann tú airgead póca?",
+   "variants": [],
+   "en": "Do you get pocket money? Yes or no, and say who gives it to you.",
+   "tier": "F",
+   "beginner": true,
+   "pairWith": "Q245",
+   "opener": "Faighim airgead póca ó",
+   "keyWords": [
+    "faigh",
+    "airgead póca"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q245",
+   "ga": "Cá mhéad airgead póca a fhaigheann tú sa tseachtain?",
+   "variants": [],
+   "en": "How much pocket money do you get a week? Give the amount.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q247",
+   "opener": "Gach seachtain faighim thart faoi",
+   "keyWords": [
+    "cá mhéad",
+    "airgead póca",
+    "seachtain"
+   ],
+   "note": "Q226 and Q246 have 'cá mhéad airgid' but this one has 'cá mhéad airgead póca'. Both forms are seen; check whether the principal wants them consistent."
+  },
+  {
+   "id": "Q246",
+   "ga": "Cá mhéad airgid a fhaigheann tú ó d’obair pháirtaimseartha?",
+   "variants": [],
+   "en": "How much money do you get from your part-time job? Give your wage, per hour or per week.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ó m’obair, faighim thart faoi",
+   "keyWords": [
+    "cá mhéad",
+    "airgead",
+    "obair pháirtaimseartha"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q247",
+   "ga": "Cad é mar a chaitheann tú d’airgead póca?",
+   "variants": [],
+   "en": "How do you spend your pocket money? Say what you spend it on.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q248",
+   "opener": "Caithim m’airgead póca ar",
+   "keyWords": [
+    "caith",
+    "airgead póca"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q248",
+   "ga": "An gcuireann tú airgead i dtaisce?",
+   "variants": [],
+   "en": "Do you save money? Yes or no, and say what you are saving for.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q249",
+   "opener": "Cuirim airgead i dtaisce mar",
+   "keyWords": [
+    "cuir i dtaisce",
+    "airgead"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q249",
+   "ga": "An bhfuil cuntas bainc agat?",
+   "variants": [],
+   "en": "Do you have a bank account? Yes or no, and say how you use it.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Tá, tá cuntas bainc agam agus",
+   "keyWords": [
+    "cuntas bainc"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q250",
+   "ga": "Cad é mar a fhoghlaimíonn tú an dóigh le hairgead a láimhseáil?",
+   "variants": [],
+   "en": "How do you learn how to handle money? Say who or what teaches you, for example parents, school or a job.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Foghlaimím faoi airgead ó",
+   "keyWords": [
+    "foghlaim",
+    "dóigh",
+    "láimhseáil",
+    "airgead"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q251",
+   "ga": "Cad é a dhéanann tú le hairgead póca a shaothrú?",
+   "variants": [],
+   "en": "What do you do to earn pocket money? Name jobs around the house or for neighbours.",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Le hairgead póca a shaothrú, bím ag",
+   "keyWords": [
+    "saothraigh",
+    "airgead póca",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q252",
+   "ga": "Cad é mar a fhoghlaimíonn tú faoi chúrsaí airgid ar scoil?",
+   "variants": [],
+   "en": "How do you learn about money matters at school? Name the subject or lessons where money comes up.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar scoil foghlaimím faoi airgead i",
+   "keyWords": [
+    "foghlaim",
+    "cúrsaí airgid",
+    "scoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q253",
+   "ga": "An síleann tú gur chóir do dhéagóirí airgead a thabhairt isteach don teach má bhíonn obair pháirtaimseartha acu?",
+   "variants": [],
+   "en": "Do you think teenagers should hand money in to the house if they have a part-time job? Give your opinion with a reason.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim gur chóir dóibh",
+   "keyWords": [
+    "síl",
+    "gur chóir",
+    "déagóir",
+    "tabhair isteach"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q254",
+   "ga": "Ar mhaith leat teacht ar ais ar scoil an bhliain seo chugainn?",
+   "variants": [],
+   "en": "Would you like to come back to school next year, that is, stay on into sixth form after your GCSEs?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q261",
+   "opener": "Ba mhaith liom teacht ar ais",
+   "keyWords": [
+    "ar mhaith leat",
+    "teacht ar ais",
+    "scoil",
+    "an bhliain seo chugainn"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q255",
+   "ga": "Ar mhaith leat Ardléibhéal a dhéanamh?",
+   "variants": [],
+   "en": "Would you like to do A levels?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q263",
+   "opener": "Ba mhaith, ba mhaith liom",
+   "keyWords": [
+    "ar mhaith leat",
+    "Ardléibhéal",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q256",
+   "ga": "Ar mhaith leat BTEC a dhéanamh?",
+   "variants": [],
+   "en": "Would you like to do a BTEC course?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q263",
+   "opener": "Ba mhaith liom BTEC a dhéanamh",
+   "keyWords": [
+    "ar mhaith leat",
+    "BTEC",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q257",
+   "ga": "Ar mhaith leat a dhul ar an choláiste breisoideachais?",
+   "variants": [],
+   "en": "Would you like to go to the further education college?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q262",
+   "opener": "Ba mhaith liom a dhul ar",
+   "keyWords": [
+    "ar mhaith leat",
+    "a dhul",
+    "coláiste",
+    "breisoideachas"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q258",
+   "ga": "Cad é an cúrsa a ba mhaith leat a dhéanamh?",
+   "variants": [],
+   "en": "What course would you like to do?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q263",
+   "opener": "Ba mhaith liom cúrsa a dhéanamh",
+   "keyWords": [
+    "cad é",
+    "cúrsa",
+    "ba mhaith leat",
+    "déan"
+   ],
+   "note": "Check the spelling \"a ba mhaith leat\" against \"ba mhaith leat\"; both are heard in Ulster speech and the same form appears in Q267."
+  },
+  {
+   "id": "Q259",
+   "ga": "Cad é ba mhaith leat a dhéanamh an bhliain seo chugainn?",
+   "variants": [],
+   "en": "What would you like to do next year?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q263",
+   "opener": "Ba mhaith liom",
+   "keyWords": [
+    "cad é",
+    "ba mhaith leat",
+    "déan",
+    "an bhliain seo chugainn"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q260",
+   "ga": "Inis dom cad é ba mhaith leat a dhéanamh an bhliain seo chugainn agus cad chuige.",
+   "variants": [],
+   "en": "Tell me what you would like to do next year and why.",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q264",
+   "opener": "Ba mhaith liom",
+   "keyWords": [
+    "inis dom",
+    "ba mhaith leat",
+    "an bhliain seo chugainn",
+    "cad chuige"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q261",
+   "ga": "Cad chuige ar mhaith leat teacht ar ais ar scoil in ionad dul ar an choláiste?",
+   "variants": [],
+   "en": "Why would you rather come back to school than go to college?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is fearr liom an scoil mar",
+   "keyWords": [
+    "cad chuige",
+    "teacht ar ais",
+    "in ionad",
+    "coláiste"
+   ],
+   "note": "Q257 has \"a dhul\" but Q261 and Q262 have \"dul\"; confirm whether the questions should be consistent."
+  },
+  {
+   "id": "Q262",
+   "ga": "Cad chuige ar mhaith leat dul ar an choláiste breisoideachais in ionad teacht ar ais ar scoil?",
+   "variants": [],
+   "en": "Why would you rather go to the further education college than come back to school?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Is fearr liom an coláiste mar",
+   "keyWords": [
+    "cad chuige",
+    "coláiste",
+    "breisoideachas",
+    "in ionad",
+    "teacht ar ais"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q263",
+   "ga": "Cad chuige ar mhaith leat na hábhair sin/an cúrsa sin a dhéanamh?",
+   "variants": [
+    "Cad chuige ar mhaith leat na hábhair sin a dhéanamh?",
+    "Cad chuige ar mhaith leat an cúrsa sin a dhéanamh?"
+   ],
+   "en": "Why would you like to do those subjects, or that course?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "Q264",
+   "opener": "Tá suim mhór agam",
+   "keyWords": [
+    "cad chuige",
+    "ábhar",
+    "cúrsa",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q264",
+   "ga": "Cad iad na grádanna a bheadh de dhíth ort leis sin a dhéanamh?",
+   "variants": [],
+   "en": "What grades would you need to be able to do that?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Leis sin a dhéanamh, bheadh",
+   "keyWords": [
+    "cad iad",
+    "grád",
+    "de dhíth",
+    "déan"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q265",
+   "ga": "Ar mhaith leat dul ar an ollscoil?",
+   "variants": [],
+   "en": "Would you like to go to university?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q266",
+   "opener": "Ba mhaith liom a dhul",
+   "keyWords": [
+    "ar mhaith leat",
+    "dul",
+    "ollscoil"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q266",
+   "ga": "Cé acu is fearr leat – dul ar an ollscoil anseo nó i dtír éigin eile?",
+   "variants": [],
+   "en": "Which would you prefer: going to university here or in another country?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "B'fhearr liom a dhul",
+   "keyWords": [
+    "cé acu",
+    "is fearr leat",
+    "ollscoil",
+    "tír eile"
+   ],
+   "note": "The question as given contains an en dash; the house rule bans dashes, so decide whether to replace it with a comma or colon in the app."
+  },
+  {
+   "id": "Q267",
+   "ga": "Cad é an cineál poist a ba mhaith leat?",
+   "variants": [],
+   "en": "What kind of job would you like?",
+   "tier": "F",
+   "beginner": false,
+   "pairWith": "Q268",
+   "opener": "Ba mhaith liom bheith i mo",
+   "keyWords": [
+    "cad é",
+    "cineál",
+    "post",
+    "ba mhaith leat"
+   ],
+   "note": "The opener needs lenition on the noun that follows (i mo dhochtúir, i mo mhúinteoir); see also the note on \"a ba mhaith\" at Q258."
+  },
+  {
+   "id": "Q268",
+   "ga": "Cad é a bheadh ort a dhéanamh le bheith i do dhochtúir/mhúinteoir?",
+   "variants": [
+    "Cad é a bheadh ort a dhéanamh le bheith i do dhochtúir?",
+    "Cad é a bheadh ort a dhéanamh le bheith i do mhúinteoir?"
+   ],
+   "en": "What would you have to do to become a doctor, or a teacher?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Ar dtús, bheadh orm",
+   "keyWords": [
+    "bheadh ort",
+    "déan",
+    "dochtúir",
+    "múinteoir"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Q269",
+   "ga": "Do bharúil an mbeidh saol na scoile difriúil agus tú i mBliain a Sé?",
+   "variants": [],
+   "en": "Do you think school life will be different when you are in sixth form?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "Sílim go mbeidh sé difriúil mar",
+   "keyWords": [
+    "do bharúil",
+    "saol na scoile",
+    "difriúil",
+    "Bliain a Sé"
+   ],
+   "note": "Pupils know sixth form as Year 13 and Year 14; check whether \"Bliain a Sé\" is the wording wanted or whether \"Bliain 13\" or \"an Séú Bliain\" would be clearer."
+  },
+  {
+   "id": "Q270",
+   "ga": "Cé acu ab’fhearr leat – obair anseo nó dul ag obair thar sáile? Cad chuige?",
+   "variants": [],
+   "en": "Which would you prefer: working here or going to work abroad? Why?",
+   "tier": "H",
+   "beginner": false,
+   "pairWith": "",
+   "opener": "B'fhearr liom a dhul ag obair",
+   "keyWords": [
+    "cé acu",
+    "ab fhearr leat",
+    "obair",
+    "thar sáile",
+    "cad chuige"
+   ],
+   "note": "\"ab’fhearr\" is written with a curly apostrophe and no space; the standard spelling is \"ab fhearr\". The question also contains an en dash, which the house rule bans."
+  }
+ ],
+ "pages": [
+  {
+   "topic": "Myself, my family, relationships and choices",
+   "ga": "Mé féin agus mo theaghlach",
+   "short": "Mé féin",
+   "note": "Existing vocabulary heading kept as is. Relationships and choices are covered in the questions under this page; a longer title such as 'Mé féin, mo theaghlach agus mo chairde' would be safe if the principal wants the relationships strand named."
+  },
+  {
+   "topic": "Social media and new technology",
+   "ga": "Na meáin shóisialta agus an teicneolaíocht",
+   "short": "Na meáin",
+   "note": "Merges the two existing headings 'Na meáin shóisialta' and 'Teicneolaíocht nua'. Uses the article before teicneolaíocht for a natural spoken title; 'teicneolaíocht nua' without the article is equally acceptable if the principal prefers to match the vocabulary list exactly."
+  },
+  {
+   "topic": "Free time, leisure and daily routine",
+   "ga": "Caitheamh aimsire agus dialann an lae",
+   "short": "Caitheamh aimsire",
+   "note": "Joins the two existing headings 'Caitheamh aimsire' and 'Dialann an lae'. Both are already in the vocabulary list, so no new forms introduced."
+  },
+  {
+   "topic": "Culture, customs, festivals and celebrations",
+   "ga": "Nósanna, féilte agus ceiliúradh",
+   "short": "Féilte",
+   "note": "Existing vocabulary heading kept as is. 'Cultúr' is not added because the heading already reads as a complete title of three items and the questions on this page are about customs and festivals rather than culture in the abstract."
+  },
+  {
+   "topic": "My local area and the wider environment",
+   "ga": "Mo cheantar agus an timpeallacht",
+   "short": "Mo cheantar",
+   "note": "Draws on both existing headings 'Mo bhaile agus mo cheantar' and 'An timpeallacht áitiúil'. 'An timpeallacht' on its own lets the page carry the wider environment as well as the local one, which the English topic asks for."
+  },
+  {
+   "topic": "Community involvement",
+   "ga": "An pobal agus an obair dheonach",
+   "short": "An pobal",
+   "note": "No existing heading for this topic. 'An pobal' (community) and 'obair dheonach' (voluntary work) are standard forms; a shorter alternative is 'Páirt sa phobal'. Worth the principal's eye as it is newly drafted."
+  },
+  {
+   "topic": "Social and global issues",
+   "ga": "Cúrsaí sóisialta agus domhanda",
+   "short": "Cúrsaí sóisialta",
+   "note": "Extends the existing heading 'Cúrsaí sóisialta' with 'domhanda' to cover the global strand. 'Domhanda' is the standard adjective for global."
+  },
+  {
+   "topic": "Travel and tourism",
+   "ga": "Taisteal agus turasóireacht",
+   "short": "Taisteal",
+   "note": "Existing vocabulary heading kept as is."
+  },
+  {
+   "topic": "My studies and school life",
+   "ga": "M'obair scoile agus saol na scoile",
+   "short": "An scoil",
+   "note": "Extends the existing heading 'M'obair scoile' with 'saol na scoile' to cover school life beyond the subjects. If a shorter title is wanted, 'M'obair scoile' alone matches the vocabulary list."
+  },
+  {
+   "topic": "Extra-curricular activities",
+   "ga": "Imeachtaí iarscoile",
+   "short": "Iarscoile",
+   "note": "Existing vocabulary heading kept as is."
+  },
+  {
+   "topic": "Part-time jobs and money management",
+   "ga": "Obair pháirtaimseartha agus airgead",
+   "short": "Obair agus airgead",
+   "note": "Joins the existing headings 'Obair pháirtaimseartha' and 'Láimhseáil airgid'. 'Airgead' alone keeps the title short; 'Obair pháirtaimseartha agus láimhseáil airgid' is the fuller form if the principal prefers it to match the list exactly."
+  },
+  {
+   "topic": "Future plans and career",
+   "ga": "Pleanáil don todhchaí agus slí bheatha",
+   "short": "An todhchaí",
+   "note": "Existing vocabulary heading kept as is."
+  }
+ ]
+}

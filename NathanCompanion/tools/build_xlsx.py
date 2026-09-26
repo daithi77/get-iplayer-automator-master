@@ -223,6 +223,34 @@ for row in kg.iter_rows(min_row=2,max_row=KGSPARE,min_col=2,max_col=5):
     for cl in row: cl.fill=EDIT
 for rr in range(2,LASTKG+1): kg.row_dimensions[rr].height=110
 
+# ---------------- Questions authored (optional, argv[4]) ----------------
+QA=None
+if len(sys.argv)>4:
+    QA=json.load(open(sys.argv[4]))
+    qa=wb.create_sheet('Questions authored')
+    qacols=['ID','Question (Irish)','Variants (resolved)','English gloss','Tier','Beginner','Follow-up','Opener','Key words','Drafting note','Status','Sign-off note']; qaw=[8,46,46,44,6,9,10,30,26,50,10,30]
+    header(qa,qacols,qaw); r=2
+    for it in QA['questions']:
+        vals=[it['id'],it['ga'],'\n'.join(it['variants']),it['en'],it['tier'],'Y' if it['beginner'] else '',it['pairWith'],it['opener'],', '.join(it['keyWords']),it['note'],'Raw','']
+        for j,v in enumerate(vals,1): qa.cell(row=r,column=j,value=v)
+        r+=1
+    LASTQA=r-1; QASPARE=600
+    finish(qa,len(qacols),QASPARE)
+    for col,key in [('E','Tier'),('K','Status')]: dv(qa,col,key,QASPARE)
+    for row in qa.iter_rows(min_row=2,max_row=QASPARE,min_col=3,max_col=12):
+        for cl in row:
+            if cl.column!=10: cl.fill=EDIT
+    pg=wb.create_sheet('Pages')
+    pgcols=['Topic (English)','Page title (Irish)','Short label','Drafting note','Status','Sign-off note']; pgw=[44,44,22,60,10,30]
+    header(pg,pgcols,pgw); r=2
+    for p in QA['pages']:
+        for j,v in enumerate([p['topic'],p['ga'],p['short'],p['note'],'Raw',''],1): pg.cell(row=r,column=j,value=v)
+        r+=1
+    finish(pg,len(pgcols),60); dv(pg,'E','Status',60)
+    for row in pg.iter_rows(min_row=2,max_row=60,min_col=2,max_col=6):
+        for cl in row:
+            if cl.column!=4: cl.fill=EDIT
+
 # ---------------- READ ME ----------------
 rm=wb.create_sheet('READ ME',0)
 rm.column_dimensions['A'].width=30; rm.column_dimensions['B'].width=95
@@ -243,6 +271,8 @@ lines=[('Nathán companion: corpus workbook',H1),('',ARIAL),
 ('KS3 vocabulary','The Key Stage 3 appendix list as issued for consultation, in its frequency order: about 800 headwords with part of speech, gender and frequency rank. The primary spine for Years 8 to 10.'),
 ('KS3 phonics','The sound-symbol correspondences from the same appendix, each with a source word and cluster words.'),
 ('KS3 grammar','The Irish grammar features from the appendix. Only the two Irish columns were taken; the draft sheet\'s first four columns carry Spanish content by mistake and were left out.'),
+('Questions authored','The 270 conversation questions with a drafted English gloss, tier (F or H), a Beginner flag (answerable in one sentence three months into Irish), the natural follow-up question, an Ulster opener the pupil continues, key words, and the drafter\'s note. Drafted by Claude, checked by an independent pass, awaiting your sign-off: set Status to Checked or Edited row by row.'),
+('Pages','The twelve topic pages with proposed Irish titles and short labels for tight spaces.'),
 ('',ARIAL),('Example of an added row (Vocabulary)',BOLD),
 ('','ID V2248 | Irish: scáthán | Gender: m | Number: sg | Type: noun | English: mirror | Context: 2 Local, National, International and Global | Topic: My local environment | Sub-topic: In my house | Status: Added | Origin: Added'),
 ('',ARIAL),('Counts',BOLD)]
@@ -256,6 +286,7 @@ counts=[('Vocabulary rows',f"=COUNTA(Vocabulary!A2:A{SPARE})"),('  Raw',f'=COUNT
 ('  Verbs',f'=COUNTIF(Vocabulary!E2:E{SPARE},"verb")'),('  Nouns marked masculine',f'=COUNTIF(Vocabulary!C2:C{SPARE},"m")'),('  Nouns marked feminine',f'=COUNTIF(Vocabulary!C2:C{SPARE},"f")'),('  English missing',f'=COUNTIFS(Vocabulary!A2:A{SPARE},"<>",Vocabulary!I2:I{SPARE},"")'),
 ('Speaking questions',f"=COUNTA('Speaking questions'!A2:A{QSPARE})"),('  with a Foundation model answer',f"=COUNTIFS('Speaking questions'!A2:A{QSPARE},\"<>\",'Speaking questions'!G2:G{QSPARE},\"<>\")"),
 ('Grammar points',f"=COUNTA(Grammar!A2:A{GSPARE})"),('Rubrics',f"=COUNTA(Rubrics!A2:A{RSPARE})"),('KS3 headwords',f"=COUNTA('KS3 vocabulary'!A2:A{KSPARE})"),('  GCSE words with a KS3 rank',f"=COUNT(Vocabulary!S2:S{SPARE})"),('KS3 sound-symbol correspondences',f"=COUNTIF('KS3 phonics'!K2:K{PSPARE},\"Raw\")"),('KS3 grammar terms',f"=COUNTA('KS3 grammar'!A2:A{KGSPARE})")]
+if QA: counts+= [('Questions authored',f"=COUNTA('Questions authored'!A2:A{QASPARE})"),('  signed off (Checked or Edited)',f"=COUNTIF('Questions authored'!K2:K{QASPARE},\"Checked\")+COUNTIF('Questions authored'!K2:K{QASPARE},\"Edited\")"),('  beginner questions',f"=COUNTIF('Questions authored'!F2:F{QASPARE},\"Y\")")]
 for a,f in counts:
     rm.cell(row=r,column=1,value=a).font=ARIAL; cl=rm.cell(row=r,column=2,value=f); cl.font=ARIAL; cl.alignment=Alignment(horizontal='left'); r+=1
 rm.cell(row=r+1,column=1,value='Sources: the specification appendices supplied as a PDF (71 pages; Source page numbers refer to it), and the Key Stage 3 Irish appendix spreadsheet issued for consultation. Both extracted automatically on 26 September 2026.').font=Font(name='Arial',size=9,italic=True)
