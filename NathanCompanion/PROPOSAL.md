@@ -198,3 +198,5 @@ Audio ruling, same night: **bring audio forward now**, the Abair Ulster voice fo
 Framework ruling, same night: **Conti's method, the framework's content.** Sentence builders are built from the Key Stage 3 high-frequency words and grammar; phonics is taught through listening to those same chunks.
 
 Stages ruling, same night: the app takes on **the first four stages of MARS EARS**: modelling, awareness-raising, receptive processing and structured production, one sentence builder at a time. Expansion, autonomy, routinisation and spontaneity stay in the classroom.
+
+Ulster forms ruling, same night: accepted as drafted: 'an t-ainm atá orm' beside 'Is mise', 's'againne', 'achan', and 'tá sí' after feminine school subjects.
