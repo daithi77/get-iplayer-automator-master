@@ -45,7 +45,7 @@ If Archive is greyed out or fails, open the same folder in the **Swift Playgroun
 
 1. In App Store Connect, open the app and the **TestFlight** tab. The build shows as *Processing* for 10 to 30 minutes.
 2. When asked about **export compliance**, choose **None of the algorithms mentioned above**. The app uses no encryption.
-3. **Internal testers** (quickest, no review): under **Internal Testing**, press **+**, make a group and add yourself or colleagues. They must be users on your App Store Connect account. Up to 100 people.
+3. **Internal testers** (quickest, no review). First invite your colleague into App Store Connect: **Users and Access > +**, enter their name and school email, tick the **Developer** role (or **Marketing**, which is enough to test), and send. They accept the email invitation. Then, back in the app's **TestFlight** tab, under **Internal Testing** press **+**, name a group (for example *Staff*), and add yourself and the colleague. Up to 100 people.
 4. **External testers** (anyone with an email address): needs Apple's beta review, usually about a day. **Wait for ABAIR's written consent before this step**, because it distributes Áine's voice beyond your own devices.
 5. Each tester installs the free **TestFlight** app, opens the invitation email and taps **Install**.
 
