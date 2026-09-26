@@ -200,3 +200,17 @@ Framework ruling, same night: **Conti's method, the framework's content.** Sente
 Stages ruling, same night: the app takes on **the first four stages of MARS EARS**: modelling, awareness-raising, receptive processing and structured production, one sentence builder at a time. Expansion, autonomy, routinisation and spontaneity stay in the classroom.
 
 Ulster forms ruling, same night: accepted as drafted: 'an t-ainm atá orm' beside 'Is mise', 's'againne', 'achan', and 'tá sí' after feminine school subjects.
+
+## 20. Sources checked, 26 September 2026, night (network opened by Dáithí)
+
+**Conti, in his own words (gianfrancoconti.com, posts of 31 August and 20 September 2026).**
+- He has written directly about Northern Ireland: the NCELP-style "three pillars" (phonics, vocabulary, grammar) are sound components but a weak pedagogy, because knowing components is not the same as deploying them in real time. Frequency is "a useful criterion, not a curriculum": it must be balanced against usefulness to a thirteen-year-old, learnability and learner interest. Motivation is the biggest weakness he names. This confirms the ruling in section 19: the framework's content, Conti's method.
+- Chunks are cognitive scaffolding, not a substitute for grammar: learners first retrieve familiar sequences, then patterns are noticed, substituted and explained.
+- Listening is modelling and processing practice, not comprehension testing.
+- The stage teachers rush is **retrieval practice between using a sentence builder and dispensing with it**. This is where an app is strongest, and it should be the app's centre of gravity.
+- Writing is trained as processes in "micro-writing": retrieve five chunks from English or picture prompts, combine three chunks into one sentence, extend a sentence with when/where/who, rewrite present as past, correct a wrong sentence, upgrade a sentence. Little and often.
+
+**Abair (abair.ie, terms in force from 25 September 2025).**
+- Ulster voice: Áine, voice id `ga_UL_anb_piper`. The website calls `https://synthesis.abair.ie/api/synthesise?input=…&voice=ga_UL_anb_piper&normalise=true`. That host is not yet reachable from this session; `synthesis.abair.ie` needs adding to the allowed domains.
+- Terms: generated audio may be used "for personal, educational, or non-commercial purposes"; commercial use needs prior written consent; users of the service must be 16 or over or have parental consent. The embeddable reader is free and needs only the ABAIR mark as attribution.
+- Consequence for design: pupils should not call Abair directly. The audio for every chunk and model sentence is generated once, by the school, checked by Dáithí, and shipped inside the app. Written consent from the ABAIR team should be sought before any App Store release.
