@@ -25,13 +25,13 @@ Everything happens on your MacBook. Allow about an hour the first time. After th
 
 1. In the left-hand list, click the top item, **Gan Ainm**.
 2. Find **Signing & Capabilities** (or **Signing**). Under **Team**, choose your name.
-3. The bundle identifier is `ie.stpaulsbessbrook.gaeilge`. Leave it as it is.
+3. The bundle identifier is `com.feirste.gaeilge`. Leave it as it is.
 
 ## 4. Create the app in App Store Connect
 
 1. Go to appstoreconnect.apple.com and sign in.
 2. **Apps > + > New App.**
-3. Platform: **iOS**. Name: **Gan Ainm** (if the name is taken, try **Gan Ainm Gaeilge**; the name can be changed later, the bundle ID cannot). Primary language: **English (UK)**. Bundle ID: choose `ie.stpaulsbessbrook.gaeilge`. SKU: `ganainm-001`. User access: **Full Access**.
+3. Platform: **iOS**. Name: **Gan Ainm** (if the name is taken, try **Gan Ainm Gaeilge**; the name can be changed later, the bundle ID cannot). Primary language: **English (UK)**. Bundle ID: choose `com.feirste.gaeilge`. SKU: `ganainm-001`. User access: **Full Access**.
 4. If the bundle ID is not in the list, go back to Xcode, run the app once on your own iPhone (plug it in and choose it as the device), then try again. Xcode registers the ID for you.
 
 ## 5. Upload a build

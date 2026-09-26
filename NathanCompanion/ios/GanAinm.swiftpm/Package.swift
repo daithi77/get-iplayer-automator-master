@@ -15,7 +15,7 @@ let package = Package(
         .iOSApplication(
             name: "Gan Ainm",
             targets: ["AppModule"],
-            bundleIdentifier: "ie.stpaulsbessbrook.gaeilge",
+            bundleIdentifier: "com.feirste.gaeilge",
             displayVersion: "0.1",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),

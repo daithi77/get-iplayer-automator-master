@@ -11,7 +11,7 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
 
     private var player: AVAudioPlayer?
     /// Starting, stopping and setting up audio can block, so it all happens here, in order, off the main thread.
-    private let audioQueue = DispatchQueue(label: "ie.stpaulsbessbrook.gaeilge.audio", qos: .userInitiated)
+    private let audioQueue = DispatchQueue(label: "com.feirste.gaeilge.audio", qos: .userInitiated)
     private var timer: Timer?
     private var weights: [Double] = []
     private var onEnd: (() -> Void)?
