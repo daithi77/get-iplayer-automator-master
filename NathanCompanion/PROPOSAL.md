@@ -184,3 +184,7 @@ Dáithí did not recognise the panel's brief (the candidate box with a date, the
 ## 17. Rejection, 26 September 2026, late evening
 
 After seeing eight screens of it (canvas row E), Dáithí rejected the notebook: **the look and the idea both.** The exam-script look, chosen for one screen, became a homework jotter across a whole app. The "pupil writes their own answers, one a night" idea came from Claude's concept panels, not from Dáithí, and was never his. What stands from the day: the corpus and its cleaning workbook; the Key Stage 3 analysis; the whole-school scope; the ADHD fork; the red pen in Dáithí's own hand; the 270 questions authored for sign-off; the grammar exemplars being rewritten in Ulster Irish; the verb-form toggle ruling. What the app should do for a pupil is to be restated by Dáithí in his own words before anything else is drawn.
+
+## 18. Restart, 26 September 2026, night
+
+Dáithí found the working web app (artifact MjhJntQp8bnP5b7hKzzteC) functional but disjointed and not enjoyable, declined Nathán as a model ("a different category of app"), and declined the proposed single-round redesign. Ruling: **scrap the product design and start again.** The data work carries over untouched: the cleaned word lists, the 270 authored questions, the grammar exemplars in Ulster Irish, the verb-form rulings, the marking hand. The restart begins from the problem the app exists to solve, in Dáithí's words, before any screen.
