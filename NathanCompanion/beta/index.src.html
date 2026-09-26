@@ -135,6 +135,12 @@ button,input{font:inherit;color:inherit}
 .table li{break-inside:avoid;padding:2px 0}
 .prompt{font-size:22px;font-weight:700;background:var(--k0);color:var(--k0i);border-radius:12px;padding:12px 14px;line-height:1.35}
 .selfmark{display:flex;gap:10px;flex-wrap:wrap}
+.slide .model{font-size:clamp(22px,3vw,44px)}
+.slide .ruletext{font-size:clamp(19px,2.2vw,32px);max-width:60ch;margin:0;line-height:1.45}
+.slide .gtab{margin:0;padding-left:1.2em;columns:3 18ch;column-gap:2em;font-size:clamp(18px,2vw,30px)}
+.slide .gtab li{break-inside:avoid;padding:4px 0}
+.slide .prompt{font-size:clamp(24px,3.2vw,48px)}
+.slide .answer-big{font-size:clamp(24px,3.2vw,48px);font-weight:700;background:var(--penw);border-radius:14px;padding:14px 18px;margin:0}
 </style>
 
 <div class="app" id="app"><p class="note">Ag lódáil…</p></div>
@@ -216,10 +222,13 @@ function render(){
   if(view==='teach'){app.classList.remove('wide');app.innerHTML=`${head('Don rang','Slides for the class screen',true)}
       <p class="lede">Sleamhnáin do mhúinteoirí: one builder row per slide, with Áine's voice. Tap a chunk to hear it. Use the arrow keys, Page Up and Page Down, or a presenter clicker to move.</p>
       <div class="units">${U.map((u,i)=>`<button class="unit" data-act="deck" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)} · ${u.rows.length+2} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>
+      ${G?`<p class="lab" style="margin-top:8px">Gramadach · AS agus A2 · grammar slides</p>${DRAFT}`+G.groups.map(g=>`<div class="ggroup"><h2><span aria-hidden="true">${g.emoji}</span> ${esc(g.ga)}</h2>${g.sections.map(id=>{const x=G.sections[id];return `<button class="gsec" data-act="gdeck" data-id="${id}"><span class="t"><b lang="ga">${esc(x.title)}</b><span class="s">${esc(x.en)}</span></span><span class="go">▶</span></button>`;}).join('')}</div>`).join(''):''}
       <div class="card"><p class="lab">Ar an teilifís · on the class screen</p>
       <p><b>Interactive panel, projector or laptop:</b> open this link in the browser and choose a unit. Add <b>#rang</b> to the end of the link to open straight here.</p>
-      <p><b>Apple TV:</b> mirror an iPad from Control Centre, Screen Mirroring, and hold it sideways. The Gan Ainm iPhone and iPad app has the same slides.</p></div>`;return;}
+      <p><b>Apple TV:</b> mirror an iPad from Control Centre, Screen Mirroring, and hold it sideways. The Gan Ainm iPhone and iPad app has the same slides.</p>
+      <p><b>Grammar slides:</b> on a practice slide, the first press of the clicker or the right arrow shows the answer; the next press moves on.</p></div>`;return;}
   if(view==='deck'){app.classList.add('wide');app.innerHTML=deckHTML();return;}
+  if(view==='gdeck'){app.classList.add('wide');app.innerHTML=gdeckHTML();return;}
   if(view==='home'){
     app.classList.remove('wide');
     app.innerHTML=`<div class="top"><h1>Gan Ainm<span class="sub">Bliain 8 · Gaeilge Uladh</span></h1><div class="toprow"><button class="icon" data-act="intro" aria-label="Faoin aip. About the app">ⓘ</button><button class="pill" data-act="teach">📺 Don rang</button></div></div>
@@ -330,6 +339,7 @@ function gMatch(typed,answer){const a=canon(typed),b=canon(answer);if(a===b)retu
 const gProgress=sec=>{const it=sec.items;if(!it.length)return 0;return Math.round(100*it.filter(x=>(S.sent[gid(x.answer)]||{}).box>=2).length/it.length);};
 function gramHomeHTML(){
   return `${head('Gramadach','AS agus A2 · Years 13 and 14',true)}${DRAFT}
+    <div><button class="pill" data-act="teach">📺 Don rang · slides for the class screen</button></div>
     <p class="lede">Gach alt: patrún, riail, cleachtadh. Each section: see the pattern, learn the rule, then practise.</p>
     ${G.groups.map(g=>`<div class="ggroup"><h2><span aria-hidden="true">${g.emoji}</span> ${esc(g.ga)} · ${esc(g.en)}</h2>
       ${g.sections.map(id=>{const x=G.sections[id];const p=gProgress(x);return `<button class="gsec" data-act="gopen" data-id="${id}"><span class="t"><b lang="ga">${esc(x.title)}</b><span class="s">${esc(x.en)} · ${x.items.length} cleachtadh</span><span class="bar"><i style="width:${p}%"></i></span></span><span class="go">→</span></button>`;}).join('')}</div>`).join('')}`;
@@ -398,6 +408,35 @@ function gCheck(skip){
   gs.res=r;gRecord(r.ok);render();
 }
 function gRecord(ok){const it=gs.items[gs.i];gs.log.push({ok,answer:it.answer});bump(gid(it.answer),ok);save();}
+
+/* grammar slides for the class screen: title, pattern, one slide per rule and table, practice with the answer on a tap */
+let gd=null;
+function gSlides(sec){
+  const byPoint={};sec.models.forEach(m=>(byPoint[m.point]=byPoint[m.point]||[]).push(m));
+  const pts=Object.keys(byPoint).filter(k=>byPoint[k].length>=3);
+  const focus=pts.length?pick(pts):null;
+  const models=focus?shuffle(byPoint[focus]).slice(0,6):shuffle(sec.models).slice(0,6);
+  const lead=focus?shuffle(sec.items.filter(x=>x.point===focus)).slice(0,4):[];
+  const items=lead.concat(shuffle(sec.items.filter(x=>!lead.includes(x)))).slice(0,8);
+  return [{t:'title'}].concat(models.length?[{t:'pattern',models}]:[],sec.rules.map(r=>({t:'rule',r})),sec.tables.map(tb=>({t:'table',tb})),items.map(it=>({t:'item',it})),[{t:'end'}]);
+}
+function gdeckHTML(){
+  const x=gd.sec,n=gd.slides.length,p=gd.page,sl=gd.slides[p];let inner='';
+  if(sl.t==='title') inner=`<h2 lang="ga">${esc(x.title)}</h2><p class="lbl en">${esc(x.en)}</p><p class="pen h">Patrún · Riail · Cleachtadh</p>${DRAFT}`;
+  else if(sl.t==='pattern') inner=`<p class="pen h">Patrún</p><p class="lbl">Cad é atá cosúil eatarthu? <span class="en">What do they have in common?</span></p>${sl.models.map(m=>`<p class="model" lang="ga">${esc(m.ga)}${m.cue?`<span class="cue en">${esc(m.cue)}</span>`:''}</p>`).join('')}`;
+  else if(sl.t==='rule') inner=`<p class="pen h">Riail</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.r.point)}</h2><p class="ruletext">${esc(sl.r.text)}</p>`;
+  else if(sl.t==='table') inner=`<p class="pen h">Tábla</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.tb.title)}</h2><ul class="gtab" lang="ga">${sl.tb.forms.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`;
+  else if(sl.t==='item'){const t=TASK[sl.it.shape]||TASK.stem;
+    inner=`<p class="pen h">Cleachtadh</p><p class="lbl">${t[0]} <span class="en">${t[1]}</span></p><p class="prompt" lang="ga">${esc(sl.it.prompt)}</p>
+      ${gd.shown?`<p class="answer-big" lang="ga">${esc(sl.it.answer)}</p>`:`<div><button class="play" data-act="gdshow">Taispeáin an freagra · show the answer</button></div>`}`;}
+  else inner=`<p class="pen h">Críoch</p><h2 lang="ga">${esc(x.title)}</h2><div><button class="play" data-act="teach">Na sleamhnáin eile · other slides</button></div>`;
+  return `<div class="deckbar"><button class="icon" data-act="teach" aria-label="Siar. Back to slides">←</button><b class="sp" lang="ga">${esc(x.title)}</b>
+    <button class="pill" data-act="gden">${gd.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla'}</button>
+    <button class="pill" data-act="dfull">⛶ Lánscáileán</button>
+    <button class="pill" data-act="gdprev" ${p===0?'disabled':''} aria-label="Siar. Previous slide">◀</button><span class="counter">${p+1} / ${n}</span><button class="pill" data-act="gdnext" ${p===n-1?'disabled':''} aria-label="Ar aghaidh. Next slide">▶</button></div>
+    <div class="slide ${gd.en?'':'noen'}">${inner}</div>`;
+}
+function gdGo(p){p=Math.max(0,Math.min(gd.slides.length-1,p));if(p===gd.page)return;gd.page=p;gd.shown=false;render();}
 
 /* classroom slides */
 let deck=null;
@@ -498,6 +537,11 @@ const A={
     const u=S.units[unit.id]||{runs:0};u.runs++;S.units[unit.id]=u;save();sess.step=4;render();scrollTo(0,0);
   },
   again:()=>startUnit(U.indexOf(unit)),
+  gdeck:el=>{const sec=G.sections[el.dataset.id];gd={sec,slides:gSlides(sec),page:0,en:true,shown:false};view='gdeck';render();scrollTo(0,0);},
+  gdnext:()=>gdGo(gd.page+1),
+  gdprev:()=>gdGo(gd.page-1),
+  gdshow:()=>{gd.shown=true;render();},
+  gden:()=>{gd.en=!gd.en;render();},
   gram:()=>{hush();view='gram';render();scrollTo(0,0);},
   gopen:el=>gOpen(el.dataset.id),
   gnext:()=>{if(gs.step===1&&!gs.items.length){gs.step=3;}else gs.step++;gs.i=0;gs.res=null;gs.typed='';render();scrollTo(0,0);},
@@ -530,6 +574,11 @@ document.addEventListener('click',e=>{
   if(a.dataset.act==='choose'){sess.selHad=sess.sel.includes(a.dataset.cid);sess.lastTap=a.dataset.cid;}
   A[a.dataset.act]&&A[a.dataset.act](a,e);
 });
+document.addEventListener('keydown',e=>{if(view!=='gdeck'||e.target.id==='typed')return;
+  if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();const sl=gd.slides[gd.page];if(sl.t==='item'&&!gd.shown){A.gdshow();}else gdGo(gd.page+1);}
+  else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();gdGo(gd.page-1);}
+  else if(e.key==='ArrowDown'||e.key===' '){e.preventDefault();A.gdshow();}
+  else if(e.key==='e'||e.key==='E'){A.gden();}});
 document.addEventListener('keydown',e=>{if(view!=='deck'||e.target.id==='typed')return;
   if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();deckGo(deck.page+1);}
   else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();deckGo(deck.page-1);}
@@ -537,7 +586,7 @@ document.addEventListener('keydown',e=>{if(view!=='deck'||e.target.id==='typed')
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='typed'){e.preventDefault();const b=document.querySelector('[data-act="check"],[data-act="next"],[data-act="gnextItem"]');if(b)b.click();}});
 Promise.all([fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}),
   fetch('data/packs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
-  fetch('data/grammar.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,pk,gr])=>{U=d;PACKS=pk;G=gr;window.__t={U,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,canon};
+  fetch('data/grammar.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,pk,gr])=>{U=d;PACKS=pk;G=gr;window.__t={U,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,gd:()=>gd,canon};
     let seen=false;try{seen=!!localStorage.getItem('abair-leat.intro');}catch(e){}
     view=location.hash==='#rang'?'teach':(seen?'home':'intro');render();})
   .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});
