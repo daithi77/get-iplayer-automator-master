@@ -156,3 +156,11 @@ Read 26 September 2026: the draft Modern Languages framework, the explanation of
 1. In the Irish grammar sheet, columns A to D carry the Spanish appendix's content (feminine nouns "-o changes to -a", ser and estar, algún). The Irish grammar proper sits in columns E and F and runs to nine rows. The Irish grammar appendix is both contaminated and thin.
 2. 29 vocabulary rows have no part of speech; several common words are absent (cailín, buachaill, go raibh maith agat) while madadh sits at rank 3806.
 3. "Standard variety" pronunciation is undefined for Irish, which has three.
+
+## 12. Concept ruling, 26 September 2026
+
+A five-angle concept panel (see CONCEPT.md) chose the pupil's own exam script as the idea that runs through the app. Dáithí's rulings on the brief's three open questions:
+
+1. **The whole school, not Years 11 and 12 only.** The thread has to hold for a Year 8 with no exam date. The brief is being adapted.
+2. **Wait for Abair.** No teacher recording of the 270 questions; the questions stay in print until the synthetic Ulster voice is wired in.
+3. **Dáithí signs off every line of Irish himself**, page titles, glosses, pen phrases included.
