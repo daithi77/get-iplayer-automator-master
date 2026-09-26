@@ -18,7 +18,7 @@ for u in units:
     for r in u['rows']:
         for col in r['columns']:
             for c in col: needed.add(c['id'])
-        for s in r['sentences']: needed.add(s['audio'])
+        for s in r.get('all', r['sentences']): needed.add(s['audio'])
 have = 0
 for n in sorted(needed):
     src = os.path.join(beta, 'audio', n + '.mp3')

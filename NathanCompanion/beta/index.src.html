@@ -75,6 +75,7 @@ button,input{font:inherit;color:inherit}
 .mark{font-family:'Marking Hand','Bradley Hand',cursive;color:var(--pen);font-size:30px;line-height:1;transform:rotate(-2deg);display:inline-block}
 .fix{background:var(--penw);border-radius:12px;padding:10px 14px;display:flex;flex-direction:column;gap:4px}
 .fix .pen{font-size:26px;line-height:1.1}
+.fix .play{align-self:flex-start}
 .gloss{color:var(--muted);font-size:15px}
 .results li{display:flex;gap:12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--rule)}
 .results ul{list-style:none;margin:0;padding:0}
@@ -134,11 +135,23 @@ try{const t=localStorage.getItem(KEY);if(t)S=Object.assign(S,JSON.parse(t));}cat
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}};
 function bump(id,ok){const s=S.sent[id]||{box:0,due:0};s.box=ok?Math.min(s.box+1,INT.length-1):0;s.due=Date.now()+INT[s.box]*DAY;S.sent[id]=s;}
 
-/* audio */
-let cur=null;
+/* audio: each unit's clips arrive as one packed file, sliced into playable clips in the browser */
+let cur=null, epoch=0, PACKS={};
+const CLIPS={}, loading={};
+function ensurePack(u){
+  if(!u||loading[u.id])return loading[u&&u.id]||Promise.resolve();
+  const idx=PACKS[u.id];if(!idx)return Promise.resolve();
+  return loading[u.id]=fetch('audio/pack-'+u.id+'.mp3').then(r=>{if(!r.ok)throw new Error(r.status);return r.arrayBuffer();}).then(buf=>{
+    for(const id in idx){if(!CLIPS[id]){const [o,n]=idx[id];CLIPS[id]=URL.createObjectURL(new Blob([buf.slice(o,o+n)],{type:'audio/mpeg'}));}}
+  }).catch(()=>{delete loading[u.id];});
+}
+/* Stops whatever is playing and cancels anything queued to play next. */
+function hush(){epoch++;if(cur){try{cur.pause();}catch(e){}}}
+/* Runs fn after ms, unless something else has played or the pupil has moved on meanwhile. */
+function later(fn,ms){const e=epoch;setTimeout(()=>{if(e===epoch)fn();},ms);}
 function play(id,onTime,onEnd){
-  if(cur){try{cur.pause();}catch(e){}}
-  const a=new Audio('audio/'+id+'.mp3'); cur=a;
+  hush();
+  const a=new Audio(CLIPS[id]||('audio/'+id+'.mp3')); cur=a;
   if(onTime) a.addEventListener('timeupdate',()=>onTime(a.currentTime,a.duration||1));
   a.addEventListener('ended',()=>onEnd&&onEnd()); a.addEventListener('error',()=>onEnd&&onEnd());
   a.play().catch(()=>onEnd&&onEnd());
@@ -156,6 +169,10 @@ let U=[];
 const chunkById=(u,id)=>{for(const r of u.rows)for(const col of r.columns)for(const c of col)if(c.id===id)return c;return null;};
 const allSent=u=>u.rows.flatMap((r,ri)=>r.sentences.map(s=>({...s,ri})));
 const unitProgress=u=>{const ss=allSent(u);return Math.round(100*ss.filter(s=>(S.sent[s.audio]||{}).box>=2).length/ss.length);};
+/* The sentence a set of picked tiles makes, if every needed colour has a tile. */
+function ownOf(r,sel){const order=[];r.columns.forEach(col=>{const h=col.find(c=>sel.includes(c.id));if(h)order.push(h.id);});
+  const key=order.join('|');return (r.all||[]).find(x=>x.chunks.join('|')===key)||null;}
+function sayHTML(s,u){return s.chunks.map(id=>`<span lang="ga">${esc(chunkById(u,id).ga)}</span>`).join('')+`<div class="gloss en" style="width:100%;font-weight:400">${esc(s.en)}</div>`;}
 function combosOf(row){let out=[[]];row.columns.forEach(col=>{const opts=col.slice();if(col.every(c=>c.optional))opts.push(null);const n=[];out.forEach(p=>opts.forEach(o=>n.push(o?p.concat(o):p)));out=n;});return out.map(c=>c.map(x=>x.ga).join(' '));}
 
 /* views */
@@ -192,8 +209,9 @@ function render(){
   if(st===0){
     const r=u.rows[sess.row];
     body=`<div class="card"><p class="lab">${esc(r.label)} · ${sess.row+1} / ${u.rows.length}</p>
-      <p class="gloss">Brúigh ar thíl le héisteacht. Tap a tile to hear it.</p>${tilesHTML(r,'hear')}
-      <div class="actions"><button class="play" data-act="listenRow">▶ Éist leis na habairtí</button></div>
+      <p class="gloss">Brúigh ar thíl le héisteacht. Tap a tile to hear it. Pick one from each colour to hear your own sentence.</p>${tilesHTML(r,'hear',sess.lsel)}
+      <div class="actions" style="justify-content:flex-start;flex-wrap:wrap"><button class="play" data-act="listenRow">▶ Éist leis na habairtí</button>
+      <button class="play" data-act="mine" ${ownOf(r,sess.lsel)?'':'disabled style="opacity:.45"'}>▶ Éist le m'abairt</button></div>
       <div class="say" id="say" aria-live="polite"></div></div>
       <div class="actions"><span></span><button class="btn" data-act="next0">${sess.row+1<u.rows.length?'An chéad cheann eile':'Ar aghaidh'}</button></div>`;
   }
@@ -247,7 +265,9 @@ const FADAS=`<div class="fadas">${['á','é','í','ó','ú'].map(c=>`<button typ
 function resultHTML(it){
   const want=it.s.chunks.map(id=>chunkById(unit,id).ga).join(' ');
   return sess.res.ok?`<div class="fix"><span class="pen">✓ ceart!</span><span lang="ga">${esc(it.s.ga)}</span></div>`
-    :`<div class="fix"><span class="pen">${esc(it.s.ga)}</span><span class="gloss">An freagra ceart · the right answer</span></div>`;
+    :`<div class="fix">${sess.own?`<span class="gloss">Do abairt · your sentence</span><span lang="ga" style="text-decoration:line-through;text-decoration-color:var(--pen)">${esc(sess.own.ga)}</span>
+      <button class="play small" data-act="hearOwn">▶ Do abairt</button>`:''}
+      <span class="pen">${esc(it.s.ga)}</span><span class="gloss">An freagra ceart · the right answer</span><button class="play small" data-act="hearRight">▶ An freagra ceart</button></div>`;
 }
 function typedResultHTML(it){
   if(sess.res.ok) return `<div class="fix"><span class="pen">✓ ${sess.res.fada?'fada! ':''}${esc(it.s.ga)}</span></div>`;
@@ -281,9 +301,9 @@ function deckHTML(){
   }else if(p<=u.rows.length){
     const r=u.rows[p-1],widest=Math.max(...r.columns.map(c=>c.length));
     const ts=widest>4?'clamp(15px,1.7vw,30px)':'clamp(18px,2.4vw,40px)';
-    inner=`<div class="deckbar"><p class="lbl sp" lang="ga">${esc(r.label)}</p><button class="play" data-act="dplay">${deck.playing?'■ Stad':'▶ Éist leis na habairtí'}</button></div>
+    inner=`<div class="deckbar"><p class="lbl sp" lang="ga">${esc(r.label)}</p><button class="play" data-act="dmine" ${ownOf(r,deck.sel)?'':'disabled style="opacity:.45"'}>▶ An abairt seo</button><button class="play" data-act="dplay">${deck.playing?'■ Stad':'▶ Éist leis na habairtí'}</button></div>
       <div class="say" id="say" aria-live="polite"></div>
-      <div class="dgrid" style="--ts:${ts}">${r.columns.map((col,k)=>{const n=Math.ceil(col.length/4);return (k?'<span class="arrow" aria-hidden="true">→</span>':'')+`<div class="col" style="flex:${n} 1 0;display:grid;grid-template-columns:repeat(${n},minmax(0,1fr));grid-auto-rows:min-content">${col.map(c=>`<button class="tile k${k%4}" data-cid="${c.id}" data-act="dhear" lang="ga"><span class="ga">${esc(c.ga)}</span>${c.en!==c.ga?`<span class="en">${esc(c.en)}</span>`:''}</button>`).join('')}</div>`;}).join('')}</div>`;
+      <div class="dgrid" style="--ts:${ts}">${r.columns.map((col,k)=>{const n=Math.ceil(col.length/4);return (k?'<span class="arrow" aria-hidden="true">→</span>':'')+`<div class="col" style="flex:${n} 1 0;display:grid;grid-template-columns:repeat(${n},minmax(0,1fr));grid-auto-rows:min-content">${col.map(c=>`<button class="tile k${k%4}${deck.sel.includes(c.id)?' picked':''}" data-cid="${c.id}" data-col="${k}" data-act="dhear" lang="ga"><span class="ga">${esc(c.ga)}</span>${c.en!==c.ga?`<span class="en">${esc(c.en)}</span>`:''}</button>`).join('')}</div>`;}).join('')}</div>`;
   }else{
     inner=`<p class="pen h">Freagraí samplacha</p><p class="lbl en">Model answers. Tap one to hear it.</p>${u.examples.map(e=>`<button class="q" data-act="dq" data-a="${e.audio}" lang="ga">🔊 <span>${esc(e.ga)}</span></button>`).join('')}`;
   }
@@ -293,13 +313,13 @@ function deckHTML(){
     <button class="pill" data-act="dprev" ${p===0?'disabled':''} aria-label="Siar. Previous slide">◀</button><span class="counter">${p+1} / ${n}</span><button class="pill" data-act="dnext" ${p===n-1?'disabled':''} aria-label="Ar aghaidh. Next slide">▶</button></div>
     <div class="slide ${deck.en?'':'noen'}">${inner}</div>`;
 }
-function deckGo(p){const n=deck.u.rows.length+2;p=Math.max(0,Math.min(n-1,p));if(p===deck.page)return;deck.page=p;deck.playing=false;deck.token++;if(cur)cur.pause();render();}
+function deckGo(p){const n=deck.u.rows.length+2;p=Math.max(0,Math.min(n-1,p));if(p===deck.page)return;deck.page=p;deck.sel=[];deck.playing=false;deck.token++;hush();render();}
 function deckPlayRow(){
   const r=deck.u.rows[deck.page-1];if(!r)return;const tok=++deck.token;let k=0;
   const next=()=>{if(tok!==deck.token||!deck.playing)return;if(k>=r.sentences.length){deck.playing=false;render();return;}
     const s=r.sentences[k++];const say=$('#say');if(!say)return;
-    say.innerHTML=s.chunks.map(id=>`<span lang="ga">${esc(chunkById(deck.u,id).ga)}</span>`).join('')+`<div class="gloss en" style="width:100%;font-weight:400">${esc(s.en)}</div>`;
-    playSentence(s,deck.u,()=>setTimeout(next,1200));};
+    say.innerHTML=sayHTML(s,deck.u);
+    playSentence(s,deck.u,()=>later(next,1200));};
   next();
 }
 
@@ -319,25 +339,30 @@ function startUnit(i){
   if(q) s3.push({kind:'question',q,ri:q.rows[0],model:pick(unit.rows[q.rows[0]].sentences).ga,combos:q.rows.flatMap(ri=>combosOf(unit.rows[ri]))});
   sess={step:runs>0?1:0,row:0,i:0,res:null,sel:[],typed:'',log:[],plan:[null,s1,s2,s3],items:null,runs};
   if(sess.step>0) sess.items=sess.plan[sess.step];
+  sess.lsel=[];
   view='unit'; render(); scrollTo(0,0);
-  if(sess.step===1) setTimeout(()=>autoPlay(),250);
+  ensurePack(unit).then(()=>{if(sess.step===1&&view==='unit')later(autoPlay,100);});
 }
 function autoPlay(){const it=sess.items&&sess.items[sess.i];if(it&&(it.kind==='hearTiles'||it.kind==='meaning'))play(it.s.audio);}
 function prepItem(){
-  const it=sess.items[sess.i]; sess.res=null; sess.sel=[]; sess.typed='';
+  const it=sess.items[sess.i]; sess.res=null; sess.sel=[]; sess.typed=''; sess.own=null;
   if(it.kind==='meaning'){const others=shuffle(allSent(unit).filter(s=>s.en!==it.s.en)).slice(0,2).map(s=>s.en);sess.opts=shuffle([it.s.en,...others]);sess.picked=null;}
 }
 function record(ok,ga,en,id){sess.log.push({ok,ga,en});if(id)bump(id,ok);save();}
 
 const A={
-  home:()=>{if(cur)cur.pause();view='home';render();scrollTo(0,0);},
+  home:()=>{hush();view='home';render();scrollTo(0,0);},
   open:el=>startUnit(+el.dataset.i),
-  hear:el=>{const c=chunkById(unit,el.dataset.cid);if(c)play(c.id);},
+  hear:el=>{const c=chunkById(unit,el.dataset.cid);if(!c)return;const col=+el.dataset.col;const ids=unit.rows[sess.row].columns[col].map(x=>x.id);
+    const had=sess.lsel.includes(c.id);sess.lsel=sess.lsel.filter(x=>!ids.includes(x));if(!had)sess.lsel.push(c.id);render();play(c.id);},
+  mine:()=>{const s=ownOf(unit.rows[sess.row],sess.lsel);if(!s)return;$('#say').innerHTML=sayHTML(s,unit);playSentence(s,unit);},
+  hearOwn:()=>{if(sess.own)playSentence(sess.own,unit);},
+  hearRight:()=>{const it=sess.items[sess.i];playSentence(it.s,unit);},
   listenRow:()=>{const r=unit.rows[sess.row];let k=0;const ss=r.sentences.slice(0,3);
     const next=()=>{if(k>=ss.length){$('#say').innerHTML='';return;}const s=ss[k++];
-      $('#say').innerHTML=s.chunks.map(id=>`<span lang="ga">${esc(chunkById(unit,id).ga)}</span>`).join('')+`<div class="gloss" style="width:100%;font-weight:400;font-size:14px">${esc(s.en)}</div>`;
-      playSentence(s,unit,()=>setTimeout(next,600));};next();},
-  next0:()=>{if(sess.row+1<unit.rows.length){sess.row++;render();}else{sess.step=1;sess.items=sess.plan[1];sess.i=0;prepItem();render();setTimeout(autoPlay,250);}},
+      $('#say').innerHTML=sayHTML(s,unit);
+      playSentence(s,unit,()=>later(next,600));};next();},
+  next0:()=>{hush();sess.lsel=[];if(sess.row+1<unit.rows.length){sess.row++;render();}else{sess.step=1;sess.items=sess.plan[1];sess.i=0;prepItem();render();later(autoPlay,250);}},
   replay:()=>{const it=sess.items[sess.i];play(it.s.audio);},
   playQ:()=>{const it=sess.items[sess.i];play(it.q.audio);},
   choose:el=>{if(sess.res)return;const col=+el.dataset.col;const r=unit.rows[sess.items[sess.i].ri];
@@ -349,30 +374,34 @@ const A={
     const it=sess.items[sess.i];
     if(it.kind==='hearTiles'||it.kind==='build'){
       const r=unit.rows[it.ri]; const order=[];r.columns.forEach(col=>{const hit=col.find(c=>sess.sel.includes(c.id));if(hit)order.push(hit.id);});
-      const ok=order.join('|')===it.s.chunks.join('|');sess.res={ok};record(ok,it.s.ga,it.s.en,it.s.audio);render();playSentence(it.s,unit);return;}
+      const ok=order.join('|')===it.s.chunks.join('|');sess.own=ok?null:ownOf(r,sess.sel);sess.res={ok};record(ok,it.s.ga,it.s.en,it.s.audio);render();
+      if(sess.own){const own=sess.own;playSentence(own,unit,()=>later(()=>playSentence(it.s,unit),700));}else playSentence(it.s,unit);return;}
     const typed=($('#typed')||{}).value||''; sess.typed=typed;
     if(it.kind==='type'){const a=norm(typed),b=norm(it.s.ga);const ok=a===b||fold(a)===fold(b);sess.res={ok,fada:ok&&a!==b};record(ok,it.s.ga,it.s.en,it.s.audio);render();playSentence(it.s,unit);return;}
     if(it.kind==='question'){const a=fold(norm(typed));const ok=it.combos.some(c=>fold(norm(c))===a);sess.res={ok};record(ok,it.q.ga,typed||'—');render();}
   },
   skip:()=>{sess.typed=($('#typed')||{}).value||'';A.check();},
   next:()=>{
-    if(sess.i+1<sess.items.length){sess.i++;prepItem();render();setTimeout(autoPlay,200);return;}
-    if(sess.step<3){sess.step++;sess.items=sess.plan[sess.step];sess.i=0;prepItem();render();scrollTo(0,0);setTimeout(autoPlay,250);return;}
+    hush();
+    if(sess.i+1<sess.items.length){sess.i++;prepItem();render();later(autoPlay,200);return;}
+    if(sess.step<3){sess.step++;sess.items=sess.plan[sess.step];sess.i=0;prepItem();render();scrollTo(0,0);later(autoPlay,250);return;}
     const u=S.units[unit.id]||{runs:0};u.runs++;S.units[unit.id]=u;save();sess.step=4;render();scrollTo(0,0);
   },
   again:()=>startUnit(U.indexOf(unit)),
   intro:()=>{introPage=0;view='intro';render();scrollTo(0,0);},
   introNext:()=>{if(introPage<INTRO.length-1){introPage++;render();scrollTo(0,0);}else{try{localStorage.setItem('abair-leat.intro','1');}catch(e){}view='home';render();scrollTo(0,0);}},
   introBack:()=>{if(introPage>0){introPage--;render();}},
-  teach:()=>{if(cur)cur.pause();if(deck){deck.token++;deck.playing=false;}view='teach';render();scrollTo(0,0);},
-  deck:el=>{deck={u:U[+el.dataset.i],page:0,en:true,playing:false,token:0};view='deck';render();scrollTo(0,0);},
+  teach:()=>{hush();if(deck){deck.token++;deck.playing=false;}view='teach';render();scrollTo(0,0);},
+  deck:el=>{deck={u:U[+el.dataset.i],page:0,en:true,playing:false,token:0,sel:[]};ensurePack(deck.u);view='deck';render();scrollTo(0,0);},
   dnext:()=>deckGo(deck.page+1),
   dprev:()=>deckGo(deck.page-1),
   den:()=>{deck.en=!deck.en;const sl=document.querySelector('.slide');if(sl)sl.classList.toggle('noen',!deck.en);const b=document.querySelector('[data-act="den"]');if(b)b.textContent=deck.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla';},
   dfull:()=>{try{const d=document;if(d.fullscreenElement){d.exitFullscreen();}else{const r=d.documentElement.requestFullscreen&&d.documentElement.requestFullscreen();if(r&&r.catch)r.catch(()=>{});}}catch(e){}},
-  dhear:el=>play(el.dataset.cid),
+  dhear:el=>{const col=+el.dataset.col,r=deck.u.rows[deck.page-1];const ids=r.columns[col].map(x=>x.id);const had=deck.sel.includes(el.dataset.cid);
+    deck.sel=deck.sel.filter(x=>!ids.includes(x));if(!had)deck.sel.push(el.dataset.cid);deck.playing=false;deck.token++;render();play(el.dataset.cid);},
+  dmine:()=>{const r=deck.u.rows[deck.page-1];const s=r&&ownOf(r,deck.sel);if(!s)return;deck.playing=false;deck.token++;$('#say').innerHTML=sayHTML(s,deck.u);playSentence(s,deck.u);},
   dq:el=>play(el.dataset.a),
-  dplay:()=>{if(deck.playing){deck.playing=false;deck.token++;if(cur)cur.pause();const b=document.querySelector('[data-act="dplay"]');if(b)b.textContent='▶ Éist leis na habairtí';document.querySelectorAll('[data-cid]').forEach(t=>t.classList.remove('hi'));return;}
+  dplay:()=>{if(deck.playing){deck.playing=false;deck.token++;hush();const b=document.querySelector('[data-act="dplay"]');if(b)b.textContent='▶ Éist leis na habairtí';document.querySelectorAll('[data-cid]').forEach(t=>t.classList.remove('hi'));return;}
     deck.playing=true;const b=document.querySelector('[data-act="dplay"]');if(b)b.textContent='■ Stad';deckPlayRow();},
 };
 document.addEventListener('pointerdown',e=>{if(e.target.closest('[data-fada]'))e.preventDefault();});
@@ -387,7 +416,8 @@ document.addEventListener('keydown',e=>{if(view!=='deck'||e.target.id==='typed')
   else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();deckGo(deck.page-1);}
   else if(e.key==='e'||e.key==='E'){A.den();}});
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='typed'){e.preventDefault();const b=document.querySelector('[data-act="check"],[data-act="next"]');if(b)b.click();}});
-fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{U=d;window.__t={U,S:()=>S,sess:()=>sess,deck:()=>deck};
+Promise.all([fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}),
+  fetch('data/packs.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,pk])=>{U=d;PACKS=pk;window.__t={U,S:()=>S,sess:()=>sess,deck:()=>deck};
     let seen=false;try{seen=!!localStorage.getItem('abair-leat.intro');}catch(e){}
     view=location.hash==='#rang'?'teach':(seen?'home':'intro');render();})
   .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});

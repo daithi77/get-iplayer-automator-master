@@ -212,6 +212,7 @@ struct RowSlide: View {
     @ObservedObject private var speaker = Speaker.shared
     @State private var shown: Sentence?
     @State private var playingAll = false
+    @State private var picked: [String] = []
 
     var body: some View {
         GeometryReader { geo in
@@ -227,6 +228,19 @@ struct RowSlide: View {
                             .font(.system(size: 30 * s, weight: .bold))
                             .foregroundStyle(Theme.muted)
                         Spacer()
+                        Button {
+                            if let mine = row.sentence(picked: picked) {
+                                playingAll = false
+                                shown = mine
+                                Speaker.shared.playSentence(mine, in: unit)
+                            }
+                        } label: {
+                            Label("An abairt seo", systemImage: "play.fill")
+                                .font(.system(size: 22 * s, weight: .bold))
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .tint(Theme.columnInk(0))
+                        .disabled(row.sentence(picked: picked) == nil)
                         Button {
                             if playingAll {
                                 Speaker.shared.stop()
@@ -256,8 +270,8 @@ struct RowSlide: View {
                     if geo.size.width > geo.size.height {
                         wideColumns(tileSize: tileSize, width: geo.size.width - 64 * s)
                     } else {
-                        BuilderGrid(unit: unit, row: row, litChunk: litChunk, gaSize: tileSize, showEnglish: showEnglish) { chunk, _ in
-                            Speaker.shared.play(chunk.id)
+                        BuilderGrid(unit: unit, row: row, selected: picked, litChunk: litChunk, gaSize: tileSize, showEnglish: showEnglish) { chunk, column in
+                            pick(chunk, column: column)
                         }
                     }
                 }
@@ -266,6 +280,7 @@ struct RowSlide: View {
             }
         }
         .onDisappear {
+            picked = []
             playingAll = false
             shown = nil
         }
@@ -291,9 +306,9 @@ struct RowSlide: View {
                           alignment: .leading, spacing: 10) {
                     ForEach(column) { chunk in
                         Button {
-                            Speaker.shared.play(chunk.id)
+                            pick(chunk, column: k)
                         } label: {
-                            TileView(chunk: chunk, column: k, lit: litChunk == chunk.id,
+                            TileView(chunk: chunk, column: k, selected: picked.contains(chunk.id), lit: litChunk == chunk.id,
                                      gaSize: tileSize, showEnglish: showEnglish)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                         }
@@ -303,6 +318,13 @@ struct RowSlide: View {
                 .frame(width: usable * CGFloat(subColumns[k]) / totalSub, alignment: .topLeading)
             }
         }
+    }
+
+    /// Tapping a tile plays it and picks it; one tile per colour makes a sentence to play.
+    private func pick(_ chunk: Chunk, column: Int) {
+        playingAll = false
+        picked = row.toggle(chunk.id, column: column, in: picked)
+        Speaker.shared.play(chunk.id)
     }
 
     private var litChunk: String? {

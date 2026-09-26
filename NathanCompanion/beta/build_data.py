@@ -30,10 +30,13 @@ for b in d['builders']:
             opts.append(o)
         combos=[ [c for c in combo if c] for combo in itertools.product(*opts)]
         random.shuffle(combos)
-        sample=combos[:6]
-        sents=[{'ga':irish(c),'en':english(c),'chunks':[x['id'] for x in c],'audio':aid(irish(c))} for c in sample]
-        for s in sents: audio.add(s['ga'])
-        rows.append({'label':r['label'],'columns':cols,'sentences':sents,'total':len(combos)})
+        mk=lambda c:{'ga':irish(c),'en':english(c),'chunks':[x['id'] for x in c],'audio':aid(irish(c))}
+        # 'sentences' are the six models used for sessions and progress; 'all' is every sentence the row
+        # can make, so whatever tiles a pupil picks can be heard as a whole sentence.
+        sents=[mk(c) for c in combos[:6]]
+        every=[mk(c) for c in combos]
+        for s in every: audio.add(s['ga'])
+        rows.append({'label':r['label'],'columns':cols,'sentences':sents,'all':every,'total':len(combos)})
     for e in b['examples']: audio.add(e)
     for q in b['questions']: audio.add(q)
     units.append({'id':b['id'],'title':b['title'],'en':b['en'],'questions':[{'ga':q,'audio':aid(q),'rows':QROWS[b['id']][qi]} for qi,q in enumerate(b['questions'])],

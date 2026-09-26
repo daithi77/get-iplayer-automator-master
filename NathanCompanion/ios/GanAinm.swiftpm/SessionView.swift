@@ -144,7 +144,31 @@ struct SessionView: View {
             if outcome.ok {
                 PenNote(text: "✓ ceart!", detail: s.ga).id("feedback")
             } else {
-                PenNote(text: s.ga, detail: "An freagra ceart · the right answer").id("feedback")
+                VStack(alignment: .leading, spacing: 10) {
+                    if let own = session.ownSentence {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Do abairt · your sentence")
+                                .font(.subheadline)
+                                .foregroundStyle(Theme.muted)
+                            Text(own.ga)
+                                .strikethrough(true, color: Theme.pen)
+                            Button {
+                                Speaker.shared.playSentence(own, in: session.unit)
+                            } label: {
+                                Label("Do abairt", systemImage: "play.fill")
+                            }
+                            .buttonStyle(.bordered)
+                        }
+                    }
+                    PenNote(text: s.ga, detail: "An freagra ceart · the right answer")
+                    Button {
+                        Speaker.shared.playSentence(s, in: session.unit)
+                    } label: {
+                        Label("An freagra ceart", systemImage: "play.fill")
+                    }
+                    .buttonStyle(.bordered)
+                }
+                .id("feedback")
             }
         }
     }
@@ -328,33 +352,53 @@ struct ListenStep: View {
     @ObservedObject var session: Session
     @ObservedObject private var speaker = Speaker.shared
     @State private var shown: Sentence?
+    @State private var picked: [String] = []
 
     var body: some View {
         let unit = session.unit
         let row = unit.rows[session.listenRow]
+        let mine = row.sentence(picked: picked)
         Panel {
             Text("\(row.label) · \(session.listenRow + 1) / \(unit.rows.count)")
                 .font(.caption.weight(.bold))
                 .textCase(.uppercase)
                 .foregroundStyle(Theme.muted)
-            Text("Brúigh ar thíl le héisteacht. Tap a tile to hear it.")
+            Text("Brúigh ar thíl le héisteacht. Tap a tile to hear it. Pick one from each colour to hear your own sentence.")
                 .foregroundStyle(Theme.muted)
-            BuilderGrid(unit: unit, row: row, litChunk: litChunk) { chunk, _ in
+            BuilderGrid(unit: unit, row: row, selected: picked, litChunk: litChunk) { chunk, column in
+                picked = row.toggle(chunk.id, column: column, in: picked)
                 Speaker.shared.play(chunk.id)
             }
-            Button {
-                playRow(row, from: 0)
-            } label: {
-                Label("Éist leis na habairtí", systemImage: "play.fill")
-                    .font(.headline)
+            FlowLayout(spacing: 10) {
+                Button {
+                    playRow(row, from: 0)
+                } label: {
+                    Label("Éist leis na habairtí", systemImage: "play.fill")
+                        .font(.headline)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(Theme.ink)
+                Button {
+                    if let mine = mine {
+                        shown = mine
+                        Speaker.shared.playSentence(mine, in: unit)
+                    }
+                } label: {
+                    Label("Éist le m'abairt", systemImage: "play.fill")
+                        .font(.headline)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(Theme.columnInk(0))
+                .disabled(mine == nil)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(Theme.ink)
             if let s = shown {
                 SpokenLine(sentence: s, unit: unit, lit: speaker.playing == s.audio ? speaker.lit : nil)
             }
         }
-        .onChange(of: session.listenRow) { _, _ in shown = nil }
+        .onChange(of: session.listenRow) { _, _ in
+            shown = nil
+            picked = []
+        }
     }
 
     private var litChunk: String? {

@@ -24,7 +24,26 @@ struct Sentence: Codable, Hashable {
 struct BuilderRow: Codable, Hashable {
     let label: String
     let columns: [[Chunk]]
+    /// The six model sentences used for sessions and progress.
     let sentences: [Sentence]
+    /// Every sentence the row can make, each with its own recording.
+    let all: [Sentence]?
+
+    /// The sentence a set of picked tiles makes, taking one tile per colour in column order.
+    /// Nil when a colour that is needed has no tile picked.
+    func sentence(picked: [String]) -> Sentence? {
+        let order = columns.compactMap { column in column.first(where: { picked.contains($0.id) })?.id }
+        return (all ?? sentences).first(where: { $0.chunks == order })
+    }
+
+    /// Picking a tile drops any other tile of the same colour; picking it again drops it.
+    func toggle(_ chunkID: String, column: Int, in picked: [String]) -> [String] {
+        guard columns.indices.contains(column) else { return picked }
+        let ids = columns[column].map { $0.id }
+        var out = picked.filter { !ids.contains($0) }
+        if !picked.contains(chunkID) { out.append(chunkID) }
+        return out
+    }
 }
 
 struct UnitQuestion: Codable, Hashable {

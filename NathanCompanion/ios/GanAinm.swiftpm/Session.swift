@@ -47,6 +47,8 @@ final class Session: ObservableObject, Identifiable {
     @Published private(set) var options: [String] = []
     @Published private(set) var picked: Int?
     @Published private(set) var log: [LogEntry] = []
+    /// The sentence the pupil's tiles made, when it differs from the right answer.
+    @Published private(set) var ownSentence: Sentence?
 
     private var plan: [[Item]] = [[], [], [], []]
 
@@ -106,6 +108,7 @@ final class Session: ObservableObject, Identifiable {
 
     private func prepare() {
         outcome = nil
+        ownSentence = nil
         selected = []
         typed = ""
         picked = nil
@@ -149,10 +152,7 @@ final class Session: ObservableObject, Identifiable {
     func tap(_ chunk: Chunk, column: Int) {
         Speaker.shared.play(chunk.id)
         guard outcome == nil, let it = item else { return }
-        let ids = unit.rows[it.row].columns[column].map { $0.id }
-        let had = selected.contains(chunk.id)
-        selected.removeAll { ids.contains($0) }
-        if !had { selected.append(chunk.id) }
+        selected = unit.rows[it.row].toggle(chunk.id, column: column, in: selected)
     }
 
     func choose(_ k: Int) {
@@ -169,8 +169,22 @@ final class Session: ObservableObject, Identifiable {
             guard let s = it.sentence else { return }
             let columns = unit.rows[it.row].columns
             let order = columns.compactMap { column in column.first(where: { selected.contains($0.id) })?.id }
-            finish(ok: order == s.chunks, ga: s.ga, en: s.en, audio: s.audio)
-            Speaker.shared.playSentence(s, in: unit)
+            let ok = order == s.chunks
+            ownSentence = ok ? nil : unit.rows[it.row].sentence(picked: selected)
+            finish(ok: ok, ga: s.ga, en: s.en, audio: s.audio)
+            // The pupil hears the sentence they built, then the right one.
+            if let own = ownSentence {
+                let unit = self.unit
+                Speaker.shared.playSentence(own, in: unit) {
+                    let gen = Speaker.shared.generation
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                        guard Speaker.shared.generation == gen else { return }
+                        Speaker.shared.playSentence(s, in: unit)
+                    }
+                }
+            } else {
+                Speaker.shared.playSentence(s, in: unit)
+            }
         case .type:
             guard let s = it.sentence else { return }
             let v = Mark.compare(typed, s.ga)
@@ -193,6 +207,7 @@ final class Session: ObservableObject, Identifiable {
     }
 
     func next() {
+        Speaker.shared.stop()
         if !isLastItem {
             index += 1
             prepare()
