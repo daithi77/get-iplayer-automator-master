@@ -13,7 +13,7 @@ The PDF is Appendices 2 to 5 of the CCEA GCSE Irish specification (September 201
 | 4 | Grammar and structures checklist, Foundation and Higher | 3 pages |
 | 5 | Core minimum vocabulary list, tagged by Context, topic and sub-topic | about 2,250 entries |
 
-A first automated pass over Appendix 5 (see `tools/parse_corpus.py` and `data/ccea_core_vocab_raw.json`) gives:
+A first automated pass over Appendix 5 (see `tools/extract.py` and `data/corpus_raw.json`; the cleaning workbook is `Nathán companion - corpus.xlsx`) gives:
 
 | Measure | Count |
 |---|---|
@@ -109,3 +109,7 @@ add_work_entry(
     device="Home (M5)",
 )
 ```
+
+## 8. Ruling of 26 September 2026
+
+The app never names the examining body, the list, or the appendices. Dáithí will augment the corpus himself. The cleaning workbook `Nathán companion - corpus.xlsx` is the working copy of the data from now on; the JSON in `data/` is the raw extraction and is superseded by the workbook once cleaning begins.
