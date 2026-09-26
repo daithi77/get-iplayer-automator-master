@@ -13,6 +13,9 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
     private var timer: Timer?
     private var weights: [Double] = []
     private var onEnd: (() -> Void)?
+    /// Goes up on every stop (and so on every new clip). A follow-on clip queued after a pause
+    /// checks it has not changed, so closing a screen or moving on cancels the queue.
+    private(set) var generation = 0
 
     override init() {
         super.init()
@@ -54,6 +57,7 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
     }
 
     func stop() {
+        generation += 1
         timer?.invalidate()
         timer = nil
         player?.stop()

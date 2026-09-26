@@ -1,8 +1,8 @@
-"""Copy the builders data, the marking-hand font and Áine's audio into AbairLeat.swiftpm/Resources,
+"""Copy the builders data, the marking-hand font and Áine's audio into GanAinm.swiftpm/Resources,
 report any missing clips, and zip the package for AirDrop or download to the Mac."""
 import json, os, shutil, zipfile
 here = os.path.dirname(os.path.abspath(__file__))
-pkg = os.path.join(here, 'AbairLeat.swiftpm')
+pkg = os.path.join(here, 'GanAinm.swiftpm')
 res = os.path.join(pkg, 'Resources')
 beta = os.path.join(here, '..', 'beta')
 os.makedirs(res, exist_ok=True)
@@ -25,7 +25,7 @@ for n in sorted(needed):
     if os.path.exists(src):
         shutil.copy(src, res); have += 1
 print(f'audio {have} of {len(needed)} clips bundled')
-out = os.path.join(here, 'AbairLeat.swiftpm.zip')
+out = os.path.join(here, 'GanAinm.swiftpm.zip')
 with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
     for root, _, files in os.walk(pkg):
         for f in files:

@@ -80,7 +80,7 @@ struct FlowLayout: Layout {
             lineHeight = max(lineHeight, size.height)
             widest = max(widest, x - spacing)
         }
-        return CGSize(width: proposal.width ?? widest, height: y + lineHeight)
+        return CGSize(width: maxWidth.isFinite ? maxWidth : widest, height: y + lineHeight)
     }
 
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {

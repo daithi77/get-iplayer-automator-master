@@ -1,4 +1,5 @@
 import Foundation
+import Combine
 
 enum ItemKind {
     case hearTiles, meaning, build, type, question
@@ -123,7 +124,9 @@ final class Session: ObservableObject, Identifiable {
 
     func autoPlay() {
         guard let it = item, let s = it.sentence, it.kind == .hearTiles || it.kind == .meaning else { return }
+        let gen = Speaker.shared.generation
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            guard Speaker.shared.generation == gen else { return }
             Speaker.shared.play(s.audio)
         }
     }

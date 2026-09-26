@@ -7,15 +7,15 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Abair Leat",
+    name: "Gan Ainm",
     platforms: [
         .iOS("17.0")
     ],
     products: [
         .iOSApplication(
-            name: "Abair Leat",
+            name: "Gan Ainm",
             targets: ["AppModule"],
-            bundleIdentifier: "ie.stpaulsbessbrook.abairleat",
+            bundleIdentifier: "ie.stpaulsbessbrook.gaeilge",
             displayVersion: "0.1",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
@@ -36,7 +36,6 @@ let package = Package(
         .executableTarget(
             name: "AppModule",
             path: ".",
-            exclude: ["README.md"],
             resources: [
                 .process("Resources")
             ]

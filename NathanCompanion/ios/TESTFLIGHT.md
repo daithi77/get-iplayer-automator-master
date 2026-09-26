@@ -1,4 +1,4 @@
-# Abair Leat: from this folder to TestFlight
+# Gan Ainm: from this folder to TestFlight
 
 Everything happens on your MacBook. Allow about an hour the first time. After that, a new build takes ten minutes.
 
@@ -11,26 +11,26 @@ Everything happens on your MacBook. Allow about an hour the first time. After th
 ## 1. Get the app onto the Mac
 
 1. On GitHub, open the branch `claude/nathan-companion-app-k1105h`, then the folder `NathanCompanion/ios`.
-2. Download `AbairLeat.swiftpm.zip` and double-click it. You now have a folder called `AbairLeat.swiftpm`.
+2. Download `GanAinm.swiftpm.zip` and double-click it. You now have a folder called `GanAinm.swiftpm`.
 
 ## 2. Run it once on the Mac
 
-1. Open Xcode. Choose **File > Open**, pick the `AbairLeat.swiftpm` folder and press **Open**.
+1. Open Xcode. Choose **File > Open**, pick the `GanAinm.swiftpm` folder and press **Open**.
 2. At the top of the window, click the device name and choose an iPhone from the list (for example, iPhone 17).
 3. Press the **Run** triangle. The first build takes a few minutes.
 4. If red errors appear, copy the error text and paste it to Claude. The app was written without a Mac to hand, so one or two small fixes are likely.
 
 ## 3. Sign it with your account
 
-1. In the left-hand list, click the top item, **Abair Leat**.
+1. In the left-hand list, click the top item, **Gan Ainm**.
 2. Find **Signing & Capabilities** (or **Signing**). Under **Team**, choose your name.
-3. The bundle identifier is `ie.stpaulsbessbrook.abairleat`. Leave it as it is.
+3. The bundle identifier is `ie.stpaulsbessbrook.gaeilge`. Leave it as it is.
 
 ## 4. Create the app in App Store Connect
 
 1. Go to appstoreconnect.apple.com and sign in.
 2. **Apps > + > New App.**
-3. Platform: **iOS**. Name: **Abair Leat** (if the name is taken, try **Abair Leat Gaeilge**). Primary language: **English (UK)**. Bundle ID: choose `ie.stpaulsbessbrook.abairleat`. SKU: `abairleat-001`. User access: **Full Access**.
+3. Platform: **iOS**. Name: **Gan Ainm** (if the name is taken, try **Gan Ainm Gaeilge**; the name can be changed later, the bundle ID cannot). Primary language: **English (UK)**. Bundle ID: choose `ie.stpaulsbessbrook.gaeilge`. SKU: `ganainm-001`. User access: **Full Access**.
 4. If the bundle ID is not in the list, go back to Xcode, run the app once on your own iPhone (plug it in and choose it as the device), then try again. Xcode registers the ID for you.
 
 ## 5. Upload a build

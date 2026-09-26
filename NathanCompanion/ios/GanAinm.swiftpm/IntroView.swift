@@ -50,7 +50,7 @@ struct IntroView: View {
     private var welcome: some View {
         pageBody {
             Text("💬").font(.system(size: 64)).accessibilityHidden(true)
-            Text("Abair Leat")
+            Text("Gan Ainm")
                 .font(.largeTitle.weight(.bold))
             Text("Gaeilge le rá os ard.")
                 .font(Pen.font(34))
@@ -58,7 +58,7 @@ struct IntroView: View {
                 .rotationEffect(.degrees(-2))
             Text("Irish you can say out loud.")
                 .font(.title3)
-            Text("Abair Leat uses the same sentence builders you work with in class. Every chunk and every sentence is spoken by Áine, a native Ulster voice, so you hear it before you say it.")
+            Text("Gan Ainm uses the same sentence builders you work with in class. Every chunk and every sentence is spoken by Áine, a native Ulster voice, so you hear it before you say it.")
                 .foregroundStyle(Theme.muted)
         }
     }
@@ -88,7 +88,7 @@ struct IntroView: View {
             point("Listening comes first.", "Lots of listening and reading give you the patterns. Speaking grows out of them.")
             point("Memory is the engine.", "Recalling a sentence from memory, again and again over days, is what makes it stick.")
             point("Little and often.", "A few minutes a night beats an hour once a week.")
-            Text("Abair Leat follows the general direction of the new Northern Ireland curriculum for languages: pupils using the language to talk about themselves and their world, with growing confidence in speaking.")
+            Text("Gan Ainm follows the general direction of the new Northern Ireland curriculum for languages: pupils using the language to talk about themselves and their world, with growing confidence in speaking.")
                 .padding(14)
                 .background(RoundedRectangle(cornerRadius: 12).fill(Theme.fill(0)))
                 .foregroundStyle(Theme.columnInk(0))

@@ -70,7 +70,7 @@ struct CastHelp: View {
                     Text("3. Hold the iPad sideways. Áine's voice plays through the TV.")
                 }
                 Section("Interactive panel or projector") {
-                    Text("Open the Abair Leat web link in the panel's browser, or on the laptop connected to it, and choose Don rang. The slides and the audio are the same.")
+                    Text("Open the Gan Ainm web link in the panel's browser, or on the laptop connected to it, and choose Don rang. The slides and the audio are the same.")
                     Text("If the panel supports AirPlay or screen sharing from an iPad, mirror the iPad as for Apple TV.")
                 }
                 Section("While presenting") {
@@ -217,7 +217,8 @@ struct RowSlide: View {
         GeometryReader { geo in
             let s = slideScale(geo.size)
             let widest = row.columns.map { $0.count }.max() ?? 1
-            let base: CGFloat = widest > 8 ? 24 : (widest > 5 ? 30 : 36)
+            // Long columns wrap into sub-columns of four, so tiles stay large.
+            let base: CGFloat = widest > 4 ? 28 : 36
             let tileSize = base * s
             ScrollView {
                 VStack(alignment: .leading, spacing: 18 * s) {
@@ -243,13 +244,7 @@ struct RowSlide: View {
                         .buttonStyle(.borderedProminent)
                         .tint(Theme.ink)
                     }
-                    if geo.size.width > geo.size.height {
-                        wideColumns(tileSize: tileSize)
-                    } else {
-                        BuilderGrid(unit: unit, row: row, litChunk: litChunk, gaSize: tileSize, showEnglish: showEnglish) { chunk, _ in
-                            Speaker.shared.play(chunk.id)
-                        }
-                    }
+                    // The sentence being spoken sits above the builder, so it is always on screen.
                     if let sentence = shown {
                         SpokenLine(sentence: sentence, unit: unit,
                                    lit: speaker.playing == sentence.audio ? speaker.lit : nil,
@@ -257,6 +252,13 @@ struct RowSlide: View {
                             .padding(20 * s)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .background(RoundedRectangle(cornerRadius: 18).fill(Theme.surface))
+                    }
+                    if geo.size.width > geo.size.height {
+                        wideColumns(tileSize: tileSize, width: geo.size.width - 64 * s)
+                    } else {
+                        BuilderGrid(unit: unit, row: row, litChunk: litChunk, gaSize: tileSize, showEnglish: showEnglish) { chunk, _ in
+                            Speaker.shared.play(chunk.id)
+                        }
                     }
                 }
                 .padding(32 * s)
@@ -270,8 +272,13 @@ struct RowSlide: View {
     }
 
     /// On a landscape screen the columns sit side by side, as on the printed builder.
-    private func wideColumns(tileSize: CGFloat) -> some View {
-        HStack(alignment: .top, spacing: 14) {
+    /// A column of more than four chunks wraps into sub-columns, and gets width in proportion.
+    private func wideColumns(tileSize: CGFloat, width: CGFloat) -> some View {
+        let subColumns = row.columns.map { max(1, ($0.count + 3) / 4) }
+        let totalSub = CGFloat(subColumns.reduce(0, +))
+        let arrowWidth = tileSize * 0.8 + 28
+        let usable = max(100, width - CGFloat(row.columns.count - 1) * arrowWidth)
+        return HStack(alignment: .top, spacing: 14) {
             ForEach(Array(row.columns.enumerated()), id: \.offset) { k, column in
                 if k > 0 {
                     Image(systemName: "arrow.right")
@@ -280,7 +287,8 @@ struct RowSlide: View {
                         .padding(.top, tileSize * 0.6)
                         .accessibilityHidden(true)
                 }
-                VStack(alignment: .leading, spacing: 10) {
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10, alignment: .top), count: subColumns[k]),
+                          alignment: .leading, spacing: 10) {
                     ForEach(column) { chunk in
                         Button {
                             Speaker.shared.play(chunk.id)
@@ -292,7 +300,7 @@ struct RowSlide: View {
                         .buttonStyle(.plain)
                     }
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .frame(width: usable * CGFloat(subColumns[k]) / totalSub, alignment: .topLeading)
             }
         }
     }
@@ -310,8 +318,15 @@ struct RowSlide: View {
         }
         shown = row.sentences[k]
         Speaker.shared.playSentence(row.sentences[k], in: unit) {
+            let gen = Speaker.shared.generation
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
-                play(from: k + 1)
+                MainActor.assumeIsolated {
+                    guard Speaker.shared.generation == gen else {
+                        playingAll = false
+                        return
+                    }
+                    play(from: k + 1)
+                }
             }
         }
     }

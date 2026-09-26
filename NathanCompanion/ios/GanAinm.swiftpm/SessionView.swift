@@ -11,6 +11,7 @@ struct SessionView: View {
             ScrollViewReader { proxy in
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
+                        Color.clear.frame(height: 0).id("top")
                         if session.step < 4 {
                             StepHeader(step: session.step)
                         }
@@ -28,6 +29,8 @@ struct SessionView: View {
                 }
                 .onChange(of: session.index) { _, _ in
                     proxy.scrollTo("top", anchor: .top)
+                    // The field keeps its identity from one typed item to the next, so onAppear does not refire.
+                    typing = true
                 }
                 .onChange(of: session.step) { _, _ in
                     proxy.scrollTo("top", anchor: .top)
@@ -52,7 +55,6 @@ struct SessionView: View {
     // MARK: Content per step
 
     @ViewBuilder private var content: some View {
-        Color.clear.frame(height: 0).id("top")
         switch session.step {
         case 0:
             ListenStep(session: session)
@@ -366,8 +368,12 @@ struct ListenStep: View {
         guard k < sentences.count else { return }
         shown = sentences[k]
         Speaker.shared.playSentence(sentences[k], in: session.unit) {
+            let gen = Speaker.shared.generation
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-                playRow(row, from: k + 1)
+                MainActor.assumeIsolated {
+                    guard Speaker.shared.generation == gen else { return }
+                    playRow(row, from: k + 1)
+                }
             }
         }
     }

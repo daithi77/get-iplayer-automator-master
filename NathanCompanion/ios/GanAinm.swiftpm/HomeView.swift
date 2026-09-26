@@ -47,7 +47,7 @@ struct HomeView: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Theme.ground)
-            .navigationTitle("Abair Leat")
+            .navigationTitle("Gan Ainm")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button {

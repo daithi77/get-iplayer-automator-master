@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct AbairLeatApp: App {
+struct GanAinmApp: App {
     @StateObject private var store = Store()
 
     init() {
