@@ -196,3 +196,5 @@ Dáithí: the app's design is to incorporate the philosophy of Dr Gianfranco Con
 Audio ruling, same night: **bring audio forward now**, the Abair Ulster voice for every chunk and sentence from the start. The Abair hosts (abair.ie, api.abair.ie, synthesis.abair.ie) are blocked by this cloud session's network policy; access to be opened before Abair's service terms and interface can be checked.
 
 Framework ruling, same night: **Conti's method, the framework's content.** Sentence builders are built from the Key Stage 3 high-frequency words and grammar; phonics is taught through listening to those same chunks.
+
+Stages ruling, same night: the app takes on **the first four stages of MARS EARS**: modelling, awareness-raising, receptive processing and structured production, one sentence builder at a time. Expansion, autonomy, routinisation and spontaneity stay in the classroom.
