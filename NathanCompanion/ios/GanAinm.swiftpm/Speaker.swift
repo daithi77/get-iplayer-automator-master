@@ -10,6 +10,8 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
     @Published private(set) var playing: String?
 
     private var player: AVAudioPlayer?
+    /// Starting, stopping and setting up audio can block, so it all happens here, in order, off the main thread.
+    private let audioQueue = DispatchQueue(label: "ie.stpaulsbessbrook.gaeilge.audio", qos: .userInitiated)
     private var timer: Timer?
     private var weights: [Double] = []
     private var onEnd: (() -> Void)?
@@ -21,7 +23,7 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
         super.init()
         // Playback plays through the ring/silent switch, which a classroom needs.
         // Set up once, off the main thread: these calls can block, and Xcode flags them as a hang risk.
-        DispatchQueue.global(qos: .userInitiated).async {
+        audioQueue.async {
             let session = AVAudioSession.sharedInstance()
             try? session.setCategory(.playback, mode: .spokenAudio)
             try? session.setActive(true)
@@ -44,7 +46,7 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
         playing = id
         self.weights = weights
         self.onEnd = onEnd
-        p.play()
+        audioQueue.async { p.play() }
         if !weights.isEmpty {
             let t = Timer(timeInterval: 0.05, repeats: true) { [weak self] _ in
                 self?.tick()
@@ -64,7 +66,9 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
         generation += 1
         timer?.invalidate()
         timer = nil
-        player?.stop()
+        if let old = player {
+            audioQueue.async { old.stop() }
+        }
         player = nil
         playing = nil
         lit = nil
