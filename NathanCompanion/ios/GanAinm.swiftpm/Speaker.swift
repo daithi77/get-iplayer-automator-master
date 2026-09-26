@@ -20,7 +20,12 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
     override init() {
         super.init()
         // Playback plays through the ring/silent switch, which a classroom needs.
-        try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
+        // Set up once, off the main thread: these calls can block, and Xcode flags them as a hang risk.
+        DispatchQueue.global(qos: .userInitiated).async {
+            let session = AVAudioSession.sharedInstance()
+            try? session.setCategory(.playback, mode: .spokenAudio)
+            try? session.setActive(true)
+        }
     }
 
     func hasClip(_ id: String) -> Bool {
@@ -34,7 +39,6 @@ final class Speaker: NSObject, ObservableObject, AVAudioPlayerDelegate {
             onEnd?()
             return
         }
-        try? AVAudioSession.sharedInstance().setActive(true)
         p.delegate = self
         player = p
         playing = id
