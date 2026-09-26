@@ -10,8 +10,9 @@ Everything happens on your MacBook. Allow about an hour the first time. After th
 
 ## 1. Get the app onto the Mac
 
-1. On GitHub, open the branch `claude/nathan-companion-app-k1105h`, then the folder `NathanCompanion/ios`.
-2. Download `GanAinm.swiftpm.zip` and double-click it. You now have a folder called `GanAinm.swiftpm`.
+1. On the Mac, sign in to GitHub in Safari, then open this address. It downloads the package:
+   `https://github.com/daithi77/get-iplayer-automator-master/raw/claude/nathan-companion-app-k1105h/NathanCompanion/ios/GanAinm.swiftpm.zip`
+2. Double-click the downloaded zip. You now have a folder called `GanAinm.swiftpm`.
 
 ## 2. Run it once on the Mac
 
