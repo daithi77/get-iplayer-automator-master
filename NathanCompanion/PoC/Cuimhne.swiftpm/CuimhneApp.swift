@@ -33,38 +33,19 @@ enum MarkingHand {
 }
 
 struct RootView: View {
-    @EnvironmentObject private var store: Store
-    @State private var phase: Phase = .home
-
-    enum Phase {
-        case home
-        case session(Session)
-        case results(SessionResult)
-    }
-
     var body: some View {
-        NavigationStack {
-          ZStack {
-            Theme.paper.ignoresSafeArea()
-            switch phase {
-            case .home:
-                HomeView(start: {
-                    phase = .session(store.makeSession())
-                })
-            case .session(let session):
-                SessionView(session: session, finish: { result in
-                    store.record(result)
-                    phase = .results(result)
-                })
-            case .results(let result):
-                ResultsView(result: result, again: {
-                    phase = .session(store.makeSession())
-                }, home: {
-                    phase = .home
-                })
-            }
-          }
-          .toolbar(.hidden, for: .navigationBar)
+        TabView {
+            HomeView()
+                .tabItem { Label("Inniu", systemImage: "calendar") }
+            IndexView()
+                .tabItem { Label("Innéacs", systemImage: "list.bullet.rectangle") }
+            GrammarView()
+                .tabItem { Label("Gramadach", systemImage: "textformat.abc") }
+            SpeakingView()
+                .tabItem { Label("Labhairt", systemImage: "mic") }
+            SettingsView()
+                .tabItem { Label("Socruithe", systemImage: "gearshape") }
         }
+        .tint(Theme.pen)
     }
 }

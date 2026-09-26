@@ -16,8 +16,8 @@ let package = Package(
             name: "Cuimhne",
             targets: ["AppModule"],
             bundleIdentifier: "ie.stpauls.cuimhne.poc",
-            displayVersion: "0.1",
-            bundleVersion: "1",
+            displayVersion: "0.2",
+            bundleVersion: "2",
             appIcon: .placeholder(icon: .pencil),
             accentColor: .presetColor(.red),
             supportedDeviceFamilies: [
@@ -29,6 +29,9 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
+            ],
+            capabilities: [
+                .microphone(purposeString: "Chun do fhreagraí cainte a thaifeadadh. To record your spoken answers.")
             ]
         )
     ],

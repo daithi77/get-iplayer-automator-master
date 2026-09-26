@@ -9,10 +9,10 @@ struct ResultsView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             ExamHeader(name: store.pupilName, pupilClass: store.pupilClass,
-                       unit: "Aonad 1 · Cuimhne", right: "Marc",
+                       unit: "Cuimhne", right: "Marc",
                        score: "\(result.rightFirstTime)/\(result.total)")
                 .padding(.horizontal, 20)
-                .padding(.top, 12)
+                .padding(.top, 52)
 
             Rubric(ga: "Ceartaithe.", en: "Marked.")
                 .padding(.horizontal, 20)
@@ -25,7 +25,7 @@ struct ResultsView: View {
                         HStack(alignment: .firstTextBaseline, spacing: 10) {
                             Text("\(i + 1).").font(.system(size: 19, weight: .bold))
                             Text(entry.item.expectedFirst).font(.system(size: 19)).foregroundColor(Theme.biro)
-                            Text(entry.item.en).font(.footnote).foregroundColor(Theme.grey)
+                            Text(entry.item.en).font(.footnote).foregroundColor(Theme.grey).lineLimit(1)
                             Spacer(minLength: 0)
                         }
                         .foregroundColor(Theme.ink)

@@ -111,30 +111,45 @@ struct PenMark: View {
     }
 }
 
+/// One ruled line of text, sitting on the paper's rule.
+struct PaperLine: View {
+    let text: String
+    var bold: Bool = false
+    var color: Color = Theme.ink
+    var body: some View {
+        Text(text)
+            .font(.system(size: 19, weight: bold ? .bold : .regular))
+            .foregroundColor(color)
+            .frame(height: Theme.lineHeight, alignment: .bottomLeading)
+            .padding(.bottom, 4)
+    }
+}
+
 /// The answer box the pupil types into.
 struct AnswerBox: View {
     let label: String
     let placeholder: String
     @Binding var text: String
-    let focused: FocusState<SessionView.Field?>.Binding
-    let field: SessionView.Field
+    let focused: FocusState<Int?>.Binding
+    let field: Int
     let locked: Bool
     let struck: Bool
     let onSubmit: () -> Void
 
     var body: some View {
         HStack(alignment: .center, spacing: 10) {
-            Text(label)
-                .font(.footnote)
-                .foregroundColor(Theme.ink)
-                .frame(width: 120, alignment: .leading)
+            if !label.isEmpty {
+                Text(label)
+                    .font(.footnote)
+                    .foregroundColor(Theme.ink)
+                    .frame(width: 120, alignment: .leading)
+            }
             TextField(placeholder, text: $text)
                 .font(.system(size: 20))
                 .foregroundColor(Theme.biro)
                 .strikethrough(struck, color: Theme.pen)
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled()
-                .keyboardType(.default)
                 .submitLabel(.next)
                 .focused(focused, equals: field)
                 .disabled(locked)
@@ -176,5 +191,22 @@ struct LinkButton: View {
                 .frame(height: 44)
         }
         .buttonStyle(.plain)
+    }
+}
+
+/// The fada row shown above the keyboard on every typing screen.
+struct FadaToolbar: ToolbarContent {
+    let insert: (String) -> Void
+    let check: () -> Void
+    var body: some ToolbarContent {
+        ToolbarItemGroup(placement: .keyboard) {
+            ForEach(["á", "é", "í", "ó", "ú"], id: \.self) { c in
+                Button(c) { insert(c) }
+                    .font(.system(size: 22))
+                    .frame(minWidth: 44, minHeight: 44)
+            }
+            Spacer()
+            Button("Seiceáil", action: check).fontWeight(.bold)
+        }
     }
 }
