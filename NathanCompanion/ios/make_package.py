@@ -9,6 +9,7 @@ os.makedirs(res, exist_ok=True)
 for f in os.listdir(res):
     if f.endswith('.mp3'): os.remove(os.path.join(res, f))
 shutil.copy(os.path.join(beta, 'data', 'units.json'), res)
+shutil.copy(os.path.join(beta, 'data', 'grammar.json'), res)
 shutil.copy(os.path.join(here, '..', 'font', 'MarkingHand-Regular.otf'), res)
 units = json.load(open(os.path.join(beta, 'data', 'units.json')))
 needed = set()

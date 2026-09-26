@@ -38,6 +38,28 @@ struct HomeView: View {
                             .buttonStyle(.plain)
                         }
                     }
+                    if let grammar = store.grammar {
+                        NavigationLink {
+                            GrammarHome(grammar: grammar)
+                        } label: {
+                            HStack(spacing: 14) {
+                                Text("📐").font(.system(size: 34)).accessibilityHidden(true)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("Gramadach · AS agus A2").font(.headline)
+                                    Text("Grammar for Years 13 and 14: pattern, rule, practice. 30 sections.")
+                                        .font(.subheadline)
+                                        .opacity(0.85)
+                                }
+                                Spacer(minLength: 8)
+                                Image(systemName: "chevron.right").accessibilityHidden(true)
+                            }
+                            .foregroundStyle(Theme.columnInk(3))
+                            .padding(16)
+                            .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.fill(3)))
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
                     Text("Dréacht le haghaidh tástála. A draft for testing. Voice: Áine, ABAIR (Trinity College Dublin). Progress stays on this device.")
                         .font(.footnote)
                         .foregroundStyle(Theme.muted)

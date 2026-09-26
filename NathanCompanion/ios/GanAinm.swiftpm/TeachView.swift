@@ -37,6 +37,9 @@ struct TeachHome: View {
                         .buttonStyle(.plain)
                     }
                 }
+                if let grammar = store.grammar {
+                    GrammarDeckList(grammar: grammar)
+                }
             }
             .padding()
         }

@@ -115,6 +115,8 @@ final class Store: ObservableObject {
     @Published private(set) var cards: [String: Card] = [:]
     @Published private(set) var runs: [String: Int] = [:]
     @Published private(set) var loadError: String?
+    /// The AS and A2 grammar track. Nil if grammar.json is missing; the home screen then hides the track.
+    let grammar: GrammarData? = GrammarLoader.load()
 
     /// Days until a sentence comes round again, by box.
     static let intervals = [0, 1, 2, 4, 8, 16, 32]

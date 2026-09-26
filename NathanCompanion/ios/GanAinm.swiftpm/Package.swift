@@ -16,8 +16,8 @@ let package = Package(
             name: "Gan Ainm",
             targets: ["AppModule"],
             bundleIdentifier: "com.feirste.gaeilge",
-            displayVersion: "0.1",
-            bundleVersion: "3",
+            displayVersion: "0.2",
+            bundleVersion: "4",
             appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.blue),
             supportedDeviceFamilies: [
