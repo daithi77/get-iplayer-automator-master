@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.2
 
 // App Playground package. Opens in Xcode (File > Open, choose the .swiftpm folder)
 // or in Swift Playgrounds on a Mac or iPad. No project file needed.
@@ -17,7 +17,7 @@ let package = Package(
             targets: ["AppModule"],
             bundleIdentifier: "com.feirste.gaeilge",
             displayVersion: "0.1",
-            bundleVersion: "1",
+            bundleVersion: "2",
             appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.blue),
             supportedDeviceFamilies: [
@@ -29,7 +29,8 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
-            ]
+            ],
+            appCategory: .education
         )
     ],
     targets: [
@@ -40,5 +41,7 @@ let package = Package(
                 .process("Resources")
             ]
         )
-    ]
+    ],
+    // The code is written for Swift 5 rules; the newer tools version only tells Apple which SDK builds it.
+    swiftLanguageModes: [.v5]
 )
