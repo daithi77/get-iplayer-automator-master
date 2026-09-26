@@ -113,3 +113,27 @@ add_work_entry(
 ## 8. Ruling of 26 September 2026
 
 The app never names the examining body, the list, or the appendices. Dáithí will augment the corpus himself. The cleaning workbook `Nathán companion - corpus.xlsx` is the working copy of the data from now on; the JSON in `data/` is the raw extraction and is superseded by the workbook once cleaning begins.
+
+## 9. Visual direction, ruled 26 September 2026
+
+Four screens were mocked in a generic register, rejected by Dáithí as "designed by AI". Three alternatives were then drawn on the same canvas: a dictionary page, an exam script, and a combination. **Dáithí chose the exam script.** Canvas: https://claude.ai/artifact/SerbqvkAAFyZsjQGcdYACG (row C).
+
+The register: ruled copybook lines with a margin rule, the exam papers' own rubric wording in italic with an English gloss, the pupil's typed answers in biro blue, marking in a pen hand in the margin, a candidate box at the top of each task. One print face for everything set (Atkinson Hyperlegible in the mock-up), one hand for the marks.
+
+Three conditions attached to the choice:
+
+1. The marking hand must be a real digitised handwriting, not a stock font.
+2. The frame is a practice booklet, not a test. Ticks and corrections, no percentages, no timer unless the pupil switches on the cold exam mode. This matters most for the ADHD fork below.
+3. The pen colour should match the colour pupils see on marked work at St Paul's.
+
+## 10. A fork to keep in mind: pupils with ADD and ADHD
+
+Raised by Dáithí mid-session. Pupils who struggle to attend, retain and memorise are a specific audience the companion could serve first. Consequences for design, to be carried into every screen:
+
+- one question per screen, one action, nothing competing;
+- immediate marked feedback, visible progress within a session measured in minutes, not days;
+- short sessions by default (five items), with the option to continue, never a long queue shown up front;
+- predictable structure: every task looks like the last one;
+- spacing intervals shorter than the usual defaults, and re-tests of the same item inside one session.
+
+The exam script suits this fork better than the dictionary page, which is dense by nature.
