@@ -1,0 +1,291 @@
+<title>Abair Leat</title>
+<meta name="description" content="Year 8 Irish in Ulster Irish: listen, recognise, build and remember, one sentence builder at a time.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+@font-face{font-family:'Marking Hand';src:url(data:font/otf;base64,__HAND__) format('opentype');font-display:block}
+:root{--ground:#F3F5F9;--surface:#FFFFFF;--ink:#172031;--muted:#5B6576;--rule:#DDE2E9;
+--k0:#E3EEFF;--k0i:#1D45B0;--k1:#DDF5E7;--k1i:#16704F;--k2:#FFF0C7;--k2i:#8A5800;--k3:#F1E6FF;--k3i:#6B3FB5;
+--pen:#C8102E;--penw:#FCEEF0;--good:#16704F;--btn:#172031;--btni:#FFFFFF;--hi:#FFD84D;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#0F141C;--surface:#171E2A;--ink:#E7EBF1;--muted:#A1AABA;--rule:#283245;
+--k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}}
+:root[data-theme="dark"]{--ground:#0F141C;--surface:#171E2A;--ink:#E7EBF1;--muted:#A1AABA;--rule:#283245;
+--k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}
+*{box-sizing:border-box}[hidden]{display:none!important}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:'Atkinson Hyperlegible',system-ui,sans-serif;font-size:16px;line-height:1.4}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--k0i);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.app{max-width:620px;margin:0 auto;padding-inline:16px;padding-block:14px 40px;display:flex;flex-direction:column;gap:18px}
+.top{display:flex;align-items:center;gap:10px;min-height:48px}
+.top h1{flex:1;margin:0;font-size:22px;line-height:1.2}
+.top .sub{display:block;font-size:13px;color:var(--muted);font-weight:400}
+.icon{width:44px;height:44px;border:0;background:transparent;border-radius:12px;cursor:pointer;font-size:22px;display:grid;place-items:center}
+.icon:hover{background:var(--surface)}
+.lede{margin:0;color:var(--muted)}
+.units{display:flex;flex-direction:column;gap:10px}
+.unit{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:14px;cursor:pointer;text-align:left;width:100%}
+.unit:hover{border-color:var(--ink)}
+.unit .em{font-size:36px;line-height:1;width:48px;text-align:center}
+.unit .t{flex:1;min-width:0}
+.unit b{display:block;font-size:18px}
+.unit span.s{display:block;color:var(--muted);font-size:14px}
+.bar{height:8px;border-radius:4px;background:var(--rule);overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--good);border-radius:4px}
+.go{font-weight:700;font-size:14px;color:var(--k0i);white-space:nowrap}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.steps div{height:6px;border-radius:3px;background:var(--rule)}
+.steps div.on{background:var(--k0i)}.steps div.done{background:var(--good)}
+.stepname{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--muted)}
+.stepname b{font-size:20px;color:var(--ink)}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.lab{font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0}
+.grid{display:flex;gap:6px;align-items:stretch;overflow-x:auto;padding-bottom:2px}
+.col{display:flex;flex-direction:column;gap:6px;flex:1 1 0;min-width:110px}
+.arrow{align-self:center;color:var(--muted);flex:none}
+.tile{border:2px solid transparent;border-radius:12px;padding:8px 10px;text-align:left;cursor:pointer;display:flex;flex-direction:column;min-height:48px;transition:transform .08s}
+.tile:active{transform:scale(.97)}
+.tile .ga{font-weight:700;font-size:17px}
+.tile .en{font-size:12px;opacity:.8}
+.tile.opt{background:transparent!important;border:2px dashed currentColor}
+.tile.picked{border-color:currentColor;box-shadow:0 0 0 2px currentColor inset}
+.tile.hi{outline:3px solid var(--hi);outline-offset:1px}
+.k0{background:var(--k0);color:var(--k0i)}.k1{background:var(--k1);color:var(--k1i)}.k2{background:var(--k2);color:var(--k2i)}.k3{background:var(--k3);color:var(--k3i)}
+@media (max-width:560px){.grid{flex-direction:column}.arrow{transform:rotate(90deg)}.col{min-width:0}}
+.say{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:20px;font-weight:700}
+.say span{padding:4px 8px;border-radius:8px}
+.play{display:inline-flex;align-items:center;gap:8px;border:0;background:var(--btn);color:var(--btni);border-radius:999px;padding:10px 18px;font-weight:700;cursor:pointer;min-height:44px}
+.play.small{padding:6px 12px;min-height:36px;font-size:14px}
+.big{font-size:24px;font-weight:700;margin:0;text-wrap:balance}
+.answer{display:flex;flex-wrap:wrap;gap:6px;min-height:52px;padding:8px;border:2px dashed var(--rule);border-radius:12px;align-items:center}
+.answer .tile{min-height:40px}
+.choices{display:grid;gap:8px}
+.choice{min-height:52px;padding:10px 14px;text-align:left;border:2px solid var(--rule);border-radius:12px;background:var(--surface);cursor:pointer;font-size:17px;display:flex;justify-content:space-between;align-items:center}
+.choice.right{border-color:var(--good)}.choice.wrong{border-color:var(--pen);text-decoration:line-through;text-decoration-color:var(--pen)}
+.input{width:100%;min-height:54px;padding:10px 14px;border:2px solid var(--ink);border-radius:12px;background:var(--surface);font-size:20px}
+.input.wrong{border-color:var(--pen);text-decoration:line-through;text-decoration-color:var(--pen)}
+.input.right{border-color:var(--good)}
+.fadas{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.fadas button{min-height:46px;border:2px solid var(--rule);border-radius:10px;background:var(--surface);font-size:22px;cursor:pointer}
+.actions{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.btn{min-height:50px;padding:0 22px;border-radius:12px;border:2px solid var(--btn);background:var(--btn);color:var(--btni);font-weight:700;font-size:17px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.link{border:0;background:transparent;color:var(--muted);text-decoration:underline;padding:0 4px;font-weight:400}
+.pen{font-family:'Marking Hand','Bradley Hand',cursive;color:var(--pen)}
+.mark{font-family:'Marking Hand','Bradley Hand',cursive;color:var(--pen);font-size:30px;line-height:1;transform:rotate(-2deg);display:inline-block}
+.fix{background:var(--penw);border-radius:12px;padding:10px 14px;display:flex;flex-direction:column;gap:4px}
+.fix .pen{font-size:26px;line-height:1.1}
+.gloss{color:var(--muted);font-size:15px}
+.results li{display:flex;gap:12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--rule)}
+.results ul{list-style:none;margin:0;padding:0}
+.results li:first-child{border-top:0}
+.done-em{font-size:64px;text-align:center;line-height:1}
+.hello{font-family:'Marking Hand',cursive;color:var(--pen);font-size:34px;transform:rotate(-2deg);margin:0}
+.note{font-size:13px;color:var(--muted)}
+</style>
+
+<div class="app" id="app"><p class="note">Ag lódáil…</p></div>
+
+<script>
+(function(){
+'use strict';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const fold=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC');
+const norm=s=>String(s||'').toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?,]/g,' ').replace(/\s+/g,' ').trim();
+const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱'};
+const STEPS=[['Éist','Listen'],['Aithin','Recognise'],['Tóg','Build'],['Ó chuimhne','From memory']];
+const DAY=86400000, INT=[0,1,2,4,8,16,32];
+
+/* storage */
+const KEY='abair-leat.v1';
+let S={sent:{},units:{}};
+try{const t=localStorage.getItem(KEY);if(t)S=Object.assign(S,JSON.parse(t));}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}};
+function bump(id,ok){const s=S.sent[id]||{box:0,due:0};s.box=ok?Math.min(s.box+1,INT.length-1):0;s.due=Date.now()+INT[s.box]*DAY;S.sent[id]=s;}
+
+/* audio */
+let cur=null;
+function play(id,onTime,onEnd){
+  if(cur){try{cur.pause();}catch(e){}}
+  const a=new Audio('audio/'+id+'.mp3'); cur=a;
+  if(onTime) a.addEventListener('timeupdate',()=>onTime(a.currentTime,a.duration||1));
+  a.addEventListener('ended',()=>onEnd&&onEnd()); a.addEventListener('error',()=>onEnd&&onEnd());
+  a.play().catch(()=>onEnd&&onEnd());
+}
+function playSentence(s,unit,done){
+  const chunks=s.chunks.map(id=>chunkById(unit,id)).filter(Boolean);
+  const lens=chunks.map(c=>c.ga.length+2), tot=lens.reduce((a,b)=>a+b,0);
+  const mark=i=>{document.querySelectorAll('[data-cid]').forEach(el=>el.classList.toggle('hi',i>=0&&el.dataset.cid===chunks[i].id));
+    document.querySelectorAll('.say span').forEach((el,k)=>el.style.background=k===i?'var(--hi)':'transparent');};
+  play(s.audio,(t,d)=>{let acc=0,x=t/d*tot;for(let i=0;i<lens.length;i++){acc+=lens[i];if(x<=acc){mark(i);break;}}},()=>{mark(-1);done&&done();});
+}
+
+/* data */
+let U=[];
+const chunkById=(u,id)=>{for(const r of u.rows)for(const col of r.columns)for(const c of col)if(c.id===id)return c;return null;};
+const allSent=u=>u.rows.flatMap((r,ri)=>r.sentences.map(s=>({...s,ri})));
+const unitProgress=u=>{const ss=allSent(u);return Math.round(100*ss.filter(s=>(S.sent[s.audio]||{}).box>=2).length/ss.length);};
+function combosOf(row){let out=[[]];row.columns.forEach(col=>{const opts=col.slice();if(col.every(c=>c.optional))opts.push(null);const n=[];out.forEach(p=>opts.forEach(o=>n.push(o?p.concat(o):p)));out=n;});return out.map(c=>c.map(x=>x.ga).join(' '));}
+
+/* views */
+let view='home', unit=null, sess=null;
+function tilesHTML(row,mode,sel){
+  return `<div class="grid">${row.columns.map((col,k)=>(k?'<span class="arrow" aria-hidden="true">→</span>':'')+`<div class="col">${col.map(c=>`<button class="tile k${k%4}${c.optional?' opt':''}${sel&&sel.includes(c.id)?' picked':''}" data-cid="${c.id}" data-col="${k}" data-act="${mode}" lang="ga"><span class="ga">${esc(c.ga)}</span>${c.en!==c.ga?`<span class="en">${esc(c.en)}</span>`:''}</button>`).join('')}</div>`).join('')}</div>`;
+}
+function head(title,sub,back){return `<div class="top">${back?'<button class="icon" data-act="home" aria-label="Baile">←</button>':''}<h1>${title}${sub?`<span class="sub">${sub}</span>`:''}</h1></div>`;}
+function stepsHTML(){return `<div class="steps" aria-hidden="true">${STEPS.map((_,i)=>`<div class="${i<sess.step?'done':i===sess.step?'on':''}"></div>`).join('')}</div>
+  <div class="stepname"><b>${STEPS[sess.step][0]}</b><span>${STEPS[sess.step][1]} · ${sess.step+1} / 4</span></div>`;}
+
+function render(){
+  const app=$('#app');
+  if(view==='home'){
+    app.innerHTML=`${head('Abair Leat','Bliain 8 · Gaeilge Uladh')}
+      <p class="hello">Dia duit!</p>
+      <p class="lede">Éist, aithin, tóg agus cuimhnigh. Cúpla bomaite san oíche. <br><span class="note">Listen, recognise, build and remember. A few minutes a night.</span></p>
+      <div class="units">${U.map((u,i)=>{const p=unitProgress(u);const n=(S.units[u.id]||{}).runs||0;
+        return `<button class="unit" data-act="open" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)}</span><span class="bar"><i style="width:${p}%"></i></span></span><span class="go">${n?'Arís':'Tosaigh'} →</span></button>`;}).join('')}</div>
+      <p class="note">Dréacht le haghaidh tástála. A draft for testing. Voice: Áine, ABAIR (Trinity College Dublin). Progress stays on this phone.</p>`;
+    return;
+  }
+  const u=unit, st=sess.step;
+  let body='';
+  if(st===0){
+    const r=u.rows[sess.row];
+    body=`<div class="card"><p class="lab">${esc(r.label)} · ${sess.row+1} / ${u.rows.length}</p>
+      <p class="gloss">Brúigh ar thíl le héisteacht. Tap a tile to hear it.</p>${tilesHTML(r,'hear')}
+      <div class="actions"><button class="play" data-act="listenRow">▶ Éist leis na habairtí</button></div>
+      <div class="say" id="say" aria-live="polite"></div></div>
+      <div class="actions"><span></span><button class="btn" data-act="next0">${sess.row+1<u.rows.length?'An chéad cheann eile':'Ar aghaidh'}</button></div>`;
+  }
+  if(st===1||st===2||st===3){
+    const it=sess.items[sess.i];
+    const r=u.rows[it.ri];
+    const prog=`<p class="lab">${sess.i+1} / ${sess.items.length}</p>`;
+    if(it.kind==='hearTiles'){
+      body=`<div class="card">${prog}<p class="big">Éist agus roghnaigh na tíleanna.</p><p class="gloss">Listen, then tap one tile from each colour.</p>
+        <div><button class="play" data-act="replay">▶ Éist arís</button></div>${tilesHTML(r,'choose',sess.sel)}
+        ${sess.res?resultHTML(it):''}</div>`;
+    }
+    if(it.kind==='meaning'){
+      body=`<div class="card">${prog}<p class="big">Cad é an chiall atá leis?</p><p class="gloss">What does it mean?</p>
+        <div><button class="play" data-act="replay">▶ Éist arís</button></div>
+        <div class="choices">${sess.opts.map((o,k)=>`<button class="choice ${sess.res?(o===it.s.en?'right':(k===sess.picked?'wrong':'')):''}" data-act="mean" data-k="${k}" ${sess.res?'disabled':''}><span>${esc(o)}</span>${sess.res&&o===it.s.en?'<span class="mark">✓</span>':''}${sess.res&&k===sess.picked&&o!==it.s.en?'<span class="mark">✗</span>':''}</button>`).join('')}</div>
+        ${sess.res?`<p class="gloss" lang="ga">${esc(it.s.ga)}</p>`:''}</div>`;
+    }
+    if(it.kind==='build'){
+      body=`<div class="card">${prog}<p class="big">${esc(it.s.en)}</p><p class="gloss">Tóg an abairt i nGaeilge. Build it in Irish.</p>
+        ${tilesHTML(r,'choose',sess.sel)}${sess.res?resultHTML(it):''}</div>`;
+    }
+    if(it.kind==='type'){
+      body=`<div class="card">${prog}<p class="big">${esc(it.s.en)}</p><p class="gloss">Scríobh i nGaeilge é, ó chuimhne. Write it in Irish, from memory.</p>
+        <input class="input ${sess.res?(sess.res.ok?'right':'wrong'):''}" id="typed" lang="ga" autocomplete="off" autocapitalize="sentences" spellcheck="false" value="${esc(sess.typed||'')}" ${sess.res?'readonly':''}>
+        ${sess.res?typedResultHTML(it):''}</div>${sess.res?'':FADAS}`;
+    }
+    if(it.kind==='question'){
+      body=`<div class="card">${prog}<p class="lab">Ceist an scrúdaitheora</p><p class="big" lang="ga">${esc(it.q.ga)}</p>
+        <div><button class="play small" data-act="playQ">▶ Éist</button></div>
+        <p class="gloss">Freagair fút féin, ó chuimhne. Answer about yourself, from memory.</p>
+        <input class="input ${sess.res?(sess.res.ok?'right':'wrong'):''}" id="typed" lang="ga" autocomplete="off" autocapitalize="sentences" spellcheck="false" value="${esc(sess.typed||'')}" ${sess.res?'readonly':''}>
+        ${sess.res?(sess.res.ok?'<div class="fix"><span class="pen">✓ an-mhaith!</span></div>':`<div class="fix"><span class="pen">cuimhnigh ar an tíl</span><span class="gloss">Sampla: </span><span lang="ga">${esc(it.model)}</span></div>`):''}</div>${sess.res?'':FADAS}`;
+    }
+    const canCheck=it.kind==='meaning'?false:true;
+    body+=`<div class="actions">${!sess.res&&(it.kind==='type'||it.kind==='question')?'<button class="btn link" data-act="skip">Níl a fhios agam</button>':'<span></span>'}
+      ${sess.res?`<button class="btn" data-act="next">${sess.i+1<sess.items.length?'Ar aghaidh':(st<3?'An chéad chéim eile':'Críochnaigh')}</button>`:(canCheck?`<button class="btn" data-act="check">Seiceáil</button>`:'')}</div>`;
+  }
+  if(st===4){
+    const ok=sess.log.filter(x=>x.ok).length,n=sess.log.length;
+    body=`<div class="card"><div class="done-em" aria-hidden="true">${ok/n>=.8?'🌟':ok/n>=.5?'👍':'💪'}</div>
+      <p class="big" style="text-align:center">${ok} / ${n}</p><p class="mark" style="text-align:center;font-size:36px;display:block">${ok===n?'maith thú!':ok/n>=.5?'ag teacht chun cinn':'arís amárach'}</p>
+      <div class="results"><ul>${sess.log.map(x=>`<li><span class="mark" style="font-size:24px">${x.ok?'✓':'✗'}</span><span><span lang="ga">${esc(x.ga)}</span><br><span class="gloss">${esc(x.en)}</span></span></li>`).join('')}</ul></div></div>
+      <div class="actions"><button class="btn ghost" data-act="home">Baile</button><button class="btn" data-act="again">Arís</button></div>`;
+  }
+  app.innerHTML=head(`<span aria-hidden="true">${EM[u.id]}</span> ${esc(u.title)}`,esc(u.en),true)+(st<4?stepsHTML():'')+body;
+  const inp=$('#typed'); if(inp&&!sess.res) setTimeout(()=>inp.focus(),30);
+  const fx=$('.fix'); if(fx&&sess&&sess.res) fx.scrollIntoView({block:'center',behavior:'smooth'});
+}
+const FADAS=`<div class="fadas">${['á','é','í','ó','ú'].map(c=>`<button type="button" data-fada="${c}" tabindex="-1">${c}</button>`).join('')}</div>`;
+function resultHTML(it){
+  const want=it.s.chunks.map(id=>chunkById(unit,id).ga).join(' ');
+  return sess.res.ok?`<div class="fix"><span class="pen">✓ ceart!</span><span lang="ga">${esc(it.s.ga)}</span></div>`
+    :`<div class="fix"><span class="pen">${esc(it.s.ga)}</span><span class="gloss">An freagra ceart · the right answer</span></div>`;
+}
+function typedResultHTML(it){
+  if(sess.res.ok) return `<div class="fix"><span class="pen">✓ ${sess.res.fada?'fada! ':''}${esc(it.s.ga)}</span></div>`;
+  const have=new Set(norm(sess.typed).split(' ').map(fold));const miss=norm(it.s.ga).split(' ').filter(w=>!have.has(fold(w)));
+  return `<div class="fix"><span class="pen">${esc(it.s.ga)}</span>${miss.length&&sess.typed?`<span class="gloss">De dhíth · missing: ${esc(miss.join(', '))}</span>`:''}</div>`;
+}
+
+/* sessions */
+function startUnit(i){
+  unit=U[i];
+  const ss=allSent(unit);
+  const now=Date.now(), st=s=>S.sent[s.audio]||{box:0,due:0};
+  const weak=shuffle(ss).sort((a,b)=>(st(a).due<=now?0:1)-(st(b).due<=now?0:1)||st(a).box-st(b).box);
+  const runs=(S.units[unit.id]||{}).runs||0;
+  const listen=shuffle(ss).slice(0,4);
+  const mk=(kind,s)=>({kind,s,ri:s.ri});
+  const s1=[mk('hearTiles',weak[0]),mk('meaning',weak[1]),mk('hearTiles',weak[2]),mk('meaning',weak[3])];
+  const s2=[weak[4],weak[5],weak[6],weak[7]].filter(Boolean).map(s=>mk('build',s));
+  const s3=[weak[0],weak[2],weak[5]].filter(Boolean).map(s=>mk('type',s));
+  const q=pick(unit.questions.filter(x=>x.rows));
+  if(q) s3.push({kind:'question',q,ri:q.rows[0],model:pick(unit.rows[q.rows[0]].sentences).ga,combos:q.rows.flatMap(ri=>combosOf(unit.rows[ri]))});
+  sess={step:runs>0?1:0,row:0,i:0,res:null,sel:[],typed:'',log:[],plan:[null,s1,s2,s3],items:null,runs};
+  if(sess.step>0) sess.items=sess.plan[sess.step];
+  view='unit'; render(); scrollTo(0,0);
+  if(sess.step===1) setTimeout(()=>autoPlay(),250);
+}
+function autoPlay(){const it=sess.items&&sess.items[sess.i];if(it&&(it.kind==='hearTiles'||it.kind==='meaning'))play(it.s.audio);}
+function prepItem(){
+  const it=sess.items[sess.i]; sess.res=null; sess.sel=[]; sess.typed='';
+  if(it.kind==='meaning'){const others=shuffle(allSent(unit).filter(s=>s.en!==it.s.en)).slice(0,2).map(s=>s.en);sess.opts=shuffle([it.s.en,...others]);sess.picked=null;}
+}
+function record(ok,ga,en,id){sess.log.push({ok,ga,en});if(id)bump(id,ok);save();}
+
+const A={
+  home:()=>{if(cur)cur.pause();view='home';render();scrollTo(0,0);},
+  open:el=>startUnit(+el.dataset.i),
+  hear:el=>{const c=chunkById(unit,el.dataset.cid);if(c)play(c.id);},
+  listenRow:()=>{const r=unit.rows[sess.row];let k=0;const ss=r.sentences.slice(0,3);
+    const next=()=>{if(k>=ss.length){$('#say').innerHTML='';return;}const s=ss[k++];
+      $('#say').innerHTML=s.chunks.map(id=>`<span lang="ga">${esc(chunkById(unit,id).ga)}</span>`).join('')+`<div class="gloss" style="width:100%;font-weight:400;font-size:14px">${esc(s.en)}</div>`;
+      playSentence(s,unit,()=>setTimeout(next,600));};next();},
+  next0:()=>{if(sess.row+1<unit.rows.length){sess.row++;render();}else{sess.step=1;sess.items=sess.plan[1];sess.i=0;prepItem();render();setTimeout(autoPlay,250);}},
+  replay:()=>{const it=sess.items[sess.i];play(it.s.audio);},
+  playQ:()=>{const it=sess.items[sess.i];play(it.q.audio);},
+  choose:el=>{if(sess.res)return;const col=+el.dataset.col;const r=unit.rows[sess.items[sess.i].ri];
+    const ids=r.columns[col].map(c=>c.id);sess.sel=sess.sel.filter(x=>!ids.includes(x));
+    if(!(sess.lastTap===el.dataset.cid&&sess.selHad)) sess.sel.push(el.dataset.cid);
+    const c=chunkById(unit,el.dataset.cid);play(c.id);render();},
+  mean:el=>{const it=sess.items[sess.i];sess.picked=+el.dataset.k;const ok=sess.opts[sess.picked]===it.s.en;sess.res={ok};record(ok,it.s.ga,it.s.en,it.s.audio);render();},
+  check:()=>{
+    const it=sess.items[sess.i];
+    if(it.kind==='hearTiles'||it.kind==='build'){
+      const r=unit.rows[it.ri]; const order=[];r.columns.forEach(col=>{const hit=col.find(c=>sess.sel.includes(c.id));if(hit)order.push(hit.id);});
+      const ok=order.join('|')===it.s.chunks.join('|');sess.res={ok};record(ok,it.s.ga,it.s.en,it.s.audio);render();playSentence(it.s,unit);return;}
+    const typed=($('#typed')||{}).value||''; sess.typed=typed;
+    if(it.kind==='type'){const a=norm(typed),b=norm(it.s.ga);const ok=a===b||fold(a)===fold(b);sess.res={ok,fada:ok&&a!==b};record(ok,it.s.ga,it.s.en,it.s.audio);render();playSentence(it.s,unit);return;}
+    if(it.kind==='question'){const a=fold(norm(typed));const ok=it.combos.some(c=>fold(norm(c))===a);sess.res={ok};record(ok,it.q.ga,typed||'—');render();}
+  },
+  skip:()=>{sess.typed=($('#typed')||{}).value||'';A.check();},
+  next:()=>{
+    if(sess.i+1<sess.items.length){sess.i++;prepItem();render();setTimeout(autoPlay,200);return;}
+    if(sess.step<3){sess.step++;sess.items=sess.plan[sess.step];sess.i=0;prepItem();render();scrollTo(0,0);setTimeout(autoPlay,250);return;}
+    const u=S.units[unit.id]||{runs:0};u.runs++;S.units[unit.id]=u;save();sess.step=4;render();scrollTo(0,0);
+  },
+  again:()=>startUnit(U.indexOf(unit)),
+};
+document.addEventListener('pointerdown',e=>{if(e.target.closest('[data-fada]'))e.preventDefault();});
+document.addEventListener('click',e=>{
+  const f=e.target.closest('[data-fada]');if(f){const i=$('#typed');if(i&&!i.readOnly){const s=i.selectionStart??i.value.length;i.value=i.value.slice(0,s)+f.dataset.fada+i.value.slice(i.selectionEnd??s);i.focus();i.setSelectionRange(s+1,s+1);}return;}
+  const a=e.target.closest('[data-act]');if(!a||a.disabled)return;
+  if(a.dataset.act==='choose'){sess.selHad=sess.sel.includes(a.dataset.cid);sess.lastTap=a.dataset.cid;}
+  A[a.dataset.act]&&A[a.dataset.act](a,e);
+});
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='typed'){e.preventDefault();const b=document.querySelector('[data-act="check"],[data-act="next"]');if(b)b.click();}});
+fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{U=d;window.__t={U,S:()=>S,sess:()=>sess};render();})
+  .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});
+})();
+</script>
