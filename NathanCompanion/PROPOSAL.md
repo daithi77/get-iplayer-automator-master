@@ -164,3 +164,7 @@ A five-angle concept panel (see CONCEPT.md) chose the pupil's own exam script as
 1. **The whole school, not Years 11 and 12 only.** The thread has to hold for a Year 8 with no exam date. The brief is being adapted.
 2. **Wait for Abair.** No teacher recording of the 270 questions; the questions stay in print until the synthetic Ulster voice is wired in.
 3. **Dáithí signs off every line of Irish himself**, page titles, glosses, pen phrases included.
+
+## 13. Grammar exemplars, 26 September 2026
+
+Dáithí uploaded a 186-page scan of the school grammar workbook Gramadach Gan Dua (standard Irish, illustrated, exercises for every tense, mood, declension and preposition). Ruling: its sentences are to be extracted, tagged by grammar point, **converted to Ulster forms and used on screen**, with Dáithí signing off every conversion in a sheet before any reaches a pupil. Copyright for on-screen use is to be settled before distribution, as with the exam board's list. The scan is at data/Gramadach Samplaí.pdf; optical character recognition ran with the Irish model.
