@@ -11,7 +11,7 @@
    "questions": [
     "Cad é an t-ainm atá ort?",
     "Cad é an aois thú?",
-    "Cá huair a bhíonn do lá breithe?"
+    "Cén dáta a bhíonn do lá breithe?"
    ],
    "rows": [
     {
@@ -39,18 +39,6 @@
        {
         "ga": "Oisín",
         "en": "Oisín"
-       }
-      ],
-      [
-       {
-        "ga": "agus is as an tSruthán mé",
-        "en": "and I am from Bessbrook",
-        "optional": true
-       },
-       {
-        "ga": "agus is as an Iúr mé",
-        "en": "and I am from Newry",
-        "optional": true
        }
       ]
      ]
@@ -80,6 +68,55 @@
        {
         "ga": "an t-ainm atá orm",
         "en": "is my name"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá háit",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "sa Sruthán",
+        "en": "in Bessbrook"
+       },
+       {
+        "ga": "i gCamloch",
+        "en": "in Camlough"
+       },
+       {
+        "ga": "sa Mhaigh",
+        "en": "in Meigh"
+       },
+       {
+        "ga": "i nDroimeann Tí",
+        "en": "in Drumintee"
+       },
+       {
+        "ga": "i gCorr Leacht",
+        "en": "in Corr Leacht"
+       },
+       {
+        "ga": "i mBaile Úr",
+        "en": "in Baile Úr"
+       },
+       {
+        "ga": "i mBaile an Chláir",
+        "en": "in Baile an Chláir"
+       },
+       {
+        "ga": "i mBaile an Mhaoir",
+        "en": "in Baile an Mhaoir"
+       },
+       {
+        "ga": "in Iúr Cinn Trá",
+        "en": "in Newry"
        }
       ]
      ]
@@ -120,7 +157,7 @@
      "columns": [
       [
        {
-        "ga": "Tá mo lá breithe",
+        "ga": "Bíonn mo lá breithe",
         "en": "My birthday is"
        }
       ],
@@ -130,20 +167,40 @@
         "en": "in January"
        },
        {
+        "ga": "i mí Feabhra",
+        "en": "in February"
+       },
+       {
         "ga": "i mí an Mhárta",
         "en": "in March"
+       },
+       {
+        "ga": "i mí Aibreáin",
+        "en": "in April"
        },
        {
         "ga": "i mí na Bealtaine",
         "en": "in May"
        },
        {
+        "ga": "i mí an Mheithimh",
+        "en": "in June"
+       },
+       {
         "ga": "i mí Iúil",
         "en": "in July"
        },
        {
+        "ga": "i mí Lúnasa",
+        "en": "in August"
+       },
+       {
         "ga": "i mí Mheán Fómhair",
         "en": "in September"
+       },
+       {
+        "ga": "i mí Dheireadh Fómhair",
+        "en": "in October"
        },
        {
         "ga": "i mí na Samhna",
@@ -158,10 +215,11 @@
     }
    ],
    "examples": [
-    "Is mise Aoife agus is as an tSruthán mé.",
+    "Is mise Aoife.",
     "Ciarán an t-ainm atá orm.",
+    "Tá mé i mo chónaí sa Sruthán.",
     "Tá mé dhá bhliain déag d'aois.",
-    "Tá mo lá breithe i mí na Samhna."
+    "Bíonn mo lá breithe i mí na Samhna."
    ]
   },
   {
@@ -200,12 +258,28 @@
        {
         "ga": "seisear",
         "en": "six people"
+       },
+       {
+        "ga": "seachtar",
+        "en": "seven people"
+       },
+       {
+        "ga": "ochtar",
+        "en": "eight people"
+       },
+       {
+        "ga": "naonúr",
+        "en": "nine people"
+       },
+       {
+        "ga": "deichniúr",
+        "en": "ten people"
        }
       ],
       [
        {
-        "ga": "sa teaghlach s'againne",
-        "en": "in our family"
+        "ga": "i mo theaghlach",
+        "en": "in my family"
        }
       ]
      ]
@@ -283,6 +357,30 @@
        {
         "ga": "Tá cat",
         "en": "We have a cat"
+       },
+       {
+        "ga": "Tá coinín",
+        "en": "We have a rabbit"
+       },
+       {
+        "ga": "Tá iasc órga",
+        "en": "We have a goldfish"
+       },
+       {
+        "ga": "Tá hamstar",
+        "en": "We have a hamster"
+       },
+       {
+        "ga": "Tá muc ghuine",
+        "en": "We have a guinea pig"
+       },
+       {
+        "ga": "Tá capall",
+        "en": "We have a horse"
+       },
+       {
+        "ga": "Tá éan",
+        "en": "We have a bird"
        }
       ],
       [
@@ -295,7 +393,7 @@
     }
    ],
    "examples": [
-    "Tá cúigear sa teaghlach s'againne.",
+    "Tá cúigear i mo theaghlach.",
     "Tá beirt deirfiúracha agam.",
     "Níl deartháir ar bith agam.",
     "Tá madadh againn fosta."
@@ -305,7 +403,7 @@
    "id": "b3-cursios",
    "title": "Cur síos orm féin",
    "en": "Describing myself",
-   "teaches": "Tá mé + adjective; lenition of adjectives after feminine gruaig; plural adjectives after súile; tá ... orm / agam.",
+   "teaches": "Tá mé + adjective; tá mo chuid gruaige / tá mo shúile + adjective, which avoids lenition and plural agreement.",
    "questions": [
     "Déan cur síos ort féin.",
     "Déan cur síos ar do chara is fearr."
@@ -341,21 +439,21 @@
      "columns": [
       [
        {
-        "ga": "Tá gruaig",
-        "en": "I have ... hair"
+        "ga": "Tá mo chuid gruaige",
+        "en": "My hair is"
        }
       ],
       [
        {
-        "ga": "dhonn",
+        "ga": "donn",
         "en": "brown"
        },
        {
-        "ga": "dhubh",
+        "ga": "dubh",
         "en": "black"
        },
        {
-        "ga": "fhionn",
+        "ga": "fionn",
         "en": "fair"
        },
        {
@@ -365,8 +463,19 @@
       ],
       [
        {
-        "ga": "orm",
-        "en": "(on me)"
+        "ga": "agus fada",
+        "en": "and long",
+        "optional": true
+       },
+       {
+        "ga": "agus gearr",
+        "en": "and short",
+        "optional": true
+       },
+       {
+        "ga": "agus catach",
+        "en": "and curly",
+        "optional": true
        }
       ]
      ]
@@ -376,28 +485,22 @@
      "columns": [
       [
        {
-        "ga": "Tá súile",
-        "en": "I have ... eyes"
+        "ga": "Tá mo shúile",
+        "en": "My eyes are"
        }
       ],
       [
        {
-        "ga": "gorma",
+        "ga": "gorm",
         "en": "blue"
        },
        {
-        "ga": "donna",
+        "ga": "donn",
         "en": "brown"
        },
        {
-        "ga": "glasa",
+        "ga": "glas",
         "en": "green"
-       }
-      ],
-      [
-       {
-        "ga": "agam",
-        "en": "(at me)"
        }
       ]
      ]
@@ -438,8 +541,8 @@
    ],
    "examples": [
     "Tá mé measartha ard.",
-    "Tá gruaig dhonn orm.",
-    "Tá súile gorma agam.",
+    "Tá mo chuid gruaige donn agus fada.",
+    "Tá mo shúile gorm.",
     "Deir mo chairde go bhfuil mé greannmhar."
    ]
   },
@@ -447,7 +550,7 @@
    "id": "b4-ceantar",
    "title": "Mo cheantar",
    "en": "Where I live",
-   "teaches": "Tá mé i mo chónaí; i + eclipsis, in before a vowel; sa / san; ann for 'there'; mar + reason.",
+   "teaches": "Tá mé i mo chónaí; i + eclipsis, in before a vowel, sa + lenition; ann for 'there'; mar + reason.",
    "questions": [
     "Cá bhfuil tú i do chónaí?",
     "An maith leat do cheantar?",
@@ -465,40 +568,40 @@
       ],
       [
        {
-        "ga": "sa tSruthán",
+        "ga": "sa Sruthán",
         "en": "in Bessbrook"
        },
        {
         "ga": "i gCamloch",
         "en": "in Camlough"
-       }
-      ],
-      [
-       {
-        "ga": "i gContae Ard Mhacha",
-        "en": "in County Armagh",
-        "optional": true
-       }
-      ]
-     ]
-    },
-    {
-     "label": "Cá háit (baile mór)",
-     "columns": [
-      [
-       {
-        "ga": "Tá mé i mo chónaí",
-        "en": "I live"
-       }
-      ],
-      [
-       {
-        "ga": "san Iúr",
-        "en": "in Newry"
        },
        {
-        "ga": "in Ard Mhacha",
-        "en": "in Armagh"
+        "ga": "sa Mhaigh",
+        "en": "in Meigh"
+       },
+       {
+        "ga": "i nDroimeann Tí",
+        "en": "in Drumintee"
+       },
+       {
+        "ga": "i gCorr Leacht",
+        "en": "in Corr Leacht"
+       },
+       {
+        "ga": "i mBaile Úr",
+        "en": "in Baile Úr"
+       },
+       {
+        "ga": "i mBaile an Chláir",
+        "en": "in Baile an Chláir"
+       },
+       {
+        "ga": "i mBaile an Mhaoir",
+        "en": "in Baile an Mhaoir"
+       },
+       {
+        "ga": "in Iúr Cinn Trá",
+        "en": "in Newry"
        }
       ]
      ]
@@ -645,7 +748,7 @@
     }
    ],
    "examples": [
-    "Tá mé i mo chónaí sa tSruthán i gContae Ard Mhacha.",
+    "Tá mé i mo chónaí i gCamloch.",
     "Tá mé i mo chónaí i dteach faoin tuath.",
     "Tá club CLG cóngarach dom.",
     "Is maith liom mo cheantar mar tá sé ciúin."
@@ -978,8 +1081,12 @@
       ],
       [
        {
-        "ga": "peil",
-        "en": "football"
+        "ga": "peil Ghaelach",
+        "en": "Gaelic football"
+       },
+       {
+        "ga": "sacar",
+        "en": "soccer"
        },
        {
         "ga": "iomáint",
@@ -990,8 +1097,24 @@
         "en": "camogie"
        },
        {
+        "ga": "rugbaí",
+        "en": "rugby"
+       },
+       {
         "ga": "cispheil",
         "en": "basketball"
+       },
+       {
+        "ga": "leadóg",
+        "en": "tennis"
+       },
+       {
+        "ga": "haca",
+        "en": "hockey"
+       },
+       {
+        "ga": "eitpheil",
+        "en": "volleyball"
        }
       ],
       [
@@ -1084,6 +1207,30 @@
        {
         "ga": "Imrím cluichí ríomhaire",
         "en": "I play computer games"
+       },
+       {
+        "ga": "Téim ag rothaíocht",
+        "en": "I go cycling"
+       },
+       {
+        "ga": "Téim ag marcaíocht",
+        "en": "I go horse riding"
+       },
+       {
+        "ga": "Téim chuig an spórtlann",
+        "en": "I go to the gym"
+       },
+       {
+        "ga": "Bím ag damhsa",
+        "en": "I dance"
+       },
+       {
+        "ga": "Canaim i gcór",
+        "en": "I sing in a choir"
+       },
+       {
+        "ga": "Bím ag rith",
+        "en": "I go running"
        }
       ],
       [
@@ -1100,7 +1247,7 @@
     }
    ],
    "examples": [
-    "Imrím peil leis an chlub achan Satharn.",
+    "Imrím peil Ghaelach leis an chlub achan Satharn.",
     "Seinnim an giotár uair sa tseachtain.",
     "Téim chuig an phictiúrlann ag an deireadh seachtaine."
    ]
