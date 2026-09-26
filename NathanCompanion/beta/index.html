@@ -82,6 +82,34 @@ button,input{font:inherit;color:inherit}
 .done-em{font-size:64px;text-align:center;line-height:1}
 .hello{font-family:'Marking Hand',cursive;color:var(--pen);font-size:34px;transform:rotate(-2deg);margin:0}
 .note{font-size:13px;color:var(--muted)}
+
+.app.wide{max-width:1500px}
+.toprow{display:flex;gap:8px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);font-weight:700;cursor:pointer;font-size:15px}
+.intro{display:flex;flex-direction:column;gap:14px}
+.intro h2{font-size:30px;margin:0}
+.intro .step{display:flex;gap:14px;align-items:flex-start}
+.intro .step .e{font-size:32px;line-height:1}
+.intro .step b{display:block}
+.intro .band{background:var(--k0);color:var(--k0i);border-radius:12px;padding:14px}
+.dots{display:flex;gap:8px;justify-content:center}.dots i{width:8px;height:8px;border-radius:50%;background:var(--rule)}.dots i.on{background:var(--ink)}
+.deckbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.deckbar .sp{flex:1}
+.slide{background:var(--surface);border:1px solid var(--rule);border-radius:20px;padding:clamp(18px,3vw,48px);display:flex;flex-direction:column;gap:clamp(12px,2vw,28px);min-height:60vh}
+.slide h2{margin:0;font-size:clamp(30px,4.5vw,64px);line-height:1.1}
+.slide .lbl{font-size:clamp(18px,2vw,30px);color:var(--muted);font-weight:700;margin:0}
+.slide .q{display:flex;gap:14px;align-items:center;font-size:clamp(22px,3vw,42px);font-weight:700;background:transparent;border:0;text-align:left;cursor:pointer;padding:4px 0}
+.slide .pen.h{font-size:clamp(34px,4vw,56px);transform:rotate(-2deg);display:inline-block;margin:0}
+.dgrid{display:flex;gap:clamp(8px,1.2vw,18px);align-items:flex-start}
+.dgrid .col{min-width:0}
+.dgrid .tile .ga{font-size:var(--ts)}
+.dgrid .tile .en{font-size:calc(var(--ts)*.55)}
+.dgrid .arrow{font-size:calc(var(--ts)*1.1);align-self:flex-start;margin-top:calc(var(--ts)*.5)}
+@media (max-width:700px){.dgrid .col{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))!important}.dgrid{flex-direction:column}.dgrid .arrow{transform:rotate(90deg);align-self:center;margin:0}}
+.slide .say{font-size:clamp(24px,3.4vw,48px);min-height:1.4em}
+.slide .say .gloss{font-size:clamp(16px,1.8vw,26px)}
+.noen .en,.noen .gloss.en{display:none!important}
+.counter{font-variant-numeric:tabular-nums;color:var(--muted);font-weight:700}
 </style>
 
 <div class="app" id="app"><p class="note">Ag lódáil…</p></div>
@@ -141,8 +169,17 @@ function stepsHTML(){return `<div class="steps" aria-hidden="true">${STEPS.map((
 
 function render(){
   const app=$('#app');
+  if(view==='intro'){app.classList.remove('wide');app.innerHTML=introHTML();return;}
+  if(view==='teach'){app.classList.remove('wide');app.innerHTML=`${head('Don rang','Slides for the class screen',true)}
+      <p class="lede">Sleamhnáin do mhúinteoirí: one builder row per slide, with Áine's voice. Tap a chunk to hear it. Use the arrow keys, Page Up and Page Down, or a presenter clicker to move.</p>
+      <div class="units">${U.map((u,i)=>`<button class="unit" data-act="deck" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)} · ${u.rows.length+2} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>
+      <div class="card"><p class="lab">Ar an teilifís · on the class screen</p>
+      <p><b>Interactive panel, projector or laptop:</b> open this link in the browser and choose a unit. Add <b>#rang</b> to the end of the link to open straight here.</p>
+      <p><b>Apple TV:</b> mirror an iPad from Control Centre, Screen Mirroring, and hold it sideways. The Abair Leat iPhone and iPad app has the same slides.</p></div>`;return;}
+  if(view==='deck'){app.classList.add('wide');app.innerHTML=deckHTML();return;}
   if(view==='home'){
-    app.innerHTML=`${head('Abair Leat','Bliain 8 · Gaeilge Uladh')}
+    app.classList.remove('wide');
+    app.innerHTML=`<div class="top"><h1>Abair Leat<span class="sub">Bliain 8 · Gaeilge Uladh</span></h1><div class="toprow"><button class="icon" data-act="intro" aria-label="Faoin aip. About the app">ⓘ</button><button class="pill" data-act="teach">📺 Don rang</button></div></div>
       <p class="hello">Dia duit!</p>
       <p class="lede">Éist, aithin, tóg agus cuimhnigh. Cúpla bomaite san oíche. <br><span class="note">Listen, recognise, build and remember. A few minutes a night.</span></p>
       <div class="units">${U.map((u,i)=>{const p=unitProgress(u);const n=(S.units[u.id]||{}).runs||0;
@@ -218,6 +255,54 @@ function typedResultHTML(it){
   return `<div class="fix"><span class="pen">${esc(it.s.ga)}</span>${miss.length&&sess.typed?`<span class="gloss">De dhíth · missing: ${esc(miss.join(', '))}</span>`:''}</div>`;
 }
 
+/* introduction (draft wording, awaiting sign-off) */
+let introPage=0;
+const INTRO=[
+ ()=>`<p style="font-size:56px;margin:0" aria-hidden="true">💬</p><h2>Abair Leat</h2><p class="hello">Gaeilge le rá os ard.</p><p style="font-size:19px;margin:0">Irish you can say out loud.</p>
+  <p class="gloss">Abair Leat uses the same sentence builders you work with in class. Every chunk and every sentence is spoken by Áine, a native Ulster voice, so you hear it before you say it.</p>`,
+ ()=>`<h2 lang="ga">Mar a oibríonn sé</h2><p class="gloss">How it works: about six minutes, four steps.</p>
+  ${[['👂','Éist · Listen','Hear every chunk and whole sentences before you try them.'],['👀','Aithin · Recognise','Pick out the chunks you hear, and what a sentence means.'],['🧱','Tóg · Build','Put sentences together from chunks, not single words.'],['🧠','Ó chuimhne · From memory','Write them with no help, then answer a real question about yourself.']].map(x=>`<div class="step"><span class="e" aria-hidden="true">${x[0]}</span><span><b>${x[1]}</b><span class="gloss">${x[2]}</span></span></div>`).join('')}
+  <p class="gloss">Anything you find hard comes back sooner. Anything you know well comes back later.</p>`,
+ ()=>`<h2 lang="ga">Cad chuige?</h2><p class="gloss">Why it works this way</p>
+  ${[['Language comes in chunks.','Fluent speakers use ready-made phrases. Learning them whole is faster than building every sentence word by word.'],['Listening comes first.','Lots of listening and reading give you the patterns. Speaking grows out of them.'],['Memory is the engine.','Recalling a sentence from memory, again and again over days, is what makes it stick.'],['Little and often.','A few minutes a night beats an hour once a week.']].map(x=>`<div><b>${x[0]}</b><div class="gloss">${x[1]}</div></div>`).join('')}
+  <p class="band">Abair Leat follows the general direction of the new Northern Ireland curriculum for languages: pupils using the language to talk about themselves and their world, with growing confidence in speaking.</p>
+  <p class="note">Voice: Áine, ABAIR, Trinity College Dublin. Progress stays on this device.</p>`];
+function introHTML(){return `<div class="card intro">${INTRO[introPage]()}</div><div class="dots" aria-hidden="true">${INTRO.map((_,i)=>`<i class="${i===introPage?'on':''}"></i>`).join('')}</div>
+  <div class="actions">${introPage>0?'<button class="btn ghost" data-act="introBack">Siar</button>':'<span></span>'}<button class="btn" data-act="introNext">${introPage<INTRO.length-1?'Ar aghaidh':'Tosaigh'}</button></div>`;}
+
+/* classroom slides */
+let deck=null;
+function deckHTML(){
+  const u=deck.u,n=u.rows.length+2,p=deck.page;
+  let inner='';
+  if(p===0){
+    inner=`<div style="display:flex;gap:20px;align-items:center"><span style="font-size:clamp(56px,8vw,110px)" aria-hidden="true">${EM[u.id]}</span><div><h2 lang="ga">${esc(u.title)}</h2><p class="lbl en">${esc(u.en)}</p></div></div>
+      <p class="pen h">Ceisteanna</p>${u.questions.map(q=>`<button class="q" data-act="dq" data-a="${q.audio}" lang="ga">🔊 <span>${esc(q.ga)}</span></button>`).join('')}`;
+  }else if(p<=u.rows.length){
+    const r=u.rows[p-1],widest=Math.max(...r.columns.map(c=>c.length));
+    const ts=widest>4?'clamp(15px,1.7vw,30px)':'clamp(18px,2.4vw,40px)';
+    inner=`<div class="deckbar"><p class="lbl sp" lang="ga">${esc(r.label)}</p><button class="play" data-act="dplay">${deck.playing?'■ Stad':'▶ Éist leis na habairtí'}</button></div>
+      <div class="say" id="say" aria-live="polite"></div>
+      <div class="dgrid" style="--ts:${ts}">${r.columns.map((col,k)=>{const n=Math.ceil(col.length/4);return (k?'<span class="arrow" aria-hidden="true">→</span>':'')+`<div class="col" style="flex:${n} 1 0;display:grid;grid-template-columns:repeat(${n},minmax(0,1fr));grid-auto-rows:min-content">${col.map(c=>`<button class="tile k${k%4}" data-cid="${c.id}" data-act="dhear" lang="ga"><span class="ga">${esc(c.ga)}</span>${c.en!==c.ga?`<span class="en">${esc(c.en)}</span>`:''}</button>`).join('')}</div>`;}).join('')}</div>`;
+  }else{
+    inner=`<p class="pen h">Freagraí samplacha</p><p class="lbl en">Model answers. Tap one to hear it.</p>${u.examples.map(e=>`<button class="q" data-act="dq" data-a="${e.audio}" lang="ga">🔊 <span>${esc(e.ga)}</span></button>`).join('')}`;
+  }
+  return `<div class="deckbar"><button class="icon" data-act="teach" aria-label="Siar go dtí na haonaid. Back to units">←</button><b class="sp">${EM[u.id]} ${esc(u.title)}</b>
+    <button class="pill" data-act="den">${deck.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla'}</button>
+    <button class="pill" data-act="dfull">⛶ Lánscáileán</button>
+    <button class="pill" data-act="dprev" ${p===0?'disabled':''} aria-label="Siar. Previous slide">◀</button><span class="counter">${p+1} / ${n}</span><button class="pill" data-act="dnext" ${p===n-1?'disabled':''} aria-label="Ar aghaidh. Next slide">▶</button></div>
+    <div class="slide ${deck.en?'':'noen'}">${inner}</div>`;
+}
+function deckGo(p){const n=deck.u.rows.length+2;p=Math.max(0,Math.min(n-1,p));if(p===deck.page)return;deck.page=p;deck.playing=false;deck.token++;if(cur)cur.pause();render();}
+function deckPlayRow(){
+  const r=deck.u.rows[deck.page-1];if(!r)return;const tok=++deck.token;let k=0;
+  const next=()=>{if(tok!==deck.token||!deck.playing)return;if(k>=r.sentences.length){deck.playing=false;render();return;}
+    const s=r.sentences[k++];const say=$('#say');if(!say)return;
+    say.innerHTML=s.chunks.map(id=>`<span lang="ga">${esc(chunkById(deck.u,id).ga)}</span>`).join('')+`<div class="gloss en" style="width:100%;font-weight:400">${esc(s.en)}</div>`;
+    playSentence(s,deck.u,()=>setTimeout(next,1200));};
+  next();
+}
+
 /* sessions */
 function startUnit(i){
   unit=U[i];
@@ -276,6 +361,19 @@ const A={
     const u=S.units[unit.id]||{runs:0};u.runs++;S.units[unit.id]=u;save();sess.step=4;render();scrollTo(0,0);
   },
   again:()=>startUnit(U.indexOf(unit)),
+  intro:()=>{introPage=0;view='intro';render();scrollTo(0,0);},
+  introNext:()=>{if(introPage<INTRO.length-1){introPage++;render();scrollTo(0,0);}else{try{localStorage.setItem('abair-leat.intro','1');}catch(e){}view='home';render();scrollTo(0,0);}},
+  introBack:()=>{if(introPage>0){introPage--;render();}},
+  teach:()=>{if(cur)cur.pause();if(deck){deck.token++;deck.playing=false;}view='teach';render();scrollTo(0,0);},
+  deck:el=>{deck={u:U[+el.dataset.i],page:0,en:true,playing:false,token:0};view='deck';render();scrollTo(0,0);},
+  dnext:()=>deckGo(deck.page+1),
+  dprev:()=>deckGo(deck.page-1),
+  den:()=>{deck.en=!deck.en;const sl=document.querySelector('.slide');if(sl)sl.classList.toggle('noen',!deck.en);const b=document.querySelector('[data-act="den"]');if(b)b.textContent=deck.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla';},
+  dfull:()=>{try{const d=document;if(d.fullscreenElement){d.exitFullscreen();}else{const r=d.documentElement.requestFullscreen&&d.documentElement.requestFullscreen();if(r&&r.catch)r.catch(()=>{});}}catch(e){}},
+  dhear:el=>play(el.dataset.cid),
+  dq:el=>play(el.dataset.a),
+  dplay:()=>{if(deck.playing){deck.playing=false;deck.token++;if(cur)cur.pause();const b=document.querySelector('[data-act="dplay"]');if(b)b.textContent='▶ Éist leis na habairtí';document.querySelectorAll('[data-cid]').forEach(t=>t.classList.remove('hi'));return;}
+    deck.playing=true;const b=document.querySelector('[data-act="dplay"]');if(b)b.textContent='■ Stad';deckPlayRow();},
 };
 document.addEventListener('pointerdown',e=>{if(e.target.closest('[data-fada]'))e.preventDefault();});
 document.addEventListener('click',e=>{
@@ -284,8 +382,14 @@ document.addEventListener('click',e=>{
   if(a.dataset.act==='choose'){sess.selHad=sess.sel.includes(a.dataset.cid);sess.lastTap=a.dataset.cid;}
   A[a.dataset.act]&&A[a.dataset.act](a,e);
 });
+document.addEventListener('keydown',e=>{if(view!=='deck'||e.target.id==='typed')return;
+  if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();deckGo(deck.page+1);}
+  else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();deckGo(deck.page-1);}
+  else if(e.key==='e'||e.key==='E'){A.den();}});
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='typed'){e.preventDefault();const b=document.querySelector('[data-act="check"],[data-act="next"]');if(b)b.click();}});
-fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{U=d;window.__t={U,S:()=>S,sess:()=>sess};render();})
+fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{U=d;window.__t={U,S:()=>S,sess:()=>sess,deck:()=>deck};
+    let seen=false;try{seen=!!localStorage.getItem('abair-leat.intro');}catch(e){}
+    view=location.hash==='#rang'?'teach':(seen?'home':'intro');render();})
   .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});
 })();
 </script>
