@@ -61,3 +61,10 @@ Before archiving, open `Package.swift` and raise `bundleVersion` by one (`"1"` b
 ## Pupils as testers
 
 Year 8 pupils are 11 or 12. Check the school's safeguarding and data protection position before inviting pupils, since TestFlight needs each tester's Apple ID email. Starting with staff as internal testers avoids the question for the first round.
+
+## Lessons from the first upload (26 September 2026)
+
+- **Register the bundle ID by hand** before creating the app record: developer.apple.com/account/resources/identifiers/add/bundleId, App IDs, App, Explicit, `com.feirste.gaeilge`. Archiving did not register it.
+- **Minimum iOS is 26 for now.** The App Playground package reports its minimum iOS version as its SDK version, and App Store Connect rejected iOS 17. Before pupils use the app, convert it to a standard Xcode project so older iPhones can install it.
+- **After re-downloading the package**, set the Development Team again under Signing & Capabilities. The download does not keep it.
+- Build 3 (version 0.1) uploaded and in internal testing, group Beta 1, expires after 90 days.
