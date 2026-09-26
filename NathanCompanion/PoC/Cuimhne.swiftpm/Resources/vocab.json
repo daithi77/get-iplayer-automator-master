@@ -1,0 +1,2583 @@
+[
+ {
+  "id": "V001",
+  "en": "able, capable",
+  "sub": "",
+  "type": "word",
+  "ga": "ábalta",
+  "gender": ""
+ },
+ {
+  "id": "V002",
+  "en": "home",
+  "sub": "",
+  "type": "word",
+  "ga": "abhaile",
+  "gender": ""
+ },
+ {
+  "id": "V003",
+  "en": "Mass",
+  "sub": "",
+  "type": "noun",
+  "ga": "Aifreann",
+  "gender": "m"
+ },
+ {
+  "id": "V004",
+  "en": "money, silver",
+  "sub": "",
+  "type": "noun",
+  "ga": "airgead",
+  "gender": "m"
+ },
+ {
+  "id": "V005",
+  "en": "certainty",
+  "sub": "",
+  "type": "word",
+  "ga": "áirithe",
+  "gender": ""
+ },
+ {
+  "id": "V006",
+  "en": "facility, convenience",
+  "sub": "",
+  "type": "word",
+  "ga": "áis",
+  "gender": ""
+ },
+ {
+  "id": "V007",
+  "en": "sweat",
+  "sub": "",
+  "type": "noun",
+  "ga": "allas",
+  "gender": "m"
+ },
+ {
+  "id": "V008",
+  "en": "article",
+  "sub": "",
+  "type": "noun",
+  "ga": "alt",
+  "gender": "m"
+ },
+ {
+  "id": "V009",
+  "en": "time",
+  "sub": "",
+  "type": "noun",
+  "ga": "am",
+  "gender": "m"
+ },
+ {
+  "id": "V010",
+  "en": "out",
+  "sub": "",
+  "type": "word",
+  "ga": "amach",
+  "gender": ""
+ },
+ {
+  "id": "V011",
+  "en": "tomorrow",
+  "sub": "",
+  "type": "word",
+  "ga": "amárach",
+  "gender": ""
+ },
+ {
+  "id": "V012",
+  "en": "theatre",
+  "sub": "",
+  "type": "word",
+  "ga": "amharclann",
+  "gender": ""
+ },
+ {
+  "id": "V013",
+  "en": "song",
+  "sub": "",
+  "type": "noun",
+  "ga": "amhrán",
+  "gender": "m"
+ },
+ {
+  "id": "V014",
+  "en": "singer",
+  "sub": "",
+  "type": "noun",
+  "ga": "amhránaí",
+  "gender": "m"
+ },
+ {
+  "id": "V015",
+  "en": "up",
+  "sub": "",
+  "type": "word",
+  "ga": "aníos",
+  "gender": ""
+ },
+ {
+  "id": "V016",
+  "en": "now",
+  "sub": "",
+  "type": "word",
+  "ga": "anois",
+  "gender": ""
+ },
+ {
+  "id": "V017",
+  "en": "there, then",
+  "sub": "",
+  "type": "word",
+  "ga": "ansin",
+  "gender": ""
+ },
+ {
+  "id": "V018",
+  "en": "down",
+  "sub": "",
+  "type": "word",
+  "ga": "anuas",
+  "gender": ""
+ },
+ {
+  "id": "V019",
+  "en": "last year",
+  "sub": "",
+  "type": "word",
+  "ga": "anuraidh",
+  "gender": ""
+ },
+ {
+  "id": "V020",
+  "en": "fair",
+  "sub": "",
+  "type": "noun",
+  "ga": "aonach",
+  "gender": "m"
+ },
+ {
+  "id": "V021",
+  "en": "excellent",
+  "sub": "",
+  "type": "word",
+  "ga": "ar dóigh",
+  "gender": ""
+ },
+ {
+  "id": "V022",
+  "en": "at first",
+  "sub": "",
+  "type": "word",
+  "ga": "ar dtús",
+  "gender": ""
+ },
+ {
+  "id": "V023",
+  "en": "during",
+  "sub": "",
+  "type": "word",
+  "ga": "ar feadh",
+  "gender": ""
+ },
+ {
+  "id": "V024",
+  "en": "online",
+  "sub": "",
+  "type": "word",
+  "ga": "ar líne",
+  "gender": ""
+ },
+ {
+  "id": "V025",
+  "en": "stage",
+  "sub": "",
+  "type": "noun",
+  "ga": "ardán",
+  "gender": "m"
+ },
+ {
+  "id": "V026",
+  "en": "last night",
+  "sub": "",
+  "type": "word",
+  "ga": "aréir",
+  "gender": ""
+ },
+ {
+  "id": "V027",
+  "en": "again",
+  "sub": "",
+  "type": "word",
+  "ga": "arís",
+  "gender": ""
+ },
+ {
+  "id": "V028",
+  "en": "the day after tomorrow",
+  "sub": "",
+  "type": "word",
+  "ga": "arú amárach",
+  "gender": ""
+ },
+ {
+  "id": "V029",
+  "en": "the day before yesterday",
+  "sub": "",
+  "type": "word",
+  "ga": "arú inné",
+  "gender": ""
+ },
+ {
+  "id": "V030",
+  "en": "boat",
+  "sub": "",
+  "type": "noun",
+  "ga": "bád",
+  "gender": "m"
+ },
+ {
+  "id": "V031",
+  "en": "manager",
+  "sub": "",
+  "type": "noun",
+  "ga": "bainisteoir",
+  "gender": "m"
+ },
+ {
+  "id": "V032",
+  "en": "organ, member",
+  "sub": "",
+  "type": "noun",
+  "ga": "ball",
+  "gender": "m"
+ },
+ {
+  "id": "V033",
+  "en": "band",
+  "sub": "",
+  "type": "noun",
+  "ga": "banna ceoil/grúpa ceoil",
+  "gender": "m"
+ },
+ {
+  "id": "V034",
+  "en": "stick",
+  "sub": "",
+  "type": "noun",
+  "ga": "bata",
+  "gender": "m"
+ },
+ {
+  "id": "V035",
+  "en": "TV channel",
+  "sub": "",
+  "type": "noun",
+  "ga": "bealach teilifíse",
+  "gender": "m"
+ },
+ {
+  "id": "V036",
+  "en": "meal",
+  "sub": "",
+  "type": "noun",
+  "ga": "béile",
+  "gender": "m"
+ },
+ {
+  "id": "V037",
+  "en": "to be",
+  "sub": "",
+  "type": "word",
+  "ga": "bí",
+  "gender": ""
+ },
+ {
+  "id": "V038",
+  "en": "coin",
+  "sub": "",
+  "type": "noun",
+  "ga": "bonn",
+  "gender": "m"
+ },
+ {
+  "id": "V039",
+  "en": "box",
+  "sub": "",
+  "type": "noun",
+  "ga": "bosca",
+  "gender": "m"
+ },
+ {
+  "id": "V040",
+  "en": "melodeon",
+  "sub": "",
+  "type": "noun",
+  "ga": "bosca ceoil",
+  "gender": "m"
+ },
+ {
+  "id": "V041",
+  "en": "toy",
+  "sub": "",
+  "type": "noun",
+  "ga": "bréagán",
+  "gender": "m"
+ },
+ {
+  "id": "V042",
+  "en": "breakfast",
+  "sub": "",
+  "type": "noun",
+  "ga": "bricfeasta",
+  "gender": "m"
+ },
+ {
+  "id": "V043",
+  "en": "hit",
+  "sub": "",
+  "type": "verb",
+  "ga": "buail",
+  "prep": "",
+  "vn": "ag bualadh"
+ },
+ {
+  "id": "V044",
+  "en": "to meet",
+  "sub": "",
+  "type": "verb",
+  "ga": "buail le",
+  "prep": "",
+  "vn": "ag bualadh le"
+ },
+ {
+  "id": "V045",
+  "en": "internet café",
+  "sub": "",
+  "type": "noun",
+  "ga": "caife idirlín",
+  "gender": "m"
+ },
+ {
+  "id": "V046",
+  "en": "pastime, hobby",
+  "sub": "",
+  "type": "noun",
+  "ga": "caitheamh aimsire",
+  "gender": "m"
+ },
+ {
+  "id": "V047",
+  "en": "hurling stick",
+  "sub": "",
+  "type": "noun",
+  "ga": "camán",
+  "gender": "m"
+ },
+ {
+  "id": "V048",
+  "en": "camogie",
+  "sub": "",
+  "type": "word",
+  "ga": "camógaíocht",
+  "gender": ""
+ },
+ {
+  "id": "V049",
+  "en": "captain",
+  "sub": "",
+  "type": "noun",
+  "ga": "captaen",
+  "gender": "m"
+ },
+ {
+  "id": "V050",
+  "en": "cartoon",
+  "sub": "",
+  "type": "noun",
+  "ga": "cartún",
+  "gender": "m"
+ },
+ {
+  "id": "V051",
+  "en": "permission",
+  "sub": "",
+  "type": "noun",
+  "ga": "cead",
+  "gender": "m"
+ },
+ {
+  "id": "V052",
+  "en": "to buy",
+  "sub": "",
+  "type": "word",
+  "ga": "ceannaigh",
+  "gender": ""
+ },
+ {
+  "id": "V053",
+  "en": "music/rock/rap/pop music/classical music",
+  "sub": "",
+  "type": "noun",
+  "ga": "ceol/rac-cheol/rapcheol/popcheol/ ceol clasaiceach",
+  "gender": "m"
+ },
+ {
+  "id": "V054",
+  "en": "concert",
+  "sub": "",
+  "type": "word",
+  "ga": "ceolchoirm, coirm cheoil",
+  "gender": ""
+ },
+ {
+  "id": "V055",
+  "en": "musician, singer",
+  "sub": "",
+  "type": "noun",
+  "ga": "ceoltóir",
+  "gender": "m"
+ },
+ {
+  "id": "V056",
+  "en": "kick",
+  "sub": "",
+  "type": "noun",
+  "ga": "cic",
+  "gender": "m"
+ },
+ {
+  "id": "V057",
+  "en": "basketball",
+  "sub": "",
+  "type": "word",
+  "ga": "cispheil",
+  "gender": ""
+ },
+ {
+  "id": "V058",
+  "en": "clarinet",
+  "sub": "",
+  "type": "noun",
+  "ga": "cláirnéid",
+  "gender": "m"
+ },
+ {
+  "id": "V059",
+  "en": "programme, sports programme, documentary, children’s programme",
+  "sub": "",
+  "type": "noun",
+  "ga": "clár/clár spórt/ clár faisnéise/clár do pháistí",
+  "gender": "m"
+ },
+ {
+  "id": "V060",
+  "en": "skateboarding",
+  "sub": "",
+  "type": "word",
+  "ga": "clárscátáil",
+  "gender": ""
+ },
+ {
+  "id": "V061",
+  "en": "practice, training",
+  "sub": "",
+  "type": "noun",
+  "ga": "cleachtadh",
+  "gender": "m"
+ },
+ {
+  "id": "V062",
+  "en": "headphones",
+  "sub": "",
+  "type": "noun",
+  "ga": "cluasáin, fóin chluaise",
+  "gender": "m"
+ },
+ {
+  "id": "V063",
+  "en": "youth club",
+  "sub": "",
+  "type": "noun",
+  "ga": "club na n-óg, club óige",
+  "gender": "m"
+ },
+ {
+  "id": "V064",
+  "en": "match, game",
+  "sub": "",
+  "type": "noun",
+  "ga": "cluiche",
+  "gender": "m"
+ },
+ {
+  "id": "V065",
+  "en": "sleep",
+  "sub": "",
+  "type": "noun",
+  "ga": "codladh",
+  "gender": "m"
+ },
+ {
+  "id": "V066",
+  "en": "appointment, date",
+  "sub": "",
+  "type": "noun",
+  "ga": "coinne",
+  "gender": "m"
+ },
+ {
+  "id": "V067",
+  "en": "party",
+  "sub": "",
+  "type": "word",
+  "ga": "cóisir",
+  "gender": ""
+ },
+ {
+  "id": "V068",
+  "en": "competition, comparison",
+  "sub": "",
+  "type": "noun",
+  "ga": "comórtas",
+  "gender": "m"
+ },
+ {
+  "id": "V069",
+  "en": "branch",
+  "sub": "",
+  "type": "word",
+  "ga": "craobh",
+  "gender": ""
+ },
+ {
+  "id": "V070",
+  "en": "crossword",
+  "sub": "",
+  "type": "noun",
+  "ga": "crosfhocal",
+  "gender": "m"
+ },
+ {
+  "id": "V071",
+  "en": "point",
+  "sub": "",
+  "type": "noun",
+  "ga": "cúilín",
+  "gender": "m"
+ },
+ {
+  "id": "V072",
+  "en": "court",
+  "sub": "",
+  "type": "word",
+  "ga": "cúirt",
+  "gender": ""
+ },
+ {
+  "id": "V073",
+  "en": "back, goal",
+  "sub": "",
+  "type": "noun",
+  "ga": "cúl",
+  "gender": "m"
+ },
+ {
+  "id": "V074",
+  "en": "suit, outfit, dress",
+  "sub": "",
+  "type": "word",
+  "ga": "culaith",
+  "gender": ""
+ },
+ {
+  "id": "V075",
+  "en": "club",
+  "sub": "",
+  "type": "noun",
+  "ga": "cumann",
+  "gender": "m"
+ },
+ {
+  "id": "V076",
+  "en": "dance, dancing",
+  "sub": "",
+  "type": "noun",
+  "ga": "damhsa",
+  "gender": "m"
+ },
+ {
+  "id": "V077",
+  "en": "hurry",
+  "sub": "",
+  "type": "word",
+  "ga": "deifir",
+  "gender": ""
+ },
+ {
+  "id": "V078",
+  "en": "end",
+  "sub": "",
+  "type": "noun",
+  "ga": "deireadh",
+  "gender": "m"
+ },
+ {
+  "id": "V079",
+  "en": "digital",
+  "sub": "",
+  "type": "word",
+  "ga": "digiteach",
+  "gender": ""
+ },
+ {
+  "id": "V080",
+  "en": "disco",
+  "sub": "",
+  "type": "noun",
+  "ga": "dioscó",
+  "gender": "m"
+ },
+ {
+  "id": "V081",
+  "en": "CD",
+  "sub": "",
+  "type": "noun",
+  "ga": "dlúthdhiosca",
+  "gender": "m"
+ },
+ {
+  "id": "V082",
+  "en": "play",
+  "sub": "",
+  "type": "word",
+  "ga": "drama",
+  "gender": ""
+ },
+ {
+  "id": "V083",
+  "en": "musical, opera",
+  "sub": "",
+  "type": "noun",
+  "ga": "ceoldráma",
+  "gender": "m"
+ },
+ {
+  "id": "V084",
+  "en": "drums",
+  "sub": "",
+  "type": "noun",
+  "ga": "drumaí",
+  "gender": "m"
+ },
+ {
+  "id": "V085",
+  "en": "prize",
+  "sub": "",
+  "type": "word",
+  "ga": "duais",
+  "gender": ""
+ },
+ {
+  "id": "V086",
+  "en": "desire, interest",
+  "sub": "",
+  "type": "word",
+  "ga": "dúil",
+  "gender": ""
+ },
+ {
+  "id": "V087",
+  "en": "fashion",
+  "sub": "",
+  "type": "noun",
+  "ga": "faisean",
+  "gender": "m"
+ },
+ {
+  "id": "V088",
+  "en": "whistle, tin whistle, flute",
+  "sub": "",
+  "type": "word",
+  "ga": "feadóg stáin, feadóg mhór",
+  "gender": ""
+ },
+ {
+  "id": "V089",
+  "en": "chess",
+  "sub": "",
+  "type": "word",
+  "ga": "ficheall",
+  "gender": ""
+ },
+ {
+  "id": "V090",
+  "en": "fiddle, violin",
+  "sub": "",
+  "type": "word",
+  "ga": "fidil",
+  "gender": ""
+ },
+ {
+  "id": "V091",
+  "en": "barbecue",
+  "sub": "",
+  "type": "word",
+  "ga": "fleá fhulachta",
+  "gender": ""
+ },
+ {
+  "id": "V092",
+  "en": "notice",
+  "sub": "",
+  "type": "noun",
+  "ga": "fógra",
+  "gender": "m"
+ },
+ {
+  "id": "V093",
+  "en": "team",
+  "sub": "",
+  "type": "word",
+  "ga": "foireann",
+  "gender": ""
+ },
+ {
+  "id": "V094",
+  "en": "mobile phone",
+  "sub": "",
+  "type": "noun",
+  "ga": "fón póca, guthán póca, guthán soghluaiste",
+  "gender": "m"
+ },
+ {
+  "id": "V095",
+  "en": "need, requirement",
+  "sub": "",
+  "type": "noun",
+  "ga": "gá",
+  "gender": "m"
+ },
+ {
+  "id": "V096",
+  "en": "every",
+  "sub": "",
+  "type": "word",
+  "ga": "gach",
+  "gender": ""
+ },
+ {
+  "id": "V097",
+  "en": "guitar",
+  "sub": "",
+  "type": "noun",
+  "ga": "giotár",
+  "gender": "m"
+ },
+ {
+  "id": "V098",
+  "en": "to clean",
+  "sub": "",
+  "type": "verb",
+  "ga": "glan",
+  "prep": "",
+  "vn": "ag glanadh"
+ },
+ {
+  "id": "V099",
+  "en": "musical instrument",
+  "sub": "",
+  "type": "noun",
+  "ga": "gléas",
+  "gender": "m"
+ },
+ {
+  "id": "V100",
+  "en": "usual",
+  "sub": "",
+  "type": "word",
+  "ga": "gnách",
+  "gender": ""
+ },
+ {
+  "id": "V101",
+  "en": "custom",
+  "sub": "",
+  "type": "noun",
+  "ga": "gnáth",
+  "gender": "m"
+ },
+ {
+  "id": "V102",
+  "en": "comic",
+  "sub": "",
+  "type": "noun",
+  "ga": "greannán, leabhar grinn",
+  "gender": "m"
+ },
+ {
+  "id": "V103",
+  "en": "group",
+  "sub": "",
+  "type": "noun",
+  "ga": "grúpa",
+  "gender": "m"
+ },
+ {
+  "id": "V104",
+  "en": "voice",
+  "sub": "",
+  "type": "noun",
+  "ga": "guth",
+  "gender": "m"
+ },
+ {
+  "id": "V105",
+  "en": "phone",
+  "sub": "",
+  "type": "noun",
+  "ga": "guthán, fón, teileafón",
+  "gender": "m"
+ },
+ {
+  "id": "V106",
+  "en": "after, past",
+  "sub": "",
+  "type": "word",
+  "ga": "i ndiaidh",
+  "gender": ""
+ },
+ {
+  "id": "V107",
+  "en": "during",
+  "sub": "",
+  "type": "word",
+  "ga": "i rith",
+  "gender": ""
+ },
+ {
+  "id": "V108",
+  "en": "iron",
+  "sub": "",
+  "type": "word",
+  "ga": "iarnáil",
+  "gender": ""
+ },
+ {
+  "id": "V109",
+  "en": "fishing",
+  "sub": "",
+  "type": "word",
+  "ga": "iascaireacht",
+  "gender": ""
+ },
+ {
+  "id": "V110",
+  "en": "player",
+  "sub": "",
+  "type": "noun",
+  "ga": "imreoir",
+  "gender": "m"
+ },
+ {
+  "id": "V111",
+  "en": "hurling",
+  "sub": "",
+  "type": "word",
+  "ga": "iománaíocht, iomáint",
+  "gender": ""
+ },
+ {
+  "id": "V112",
+  "en": "to eat",
+  "sub": "",
+  "type": "verb",
+  "ga": "ith",
+  "prep": "",
+  "vn": "ag ithe"
+ },
+ {
+  "id": "V113",
+  "en": "day",
+  "sub": "",
+  "type": "noun",
+  "ga": "lá",
+  "gender": "m"
+ },
+ {
+  "id": "V114",
+  "en": "book",
+  "sub": "",
+  "type": "noun",
+  "ga": "leabhar",
+  "gender": "m"
+ },
+ {
+  "id": "V115",
+  "en": "magazine",
+  "sub": "",
+  "type": "noun",
+  "ga": "irisleabhar",
+  "gender": "m"
+ },
+ {
+  "id": "V116",
+  "en": "library",
+  "sub": "",
+  "type": "word",
+  "ga": "leabharlann",
+  "gender": ""
+ },
+ {
+  "id": "V117",
+  "en": "tennis",
+  "sub": "",
+  "type": "word",
+  "ga": "leadóg",
+  "gender": ""
+ },
+ {
+  "id": "V118",
+  "en": "reading",
+  "sub": "",
+  "type": "noun",
+  "ga": "léamh",
+  "gender": "m"
+ },
+ {
+  "id": "V119",
+  "en": "half",
+  "sub": "",
+  "type": "word",
+  "ga": "leath",
+  "gender": ""
+ },
+ {
+  "id": "V120",
+  "en": "reading",
+  "sub": "",
+  "type": "word",
+  "ga": "léitheoireacht",
+  "gender": ""
+ },
+ {
+  "id": "V121",
+  "en": "ball",
+  "sub": "",
+  "type": "word",
+  "ga": "liathróid",
+  "gender": ""
+ },
+ {
+  "id": "V122",
+  "en": "swimming pool",
+  "sub": "",
+  "type": "word",
+  "ga": "linn snámha, poll snámha",
+  "gender": ""
+ },
+ {
+  "id": "V123",
+  "en": "netball",
+  "sub": "",
+  "type": "word",
+  "ga": "líonpheil",
+  "gender": ""
+ },
+ {
+  "id": "V124",
+  "en": "midday",
+  "sub": "",
+  "type": "noun",
+  "ga": "meán lae",
+  "gender": "m"
+ },
+ {
+  "id": "V125",
+  "en": "midnight",
+  "sub": "",
+  "type": "noun",
+  "ga": "meán oíche",
+  "gender": "m"
+ },
+ {
+  "id": "V126",
+  "en": "keyboard",
+  "sub": "",
+  "type": "noun",
+  "ga": "méarchlár",
+  "gender": "m"
+ },
+ {
+  "id": "V127",
+  "en": "news",
+  "sub": "",
+  "type": "word",
+  "ga": "nuacht",
+  "gender": ""
+ },
+ {
+  "id": "V128",
+  "en": "pitch, park",
+  "sub": "",
+  "type": "word",
+  "ga": "páirc",
+  "gender": ""
+ },
+ {
+  "id": "V129",
+  "en": "pet",
+  "sub": "",
+  "type": "noun",
+  "ga": "peata",
+  "gender": "m"
+ },
+ {
+  "id": "V130",
+  "en": "football",
+  "sub": "",
+  "type": "word",
+  "ga": "peil",
+  "gender": ""
+ },
+ {
+  "id": "V131",
+  "en": "painting",
+  "sub": "",
+  "type": "word",
+  "ga": "péinteáil",
+  "gender": ""
+ },
+ {
+  "id": "V132",
+  "en": "piano",
+  "sub": "",
+  "type": "noun",
+  "ga": "pianó",
+  "gender": "m"
+ },
+ {
+  "id": "V133",
+  "en": "cinema",
+  "sub": "",
+  "type": "word",
+  "ga": "pictiúrlann",
+  "gender": ""
+ },
+ {
+  "id": "V134",
+  "en": "pipes",
+  "sub": "",
+  "type": "word",
+  "ga": "píb",
+  "gender": ""
+ },
+ {
+  "id": "V135",
+  "en": "radio",
+  "sub": "",
+  "type": "noun",
+  "ga": "raidió",
+  "gender": "m"
+ },
+ {
+  "id": "V136",
+  "en": "race",
+  "sub": "",
+  "type": "noun",
+  "ga": "rás",
+  "gender": "m"
+ },
+ {
+  "id": "V137",
+  "en": "weather forecast",
+  "sub": "",
+  "type": "word",
+  "ga": "réamhaisnéis na haimsire",
+  "gender": ""
+ },
+ {
+  "id": "V138",
+  "en": "flat screen",
+  "sub": "",
+  "type": "noun",
+  "ga": "réscáileán",
+  "gender": "m"
+ },
+ {
+  "id": "V139",
+  "en": "dance",
+  "sub": "",
+  "type": "noun",
+  "ga": "rince, damhsa",
+  "gender": "m"
+ },
+ {
+  "id": "V140",
+  "en": "cycling",
+  "sub": "",
+  "type": "word",
+  "ga": "rothaíocht",
+  "gender": ""
+ },
+ {
+  "id": "V141",
+  "en": "bicycle",
+  "sub": "",
+  "type": "noun",
+  "ga": "rothar",
+  "gender": "m"
+ },
+ {
+  "id": "V142",
+  "en": "soccer",
+  "sub": "",
+  "type": "noun",
+  "ga": "sacar",
+  "gender": "m"
+ },
+ {
+  "id": "V143",
+  "en": "saxophone",
+  "sub": "",
+  "type": "noun",
+  "ga": "sacsafón",
+  "gender": "m"
+ },
+ {
+  "id": "V144",
+  "en": "big/small screen",
+  "sub": "",
+  "type": "noun",
+  "ga": "scáileán mór/beag",
+  "gender": "m"
+ },
+ {
+  "id": "V145",
+  "en": "telephone call",
+  "sub": "",
+  "type": "word",
+  "ga": "scairt",
+  "gender": ""
+ },
+ {
+  "id": "V146",
+  "en": "film",
+  "sub": "",
+  "type": "noun",
+  "ga": "scannán",
+  "gender": "m"
+ },
+ {
+  "id": "V147",
+  "en": "love/war/detective/horror/subtitled film",
+  "sub": "",
+  "type": "noun",
+  "ga": "scannán grá/cogaidh/bleachtaireachta/ uafáis/le fotheidil",
+  "gender": "m"
+ },
+ {
+  "id": "V148",
+  "en": "score",
+  "sub": "",
+  "type": "noun",
+  "ga": "scór",
+  "gender": "m"
+ },
+ {
+  "id": "V149",
+  "en": "genre",
+  "sub": "",
+  "type": "noun",
+  "ga": "seánra",
+  "gender": "m"
+ },
+ {
+  "id": "V150",
+  "en": "playing",
+  "sub": "",
+  "type": "word",
+  "ga": "seinm",
+  "gender": ""
+ },
+ {
+  "id": "V151",
+  "en": "DVD player",
+  "sub": "",
+  "type": "noun",
+  "ga": "seinnteoir DVD",
+  "gender": "m"
+ },
+ {
+  "id": "V152",
+  "en": "MP3 player",
+  "sub": "",
+  "type": "word",
+  "ga": "seinnteoir MP3",
+  "gender": ""
+ },
+ {
+  "id": "V153",
+  "en": "session",
+  "sub": "",
+  "type": "noun",
+  "ga": "seisiún",
+  "gender": "m"
+ },
+ {
+  "id": "V154",
+  "en": "last",
+  "sub": "",
+  "type": "word",
+  "ga": "seo caite, seo a chuaigh thart",
+  "gender": ""
+ },
+ {
+  "id": "V155",
+  "en": "next",
+  "sub": "",
+  "type": "word",
+  "ga": "seo chugainn",
+  "gender": ""
+ },
+ {
+  "id": "V156",
+  "en": "game show",
+  "sub": "",
+  "type": "noun",
+  "ga": "seó cluichí",
+  "gender": "m"
+ },
+ {
+  "id": "V157",
+  "en": "entertainment",
+  "sub": "",
+  "type": "noun",
+  "ga": "siamsa",
+  "gender": "m"
+ },
+ {
+  "id": "V158",
+  "en": "fishing rod",
+  "sub": "",
+  "type": "word",
+  "ga": "slat iascaireachta, slat iascaigh",
+  "gender": ""
+ },
+ {
+  "id": "V159",
+  "en": "crowd",
+  "sub": "",
+  "type": "noun",
+  "ga": "slua",
+  "gender": "m"
+ },
+ {
+  "id": "V160",
+  "en": "swimming, swim",
+  "sub": "",
+  "type": "noun",
+  "ga": "snámh",
+  "gender": "m"
+ },
+ {
+  "id": "V161",
+  "en": "snooker",
+  "sub": "",
+  "type": "noun",
+  "ga": "snúcar",
+  "gender": "m"
+ },
+ {
+  "id": "V162",
+  "en": "soap",
+  "sub": "",
+  "type": "noun",
+  "ga": "sobalchlár",
+  "gender": "m"
+ },
+ {
+  "id": "V163",
+  "en": "leisure centre",
+  "sub": "",
+  "type": "word",
+  "ga": "sólann, ionad fóillíochta",
+  "gender": ""
+ },
+ {
+  "id": "V164",
+  "en": "interest",
+  "sub": "",
+  "type": "word",
+  "ga": "spéis, suim",
+  "gender": ""
+ },
+ {
+  "id": "V165",
+  "en": "sport",
+  "sub": "",
+  "type": "noun",
+  "ga": "spórt",
+  "gender": "m"
+ },
+ {
+  "id": "V166",
+  "en": "series",
+  "sub": "",
+  "type": "word",
+  "ga": "sraith",
+  "gender": ""
+ },
+ {
+  "id": "V167",
+  "en": "reach",
+  "sub": "",
+  "type": "word",
+  "ga": "sroich",
+  "gender": ""
+ },
+ {
+  "id": "V168",
+  "en": "interesting",
+  "sub": "",
+  "type": "word",
+  "ga": "suimiúil, spéisiúil",
+  "gender": ""
+ },
+ {
+  "id": "V169",
+  "en": "enjoyment, satisfaction",
+  "sub": "",
+  "type": "noun",
+  "ga": "sult",
+  "gender": "m"
+ },
+ {
+  "id": "V170",
+  "en": "taxi",
+  "sub": "",
+  "type": "noun",
+  "ga": "tacsaí",
+  "gender": "m"
+ },
+ {
+  "id": "V171",
+  "en": "draughts, backgammon",
+  "sub": "",
+  "type": "word",
+  "ga": "táiplis bheag, táiplis mhór",
+  "gender": ""
+ },
+ {
+  "id": "V172",
+  "en": "show",
+  "sub": "",
+  "type": "noun",
+  "ga": "taispeántas",
+  "gender": "m"
+ },
+ {
+  "id": "V173",
+  "en": "television",
+  "sub": "",
+  "type": "noun",
+  "ga": "teilifís, teilifíseán",
+  "gender": "m"
+ },
+ {
+  "id": "V174",
+  "en": "satellite TV",
+  "sub": "",
+  "type": "word",
+  "ga": "teilifís satailíte",
+  "gender": ""
+ },
+ {
+  "id": "V175",
+  "en": "brain teaser",
+  "sub": "",
+  "type": "noun",
+  "ga": "tomhas inchinne",
+  "gender": "m"
+ },
+ {
+  "id": "V176",
+  "en": "treasure hunt",
+  "sub": "",
+  "type": "word",
+  "ga": "tóraíocht taisce",
+  "gender": ""
+ },
+ {
+  "id": "V177",
+  "en": "traditional",
+  "sub": "",
+  "type": "word",
+  "ga": "traidisiúnta",
+  "gender": ""
+ },
+ {
+  "id": "V178",
+  "en": "quiz",
+  "sub": "",
+  "type": "noun",
+  "ga": "tráth ceisteanna, tráth na gceist",
+  "gender": "m"
+ },
+ {
+  "id": "V179",
+  "en": "trumpet",
+  "sub": "",
+  "type": "noun",
+  "ga": "trumpa",
+  "gender": "m"
+ },
+ {
+  "id": "V180",
+  "en": "beginning",
+  "sub": "",
+  "type": "noun",
+  "ga": "tús",
+  "gender": "m"
+ },
+ {
+  "id": "V181",
+  "en": "novel",
+  "sub": "",
+  "type": "noun",
+  "ga": "úrscéal",
+  "gender": "m"
+ },
+ {
+  "id": "V182",
+  "en": "violin",
+  "sub": "",
+  "type": "noun",
+  "ga": "veidhlín",
+  "gender": "m"
+ },
+ {
+  "id": "V183",
+  "en": "donkey",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "asal",
+  "gender": "m"
+ },
+ {
+  "id": "V184",
+  "en": "cow",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "bó",
+  "gender": ""
+ },
+ {
+  "id": "V185",
+  "en": "badger",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "broc",
+  "gender": "m"
+ },
+ {
+  "id": "V186",
+  "en": "sheep",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "caora",
+  "gender": ""
+ },
+ {
+  "id": "V187",
+  "en": "horse",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "capall",
+  "gender": "m"
+ },
+ {
+  "id": "V188",
+  "en": "cat",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "cat",
+  "gender": "m"
+ },
+ {
+  "id": "V189",
+  "en": "hen",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "cearc",
+  "gender": ""
+ },
+ {
+  "id": "V190",
+  "en": "rabbit",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "coinín",
+  "gender": "m"
+ },
+ {
+  "id": "V191",
+  "en": "spider",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "damhán alla",
+  "gender": "m"
+ },
+ {
+  "id": "V192",
+  "en": "bird",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "éan",
+  "gender": "m"
+ },
+ {
+  "id": "V193",
+  "en": "goat",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "gabhar",
+  "gender": "m"
+ },
+ {
+  "id": "V194",
+  "en": "hamster",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "hamstar",
+  "gender": "m"
+ },
+ {
+  "id": "V195",
+  "en": "fish",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "iasc",
+  "gender": "m"
+ },
+ {
+  "id": "V196",
+  "en": "mouse",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "luchóg",
+  "gender": ""
+ },
+ {
+  "id": "V197",
+  "en": "dog",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "madadh",
+  "gender": "m"
+ },
+ {
+  "id": "V198",
+  "en": "sheepdog",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "madadh caorach",
+  "gender": "m"
+ },
+ {
+  "id": "V199",
+  "en": "pig",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "muc",
+  "gender": ""
+ },
+ {
+  "id": "V200",
+  "en": "venomous snake",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "nathair nimhe",
+  "gender": "m"
+ },
+ {
+  "id": "V201",
+  "en": "budgie",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "pearaicít, budragár",
+  "gender": ""
+ },
+ {
+  "id": "V202",
+  "en": "parrot",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "pearóid",
+  "gender": ""
+ },
+ {
+  "id": "V203",
+  "en": "seal",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "rón",
+  "gender": "m"
+ },
+ {
+  "id": "V204",
+  "en": "fox",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "sionnach",
+  "gender": "m"
+ },
+ {
+  "id": "V205",
+  "en": "bull",
+  "sub": "Animals",
+  "type": "noun",
+  "ga": "tarbh",
+  "gender": "m"
+ },
+ {
+  "id": "V206",
+  "en": "tortoise",
+  "sub": "Animals",
+  "type": "word",
+  "ga": "toirtís",
+  "gender": ""
+ },
+ {
+  "id": "V207",
+  "en": "money, silver",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "airgead",
+  "gender": "m"
+ },
+ {
+  "id": "V208",
+  "en": "receipt",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "admháil",
+  "gender": ""
+ },
+ {
+  "id": "V209",
+  "en": "cap",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "bairéad",
+  "gender": "m"
+ },
+ {
+  "id": "V210",
+  "en": "change",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "briseadh",
+  "gender": "m"
+ },
+ {
+  "id": "V211",
+  "en": "shorts",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "bríste gairid",
+  "gender": "m"
+ },
+ {
+  "id": "V212",
+  "en": "jeans",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "bríste géine",
+  "gender": "m"
+ },
+ {
+  "id": "V213",
+  "en": "shoes",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "bróga",
+  "gender": ""
+ },
+ {
+  "id": "V214",
+  "en": "boots",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "buataisí, bróga",
+  "gender": "m"
+ },
+ {
+  "id": "V215",
+  "en": "trainers",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "bróga reatha",
+  "gender": ""
+ },
+ {
+  "id": "V216",
+  "en": "present",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "bronntanas",
+  "gender": "m"
+ },
+ {
+  "id": "V217",
+  "en": "bank card",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cárta bainc",
+  "gender": "m"
+ },
+ {
+  "id": "V218",
+  "en": "credit card",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cárta creidmheasa",
+  "gender": "m"
+ },
+ {
+  "id": "V219",
+  "en": "jacket",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "casóg, seaicéad",
+  "gender": ""
+ },
+ {
+  "id": "V220",
+  "en": "raincoat",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cóta fearthainne",
+  "gender": "m"
+ },
+ {
+  "id": "V221",
+  "en": "belt",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "crios",
+  "gender": "m"
+ },
+ {
+  "id": "V222",
+  "en": "sandals",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cuaráin",
+  "gender": "m"
+ },
+ {
+  "id": "V223",
+  "en": "souvenir",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cuimhneachán",
+  "gender": "m"
+ },
+ {
+  "id": "V224",
+  "en": "swimming costume",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "culaith shnámha",
+  "gender": ""
+ },
+ {
+  "id": "V225",
+  "en": "perfume",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "cumhrán",
+  "gender": "m"
+ },
+ {
+  "id": "V226",
+  "en": "expensive",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "daor, costasach",
+  "gender": ""
+ },
+ {
+  "id": "V227",
+  "en": "clothes",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "éadaí",
+  "gender": "m"
+ },
+ {
+  "id": "V228",
+  "en": "toiletries",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "earraí níocháin",
+  "gender": "m"
+ },
+ {
+  "id": "V229",
+  "en": "jumper",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "geansaí",
+  "gender": "m"
+ },
+ {
+  "id": "V230",
+  "en": "dress",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "gúna",
+  "gender": "m"
+ },
+ {
+  "id": "V231",
+  "en": "hat",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "hata",
+  "gender": "m"
+ },
+ {
+  "id": "V232",
+  "en": "hoodie",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "húdaí",
+  "gender": "m"
+ },
+ {
+  "id": "V233",
+  "en": "gloves",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "lámhainní, miotóga",
+  "gender": "m"
+ },
+ {
+  "id": "V234",
+  "en": "shopping centre",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "ionad siopadóireachta",
+  "gender": "m"
+ },
+ {
+  "id": "V235",
+  "en": "leather",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "leathar",
+  "gender": "m"
+ },
+ {
+  "id": "V236",
+  "en": "shirt",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "léine",
+  "gender": ""
+ },
+ {
+  "id": "V237",
+  "en": "aftershave",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "lóis iarbhearrtha",
+  "gender": ""
+ },
+ {
+  "id": "V238",
+  "en": "bag",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "mála",
+  "gender": "m"
+ },
+ {
+  "id": "V239",
+  "en": "handbag",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "mála láimhe",
+  "gender": ""
+ },
+ {
+  "id": "V240",
+  "en": "a good deal",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "margadh maith",
+  "gender": "m"
+ },
+ {
+  "id": "V241",
+  "en": "notes",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "nótaí",
+  "gender": "m"
+ },
+ {
+  "id": "V242",
+  "en": "wool",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "olann",
+  "gender": ""
+ },
+ {
+  "id": "V243",
+  "en": "gold",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "ór",
+  "gender": "m"
+ },
+ {
+  "id": "V244",
+  "en": "cheap",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "saor",
+  "gender": ""
+ },
+ {
+  "id": "V245",
+  "en": "scarf",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "scairf",
+  "gender": ""
+ },
+ {
+  "id": "V246",
+  "en": "skirt",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "sciorta",
+  "gender": "m"
+ },
+ {
+  "id": "V247",
+  "en": "cash register",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "scipéad airgid",
+  "gender": "m"
+ },
+ {
+  "id": "V248",
+  "en": "jewellery",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "seodra",
+  "gender": "m"
+ },
+ {
+  "id": "V249",
+  "en": "silk",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "síoda",
+  "gender": ""
+ },
+ {
+  "id": "V250",
+  "en": "shop",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "siopa",
+  "gender": "m"
+ },
+ {
+  "id": "V251",
+  "en": "bargain, the sales",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "sladmhargadh",
+  "gender": "m"
+ },
+ {
+  "id": "V252",
+  "en": "make-up",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "smideadh",
+  "gender": "m"
+ },
+ {
+  "id": "V253",
+  "en": "purse",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "sparán",
+  "gender": "m"
+ },
+ {
+  "id": "V254",
+  "en": "socks",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "stocaí",
+  "gender": "m"
+ },
+ {
+  "id": "V255",
+  "en": "wallet",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "tiachóg",
+  "gender": ""
+ },
+ {
+  "id": "V256",
+  "en": "T-shirt",
+  "sub": "Shopping",
+  "type": "word",
+  "ga": "T-léine",
+  "gender": ""
+ },
+ {
+  "id": "V257",
+  "en": "trousers",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "treabhsar, bríste",
+  "gender": "m"
+ },
+ {
+  "id": "V258",
+  "en": "watch",
+  "sub": "Shopping",
+  "type": "noun",
+  "ga": "uaireadóir",
+  "gender": "m"
+ },
+ {
+  "id": "V259",
+  "en": "to sing",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "abair amhrán",
+  "prep": "",
+  "vn": "ag rá amhráin"
+ },
+ {
+  "id": "V260",
+  "en": "to look at, to watch",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "amharc ar",
+  "prep": "",
+  "vn": "ag amharc ar"
+ },
+ {
+  "id": "V261",
+  "en": "to recycle",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "athchúrsáil",
+  "prep": "",
+  "vn": "ag athchúrsáil"
+ },
+ {
+  "id": "V262",
+  "en": "to collect",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "bailigh",
+  "prep": "",
+  "vn": "ag bailiú"
+ },
+ {
+  "id": "V263",
+  "en": "to win, to take out, to reach, reaching)",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "bain",
+  "gender": ""
+ },
+ {
+  "id": "V264",
+  "en": "to enjoy",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "bain sult as",
+  "prep": "",
+  "vn": "ag baint"
+ },
+ {
+  "id": "V265",
+  "en": "to try",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "bain triail as",
+  "prep": "",
+  "vn": "ag baint triail as"
+ },
+ {
+  "id": "V266",
+  "en": "to hit",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "buail",
+  "prep": "",
+  "vn": "ag bualadh"
+ },
+ {
+  "id": "V267",
+  "en": "to meet",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "buail",
+  "prep": "le",
+  "vn": "ag bualadh"
+ },
+ {
+  "id": "V268",
+  "en": "to lose",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "caill",
+  "prep": "",
+  "vn": "ag cailleadh"
+ },
+ {
+  "id": "V269",
+  "en": "to wear, to throw, to smoke, to spend",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "caith",
+  "prep": "",
+  "vn": "ag caitheamh"
+ },
+ {
+  "id": "V270",
+  "en": "to buy",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "ceannaigh",
+  "prep": "",
+  "vn": "ag ceannach"
+ },
+ {
+  "id": "V271",
+  "en": "to register, to enrol",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "cláraigh",
+  "prep": "",
+  "vn": "ag clárú"
+ },
+ {
+  "id": "V272",
+  "en": "to practise",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "cleacht",
+  "prep": "",
+  "vn": "ag cleachtadh"
+ },
+ {
+  "id": "V273",
+  "en": "to hear",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "clois",
+  "prep": "",
+  "vn": "ag cloisteáil"
+ },
+ {
+  "id": "V274",
+  "en": "to hear",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "cluin",
+  "prep": "",
+  "vn": "ag cluinstin"
+ },
+ {
+  "id": "V275",
+  "en": "to sleep",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "codail",
+  "prep": "",
+  "vn": "ag codladh"
+ },
+ {
+  "id": "V276",
+  "en": "to arrange, dress",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "cóirigh",
+  "gender": ""
+ },
+ {
+  "id": "V277",
+  "en": "to make the bed",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "cóirigh an leaba",
+  "gender": ""
+ },
+ {
+  "id": "V278",
+  "en": "to tidy the room",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "cóirigh an seomra",
+  "gender": ""
+ },
+ {
+  "id": "V279",
+  "en": "to believe",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "creid",
+  "prep": "",
+  "vn": "ag creidiúint"
+ },
+ {
+  "id": "V280",
+  "en": "to search",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "cuardaigh",
+  "prep": "",
+  "vn": "ag cuardach"
+ },
+ {
+  "id": "V281",
+  "en": "to help",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "cuidigh",
+  "gender": ""
+ },
+ {
+  "id": "V282",
+  "en": "to book, to reserve",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "cuir in áirithe",
+  "prep": "",
+  "vn": "ag cur in áirithe"
+ },
+ {
+  "id": "V283",
+  "en": "sweating",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "ag cur allais",
+  "gender": ""
+ },
+ {
+  "id": "V284",
+  "en": "to finish",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "críochnaigh",
+  "prep": "",
+  "vn": "ag críochnú"
+ },
+ {
+  "id": "V285",
+  "en": "to dance",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "damhsaigh",
+  "prep": "",
+  "vn": "ag damhsa"
+ },
+ {
+  "id": "V286",
+  "en": "to close",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "druid /dún",
+  "prep": "",
+  "vn": "ag druidim"
+ },
+ {
+  "id": "V287",
+  "en": "to wake",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "dúisigh , múscail",
+  "prep": "",
+  "vn": "ag dúiseacht"
+ },
+ {
+  "id": "V288",
+  "en": "to get up",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "éirigh",
+  "prep": "",
+  "vn": "ag éirí"
+ },
+ {
+  "id": "V289",
+  "en": "to give up",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "éirigh as",
+  "prep": "",
+  "vn": "ag éirí as"
+ },
+ {
+  "id": "V290",
+  "en": "to succeed",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "éirigh le",
+  "prep": "",
+  "vn": "ag éirí le"
+ },
+ {
+  "id": "V291",
+  "en": "to listen",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "éist",
+  "gender": ""
+ },
+ {
+  "id": "V292",
+  "en": "to leave",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "fág",
+  "prep": "",
+  "vn": "ag fágáil"
+ },
+ {
+  "id": "V293",
+  "en": "to wait, to stay)",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "fan",
+  "gender": ""
+ },
+ {
+  "id": "V294",
+  "en": "to look",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "féach",
+  "prep": "",
+  "vn": "ag féachaint"
+ },
+ {
+  "id": "V295",
+  "en": "to see",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "feic",
+  "prep": "",
+  "vn": "ag feiceáil"
+ },
+ {
+  "id": "V296",
+  "en": "to play",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "imir",
+  "prep": "",
+  "vn": "ag imirt"
+ },
+ {
+  "id": "V297",
+  "en": "to read",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "léigh",
+  "prep": "",
+  "vn": "ag léamh"
+ },
+ {
+  "id": "V298",
+  "en": "to jump",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "léim",
+  "prep": "",
+  "vn": "ag léim"
+ },
+ {
+  "id": "V299",
+  "en": "to relax",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "lig scíth",
+  "prep": "",
+  "vn": "ag ligint scíth"
+ },
+ {
+  "id": "V300",
+  "en": "to wash",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "nigh",
+  "prep": "",
+  "vn": "ag ní"
+ },
+ {
+  "id": "V301",
+  "en": "to drink",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "ól",
+  "prep": "",
+  "vn": "ag ól"
+ },
+ {
+  "id": "V302",
+  "en": "to paint",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "péinteáil",
+  "prep": "",
+  "vn": "ag péinteáil"
+ },
+ {
+  "id": "V303",
+  "en": "to run, to organise",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "reáchtáil",
+  "prep": "",
+  "vn": "ag reáchtáil"
+ },
+ {
+  "id": "V304",
+  "en": "to run",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "rith",
+  "prep": "",
+  "vn": "ag rith"
+ },
+ {
+  "id": "V305",
+  "en": "to settle, to decide",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "socraigh",
+  "prep": "",
+  "vn": "ag socrú"
+ },
+ {
+  "id": "V306",
+  "en": "to stop",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "stop",
+  "prep": "",
+  "vn": "ag stopadh"
+ },
+ {
+  "id": "V307",
+  "en": "to visit",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "tabhair cuairt ar",
+  "prep": "",
+  "vn": "ag tabhairt cuairte ar"
+ },
+ {
+  "id": "V308",
+  "en": "to invite",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "tabhair cuireadh",
+  "prep": "",
+  "vn": "ag tabhairt cuiridh"
+ },
+ {
+  "id": "V309",
+  "en": "to please, to like",
+  "sub": "Useful verbs",
+  "type": "word",
+  "ga": "taitin",
+  "gender": ""
+ },
+ {
+  "id": "V310",
+  "en": "to come",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "tar",
+  "prep": "",
+  "vn": "ag teacht"
+ },
+ {
+  "id": "V311",
+  "en": "to draw",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "tarraing",
+  "prep": "",
+  "vn": "ag tarraingt"
+ },
+ {
+  "id": "V312",
+  "en": "to go to sleep",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "téigh a chodladh",
+  "prep": "",
+  "vn": "ag dul a chodladh"
+ },
+ {
+  "id": "V313",
+  "en": "to go to sleep",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "téigh a luí",
+  "prep": "",
+  "vn": "ag dul a luí"
+ },
+ {
+  "id": "V314",
+  "en": "to go out",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "téigh amach",
+  "prep": "",
+  "vn": "ag dul amach"
+ },
+ {
+  "id": "V315",
+  "en": "to begin",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "tosaigh",
+  "prep": "",
+  "vn": "ag tosú"
+ },
+ {
+  "id": "V316",
+  "en": "to dry",
+  "sub": "Useful verbs",
+  "type": "verb",
+  "ga": "triomaigh",
+  "prep": "",
+  "vn": "ag triomú"
+ }
+]
