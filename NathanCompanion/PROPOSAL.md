@@ -168,3 +168,7 @@ A five-angle concept panel (see CONCEPT.md) chose the pupil's own exam script as
 ## 13. Grammar exemplars, 26 September 2026
 
 Dáithí uploaded a 186-page scan of the school grammar workbook Gramadach Gan Dua (standard Irish, illustrated, exercises for every tense, mood, declension and preposition). Ruling: its sentences are to be extracted, tagged by grammar point, **converted to Ulster forms and used on screen**, with Dáithí signing off every conversion in a sheet before any reaches a pupil. Copyright for on-screen use is to be settled before distribution, as with the exam board's list. The scan is at data/Gramadach Samplaí.pdf; optical character recognition ran with the Irish model.
+
+## 14. Whole-school rulings, 26 September 2026
+
+On CONCEPT.md second version: the default calendar of pages per year is **accepted** as the starting point. The department **cannot reliably** hold one real conversation per class each half term with partner-ticked cards, so the cover's date for Years 8 to 10 cannot be a staged conversation. That point goes back to the panel; the rest of the brief stands.
