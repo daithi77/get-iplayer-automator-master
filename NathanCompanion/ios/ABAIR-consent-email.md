@@ -6,7 +6,7 @@ Subject: Permission to use ABAIR audio (Áine, Ulster) in a free school app
 
 A chara,
 
-I am principal of St Paul's High School, Bessbrook, County Armagh. We are building a free app, Abair Leat, to help our Year 8 pupils learn Irish through sentence builders, with speaking as the goal.
+I am principal of St Paul's High School, Bessbrook, County Armagh. We are building a free app, working title Gan Ainm, to help our Year 8 pupils learn Irish through sentence builders, with speaking as the goal.
 
 Every chunk and sentence in the app is spoken by Áine, your Ulster voice. We generated the clips in advance through the ABAIR synthesiser, about 380 of them, and bundle them inside the app. Pupils never call your service directly. ABAIR and Trinity College Dublin are credited on the opening screens.
 

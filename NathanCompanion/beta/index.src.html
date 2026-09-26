@@ -1,4 +1,4 @@
-<title>Abair Leat</title>
+<title>Gan Ainm</title>
 <meta name="description" content="Year 8 Irish in Ulster Irish: listen, recognise, build and remember, one sentence builder at a time.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
@@ -175,11 +175,11 @@ function render(){
       <div class="units">${U.map((u,i)=>`<button class="unit" data-act="deck" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)} · ${u.rows.length+2} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>
       <div class="card"><p class="lab">Ar an teilifís · on the class screen</p>
       <p><b>Interactive panel, projector or laptop:</b> open this link in the browser and choose a unit. Add <b>#rang</b> to the end of the link to open straight here.</p>
-      <p><b>Apple TV:</b> mirror an iPad from Control Centre, Screen Mirroring, and hold it sideways. The Abair Leat iPhone and iPad app has the same slides.</p></div>`;return;}
+      <p><b>Apple TV:</b> mirror an iPad from Control Centre, Screen Mirroring, and hold it sideways. The Gan Ainm iPhone and iPad app has the same slides.</p></div>`;return;}
   if(view==='deck'){app.classList.add('wide');app.innerHTML=deckHTML();return;}
   if(view==='home'){
     app.classList.remove('wide');
-    app.innerHTML=`<div class="top"><h1>Abair Leat<span class="sub">Bliain 8 · Gaeilge Uladh</span></h1><div class="toprow"><button class="icon" data-act="intro" aria-label="Faoin aip. About the app">ⓘ</button><button class="pill" data-act="teach">📺 Don rang</button></div></div>
+    app.innerHTML=`<div class="top"><h1>Gan Ainm<span class="sub">Bliain 8 · Gaeilge Uladh</span></h1><div class="toprow"><button class="icon" data-act="intro" aria-label="Faoin aip. About the app">ⓘ</button><button class="pill" data-act="teach">📺 Don rang</button></div></div>
       <p class="hello">Dia duit!</p>
       <p class="lede">Éist, aithin, tóg agus cuimhnigh. Cúpla bomaite san oíche. <br><span class="note">Listen, recognise, build and remember. A few minutes a night.</span></p>
       <div class="units">${U.map((u,i)=>{const p=unitProgress(u);const n=(S.units[u.id]||{}).runs||0;
@@ -258,14 +258,14 @@ function typedResultHTML(it){
 /* introduction (draft wording, awaiting sign-off) */
 let introPage=0;
 const INTRO=[
- ()=>`<p style="font-size:56px;margin:0" aria-hidden="true">💬</p><h2>Abair Leat</h2><p class="hello">Gaeilge le rá os ard.</p><p style="font-size:19px;margin:0">Irish you can say out loud.</p>
-  <p class="gloss">Abair Leat uses the same sentence builders you work with in class. Every chunk and every sentence is spoken by Áine, a native Ulster voice, so you hear it before you say it.</p>`,
+ ()=>`<p style="font-size:56px;margin:0" aria-hidden="true">💬</p><h2>Gan Ainm</h2><p class="hello">Gaeilge le rá os ard.</p><p style="font-size:19px;margin:0">Irish you can say out loud.</p>
+  <p class="gloss">Gan Ainm uses the same sentence builders you work with in class. Every chunk and every sentence is spoken by Áine, a native Ulster voice, so you hear it before you say it.</p>`,
  ()=>`<h2 lang="ga">Mar a oibríonn sé</h2><p class="gloss">How it works: about six minutes, four steps.</p>
   ${[['👂','Éist · Listen','Hear every chunk and whole sentences before you try them.'],['👀','Aithin · Recognise','Pick out the chunks you hear, and what a sentence means.'],['🧱','Tóg · Build','Put sentences together from chunks, not single words.'],['🧠','Ó chuimhne · From memory','Write them with no help, then answer a real question about yourself.']].map(x=>`<div class="step"><span class="e" aria-hidden="true">${x[0]}</span><span><b>${x[1]}</b><span class="gloss">${x[2]}</span></span></div>`).join('')}
   <p class="gloss">Anything you find hard comes back sooner. Anything you know well comes back later.</p>`,
  ()=>`<h2 lang="ga">Cad chuige?</h2><p class="gloss">Why it works this way</p>
   ${[['Language comes in chunks.','Fluent speakers use ready-made phrases. Learning them whole is faster than building every sentence word by word.'],['Listening comes first.','Lots of listening and reading give you the patterns. Speaking grows out of them.'],['Memory is the engine.','Recalling a sentence from memory, again and again over days, is what makes it stick.'],['Little and often.','A few minutes a night beats an hour once a week.']].map(x=>`<div><b>${x[0]}</b><div class="gloss">${x[1]}</div></div>`).join('')}
-  <p class="band">Abair Leat follows the general direction of the new Northern Ireland curriculum for languages: pupils using the language to talk about themselves and their world, with growing confidence in speaking.</p>
+  <p class="band">Gan Ainm follows the general direction of the new Northern Ireland curriculum for languages: pupils using the language to talk about themselves and their world, with growing confidence in speaking.</p>
   <p class="note">Voice: Áine, ABAIR, Trinity College Dublin. Progress stays on this device.</p>`];
 function introHTML(){return `<div class="card intro">${INTRO[introPage]()}</div><div class="dots" aria-hidden="true">${INTRO.map((_,i)=>`<i class="${i===introPage?'on':''}"></i>`).join('')}</div>
   <div class="actions">${introPage>0?'<button class="btn ghost" data-act="introBack">Siar</button>':'<span></span>'}<button class="btn" data-act="introNext">${introPage<INTRO.length-1?'Ar aghaidh':'Tosaigh'}</button></div>`;}
