@@ -1,0 +1,1341 @@
+{
+ "version": "draft-2026-09-26",
+ "year": 8,
+ "note": "Drafted by Claude in Ulster Irish for Dáithí Murray's sign-off. Each builder reads left to right: one chunk from each column makes a sentence. Columns marked optional may be skipped.",
+ "builders": [
+  {
+   "id": "b1-mefein",
+   "title": "Mé féin",
+   "en": "About me",
+   "teaches": "Is mise ...; an t-ainm atá orm; tá mé ... d'aois; mo lá breithe with months after mí.",
+   "questions": [
+    "Cad é an t-ainm atá ort?",
+    "Cad é an aois thú?",
+    "Cá huair a bhíonn do lá breithe?"
+   ],
+   "rows": [
+    {
+     "label": "Ainm",
+     "columns": [
+      [
+       {
+        "ga": "Is mise",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "Aoife",
+        "en": "Aoife"
+       },
+       {
+        "ga": "Ciarán",
+        "en": "Ciarán"
+       },
+       {
+        "ga": "Niamh",
+        "en": "Niamh"
+       },
+       {
+        "ga": "Oisín",
+        "en": "Oisín"
+       }
+      ],
+      [
+       {
+        "ga": "agus is as an tSruthán mé",
+        "en": "and I am from Bessbrook",
+        "optional": true
+       },
+       {
+        "ga": "agus is as an Iúr mé",
+        "en": "and I am from Newry",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ainm (Ulaidh)",
+     "columns": [
+      [
+       {
+        "ga": "Aoife",
+        "en": "Aoife"
+       },
+       {
+        "ga": "Ciarán",
+        "en": "Ciarán"
+       },
+       {
+        "ga": "Niamh",
+        "en": "Niamh"
+       },
+       {
+        "ga": "Oisín",
+        "en": "Oisín"
+       }
+      ],
+      [
+       {
+        "ga": "an t-ainm atá orm",
+        "en": "is my name"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Aois",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "aon bhliain déag",
+        "en": "eleven years"
+       },
+       {
+        "ga": "dhá bhliain déag",
+        "en": "twelve years"
+       },
+       {
+        "ga": "trí bliana déag",
+        "en": "thirteen years"
+       }
+      ],
+      [
+       {
+        "ga": "d'aois",
+        "en": "old"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Lá breithe",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo lá breithe",
+        "en": "My birthday is"
+       }
+      ],
+      [
+       {
+        "ga": "i mí Eanáir",
+        "en": "in January"
+       },
+       {
+        "ga": "i mí an Mhárta",
+        "en": "in March"
+       },
+       {
+        "ga": "i mí na Bealtaine",
+        "en": "in May"
+       },
+       {
+        "ga": "i mí Iúil",
+        "en": "in July"
+       },
+       {
+        "ga": "i mí Mheán Fómhair",
+        "en": "in September"
+       },
+       {
+        "ga": "i mí na Samhna",
+        "en": "in November"
+       },
+       {
+        "ga": "i mí na Nollag",
+        "en": "in December"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is mise Aoife agus is as an tSruthán mé.",
+    "Ciarán an t-ainm atá orm.",
+    "Tá mé dhá bhliain déag d'aois.",
+    "Tá mo lá breithe i mí na Samhna."
+   ]
+  },
+  {
+   "id": "b2-teaghlach",
+   "title": "Mo theaghlach",
+   "en": "My family",
+   "teaches": "Tá ... agam / Níl ... ar bith agam; personal numbers (beirt, triúr, ceathrar, cúigear); plural after personal numbers.",
+   "questions": [
+    "Cá mhéad duine atá sa teaghlach?",
+    "Cá mhéad deartháir atá agat?",
+    "Cá mhéad deirfiúr atá agat?"
+   ],
+   "rows": [
+    {
+     "label": "An teaghlach",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There are"
+       }
+      ],
+      [
+       {
+        "ga": "triúr",
+        "en": "three people"
+       },
+       {
+        "ga": "ceathrar",
+        "en": "four people"
+       },
+       {
+        "ga": "cúigear",
+        "en": "five people"
+       },
+       {
+        "ga": "seisear",
+        "en": "six people"
+       }
+      ],
+      [
+       {
+        "ga": "sa teaghlach s'againne",
+        "en": "in our family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deartháireacha agus deirfiúracha",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "deartháir amháin",
+        "en": "one brother"
+       },
+       {
+        "ga": "beirt deartháireacha",
+        "en": "two brothers"
+       },
+       {
+        "ga": "deirfiúr amháin",
+        "en": "one sister"
+       },
+       {
+        "ga": "beirt deirfiúracha",
+        "en": "two sisters"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Gan deartháir nó deirfiúr",
+     "columns": [
+      [
+       {
+        "ga": "Níl",
+        "en": "I have no"
+       }
+      ],
+      [
+       {
+        "ga": "deartháir ar bith",
+        "en": "brother"
+       },
+       {
+        "ga": "deirfiúr ar bith",
+        "en": "sister"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Peata",
+     "columns": [
+      [
+       {
+        "ga": "Tá madadh",
+        "en": "We have a dog"
+       },
+       {
+        "ga": "Tá cat",
+        "en": "We have a cat"
+       }
+      ],
+      [
+       {
+        "ga": "againn fosta",
+        "en": "as well"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá cúigear sa teaghlach s'againne.",
+    "Tá beirt deirfiúracha agam.",
+    "Níl deartháir ar bith agam.",
+    "Tá madadh againn fosta."
+   ]
+  },
+  {
+   "id": "b3-cursios",
+   "title": "Cur síos orm féin",
+   "en": "Describing myself",
+   "teaches": "Tá mé + adjective; lenition of adjectives after feminine gruaig; plural adjectives after súile; tá ... orm / agam.",
+   "questions": [
+    "Déan cur síos ort féin.",
+    "Déan cur síos ar do chara is fearr."
+   ],
+   "rows": [
+    {
+     "label": "Airde",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "ard",
+        "en": "tall"
+       },
+       {
+        "ga": "beag",
+        "en": "small"
+       },
+       {
+        "ga": "measartha ard",
+        "en": "fairly tall"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Gruaig",
+     "columns": [
+      [
+       {
+        "ga": "Tá gruaig",
+        "en": "I have ... hair"
+       }
+      ],
+      [
+       {
+        "ga": "dhonn",
+        "en": "brown"
+       },
+       {
+        "ga": "dhubh",
+        "en": "black"
+       },
+       {
+        "ga": "fhionn",
+        "en": "fair"
+       },
+       {
+        "ga": "rua",
+        "en": "red"
+       }
+      ],
+      [
+       {
+        "ga": "orm",
+        "en": "(on me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Súile",
+     "columns": [
+      [
+       {
+        "ga": "Tá súile",
+        "en": "I have ... eyes"
+       }
+      ],
+      [
+       {
+        "ga": "gorma",
+        "en": "blue"
+       },
+       {
+        "ga": "donna",
+        "en": "brown"
+       },
+       {
+        "ga": "glasa",
+        "en": "green"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Pearsantacht",
+     "columns": [
+      [
+       {
+        "ga": "Deir mo chairde go bhfuil mé",
+        "en": "My friends say I am"
+       }
+      ],
+      [
+       {
+        "ga": "cairdiúil",
+        "en": "friendly"
+       },
+       {
+        "ga": "greannmhar",
+        "en": "funny"
+       },
+       {
+        "ga": "cainteach",
+        "en": "chatty"
+       },
+       {
+        "ga": "ciúin",
+        "en": "quiet"
+       },
+       {
+        "ga": "cineálta",
+        "en": "kind"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé measartha ard.",
+    "Tá gruaig dhonn orm.",
+    "Tá súile gorma agam.",
+    "Deir mo chairde go bhfuil mé greannmhar."
+   ]
+  },
+  {
+   "id": "b4-ceantar",
+   "title": "Mo cheantar",
+   "en": "Where I live",
+   "teaches": "Tá mé i mo chónaí; i + eclipsis, in before a vowel; sa / san; ann for 'there'; mar + reason.",
+   "questions": [
+    "Cá bhfuil tú i do chónaí?",
+    "An maith leat do cheantar?",
+    "Cad iad na háiseanna atá cóngarach don teach?"
+   ],
+   "rows": [
+    {
+     "label": "Cá háit",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "sa tSruthán",
+        "en": "in Bessbrook"
+       },
+       {
+        "ga": "i gCamloch",
+        "en": "in Camlough"
+       }
+      ],
+      [
+       {
+        "ga": "i gContae Ard Mhacha",
+        "en": "in County Armagh",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá háit (baile mór)",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "san Iúr",
+        "en": "in Newry"
+       },
+       {
+        "ga": "in Ard Mhacha",
+        "en": "in Armagh"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An teach",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "i dteach",
+        "en": "in a house"
+       },
+       {
+        "ga": "in árasán",
+        "en": "in a flat"
+       },
+       {
+        "ga": "i mbungaló",
+        "en": "in a bungalow"
+       }
+      ],
+      [
+       {
+        "ga": "faoin tuath",
+        "en": "in the country"
+       },
+       {
+        "ga": "i sráidbhaile",
+        "en": "in a village"
+       },
+       {
+        "ga": "i mbaile mór",
+        "en": "in a town"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Áiseanna",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There is / are"
+       }
+      ],
+      [
+       {
+        "ga": "siopa",
+        "en": "a shop"
+       },
+       {
+        "ga": "páirc",
+        "en": "a park"
+       },
+       {
+        "ga": "club CLG",
+        "en": "a GAA club"
+       },
+       {
+        "ga": "linn snámha",
+        "en": "a swimming pool"
+       }
+      ],
+      [
+       {
+        "ga": "cóngarach dom",
+        "en": "near me"
+       },
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil (dearfach)",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom mo cheantar",
+        "en": "I like my area"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé ciúin",
+        "en": "it is quiet"
+       },
+       {
+        "ga": "tá sé gnóthach",
+        "en": "it is busy"
+       },
+       {
+        "ga": "tá go leor le déanamh ann",
+        "en": "there is plenty to do there"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil (diúltach)",
+     "columns": [
+      [
+       {
+        "ga": "Ní maith liom mo cheantar",
+        "en": "I don't like my area"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé róchiúin",
+        "en": "it is too quiet"
+       },
+       {
+        "ga": "tá sé róghnóthach",
+        "en": "it is too busy"
+       },
+       {
+        "ga": "níl a dhath le déanamh ann",
+        "en": "there is nothing to do there"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé i mo chónaí sa tSruthán i gContae Ard Mhacha.",
+    "Tá mé i mo chónaí i dteach faoin tuath.",
+    "Tá club CLG cóngarach dom.",
+    "Is maith liom mo cheantar mar tá sé ciúin."
+   ]
+  },
+  {
+   "id": "b5-scoil",
+   "title": "An scoil",
+   "en": "School",
+   "teaches": "Is maith / breá / fuath liom; the article with subjects; tá sé after masculine and tá sí after feminine subjects; mar + reason; Is é / Is í ... an t-ábhar is fearr liom.",
+   "questions": [
+    "Cad iad na hábhair a dhéanann tú ar scoil?",
+    "Cad é an t-ábhar is fearr leat?",
+    "Cad chuige ar maith leat an t-ábhar sin?"
+   ],
+   "rows": [
+    {
+     "label": "Is maith liom (firinscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Is breá liom",
+        "en": "I love"
+       },
+       {
+        "ga": "Is maith liom",
+        "en": "I like"
+       }
+      ],
+      [
+       {
+        "ga": "an Béarla",
+        "en": "English"
+       },
+       {
+        "ga": "an ceol",
+        "en": "music"
+       },
+       {
+        "ga": "an corpoideachas",
+        "en": "PE"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé suimiúil",
+        "en": "it is interesting"
+       },
+       {
+        "ga": "tá sé furasta",
+        "en": "it is easy"
+       },
+       {
+        "ga": "tá an múinteoir go deas",
+        "en": "the teacher is nice"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Is maith liom (baininscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Is breá liom",
+        "en": "I love"
+       },
+       {
+        "ga": "Is maith liom",
+        "en": "I like"
+       }
+      ],
+      [
+       {
+        "ga": "an Ghaeilge",
+        "en": "Irish"
+       },
+       {
+        "ga": "an mhatamaitic",
+        "en": "maths"
+       },
+       {
+        "ga": "an eolaíocht",
+        "en": "science"
+       },
+       {
+        "ga": "an stair",
+        "en": "history"
+       },
+       {
+        "ga": "an tíreolaíocht",
+        "en": "geography"
+       },
+       {
+        "ga": "an ealaín",
+        "en": "art"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sí suimiúil",
+        "en": "it is interesting"
+       },
+       {
+        "ga": "tá sí furasta",
+        "en": "it is easy"
+       },
+       {
+        "ga": "tá an múinteoir go deas",
+        "en": "the teacher is nice"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ní maith liom (firinscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Ní maith liom",
+        "en": "I don't like"
+       },
+       {
+        "ga": "Is fuath liom",
+        "en": "I hate"
+       }
+      ],
+      [
+       {
+        "ga": "an Béarla",
+        "en": "English"
+       },
+       {
+        "ga": "an ceol",
+        "en": "music"
+       },
+       {
+        "ga": "an corpoideachas",
+        "en": "PE"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé deacair",
+        "en": "it is difficult"
+       },
+       {
+        "ga": "tá sé leadránach",
+        "en": "it is boring"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ní maith liom (baininscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Ní maith liom",
+        "en": "I don't like"
+       },
+       {
+        "ga": "Is fuath liom",
+        "en": "I hate"
+       }
+      ],
+      [
+       {
+        "ga": "an Ghaeilge",
+        "en": "Irish"
+       },
+       {
+        "ga": "an mhatamaitic",
+        "en": "maths"
+       },
+       {
+        "ga": "an eolaíocht",
+        "en": "science"
+       },
+       {
+        "ga": "an stair",
+        "en": "history"
+       },
+       {
+        "ga": "an tíreolaíocht",
+        "en": "geography"
+       },
+       {
+        "ga": "an ealaín",
+        "en": "art"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sí deacair",
+        "en": "it is difficult"
+       },
+       {
+        "ga": "tá sí leadránach",
+        "en": "it is boring"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An t-ábhar is fearr (firinscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Is é",
+        "en": "(copula: it is)"
+       }
+      ],
+      [
+       {
+        "ga": "an Béarla",
+        "en": "English"
+       },
+       {
+        "ga": "an ceol",
+        "en": "music"
+       },
+       {
+        "ga": "an corpoideachas",
+        "en": "PE"
+       }
+      ],
+      [
+       {
+        "ga": "an t-ábhar is fearr liom",
+        "en": "my favourite subject"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An t-ábhar is fearr (baininscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Is í",
+        "en": "(copula: it is)"
+       }
+      ],
+      [
+       {
+        "ga": "an Ghaeilge",
+        "en": "Irish"
+       },
+       {
+        "ga": "an mhatamaitic",
+        "en": "maths"
+       },
+       {
+        "ga": "an eolaíocht",
+        "en": "science"
+       },
+       {
+        "ga": "an stair",
+        "en": "history"
+       },
+       {
+        "ga": "an tíreolaíocht",
+        "en": "geography"
+       },
+       {
+        "ga": "an ealaín",
+        "en": "art"
+       }
+      ],
+      [
+       {
+        "ga": "an t-ábhar is fearr liom",
+        "en": "my favourite subject"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is breá liom an ealaín mar tá sí suimiúil.",
+    "Ní maith liom an mhatamaitic mar tá sí deacair.",
+    "Is maith liom an ceol mar tá an múinteoir go deas.",
+    "Is í an Ghaeilge an t-ábhar is fearr liom."
+   ]
+  },
+  {
+   "id": "b6-caitheamh",
+   "title": "Caitheamh aimsire",
+   "en": "Free time",
+   "teaches": "Present tense first person (imrím, seinnim, amharcaim, téim); imir without an article for sports; seinn with the article for instruments; time phrases.",
+   "questions": [
+    "Cad é an caitheamh aimsire is fearr leat?",
+    "An imríonn tú spórt ar bith?",
+    "Cad é a dhéanann tú ag deireadh na seachtaine?"
+   ],
+   "rows": [
+    {
+     "label": "Spórt",
+     "columns": [
+      [
+       {
+        "ga": "Imrím",
+        "en": "I play"
+       }
+      ],
+      [
+       {
+        "ga": "peil",
+        "en": "football"
+       },
+       {
+        "ga": "iomáint",
+        "en": "hurling"
+       },
+       {
+        "ga": "camógaíocht",
+        "en": "camogie"
+       },
+       {
+        "ga": "cispheil",
+        "en": "basketball"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends",
+        "optional": true
+       },
+       {
+        "ga": "leis an chlub",
+        "en": "with the club",
+        "optional": true
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       },
+       {
+        "ga": "i ndiaidh na scoile",
+        "en": "after school"
+       },
+       {
+        "ga": "achan Satharn",
+        "en": "every Saturday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ceol",
+     "columns": [
+      [
+       {
+        "ga": "Seinnim",
+        "en": "I play"
+       }
+      ],
+      [
+       {
+        "ga": "an pianó",
+        "en": "the piano"
+       },
+       {
+        "ga": "an giotár",
+        "en": "the guitar"
+       },
+       {
+        "ga": "an fheadóg stáin",
+        "en": "the tin whistle"
+       },
+       {
+        "ga": "an fhidil",
+        "en": "the fiddle"
+       }
+      ],
+      [
+       {
+        "ga": "achan lá",
+        "en": "every day"
+       },
+       {
+        "ga": "uair sa tseachtain",
+        "en": "once a week"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rudaí eile",
+     "columns": [
+      [
+       {
+        "ga": "Amharcaim ar an teilifís",
+        "en": "I watch TV"
+       },
+       {
+        "ga": "Téim ag snámh",
+        "en": "I go swimming"
+       },
+       {
+        "ga": "Téim chuig an phictiúrlann",
+        "en": "I go to the cinema"
+       },
+       {
+        "ga": "Léim leabhair",
+        "en": "I read books"
+       },
+       {
+        "ga": "Imrím cluichí ríomhaire",
+        "en": "I play computer games"
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       },
+       {
+        "ga": "i ndiaidh na scoile",
+        "en": "after school"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Imrím peil leis an chlub achan Satharn.",
+    "Seinnim an giotár uair sa tseachtain.",
+    "Téim chuig an phictiúrlann ag an deireadh seachtaine."
+   ]
+  },
+  {
+   "id": "b7-la",
+   "title": "Mo lá",
+   "en": "My day",
+   "teaches": "Present tense first person of common verbs (éirím, ithim, téim, tagaim, déanaim); telling the time (ar a seacht a chlog, ar leath i ndiaidh a hocht); ar an bhus with Ulster lenition.",
+   "questions": [
+    "Cad é an t-am a n-éiríonn tú?",
+    "Cad é mar a théann tú ar scoil?",
+    "Déan cur síos ar ghnáthlá scoile dom."
+   ],
+   "rows": [
+    {
+     "label": "Ar maidin",
+     "columns": [
+      [
+       {
+        "ga": "Éirím",
+        "en": "I get up"
+       },
+       {
+        "ga": "Ithim mo bhricfeasta",
+        "en": "I eat my breakfast"
+       },
+       {
+        "ga": "Fágaim an teach",
+        "en": "I leave the house"
+       }
+      ],
+      [
+       {
+        "ga": "ar a seacht a chlog",
+        "en": "at seven o'clock"
+       },
+       {
+        "ga": "ar leath i ndiaidh a seacht",
+        "en": "at half past seven"
+       },
+       {
+        "ga": "ar a hocht a chlog",
+        "en": "at eight o'clock"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar scoil",
+     "columns": [
+      [
+       {
+        "ga": "Téim ar scoil",
+        "en": "I go to school"
+       }
+      ],
+      [
+       {
+        "ga": "ar an bhus",
+        "en": "on the bus"
+       },
+       {
+        "ga": "sa charr",
+        "en": "in the car"
+       },
+       {
+        "ga": "de shiúl na gcos",
+        "en": "on foot"
+       },
+       {
+        "ga": "ar mo rothar",
+        "en": "on my bike"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tráthnóna",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim abhaile",
+        "en": "I come home"
+       },
+       {
+        "ga": "Déanaim m'obair bhaile",
+        "en": "I do my homework"
+       }
+      ],
+      [
+       {
+        "ga": "ar a ceathair a chlog",
+        "en": "at four o'clock"
+       },
+       {
+        "ga": "ar a cúig a chlog",
+        "en": "at five o'clock"
+       },
+       {
+        "ga": "ar a sé a chlog",
+        "en": "at six o'clock"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Istoíche",
+     "columns": [
+      [
+       {
+        "ga": "Téim a luí",
+        "en": "I go to bed"
+       }
+      ],
+      [
+       {
+        "ga": "ar a naoi a chlog",
+        "en": "at nine o'clock"
+       },
+       {
+        "ga": "ar leath i ndiaidh a naoi",
+        "en": "at half past nine"
+       },
+       {
+        "ga": "ar a deich a chlog",
+        "en": "at ten o'clock"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Éirím ar a seacht a chlog.",
+    "Téim ar scoil ar an bhus.",
+    "Déanaim m'obair bhaile ar a sé a chlog.",
+    "Téim a luí ar a deich a chlog."
+   ]
+  },
+  {
+   "id": "b8-guthan",
+   "title": "Mo ghuthán",
+   "en": "My phone",
+   "teaches": "Tá / Níl ... agam; purpose clauses with le + object + a + lenited verbal noun (le cluichí a imirt, le teachtaireachtaí a sheoladh); le + h before a vowel.",
+   "questions": [
+    "An bhfuil guthán cliste agat?",
+    "Cad é an cineál rudaí a thig leat a dhéanamh ar do ghuthán cliste?"
+   ],
+   "rows": [
+    {
+     "label": "An guthán",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       },
+       {
+        "ga": "Níl",
+        "en": "I don't have"
+       }
+      ],
+      [
+       {
+        "ga": "guthán cliste",
+        "en": "a smartphone"
+       },
+       {
+        "ga": "táibléad",
+        "en": "a tablet"
+       },
+       {
+        "ga": "ríomhaire glúine",
+        "en": "a laptop"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige (i ndiaidh 'Tá' amháin)",
+     "columns": [
+      [
+       {
+        "ga": "Úsáidim é",
+        "en": "I use it"
+       }
+      ],
+      [
+       {
+        "ga": "le teachtaireachtaí a sheoladh",
+        "en": "to send messages"
+       },
+       {
+        "ga": "le cluichí a imirt",
+        "en": "to play games"
+       },
+       {
+        "ga": "le grianghraif a thógáil",
+        "en": "to take photos"
+       },
+       {
+        "ga": "le héisteacht le ceol",
+        "en": "to listen to music"
+       },
+       {
+        "ga": "le hamharc ar fhíseáin",
+        "en": "to watch videos"
+       }
+      ],
+      [
+       {
+        "ga": "achan lá",
+        "en": "every day"
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá guthán cliste agam.",
+    "Úsáidim é le teachtaireachtaí a sheoladh achan lá.",
+    "Úsáidim é le héisteacht le ceol ag an deireadh seachtaine."
+   ],
+   "note": "The 'Cad chuige' row follows a 'Tá' answer only. The exam list's wording 'Cad iad an cineál rudaí' was corrected to 'Cad é an cineál rudaí'."
+  }
+ ],
+ "reviewed": "Independent check applied 26 September 2026: gender agreement after feminine subjects, contradictory opinion and reason pairs, untrue county combinations, bedtime times, sport and computer games, guthán for fón, two question wordings, the copula gloss."
+}
