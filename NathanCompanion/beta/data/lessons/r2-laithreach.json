@@ -1,0 +1,491 @@
+{
+ "id": "r2-laithreach",
+ "lessons": [
+  {
+   "title": "-aíonn agus -íonn",
+   "en": "Present tense with -aíonn or -íonn",
+   "rule": "Drop -aigh and add -aíonn, or drop -igh and add -íonn, then put the subject: ceannaigh becomes ceannaíonn sé, bailigh becomes bailíonn sé. To answer a question about someone else, drop An and the eclipsis and keep the same subject: An gceannaíonn sé? Ceannaíonn sé. / Ní cheannaíonn sé.",
+   "steps": [
+    "Find the verb in the question: gceannaíonn, from ceannaigh.",
+    "Take off An and the eclipsis: ceannaíonn.",
+    "Keep sé and the rest of the sentence: Ceannaíonn sé ticéad ar an bhus. For no, put Ní in front and add h: Ní cheannaíonn sé ticéad ar an bhus."
+   ],
+   "example": {
+    "prompt": "An gceannaíonn sé ticéad ar an bhus?",
+    "answer": "Ceannaíonn sé ticéad ar an bhus. / Ní cheannaíonn sé ticéad ar an bhus."
+   },
+   "more": [
+    {
+     "prompt": "(Bailigh) an múinteoir na fóin phóca ag tús an ranga.",
+     "answer": "Bailíonn an múinteoir na fóin phóca ag tús an ranga."
+    },
+    {
+     "prompt": "(Críochnaigh) sé an obair bhaile ar an táibléad.",
+     "answer": "Críochnaíonn sé an obair bhaile ar an táibléad."
+    }
+   ],
+   "hint": "-aigh becomes -aíonn, -igh becomes -íonn.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "An dtosaíonn an traenáil ar a sé a chlog?",
+     "answer": "Tosaíonn an traenáil ar a sé a chlog. / Ní thosaíonn an traenáil ar a sé a chlog.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gcríochnaíonn an cluiche roimh a cúig a chlog?",
+     "answer": "Críochnaíonn an cluiche roimh a cúig a chlog. / Ní chríochnaíonn an cluiche roimh a cúig a chlog.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé a dheisíonn an ríomhaire sa bhaile?",
+     "answer": "Deisíonn mo mháthair an ríomhaire sa bhaile.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gcuimhníonn daoine ar na daoine gan dídean sa gheimhreadh?",
+     "answer": "Cuimhníonn daoine ar na daoine gan dídean sa gheimhreadh. / Ní chuimhníonn daoine ar na daoine gan dídean sa gheimhreadh.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gceartaíonn an aip na botúin litrithe?",
+     "answer": "Ceartaíonn an aip na botúin litrithe. / Ní cheartaíonn an aip na botúin litrithe.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "-aím agus -ím: ceist a fhreagairt",
+   "en": "Answering with -aím or -ím",
+   "rule": "To answer a question with tú, use the mé ending, -aím for a broad verb and -ím for a slender one, with no pronoun after it: An gceannaíonn tú? Ceannaím. / Ní cheannaím. Change do to mo and ort to orm.",
+   "steps": [
+    "Take An and the eclipsis off the verb: gcríochnaíonn becomes críochnaíonn.",
+    "Swap -aíonn for -aím and drop tú: críochnaím.",
+    "Change d' to m' and write the answer: Críochnaím m'obair bhaile roimh an dinnéar. For no, put Ní in front and add h: Ní chríochnaím m'obair bhaile roimh an dinnéar."
+   ],
+   "example": {
+    "prompt": "An gcríochnaíonn tú d'obair bhaile roimh an dinnéar?",
+    "answer": "Críochnaím m'obair bhaile roimh an dinnéar. / Ní chríochnaím m'obair bhaile roimh an dinnéar."
+   },
+   "more": [
+    {
+     "prompt": "An mbailíonn tú na cóipleabhair?",
+     "answer": "Bailím na cóipleabhair. / Ní bhailím na cóipleabhair."
+    }
+   ],
+   "hint": "tú in the question, -aím or -ím in the answer.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "An gceannaíonn tú brioscáin phrátaí ag am sosa?",
+     "answer": "Ceannaím brioscáin phrátaí ag am sosa. / Ní cheannaím brioscáin phrátaí ag am sosa.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An mbailíonn tú cártaí peile?",
+     "answer": "Bailím cártaí peile. / Ní bhailím cártaí peile.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gclúdaíonn tú do tháibléad le cás?",
+     "answer": "Clúdaím mo tháibléad le cás. / Ní chlúdaím mo tháibléad le cás.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gcónaíonn tú san Iúr?",
+     "answer": "Cónaím san Iúr. / Ní chónaím san Iúr.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An gcoinníonn tú madadh sa bhaile?",
+     "answer": "Coinním madadh sa bhaile. / Ní choinním madadh sa bhaile.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An smaoiníonn tú ar an todhchaí go minic?",
+     "answer": "Smaoiním ar an todhchaí go minic. / Ní smaoiním ar an todhchaí go minic.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Ceist le An, diúltach le Ní",
+   "en": "Questions with An, negatives with Ní",
+   "rule": "For a question put An before the verb and eclipse it (An gceannaíonn, An bhfiosraíonn); for a negative put Ní and lenite it (Ní cheannaíonn, Ní fhiosraíonn). m and s do not change after An: An míníonn sí?",
+   "steps": [
+    "Start from the answer: Tosaím.",
+    "Change the mé ending back to -aíonn: tosaíonn.",
+    "Put An in front and eclipse the t: An dtosaíonn.",
+    "The answer used mé, so ask with tú: An dtosaíonn tú ar an obair bhaile go luath?"
+   ],
+   "example": {
+    "prompt": "Tosaím",
+    "answer": "An dtosaíonn tú ar an obair bhaile go luath?"
+   },
+   "more": [
+    {
+     "prompt": "Ní fhiosraíonn sé",
+     "answer": "An bhfiosraíonn sé an scéal?"
+    }
+   ],
+   "hint": "An eclipses (gc, mb, nd, dt, bhf); Ní lenites.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Deisíonn sí",
+     "answer": "An ndeisíonn sí an ríomhaire glúine?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Bailím",
+     "answer": "An mbailíonn tú na liathróidí i ndiaidh na traenála?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Míníonn sí",
+     "answer": "An míníonn sí na rialacha don rang?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Cónaím",
+     "answer": "An gcónaíonn tú cóngarach don scoil?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Briathra a thosaíonn ar ghuta",
+   "en": "Verbs beginning with a vowel",
+   "rule": "A verb beginning with a vowel takes the same endings but never changes after An or Ní, and no h or n is added: An ullmhaíonn tú? Ullmhaím. / Ní ullmhaím.",
+   "steps": [
+    "Find the verb in the question: aimsíonn. An has not changed it, because it begins with a vowel.",
+    "Swap -íonn for -ím and drop tú: aimsím.",
+    "Write the answer, with Ní and no h for no: Aimsím an bealach go Sliabh gCuillinn. / Ní aimsím an bealach go Sliabh gCuillinn."
+   ],
+   "example": {
+    "prompt": "An aimsíonn tú an bealach go Sliabh gCuillinn?",
+    "answer": "Aimsím an bealach go Sliabh gCuillinn. / Ní aimsím an bealach go Sliabh gCuillinn."
+   },
+   "more": [
+    {
+     "prompt": "Ardaíonn sí",
+     "answer": "An ardaíonn sí bratach an chontae ag an chluiche?"
+    }
+   ],
+   "hint": "Vowel verb: no change after An or Ní.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "An éiríonn tú roimh a hocht a chlog ar an Satharn?",
+     "answer": "Éirím roimh a hocht a chlog ar an Satharn. / Ní éirím roimh a hocht a chlog ar an Satharn.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An éiríonn do dheartháir go luath ar an Domhnach?",
+     "answer": "Éiríonn sé go luath ar an Domhnach. / Ní éiríonn sé go luath ar an Domhnach.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An ullmhaíonn do dhaid an lón duit achan mhaidin?",
+     "answer": "Ullmhaíonn sé an lón dom achan mhaidin. / Ní ullmhaíonn sé an lón dom achan mhaidin.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An oibríonn tú sa siopa ar an Satharn?",
+     "answer": "Oibrím sa siopa ar an Satharn. / Ní oibrím sa siopa ar an Satharn.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An aimsíonn tú na freagraí a bhíonn de dhíth ort ar líne?",
+     "answer": "Aimsím na freagraí a bhíonn de dhíth orm ar líne. / Ní aimsím na freagraí a bhíonn de dhíth orm ar líne.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An imíonn tú go Dún na nGall sa samhradh?",
+     "answer": "Imím go Dún na nGall sa samhradh. / Ní imím go Dún na nGall sa samhradh.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ullmhaím",
+     "answer": "An ullmhaíonn tú an bricfeasta duit féin ar maidin?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Oibrím",
+     "answer": "An oibríonn tú sa bhialann ag an deireadh seachtaine?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Athraím",
+     "answer": "An athraíonn tú an cúlra ar d'fhón go minic?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -aítear",
+   "en": "The autonomous form with -aítear",
+   "rule": "When nobody is named as doing the action, drop -aigh and add -aítear, with no pronoun after it: ceannaigh becomes ceannaítear. It takes An and Ní like any verb: An gceannaítear? Ní cheannaítear.",
+   "steps": [
+    "Find the root of the verb in brackets: triomaigh.",
+    "Drop -aigh: triom.",
+    "Add -aítear: triomaítear.",
+    "Put it first, with no pronoun: Triomaítear na héadaí ar an líne."
+   ],
+   "example": {
+    "prompt": "(Triomaigh) na héadaí ar an líne.",
+    "answer": "Triomaítear na héadaí ar an líne."
+   },
+   "more": [
+    {
+     "prompt": "(Ullmhaigh) an lón sa cheaintín.",
+     "answer": "Ullmhaítear an lón sa cheaintín."
+    }
+   ],
+   "hint": "Drop -aigh, add -aítear, no pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh) ticéid ar líne achan lá.",
+     "answer": "Ceannaítear ticéid ar líne achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuardaigh) na málaí ag an aerfort.",
+     "answer": "Cuardaítear na málaí ag an aerfort."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceartaigh) na scrúduithe ar an ríomhaire.",
+     "answer": "Ceartaítear na scrúduithe ar an ríomhaire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fostaigh) a lán daoine óga san ollmhargadh.",
+     "answer": "Fostaítear a lán daoine óga san ollmhargadh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Maraigh) a lán ainmhithe ar an mhótarbhealach achan bhliain.",
+     "answer": "Maraítear a lán ainmhithe ar an mhótarbhealach achan bhliain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ardaigh) bratach an chontae ag an chluiche.",
+     "answer": "Ardaítear bratach an chontae ag an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díothaigh) foraoisí ar fud an domhain achan lá.",
+     "answer": "Díothaítear foraoisí ar fud an domhain achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Críochnaigh) an obair bhaile roimh a hocht a chlog.",
+     "answer": "Críochnaítear an obair bhaile roimh a hocht a chlog."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -ítear",
+   "en": "The autonomous form with -ítear",
+   "rule": "For a verb ending in -igh, drop -igh and add -ítear, again with no pronoun: bailigh becomes bailítear, foilsigh becomes foilsítear.",
+   "steps": [
+    "Find the root of the verb in brackets: dúisigh.",
+    "Drop -igh and add -ítear: dúisítear.",
+    "Put it first, with no pronoun: Dúisítear na gasúir ar a seacht a chlog."
+   ],
+   "example": {
+    "prompt": "(Dúisigh) na gasúir ar a seacht a chlog.",
+    "answer": "Dúisítear na gasúir ar a seacht a chlog."
+   },
+   "more": [
+    {
+     "prompt": "(Deisigh) na gluaisteáin sa gharáiste.",
+     "answer": "Deisítear na gluaisteáin sa gharáiste."
+    }
+   ],
+   "hint": "Drop -igh, add -ítear, no pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Mínigh) na rialacha do na gasúir úra.",
+     "answer": "Mínítear na rialacha do na gasúir úra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bailigh) airgead do Thrócaire sa scoil.",
+     "answer": "Bailítear airgead do Thrócaire sa scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Réitigh) an fhadhb leis an ríomhaire.",
+     "answer": "Réitítear an fhadhb leis an ríomhaire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Maisigh) an halla don dioscó.",
+     "answer": "Maisítear an halla don dioscó."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cruinnigh) na camáin i ndiaidh na traenála.",
+     "answer": "Cruinnítear na camáin i ndiaidh na traenála."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Coinnigh) na fóin phóca san oifig i rith an lae.",
+     "answer": "Coinnítear na fóin phóca san oifig i rith an lae."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Foilsigh) na torthaí ar an suíomh gréasáin.",
+     "answer": "Foilsítear na torthaí ar an suíomh gréasáin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Réitigh) argóintí sa chlub óige.",
+     "answer": "Réitítear argóintí sa chlub óige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Truailligh) an fharraige le plaisteach achan lá.",
+     "answer": "Truaillítear an fharraige le plaisteach achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ísligh) na soilse sa phictiúrlann roimh an scannán.",
+     "answer": "Íslítear na soilse sa phictiúrlann roimh an scannán."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. Ordú agus Cad é a dhéanann sé? (briathra leathana, -aigh)",
+   "forms": [
+    "Brostaigh abhaile: Brostaíonn sé abhaile",
+    "Cabhraigh leis na cailíní: Cabhraíonn sé leis na cailíní",
+    "Ceannaigh bainne sa siopa: Ceannaíonn sé bainne sa siopa",
+    "Corraigh an leite: Corraíonn sé an leite",
+    "Críochnaigh an obair: Críochnaíonn sé an obair",
+    "Triomaigh na gréithe: Triomaíonn sé na gréithe",
+    "Ceartaigh na botúin: Ceartaíonn sé na botúin"
+   ]
+  },
+  {
+   "title": "A. Ceist: ceannaigh",
+   "forms": [
+    "An gceannaíonn tú an nuachtán?: Ceannaím / Ní cheannaím",
+    "An gceannaíonn sé an nuachtán?: Ceannaíonn sé / Ní cheannaíonn sé",
+    "An gceannaíonn sí an nuachtán?: Ceannaíonn sí / Ní cheannaíonn sí",
+    "An gceannaíonn sibh an nuachtán?: Ceannaíonn muid / Ní cheannaíonn muid",
+    "An gceannaíonn siad an nuachtán?: Ceannaíonn siad / Ní cheannaíonn siad",
+    "An gceannaítear an nuachtán?: Ceannaítear / Ní cheannaítear"
+   ]
+  },
+  {
+   "title": "B. Ordú agus Cad é a dhéanann sé? (briathra caola, -igh)",
+   "forms": [
+    "Bailigh na cóipleabhair: Bailíonn sé na cóipleabhair",
+    "Mínigh an abairt: Míníonn sé an abairt",
+    "Deisigh an rothar: Deisíonn sé an rothar",
+    "Sínigh an leabhar: Síníonn sé an leabhar",
+    "Grinnigh na torthaí: Grinníonn sé na torthaí",
+    "Dúisigh na páistí: Dúisíonn sé na páistí"
+   ]
+  },
+  {
+   "title": "B. Ceist: bailigh",
+   "forms": [
+    "An mbailíonn tú na cóipleabhair?: Bailím / Ní bhailím",
+    "An mbailíonn sé?: Bailíonn sé / Ní bhailíonn sé",
+    "An mbailíonn sí?: Bailíonn sí / Ní bhailíonn sí",
+    "An mbailíonn sibh?: Bailíonn muid / Ní bhailíonn muid",
+    "An mbailíonn siad?: Bailíonn siad / Ní bhailíonn siad",
+    "An mbailítear na cóipleabhair?: Bailítear / Ní bhailítear"
+   ]
+  },
+  {
+   "title": "C. Ordú agus Cad é a dhéanann sé? (briathra leathana a thosaíonn ar ghuta)",
+   "forms": [
+    "Aeraigh an seomra: Aeraíonn sé an seomra",
+    "Ardaigh an bhratach: Ardaíonn sé an bhratach",
+    "Athraigh an téip: Athraíonn sé an téip",
+    "Iompaigh an chathaoir: Iompaíonn sé an chathaoir",
+    "Ordaigh deoch: Ordaíonn sé deoch",
+    "Ullmhaigh an dinnéar: Ullmhaíonn sé an dinnéar"
+   ]
+  },
+  {
+   "title": "C. Ceist: ullmhaigh",
+   "forms": [
+    "An ullmhaíonn tú an dinnéar?: Ullmhaím / Ní ullmhaím",
+    "An ullmhaíonn sé an dinnéar?: Ullmhaíonn sé / Ní ullmhaíonn sé",
+    "An ullmhaíonn sí an dinnéar?: Ullmhaíonn sí / Ní ullmhaíonn sí",
+    "An ullmhaíonn sibh an dinnéar?: Ullmhaíonn muid / Ní ullmhaíonn muid",
+    "An ullmhaíonn siad an dinnéar?: Ullmhaíonn siad / Ní ullmhaíonn siad",
+    "An ullmhaítear an dinnéar?: Ullmhaítear / Ní ullmhaítear"
+   ]
+  },
+  {
+   "title": "D. Ordú agus Cad é a dhéanann sé? (briathra caola a thosaíonn ar ghuta)",
+   "forms": [
+    "Ainmnigh na daoine sin: Ainmníonn sé na daoine",
+    "Aimsigh an sprioc: Aimsíonn sé an sprioc",
+    "Aistrigh an leabhar: Aistríonn sé an leabhar",
+    "Éirigh go luath: Éiríonn sé go luath",
+    "Imigh leat: Imíonn sé leis"
+   ]
+  },
+  {
+   "title": "D. Ceist: aimsigh",
+   "forms": [
+    "An aimsíonn tú an sprioc?: Aimsím / Ní aimsím",
+    "An aimsíonn sé?: Aimsíonn sé / Ní aimsíonn sé",
+    "An aimsíonn sí?: Aimsíonn sí / Ní aimsíonn sí",
+    "An aimsíonn sibh?: Aimsíonn muid / Ní aimsíonn muid",
+    "An aimsíonn siad?: Aimsíonn siad / Ní aimsíonn siad",
+    "An aimsítear an sprioc?: Aimsítear / Ní aimsítear"
+   ]
+  },
+  {
+   "title": "E. Ordú agus Cad é a dhéanann sé? (briathra a thosaíonn ar f)",
+   "forms": [
+    "Fiosraigh an scéal: Fiosraíonn sé an scéal",
+    "Folmhaigh an buicéad: Folmhaíonn sé an buicéad"
+   ]
+  },
+  {
+   "title": "E. Ceist: fiosraigh",
+   "forms": [
+    "An bhfiosraíonn tú an scéal?: Fiosraím / Ní fhiosraím",
+    "An bhfiosraíonn sé?: Fiosraíonn sé / Ní fhiosraíonn sé",
+    "An bhfiosraíonn sí?: Fiosraíonn sí / Ní fhiosraíonn sí",
+    "An bhfiosraíonn sibh?: Fiosraíonn muid / Ní fhiosraíonn muid",
+    "An bhfiosraíonn siad?: Fiosraíonn siad / Ní fhiosraíonn siad",
+    "An bhfiosraítear an scéal?: Fiosraítear / Ní fhiosraítear"
+   ]
+  }
+ ]
+}

@@ -145,8 +145,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Fan) siad sa Ghaeltacht i dTír Chonaill achan samhradh.",
-     "answer": "D'fhanaidís sa Ghaeltacht i dTír Chonaill achan samhradh."
+     "prompt": "(Fan) siad sa Ghaeltacht i nDún na nGall achan samhradh.",
+     "answer": "D'fhanaidís sa Ghaeltacht i nDún na nGall achan samhradh."
     },
     {
      "shape": "stem",
@@ -448,23 +448,23 @@
   {
    "title": "Ceist agus freagra: glan (aimsir ghnáthchaite)",
    "forms": [
-    "An nglantá an bord? Ghlanainn/Ní ghlanainn.",
-    "An nglanadh sé an bord? Ghlanadh sé/Ní ghlanadh sé.",
-    "An nglanadh sí an bord? Ghlanadh sí/Ní ghlanadh sí.",
-    "An nglanadh sibh an bord? Ghlanadh muid/Ní ghlanadh muid.",
-    "An nglanaidís an bord? Ghlanaidís/Ní ghlanaidís.",
-    "An nglantaí an bord? Ghlantaí/Ní ghlantaí."
+    "An nglantá an tábla? Ghlanainn/Ní ghlanainn.",
+    "An nglanadh sé an tábla? Ghlanadh sé/Ní ghlanadh sé.",
+    "An nglanadh sí an tábla? Ghlanadh sí/Ní ghlanadh sí.",
+    "An nglanadh sibh an tábla? Ghlanadh muid/Ní ghlanadh muid.",
+    "An nglanaidís an tábla? Ghlanaidís/Ní ghlanaidís.",
+    "An nglantaí an tábla? Ghlantaí/Ní ghlantaí."
    ]
   },
   {
    "title": "Ceist agus freagra: cuir (aimsir ghnáthchaite)",
    "forms": [
-    "An gcuirteá an pláta ar an bhord? Chuirinn/Ní chuirinn.",
-    "An gcuireadh sé an pláta ar an bhord? Chuireadh sé/Ní chuireadh sé.",
-    "An gcuireadh sí an pláta ar an bhord? Chuireadh sí/Ní chuireadh sí.",
-    "An gcuireadh sibh an pláta ar an bhord? Chuireadh muid/Ní chuireadh muid.",
-    "An gcuiridís an pláta ar an bhord? Chuiridís/Ní chuiridís.",
-    "An gcuirtí an pláta ar an bhord? Chuirtí/Ní chuirtí."
+    "An gcuirteá an pláta ar an tábla? Chuirinn/Ní chuirinn.",
+    "An gcuireadh sé an pláta ar an tábla? Chuireadh sé/Ní chuireadh sé.",
+    "An gcuireadh sí an pláta ar an tábla? Chuireadh sí/Ní chuireadh sí.",
+    "An gcuireadh sibh an pláta ar an tábla? Chuireadh muid/Ní chuireadh muid.",
+    "An gcuiridís an pláta ar an tábla? Chuiridís/Ní chuiridís.",
+    "An gcuirtí an pláta ar an tábla? Chuirtí/Ní chuirtí."
    ]
   },
   {

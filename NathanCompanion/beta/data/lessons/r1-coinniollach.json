@@ -528,7 +528,7 @@
    "title": "A. Ordú / Cad é a dhéanfadh sé? (briathra leathana)",
    "forms": [
     "Croch do chóta. : Chrochfadh sé a chóta.",
-    "Glan an bord. : Ghlanfadh sé an bord.",
+    "Glan an tábla. : Ghlanfadh sé an tábla.",
     "Cíor do chuid gruaige. : Chíorfadh sé a chuid gruaige.",
     "Cas timpeall. : Chasfadh sé timpeall.",
     "Cnag ar an doras. : Chnagfadh sé ar an doras.",
@@ -541,18 +541,18 @@
   {
    "title": "A. Ceist: glan (briathar leathan)",
    "forms": [
-    "An nglanfá an bord? : Ghlanfainn/Ní ghlanfainn.",
-    "An nglanfadh sé an bord? : Ghlanfadh sé/Ní ghlanfadh sé.",
-    "An nglanfadh sí an bord? : Ghlanfadh sí/Ní ghlanfadh sí.",
-    "An nglanfadh sibh an bord? : Ghlanfadh muid/Ní ghlanfadh muid.",
-    "An nglanfaidís an bord? : Ghlanfaidís/Ní ghlanfaidís.",
-    "An nglanfaí an bord? : Ghlanfaí/Ní ghlanfaí."
+    "An nglanfá an tábla? : Ghlanfainn/Ní ghlanfainn.",
+    "An nglanfadh sé an tábla? : Ghlanfadh sé/Ní ghlanfadh sé.",
+    "An nglanfadh sí an tábla? : Ghlanfadh sí/Ní ghlanfadh sí.",
+    "An nglanfadh sibh an tábla? : Ghlanfadh muid/Ní ghlanfadh muid.",
+    "An nglanfaidís an tábla? : Ghlanfaidís/Ní ghlanfaidís.",
+    "An nglanfaí an tábla? : Ghlanfaí/Ní ghlanfaí."
    ]
   },
   {
    "title": "B. Ordú / Cad é a dhéanfadh sé? (briathra caola)",
    "forms": [
-    "Cuir an pláta ar an bhord. : Chuirfeadh sé an pláta ar an bhord.",
+    "Cuir an pláta ar an tábla. : Chuirfeadh sé an pláta ar an tábla.",
     "Blais an deoch. : Bhlaisfeadh sé an deoch.",
     "Caith an liathróid. : Chaithfeadh sé an liathróid.",
     "Bain an féar. : Bhainfeadh sé an féar.",
@@ -564,12 +564,12 @@
   {
    "title": "B. Ceist: cuir (briathar caol)",
    "forms": [
-    "An gcuirfeá an pláta ar an bhord? : Chuirfinn/Ní chuirfinn.",
-    "An gcuirfeadh sé an pláta ar an bhord? : Chuirfeadh sé/Ní chuirfeadh sé.",
-    "An gcuirfeadh sí an pláta ar an bhord? : Chuirfeadh sí/Ní chuirfeadh sí.",
-    "An gcuirfeadh sibh an pláta ar an bhord? : Chuirfeadh muid/Ní chuirfeadh muid.",
-    "An gcuirfidís an pláta ar an bhord? : Chuirfidís/Ní chuirfidís.",
-    "An gcuirfí an pláta ar an bhord? : Chuirfí/Ní chuirfí."
+    "An gcuirfeá an pláta ar an tábla? : Chuirfinn/Ní chuirfinn.",
+    "An gcuirfeadh sé an pláta ar an tábla? : Chuirfeadh sé/Ní chuirfeadh sé.",
+    "An gcuirfeadh sí an pláta ar an tábla? : Chuirfeadh sí/Ní chuirfeadh sí.",
+    "An gcuirfeadh sibh an pláta ar an tábla? : Chuirfeadh muid/Ní chuirfeadh muid.",
+    "An gcuirfidís an pláta ar an tábla? : Chuirfidís/Ní chuirfidís.",
+    "An gcuirfí an pláta ar an tábla? : Chuirfí/Ní chuirfí."
    ]
   },
   {

@@ -38,11 +38,13 @@ struct GrammarItem: Codable, Hashable {
     let point: String
     /// For gap items: just the missing word or words.
     let gap: String?
+    /// The other correct form where both exist (conditional: chuirfimis / chuirfeadh muid).
+    let alt: String?
     /// Open questions with many right answers: the pupil compares with the model and marks it.
     let selfMarked: Bool?
 
     enum CodingKeys: String, CodingKey {
-        case shape, prompt, answer, point, gap
+        case shape, prompt, answer, point, gap, alt
         case selfMarked = "self"
     }
 
@@ -98,11 +100,26 @@ extension Mark {
         ("fimid", "fidh"), ("faimid", "faidh"), ("aimid", "ann"), ("imid", "eann")
     ]
 
+    /// Conditional, 1st and 3rd person plural: synthetic and analytic are both right (chuirfimis = chuirfeadh muid).
+    static let conditionalToggle: [(String, String)] = [
+        ("eoimis", "eodh muid"), ("óimis", "ódh muid"), ("fimis", "feadh muid"), ("faimis", "fadh muid"),
+        ("eoidís", "eodh siad"), ("óidís", "ódh siad"), ("fidís", "feadh siad"), ("faidís", "fadh siad")
+    ]
+    static let conditionalIrregular: [String: String] = [
+        "bheimis": "bheadh muid", "bheidís": "bheadh siad", "mbeimis": "mbeadh muid", "mbeidís": "mbeadh siad",
+        "rachaimis": "rachadh muid", "rachaidís": "rachadh siad", "gheobhaimis": "gheobhadh muid",
+        "gheobhaidís": "gheobhadh siad", "ngeobhaimis": "ngeobhadh muid", "ngeobhaidís": "ngeobhadh siad"
+    ]
+
     static func canon(_ s: String) -> String {
         norm(s).split(separator: " ").map { word -> String in
             let w = String(word)
+            if let irregular = conditionalIrregular[w] { return irregular }
             for (synthetic, analytic) in toggle where w.count > synthetic.count + 1 && w.hasSuffix(synthetic) {
                 return String(w.dropLast(synthetic.count)) + analytic + " muid"
+            }
+            for (synthetic, analytic) in conditionalToggle where w.count > synthetic.count + 1 && w.hasSuffix(synthetic) {
+                return String(w.dropLast(synthetic.count)) + analytic
             }
             return w
         }.joined(separator: " ")

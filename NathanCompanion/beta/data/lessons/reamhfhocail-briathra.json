@@ -1,0 +1,412 @@
+{
+ "id": "reamhfhocail-briathra",
+ "lessons": [
+  {
+   "title": "Briathra + ar",
+   "en": "Verbs that take ar",
+   "rule": "Learn these verbs with ar: cuir ar (put on), beir ar (catch), amharc ar (look at), teip ar (fail), iarr ar (ask), crom ar (get down to), cnag ar, scairt ar. With a pronoun use the joined form: orm, ort, uirthi.",
+   "steps": [
+    "Find the verb: chnag, from cnag.",
+    "cnag always takes ar (knock on): cnag ar.",
+    "Write ar in the gap: Chnag an príomhoide ar dhoras an tseomra ranga."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Chnag an príomhoide ______ dhoras an tseomra ranga.",
+    "answer": "Chnag an príomhoide ar dhoras an tseomra ranga.",
+    "gap": "ar"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Scairt Aoife ______ a deirfiúr nuair a tháinig an bus.",
+     "answer": "Scairt Aoife ar a deirfiúr nuair a tháinig an bus.",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Theip ______ Oisín sa scrúdú matamaitice.",
+     "answer": "Theip ar Oisín sa scrúdú matamaitice.",
+     "gap": "ar"
+    }
+   ],
+   "hint": "cuir, beir, amharc, teip, iarr, crom + ar.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Nuair a tháinig sí abhaile ón traenáil chrom sí ______ an obair bhaile.",
+     "answer": "Nuair a tháinig sí abhaile ón traenáil chrom sí ar an obair bhaile.",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Iarr ______ na gasúir an halla a ghlanadh.",
+     "answer": "Iarr ar na gasúir an halla a ghlanadh.",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Rug Clíodhna ______ an liathróid sa chluiche camógaíochta.",
+     "answer": "Rug Clíodhna ar an liathróid sa chluiche camógaíochta.",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An raibh tú ag amharc ______ an chluiche mór aréir?",
+     "answer": "An raibh tú ag amharc ar an chluiche mór aréir?",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuir Róisín a cóta ______ agus rith sí chuig an bhus.",
+     "answer": "Chuir Róisín a cóta uirthi agus rith sí chuig an bhus.",
+     "gap": "uirthi"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cuir ______ do chóta, a Chiara, tá sé ag cur fearthainne.",
+     "answer": "Cuir ort do chóta, a Chiara, tá sé ag cur fearthainne.",
+     "gap": "ort"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Theip ______ sa scrúdú Gaeilge,' arsa Oisín.",
+     "answer": "'Theip orm sa scrúdú Gaeilge,' arsa Oisín.",
+     "gap": "orm"
+    }
+   ]
+  },
+  {
+   "title": "Briathra + le",
+   "en": "Verbs that take le",
+   "rule": "Learn these verbs with le: éist le (listen to), buail le (meet), éirigh le (succeed), taitin le (be enjoyed by), abair le (tell), díol le (sell to), tig le (be able). Before an, le becomes leis an (and lenites: leis an cheol); before na it becomes leis na.",
+   "steps": [
+    "Find the verb: d'éist, from éist, which takes le.",
+    "The next word is an, so le becomes leis: leis an cheol.",
+    "D'éist Clíodhna leis an cheol ar a cluasáin."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "D'éist Clíodhna ______ an cheol ar a cluasáin.",
+    "answer": "D'éist Clíodhna leis an cheol ar a cluasáin.",
+    "gap": "leis"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Bhuail Aoife ______ Cormac taobh amuigh den phictiúrlann.",
+     "answer": "Bhuail Aoife le Cormac taobh amuigh den phictiúrlann.",
+     "gap": "le"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tig ______ (mé) an obair bhaile a dhéanamh ar an ríomhaire glúine.",
+     "answer": "Tig liom an obair bhaile a dhéanamh ar an ríomhaire glúine.",
+     "gap": "liom"
+    }
+   ],
+   "hint": "éist, buail, éirigh, taitin, abair + le; leis an, leis na.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Taitníonn an chamógaíocht ______ Ciara agus le Niamh.",
+     "answer": "Taitníonn an chamógaíocht le Ciara agus le Niamh.",
+     "gap": "le"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Níor éirigh ______ na gasúir an obair bhaile a chríochnú roimh an chluiche.",
+     "answer": "Níor éirigh leis na gasúir an obair bhaile a chríochnú roimh an chluiche.",
+     "gap": "leis"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cad é mar a d'éirigh ______ sa chluiche inné, a Chormaic?",
+     "answer": "Cad é mar a d'éirigh leat sa chluiche inné, a Chormaic?",
+     "gap": "leat"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhí mé ag éisteacht ______ an cheol ar mo chluasáin ar an bhus.",
+     "answer": "Bhí mé ag éisteacht leis an cheol ar mo chluasáin ar an bhus.",
+     "gap": "leis"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Buailfidh mé ______ ag an chluiche anocht, a Chiara,' arsa Niamh.",
+     "answer": "'Buailfidh mé leat ag an chluiche anocht, a Chiara,' arsa Niamh.",
+     "gap": "leat"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Dúirt Aoife ______ an mhúinteoir go raibh a fón póca briste.",
+     "answer": "Dúirt Aoife leis an mhúinteoir go raibh a fón póca briste.",
+     "gap": "leis"
+    }
+   ]
+  },
+  {
+   "title": "Briathra + do",
+   "en": "Verbs that take do",
+   "rule": "Learn these verbs with do: tabhair do (give to), inis do (tell), taispeáin do (show), mol do (advise), lig do (allow), geall do (promise), beannaigh do (greet). Before an, do becomes don and lenites: don ghirseach.",
+   "steps": [
+    "Find the verb: gheall, from geall, which takes do.",
+    "The next word is an, so do and an join to make don.",
+    "Gheall mé don ghirseach go rachainn chuig an cheolchoirm léi."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Gheall mé ______ ghirseach go rachainn chuig an cheolchoirm léi.",
+    "answer": "Gheall mé don ghirseach go rachainn chuig an cheolchoirm léi.",
+    "gap": "don"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Thug a seanmháthair fón póca nua ______ (í) ar a breithlá.",
+     "answer": "Thug a seanmháthair fón póca nua di ar a breithlá.",
+     "gap": "di"
+    }
+   ],
+   "hint": "tabhair, inis, taispeáin, mol, lig + do; don, do na.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Mhol an príomhoide ______ na gasúir gan rith sa halla.",
+     "answer": "Mhol an príomhoide do na gasúir gan rith sa halla.",
+     "gap": "do"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'inis an príomhoide scéal ______ rang faoi Shliabh gCuillinn.",
+     "answer": "D'inis an príomhoide scéal don rang faoi Shliabh gCuillinn.",
+     "gap": "don"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thug an mháthair airgead ______ na gasúir don bhus.",
+     "answer": "Thug an mháthair airgead do na gasúir don bhus.",
+     "gap": "do"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Taispeáin ______ do chóipleabhar,' arsa an múinteoir.",
+     "answer": "'Taispeáin dom do chóipleabhar,' arsa an múinteoir.",
+     "gap": "dom"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Nuair a chonaic an príomhoide mé sa halla bheannaigh sé ______.",
+     "answer": "Nuair a chonaic an príomhoide mé sa halla bheannaigh sé dom.",
+     "gap": "dom"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ligeadh ______ dul chuig an chluiche nuair a bhí m'obair bhaile déanta agam.",
+     "answer": "Ligeadh dom dul chuig an chluiche nuair a bhí m'obair bhaile déanta agam.",
+     "gap": "dom"
+    }
+   ]
+  },
+  {
+   "title": "Briathra + de agus as",
+   "en": "Verbs that take de and as",
+   "rule": "Use de with bain de (take off), tit de (fall off), tóg de (lift off), fiafraigh de (ask), lean de and stad de; before an it becomes den and lenites (den chathaoir). Use as with íoc as (pay for) and éirigh as (give up).",
+   "steps": [
+    "Find the verb: thit, from tit, which takes de.",
+    "The noun has the article, so de and an join to make den, which lenites: den chathaoir.",
+    "Thit an fón póca den chathaoir agus bhris an scáileán."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Thit an fón póca ______ chathaoir agus bhris an scáileán.",
+    "answer": "Thit an fón póca den chathaoir agus bhris an scáileán.",
+    "gap": "den"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "D'íoc Róisín ______ na ceapairí sa cheaintín lena cárta.",
+     "answer": "D'íoc Róisín as na ceapairí sa cheaintín lena cárta.",
+     "gap": "as"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Stad Oisín ______ chluiche ar an fhón nuair a tháinig a mháthair isteach.",
+     "answer": "Stad Oisín den chluiche ar an fhón nuair a tháinig a mháthair isteach.",
+     "gap": "den"
+    }
+   ],
+   "hint": "bain, tit, tóg, fiafraigh + de (den); íoc, éirigh + as.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "D'fhiafraigh mé ______ mhúinteoir an bhfaca sé mo chóipleabhar.",
+     "answer": "D'fhiafraigh mé den mhúinteoir an bhfaca sé mo chóipleabhar.",
+     "gap": "den"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhain siad ______ a gcótaí nuair a tháinig siad isteach sa rang.",
+     "answer": "Bhain siad díobh a gcótaí nuair a tháinig siad isteach sa rang.",
+     "gap": "díobh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thit na gasúir ______ bhalla ag an pháirc.",
+     "answer": "Thit na gasúir den bhalla ag an pháirc.",
+     "gap": "den"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar íoc tú ______ na ticéid don cheolchoirm go fóill?",
+     "answer": "Ar íoc tú as na ticéid don cheolchoirm go fóill?",
+     "gap": "as"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'éirigh Cormac ______ na cluichí ar an fhón roimh na scrúduithe.",
+     "answer": "D'éirigh Cormac as na cluichí ar an fhón roimh na scrúduithe.",
+     "gap": "as"
+    }
+   ]
+  },
+  {
+   "title": "Briathra + chuig agus ó",
+   "en": "Verbs that take chuig and ó",
+   "rule": "Use chuig for sending or throwing towards someone: scríobh chuig, caith chuig (chuig an phríomhoide). Use ó for getting or needing from someone: faigh ó, teastaigh ó; ó lenites a name (ó Chormac).",
+   "steps": [
+    "Find the verb: scríobh, sending something to a person, so it takes chuig.",
+    "Write chuig in the gap: chuig an phríomhoide.",
+    "Scríobh Ciara ríomhphost chuig an phríomhoide faoin turas."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Scríobh Ciara ríomhphost ______ an phríomhoide faoin turas.",
+    "answer": "Scríobh Ciara ríomhphost chuig an phríomhoide faoin turas.",
+    "gap": "chuig"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Tá cóipleabhar úr ag teastáil ______ Niamh.",
+     "answer": "Tá cóipleabhar úr ag teastáil ó Niamh.",
+     "gap": "ó"
+    }
+   ],
+   "hint": "Towards a person: chuig; from a person: ó.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Scríobh mé ríomhphost ______ na múinteoirí faoin turas.",
+     "answer": "Scríobh mé ríomhphost chuig na múinteoirí faoin turas.",
+     "gap": "chuig"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chaith Oisín an liathróid ______ an mhadadh sa pháirc.",
+     "answer": "Chaith Oisín an liathróid chuig an mhadadh sa pháirc.",
+     "gap": "chuig"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Fuair mé teachtaireacht téacs ______ Róisín ar maidin.",
+     "answer": "Fuair mé teachtaireacht téacs ó Róisín ar maidin.",
+     "gap": "ó"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Fuair Róisín teachtaireacht téacs ______ Chormac aréir.",
+     "answer": "Fuair Róisín teachtaireacht téacs ó Chormac aréir.",
+     "gap": "ó"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Dul siar: ar + forainm",
+   "forms": [
+    "ar + mé: orm",
+    "ar + tú: ort",
+    "ar + é: air",
+    "ar + í: uirthi",
+    "ar + sinn: orainn",
+    "ar + sibh: oraibh",
+    "ar + iad: orthu"
+   ]
+  },
+  {
+   "title": "Dul siar: le + forainm",
+   "forms": [
+    "le + mé: liom",
+    "le + tú: leat",
+    "le + é: leis",
+    "le + í: léi",
+    "le + sinn: linn",
+    "le + sibh: libh",
+    "le + iad: leo"
+   ]
+  },
+  {
+   "title": "Dul siar: do + forainm",
+   "forms": [
+    "do + mé: dom",
+    "do + tú: duit",
+    "do + é: dó",
+    "do + í: di",
+    "do + sinn: dúinn",
+    "do + sibh: daoibh",
+    "do + iad: dóibh"
+   ]
+  },
+  {
+   "title": "Dul siar: de + forainm",
+   "forms": [
+    "de + mé: díom",
+    "de + tú: díot",
+    "de + é: de",
+    "de + í: di",
+    "de + sinn: dínn",
+    "de + sibh: díbh",
+    "de + iad: díobh"
+   ]
+  },
+  {
+   "title": "Dul siar: as + forainm",
+   "forms": [
+    "as + mé: asam",
+    "as + tú: asat",
+    "as + é: as",
+    "as + í: aisti",
+    "as + sinn: asainn",
+    "as + sibh: asaibh",
+    "as + iad: astu"
+   ]
+  },
+  {
+   "title": "Dul siar: chuig + forainm",
+   "forms": [
+    "chuig + mé: chugam",
+    "chuig + tú: chugat",
+    "chuig + é: chuige",
+    "chuig + í: chuici",
+    "chuig + sinn: chugainn",
+    "chuig + sibh: chugaibh",
+    "chuig + iad: chucu"
+   ]
+  },
+  {
+   "title": "Dul siar: ó + forainm",
+   "forms": [
+    "ó + mé: uaim",
+    "ó + tú: uait",
+    "ó + é: uaidh",
+    "ó + í: uaithi",
+    "ó + sinn: uainn",
+    "ó + sibh: uaibh",
+    "ó + iad: uathu"
+   ]
+  }
+ ]
+}

@@ -1,184 +1,506 @@
 {
-  "id": "r2-chaite",
-  "lessons": [
+ "id": "r2-chaite",
+ "lessons": [
+  {
+   "title": "Séimhiú: -aigh agus -igh",
+   "en": "Lenition with -aigh and -igh verbs",
+   "rule": "In the past tense, add h after the first letter and keep the whole root, ending and all: ceannaigh becomes cheannaigh, bailigh becomes bhailigh. A verb beginning with l, n, r, sc, sp or st does not change: réitigh sí.",
+   "steps": [
+    "Find the root of the verb in brackets: ceannaigh.",
+    "Add h after the first letter: cheannaigh.",
+    "Keep the -aigh ending as it is and put the verb first: Cheannaigh sé bainne sa siopa."
+   ],
+   "example": {
+    "prompt": "(Ceannaigh) sé bainne sa siopa.",
+    "answer": "Cheannaigh sé bainne sa siopa."
+   },
+   "more": [
     {
-      "title": "Séimhiú: -aigh agus -igh",
-      "en": "Lenition with -aigh and -igh verbs",
-      "rule": "In the past tense, add h after the first letter and keep the whole root, ending and all: ceannaigh becomes cheannaigh, bailigh becomes bhailigh. A verb beginning with l, n, r, sc, sp or st does not change: réitigh sí.",
-      "steps": [
-        "Find the root of the verb in brackets: ceannaigh.",
-        "Add h after the first letter: cheannaigh.",
-        "Keep the -aigh ending as it is and put the verb first: Cheannaigh sé bainne sa siopa."
-      ],
-      "example": {"prompt": "(Ceannaigh) sé bainne sa siopa.", "answer": "Cheannaigh sé bainne sa siopa."},
-      "more": [
-        {"prompt": "(Bailigh) sé na cóipleabhair.", "answer": "Bhailigh sé na cóipleabhair."},
-        {"prompt": "(Críochnaigh) sé an obair.", "answer": "Chríochnaigh sé an obair."}
-      ],
-      "hint": "Add h after the first letter, keep the ending.",
-      "items": [
-        {"shape": "stem", "prompt": "(Dúisigh) siad go luath don turas scoile.", "answer": "Dhúisigh siad go luath don turas scoile."},
-        {"shape": "stem", "prompt": "(Gríosaigh) an traenálaí an fhoireann roimh an chluiche.", "answer": "Ghríosaigh an traenálaí an fhoireann roimh an chluiche."},
-        {"shape": "stem", "prompt": "(Triomaigh) mé na héadaí ar an líne.", "answer": "Thriomaigh mé na héadaí ar an líne."},
-        {"shape": "stem", "prompt": "(Salaigh) sí a bróga reatha sa láib ag an traenáil.", "answer": "Shalaigh sí a bróga reatha sa láib ag an traenáil."},
-        {"shape": "stem", "prompt": "(Bunaigh) mo dheirfiúr club léitheoireachta sa leabharlann.", "answer": "Bhunaigh mo dheirfiúr club léitheoireachta sa leabharlann."},
-        {"shape": "stem", "prompt": "(Ceansaigh) an feirmeoir an capall óg.", "answer": "Cheansaigh an feirmeoir an capall óg."},
-        {"shape": "stem", "prompt": "(Réitigh) sí an cheist mhata go gasta.", "answer": "Réitigh sí an cheist mhata go gasta."}
-      ]
+     "prompt": "(Bailigh) sé na cóipleabhair.",
+     "answer": "Bhailigh sé na cóipleabhair."
     },
     {
-      "title": "An diúltach le Níor",
-      "en": "The negative with Níor",
-      "rule": "To make a past-tense verb negative, put Níor in front of it and keep the h: Cheannaigh sí becomes Níor cheannaigh sí. A verb beginning with r stays as it is: Níor roghnaigh sí.",
-      "steps": [
-        "Start from the positive verb: Chorraigh sé.",
-        "Keep the h that is already there: chorraigh.",
-        "Put Níor in front: Níor chorraigh sé."
-      ],
-      "example": {"prompt": "Chorraigh sé", "answer": "Níor chorraigh sé."},
-      "more": [
-        {"prompt": "Dheisigh siad", "answer": "Níor dheisigh siad."},
-        {"prompt": "Shínigh sí", "answer": "Níor shínigh sí."}
-      ],
-      "hint": "Níor in front, keep the h.",
-      "items": [
-        {"shape": "transform", "prompt": "Cheannaigh sí", "answer": "Níor cheannaigh sí."},
-        {"shape": "transform", "prompt": "Thriomaigh siad", "answer": "Níor thriomaigh siad."},
-        {"shape": "transform", "prompt": "Chríochnaigh siad", "answer": "Níor chríochnaigh siad."},
-        {"shape": "transform", "prompt": "Cheartaigh tú", "answer": "Níor cheartaigh tú."},
-        {"shape": "transform", "prompt": "Bhailigh mé", "answer": "Níor bhailigh mé."},
-        {"shape": "transform", "prompt": "Ghortaigh sí", "answer": "Níor ghortaigh sí."},
-        {"shape": "transform", "prompt": "Mhaisigh mé", "answer": "Níor mhaisigh mé."},
-        {"shape": "transform", "prompt": "Roghnaigh sí", "answer": "Níor roghnaigh sí."}
-      ]
-    },
-    {
-      "title": "D' roimh ghuta agus roimh f",
-      "en": "d' before a vowel and before f",
-      "rule": "A verb beginning with a vowel takes d' in the positive past (d'ullmhaigh), and a verb beginning with f takes h and d' (d'fhiosraigh). After Níor the d' is dropped, but the h on f stays: Níor ullmhaigh, Níor fhiosraigh.",
-      "steps": [
-        "Start from the positive verb: D'fholmhaigh sí.",
-        "Drop the d' but keep the h on the f: fholmhaigh sí.",
-        "Put Níor in front: Níor fholmhaigh sí."
-      ],
-      "example": {"prompt": "D'fholmhaigh sí", "answer": "Níor fholmhaigh sí."},
-      "more": [
-        {"prompt": "D'ullmhaigh sé", "answer": "Níor ullmhaigh sé."},
-        {"prompt": "D'éirigh siad", "answer": "Níor éirigh siad."}
-      ],
-      "hint": "Níor takes away the d' but keeps the h on f.",
-      "items": [
-        {"shape": "transform", "prompt": "D'fhostaigh siad é", "answer": "Níor fhostaigh siad é."},
-        {"shape": "transform", "prompt": "D'imigh mé", "answer": "Níor imigh mé."},
-        {"shape": "transform", "prompt": "D'fhuaimnigh mé", "answer": "Níor fhuaimnigh mé."},
-        {"shape": "transform", "prompt": "D'fhiosraigh sé", "answer": "Níor fhiosraigh sé."}
-      ]
-    },
-    {
-      "title": "Ar agus Níor in abairt",
-      "en": "Ar and Níor in a sentence",
-      "rule": "Put Ar before the verb for a question and Níor for a negative; add h to a consonant, and give a vowel verb no d': Ar bhailigh tú? Níor ordaigh mé.",
-      "steps": [
-        "Look at the word before the brackets: Ar, so this is a question.",
-        "Add h after the first letter of the verb: cheannaigh.",
-        "Write the sentence: Ar cheannaigh tú an nuachtán?"
-      ],
-      "example": {"prompt": "Ar (ceannaigh) tú an nuachtán?", "answer": "Ar cheannaigh tú an nuachtán?"},
-      "more": [
-        {"prompt": "Níor (ullmhaigh) sé an dinnéar.", "answer": "Níor ullmhaigh sé an dinnéar."},
-        {"prompt": "Ar (fiosraigh) tú an scéal?", "answer": "Ar fhiosraigh tú an scéal?"}
-      ],
-      "hint": "Ar or Níor, then h on a consonant, no d' on a vowel.",
-      "items": [
-        {"shape": "stem", "prompt": "Níor (ceartaigh) an múinteoir na cóipleabhair go fóill.", "answer": "Níor cheartaigh an múinteoir na cóipleabhair go fóill."},
-        {"shape": "stem", "prompt": "Ar (bailigh) tú cártaí peile riamh?", "answer": "Ar bhailigh tú cártaí peile riamh?"},
-        {"shape": "stem", "prompt": "Níor (mínigh) sé na rialacha dúinn.", "answer": "Níor mhínigh sé na rialacha dúinn."},
-        {"shape": "stem", "prompt": "Níor (aontaigh) mé leis an fhreagra.", "answer": "Níor aontaigh mé leis an fhreagra."},
-        {"shape": "stem", "prompt": "Ar (ordaigh) tú an bia ar an aip go fóill?", "answer": "Ar ordaigh tú an bia ar an aip go fóill?"}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -aíodh",
-      "en": "The autonomous form with -aíodh",
-      "rule": "When nobody is named as doing the action, drop -aigh and add -aíodh, with no h: ceannaigh becomes ceannaíodh.",
-      "steps": [
-        "Find the root of the verb in brackets: triomaigh.",
-        "Drop -aigh: triom.",
-        "Add -aíodh: triomaíodh.",
-        "Do not add h, and put it first: Triomaíodh na gréithe i ndiaidh an dinnéir."
-      ],
-      "example": {"prompt": "(Triomaigh) na gréithe i ndiaidh an dinnéir.", "answer": "Triomaíodh na gréithe i ndiaidh an dinnéir."},
-      "more": [
-        {"prompt": "(Ceannaigh) an nuachtán sa siopa.", "answer": "Ceannaíodh an nuachtán sa siopa."}
-      ],
-      "hint": "Drop -aigh, add -aíodh, no h.",
-      "items": [
-        {"shape": "stem", "prompt": "(Cuardaigh) na málaí ag an aerfort.", "answer": "Cuardaíodh na málaí ag an aerfort."},
-        {"shape": "stem", "prompt": "(Ceannaigh) bia don chóisir sa siopa.", "answer": "Ceannaíodh bia don chóisir sa siopa."},
-        {"shape": "stem", "prompt": "(Gríosaigh) na rinceoirí roimh an chomórtas.", "answer": "Gríosaíodh na rinceoirí roimh an chomórtas."},
-        {"shape": "stem", "prompt": "(Gortaigh) an captaen sa chluiche.", "answer": "Gortaíodh an captaen sa chluiche."},
-        {"shape": "stem", "prompt": "(Tosaigh) ar an chluiche ag a trí.", "answer": "Tosaíodh ar an chluiche ag a trí."},
-        {"shape": "stem", "prompt": "(Bunaigh) club Gaeilge nua sa scoil anuraidh.", "answer": "Bunaíodh club Gaeilge nua sa scoil anuraidh."},
-        {"shape": "stem", "prompt": "(Caomhnaigh) an seanteach ar Shliabh gCuillinn.", "answer": "Caomhnaíodh an seanteach ar Shliabh gCuillinn."},
-        {"shape": "stem", "prompt": "(Críochnaigh) an tionscadal in am.", "answer": "Críochnaíodh an tionscadal in am."},
-        {"shape": "stem", "prompt": "(Scanraigh) na gasúir bheaga sa dorchadas.", "answer": "Scanraíodh na gasúir bheaga sa dorchadas."}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -íodh",
-      "en": "The autonomous form with -íodh",
-      "rule": "For a verb ending in -igh, drop -igh and add -íodh, again with no h: bailigh becomes bailíodh.",
-      "steps": [
-        "Find the root of the verb in brackets: deisigh.",
-        "Drop -igh and add -íodh: deisíodh.",
-        "Do not add h, and put it first: Deisíodh an rothar sa gharáiste."
-      ],
-      "example": {"prompt": "(Deisigh) an rothar sa gharáiste.", "answer": "Deisíodh an rothar sa gharáiste."},
-      "more": [
-        {"prompt": "(Dúisigh) na páistí ar a seacht a chlog.", "answer": "Dúisíodh na páistí ar a seacht a chlog."}
-      ],
-      "hint": "Drop -igh, add -íodh, no h.",
-      "items": [
-        {"shape": "stem", "prompt": "(Bailigh) na fóin ag an doras.", "answer": "Bailíodh na fóin ag an doras."},
-        {"shape": "stem", "prompt": "(Mínigh) na rialacha don rang.", "answer": "Míníodh na rialacha don rang."},
-        {"shape": "stem", "prompt": "(Maisigh) an halla don cheolchoirm.", "answer": "Maisíodh an halla don cheolchoirm."},
-        {"shape": "stem", "prompt": "(Cruinnigh) an t-airgead don turas scoile.", "answer": "Cruinníodh an t-airgead don turas scoile."},
-        {"shape": "stem", "prompt": "(Ceistigh) na daltaí faoin scéal.", "answer": "Ceistíodh na daltaí faoin scéal."}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: gan d', gan séimhiú",
-      "en": "The autonomous form: no d', no lenition",
-      "rule": "The autonomous form never takes d' or h, even when the verb begins with a vowel or f: ullmhaíodh, fiosraíodh. It stays the same after Ar and Níor: Níor ullmhaíodh.",
-      "steps": [
-        "Find the root of the verb in brackets: folmhaigh.",
-        "Drop -aigh and add -aíodh: folmhaíodh.",
-        "Do not add h or d', even though it begins with f: Folmhaíodh an buicéad sa ghairdín."
-      ],
-      "example": {"prompt": "(Folmhaigh) an buicéad sa ghairdín.", "answer": "Folmhaíodh an buicéad sa ghairdín."},
-      "more": [
-        {"prompt": "(Aistrigh) an leabhar go Gaeilge.", "answer": "Aistríodh an leabhar go Gaeilge."}
-      ],
-      "hint": "Autonomous form: no d', no h, ever.",
-      "items": [
-        {"shape": "stem", "prompt": "(Ullmhaigh) an lón sa cheaintín.", "answer": "Ullmhaíodh an lón sa cheaintín."},
-        {"shape": "stem", "prompt": "(Ardaigh) bratach an chontae ag an pháirc.", "answer": "Ardaíodh bratach an chontae ag an pháirc."},
-        {"shape": "stem", "prompt": "(Aslonnaigh) an scoil nuair a bhuail an t-aláram.", "answer": "Aslonnaíodh an scoil nuair a bhuail an t-aláram."},
-        {"shape": "stem", "prompt": "(Fiosraigh) an timpiste ar an bhóthar.", "answer": "Fiosraíodh an timpiste ar an bhóthar."},
-        {"shape": "stem", "prompt": "(Aimsigh) an eochair sa mhála.", "answer": "Aimsíodh an eochair sa mhála."}
-      ]
+     "prompt": "(Críochnaigh) sé an obair.",
+     "answer": "Chríochnaigh sé an obair."
     }
-  ],
-  "tables": [
-    {"title": "A. Ordú agus Cad é a rinne sé? (briathra leathana, -aigh)", "forms": ["Brostaigh abhaile: Bhrostaigh sé abhaile", "Cabhraigh leis na cailíní: Chabhraigh sé leis na cailíní", "Ceannaigh bainne sa siopa: Cheannaigh sé bainne sa siopa", "Corraigh an leite: Chorraigh sé an leite", "Críochnaigh an obair: Chríochnaigh sé an obair", "Triomaigh na gréithe: Thriomaigh sé na gréithe", "Ceartaigh na botúin: Cheartaigh sé na botúin"]},
-    {"title": "Ceist agus freagra: ceannaigh (an aimsir chaite)", "forms": ["Ar cheannaigh tú an nuachtán? Cheannaigh mé / Níor cheannaigh mé", "Ar cheannaigh sé an nuachtán? Cheannaigh sé / Níor cheannaigh sé", "Ar cheannaigh sí an nuachtán? Cheannaigh sí / Níor cheannaigh sí", "Ar cheannaigh sibh an nuachtán? Cheannaigh muid / Níor cheannaigh muid", "Ar cheannaigh siad an nuachtán? Cheannaigh siad / Níor cheannaigh siad", "Ar ceannaíodh an nuachtán? Ceannaíodh / Níor ceannaíodh"]},
-    {"title": "B. Ordú agus Cad é a rinne sé? (briathra caola, -igh)", "forms": ["Bailigh na cóipleabhair: Bhailigh sé na cóipleabhair", "Mínigh an abairt: Mhínigh sé an abairt", "Deisigh an rothar: Dheisigh sé an rothar", "Sínigh an leabhar: Shínigh sé an leabhar", "Grinnigh na torthaí: Ghrinnigh sé na torthaí", "Dúisigh na páistí: Dhúisigh sé na páistí"]},
-    {"title": "Ceist agus freagra: bailigh (an aimsir chaite)", "forms": ["Ar bhailigh tú na cóipleabhair? Bhailigh mé / Níor bhailigh mé", "Ar bhailigh sé na cóipleabhair? Bhailigh sé / Níor bhailigh sé", "Ar bhailigh sí na cóipleabhair? Bhailigh sí / Níor bhailigh sí", "Ar bhailigh sibh na cóipleabhair? Bhailigh muid / Níor bhailigh muid", "Ar bhailigh siad na cóipleabhair? Bhailigh siad / Níor bhailigh siad", "Ar bailíodh na cóipleabhair? Bailíodh / Níor bailíodh"]},
-    {"title": "C. Briathra a thosaíonn ar ghuta (leathan): Ordú agus Cad é a rinne sé?", "forms": ["Aeraigh an seomra: D'aeraigh sé an seomra", "Ardaigh an bhratach: D'ardaigh sé an bhratach", "Athraigh an téip: D'athraigh sé an téip", "Ordaigh deoch: D'ordaigh sé deoch", "Iompaigh an chathaoir: D'iompaigh sé an chathaoir", "Ullmhaigh an dinnéar: D'ullmhaigh sé an dinnéar"]},
-    {"title": "Ceist agus freagra: ullmhaigh (an aimsir chaite)", "forms": ["Ar ullmhaigh tú an dinnéar? D'ullmhaigh mé / Níor ullmhaigh mé", "Ar ullmhaigh sé an dinnéar? D'ullmhaigh sé / Níor ullmhaigh sé", "Ar ullmhaigh sí an dinnéar? D'ullmhaigh sí / Níor ullmhaigh sí", "Ar ullmhaigh sibh an dinnéar? D'ullmhaigh muid / Níor ullmhaigh muid", "Ar ullmhaigh siad an dinnéar? D'ullmhaigh siad / Níor ullmhaigh siad", "Ar ullmhaíodh an dinnéar? Ullmhaíodh / Níor ullmhaíodh"]},
-    {"title": "D. Briathra a thosaíonn ar ghuta (caol): Ordú agus Cad é a rinne sé?", "forms": ["Ainmnigh na daoine sin: D'ainmnigh sé na daoine", "Aimsigh an sprioc: D'aimsigh sé an sprioc", "Aistrigh an leabhar: D'aistrigh sé an leabhar", "Éirigh go luath: D'éirigh sé go luath", "Imigh leat: D'imigh sé leis"]},
-    {"title": "Ceist agus freagra: aimsigh (an aimsir chaite)", "forms": ["Ar aimsigh tú an sprioc? D'aimsigh mé / Níor aimsigh mé", "Ar aimsigh sé an sprioc? D'aimsigh sé / Níor aimsigh sé", "Ar aimsigh sí an sprioc? D'aimsigh sí / Níor aimsigh sí", "Ar aimsigh sibh an sprioc? D'aimsigh muid / Níor aimsigh muid", "Ar aimsigh siad an sprioc? D'aimsigh siad / Níor aimsigh siad", "Ar aimsíodh an sprioc? Aimsíodh / Níor aimsíodh"]},
-    {"title": "E. Briathra a thosaíonn ar f: Ordú agus Cad é a rinne sé?", "forms": ["Fiosraigh an scéal: D'fhiosraigh sé an scéal", "Folmhaigh an buicéad: D'fholmhaigh sé an buicéad"]},
-    {"title": "Ceist agus freagra: fiosraigh (an aimsir chaite)", "forms": ["Ar fhiosraigh tú an scéal? D'fhiosraigh mé / Níor fhiosraigh mé", "Ar fhiosraigh sé an scéal? D'fhiosraigh sé / Níor fhiosraigh sé", "Ar fhiosraigh sí an scéal? D'fhiosraigh sí / Níor fhiosraigh sí", "Ar fhiosraigh sibh an scéal? D'fhiosraigh muid / Níor fhiosraigh muid", "Ar fhiosraigh siad an scéal? D'fhiosraigh siad / Níor fhiosraigh siad", "Ar fiosraíodh an scéal? Fiosraíodh / Níor fiosraíodh"]}
-  ]
+   ],
+   "hint": "Add h after the first letter, keep the ending.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Dúisigh) siad go luath don turas scoile.",
+     "answer": "Dhúisigh siad go luath don turas scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gríosaigh) an traenálaí an fhoireann roimh an chluiche.",
+     "answer": "Ghríosaigh an traenálaí an fhoireann roimh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Triomaigh) mé na héadaí ar an líne.",
+     "answer": "Thriomaigh mé na héadaí ar an líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Salaigh) sí a bróga reatha sa láib ag an traenáil.",
+     "answer": "Shalaigh sí a bróga reatha sa láib ag an traenáil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bunaigh) mo dheirfiúr club léitheoireachta sa leabharlann.",
+     "answer": "Bhunaigh mo dheirfiúr club léitheoireachta sa leabharlann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceansaigh) an feirmeoir an capall óg.",
+     "answer": "Cheansaigh an feirmeoir an capall óg."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Réitigh) sí an cheist mhata go gasta.",
+     "answer": "Réitigh sí an cheist mhata go gasta."
+    }
+   ]
+  },
+  {
+   "title": "An diúltach le Níor",
+   "en": "The negative with Níor",
+   "rule": "To make a past-tense verb negative, put Níor in front of it and keep the h: Cheannaigh sí becomes Níor cheannaigh sí. A verb beginning with r stays as it is: Níor roghnaigh sí.",
+   "steps": [
+    "Start from the positive verb: Chorraigh sé.",
+    "Keep the h that is already there: chorraigh.",
+    "Put Níor in front: Níor chorraigh sé."
+   ],
+   "example": {
+    "prompt": "Chorraigh sé",
+    "answer": "Níor chorraigh sé."
+   },
+   "more": [
+    {
+     "prompt": "Dheisigh siad",
+     "answer": "Níor dheisigh siad."
+    },
+    {
+     "prompt": "Shínigh sí",
+     "answer": "Níor shínigh sí."
+    }
+   ],
+   "hint": "Níor in front, keep the h.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Cheannaigh sí",
+     "answer": "Níor cheannaigh sí."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Thriomaigh siad",
+     "answer": "Níor thriomaigh siad."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chríochnaigh siad",
+     "answer": "Níor chríochnaigh siad."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cheartaigh tú",
+     "answer": "Níor cheartaigh tú."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bhailigh mé",
+     "answer": "Níor bhailigh mé."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ghortaigh sí",
+     "answer": "Níor ghortaigh sí."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mhaisigh mé",
+     "answer": "Níor mhaisigh mé."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Roghnaigh sí",
+     "answer": "Níor roghnaigh sí."
+    }
+   ]
+  },
+  {
+   "title": "D' roimh ghuta agus roimh f",
+   "en": "d' before a vowel and before f",
+   "rule": "A verb beginning with a vowel takes d' in the positive past (d'ullmhaigh), and a verb beginning with f takes h and d' (d'fhiosraigh). After Níor the d' is dropped, but the h on f stays: Níor ullmhaigh, Níor fhiosraigh.",
+   "steps": [
+    "Start from the positive verb: D'fholmhaigh sí.",
+    "Drop the d' but keep the h on the f: fholmhaigh sí.",
+    "Put Níor in front: Níor fholmhaigh sí."
+   ],
+   "example": {
+    "prompt": "D'fholmhaigh sí",
+    "answer": "Níor fholmhaigh sí."
+   },
+   "more": [
+    {
+     "prompt": "D'ullmhaigh sé",
+     "answer": "Níor ullmhaigh sé."
+    },
+    {
+     "prompt": "D'éirigh siad",
+     "answer": "Níor éirigh siad."
+    }
+   ],
+   "hint": "Níor takes away the d' but keeps the h on f.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "D'fhostaigh siad é",
+     "answer": "Níor fhostaigh siad é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'imigh mé",
+     "answer": "Níor imigh mé."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'fhuaimnigh mé",
+     "answer": "Níor fhuaimnigh mé."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'fhiosraigh sé",
+     "answer": "Níor fhiosraigh sé."
+    }
+   ]
+  },
+  {
+   "title": "Ar agus Níor in abairt",
+   "en": "Ar and Níor in a sentence",
+   "rule": "Put Ar before the verb for a question and Níor for a negative; add h to a consonant, and give a vowel verb no d': Ar bhailigh tú? Níor ordaigh mé.",
+   "steps": [
+    "Look at the word before the brackets: Ar, so this is a question.",
+    "Add h after the first letter of the verb: cheannaigh.",
+    "Write the sentence: Ar cheannaigh tú an nuachtán?"
+   ],
+   "example": {
+    "prompt": "Ar (ceannaigh) tú an nuachtán?",
+    "answer": "Ar cheannaigh tú an nuachtán?"
+   },
+   "more": [
+    {
+     "prompt": "Níor (ullmhaigh) sé an dinnéar.",
+     "answer": "Níor ullmhaigh sé an dinnéar."
+    },
+    {
+     "prompt": "Ar (fiosraigh) tú an scéal?",
+     "answer": "Ar fhiosraigh tú an scéal?"
+    }
+   ],
+   "hint": "Ar or Níor, then h on a consonant, no d' on a vowel.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Níor (ceartaigh) an múinteoir na cóipleabhair go fóill.",
+     "answer": "Níor cheartaigh an múinteoir na cóipleabhair go fóill."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar (bailigh) tú cártaí peile riamh?",
+     "answer": "Ar bhailigh tú cártaí peile riamh?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (mínigh) sé na rialacha dúinn.",
+     "answer": "Níor mhínigh sé na rialacha dúinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (aontaigh) mé leis an fhreagra.",
+     "answer": "Níor aontaigh mé leis an fhreagra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar (ordaigh) tú an bia ar an aip go fóill?",
+     "answer": "Ar ordaigh tú an bia ar an aip go fóill?"
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -aíodh",
+   "en": "The autonomous form with -aíodh",
+   "rule": "When nobody is named as doing the action, drop -aigh and add -aíodh, with no h: ceannaigh becomes ceannaíodh.",
+   "steps": [
+    "Find the root of the verb in brackets: triomaigh.",
+    "Drop -aigh: triom.",
+    "Add -aíodh: triomaíodh.",
+    "Do not add h, and put it first: Triomaíodh na gréithe i ndiaidh an dinnéir."
+   ],
+   "example": {
+    "prompt": "(Triomaigh) na gréithe i ndiaidh an dinnéir.",
+    "answer": "Triomaíodh na gréithe i ndiaidh an dinnéir."
+   },
+   "more": [
+    {
+     "prompt": "(Ceannaigh) an nuachtán sa siopa.",
+     "answer": "Ceannaíodh an nuachtán sa siopa."
+    }
+   ],
+   "hint": "Drop -aigh, add -aíodh, no h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Cuardaigh) na málaí ag an aerfort.",
+     "answer": "Cuardaíodh na málaí ag an aerfort."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh) bia don chóisir sa siopa.",
+     "answer": "Ceannaíodh bia don chóisir sa siopa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gríosaigh) na rinceoirí roimh an chomórtas.",
+     "answer": "Gríosaíodh na rinceoirí roimh an chomórtas."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gortaigh) an captaen sa chluiche.",
+     "answer": "Gortaíodh an captaen sa chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tosaigh) ar an chluiche ag a trí.",
+     "answer": "Tosaíodh ar an chluiche ag a trí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bunaigh) club Gaeilge nua sa scoil anuraidh.",
+     "answer": "Bunaíodh club Gaeilge nua sa scoil anuraidh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Caomhnaigh) an seanteach ar Shliabh gCuillinn.",
+     "answer": "Caomhnaíodh an seanteach ar Shliabh gCuillinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Críochnaigh) an tionscadal in am.",
+     "answer": "Críochnaíodh an tionscadal in am."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scanraigh) na gasúir bheaga sa dorchadas.",
+     "answer": "Scanraíodh na gasúir bheaga sa dorchadas."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -íodh",
+   "en": "The autonomous form with -íodh",
+   "rule": "For a verb ending in -igh, drop -igh and add -íodh, again with no h: bailigh becomes bailíodh.",
+   "steps": [
+    "Find the root of the verb in brackets: deisigh.",
+    "Drop -igh and add -íodh: deisíodh.",
+    "Do not add h, and put it first: Deisíodh an rothar sa gharáiste."
+   ],
+   "example": {
+    "prompt": "(Deisigh) an rothar sa gharáiste.",
+    "answer": "Deisíodh an rothar sa gharáiste."
+   },
+   "more": [
+    {
+     "prompt": "(Dúisigh) na páistí ar a seacht a chlog.",
+     "answer": "Dúisíodh na páistí ar a seacht a chlog."
+    }
+   ],
+   "hint": "Drop -igh, add -íodh, no h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bailigh) na fóin ag an doras.",
+     "answer": "Bailíodh na fóin ag an doras."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Mínigh) na rialacha don rang.",
+     "answer": "Míníodh na rialacha don rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Maisigh) an halla don cheolchoirm.",
+     "answer": "Maisíodh an halla don cheolchoirm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cruinnigh) an t-airgead don turas scoile.",
+     "answer": "Cruinníodh an t-airgead don turas scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceistigh) na daltaí faoin scéal.",
+     "answer": "Ceistíodh na daltaí faoin scéal."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: gan d', gan séimhiú",
+   "en": "The autonomous form: no d', no lenition",
+   "rule": "The autonomous form never takes d' or h, even when the verb begins with a vowel or f: ullmhaíodh, fiosraíodh. It stays the same after Ar and Níor: Níor ullmhaíodh.",
+   "steps": [
+    "Find the root of the verb in brackets: folmhaigh.",
+    "Drop -aigh and add -aíodh: folmhaíodh.",
+    "Do not add h or d', even though it begins with f: Folmhaíodh an buicéad sa ghairdín."
+   ],
+   "example": {
+    "prompt": "(Folmhaigh) an buicéad sa ghairdín.",
+    "answer": "Folmhaíodh an buicéad sa ghairdín."
+   },
+   "more": [
+    {
+     "prompt": "(Aistrigh) an leabhar go Gaeilge.",
+     "answer": "Aistríodh an leabhar go Gaeilge."
+    }
+   ],
+   "hint": "Autonomous form: no d', no h, ever.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ullmhaigh) an lón sa cheaintín.",
+     "answer": "Ullmhaíodh an lón sa cheaintín."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ardaigh) bratach an chontae ag an pháirc.",
+     "answer": "Ardaíodh bratach an chontae ag an pháirc."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Aslonnaigh) an scoil nuair a bhuail an t-aláram.",
+     "answer": "Aslonnaíodh an scoil nuair a bhuail an t-aláram."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fiosraigh) an timpiste ar an bhóthar.",
+     "answer": "Fiosraíodh an timpiste ar an bhóthar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Aimsigh) an eochair sa mhála.",
+     "answer": "Aimsíodh an eochair sa mhála."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. Ordú agus Cad é a rinne sé? (briathra leathana, -aigh)",
+   "forms": [
+    "Brostaigh abhaile: Bhrostaigh sé abhaile",
+    "Cabhraigh leis na cailíní: Chabhraigh sé leis na cailíní",
+    "Ceannaigh bainne sa siopa: Cheannaigh sé bainne sa siopa",
+    "Corraigh an leite: Chorraigh sé an leite",
+    "Críochnaigh an obair: Chríochnaigh sé an obair",
+    "Triomaigh na gréithe: Thriomaigh sé na gréithe",
+    "Ceartaigh na botúin: Cheartaigh sé na botúin"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: ceannaigh (an aimsir chaite)",
+   "forms": [
+    "Ar cheannaigh tú an nuachtán? Cheannaigh mé / Níor cheannaigh mé",
+    "Ar cheannaigh sé an nuachtán? Cheannaigh sé / Níor cheannaigh sé",
+    "Ar cheannaigh sí an nuachtán? Cheannaigh sí / Níor cheannaigh sí",
+    "Ar cheannaigh sibh an nuachtán? Cheannaigh muid / Níor cheannaigh muid",
+    "Ar cheannaigh siad an nuachtán? Cheannaigh siad / Níor cheannaigh siad",
+    "Ar ceannaíodh an nuachtán? Ceannaíodh / Níor ceannaíodh"
+   ]
+  },
+  {
+   "title": "B. Ordú agus Cad é a rinne sé? (briathra caola, -igh)",
+   "forms": [
+    "Bailigh na cóipleabhair: Bhailigh sé na cóipleabhair",
+    "Mínigh an abairt: Mhínigh sé an abairt",
+    "Deisigh an rothar: Dheisigh sé an rothar",
+    "Sínigh an leabhar: Shínigh sé an leabhar",
+    "Grinnigh na torthaí: Ghrinnigh sé na torthaí",
+    "Dúisigh na páistí: Dhúisigh sé na páistí"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: bailigh (an aimsir chaite)",
+   "forms": [
+    "Ar bhailigh tú na cóipleabhair? Bhailigh mé / Níor bhailigh mé",
+    "Ar bhailigh sé na cóipleabhair? Bhailigh sé / Níor bhailigh sé",
+    "Ar bhailigh sí na cóipleabhair? Bhailigh sí / Níor bhailigh sí",
+    "Ar bhailigh sibh na cóipleabhair? Bhailigh muid / Níor bhailigh muid",
+    "Ar bhailigh siad na cóipleabhair? Bhailigh siad / Níor bhailigh siad",
+    "Ar bailíodh na cóipleabhair? Bailíodh / Níor bailíodh"
+   ]
+  },
+  {
+   "title": "C. Briathra a thosaíonn ar ghuta (leathan): Ordú agus Cad é a rinne sé?",
+   "forms": [
+    "Aeraigh an seomra: D'aeraigh sé an seomra",
+    "Ardaigh an bhratach: D'ardaigh sé an bhratach",
+    "Athraigh an téip: D'athraigh sé an téip",
+    "Ordaigh deoch: D'ordaigh sé deoch",
+    "Iompaigh an chathaoir: D'iompaigh sé an chathaoir",
+    "Ullmhaigh an dinnéar: D'ullmhaigh sé an dinnéar"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: ullmhaigh (an aimsir chaite)",
+   "forms": [
+    "Ar ullmhaigh tú an dinnéar? D'ullmhaigh mé / Níor ullmhaigh mé",
+    "Ar ullmhaigh sé an dinnéar? D'ullmhaigh sé / Níor ullmhaigh sé",
+    "Ar ullmhaigh sí an dinnéar? D'ullmhaigh sí / Níor ullmhaigh sí",
+    "Ar ullmhaigh sibh an dinnéar? D'ullmhaigh muid / Níor ullmhaigh muid",
+    "Ar ullmhaigh siad an dinnéar? D'ullmhaigh siad / Níor ullmhaigh siad",
+    "Ar ullmhaíodh an dinnéar? Ullmhaíodh / Níor ullmhaíodh"
+   ]
+  },
+  {
+   "title": "D. Briathra a thosaíonn ar ghuta (caol): Ordú agus Cad é a rinne sé?",
+   "forms": [
+    "Ainmnigh na daoine sin: D'ainmnigh sé na daoine",
+    "Aimsigh an sprioc: D'aimsigh sé an sprioc",
+    "Aistrigh an leabhar: D'aistrigh sé an leabhar",
+    "Éirigh go luath: D'éirigh sé go luath",
+    "Imigh leat: D'imigh sé leis"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: aimsigh (an aimsir chaite)",
+   "forms": [
+    "Ar aimsigh tú an sprioc? D'aimsigh mé / Níor aimsigh mé",
+    "Ar aimsigh sé an sprioc? D'aimsigh sé / Níor aimsigh sé",
+    "Ar aimsigh sí an sprioc? D'aimsigh sí / Níor aimsigh sí",
+    "Ar aimsigh sibh an sprioc? D'aimsigh muid / Níor aimsigh muid",
+    "Ar aimsigh siad an sprioc? D'aimsigh siad / Níor aimsigh siad",
+    "Ar aimsíodh an sprioc? Aimsíodh / Níor aimsíodh"
+   ]
+  },
+  {
+   "title": "E. Briathra a thosaíonn ar f: Ordú agus Cad é a rinne sé?",
+   "forms": [
+    "Fiosraigh an scéal: D'fhiosraigh sé an scéal",
+    "Folmhaigh an buicéad: D'fholmhaigh sé an buicéad"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: fiosraigh (an aimsir chaite)",
+   "forms": [
+    "Ar fhiosraigh tú an scéal? D'fhiosraigh mé / Níor fhiosraigh mé",
+    "Ar fhiosraigh sé an scéal? D'fhiosraigh sé / Níor fhiosraigh sé",
+    "Ar fhiosraigh sí an scéal? D'fhiosraigh sí / Níor fhiosraigh sí",
+    "Ar fhiosraigh sibh an scéal? D'fhiosraigh muid / Níor fhiosraigh muid",
+    "Ar fhiosraigh siad an scéal? D'fhiosraigh siad / Níor fhiosraigh siad",
+    "Ar fiosraíodh an scéal? Fiosraíodh / Níor fiosraíodh"
+   ]
+  }
+ ]
 }

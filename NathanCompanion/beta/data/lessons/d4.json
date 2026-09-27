@@ -1,0 +1,570 @@
+{
+ "id": "d4",
+ "lessons": [
+  {
+   "title": "Iolra -í",
+   "en": "Plural in -í",
+   "rule": "For a fourth-declension noun ending in -a or -ín, add -í in the plural (mála, málaí; sicín, sicíní); for one ending in -e, change the -e to -í (ceapaire, ceapairí).",
+   "steps": [
+    "Mála ends in -a, so add -í.",
+    "The plural is málaí.",
+    "Write it after na: Fág na málaí ag an doras, le do thoil."
+   ],
+   "example": {
+    "prompt": "Fág na (mála) ag an doras, le do thoil.",
+    "answer": "Fág na málaí ag an doras, le do thoil."
+   },
+   "more": [
+    {
+     "prompt": "Cheannaigh mé na (ceapaire) sa siopa.",
+     "answer": "Cheannaigh mé na ceapairí sa siopa."
+    }
+   ],
+   "hint": "Add -í; a final -e becomes -í.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Scríobh mé na (nóta) ar an fhón.",
+     "answer": "Scríobh mé na nótaí ar an fhón."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill mé na (cárta) sa bhus.",
+     "answer": "Chaill mé na cártaí sa bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Scríobh mé na (aiste) ar an ríomhaire glúine.",
+     "answer": "Scríobh mé na haistí ar an ríomhaire glúine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Glanann siad na (seomra) achan Satharn.",
+     "answer": "Glanann siad na seomraí achan Satharn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Druidfidh mé na (bosca) anois.",
+     "answer": "Druidfidh mé na boscaí anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (sicín)",
+     "answer": "Na sicíní"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (timpiste)",
+     "answer": "Na timpistí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (táille)",
+     "answer": "Na táillí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (gloine)",
+     "answer": "Na gloiní"
+    }
+   ]
+  },
+  {
+   "title": "Iolra -the agus -te",
+   "en": "Plural in -the and -te",
+   "rule": "A noun ending in -aí changes it to -aithe in the plural (tacsaí, tacsaithe), and some nouns ending in -e change it to -te (tine, tinte).",
+   "steps": [
+    "Tacsaí ends in -aí.",
+    "Change -aí to -aithe: tacsaithe.",
+    "Write it after na: Tháinig na tacsaithe chuig an scoil."
+   ],
+   "example": {
+    "prompt": "Tháinig na (tacsaí) chuig an scoil.",
+    "answer": "Tháinig na tacsaithe chuig an scoil."
+   },
+   "more": [
+    {
+     "prompt": "Las siad na (tine) ar an trá.",
+     "answer": "Las siad na tinte ar an trá."
+    }
+   ],
+   "hint": "-aí becomes -aithe; some -e words take -te.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "An gcuimhin leat na (sloinne) sin?",
+     "answer": "An gcuimhin leat na sloinnte sin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (tiománaí)",
+     "answer": "Na tiománaithe"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (scéalaí)",
+     "answer": "Na scéalaithe"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (amhránaí)",
+     "answer": "Na hamhránaithe"
+    }
+   ]
+  },
+  {
+   "title": "Iolra -anna",
+   "en": "Plural in -anna",
+   "rule": "Many nouns ending in a vowel add -nna in the plural (lao, laonna; cú, cúnna; trá, tránna), and short words ending in a consonant add -anna (bus, busanna; pas, pasanna).",
+   "steps": [
+    "Lao ends in a vowel, so add -nna.",
+    "The plural is laonna.",
+    "Write it after na: Chonaic mé na laonna ar an fheirm."
+   ],
+   "example": {
+    "prompt": "Chonaic mé na (lao) ar an fheirm.",
+    "answer": "Chonaic mé na laonna ar an fheirm."
+   },
+   "more": [
+    {
+     "prompt": "Bhí na (bus) mall ar maidin.",
+     "answer": "Bhí na busanna mall ar maidin."
+    }
+   ],
+   "hint": "Vowel at the end: add -nna; consonant: add -anna.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Rinne mé na (glao) ar an fhón.",
+     "answer": "Rinne mé na glaonna ar an fhón."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'ith muid na (cnó) ag an tine.",
+     "answer": "D'ith muid na cnónna ag an tine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill siad na (pas) san aerfort.",
+     "answer": "Chaill siad na pasanna san aerfort."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil na (cú)?",
+     "answer": "Cá bhfuil na cúnna?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (trá)",
+     "answer": "Na tránna"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: ainmfhocail fhirinscneacha",
+   "en": "Genitive singular: masculine nouns",
+   "rule": "In the fourth declension the noun itself does not change in the genitive singular: after an, just add séimhiú (an bus, uimhir an bhus), put t before s and a vowel (an tsicín), and leave vowels, d, t and st alone.",
+   "steps": [
+    "The end of the noun does not change: bus.",
+    "Add séimhiú after an: an bhus.",
+    "Write the phrase: Uimhir an bhus."
+   ],
+   "example": {
+    "prompt": "Uimhir (an bus).",
+    "answer": "Uimhir an bhus."
+   },
+   "more": [
+    {
+     "prompt": "Blas (an sicín).",
+     "answer": "Blas an tsicín."
+    }
+   ],
+   "hint": "Same word, séimhiú after an.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dath (an geansaí).",
+     "answer": "Dath an gheansaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Solas (an stáitse).",
+     "answer": "Solas an stáitse."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Praghas (an píotsa).",
+     "answer": "Praghas an phíotsa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Blas (an t-oráiste).",
+     "answer": "Blas an oráiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Guth (an scéalaí).",
+     "answer": "Guth an scéalaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Deireadh (an cluiche).",
+     "answer": "Deireadh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mála (an dalta).",
+     "answer": "Mála an dalta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tús (an fógra).",
+     "answer": "Tús an fhógra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Doras (an garáiste).",
+     "answer": "Doras an gharáiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Guth (an t-amhránaí).",
+     "answer": "Guth an amhránaí."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: ainmfhocail bhaininscneacha",
+   "en": "Genitive singular: feminine nouns",
+   "rule": "For a feminine noun, change an to na and take off any séimhiú or t; put h before a vowel. The noun itself does not change: an aiste, fad na haiste; an tsaoire, deireadh na saoire.",
+   "steps": [
+    "Aiste is feminine, so change an to na.",
+    "It begins with a vowel, so put h in front of it: na haiste.",
+    "Write the phrase: Fad na haiste."
+   ],
+   "example": {
+    "prompt": "Fad (an aiste).",
+    "answer": "Fad na haiste."
+   },
+   "more": [
+    {
+     "prompt": "Buille (an chuisle).",
+     "answer": "Buille na cuisle."
+    }
+   ],
+   "hint": "Feminine: na, no séimhiú, h before a vowel.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Ciúnas (an oíche).",
+     "answer": "Ciúnas na hoíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ubh (an ghé).",
+     "answer": "Ubh na gé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Teas (an tine).",
+     "answer": "Teas na tine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Club (an óige).",
+     "answer": "Club na hóige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Deireadh (an tsaoire).",
+     "answer": "Deireadh na saoire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Lá (an fhéile).",
+     "answer": "Lá na féile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ainm (an chuideachta).",
+     "answer": "Ainm na cuideachta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Praghas (an ola).",
+     "answer": "Praghas na hola."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Deireadh (an líne).",
+     "answer": "Deireadh na líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Carr (an bhanaltra).",
+     "answer": "Carr na banaltra."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach iolra",
+   "en": "Genitive plural",
+   "rule": "In the genitive plural keep the plural form and eclipse it after na (na cluichí, deireadh na gcluichí); put n- before a vowel, and leave l, m, n, r and s unchanged.",
+   "steps": [
+    "Keep the plural form: cluichí.",
+    "Eclipse it after na: c becomes gc, na gcluichí.",
+    "Write the phrase: Deireadh na gcluichí."
+   ],
+   "example": {
+    "prompt": "Deireadh (na cluichí).",
+    "answer": "Deireadh na gcluichí."
+   },
+   "more": [
+    {
+     "prompt": "Blas (na horáistí).",
+     "answer": "Blas na n-oráistí."
+    }
+   ],
+   "hint": "Plural form plus urú after na.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dathanna (na geansaithe).",
+     "answer": "Dathanna na ngeansaithe."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Praghas (na píotsaí).",
+     "answer": "Praghas na bpíotsaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Uimhreacha (na busanna).",
+     "answer": "Uimhreacha na mbusanna."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Málaí (na daltaí).",
+     "answer": "Málaí na ndaltaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tús (na fógraí).",
+     "answer": "Tús na bhfógraí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fad (na haistí).",
+     "answer": "Fad na n-aistí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Teas (na tinte).",
+     "answer": "Teas na dtinte."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Deireadh (na línte).",
+     "answer": "Deireadh na línte."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Blas (na sicíní).",
+     "answer": "Blas na sicíní."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Carranna (na banaltraí).",
+     "answer": "Carranna na mbanaltraí."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach i ndiaidh an ainm bhriathartha",
+   "en": "Genitive after a verbal noun",
+   "rule": "A noun after a verbal noun such as ag ól or ag íoc goes into the genitive: ag ól an chaife, ag íoc na táille, ag ithe na gceapairí.",
+   "steps": [
+    "The noun follows ag ól, so it goes into the genitive.",
+    "Caife is masculine and its end does not change: add séimhiú after an, an chaife.",
+    "Write the phrase: Ag ól an chaife."
+   ],
+   "example": {
+    "prompt": "Ag ól (an caife).",
+    "answer": "Ag ól an chaife."
+   },
+   "more": [
+    {
+     "prompt": "Ag múchadh (an tine).",
+     "answer": "Ag múchadh na tine."
+    }
+   ],
+   "hint": "After ag + verbal noun, use the genitive.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Ag ithe (na ceapairí).",
+     "answer": "Ag ithe na gceapairí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag caitheamh (an éide).",
+     "answer": "Ag caitheamh na héide."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag íoc (an táille).",
+     "answer": "Ag íoc na táille."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag foghlaim (an teanga).",
+     "answer": "Ag foghlaim na teanga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag caitheamh (an tsaoire).",
+     "answer": "Ag caitheamh na saoire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag ceannach (an píotsa).",
+     "answer": "Ag ceannach an phíotsa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag cailleadh (an cluiche).",
+     "answer": "Ag cailleadh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag druidim (na cófraí).",
+     "answer": "Ag druidim na gcófraí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag oscailt (na boscaí).",
+     "answer": "Ag oscailt na mboscaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag péinteáil (an balla).",
+     "answer": "Ag péinteáil an bhalla."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Iolra -í: samplaí (Ainmneach Uatha, Ainmneach Iolra)",
+   "forms": [
+    "An siopa: Na siopaí",
+    "An béile: Na béilí",
+    "An cócaire: Na cócairí"
+   ]
+  },
+  {
+   "title": "Iolra -í: focail a chríochnaíonn ar -ín",
+   "forms": [
+    "Báidín, bairín, báisín, builín, báinín, caipín, cipín, coinín, crúiscín, dreoilín, éinín, féirín, naipcín, nóinín, ribín, sabhaircín, sicín, toitín."
+   ]
+  },
+  {
+   "title": "Iolra -í: focail a chríochnaíonn ar -a",
+   "forms": [
+    "Bata, bóna, bosca, cáca, cófra, dalta, garda, gúna, hata, mála, píopa, srl."
+   ]
+  },
+  {
+   "title": "Iolra -í: focail a chríochnaíonn ar -e",
+   "forms": [
+    "Bairille, císte, cluiche, cnaipe, coiste, coláiste, file, oráiste, páiste, pointe, staighre, uisce, aiste, cuisle, gloine, táille, srl."
+   ]
+  },
+  {
+   "title": "Iolra -í: focail a chríochnaíonn ar -(a)ire",
+   "forms": [
+    "Rogaire, timire, teachtaire srl."
+   ]
+  },
+  {
+   "title": "Iolra -te/-the: samplaí (Ainmneach Uatha, Ainmneach Iolra)",
+   "forms": [
+    "An t-ainmhí: Na hainmhithe",
+    "An scéalaí: Na scéalaithe"
+   ]
+  },
+  {
+   "title": "Iolra -te/-the: focail a chríochnaíonn ar -aí, ar -í, agus roinnt focal ar -é agus -e",
+   "forms": [
+    "(-aí) Gréasaí, ceannaí, ceardaí, cleasaí, Críostaí, gadaí, moncaí",
+    "(-í) Ní, oibrí, dlí, rí, croí, slí",
+    "(-é, -e) Gné, líne, tine, tuile, féile (na gnéithe, na línte, na tinte, na tuilte, na féilte)"
+   ]
+  },
+  {
+   "title": "Iolra -anna: samplaí (Ainmneach Uatha, Ainmneach Iolra)",
+   "forms": [
+    "An cú: Na cúnna",
+    "An cnó: Na cnónna",
+    "An trá: Na tránna",
+    "An tua: Na tuanna"
+   ]
+  },
+  {
+   "title": "Iolra -anna: focail a chríochnaíonn ar -o, -u, -a, -á",
+   "forms": [
+    "Lao, ceo, brú, liú, tlú, bia, fia, nia, bua, bá, fleá, grua, íomhá, sleá, glao, rogha."
+   ]
+  },
+  {
+   "title": "Iolra -anna: focail eile (Ainmneach Uatha, Ainmneach Iolra)",
+   "forms": [
+    "An bus: Na busanna",
+    "An ghé: Na géanna"
+   ]
+  },
+  {
+   "title": "Iolra -anna: focail eile",
+   "forms": [
+    "Ceant, pas, seans, seic, snáithe, sraoth, stop, téacs, cé, cré, ré."
+   ]
+  },
+  {
+   "title": "Iolraí neamhrialta sa cheathrú díochlaonadh (Ainmneach Uatha, Ainmneach Iolra)",
+   "forms": [
+    "An gabha: Na gaibhne",
+    "An contae: Na contaethe",
+    "An comhrá: Na comhráite",
+    "An giorria: Na giorriacha",
+    "An t-ainm: Na hainmneacha",
+    "An claí: Na claíocha",
+    "An oíche (b): Na hoícheanta",
+    "An teanga (b): Na teangacha"
+   ]
+  },
+  {
+   "title": "Tuiseal ginideach, ainmfhocal firinscneach (Uatha, Iolra)",
+   "forms": [
+    "Ainmneach: An cailín: Na cailíní",
+    "Ginideach: Teach an chailín: Tithe na gcailíní",
+    "Ainmneach: An bosca: Na boscaí",
+    "Ginideach: Dath an bhosca: Dath na mboscaí",
+    "Ainmneach: An t-oráiste: Na horáistí",
+    "Ginideach: Praghas an oráiste: Praghas na n-oráistí",
+    "Ainmneach: An siopa: Na siopaí",
+    "Ginideach: Fear an tsiopa: Fir na siopaí"
+   ]
+  },
+  {
+   "title": "Tuiseal ginideach, ainmfhocal baininscneach (Uatha, Iolra)",
+   "forms": [
+    "Ainmneach: An aiste: Na haistí",
+    "Ginideach: Tús na haiste: Tús na n-aistí",
+    "Ainmneach: An bhanaltra: Na banaltraí",
+    "Ginideach: Éide na banaltra: Éidí na mbanaltraí",
+    "Ainmneach: An tsleá: Na sleánna",
+    "Ginideach: Barr na sleá: Barra na sleánna"
+   ]
+  }
+ ]
+}

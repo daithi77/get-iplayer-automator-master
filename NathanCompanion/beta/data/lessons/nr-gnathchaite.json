@@ -4,7 +4,7 @@
   {
    "title": "Séimhiú agus -adh",
    "en": "Lenition and -adh",
-   "rule": "Most irregular verbs work like regular ones in this tense: put séimhiú on the stem and add -adh or -eadh (bí gives bhíodh, téigh gives théadh, tar gives thagadh, tabhair gives thugadh, déan gives dhéanadh, clois gives chloiseadh, beir gives bheireadh).",
+   "rule": "Most irregular verbs work like regular ones in this tense: put séimhiú on the stem and add -adh or -eadh (bí gives bhíodh, téigh gives théadh, tar gives thagadh, tabhair gives thugadh, déan gives dhéanadh, cluin gives chluineadh, beir gives bheireadh).",
    "steps": [
     "Find the stem of the verb: téigh uses té.",
     "Add séimhiú: thé.",
@@ -25,8 +25,8 @@
    "items": [
     {
      "shape": "stem",
-     "prompt": "(Tar) m'aintín ó Thír Chonaill chugainn achan samhradh.",
-     "answer": "Thagadh m'aintín ó Thír Chonaill chugainn achan samhradh."
+     "prompt": "(Tar) m'aintín ó Dhún na nGall chugainn achan samhradh.",
+     "answer": "Thagadh m'aintín ó Dhún na nGall chugainn achan samhradh."
     },
     {
      "shape": "stem",
@@ -40,8 +40,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Clois) sí an nuacht ar an raidió achan mhaidin.",
-     "answer": "Chloiseadh sí an nuacht ar an raidió achan mhaidin."
+     "prompt": "(Cluin) sí an nuacht ar an raidió achan mhaidin.",
+     "answer": "Chluineadh sí an nuacht ar an raidió achan mhaidin."
     },
     {
      "shape": "stem",
@@ -203,8 +203,8 @@
     },
     {
      "shape": "transform",
-     "prompt": "Chloiseadh sibh an clog ar maidin.",
-     "answer": "Ní chloiseadh sibh an clog ar maidin."
+     "prompt": "Chluineadh sibh an clog ar maidin.",
+     "answer": "Ní chluineadh sibh an clog ar maidin."
     },
     {
      "shape": "transform",
@@ -246,8 +246,8 @@
     },
     {
      "shape": "transform",
-     "prompt": "An gcloiseadh na gasúir ceol sa halla spóirt?",
-     "answer": "Chloiseadh na gasúir ceol sa halla spóirt."
+     "prompt": "An gcluineadh na gasúir ceol sa halla spóirt?",
+     "answer": "Chluineadh na gasúir ceol sa halla spóirt."
     },
     {
      "shape": "transform",
@@ -284,16 +284,16 @@
   {
    "title": "An saorbhriathar: -tí / -taí",
    "en": "The autonomous form: -tí / -taí",
-   "rule": "When no one is named (people used to...), add -tí or -taí to the stem with séimhiú or d' as usual: chloistí, d'ití, d'fheictí, thugtaí, deirtí, bhítí, thagtaí, dhéantaí, théití.",
+   "rule": "When no one is named (people used to...), add -tí or -taí to the stem with séimhiú or d' as usual: chluintí, d'ití, d'fheictí, thugtaí, deirtí, bhítí, thagtaí, dhéantaí, théití.",
    "steps": [
-    "Find the stem: clois.",
-    "Add séimhiú: chlois.",
-    "Add -tí: chloistí.",
-    "Put the verb first: Chloistí ceol sa halla achan mhaidin."
+    "Find the stem: cluin.",
+    "Add séimhiú: chluin.",
+    "Add -tí: chluintí.",
+    "Put the verb first: Chluintí ceol sa halla achan mhaidin."
    ],
    "example": {
-    "prompt": "(Clois) ceol sa halla achan mhaidin.",
-    "answer": "Chloistí ceol sa halla achan mhaidin."
+    "prompt": "(Cluin) ceol sa halla achan mhaidin.",
+    "answer": "Chluintí ceol sa halla achan mhaidin."
    },
    "more": [
     {
@@ -354,19 +354,19 @@
    ]
   },
   {
-   "title": "Clois: an aimsir ghnáthchaite",
+   "title": "Cluin: an aimsir ghnáthchaite",
    "forms": [
-    "mé: chloisinn",
-    "tú: chloisteá",
-    "sé/sí: chloiseadh sé/sí",
-    "muid: chloiseadh muid",
-    "sibh: chloiseadh sibh",
-    "siad: chloisidís",
-    "saorbhriathar: chloistí",
-    "diúltach: ní chloisinn",
-    "ceisteach: an gcloisinn?",
-    "saorbhriathar diúltach: ní chloistí",
-    "saorbhriathar ceisteach: an gcloistí?"
+    "mé: chluininn",
+    "tú: chluinteá",
+    "sé/sí: chluineadh sé/sí",
+    "muid: chluineadh muid",
+    "sibh: chluineadh sibh",
+    "siad: chluinidís",
+    "saorbhriathar: chluintí",
+    "diúltach: ní chluininn",
+    "ceisteach: an gcluininn?",
+    "saorbhriathar diúltach: ní chluintí",
+    "saorbhriathar ceisteach: an gcluintí?"
    ]
   },
   {
@@ -520,7 +520,7 @@
     "Téigh: Théadh sé. / Ní théadh sé.",
     "Tabhair: Thugadh sé. / Ní thugadh sé.",
     "Feic: D'fheiceadh sé. / Ní fheiceadh sé.",
-    "Clois: Chloiseadh sé. / Ní chloiseadh sé.",
+    "Cluin: Chluineadh sé. / Ní chluineadh sé.",
     "Tar: Thagadh sé. / Ní thagadh sé.",
     "Faigh: D'fhaigheadh sé. / Ní fhaigheadh sé.",
     "Ith: D'itheadh sé. / Ní itheadh sé.",

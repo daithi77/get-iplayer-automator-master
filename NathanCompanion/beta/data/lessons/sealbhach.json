@@ -134,8 +134,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "Chuaigh Bríd go Gaoth Dobhair lena (aintín) an samhradh seo caite.",
-     "answer": "Chuaigh Bríd go Gaoth Dobhair lena haintín an samhradh seo caite."
+     "prompt": "Chuaigh Bríd go Dún na nGall lena (aintín) an samhradh seo caite.",
+     "answer": "Chuaigh Bríd go Dún na nGall lena haintín an samhradh seo caite."
     },
     {
      "shape": "stem",
@@ -225,8 +225,8 @@
      "answer": "Tá siad ina gcodladh go fóill ar maidin Dé Sathairn."
     },
     {
-     "prompt": "Tá sí ina (cónaí) i nGaoth Dobhair.",
-     "answer": "Tá sí ina cónaí i nGaoth Dobhair."
+     "prompt": "Tá sí ina (cónaí) i nDún na nGall.",
+     "answer": "Tá sí ina cónaí i nDún na nGall."
     }
    ],
    "hint": "i + possessive + state word, then the usual h, h before a vowel or eclipsis.",

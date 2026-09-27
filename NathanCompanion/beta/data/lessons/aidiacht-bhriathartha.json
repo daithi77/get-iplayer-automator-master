@@ -1,0 +1,350 @@
+{
+ "id": "aidiacht-bhriathartha",
+ "lessons": [
+  {
+   "title": "Fréamh leathan: -ta",
+   "en": "Broad roots: add -ta",
+   "rule": "If the root is broad (last vowel a, o or u) and ends in l, n, s or ch, add -ta: las becomes lasta, glan becomes glanta, múch becomes múchta.",
+   "steps": [
+    "Look at the root: las is broad and ends in s.",
+    "Add -ta: lasta.",
+    "Put it after the noun: Tá an fón póca lasta."
+   ],
+   "example": {
+    "prompt": "Tá an fón póca (las).",
+    "answer": "Tá an fón póca lasta."
+   },
+   "more": [
+    {
+     "prompt": "Tá an cuisneoir (glan).",
+     "answer": "Tá an cuisneoir glanta."
+    }
+   ],
+   "hint": "Broad root ending in l, n, s or ch: add -ta.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhí muid (dall) ag an ghrian ar bharr Shliabh gCuillinn.",
+     "answer": "Bhí muid dallta ag an ghrian ar bharr Shliabh gCuillinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá na ticéid uilig (díol) don chluiche.",
+     "answer": "Tá na ticéid uilig díolta don chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Nuair a bhí an seomra (glan) aici chuaigh sí amach ar a rothar.",
+     "answer": "Nuair a bhí an seomra glanta aici chuaigh sí amach ar a rothar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Beidh mé ag an stad bus nuair a bheidh mé (gléas).",
+     "answer": "Beidh mé ag an stad bus nuair a bheidh mé gléasta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh muid a luí nuair a bhí an teilifís (múch).",
+     "answer": "Chuaigh muid a luí nuair a bhí an teilifís múchta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuil an caife (ól) agaibh go fóill?",
+     "answer": "An bhfuil an caife ólta agaibh go fóill?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thug an rang bualadh bos di nuair a bhí an t-amhrán (can) aici.",
+     "answer": "Thug an rang bualadh bos di nuair a bhí an t-amhrán canta aici."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Gheobhaidh tú fón póca nuair a bheidh tú (fás).",
+     "answer": "Gheobhaidh tú fón póca nuair a bheidh tú fásta."
+    }
+   ]
+  },
+  {
+   "title": "Fréamh chaol: -te",
+   "en": "Slender roots: add -te",
+   "rule": "If the last vowel of the root is slender (i or e), add -te: bris becomes briste, druid becomes druidte, oscail becomes oscailte.",
+   "steps": [
+    "Look at the root: bris ends in s after the slender vowel i.",
+    "Add -te: briste.",
+    "Put it after the noun: Tá a camán briste."
+   ],
+   "example": {
+    "prompt": "Tá a camán (bris).",
+    "answer": "Tá a camán briste."
+   },
+   "more": [
+    {
+     "prompt": "Tá an madadh (ceangail) ag an gheata.",
+     "answer": "Tá an madadh ceangailte ag an gheata."
+    },
+    {
+     "prompt": "Tá an aip (oscail) ar an fhón.",
+     "answer": "Tá an aip oscailte ar an fhón."
+    }
+   ],
+   "hint": "Slender root: add -te.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Beidh áthas orainn nuair a bheidh na prátaí (bain) againn.",
+     "answer": "Beidh áthas orainn nuair a bheidh na prátaí bainte againn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá scáileán an fhóin (bris).",
+     "answer": "Tá scáileán an fhóin briste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá mo chóipleabhar (mill) ag an fhearthainn.",
+     "answer": "Tá mo chóipleabhar millte ag an fhearthainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an port (seinn) aici ar an sacsafón.",
+     "answer": "Tá an port seinnte aici ar an sacsafón."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thit sí ar an pháirc agus anois tá a bríste (scoilt).",
+     "answer": "Thit sí ar an pháirc agus anois tá a bríste scoilte."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an físeán (roinn) ag Séamas ar na meáin shóisialta.",
+     "answer": "Bhí an físeán roinnte ag Séamas ar na meáin shóisialta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an leabharlann (druid) inniu.",
+     "answer": "Tá an leabharlann druidte inniu."
+    }
+   ]
+  },
+  {
+   "title": "Fréamh a chríochnaíonn ar -igh (siolla amháin)",
+   "en": "One-syllable roots in -igh: drop -igh, add -te",
+   "rule": "If a one-syllable root ends in -igh, drop the -igh and add -te: léigh becomes léite, suigh becomes suite, dóigh becomes dóite.",
+   "steps": [
+    "Look at the root: dóigh ends in -igh.",
+    "Drop the -igh: dó.",
+    "Add -te: Tá na sceallóga dóite."
+   ],
+   "example": {
+    "prompt": "Tá na sceallóga (dóigh).",
+    "answer": "Tá na sceallóga dóite."
+   },
+   "more": [
+    {
+     "prompt": "Tá an t-úrscéal (léigh) agam.",
+     "answer": "Tá an t-úrscéal léite agam."
+    }
+   ],
+   "hint": "Drop -igh, then add -te.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cuirfidh mé an fón ar ais nuair a bheidh an teachtaireacht (léigh) agam.",
+     "answer": "Cuirfidh mé an fón ar ais nuair a bheidh an teachtaireacht léite agam."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an scoil (suigh) in aice leis an Iúr.",
+     "answer": "Tá an scoil suite in aice leis an Iúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an turas scoile (pléigh) againn sa rang.",
+     "answer": "Tá an turas scoile pléite againn sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá a lámh (dóigh) go dona.",
+     "answer": "Tá a lámh dóite go dona."
+    }
+   ]
+  },
+  {
+   "title": "Fréamh leathan: -tha",
+   "en": "Broad roots ending in b, c, d, g, m, p, r: add -tha",
+   "rule": "If a broad root ends in b, c, d, g, m, p or r, add -tha: fág becomes fágtha, scuab becomes scuabtha, cíor becomes cíortha.",
+   "steps": [
+    "Look at the root: gearr is broad and ends in r.",
+    "Add -tha: gearrtha.",
+    "Put it after the noun: Tá an féar gearrtha ag Daidí."
+   ],
+   "example": {
+    "prompt": "Tá an féar (gearr) ag Daidí.",
+    "answer": "Tá an féar gearrtha ag Daidí."
+   },
+   "more": [
+    {
+     "prompt": "Tá an tábla (leag) don dinnéar.",
+     "answer": "Tá an tábla leagtha don dinnéar."
+    }
+   ],
+   "hint": "Broad root ending in b, c, d, g, m, p or r: add -tha.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh sé ar an bhus nuair a bhí a chuid gruaige (cíor) aige.",
+     "answer": "Chuaigh sé ar an bhus nuair a bhí a chuid gruaige cíortha aige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an crann (crom) agus (lúb) ag an ghaoth.",
+     "answer": "Bhí an crann cromtha agus lúbtha ag an ghaoth."
+    },
+    {
+     "shape": "stem",
+     "prompt": "'Níl airgead póca ar bith (fág) agam i ndiaidh an chluiche,' arsa Cathal.",
+     "answer": "'Níl airgead póca ar bith fágtha agam i ndiaidh an chluiche,' arsa Cathal."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl an chistin (scuab) go fóill.",
+     "answer": "Níl an chistin scuabtha go fóill."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí crainn (leag) ar an bhóthar i ndiaidh na stoirme.",
+     "answer": "Bhí crainn leagtha ar an bhóthar i ndiaidh na stoirme."
+    }
+   ]
+  },
+  {
+   "title": "Fréamh a chríochnaíonn ar -aigh nó -igh (dhá shiolla)",
+   "en": "Longer roots in -aigh or -igh: -aithe or -ithe",
+   "rule": "If the root has two or more syllables and ends in -aigh or -igh, change -aigh to -aithe and -igh to -ithe: críochnaigh becomes críochnaithe, sínigh becomes sínithe.",
+   "steps": [
+    "Look at the root: críochnaigh has two syllables and ends in -aigh.",
+    "Change -aigh to -aithe: críochnaithe.",
+    "An bhfuil an obair bhaile críochnaithe agat?"
+   ],
+   "example": {
+    "prompt": "An bhfuil an obair bhaile (críochnaigh) agat?",
+    "answer": "An bhfuil an obair bhaile críochnaithe agat?"
+   },
+   "more": [
+    {
+     "prompt": "Tá mo rothar (deisigh) ag m'uncail.",
+     "answer": "Tá mo rothar deisithe ag m'uncail."
+    }
+   ],
+   "hint": "-aigh becomes -aithe; -igh becomes -ithe.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá rialacha na camógaíochta (leasaigh) acu.",
+     "answer": "Tá rialacha na camógaíochta leasaithe acu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad chuige nach bhfuil do dhialann obair bhaile (clúdaigh)?",
+     "answer": "Cad chuige nach bhfuil do dhialann obair bhaile clúdaithe?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an grianghraf (greamaigh) den chlár fógraí.",
+     "answer": "Tá an grianghraf greamaithe den chlár fógraí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sí (maslaigh) nuair a léigh sí an teachtaireacht.",
+     "answer": "Bhí sí maslaithe nuair a léigh sí an teachtaireacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl an aip (foilsigh) ach le cúpla lá.",
+     "answer": "Níl an aip foilsithe ach le cúpla lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuil an fhoirm (sínigh) ag do thuismitheoirí?",
+     "answer": "An bhfuil an fhoirm sínithe ag do thuismitheoirí?"
+    }
+   ]
+  },
+  {
+   "title": "Fréamh a chríochnaíonn ar -bh nó -mh: -fa",
+   "en": "Roots in -bh or -mh: -fa",
+   "rule": "If the root ends in -bh or -mh, drop the -bh or -mh and add -fa: scríobh becomes scríofa, lobh becomes lofa.",
+   "steps": [
+    "Look at the root: scríobh ends in -bh.",
+    "Drop the -bh: scrío.",
+    "Add -fa: Tá an litir scríofa aici."
+   ],
+   "example": {
+    "prompt": "Tá an litir (scríobh) aici.",
+    "answer": "Tá an litir scríofa aici."
+   },
+   "more": [
+    {
+     "prompt": "Tá a hainm (scríobh) ar an chlúdach.",
+     "answer": "Tá a hainm scríofa ar an chlúdach."
+    }
+   ],
+   "hint": "Drop -bh or -mh, then add -fa.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Níl an aiste (scríobh) agam go fóill.",
+     "answer": "Níl an aiste scríofa agam go fóill."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an talamh (treabh) ag an fheirmeoir cheana féin.",
+     "answer": "Tá an talamh treafa ag an fheirmeoir cheana féin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá na húlla (lobh) sa mhála.",
+     "answer": "Tá na húlla lofa sa mhála."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an fear (gabh) ag na gardaí i ndiaidh na timpiste.",
+     "answer": "Bhí an fear gafa ag na gardaí i ndiaidh na timpiste."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Foircinn na haidiachta briathartha",
+   "forms": [
+    "-ta: las, lasta",
+    "-te: bris, briste",
+    "-te (-igh ar lár): léigh, léite",
+    "-tha: fág, fágtha",
+    "-aithe: críochnaigh, críochnaithe",
+    "-ithe: imigh, imithe",
+    "-fa: scríobh, scríofa"
+   ]
+  },
+  {
+   "title": "Samplaí: fréamh agus aidiacht bhriathartha",
+   "forms": [
+    "Las: lasta (Tá an solas lasta.)",
+    "Bris: briste (Tá a lámh briste.)",
+    "Glan: glanta (Tá an cuisneoir glanta.)",
+    "Oscail: oscailte (Tá an cúldoras oscailte.)",
+    "Dóigh: dóite (Tá a lámh dóite.)",
+    "Ceangail: ceangailte (Tá an fear ceangailte.)",
+    "Druid: druidte (Tá an doras druidte.)"
+   ]
+  },
+  {
+   "title": "Sampla: -aithe, -ithe",
+   "forms": [
+    "críochnaigh: críochnaithe (An bhfuil an obair críochnaithe agat?)",
+    "deisigh: deisithe (Tá an rothar deisithe.)"
+   ]
+  }
+ ]
+}

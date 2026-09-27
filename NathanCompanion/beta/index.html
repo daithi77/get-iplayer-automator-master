@@ -343,7 +343,10 @@ const DRAFT=`<p class="draft">Dréacht: níor seiceáil múinteoir an Ghaeilge s
 const gid=t=>'g:'+[...t].reduce((h,c)=>(h*31+c.charCodeAt(0))>>>0,7).toString(36);
 /* Present and future first person plural: the synthetic and analytic forms are both right (cuirimid = cuireann muid). */
 const TOGGLE=[['aímid','aíonn'],['ímid','íonn'],['óimid','óidh'],['eoimid','eoidh'],['fimid','fidh'],['faimid','faidh'],['aimid','ann'],['imid','eann']];
-function canon(t){return norm(t).split(' ').map(w=>{for(const [a,b] of TOGGLE){if(w.length>a.length+1&&w.endsWith(a))return w.slice(0,-a.length)+b+' muid';}return w;}).join(' ');}
+/* Conditional, 1st and 3rd person plural: synthetic and analytic are both right (chuirfimis = chuirfeadh muid). */
+const CTOGGLE=[['eoimis','eodh muid'],['óimis','ódh muid'],['fimis','feadh muid'],['faimis','fadh muid'],['eoidís','eodh siad'],['óidís','ódh siad'],['fidís','feadh siad'],['faidís','fadh siad']];
+const CIRREG={bheimis:'bheadh muid',bheidís:'bheadh siad',mbeimis:'mbeadh muid',mbeidís:'mbeadh siad',rachaimis:'rachadh muid',rachaidís:'rachadh siad',gheobhaimis:'gheobhadh muid',gheobhaidís:'gheobhadh siad',ngeobhaimis:'ngeobhadh muid',ngeobhaidís:'ngeobhadh siad'};
+function canon(t){return norm(t).split(' ').map(w=>{if(CIRREG[w])return CIRREG[w];for(const [a,b] of TOGGLE){if(w.length>a.length+1&&w.endsWith(a))return w.slice(0,-a.length)+b+' muid';}for(const [a,b] of CTOGGLE){if(w.length>a.length+1&&w.endsWith(a))return w.slice(0,-a.length)+b;}return w;}).join(' ');}
 /* Words of the answer the pupil did not write, ignoring fadas and allowing both verb forms. */
 function gMissing(typed,answer){const have=new Set(canon(typed).split(' ').map(fold));return canon(answer).split(' ').filter(w=>!have.has(fold(w)));}
 function gMatch(typed,answer){const a=canon(typed),b=canon(answer);if(a===b)return {ok:true,fada:false};if(fold(a)===fold(b))return {ok:true,fada:true};return {ok:false};}
@@ -426,6 +429,8 @@ const wordsOf=t=>norm(String(t).replace(/[()]/g,' ').replace(/_{2,}/g,' ')).spli
 /* The answer with every word that is not already in `from` marked, so the change the rule makes stands out. */
 function hl(from,answer){const have=new Set(wordsOf(from));return esc(answer).split(/(\s+)/).map(w=>{const k=fold(norm(w.replace(/&[a-z#0-9]+;/g,'')));return k&&!have.has(k)&&!/^\s+$/.test(w)?`<mark class="chg">${w}</mark>`:w;}).join('');}
 const lProgress=l=>{if(!l.items.length)return 0;return Math.round(100*l.items.filter(x=>(S.sent[gid(x.answer)]||{}).box>=2).length/l.items.length);};
+/* The other correct form (synthetic or analytic) where both exist, e.g. in the conditional. */
+const altHTML=x=>x&&x.alt?`<span class="gloss" lang="ga">Nó · or: <b>${esc(x.alt)}</b></span>`:'';
 function lessonListHTML(sec){
   return `<div class="top"><button class="icon" data-act="gram" aria-label="Siar go dtí an ghramadach. Back to grammar">←</button><h1 lang="ga">${esc(sec.title)}<span class="sub">${esc(sec.en)}</span></h1></div>${DRAFT}
     <p class="lede">${sec.lessons.length} ceacht. ${sec.lessons.length} lessons: work through them in order.</p>
@@ -449,18 +454,18 @@ function lessonHTML(){
       <p class="rulebig">${esc(l.rule)}</p>
       <p class="lab">An dóigh a ndéantar é · step by step</p>
       <ol class="steps-list">${l.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>
-      <div class="worked"><span class="from" lang="ga">${esc(l.example.prompt)}</span><span aria-hidden="true">↓</span><span class="to" lang="ga">${hl(l.example.prompt,l.example.answer)}</span></div>
-      ${(l.more||[]).length?`<p class="lab">Tuilleadh samplaí · more examples</p>${l.more.map(m=>`<div class="worked"><span class="from" lang="ga">${esc(m.prompt)}</span><span class="to" lang="ga">${hl(m.prompt,m.answer)}</span></div>`).join('')}`:''}
+      <div class="worked"><span class="from" lang="ga">${esc(l.example.prompt)}</span><span aria-hidden="true">↓</span><span class="to" lang="ga">${hl(l.example.prompt,l.example.answer)}</span>${altHTML(l.example)}</div>
+      ${(l.more||[]).length?`<p class="lab">Tuilleadh samplaí · more examples</p>${l.more.map(m=>`<div class="worked"><span class="from" lang="ga">${esc(m.prompt)}</span><span class="to" lang="ga">${hl(m.prompt,m.answer)}</span>${altHTML(m)}</div>`).join('')}`:''}
     </div>
     <div class="actions"><button class="btn ghost" data-act="lback">Na ceachtanna</button><button class="btn" data-act="lstart">Anois tusa</button></div>`;
   }else if(st===1){
     const it=gl.items[gl.i], t=TASK[it.shape]||TASK.stem, gapOnly=it.shape==='gap'&&it.gap;
     const miss=gl.typed&&!it.self?gMissing(gl.typed,it.answer):[];
     const answerHL=gl.res&&!gl.res.ok&&gl.typed&&!it.self?hl(gl.typed,it.answer):hl(it.prompt,it.answer);
-    const fb=gl.res?(gl.res.ok?`<div class="fix"><span class="pen">✓ ${gl.res.fada?'seiceáil na fadaí':(gl.res.self?'':'ceart!')}</span><span lang="ga" style="font-weight:700;font-size:19px">${hl(it.prompt,it.answer)}</span></div>`
+    const fb=gl.res?(gl.res.ok?`<div class="fix"><span class="pen">✓ ${gl.res.fada?'seiceáil na fadaí':(gl.res.self?'':'ceart!')}</span><span lang="ga" style="font-weight:700;font-size:19px">${hl(it.prompt,it.answer)}</span>${altHTML(it)}</div>`
       :gl.res.self===undefined&&it.self?`<div class="fix"><span class="gloss">Freagra samplach · a model answer</span><span lang="ga" style="font-weight:700;font-size:19px">${esc(it.answer)}</span>
           <span class="gloss">An raibh do fhreagra ceart? Was your answer right?</span><div class="selfmark"><button class="btn" data-act="lself" data-ok="1">Bhí</button><button class="btn ghost" data-act="lself" data-ok="0">Ní raibh</button></div></div>`
-      :`<div class="fix"><span class="pen">✗</span><span class="gloss">An freagra ceart · the right answer${gl.typed&&!it.self?' (the highlighted words differ from yours)':''}</span><span lang="ga" style="font-weight:700;font-size:19px">${answerHL}</span>
+      :`<div class="fix"><span class="pen">✗</span><span class="gloss">An freagra ceart · the right answer${gl.typed&&!it.self?' (the highlighted words differ from yours)':''}</span><span lang="ga" style="font-weight:700;font-size:19px">${answerHL}</span>${altHTML(it)}
           <span class="gloss">Riail · rule: ${esc(l.rule)}</span>${gl.res.self===false||!gl.typed?'':`<button class="btn link" style="align-self:flex-start" data-act="lmine">Tá mo leagan ceart freisin · my version is right too</button>`}</div>`):'';
     body=`<div class="card"><p class="lab">${gl.i+1} / ${gl.items.length} · <span lang="ga">${esc(l.title)}</span></p>
       <p class="big">${t[0]}</p><p class="gloss">${t[1]}${gapOnly?' Type only the missing word or words.':''}</p>
@@ -514,7 +519,7 @@ function gdeckHTML(){
   else if(sl.t==='table') inner=`<p class="pen h">Tábla</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.tb.title)}</h2><ul class="gtab" lang="ga">${sl.tb.forms.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`;
   else if(sl.t==='item'){const t=TASK[sl.it.shape]||TASK.stem;
     inner=`<p class="pen h">${sl.worked?'Sampla':'Cleachtadh'}</p><p class="lbl">${sl.l?`<span lang="ga">${esc(sl.l.title)}</span> · `:''}${t[0]} <span class="en">${t[1]}</span></p><p class="prompt" lang="ga">${esc(sl.it.prompt)}</p>
-      ${gd.shown?`<p class="answer-big" lang="ga">${hl(sl.it.prompt,sl.it.answer)}</p>`:`<div><button class="play" data-act="gdshow">Taispeáin an freagra · show the answer</button></div>`}`;}
+      ${gd.shown?`<p class="answer-big" lang="ga">${hl(sl.it.prompt,sl.it.answer)}${sl.it.alt?`<br><span style="font-size:.6em;font-weight:400">nó ${esc(sl.it.alt)}</span>`:''}</p>`:`<div><button class="play" data-act="gdshow">Taispeáin an freagra · show the answer</button></div>`}`;}
   else inner=`<p class="pen h">Críoch</p><h2 lang="ga">${esc(x.title)}</h2><div><button class="play" data-act="teach">Na sleamhnáin eile · other slides</button></div>`;
   return `<div class="deckbar"><button class="icon" data-act="teach" aria-label="Siar. Back to slides">←</button><b class="sp" lang="ga">${esc(x.title)}</b>
     <button class="pill" data-act="gden">${gd.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla'}</button>

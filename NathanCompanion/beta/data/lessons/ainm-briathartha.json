@@ -1,572 +1,572 @@
 {
-  "id": "ainm-briathartha",
-  "lessons": [
+ "id": "ainm-briathartha",
+ "lessons": [
+  {
+   "title": "Tá sé ag ...: an t-ainm briathartha i ndiaidh ag",
+   "en": "Saying what someone is doing: ag + verbal noun",
+   "rule": "To say what someone is doing, use Tá + subject + ag + the verbal noun: glan becomes ag glanadh. Most one-syllable verbs add -adh or -eadh, verbs such as bain and oscail add -t (baint, oscailt), and some, such as ól, rith and foghlaim, do not change.",
+   "steps": [
+    "Find the verb in brackets: scuab.",
+    "Make the verbal noun: a one-syllable broad verb adds -adh, so scuabadh.",
+    "Put it after ag and keep the rest: Tá Máire ag scuabadh na cistine."
+   ],
+   "example": {
+    "prompt": "Tá Máire ag (scuab) na cistine.",
+    "answer": "Tá Máire ag scuabadh na cistine.",
+    "shape": "stem"
+   },
+   "more": [
     {
-      "title": "Tá sé ag ...: an t-ainm briathartha i ndiaidh ag",
-      "en": "Saying what someone is doing: ag + verbal noun",
-      "rule": "To say what someone is doing, use Tá + subject + ag + the verbal noun: glan becomes ag glanadh. Most one-syllable verbs add -adh or -eadh, verbs such as bain and oscail add -t (baint, oscailt), and some, such as ól, rith and foghlaim, do not change.",
-      "steps": [
-        "Find the verb in brackets: scuab.",
-        "Make the verbal noun: a one-syllable broad verb adds -adh, so scuabadh.",
-        "Put it after ag and keep the rest: Tá Máire ag scuabadh na cistine."
-      ],
-      "example": {
-        "prompt": "Tá Máire ag (scuab) na cistine.",
-        "answer": "Tá Máire ag scuabadh na cistine.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "Tá Daidí ag (bain) an fhéir.",
-          "answer": "Tá Daidí ag baint an fhéir.",
-          "shape": "stem"
-        },
-        {
-          "prompt": "Tá an madadh ag (ól) uisce.",
-          "answer": "Tá an madadh ag ól uisce.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "ag + verbal noun: -adh, -eadh, -t, or no change.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "Tá Mamaí ag (gearr) an chíste.",
-          "answer": "Tá Mamaí ag gearradh an chíste."
-        },
-        {
-          "shape": "stem",
-          "prompt": "Bhí na daltaí ag (foghlaim) a gcuid Gaeilge ar an fhón.",
-          "answer": "Bhí na daltaí ag foghlaim a gcuid Gaeilge ar an fhón."
-        },
-        {
-          "shape": "stem",
-          "prompt": "Tá an feirmeoir ag (bain) na bprátaí.",
-          "answer": "Tá an feirmeoir ag baint na bprátaí."
-        },
-        {
-          "shape": "stem",
-          "prompt": "Bíonn sé i gcónaí ag (glan) an tseomra.",
-          "answer": "Bíonn sé i gcónaí ag glanadh an tseomra."
-        },
-        {
-          "shape": "stem",
-          "prompt": "An bhfuil Pádraig ag (oscail) na fuinneoige?",
-          "answer": "An bhfuil Pádraig ag oscailt na fuinneoige?"
-        },
-        {
-          "shape": "gap",
-          "prompt": "Bhí na girseacha ag ________ camógaíochta sa pháirc.",
-          "answer": "Bhí na girseacha ag imirt camógaíochta sa pháirc.",
-          "gap": "imirt"
-        },
-        {
-          "shape": "gap",
-          "prompt": "'An bhfuil sibh ag ________ leis an phodchraoladh?' arsa an múinteoir.",
-          "answer": "'An bhfuil sibh ag éisteacht leis an phodchraoladh?' arsa an múinteoir.",
-          "gap": "éisteacht"
-        }
-      ]
+     "prompt": "Tá Daidí ag (bain) an fhéir.",
+     "answer": "Tá Daidí ag baint an fhéir.",
+     "shape": "stem"
     },
     {
-      "title": "Bíonn sé ag ...: gairmeacha",
-      "en": "Saying what people do in their jobs",
-      "rule": "To say what someone does as a rule, use Bíonn sé/sí ag + the verbal noun: Bíonn sí ag obair san ospidéal.",
-      "steps": [
-        "Think of what the job involves: a mechanic fixes cars.",
-        "Find the verbal noun: deisigh becomes deisiú.",
-        "Write Bíonn sé/sí ag + the verbal noun: Bíonn sé/sí ag deisiú carranna."
-      ],
-      "example": {
-        "prompt": "Meicneoir",
-        "answer": "Meicneoir: Bíonn sé/sí ag deisiú carranna.",
-        "shape": "free",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "Múinteoir",
-          "answer": "Múinteoir: Bíonn sé/sí ag teagasc sa scoil.",
-          "shape": "free",
-          "self": true
-        }
-      ],
-      "hint": "Bíonn sé/sí ag + verbal noun.",
-      "items": [
-        {
-          "shape": "free",
-          "prompt": "Altra",
-          "answer": "Altra: Bíonn sé/sí ag tabhairt aire do dhaoine tinne.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Leictreoir",
-          "answer": "Leictreoir: Bíonn sé/sí ag deisiú soilse.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Feirmeoir",
-          "answer": "Feirmeoir: Bíonn sé/sí ag obair ar an fheirm.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Freastalaí",
-          "answer": "Freastalaí: Bíonn sé/sí ag freastal ar dhaoine sa bhialann.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Amhránaí",
-          "answer": "Amhránaí: Bíonn sé/sí ag canadh amhrán.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Póilín",
-          "answer": "Póilín: Bíonn sé/sí ag cosaint daoine.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Aisteoir",
-          "answer": "Aisteoir: Bíonn sé/sí ag aisteoireacht i scannáin.",
-          "self": true
-        },
-        {
-          "shape": "free",
-          "prompt": "Réiteoir",
-          "answer": "Réiteoir: Bíonn sé/sí ag rith ar an pháirc.",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Rud a dhéanamh: a + séimhiú",
-      "en": "Object + a + verbal noun: lenition",
-      "rule": "When the object comes before the verbal noun, put a between them and add h after the first letter of the verbal noun: bricfeasta a dhéanamh.",
-      "steps": [
-        "Find the verbal noun of déan: déanamh.",
-        "Put the object first, then a: bricfeasta a.",
-        "Add h after the first letter of the verbal noun: dhéanamh.",
-        "Put An féidir leat in front: An féidir leat bricfeasta a dhéanamh?"
-      ],
-      "example": {
-        "prompt": "Bricfeasta/déan",
-        "answer": "An féidir leat bricfeasta a dhéanamh?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "Pictiúr/péinteáil",
-          "answer": "An féidir leat pictiúr a phéinteáil?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "object + a + h on the verbal noun.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Scairf/cniotáil",
-          "answer": "An féidir leat scairf a chniotáil?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ríomhphost/scríobh",
-          "answer": "An féidir leat ríomhphost a scríobh?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Gaeilge/foghlaim",
-          "answer": "An féidir leat Gaeilge a fhoghlaim?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Rothar/díol",
-          "answer": "An féidir leat rothar a dhíol ar líne?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An solas/las",
-          "answer": "An féidir leat an solas a lasadh?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Arán/gearr",
-          "answer": "An féidir leat arán a ghearradh?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Airgead póca/sábháil",
-          "answer": "An féidir leat airgead póca a shábháil?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Rud a dhéanamh: an t-ainm briathartha ceart",
-      "en": "Object + a + verbal noun: find the right verbal noun",
-      "rule": "Many verbs change to make the verbal noun (ceartaigh: ceartú, ceannaigh: ceannach, faigh: fáil, cosain: cosaint), so find the verbal noun first and then add h after a.",
-      "steps": [
-        "Find the verbal noun of deisigh: take away -igh and add -iú, so deisiú.",
-        "Put the object first, then a: an rothar a.",
-        "Add h after the first letter: dheisiú.",
-        "Put An féidir leat in front: An féidir leat an rothar a dheisiú?"
-      ],
-      "example": {
-        "prompt": "An rothar/deisigh",
-        "answer": "An féidir leat an rothar a dheisiú?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "An fhuinneog/druid",
-          "answer": "An féidir leat an fhuinneog a dhruidim?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "Verbal noun first, then h after a.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Bus/tiomáin",
-          "answer": "An féidir leat bus a thiomáint?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An teachtaireacht/freagair",
-          "answer": "An féidir leat an teachtaireacht a fhreagairt?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An nuacht/léigh",
-          "answer": "An féidir leat an nuacht a léamh?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ticéad/ceannaigh",
-          "answer": "An féidir leat ticéad a cheannach ar líne?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Síob/faigh",
-          "answer": "An féidir leat síob a fháil abhaile?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An obair bhaile/críochnaigh",
-          "answer": "An féidir leat an obair bhaile a chríochnú?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Na freagraí/ceartaigh",
-          "answer": "An féidir leat na freagraí a cheartú?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An cúl/cosain",
-          "answer": "An féidir leat an cúl a chosaint?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Rud a dhéanamh: guta i ndiaidh a",
-      "en": "Object + a + verbal noun beginning with a vowel",
-      "rule": "A vowel cannot take h, so a verbal noun that begins with a vowel stays as it is after a: an doras a oscailt.",
-      "steps": [
-        "Find the verbal noun of ól: ól.",
-        "Put the object first, then a: uisce a.",
-        "It begins with a vowel, so leave it as it is: An féidir leat uisce a ól?"
-      ],
-      "example": {
-        "prompt": "Uisce/ól",
-        "answer": "An féidir leat uisce a ól?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "An litir/aistrigh",
-          "answer": "An féidir leat an litir a aistriú?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "Vowel after a: no change.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Camógaíocht/imir",
-          "answer": "An féidir leat camógaíocht a imirt?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Scéal grinn/inis",
-          "answer": "An féidir leat scéal grinn a insint?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An doras/oscail",
-          "answer": "An féidir leat an doras a oscailt?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Léine/iarnáil",
-          "answer": "An féidir leat léine a iarnáil?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Le agus ar + an t-ainm briathartha",
-      "en": "Still to be done (le) and a state (ar)",
-      "rule": "Use le + the verbal noun for something still to be done (ríomhphost le scríobh), and ar + the verbal noun for the state something is in (ar díol, ar lasadh). Neither le nor ar changes the verbal noun here.",
-      "steps": [
-        "The work is still to be done, so use le.",
-        "Find the verbal noun of déan: déanamh.",
-        "Put it in the gap: Tá an obair bhaile le déanamh agam anocht."
-      ],
-      "example": {
-        "prompt": "Tá an obair bhaile le ________ agam anocht.",
-        "answer": "Tá an obair bhaile le déanamh agam anocht.",
-        "shape": "gap",
-        "gap": "déanamh"
-      },
-      "more": [
-        {
-          "prompt": "Tá an siopa ar ________ ar a naoi a chlog.",
-          "answer": "Tá an siopa ar oscailt ar a naoi a chlog.",
-          "shape": "gap",
-          "gap": "oscailt"
-        }
-      ],
-      "hint": "le = still to be done; ar = state.",
-      "items": [
-        {
-          "shape": "gap",
-          "prompt": "An bhfuil ríomhphost le ________ agat?",
-          "answer": "An bhfuil ríomhphost le scríobh agat?",
-          "gap": "scríobh"
-        },
-        {
-          "shape": "gap",
-          "prompt": "Bíonn solas ar ________ sa halla achan oíche.",
-          "answer": "Bíonn solas ar lasadh sa halla achan oíche.",
-          "gap": "lasadh"
-        },
-        {
-          "shape": "gap",
-          "prompt": "Tá ticéid ar ________ don cheolchoirm ar líne.",
-          "answer": "Tá ticéid ar díol don cheolchoirm ar líne.",
-          "gap": "díol"
-        },
-        {
-          "shape": "gap",
-          "prompt": "Ní raibh bus ar bith le ________ agam ag an stad.",
-          "answer": "Ní raibh bus ar bith le feiceáil agam ag an stad.",
-          "gap": "feiceáil"
-        },
-        {
-          "shape": "gap",
-          "prompt": "'Tá scrúduithe le ________ agam anocht', arsa an múinteoir.",
-          "answer": "'Tá scrúduithe le ceartú agam anocht', arsa an múinteoir.",
-          "gap": "ceartú"
-        },
-        {
-          "shape": "gap",
-          "prompt": "Cé mhéad teachtaireacht atá le ________ agat, a Chiara?",
-          "answer": "Cé mhéad teachtaireacht atá le freagairt agat, a Chiara?",
-          "gap": "freagairt"
-        }
-      ]
+     "prompt": "Tá an madadh ag (ól) uisce.",
+     "answer": "Tá an madadh ag ól uisce.",
+     "shape": "stem"
     }
-  ],
-  "tables": [
+   ],
+   "hint": "ag + verbal noun: -adh, -eadh, -t, or no change.",
+   "items": [
     {
-      "title": "A. -adh/-eadh",
-      "forms": [
-        "Mol: Moladh",
-        "Glan: Glanadh",
-        "Can: Canadh",
-        "Líon: Líonadh",
-        "Croch: Crochadh",
-        "Las: Lasadh",
-        "Cíor: Cíoradh",
-        "Gearr: Gearradh",
-        "Bris: Briseadh",
-        "Scaip: Scaipeadh"
-      ]
+     "shape": "stem",
+     "prompt": "Tá Mamaí ag (gearr) an chíste.",
+     "answer": "Tá Mamaí ag gearradh an chíste."
     },
     {
-      "title": "B. -t",
-      "forms": [
-        "Bain: Baint",
-        "Taispeáin: Taispeáint",
-        "Cosain: Cosaint",
-        "Tiomáin: Tiomáint",
-        "Imir: Imirt",
-        "Oscail: Oscailt",
-        "Roinn: Roinnt",
-        "Tuirling: Tuirlingt",
-        "Freagair: Freagairt"
-      ]
+     "shape": "stem",
+     "prompt": "Bhí na daltaí ag (foghlaim) a gcuid Gaeilge ar an fhón.",
+     "answer": "Bhí na daltaí ag foghlaim a gcuid Gaeilge ar an fhón."
     },
     {
-      "title": "C. -ú/-iú",
-      "forms": [
-        "Gortaigh: Gortú",
-        "Scrúdaigh: Scrúdú",
-        "Brostaigh: Brostú",
-        "Tosaigh: Tosú",
-        "Ceartaigh: Ceartú",
-        "Aontaigh: Aontú",
-        "Ullmhaigh: Ullmhú",
-        "Bailigh: Bailiú",
-        "Cruinnigh: Cruinniú",
-        "Mínigh: Míniú",
-        "Deisigh: Deisiú"
-      ]
+     "shape": "stem",
+     "prompt": "Tá an feirmeoir ag (bain) na bprátaí.",
+     "answer": "Tá an feirmeoir ag baint na bprátaí."
     },
     {
-      "title": "D. -ach/-each",
-      "forms": [
-        "Ceannaigh: Ceannach",
-        "Clúdaigh: Clúdach",
-        "Réitigh: Réiteach",
-        "Cuardaigh: Cuardach",
-        "Fuadaigh: Fuadach"
-      ]
+     "shape": "stem",
+     "prompt": "Bíonn sé i gcónaí ag (glan) an tseomra.",
+     "answer": "Bíonn sé i gcónaí ag glanadh an tseomra."
     },
     {
-      "title": "E. Leathnú (consan deiridh)",
-      "forms": [
-        "Cuir: Cur",
-        "Siúil: Siúl",
-        "Iompair: Iompar",
-        "Ceangail: Ceangal",
-        "Freastail: Freastal"
-      ]
+     "shape": "stem",
+     "prompt": "An bhfuil Pádraig ag (oscail) na fuinneoige?",
+     "answer": "An bhfuil Pádraig ag oscailt na fuinneoige?"
     },
     {
-      "title": "F. Briathra Neamhrialta",
-      "forms": [
-        "Abair: Rá",
-        "Beir: Breith",
-        "Bí: Bheith",
-        "Feic: Feiceáil",
-        "Ith: Ithe",
-        "Faigh: Fáil",
-        "Tar: Teacht",
-        "Téigh: Dul",
-        "Clois: Cloisteáil (Ulster fosta: Cluin: Cluinstin)",
-        "Tabhair: Tabhairt",
-        "Déan: Déanamh"
-      ]
+     "shape": "gap",
+     "prompt": "Bhí na girseacha ag ________ camógaíochta sa pháirc.",
+     "answer": "Bhí na girseacha ag imirt camógaíochta sa pháirc.",
+     "gap": "imirt"
     },
     {
-      "title": "G. Slite éagsúla eile",
-      "forms": [
-        "Nigh: Ní",
-        "Éirigh: Éirí",
-        "Cónaigh: Cónaí",
-        "Dúisigh: Dúiseacht",
-        "Tit: Titim",
-        "Fág: Fágáil",
-        "Lig: Ligean",
-        "Caith: Caitheamh",
-        "Léigh: Léamh",
-        "Inis: Insint",
-        "Amharc: Amharc",
-        "Féach: Féachaint",
-        "Imigh: Imeacht",
-        "Seas: Seasamh",
-        "Rothaigh: Rothaíocht"
-      ]
-    },
-    {
-      "title": "H. Ní thagann athrú ar:",
-      "forms": [
-        "Cniotáil",
-        "Bácáil",
-        "Sábháil",
-        "Spáráil",
-        "Tástáil",
-        "Díol",
-        "Goid",
-        "Fás",
-        "Léim",
-        "Rith",
-        "Snámh",
-        "Scríobh",
-        "Troid",
-        "Úsáid",
-        "Obair",
-        "Foghlaim",
-        "Stad",
-        "Pacáil",
-        "Iarnáil",
-        "Gáire",
-        "Ól",
-        "Amharc"
-      ]
-    },
-    {
-      "title": "Tá (an aimsir láithreach): dearfach agus diúltach",
-      "forms": [
-        "Tá mé: Níl mé",
-        "Tá tú: Níl tú",
-        "Tá sé/sí: Níl sé/sí",
-        "Tá muid: Níl muid",
-        "Tá sibh: Níl sibh",
-        "Tá siad: Níl siad",
-        "Táthar: Níltear"
-      ]
-    },
-    {
-      "title": "Bí (an aimsir ghnáthláithreach): dearfach agus diúltach",
-      "forms": [
-        "Bím: Ní bhím",
-        "Bíonn tú: Ní bhíonn tú",
-        "Bíonn sé/sí: Ní bhíonn sé/sí",
-        "Bíonn muid: Ní bhíonn muid",
-        "Bíonn sibh: Ní bhíonn sibh",
-        "Bíonn siad: Ní bhíonn siad",
-        "Bítear: Ní bhítear"
-      ]
-    },
-    {
-      "title": "Ceist: Tá agus Bí",
-      "forms": [
-        "An bhfuil mé?: An mbím?",
-        "An bhfuil tú?: An mbíonn tú?",
-        "An bhfuil sé/sí?: An mbíonn sé/sí?",
-        "An bhfuil muid?: An mbíonn muid?",
-        "An bhfuil sibh?: An mbíonn sibh?",
-        "An bhfuil siad?: An mbíonn siad?"
-      ]
+     "shape": "gap",
+     "prompt": "'An bhfuil sibh ag ________ leis an phodchraoladh?' arsa an múinteoir.",
+     "answer": "'An bhfuil sibh ag éisteacht leis an phodchraoladh?' arsa an múinteoir.",
+     "gap": "éisteacht"
     }
-  ]
+   ]
+  },
+  {
+   "title": "Bíonn sé ag ...: gairmeacha",
+   "en": "Saying what people do in their jobs",
+   "rule": "To say what someone does as a rule, use Bíonn sé/sí ag + the verbal noun: Bíonn sí ag obair san ospidéal.",
+   "steps": [
+    "Think of what the job involves: a mechanic fixes cars.",
+    "Find the verbal noun: deisigh becomes deisiú.",
+    "Write Bíonn sé/sí ag + the verbal noun: Bíonn sé/sí ag deisiú carranna."
+   ],
+   "example": {
+    "prompt": "Meicneoir",
+    "answer": "Meicneoir: Bíonn sé/sí ag deisiú carranna.",
+    "shape": "free",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "Múinteoir",
+     "answer": "Múinteoir: Bíonn sé/sí ag teagasc sa scoil.",
+     "shape": "free",
+     "self": true
+    }
+   ],
+   "hint": "Bíonn sé/sí ag + verbal noun.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Altra",
+     "answer": "Altra: Bíonn sé/sí ag tabhairt aire do dhaoine tinne.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Leictreoir",
+     "answer": "Leictreoir: Bíonn sé/sí ag deisiú soilse.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Feirmeoir",
+     "answer": "Feirmeoir: Bíonn sé/sí ag obair ar an fheirm.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Freastalaí",
+     "answer": "Freastalaí: Bíonn sé/sí ag freastal ar dhaoine sa bhialann.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Amhránaí",
+     "answer": "Amhránaí: Bíonn sé/sí ag canadh amhrán.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Póilín",
+     "answer": "Póilín: Bíonn sé/sí ag cosaint daoine.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Aisteoir",
+     "answer": "Aisteoir: Bíonn sé/sí ag aisteoireacht i scannáin.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Réiteoir",
+     "answer": "Réiteoir: Bíonn sé/sí ag rith ar an pháirc.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Rud a dhéanamh: a + séimhiú",
+   "en": "Object + a + verbal noun: lenition",
+   "rule": "When the object comes before the verbal noun, put a between them and add h after the first letter of the verbal noun: bricfeasta a dhéanamh.",
+   "steps": [
+    "Find the verbal noun of déan: déanamh.",
+    "Put the object first, then a: bricfeasta a.",
+    "Add h after the first letter of the verbal noun: dhéanamh.",
+    "Put An féidir leat in front: An féidir leat bricfeasta a dhéanamh?"
+   ],
+   "example": {
+    "prompt": "Bricfeasta/déan",
+    "answer": "An féidir leat bricfeasta a dhéanamh?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "Pictiúr/péinteáil",
+     "answer": "An féidir leat pictiúr a phéinteáil?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "object + a + h on the verbal noun.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Scairf/cniotáil",
+     "answer": "An féidir leat scairf a chniotáil?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ríomhphost/scríobh",
+     "answer": "An féidir leat ríomhphost a scríobh?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Gaeilge/foghlaim",
+     "answer": "An féidir leat Gaeilge a fhoghlaim?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Rothar/díol",
+     "answer": "An féidir leat rothar a dhíol ar líne?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An solas/las",
+     "answer": "An féidir leat an solas a lasadh?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Arán/gearr",
+     "answer": "An féidir leat arán a ghearradh?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Airgead póca/sábháil",
+     "answer": "An féidir leat airgead póca a shábháil?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Rud a dhéanamh: an t-ainm briathartha ceart",
+   "en": "Object + a + verbal noun: find the right verbal noun",
+   "rule": "Many verbs change to make the verbal noun (ceartaigh: ceartú, ceannaigh: ceannach, faigh: fáil, cosain: cosaint), so find the verbal noun first and then add h after a.",
+   "steps": [
+    "Find the verbal noun of deisigh: take away -igh and add -iú, so deisiú.",
+    "Put the object first, then a: an rothar a.",
+    "Add h after the first letter: dheisiú.",
+    "Put An féidir leat in front: An féidir leat an rothar a dheisiú?"
+   ],
+   "example": {
+    "prompt": "An rothar/deisigh",
+    "answer": "An féidir leat an rothar a dheisiú?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "An fhuinneog/druid",
+     "answer": "An féidir leat an fhuinneog a dhruidim?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "Verbal noun first, then h after a.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Bus/tiomáin",
+     "answer": "An féidir leat bus a thiomáint?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An teachtaireacht/freagair",
+     "answer": "An féidir leat an teachtaireacht a fhreagairt?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An nuacht/léigh",
+     "answer": "An féidir leat an nuacht a léamh?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ticéad/ceannaigh",
+     "answer": "An féidir leat ticéad a cheannach ar líne?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Síob/faigh",
+     "answer": "An féidir leat síob a fháil abhaile?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An obair bhaile/críochnaigh",
+     "answer": "An féidir leat an obair bhaile a chríochnú?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Na freagraí/ceartaigh",
+     "answer": "An féidir leat na freagraí a cheartú?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An cúl/cosain",
+     "answer": "An féidir leat an cúl a chosaint?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Rud a dhéanamh: guta i ndiaidh a",
+   "en": "Object + a + verbal noun beginning with a vowel",
+   "rule": "A vowel cannot take h, so a verbal noun that begins with a vowel stays as it is after a: an doras a oscailt.",
+   "steps": [
+    "Find the verbal noun of ól: ól.",
+    "Put the object first, then a: uisce a.",
+    "It begins with a vowel, so leave it as it is: An féidir leat uisce a ól?"
+   ],
+   "example": {
+    "prompt": "Uisce/ól",
+    "answer": "An féidir leat uisce a ól?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "An litir/aistrigh",
+     "answer": "An féidir leat an litir a aistriú?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "Vowel after a: no change.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Camógaíocht/imir",
+     "answer": "An féidir leat camógaíocht a imirt?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Scéal grinn/inis",
+     "answer": "An féidir leat scéal grinn a insint?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An doras/oscail",
+     "answer": "An féidir leat an doras a oscailt?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Léine/iarnáil",
+     "answer": "An féidir leat léine a iarnáil?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Le agus ar + an t-ainm briathartha",
+   "en": "Still to be done (le) and a state (ar)",
+   "rule": "Use le + the verbal noun for something still to be done (ríomhphost le scríobh), and ar + the verbal noun for the state something is in (ar díol, ar lasadh). Neither le nor ar changes the verbal noun here.",
+   "steps": [
+    "The work is still to be done, so use le.",
+    "Find the verbal noun of déan: déanamh.",
+    "Put it in the gap: Tá an obair bhaile le déanamh agam anocht."
+   ],
+   "example": {
+    "prompt": "Tá an obair bhaile le ________ agam anocht.",
+    "answer": "Tá an obair bhaile le déanamh agam anocht.",
+    "shape": "gap",
+    "gap": "déanamh"
+   },
+   "more": [
+    {
+     "prompt": "Tá an siopa ar ________ ar a naoi a chlog.",
+     "answer": "Tá an siopa ar oscailt ar a naoi a chlog.",
+     "shape": "gap",
+     "gap": "oscailt"
+    }
+   ],
+   "hint": "le = still to be done; ar = state.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "An bhfuil ríomhphost le ________ agat?",
+     "answer": "An bhfuil ríomhphost le scríobh agat?",
+     "gap": "scríobh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bíonn solas ar ________ sa halla achan oíche.",
+     "answer": "Bíonn solas ar lasadh sa halla achan oíche.",
+     "gap": "lasadh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá ticéid ar ________ don cheolchoirm ar líne.",
+     "answer": "Tá ticéid ar díol don cheolchoirm ar líne.",
+     "gap": "díol"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ní raibh bus ar bith le ________ agam ag an stad.",
+     "answer": "Ní raibh bus ar bith le feiceáil agam ag an stad.",
+     "gap": "feiceáil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Tá scrúduithe le ________ agam anocht', arsa an múinteoir.",
+     "answer": "'Tá scrúduithe le ceartú agam anocht', arsa an múinteoir.",
+     "gap": "ceartú"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cé mhéad teachtaireacht atá le ________ agat, a Chiara?",
+     "answer": "Cé mhéad teachtaireacht atá le freagairt agat, a Chiara?",
+     "gap": "freagairt"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. -adh/-eadh",
+   "forms": [
+    "Mol: Moladh",
+    "Glan: Glanadh",
+    "Can: Canadh",
+    "Líon: Líonadh",
+    "Croch: Crochadh",
+    "Las: Lasadh",
+    "Cíor: Cíoradh",
+    "Gearr: Gearradh",
+    "Bris: Briseadh",
+    "Scaip: Scaipeadh"
+   ]
+  },
+  {
+   "title": "B. -t",
+   "forms": [
+    "Bain: Baint",
+    "Taispeáin: Taispeáint",
+    "Cosain: Cosaint",
+    "Tiomáin: Tiomáint",
+    "Imir: Imirt",
+    "Oscail: Oscailt",
+    "Roinn: Roinnt",
+    "Tuirling: Tuirlingt",
+    "Freagair: Freagairt"
+   ]
+  },
+  {
+   "title": "C. -ú/-iú",
+   "forms": [
+    "Gortaigh: Gortú",
+    "Scrúdaigh: Scrúdú",
+    "Brostaigh: Brostú",
+    "Tosaigh: Tosú",
+    "Ceartaigh: Ceartú",
+    "Aontaigh: Aontú",
+    "Ullmhaigh: Ullmhú",
+    "Bailigh: Bailiú",
+    "Cruinnigh: Cruinniú",
+    "Mínigh: Míniú",
+    "Deisigh: Deisiú"
+   ]
+  },
+  {
+   "title": "D. -ach/-each",
+   "forms": [
+    "Ceannaigh: Ceannach",
+    "Clúdaigh: Clúdach",
+    "Réitigh: Réiteach",
+    "Cuardaigh: Cuardach",
+    "Fuadaigh: Fuadach"
+   ]
+  },
+  {
+   "title": "E. Leathnú (consan deiridh)",
+   "forms": [
+    "Cuir: Cur",
+    "Siúil: Siúl",
+    "Iompair: Iompar",
+    "Ceangail: Ceangal",
+    "Freastail: Freastal"
+   ]
+  },
+  {
+   "title": "F. Briathra Neamhrialta",
+   "forms": [
+    "Abair: Rá",
+    "Beir: Breith",
+    "Bí: Bheith",
+    "Feic: Feiceáil",
+    "Ith: Ithe",
+    "Faigh: Fáil",
+    "Tar: Teacht",
+    "Téigh: Dul",
+    "Cluin: Cluinstin (Ulster fosta: Cluin: Cluinstin)",
+    "Tabhair: Tabhairt",
+    "Déan: Déanamh"
+   ]
+  },
+  {
+   "title": "G. Slite éagsúla eile",
+   "forms": [
+    "Nigh: Ní",
+    "Éirigh: Éirí",
+    "Cónaigh: Cónaí",
+    "Dúisigh: Dúiseacht",
+    "Tit: Titim",
+    "Fág: Fágáil",
+    "Lig: Ligean",
+    "Caith: Caitheamh",
+    "Léigh: Léamh",
+    "Inis: Insint",
+    "Amharc: Amharc",
+    "Féach: Féachaint",
+    "Imigh: Imeacht",
+    "Seas: Seasamh",
+    "Rothaigh: Rothaíocht"
+   ]
+  },
+  {
+   "title": "H. Ní thagann athrú ar:",
+   "forms": [
+    "Cniotáil",
+    "Bácáil",
+    "Sábháil",
+    "Spáráil",
+    "Tástáil",
+    "Díol",
+    "Goid",
+    "Fás",
+    "Léim",
+    "Rith",
+    "Snámh",
+    "Scríobh",
+    "Troid",
+    "Úsáid",
+    "Obair",
+    "Foghlaim",
+    "Stad",
+    "Pacáil",
+    "Iarnáil",
+    "Gáire",
+    "Ól",
+    "Amharc"
+   ]
+  },
+  {
+   "title": "Tá (an aimsir láithreach): dearfach agus diúltach",
+   "forms": [
+    "Tá mé: Níl mé",
+    "Tá tú: Níl tú",
+    "Tá sé/sí: Níl sé/sí",
+    "Tá muid: Níl muid",
+    "Tá sibh: Níl sibh",
+    "Tá siad: Níl siad",
+    "Táthar: Níltear"
+   ]
+  },
+  {
+   "title": "Bí (an aimsir ghnáthláithreach): dearfach agus diúltach",
+   "forms": [
+    "Bím: Ní bhím",
+    "Bíonn tú: Ní bhíonn tú",
+    "Bíonn sé/sí: Ní bhíonn sé/sí",
+    "Bíonn muid: Ní bhíonn muid",
+    "Bíonn sibh: Ní bhíonn sibh",
+    "Bíonn siad: Ní bhíonn siad",
+    "Bítear: Ní bhítear"
+   ]
+  },
+  {
+   "title": "Ceist: Tá agus Bí",
+   "forms": [
+    "An bhfuil mé?: An mbím?",
+    "An bhfuil tú?: An mbíonn tú?",
+    "An bhfuil sé/sí?: An mbíonn sé/sí?",
+    "An bhfuil muid?: An mbíonn muid?",
+    "An bhfuil sibh?: An mbíonn sibh?",
+    "An bhfuil siad?: An mbíonn siad?"
+   ]
+  }
+ ]
 }

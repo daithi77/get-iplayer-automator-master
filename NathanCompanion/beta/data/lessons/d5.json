@@ -1,0 +1,432 @@
+{
+ "id": "d5",
+ "lessons": [
+  {
+   "title": "An t-iolra: -acha agus -eacha",
+   "en": "Plural in -acha and -eacha",
+   "rule": "Most fifth-declension nouns add -acha or -eacha in the plural, and the vowel before the last consonant often drops out: traein, traenacha; litir, litreacha; eochair, eochracha.",
+   "steps": [
+    "Drop the i before the last consonant: litir becomes litr.",
+    "Add -eacha: litreacha.",
+    "Write it after na: Léigh mo mháthair na litreacha ón scoil aréir."
+   ],
+   "example": {
+    "prompt": "Léigh mo mháthair na (litir) ón scoil aréir.",
+    "answer": "Léigh mo mháthair na litreacha ón scoil aréir."
+   },
+   "more": [
+    {
+     "prompt": "Tá na (traein) go Baile Átha Cliath mall inniu.",
+     "answer": "Tá na traenacha go Baile Átha Cliath mall inniu."
+    }
+   ],
+   "hint": "Add -acha or -eacha; the last i often drops out.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhris an gasúr na (riail) ar an bhus scoile.",
+     "answer": "Bhris an gasúr na rialacha ar an bhus scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuir an múinteoir na (treoir) ar an aip dúinn.",
+     "answer": "Chuir an múinteoir na treoracha ar an aip dúinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'fhág mé na (eochair) ar an tábla sa seomra ranga.",
+     "answer": "D'fhág mé na heochracha ar an tábla sa seomra ranga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thug muid cuairt ar na (mainistir) i nDún na nGall ar an turas scoile.",
+     "answer": "Thug muid cuairt ar na mainistreacha i nDún na nGall ar an turas scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Scríobh an múinteoir na (uimhir) ar an chlár.",
+     "answer": "Scríobh an múinteoir na huimhreacha ar an chlár."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (athair) seo",
+     "answer": "Na haithreacha seo"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (deartháir) beaga",
+     "answer": "Na deartháireacha beaga"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (deirfiúr) móra",
+     "answer": "Na deirfiúracha móra"
+    }
+   ]
+  },
+  {
+   "title": "Iolraí le foghlaim",
+   "en": "Plurals to learn",
+   "rule": "Some plurals change inside the word or take an unusual ending, so learn them: cathair, cathracha; abhainn, aibhneacha; máthair, máithreacha; cara, cairde; lacha, lachain; namhaid, naimhde; monarcha, monarchana.",
+   "steps": [
+    "Cara is one of the plurals to learn: cairde.",
+    "Put it in place of the bracket: Tháinig mo chuid cairde chuig an teach le hamharc ar an chluiche."
+   ],
+   "example": {
+    "prompt": "Tháinig mo chuid (cara) chuig an teach le hamharc ar an chluiche.",
+    "answer": "Tháinig mo chuid cairde chuig an teach le hamharc ar an chluiche."
+   },
+   "more": [
+    {
+     "prompt": "Dhruid siad na (monarcha) san Iúr blianta ó shin.",
+     "answer": "Dhruid siad na monarchana san Iúr blianta ó shin."
+    }
+   ],
+   "hint": "Learn these plurals by heart.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Na (cathair) seo",
+     "answer": "Na cathracha seo"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (lacha) sin",
+     "answer": "Na lachain sin"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (abhainn) móra",
+     "answer": "Na haibhneacha móra"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (máthair) óga",
+     "answer": "Na máithreacha óga"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an ceol sin iontach coitianta sna (nócha).",
+     "answer": "Bhí an ceol sin iontach coitianta sna nóchaidí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Na (namhaid) sin",
+     "answer": "Na naimhde sin"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: -ach agus -each",
+   "en": "Genitive singular in -ach and -each",
+   "rule": "Many fifth-declension nouns add -ach or -each in the genitive singular, often dropping the vowel before it: an litir, dáta na litreach. These nouns are feminine, so use na with no séimhiú: an chathair, halla na cathrach.",
+   "steps": [
+    "The noun is feminine, so use na with no séimhiú.",
+    "Drop the i of the last syllable and add -each: litreach.",
+    "Put it in the gap: An litir: Dáta na litreach."
+   ],
+   "example": {
+    "prompt": "An litir: Dáta ____",
+    "answer": "An litir: Dáta na litreach"
+   },
+   "more": [
+    {
+     "prompt": "An traein: Tiománaí ____",
+     "answer": "An traein: Tiománaí na traenach"
+    }
+   ],
+   "hint": "Na, no séimhiú, and -ach or -each at the end.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "An treoir: Deireadh ____",
+     "answer": "An treoir: Deireadh na treorach",
+     "gap": "na treorach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An chaora: Olann ____",
+     "answer": "An chaora: Olann na caorach",
+     "gap": "na caorach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An chathair: Halla ____",
+     "answer": "An chathair: Halla na cathrach",
+     "gap": "na cathrach"
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuil tú ag scríobh (an litir) ar an ríomhaire?",
+     "answer": "An bhfuil tú ag scríobh na litreach ar an ríomhaire?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Daidí ag deisiú (an chathaoir) sa gharáiste.",
+     "answer": "Tá Daidí ag deisiú na cathaoireach sa gharáiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sé ag tiomáint (an traein) go Baile Átha Cliath achan lá.",
+     "answer": "Bíonn sé ag tiomáint na traenach go Baile Átha Cliath achan lá."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: -n agus -r",
+   "en": "Genitive singular in -n and -r",
+   "rule": "Some nouns end in -n in the genitive singular (an abhainn, droichead na habhann; an chomharsa, carr na comharsan). Family words end in -r and lose the i (an t-athair, fón an athar; an mháthair, ag leanúint na máthar).",
+   "steps": [
+    "Abhainn takes -n in the genitive: drop the i, abhann.",
+    "Use na and put h before the vowel: na habhann.",
+    "Put it in the gap: An abhainn: Droichead na habhann."
+   ],
+   "example": {
+    "prompt": "An abhainn: Droichead ____",
+    "answer": "An abhainn: Droichead na habhann"
+   },
+   "more": [
+    {
+     "prompt": "An t-athair: Fón ____",
+     "answer": "An t-athair: Fón an athar"
+    }
+   ],
+   "hint": "-n for abhainn, comharsa, lacha; -r for family words.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "An ionga: Fad ____",
+     "answer": "An ionga: Fad na hiongan",
+     "gap": "na hiongan"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An chomharsa: Carr ____",
+     "answer": "An chomharsa: Carr na comharsan",
+     "gap": "na comharsan"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An lacha: Gob ____",
+     "answer": "An lacha: Gob na lachan",
+     "gap": "na lachan"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá huair a bheidh siad ag oscailt (an mhonarcha) san Iúr?",
+     "answer": "Cá huair a bheidh siad ag oscailt na monarchan san Iúr?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ná bí ag cáineadh (an chomharsa) ar líne.",
+     "answer": "Ná bí ag cáineadh na comharsan ar líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an ghirseach ag péinteáil (an ionga).",
+     "answer": "Tá an ghirseach ag péinteáil na hiongan."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an páiste ag leanúint (an mháthair) isteach sa siopa.",
+     "answer": "Tá an páiste ag leanúint na máthar isteach sa siopa."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach iolra",
+   "en": "Genitive plural",
+   "rule": "In the genitive plural keep the plural form and eclipse it after na (na traenacha, amchlár na dtraenacha). Caoirigh, comharsana and lachain take a short form instead (páirc na gcaorach).",
+   "steps": [
+    "Keep the plural form: traenacha.",
+    "Eclipse it after na: t becomes dt, na dtraenacha.",
+    "Put it in the gap: Na traenacha: Amchlár na dtraenacha."
+   ],
+   "example": {
+    "prompt": "Na traenacha: Amchlár ____",
+    "answer": "Na traenacha: Amchlár na dtraenacha"
+   },
+   "more": [
+    {
+     "prompt": "Na caoirigh: Páirc ____",
+     "answer": "Na caoirigh: Páirc na gcaorach"
+    }
+   ],
+   "hint": "Plural form plus urú after na.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Na naimhde: Pleananna ____",
+     "answer": "Na naimhde: Pleananna na naimhde",
+     "gap": "na naimhde"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Na heochracha: Fáinne ____",
+     "answer": "Na heochracha: Fáinne na n-eochracha",
+     "gap": "na n-eochracha"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Na máithreacha: Grúpa ____",
+     "answer": "Na máithreacha: Grúpa na máithreacha",
+     "gap": "na máithreacha"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Na deartháireacha: Cluichí ____",
+     "answer": "Na deartháireacha: Cluichí na ndeartháireacha",
+     "gap": "na ndeartháireacha"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Na rialacha: Liosta ____",
+     "answer": "Na rialacha: Liosta na rialacha",
+     "gap": "na rialacha"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Daidí ag deisiú (na cathaoireacha) sa gharáiste.",
+     "answer": "Tá Daidí ag deisiú na gcathaoireacha sa gharáiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sé ag tiomáint (na traenacha) go Baile Átha Cliath achan lá.",
+     "answer": "Bíonn sé ag tiomáint na dtraenacha go Baile Átha Cliath achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Mamaí ag moladh (na deirfiúracha) as an chluiche camógaíochta.",
+     "answer": "Tá Mamaí ag moladh na ndeirfiúracha as an chluiche camógaíochta."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "An Cúigiú Díochlaonadh: Uatha agus Iolra",
+   "forms": [
+    "An traein: Na traenacha",
+    "An teorainn: Na teorainneacha",
+    "An abhainn: Na haibhneacha",
+    "An mhainistir: Na mainistreacha",
+    "An eochair: Na heochracha",
+    "An chathaoir: Na cathaoireacha",
+    "An treoir: Na treoracha",
+    "An riail: Na rialacha",
+    "An uimhir: Na huimhreacha",
+    "An t-athair: Na haithreacha",
+    "An mháthair: Na máithreacha",
+    "An deirfiúr: Na deirfiúracha",
+    "An deartháir: Na deartháireacha",
+    "An bráthair: Na bráithre",
+    "An triail: Na trialacha",
+    "An tsiúr: Na siúracha",
+    "An chaora: Na caoirigh",
+    "An ionga: Na hingne",
+    "An lacha: Na lachain",
+    "An cara: Na cairde",
+    "An mhonarcha: Na monarchana",
+    "An chomharsa: Na comharsana",
+    "An namhaid: Na naimhde",
+    "An Nollaig: Na Nollaigí",
+    "Tríocha: Na tríochaidí",
+    "An litir: Na litreacha"
+   ]
+  },
+  {
+   "title": "Ainmfhocail a chríochnaíonn ar -(e)ach: Ainmneach uatha agus Ginideach uatha",
+   "forms": [
+    "An chathaoir: Dath na cathaoireach",
+    "An chathair: Lár na cathrach",
+    "An litir: Críoch na litreach",
+    "An traein: Doras na traenach",
+    "An tsiúr: Ainm na siúrach",
+    "An mhainistir: Fuinneoga na mainistreach",
+    "An triail: Tús na trialach",
+    "An chaora: Cosa na caorach",
+    "An eochair: Uimhir na heochrach",
+    "An uimhir: Fad na huimhreach",
+    "An treoir: Míniú na treorach",
+    "An riail: Brí na rialach"
+   ]
+  },
+  {
+   "title": "Ainmfhocail a chríochnaíonn ar -n sa Ghinideach uatha: Ainmneach uatha agus Ginideach uatha",
+   "forms": [
+    "An abhainn: Bruach na habhann",
+    "An chomharsa: Gairdín na comharsan",
+    "An teorainn: Claí na teorann",
+    "An mhonarcha: Oibrí na monarchan",
+    "An ionga: Dath na hiongan",
+    "An lacha: Cosa na lachan"
+   ]
+  },
+  {
+   "title": "Ainmfhocail a chríochnaíonn ar -d sa Ghinideach uatha",
+   "forms": [
+    "An cara: Teach an charad"
+   ]
+  },
+  {
+   "title": "Ainmfhocail a chríochnaíonn ar -r sa Ghinideach uatha",
+   "forms": [
+    "An t-athair: Ainm an athar",
+    "An deartháir: Ainm an dearthár",
+    "An bráthair: Leabhar an bhráthar",
+    "An mháthair: Cóta na máthar",
+    "An deirfiúr: Airgead na deirféar"
+   ]
+  },
+  {
+   "title": "Nollaig: Ainmneach uatha agus Ginideach uatha",
+   "forms": [
+    "An Nollaig: Tús na Nollag"
+   ]
+  },
+  {
+   "title": "Ainmneach Iolra agus Ginideach Iolra (ainmfhocail ar -(e)ach)",
+   "forms": [
+    "Na cathaoireacha: Dath na gcathaoireacha",
+    "Na cathracha: Lár na gcathracha",
+    "Na litreacha: Tús na litreacha",
+    "Na traenacha: Doirse na dtraenacha",
+    "Na siúracha: Ainmneacha na siúracha",
+    "Na mainistreacha: Geataí na mainistreacha",
+    "Na caoirigh: Cosa na gcaorach",
+    "Na heochracha: Troime na n-eochracha",
+    "Na huimhreacha: Liosta na n-uimhreacha",
+    "Na rialacha: Brí na rialacha",
+    "Na treoracha: Míniú na dtreoracha"
+   ]
+  },
+  {
+   "title": "Ainmneach Iolra agus Ginideach Iolra (ainmfhocail ar -n)",
+   "forms": [
+    "Na haibhneacha: Bruacha na n-aibhneacha",
+    "Na comharsana: Gairdíní na gcomharsan",
+    "Na teorainneacha: Claíocha na dteorainneacha",
+    "Na monarchana: Doirse na monarchana",
+    "Na hingne: Barr na n-ingne",
+    "Na lachain: Cleití na lachan"
+   ]
+  },
+  {
+   "title": "Ainmneach Iolra agus Ginideach Iolra (ainmfhocail ar -d)",
+   "forms": [
+    "Na cairde: Tithe na gcairde",
+    "Na naimhde: Ainmneacha na naimhde"
+   ]
+  },
+  {
+   "title": "Ainmneach Iolra agus Ginideach Iolra (ainmfhocail ar -r)",
+   "forms": [
+    "Na haithreacha: Páistí na n-aithreacha",
+    "Na deartháireacha: Bréagáin na ndeartháireacha",
+    "Na bráithre: Seomraí na mbráithre",
+    "Na máithreacha: Uncail na máithreacha",
+    "Na deirfiúracha: Málaí na ndeirfiúracha"
+   ]
+  }
+ ]
+}

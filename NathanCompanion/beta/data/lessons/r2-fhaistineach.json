@@ -1,843 +1,843 @@
 {
-  "id": "r2-fhaistineach",
-  "lessons": [
+ "id": "r2-fhaistineach",
+ "lessons": [
+  {
+   "title": "Briathra leathana: -aigh go -óidh",
+   "en": "Verbs in -aigh: change -aigh to -óidh",
+   "rule": "For a verb that ends in -aigh, take away -aigh and add -óidh: ceannaigh becomes ceannóidh.",
+   "steps": [
+    "Find the root of the verb: brostaigh.",
+    "Take away -aigh: brost.",
+    "Add -óidh: brostóidh.",
+    "Put the verb first, then the subject: Brostóidh sí abhaile i ndiaidh an chluiche."
+   ],
+   "example": {
+    "prompt": "(Brostaigh) sí abhaile i ndiaidh an chluiche.",
+    "answer": "Brostóidh sí abhaile i ndiaidh an chluiche.",
+    "shape": "stem"
+   },
+   "more": [
     {
-      "title": "Briathra leathana: -aigh go -óidh",
-      "en": "Verbs in -aigh: change -aigh to -óidh",
-      "rule": "For a verb that ends in -aigh, take away -aigh and add -óidh: ceannaigh becomes ceannóidh.",
-      "steps": [
-        "Find the root of the verb: brostaigh.",
-        "Take away -aigh: brost.",
-        "Add -óidh: brostóidh.",
-        "Put the verb first, then the subject: Brostóidh sí abhaile i ndiaidh an chluiche."
-      ],
-      "example": {
-        "prompt": "(Brostaigh) sí abhaile i ndiaidh an chluiche.",
-        "answer": "Brostóidh sí abhaile i ndiaidh an chluiche.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(Corraigh) sí an tae sa chupán.",
-          "answer": "Corróidh sí an tae sa chupán.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "-aigh out, -óidh in.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(Ceannaigh) sé fón nua ar an Satharn.",
-          "answer": "Ceannóidh sé fón nua ar an Satharn."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Ceartaigh) an múinteoir na scrúduithe an tseachtain seo chugainn.",
-          "answer": "Ceartóidh an múinteoir na scrúduithe an tseachtain seo chugainn."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Cláraigh) na girseacha don chlub camógaíochta Dé Luain.",
-          "answer": "Cláróidh na girseacha don chlub camógaíochta Dé Luain."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Neadaigh) na héin sa chrann sa ghairdín i mbliana.",
-          "answer": "Neadóidh na héin sa chrann sa ghairdín i mbliana."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Claochlaigh) an aimsir ar Shliabh gCuillinn amárach.",
-          "answer": "Claochlóidh an aimsir ar Shliabh gCuillinn amárach."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Críochnaigh) siad an obair bhaile nuair a bheidh am acu.",
-          "answer": "Críochnóidh siad an obair bhaile nuair a bheidh am acu."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Sáraigh) sí an scrúdú má dhéanann sí a dícheall.",
-          "answer": "Sáróidh sí an scrúdú má dhéanann sí a dícheall."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Tosaigh) siad ar an traenáil chomh luath agus is féidir leo.",
-          "answer": "Tosóidh siad ar an traenáil chomh luath agus is féidir leo."
-        }
-      ]
-    },
-    {
-      "title": "Briathra caola: -igh go -eoidh",
-      "en": "Verbs in -igh: change -igh to -eoidh",
-      "rule": "For a verb that ends in -igh, take away -igh and add -eoidh: bailigh becomes baileoidh.",
-      "steps": [
-        "Find the root of the verb: bailigh.",
-        "Take away -igh: bail.",
-        "Add -eoidh: baileoidh.",
-        "Put the verb first, then the subject: Baileoidh an múinteoir na fóin ag tús an ranga."
-      ],
-      "example": {
-        "prompt": "(Bailigh) an múinteoir na fóin ag tús an ranga.",
-        "answer": "Baileoidh an múinteoir na fóin ag tús an ranga.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(Dúisigh) sé na gasúir go luath maidin amárach.",
-          "answer": "Dúiseoidh sé na gasúir go luath maidin amárach.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "-igh out, -eoidh in.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(Éirigh) mé ar a seacht don bhus scoile.",
-          "answer": "Éireoidh mé ar a seacht don bhus scoile."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Imigh) siad go Tír Chonaill Dé Sathairn.",
-          "answer": "Imeoidh siad go Tír Chonaill Dé Sathairn."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Mínigh) sí an aip dúinn má chuireann muid ceist uirthi.",
-          "answer": "Míneoidh sí an aip dúinn má chuireann muid ceist uirthi."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Deisigh) sé an ríomhaire glúine amárach.",
-          "answer": "Deiseoidh sé an ríomhaire glúine amárach."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Sínigh) sí an cárta lá breithe.",
-          "answer": "Síneoidh sí an cárta lá breithe."
-        }
-      ]
-    },
-    {
-      "title": "Briathra a thosaíonn ar ghuta nó ar f",
-      "en": "Verbs beginning with a vowel or f: nothing in front",
-      "rule": "A verb that begins with a vowel or f takes the same ending as any other, and nothing goes in front of it: there is no d' in the future (D'ullmhaigh sí in the past, but Ullmhóidh sí).",
-      "steps": [
-        "Find the root of the verb: aeraigh.",
-        "Take away -aigh and add -óidh: aeróidh.",
-        "Put nothing in front of it, not even d': Aeróidh sé an seomra ranga ag am lóin."
-      ],
-      "example": {
-        "prompt": "(Aeraigh) sé an seomra ranga ag am lóin.",
-        "answer": "Aeróidh sé an seomra ranga ag am lóin.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(Folmhaigh) sé an mála scoile ar an bhord.",
-          "answer": "Folmhóidh sé an mála scoile ar an bhord.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "No d' in the future.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(Ordaigh) mé píotsa ar an aip i gceann bomaite.",
-          "answer": "Ordóidh mé píotsa ar an aip i gceann bomaite."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Admhaigh) sé an fhírinne don mhúinteoir amárach.",
-          "answer": "Admhóidh sé an fhírinne don mhúinteoir amárach."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Athraigh) sé a chuid éadaigh roimh an traenáil.",
-          "answer": "Athróidh sé a chuid éadaigh roimh an traenáil."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Fostaigh) an siopa gasúr eile don samhradh.",
-          "answer": "Fostóidh an siopa gasúr eile don samhradh."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Ullmhaigh) sí an lón don turas scoile amárach.",
-          "answer": "Ullmhóidh sí an lón don turas scoile amárach."
-        }
-      ]
-    },
-    {
-      "title": "An fhoirm dhiúltach: Ní + séimhiú",
-      "en": "Saying what will not happen: Ní + lenition",
-      "rule": "To make the future negative, put Ní in front of the verb and add h after the first letter: ceannóidh becomes Ní cheannóidh. Verbs that begin with l, n or r show no change (Ní laghdóidh).",
-      "steps": [
-        "Find the verb: Ceannóidh.",
-        "Put Ní in front of it.",
-        "Add h after the first letter: Ní cheannóidh mé aip nua don fhón."
-      ],
-      "example": {
-        "prompt": "Ceannóidh mé aip nua don fhón.",
-        "answer": "Ní cheannóidh mé aip nua don fhón.",
-        "shape": "transform"
-      },
-      "more": [
-        {
-          "prompt": "Baileoidh sé an bruscar sa pháirc.",
-          "answer": "Ní bhaileoidh sé an bruscar sa pháirc.",
-          "shape": "transform"
-        }
-      ],
-      "hint": "Ní + h after the first letter.",
-      "items": [
-        {
-          "shape": "transform",
-          "prompt": "Ceadóidh sí fóin sa rang.",
-          "answer": "Ní cheadóidh sí fóin sa rang."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Brostóidh muid chuig an bhus.",
-          "answer": "Ní bhrostóidh muid chuig an bhus."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Críochnóidh siad an cluiche in am.",
-          "answer": "Ní chríochnóidh siad an cluiche in am."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Laghdóidh sé praghas na dticéad.",
-          "answer": "Ní laghdóidh sé praghas na dticéad."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Maslóidh siad an réiteoir.",
-          "answer": "Ní mhaslóidh siad an réiteoir."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Tosóidh sí an cluiche gan an captaen.",
-          "answer": "Ní thosóidh sí an cluiche gan an captaen."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Síneoidh siad an fhoirm.",
-          "answer": "Ní shíneoidh siad an fhoirm."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Deiseoidh mé an rothar inniu.",
-          "answer": "Ní dheiseoidh mé an rothar inniu."
-        }
-      ]
-    },
-    {
-      "title": "An fhoirm cheisteach: An + urú",
-      "en": "Writing the question: An + eclipsis",
-      "rule": "To write the question for an answer, put An in front of the verb and eclipse it (ceannóidh becomes An gceannóidh), and swap mé for tú or muid for sibh. Verbs that begin with l, n, r or s show no eclipsis (An socróidh sí?).",
-      "steps": [
-        "Find the verb in the answer: Baileoidh.",
-        "Put An in front and eclipse it: b takes m, so An mbaileoidh.",
-        "The answer says mé, so the question asks tú: An mbaileoidh tú na fóin ag tús an ranga?"
-      ],
-      "example": {
-        "prompt": "Baileoidh mé",
-        "answer": "An mbaileoidh tú na fóin ag tús an ranga?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "Fiosróidh muid",
-          "answer": "An bhfiosróidh sibh an cúrsa Gaeltachta?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "An + eclipsis; mé becomes tú, muid becomes sibh.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Ceannóidh muid",
-          "answer": "An gceannóidh sibh na ticéid don bhus?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Críochnóidh mé",
-          "answer": "An gcríochnóidh tú an obair bhaile anocht?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Socróidh sí",
-          "answer": "An socróidh sí an fhadhb leis an fhón?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Tosóidh muid",
-          "answer": "An dtosóidh sibh ar an traenáil ar a sé?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Deiseoidh siad",
-          "answer": "An ndeiseoidh siad an ríomhaire?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Dúiseoidh sí",
-          "answer": "An ndúiseoidh sí na gasúir ar a seacht?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Guta i ndiaidh An agus Ní",
-      "en": "Vowels after An and Ní: no change",
-      "rule": "A verb that begins with a vowel never changes after An or Ní: An ullmhóidh tú? Ní ullmhóidh mé.",
-      "steps": [
-        "Find the verb: Aimseoidh.",
-        "Put Ní in front of it.",
-        "It begins with a vowel, so leave it as it is: Ní aimseoidh sé a fhón sa mhála."
-      ],
-      "example": {
-        "prompt": "Aimseoidh sé a fhón sa mhála.",
-        "answer": "Ní aimseoidh sé a fhón sa mhála.",
-        "shape": "transform"
-      },
-      "more": [
-        {
-          "prompt": "Ullmhóidh mé",
-          "answer": "An ullmhóidh tú an lón don turas?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "A vowel after An or Ní stays the same.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Aslonnófar",
-          "answer": "An aslonnófar an scoil?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ordóidh siad",
-          "answer": "An ordóidh siad sceallóga ag an chluiche?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ullmhóidh sí",
-          "answer": "An ullmhóidh sí an seomra don chóisir?",
-          "self": true
-        },
-        {
-          "shape": "transform",
-          "prompt": "Aontóidh mé leis an phlean.",
-          "answer": "Ní aontóidh mé leis an phlean."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Athróidh sé an pasfhocal.",
-          "answer": "Ní athróidh sé an pasfhocal."
-        }
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -ófar",
-      "en": "The autonomous form of -aigh verbs: -ófar",
-      "rule": "When you do not say who does the action, take away -aigh and add -ófar, with no pronoun after it: ceannaigh becomes ceannófar.",
-      "steps": [
-        "Find the root: ceannaigh.",
-        "Take away -aigh and add -ófar: ceannófar.",
-        "Put it first, with no pronoun after it: Ceannófar fón nua roimh dheireadh na míosa."
-      ],
-      "example": {
-        "prompt": "(Ceannaigh) fón nua roimh dheireadh na míosa.",
-        "answer": "Ceannófar fón nua roimh dheireadh na míosa.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(Ullmhaigh) an dinnéar in am.",
-          "answer": "Ullmhófar an dinnéar in am.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "-aigh out, -ófar in, no pronoun.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(Admhaigh) an fhírinne sa chruinniú amárach.",
-          "answer": "Admhófar an fhírinne sa chruinniú amárach."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Bunaigh) club camógaíochta nua sa scoil.",
-          "answer": "Bunófar club camógaíochta nua sa scoil."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Ciontaigh) é má thagann sé os comhair na cúirte.",
-          "answer": "Ciontófar é má thagann sé os comhair na cúirte."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Díothaigh) na crainn má bhíonn stoirm mhór ann.",
-          "answer": "Díothófar na crainn má bhíonn stoirm mhór ann."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Fiosraigh) an gearán sin.",
-          "answer": "Fiosrófar an gearán sin."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Fostaigh) a lán daoine má thógann siad óstán nua san Iúr.",
-          "answer": "Fostófar a lán daoine má thógann siad óstán nua san Iúr."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Sáraigh) na fadhbanna leis an aip má dhéanann muid ár ndícheall.",
-          "answer": "Sárófar na fadhbanna leis an aip má dhéanann muid ár ndícheall."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Scrúdaigh) Bliain 9 i mí na Bealtaine.",
-          "answer": "Scrúdófar Bliain 9 i mí na Bealtaine."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Socraigh) an fhadhb leis an idirlíon ar ball beag.",
-          "answer": "Socrófar an fhadhb leis an idirlíon ar ball beag."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Tosaigh) ar an traenáil nuair a thagann na gasúir.",
-          "answer": "Tosófar ar an traenáil nuair a thagann na gasúir."
-        }
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -eofar",
-      "en": "The autonomous form of -igh verbs: -eofar",
-      "rule": "For a verb that ends in -igh, take away -igh and add -eofar, with no pronoun after it: bailigh becomes baileofar.",
-      "steps": [
-        "Find the root: bailigh.",
-        "Take away -igh and add -eofar: baileofar.",
-        "Put it first, with no pronoun after it: Baileofar na fóin roimh an scrúdú."
-      ],
-      "example": {
-        "prompt": "(Bailigh) na fóin roimh an scrúdú.",
-        "answer": "Baileofar na fóin roimh an scrúdú.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(Mínigh) na rialacha don fhoireann.",
-          "answer": "Míneofar na rialacha don fhoireann.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "-igh out, -eofar in, no pronoun.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(Foilsigh) na torthaí ar an suíomh an tseachtain seo chugainn.",
-          "answer": "Foilseofar na torthaí ar an suíomh an tseachtain seo chugainn."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Truailligh) an abhainn mura ndruidtear an mhonarcha sin.",
-          "answer": "Truailleofar an abhainn mura ndruidtear an mhonarcha sin."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Ainmnigh) an fhoireann camógaíochta Dé hAoine.",
-          "answer": "Ainmneofar an fhoireann camógaíochta Dé hAoine."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Cuimhnigh) ar an chluiche sin go deo.",
-          "answer": "Cuimhneofar ar an chluiche sin go deo."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Aimsigh) an fón caillte roimh dheireadh an lae.",
-          "answer": "Aimseofar an fón caillte roimh dheireadh an lae."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Aistrigh) an aip sin go Gaeilge.",
-          "answer": "Aistreofar an aip sin go Gaeilge."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Ceistigh) na gadaithe má bheirtear orthu.",
-          "answer": "Ceisteofar na gadaithe má bheirtear orthu."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Sínigh) an conradh leis an chlub ag an chéad chruinniú eile.",
-          "answer": "Síneofar an conradh leis an chlub ag an chéad chruinniú eile."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Taifigh) na torthaí scrúduithe nuair a bhíonn faill chuige.",
-          "answer": "Taifeofar na torthaí scrúduithe nuair a bhíonn faill chuige."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(Réitigh) an fhadhb leis an ríomhaire má théann muid i gceann oibre anois.",
-          "answer": "Réiteofar an fhadhb leis an ríomhaire má théann muid i gceann oibre anois."
-        }
-      ]
+     "prompt": "(Corraigh) sí an tae sa chupán.",
+     "answer": "Corróidh sí an tae sa chupán.",
+     "shape": "stem"
     }
-  ],
-  "tables": [
+   ],
+   "hint": "-aigh out, -óidh in.",
+   "items": [
     {
-      "title": "A. Ordú / Cad é a dhéanfaidh sé? (briathra leathana, -aigh)",
-      "forms": [
-        "Brostaigh abhaile: Brostóidh sé abhaile",
-        "Cabhraigh leis na cailíní: Cabhróidh sé leis na cailíní",
-        "Ceannaigh bainne sa siopa: Ceannóidh sé bainne sa siopa",
-        "Corraigh an leite: Corróidh sé an leite",
-        "Críochnaigh an obair: Críochnóidh sé an obair",
-        "Triomaigh na soithí: Triomóidh sé na soithí",
-        "Ceartaigh na botúin: Ceartóidh sé na botúin"
-      ]
+     "shape": "stem",
+     "prompt": "(Ceannaigh) sé fón nua ar an Satharn.",
+     "answer": "Ceannóidh sé fón nua ar an Satharn."
     },
     {
-      "title": "A. Ceist: ceannaigh san aimsir fháistineach",
-      "forms": [
-        "An gceannóidh tú an nuachtán?: Ceannóidh mé / Ní cheannóidh mé",
-        "An gceannóidh sé an nuachtán?: Ceannóidh sé / Ní cheannóidh sé",
-        "An gceannóidh sí an nuachtán?: Ceannóidh sí / Ní cheannóidh sí",
-        "An gceannóidh sibh an nuachtán?: Ceannóidh muid / Ní cheannóidh muid",
-        "An gceannóidh siad an nuachtán?: Ceannóidh siad / Ní cheannóidh siad",
-        "An gceannófar an nuachtán?: Ceannófar / Ní cheannófar"
-      ]
+     "shape": "stem",
+     "prompt": "(Ceartaigh) an múinteoir na scrúduithe an tseachtain seo chugainn.",
+     "answer": "Ceartóidh an múinteoir na scrúduithe an tseachtain seo chugainn."
     },
     {
-      "title": "B. Ordú / Cad é a dhéanfaidh sé? (briathra caola, -igh)",
-      "forms": [
-        "Bailigh na cóipleabhair: Baileoidh sé na cóipleabhair",
-        "Mínigh an abairt: Míneoidh sé an abairt",
-        "Deisigh an rothar: Deiseoidh sé an rothar",
-        "Sínigh an leabhar: Síneoidh sé an leabhar",
-        "Grinnigh na torthaí: Grinneoidh sé na torthaí",
-        "Dúisigh na páistí: Dúiseoidh sé na páistí"
-      ]
+     "shape": "stem",
+     "prompt": "(Cláraigh) na girseacha don chlub camógaíochta Dé Luain.",
+     "answer": "Cláróidh na girseacha don chlub camógaíochta Dé Luain."
     },
     {
-      "title": "B. Ceist: bailigh san aimsir fháistineach",
-      "forms": [
-        "An mbaileoidh tú na cóipleabhair?: Baileoidh mé / Ní bhaileoidh mé",
-        "An mbaileoidh sé na cóipleabhair?: Baileoidh sé / Ní bhaileoidh sé",
-        "An mbaileoidh sí na cóipleabhair?: Baileoidh sí / Ní bhaileoidh sí",
-        "An mbaileoidh sibh na cóipleabhair?: Baileoidh muid / Ní bhaileoidh muid",
-        "An mbaileoidh siad na cóipleabhair?: Baileoidh siad / Ní bhaileoidh siad",
-        "An mbaileofar na cóipleabhair?: Baileofar / Ní bhaileofar"
-      ]
+     "shape": "stem",
+     "prompt": "(Neadaigh) na héin sa chrann sa ghairdín i mbliana.",
+     "answer": "Neadóidh na héin sa chrann sa ghairdín i mbliana."
     },
     {
-      "title": "C. Ordú / Cad é a dhéanfaidh sé? (briathra leathana a thosaíonn ar ghuta)",
-      "forms": [
-        "Aeraigh an seomra: Aeróidh sé an seomra",
-        "Ardaigh an bhratach: Ardóidh sé an bhratach",
-        "Athraigh an téip: Athróidh sé an téip",
-        "Iompaigh an chathaoir: Iompóidh sé an chathaoir",
-        "Ordaigh deoch: Ordóidh sé deoch",
-        "Ullmhaigh an dinnéar: Ullmhóidh sé an dinnéar"
-      ]
+     "shape": "stem",
+     "prompt": "(Claochlaigh) an aimsir ar Shliabh gCuillinn amárach.",
+     "answer": "Claochlóidh an aimsir ar Shliabh gCuillinn amárach."
     },
     {
-      "title": "C. Ceist: ullmhaigh san aimsir fháistineach",
-      "forms": [
-        "An ullmhóidh tú an dinnéar?: Ullmhóidh mé / Ní ullmhóidh mé",
-        "An ullmhóidh sé an dinnéar?: Ullmhóidh sé / Ní ullmhóidh sé",
-        "An ullmhóidh sí an dinnéar?: Ullmhóidh sí / Ní ullmhóidh sí",
-        "An ullmhóidh sibh an dinnéar?: Ullmhóidh muid / Ní ullmhóidh muid",
-        "An ullmhóidh siad an dinnéar?: Ullmhóidh siad / Ní ullmhóidh siad",
-        "An ullmhófar an dinnéar?: Ullmhófar / Ní ullmhófar"
-      ]
+     "shape": "stem",
+     "prompt": "(Críochnaigh) siad an obair bhaile nuair a bheidh am acu.",
+     "answer": "Críochnóidh siad an obair bhaile nuair a bheidh am acu."
     },
     {
-      "title": "D. Ordú / Cad é a dhéanfaidh sé? (briathra caola a thosaíonn ar ghuta)",
-      "forms": [
-        "Ainmnigh na daoine sin: Ainmneoidh sé na daoine sin",
-        "Aimsigh an sprioc: Aimseoidh sé an sprioc",
-        "Aistrigh an leabhar: Aistreoidh sé an leabhar",
-        "Éirigh go luath: Éireoidh sé go luath",
-        "Imigh leat: Imeoidh sé leis"
-      ]
+     "shape": "stem",
+     "prompt": "(Sáraigh) sí an scrúdú má dhéanann sí a dícheall.",
+     "answer": "Sáróidh sí an scrúdú má dhéanann sí a dícheall."
     },
     {
-      "title": "D. Ceist: aimsigh san aimsir fháistineach",
-      "forms": [
-        "An aimseoidh tú an sprioc?: Aimseoidh mé / Ní aimseoidh mé",
-        "An aimseoidh sé an sprioc?: Aimseoidh sé / Ní aimseoidh sé",
-        "An aimseoidh sí an sprioc?: Aimseoidh sí / Ní aimseoidh sí",
-        "An aimseoidh sibh an sprioc?: Aimseoidh muid / Ní aimseoidh muid",
-        "An aimseoidh siad an sprioc?: Aimseoidh siad / Ní aimseoidh siad",
-        "An aimseofar an sprioc?: Aimseofar / Ní aimseofar"
-      ]
-    },
-    {
-      "title": "E. Ordú / Cad é a dhéanfaidh sé? (briathra a thosaíonn ar f)",
-      "forms": [
-        "Fiosraigh an scéal: Fiosróidh sé an scéal",
-        "Folmhaigh an buicéad: Folmhóidh sé an buicéad"
-      ]
-    },
-    {
-      "title": "E. Ceist: fiosraigh san aimsir fháistineach",
-      "forms": [
-        "An bhfiosróidh tú an scéal?: Fiosróidh mé / Ní fhiosróidh mé",
-        "An bhfiosróidh sé an scéal?: Fiosróidh sé / Ní fhiosróidh sé",
-        "An bhfiosróidh sí an scéal?: Fiosróidh sí / Ní fhiosróidh sí",
-        "An bhfiosróidh sibh an scéal?: Fiosróidh muid / Ní fhiosróidh muid",
-        "An bhfiosróidh siad an scéal?: Fiosróidh siad / Ní fhiosróidh siad",
-        "An bhfiosrófar an scéal?: Fiosrófar / Ní fhiosrófar"
-      ]
-    },
-    {
-      "title": "An Dara Réimniú: Ceannaigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
-      "forms": [
-        "Láithreach: Ceannaím, Ceannaíonn tú, Ceannaíonn sé/sí",
-        "Láithreach: Ceannaíonn muid, Ceannaíonn sibh, Ceannaíonn siad",
-        "Láithreach SB: Ceannaítear",
-        "Láithreach Diúl.: Ní cheannaím",
-        "Láithreach Ceist: An gceannaíonn tú?",
-        "Caite: Cheannaigh mé, Cheannaigh tú, Cheannaigh sé/sí",
-        "Caite: Cheannaigh muid, Cheannaigh sibh, Cheannaigh siad",
-        "Caite SB: Ceannaíodh",
-        "Caite Diúl.: Níor cheannaigh mé",
-        "Caite Ceist: Ar cheannaigh tú?",
-        "Fháistineach: Ceannóidh mé, Ceannóidh tú, Ceannóidh sé/sí",
-        "Fháistineach: Ceannóidh muid, Ceannóidh sibh, Ceannóidh siad",
-        "Fháistineach SB: Ceannófar",
-        "Fháistineach Diúl.: Ní cheannóidh mé",
-        "Fháistineach Ceist: An gceannóidh tú?"
-      ]
-    },
-    {
-      "title": "An Dara Réimniú: Bailigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
-      "forms": [
-        "Láithreach: Bailím, Bailíonn tú, Bailíonn sé/sí",
-        "Láithreach: Bailíonn muid, Bailíonn sibh, Bailíonn siad",
-        "Láithreach SB: Bailítear",
-        "Láithreach Diúl.: Ní bhailím",
-        "Láithreach Ceist: An mbailíonn tú?",
-        "Caite: Bhailigh mé, Bhailigh tú, Bhailigh sé/sí",
-        "Caite: Bhailigh muid, Bhailigh sibh, Bhailigh siad",
-        "Caite SB: Bailíodh",
-        "Caite Diúl.: Níor bhailigh mé",
-        "Caite Ceist: Ar bhailigh tú?",
-        "Fháistineach: Baileoidh mé, Baileoidh tú, Baileoidh sé/sí",
-        "Fháistineach: Baileoidh muid, Baileoidh sibh, Baileoidh siad",
-        "Fháistineach SB: Baileofar",
-        "Fháistineach Diúl.: Ní bhaileoidh mé",
-        "Fháistineach Ceist: An mbaileoidh tú?"
-      ]
-    },
-    {
-      "title": "An Dara Réimniú: Ullmhaigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
-      "forms": [
-        "Láithreach: Ullmhaím, Ullmhaíonn tú, Ullmhaíonn sé/sí",
-        "Láithreach: Ullmhaíonn muid, Ullmhaíonn sibh, Ullmhaíonn siad",
-        "Láithreach SB: Ullmhaítear",
-        "Láithreach Diúl.: Ní ullmhaím",
-        "Láithreach Ceist: An ullmhaíonn tú?",
-        "Caite: D'ullmhaigh mé, D'ullmhaigh tú, D'ullmhaigh sé/sí",
-        "Caite: D'ullmhaigh muid, D'ullmhaigh sibh, D'ullmhaigh siad",
-        "Caite SB: Ullmhaíodh",
-        "Caite Diúl.: Níor ullmhaigh mé",
-        "Caite Ceist: Ar ullmhaigh tú?",
-        "Fháistineach: Ullmhóidh mé, Ullmhóidh tú, Ullmhóidh sé/sí",
-        "Fháistineach: Ullmhóidh muid, Ullmhóidh sibh, Ullmhóidh siad",
-        "Fháistineach SB: Ullmhófar",
-        "Fháistineach Diúl.: Ní ullmhóidh mé",
-        "Fháistineach Ceist: An ullmhóidh tú?"
-      ]
-    },
-    {
-      "title": "An Dara Réimniú: Aimsigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
-      "forms": [
-        "Láithreach: Aimsím, Aimsíonn tú, Aimsíonn sé/sí",
-        "Láithreach: Aimsíonn muid, Aimsíonn sibh, Aimsíonn siad",
-        "Láithreach SB: Aimsítear",
-        "Láithreach Diúl.: Ní aimsím",
-        "Láithreach Ceist: An aimsíonn tú?",
-        "Caite: D'aimsigh mé, D'aimsigh tú, D'aimsigh sé/sí",
-        "Caite: D'aimsigh muid, D'aimsigh sibh, D'aimsigh siad",
-        "Caite SB: Aimsíodh",
-        "Caite Diúl.: Níor aimsigh mé",
-        "Caite Ceist: Ar aimsigh tú?",
-        "Fháistineach: Aimseoidh mé, Aimseoidh tú, Aimseoidh sé/sí",
-        "Fháistineach: Aimseoidh muid, Aimseoidh sibh, Aimseoidh siad",
-        "Fháistineach SB: Aimseofar",
-        "Fháistineach Diúl.: Ní aimseoidh mé",
-        "Fháistineach Ceist: An aimseoidh tú?"
-      ]
-    },
-    {
-      "title": "An Dara Réimniú: Fiosraigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
-      "forms": [
-        "Láithreach: Fiosraím, Fiosraíonn tú, Fiosraíonn sé/sí",
-        "Láithreach: Fiosraíonn muid, Fiosraíonn sibh, Fiosraíonn siad",
-        "Láithreach SB: Fiosraítear",
-        "Láithreach Diúl.: Ní fhiosraím",
-        "Láithreach Ceist: An bhfiosraíonn tú?",
-        "Caite: D'fhiosraigh mé, D'fhiosraigh tú, D'fhiosraigh sé/sí",
-        "Caite: D'fhiosraigh muid, D'fhiosraigh sibh, D'fhiosraigh siad",
-        "Caite SB: Fiosraíodh",
-        "Caite Diúl.: Níor fhiosraigh mé",
-        "Caite Ceist: Ar fhiosraigh tú?",
-        "Fháistineach: Fiosróidh mé, Fiosróidh tú, Fiosróidh sé/sí",
-        "Fháistineach: Fiosróidh muid, Fiosróidh sibh, Fiosróidh siad",
-        "Fháistineach SB: Fiosrófar",
-        "Fháistineach Diúl.: Ní fhiosróidh mé",
-        "Fháistineach Ceist: An bhfiosróidh tú?"
-      ]
-    },
-    {
-      "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana, a go c)",
-      "forms": [
-        "admhaigh (confess): admháil, admhaithe",
-        "aeraigh (ventilate): aerú, aeraithe",
-        "análaigh (breathe): análú, análaithe",
-        "aontaigh (agree): aontú, aontaithe",
-        "ardaigh (raise, build): ardú, ardaithe",
-        "aslonnaigh (evacuate): aslonnú, aslonnaithe",
-        "athraigh (change): athrú, athraithe",
-        "beannaigh (bless): beannú, beannaithe",
-        "beartaigh (plan, decide): beartú, beartaithe",
-        "beathaigh (feed): beathú, beathaithe",
-        "bláthaigh (flower, adorn): bláthú, bláthaithe",
-        "bodhraigh (deafen): bodhrú, bodhraithe",
-        "bréagnaigh (refute): bréagnú, bréagnaithe",
-        "breathnaigh (look): breathnú, breathnaithe",
-        "brostaigh (hurry): brostú, brostaithe",
-        "buanaigh (persevere): buanú, buanaithe",
-        "bunaigh (establish): bunú, bunaithe",
-        "cabhraigh (help): cabhrú, cabhraithe",
-        "caolaigh (reduce, dilute): caolú, caolaithe",
-        "caomhnaigh (conserve): caomhnú, caomhnaithe",
-        "ceadaigh (allow): ceadú, ceadaithe",
-        "cealaigh (cancel): cealú, cealaithe",
-        "ceannaigh (buy): ceannach, ceannaithe",
-        "ceansaigh (tame): ceansú, ceansaithe",
-        "ceartaigh (correct): ceartú, ceartaithe",
-        "ciallaigh (signify): ciallú, ciallaithe",
-        "ciontaigh (convict): ciontú, ciontaithe",
-        "ciúnaigh (quieten): ciúnú, ciúnaithe",
-        "claochlaigh (change): claochlú, claochlaithe",
-        "cláraigh (register): clárú, cláraithe",
-        "clúdaigh (cover): clúdach, clúdaithe",
-        "cnuasaigh (collect): cnuasach, cnuasaithe",
-        "comhdaigh (file): comhdú, comhdaithe",
-        "corraigh (stir): corraí, corraithe",
-        "cothaigh (feed): cothú, cothaithe",
-        "creathnaigh (shake): creathnú, creathnaithe",
-        "críochnaigh (finish): críochnú, críochnaithe",
-        "cruthaigh (create, prove): cruthú, cruthaithe",
-        "cuardaigh (search): cuardach, cuardaithe",
-        "cúlaigh (retreat): cúlú, cúlaithe"
-      ]
-    },
-    {
-      "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana, c go t)",
-      "forms": [
-        "cumhdaigh (cover): cumhdach, cumhdaithe",
-        "dathaigh (colour): dathú, daite",
-        "díothaigh (destroy): díothú, díothaithe",
-        "diúltaigh (refuse): diúltú, diúltaithe",
-        "dúnmharaigh (murder): dúnmharú, dúnmharaithe",
-        "éalaigh (escape): éalú, éalaithe",
-        "feabhsaigh (improve): feabhsú, feabhsaithe",
-        "fiafraigh (ask): fiafraí, fiafraithe",
-        "fiosraigh (inquire): fiosrú, fiosraithe",
-        "folmhaigh (empty): folmhú, folmhaithe",
-        "fostaigh (employ): fostú, fostaithe",
-        "fuadaigh (abduct): fuadach, fuadaithe",
-        "giorraigh (shorten): giorrú, giorraithe",
-        "greamaigh (grip): greamú, greamaithe",
-        "gríosaigh (incite): gríosú, gríosaithe",
-        "imeaglaigh (intimidate): imeaglú, imeaglaithe",
-        "iompaigh (turn): iompú, iompaithe",
-        "ionsaigh (assault): ionsaí, ionsaithe",
-        "laghdaigh (diminish): laghdú, laghdaithe",
-        "leasaigh (amend): leasú, leasaithe",
-        "lonraigh (shine): lonrú, lonraithe",
-        "maraigh (kill): marú, maraithe",
-        "maslaigh (insult): maslú, maslaithe",
-        "meabhraigh (memorise, remind): meabhrú, meabhraithe",
-        "mothaigh (feel): mothú, mothaithe",
-        "neadaigh (nest): neadú, neadaithe",
-        "neartaigh (strengthen): neartú, neartaithe",
-        "ordaigh (order): ordú, ordaithe",
-        "salaigh (soil): salú, salaithe",
-        "samhlaigh (imagine): samhlú, samhlaithe",
-        "sáraigh (overcome): sárú, sáraithe",
-        "scanraigh (frighten): scanrú, scanraithe",
-        "scrúdaigh (examine): scrúdú, scrúdaithe",
-        "slánaigh (complete, save): slánú, slánaithe",
-        "sleamhnaigh (slip): sleamhnú, sleamhnaithe",
-        "smachtaigh (control): smachtú, smachtaithe",
-        "socraigh (arrange): socrú, socraithe",
-        "sruthlaigh (rinse): sruthlú, sruthlaithe",
-        "tiomsaigh (gather): tiomsú, tiomsaithe",
-        "tiontaigh (translate, turn): tiontú, tiontaithe"
-      ]
-    },
-    {
-      "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana t go u, agus briathra caola)",
-      "forms": [
-        "tosaigh (begin): tosú, tosaithe",
-        "trasnaigh (cross): trasnú, trasnaithe",
-        "treoraigh (guide): treorú, treoraithe",
-        "triomaigh (dry): triomú, triomaithe",
-        "ullmhaigh (prepare): ullmhú, ullmhaithe",
-        "aimsigh (locate): aimsiú, aimsithe",
-        "ainmnigh (name): ainmniú, ainmnithe",
-        "aistrigh (transfer): aistriú, aistrithe",
-        "beirigh (boil): beiriú, beirithe",
-        "bisigh (improve): biseach, bisithe",
-        "breithnigh (consider): breithniú, breithnithe",
-        "ceistigh (question): ceistiú, ceistithe",
-        "coinnigh (keep): coinneáil, coinnithe",
-        "cruinnigh (gather): cruinniú, cruinnithe",
-        "cuimhnigh (remember): cuimhneamh, cuimhnithe",
-        "daingnigh (confirm): daingniú, daingnithe",
-        "deifrigh (hurry): deifriú, deifrithe",
-        "deisigh (mend): deisiú, deisithe",
-        "dírigh (straighten): díriú, dírithe",
-        "dúisigh (waken): dúiseacht, dúisithe",
-        "éirigh (arise): éirí, éirithe",
-        "feidhmigh (function): feidhmiú, feidhmithe",
-        "foilsigh (publish): foilsiú, foilsithe",
-        "fuaimnigh (pronounce): fuaimniú, fuaimnithe",
-        "glinnigh (glare, stare): glinniúint, glinnithe",
-        "grinnigh (examine closely): grinniú, grinnithe",
-        "imigh (go): imeacht, imithe",
-        "impigh (beseech): impí, impithe",
-        "maisigh (decorate): maisiú, maisithe",
-        "mínigh (explain): míniú, mínithe",
-        "oibrigh (work): oibriú, oibrithe",
-        "réitigh (settle): réiteach, réitithe",
-        "sínigh (sign): síniú, sínithe",
-        "spídigh (abuse): spídiú, spídithe",
-        "taifigh (analyse): taifeach, taifithe",
-        "truailligh (corrupt): truailliú, truaillithe"
-      ]
+     "shape": "stem",
+     "prompt": "(Tosaigh) siad ar an traenáil chomh luath agus is féidir leo.",
+     "answer": "Tosóidh siad ar an traenáil chomh luath agus is féidir leo."
     }
-  ]
+   ]
+  },
+  {
+   "title": "Briathra caola: -igh go -eoidh",
+   "en": "Verbs in -igh: change -igh to -eoidh",
+   "rule": "For a verb that ends in -igh, take away -igh and add -eoidh: bailigh becomes baileoidh.",
+   "steps": [
+    "Find the root of the verb: bailigh.",
+    "Take away -igh: bail.",
+    "Add -eoidh: baileoidh.",
+    "Put the verb first, then the subject: Baileoidh an múinteoir na fóin ag tús an ranga."
+   ],
+   "example": {
+    "prompt": "(Bailigh) an múinteoir na fóin ag tús an ranga.",
+    "answer": "Baileoidh an múinteoir na fóin ag tús an ranga.",
+    "shape": "stem"
+   },
+   "more": [
+    {
+     "prompt": "(Dúisigh) sé na gasúir go luath maidin amárach.",
+     "answer": "Dúiseoidh sé na gasúir go luath maidin amárach.",
+     "shape": "stem"
+    }
+   ],
+   "hint": "-igh out, -eoidh in.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Éirigh) mé ar a seacht don bhus scoile.",
+     "answer": "Éireoidh mé ar a seacht don bhus scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Imigh) siad go Dún na nGall Dé Sathairn.",
+     "answer": "Imeoidh siad go Dún na nGall Dé Sathairn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Mínigh) sí an aip dúinn má chuireann muid ceist uirthi.",
+     "answer": "Míneoidh sí an aip dúinn má chuireann muid ceist uirthi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Deisigh) sé an ríomhaire glúine amárach.",
+     "answer": "Deiseoidh sé an ríomhaire glúine amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sínigh) sí an cárta lá breithe.",
+     "answer": "Síneoidh sí an cárta lá breithe."
+    }
+   ]
+  },
+  {
+   "title": "Briathra a thosaíonn ar ghuta nó ar f",
+   "en": "Verbs beginning with a vowel or f: nothing in front",
+   "rule": "A verb that begins with a vowel or f takes the same ending as any other, and nothing goes in front of it: there is no d' in the future (D'ullmhaigh sí in the past, but Ullmhóidh sí).",
+   "steps": [
+    "Find the root of the verb: aeraigh.",
+    "Take away -aigh and add -óidh: aeróidh.",
+    "Put nothing in front of it, not even d': Aeróidh sé an seomra ranga ag am lóin."
+   ],
+   "example": {
+    "prompt": "(Aeraigh) sé an seomra ranga ag am lóin.",
+    "answer": "Aeróidh sé an seomra ranga ag am lóin.",
+    "shape": "stem"
+   },
+   "more": [
+    {
+     "prompt": "(Folmhaigh) sé an mála scoile ar an tábla.",
+     "answer": "Folmhóidh sé an mála scoile ar an tábla.",
+     "shape": "stem"
+    }
+   ],
+   "hint": "No d' in the future.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ordaigh) mé píotsa ar an aip i gceann bomaite.",
+     "answer": "Ordóidh mé píotsa ar an aip i gceann bomaite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Admhaigh) sé an fhírinne don mhúinteoir amárach.",
+     "answer": "Admhóidh sé an fhírinne don mhúinteoir amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Athraigh) sé a chuid éadaigh roimh an traenáil.",
+     "answer": "Athróidh sé a chuid éadaigh roimh an traenáil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fostaigh) an siopa gasúr eile don samhradh.",
+     "answer": "Fostóidh an siopa gasúr eile don samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ullmhaigh) sí an lón don turas scoile amárach.",
+     "answer": "Ullmhóidh sí an lón don turas scoile amárach."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm dhiúltach: Ní + séimhiú",
+   "en": "Saying what will not happen: Ní + lenition",
+   "rule": "To make the future negative, put Ní in front of the verb and add h after the first letter: ceannóidh becomes Ní cheannóidh. Verbs that begin with l, n or r show no change (Ní laghdóidh).",
+   "steps": [
+    "Find the verb: Ceannóidh.",
+    "Put Ní in front of it.",
+    "Add h after the first letter: Ní cheannóidh mé aip nua don fhón."
+   ],
+   "example": {
+    "prompt": "Ceannóidh mé aip nua don fhón.",
+    "answer": "Ní cheannóidh mé aip nua don fhón.",
+    "shape": "transform"
+   },
+   "more": [
+    {
+     "prompt": "Baileoidh sé an bruscar sa pháirc.",
+     "answer": "Ní bhaileoidh sé an bruscar sa pháirc.",
+     "shape": "transform"
+    }
+   ],
+   "hint": "Ní + h after the first letter.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ceadóidh sí fóin sa rang.",
+     "answer": "Ní cheadóidh sí fóin sa rang."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Brostóidh muid chuig an bhus.",
+     "answer": "Ní bhrostóidh muid chuig an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Críochnóidh siad an cluiche in am.",
+     "answer": "Ní chríochnóidh siad an cluiche in am."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Laghdóidh sé praghas na dticéad.",
+     "answer": "Ní laghdóidh sé praghas na dticéad."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Maslóidh siad an réiteoir.",
+     "answer": "Ní mhaslóidh siad an réiteoir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tosóidh sí an cluiche gan an captaen.",
+     "answer": "Ní thosóidh sí an cluiche gan an captaen."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Síneoidh siad an fhoirm.",
+     "answer": "Ní shíneoidh siad an fhoirm."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deiseoidh mé an rothar inniu.",
+     "answer": "Ní dheiseoidh mé an rothar inniu."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm cheisteach: An + urú",
+   "en": "Writing the question: An + eclipsis",
+   "rule": "To write the question for an answer, put An in front of the verb and eclipse it (ceannóidh becomes An gceannóidh), and swap mé for tú or muid for sibh. Verbs that begin with l, n, r or s show no eclipsis (An socróidh sí?).",
+   "steps": [
+    "Find the verb in the answer: Baileoidh.",
+    "Put An in front and eclipse it: b takes m, so An mbaileoidh.",
+    "The answer says mé, so the question asks tú: An mbaileoidh tú na fóin ag tús an ranga?"
+   ],
+   "example": {
+    "prompt": "Baileoidh mé",
+    "answer": "An mbaileoidh tú na fóin ag tús an ranga?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "Fiosróidh muid",
+     "answer": "An bhfiosróidh sibh an cúrsa Gaeltachta?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "An + eclipsis; mé becomes tú, muid becomes sibh.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Ceannóidh muid",
+     "answer": "An gceannóidh sibh na ticéid don bhus?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Críochnóidh mé",
+     "answer": "An gcríochnóidh tú an obair bhaile anocht?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Socróidh sí",
+     "answer": "An socróidh sí an fhadhb leis an fhón?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Tosóidh muid",
+     "answer": "An dtosóidh sibh ar an traenáil ar a sé?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Deiseoidh siad",
+     "answer": "An ndeiseoidh siad an ríomhaire?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Dúiseoidh sí",
+     "answer": "An ndúiseoidh sí na gasúir ar a seacht?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Guta i ndiaidh An agus Ní",
+   "en": "Vowels after An and Ní: no change",
+   "rule": "A verb that begins with a vowel never changes after An or Ní: An ullmhóidh tú? Ní ullmhóidh mé.",
+   "steps": [
+    "Find the verb: Aimseoidh.",
+    "Put Ní in front of it.",
+    "It begins with a vowel, so leave it as it is: Ní aimseoidh sé a fhón sa mhála."
+   ],
+   "example": {
+    "prompt": "Aimseoidh sé a fhón sa mhála.",
+    "answer": "Ní aimseoidh sé a fhón sa mhála.",
+    "shape": "transform"
+   },
+   "more": [
+    {
+     "prompt": "Ullmhóidh mé",
+     "answer": "An ullmhóidh tú an lón don turas?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "A vowel after An or Ní stays the same.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Aslonnófar",
+     "answer": "An aslonnófar an scoil?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ordóidh siad",
+     "answer": "An ordóidh siad sceallóga ag an chluiche?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ullmhóidh sí",
+     "answer": "An ullmhóidh sí an seomra don chóisir?",
+     "self": true
+    },
+    {
+     "shape": "transform",
+     "prompt": "Aontóidh mé leis an phlean.",
+     "answer": "Ní aontóidh mé leis an phlean."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Athróidh sé an pasfhocal.",
+     "answer": "Ní athróidh sé an pasfhocal."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -ófar",
+   "en": "The autonomous form of -aigh verbs: -ófar",
+   "rule": "When you do not say who does the action, take away -aigh and add -ófar, with no pronoun after it: ceannaigh becomes ceannófar.",
+   "steps": [
+    "Find the root: ceannaigh.",
+    "Take away -aigh and add -ófar: ceannófar.",
+    "Put it first, with no pronoun after it: Ceannófar fón nua roimh dheireadh na míosa."
+   ],
+   "example": {
+    "prompt": "(Ceannaigh) fón nua roimh dheireadh na míosa.",
+    "answer": "Ceannófar fón nua roimh dheireadh na míosa.",
+    "shape": "stem"
+   },
+   "more": [
+    {
+     "prompt": "(Ullmhaigh) an dinnéar in am.",
+     "answer": "Ullmhófar an dinnéar in am.",
+     "shape": "stem"
+    }
+   ],
+   "hint": "-aigh out, -ófar in, no pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Admhaigh) an fhírinne sa chruinniú amárach.",
+     "answer": "Admhófar an fhírinne sa chruinniú amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bunaigh) club camógaíochta nua sa scoil.",
+     "answer": "Bunófar club camógaíochta nua sa scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ciontaigh) é má thagann sé os comhair na cúirte.",
+     "answer": "Ciontófar é má thagann sé os comhair na cúirte."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díothaigh) na crainn má bhíonn stoirm mhór ann.",
+     "answer": "Díothófar na crainn má bhíonn stoirm mhór ann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fiosraigh) an gearán sin.",
+     "answer": "Fiosrófar an gearán sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fostaigh) a lán daoine má thógann siad óstán nua san Iúr.",
+     "answer": "Fostófar a lán daoine má thógann siad óstán nua san Iúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sáraigh) na fadhbanna leis an aip má dhéanann muid ár ndícheall.",
+     "answer": "Sárófar na fadhbanna leis an aip má dhéanann muid ár ndícheall."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scrúdaigh) Bliain 9 i mí na Bealtaine.",
+     "answer": "Scrúdófar Bliain 9 i mí na Bealtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Socraigh) an fhadhb leis an idirlíon ar ball beag.",
+     "answer": "Socrófar an fhadhb leis an idirlíon ar ball beag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tosaigh) ar an traenáil nuair a thagann na gasúir.",
+     "answer": "Tosófar ar an traenáil nuair a thagann na gasúir."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -eofar",
+   "en": "The autonomous form of -igh verbs: -eofar",
+   "rule": "For a verb that ends in -igh, take away -igh and add -eofar, with no pronoun after it: bailigh becomes baileofar.",
+   "steps": [
+    "Find the root: bailigh.",
+    "Take away -igh and add -eofar: baileofar.",
+    "Put it first, with no pronoun after it: Baileofar na fóin roimh an scrúdú."
+   ],
+   "example": {
+    "prompt": "(Bailigh) na fóin roimh an scrúdú.",
+    "answer": "Baileofar na fóin roimh an scrúdú.",
+    "shape": "stem"
+   },
+   "more": [
+    {
+     "prompt": "(Mínigh) na rialacha don fhoireann.",
+     "answer": "Míneofar na rialacha don fhoireann.",
+     "shape": "stem"
+    }
+   ],
+   "hint": "-igh out, -eofar in, no pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Foilsigh) na torthaí ar an suíomh an tseachtain seo chugainn.",
+     "answer": "Foilseofar na torthaí ar an suíomh an tseachtain seo chugainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Truailligh) an abhainn mura ndruidtear an mhonarcha sin.",
+     "answer": "Truailleofar an abhainn mura ndruidtear an mhonarcha sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ainmnigh) an fhoireann camógaíochta Dé hAoine.",
+     "answer": "Ainmneofar an fhoireann camógaíochta Dé hAoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuimhnigh) ar an chluiche sin go deo.",
+     "answer": "Cuimhneofar ar an chluiche sin go deo."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Aimsigh) an fón caillte roimh dheireadh an lae.",
+     "answer": "Aimseofar an fón caillte roimh dheireadh an lae."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Aistrigh) an aip sin go Gaeilge.",
+     "answer": "Aistreofar an aip sin go Gaeilge."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceistigh) na gadaithe má bheirtear orthu.",
+     "answer": "Ceisteofar na gadaithe má bheirtear orthu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sínigh) an conradh leis an chlub ag an chéad chruinniú eile.",
+     "answer": "Síneofar an conradh leis an chlub ag an chéad chruinniú eile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Taifigh) na torthaí scrúduithe nuair a bhíonn faill chuige.",
+     "answer": "Taifeofar na torthaí scrúduithe nuair a bhíonn faill chuige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Réitigh) an fhadhb leis an ríomhaire má théann muid i gceann oibre anois.",
+     "answer": "Réiteofar an fhadhb leis an ríomhaire má théann muid i gceann oibre anois."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. Ordú / Cad é a dhéanfaidh sé? (briathra leathana, -aigh)",
+   "forms": [
+    "Brostaigh abhaile: Brostóidh sé abhaile",
+    "Cabhraigh leis na cailíní: Cabhróidh sé leis na cailíní",
+    "Ceannaigh bainne sa siopa: Ceannóidh sé bainne sa siopa",
+    "Corraigh an leite: Corróidh sé an leite",
+    "Críochnaigh an obair: Críochnóidh sé an obair",
+    "Triomaigh na soithí: Triomóidh sé na soithí",
+    "Ceartaigh na botúin: Ceartóidh sé na botúin"
+   ]
+  },
+  {
+   "title": "A. Ceist: ceannaigh san aimsir fháistineach",
+   "forms": [
+    "An gceannóidh tú an nuachtán?: Ceannóidh mé / Ní cheannóidh mé",
+    "An gceannóidh sé an nuachtán?: Ceannóidh sé / Ní cheannóidh sé",
+    "An gceannóidh sí an nuachtán?: Ceannóidh sí / Ní cheannóidh sí",
+    "An gceannóidh sibh an nuachtán?: Ceannóidh muid / Ní cheannóidh muid",
+    "An gceannóidh siad an nuachtán?: Ceannóidh siad / Ní cheannóidh siad",
+    "An gceannófar an nuachtán?: Ceannófar / Ní cheannófar"
+   ]
+  },
+  {
+   "title": "B. Ordú / Cad é a dhéanfaidh sé? (briathra caola, -igh)",
+   "forms": [
+    "Bailigh na cóipleabhair: Baileoidh sé na cóipleabhair",
+    "Mínigh an abairt: Míneoidh sé an abairt",
+    "Deisigh an rothar: Deiseoidh sé an rothar",
+    "Sínigh an leabhar: Síneoidh sé an leabhar",
+    "Grinnigh na torthaí: Grinneoidh sé na torthaí",
+    "Dúisigh na páistí: Dúiseoidh sé na páistí"
+   ]
+  },
+  {
+   "title": "B. Ceist: bailigh san aimsir fháistineach",
+   "forms": [
+    "An mbaileoidh tú na cóipleabhair?: Baileoidh mé / Ní bhaileoidh mé",
+    "An mbaileoidh sé na cóipleabhair?: Baileoidh sé / Ní bhaileoidh sé",
+    "An mbaileoidh sí na cóipleabhair?: Baileoidh sí / Ní bhaileoidh sí",
+    "An mbaileoidh sibh na cóipleabhair?: Baileoidh muid / Ní bhaileoidh muid",
+    "An mbaileoidh siad na cóipleabhair?: Baileoidh siad / Ní bhaileoidh siad",
+    "An mbaileofar na cóipleabhair?: Baileofar / Ní bhaileofar"
+   ]
+  },
+  {
+   "title": "C. Ordú / Cad é a dhéanfaidh sé? (briathra leathana a thosaíonn ar ghuta)",
+   "forms": [
+    "Aeraigh an seomra: Aeróidh sé an seomra",
+    "Ardaigh an bhratach: Ardóidh sé an bhratach",
+    "Athraigh an téip: Athróidh sé an téip",
+    "Iompaigh an chathaoir: Iompóidh sé an chathaoir",
+    "Ordaigh deoch: Ordóidh sé deoch",
+    "Ullmhaigh an dinnéar: Ullmhóidh sé an dinnéar"
+   ]
+  },
+  {
+   "title": "C. Ceist: ullmhaigh san aimsir fháistineach",
+   "forms": [
+    "An ullmhóidh tú an dinnéar?: Ullmhóidh mé / Ní ullmhóidh mé",
+    "An ullmhóidh sé an dinnéar?: Ullmhóidh sé / Ní ullmhóidh sé",
+    "An ullmhóidh sí an dinnéar?: Ullmhóidh sí / Ní ullmhóidh sí",
+    "An ullmhóidh sibh an dinnéar?: Ullmhóidh muid / Ní ullmhóidh muid",
+    "An ullmhóidh siad an dinnéar?: Ullmhóidh siad / Ní ullmhóidh siad",
+    "An ullmhófar an dinnéar?: Ullmhófar / Ní ullmhófar"
+   ]
+  },
+  {
+   "title": "D. Ordú / Cad é a dhéanfaidh sé? (briathra caola a thosaíonn ar ghuta)",
+   "forms": [
+    "Ainmnigh na daoine sin: Ainmneoidh sé na daoine sin",
+    "Aimsigh an sprioc: Aimseoidh sé an sprioc",
+    "Aistrigh an leabhar: Aistreoidh sé an leabhar",
+    "Éirigh go luath: Éireoidh sé go luath",
+    "Imigh leat: Imeoidh sé leis"
+   ]
+  },
+  {
+   "title": "D. Ceist: aimsigh san aimsir fháistineach",
+   "forms": [
+    "An aimseoidh tú an sprioc?: Aimseoidh mé / Ní aimseoidh mé",
+    "An aimseoidh sé an sprioc?: Aimseoidh sé / Ní aimseoidh sé",
+    "An aimseoidh sí an sprioc?: Aimseoidh sí / Ní aimseoidh sí",
+    "An aimseoidh sibh an sprioc?: Aimseoidh muid / Ní aimseoidh muid",
+    "An aimseoidh siad an sprioc?: Aimseoidh siad / Ní aimseoidh siad",
+    "An aimseofar an sprioc?: Aimseofar / Ní aimseofar"
+   ]
+  },
+  {
+   "title": "E. Ordú / Cad é a dhéanfaidh sé? (briathra a thosaíonn ar f)",
+   "forms": [
+    "Fiosraigh an scéal: Fiosróidh sé an scéal",
+    "Folmhaigh an buicéad: Folmhóidh sé an buicéad"
+   ]
+  },
+  {
+   "title": "E. Ceist: fiosraigh san aimsir fháistineach",
+   "forms": [
+    "An bhfiosróidh tú an scéal?: Fiosróidh mé / Ní fhiosróidh mé",
+    "An bhfiosróidh sé an scéal?: Fiosróidh sé / Ní fhiosróidh sé",
+    "An bhfiosróidh sí an scéal?: Fiosróidh sí / Ní fhiosróidh sí",
+    "An bhfiosróidh sibh an scéal?: Fiosróidh muid / Ní fhiosróidh muid",
+    "An bhfiosróidh siad an scéal?: Fiosróidh siad / Ní fhiosróidh siad",
+    "An bhfiosrófar an scéal?: Fiosrófar / Ní fhiosrófar"
+   ]
+  },
+  {
+   "title": "An Dara Réimniú: Ceannaigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
+   "forms": [
+    "Láithreach: Ceannaím, Ceannaíonn tú, Ceannaíonn sé/sí",
+    "Láithreach: Ceannaíonn muid, Ceannaíonn sibh, Ceannaíonn siad",
+    "Láithreach SB: Ceannaítear",
+    "Láithreach Diúl.: Ní cheannaím",
+    "Láithreach Ceist: An gceannaíonn tú?",
+    "Caite: Cheannaigh mé, Cheannaigh tú, Cheannaigh sé/sí",
+    "Caite: Cheannaigh muid, Cheannaigh sibh, Cheannaigh siad",
+    "Caite SB: Ceannaíodh",
+    "Caite Diúl.: Níor cheannaigh mé",
+    "Caite Ceist: Ar cheannaigh tú?",
+    "Fháistineach: Ceannóidh mé, Ceannóidh tú, Ceannóidh sé/sí",
+    "Fháistineach: Ceannóidh muid, Ceannóidh sibh, Ceannóidh siad",
+    "Fháistineach SB: Ceannófar",
+    "Fháistineach Diúl.: Ní cheannóidh mé",
+    "Fháistineach Ceist: An gceannóidh tú?"
+   ]
+  },
+  {
+   "title": "An Dara Réimniú: Bailigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
+   "forms": [
+    "Láithreach: Bailím, Bailíonn tú, Bailíonn sé/sí",
+    "Láithreach: Bailíonn muid, Bailíonn sibh, Bailíonn siad",
+    "Láithreach SB: Bailítear",
+    "Láithreach Diúl.: Ní bhailím",
+    "Láithreach Ceist: An mbailíonn tú?",
+    "Caite: Bhailigh mé, Bhailigh tú, Bhailigh sé/sí",
+    "Caite: Bhailigh muid, Bhailigh sibh, Bhailigh siad",
+    "Caite SB: Bailíodh",
+    "Caite Diúl.: Níor bhailigh mé",
+    "Caite Ceist: Ar bhailigh tú?",
+    "Fháistineach: Baileoidh mé, Baileoidh tú, Baileoidh sé/sí",
+    "Fháistineach: Baileoidh muid, Baileoidh sibh, Baileoidh siad",
+    "Fháistineach SB: Baileofar",
+    "Fháistineach Diúl.: Ní bhaileoidh mé",
+    "Fháistineach Ceist: An mbaileoidh tú?"
+   ]
+  },
+  {
+   "title": "An Dara Réimniú: Ullmhaigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
+   "forms": [
+    "Láithreach: Ullmhaím, Ullmhaíonn tú, Ullmhaíonn sé/sí",
+    "Láithreach: Ullmhaíonn muid, Ullmhaíonn sibh, Ullmhaíonn siad",
+    "Láithreach SB: Ullmhaítear",
+    "Láithreach Diúl.: Ní ullmhaím",
+    "Láithreach Ceist: An ullmhaíonn tú?",
+    "Caite: D'ullmhaigh mé, D'ullmhaigh tú, D'ullmhaigh sé/sí",
+    "Caite: D'ullmhaigh muid, D'ullmhaigh sibh, D'ullmhaigh siad",
+    "Caite SB: Ullmhaíodh",
+    "Caite Diúl.: Níor ullmhaigh mé",
+    "Caite Ceist: Ar ullmhaigh tú?",
+    "Fháistineach: Ullmhóidh mé, Ullmhóidh tú, Ullmhóidh sé/sí",
+    "Fháistineach: Ullmhóidh muid, Ullmhóidh sibh, Ullmhóidh siad",
+    "Fháistineach SB: Ullmhófar",
+    "Fháistineach Diúl.: Ní ullmhóidh mé",
+    "Fháistineach Ceist: An ullmhóidh tú?"
+   ]
+  },
+  {
+   "title": "An Dara Réimniú: Aimsigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
+   "forms": [
+    "Láithreach: Aimsím, Aimsíonn tú, Aimsíonn sé/sí",
+    "Láithreach: Aimsíonn muid, Aimsíonn sibh, Aimsíonn siad",
+    "Láithreach SB: Aimsítear",
+    "Láithreach Diúl.: Ní aimsím",
+    "Láithreach Ceist: An aimsíonn tú?",
+    "Caite: D'aimsigh mé, D'aimsigh tú, D'aimsigh sé/sí",
+    "Caite: D'aimsigh muid, D'aimsigh sibh, D'aimsigh siad",
+    "Caite SB: Aimsíodh",
+    "Caite Diúl.: Níor aimsigh mé",
+    "Caite Ceist: Ar aimsigh tú?",
+    "Fháistineach: Aimseoidh mé, Aimseoidh tú, Aimseoidh sé/sí",
+    "Fháistineach: Aimseoidh muid, Aimseoidh sibh, Aimseoidh siad",
+    "Fháistineach SB: Aimseofar",
+    "Fháistineach Diúl.: Ní aimseoidh mé",
+    "Fháistineach Ceist: An aimseoidh tú?"
+   ]
+  },
+  {
+   "title": "An Dara Réimniú: Fiosraigh (aimsir láithreach, aimsir chaite, aimsir fháistineach)",
+   "forms": [
+    "Láithreach: Fiosraím, Fiosraíonn tú, Fiosraíonn sé/sí",
+    "Láithreach: Fiosraíonn muid, Fiosraíonn sibh, Fiosraíonn siad",
+    "Láithreach SB: Fiosraítear",
+    "Láithreach Diúl.: Ní fhiosraím",
+    "Láithreach Ceist: An bhfiosraíonn tú?",
+    "Caite: D'fhiosraigh mé, D'fhiosraigh tú, D'fhiosraigh sé/sí",
+    "Caite: D'fhiosraigh muid, D'fhiosraigh sibh, D'fhiosraigh siad",
+    "Caite SB: Fiosraíodh",
+    "Caite Diúl.: Níor fhiosraigh mé",
+    "Caite Ceist: Ar fhiosraigh tú?",
+    "Fháistineach: Fiosróidh mé, Fiosróidh tú, Fiosróidh sé/sí",
+    "Fháistineach: Fiosróidh muid, Fiosróidh sibh, Fiosróidh siad",
+    "Fháistineach SB: Fiosrófar",
+    "Fháistineach Diúl.: Ní fhiosróidh mé",
+    "Fháistineach Ceist: An bhfiosróidh tú?"
+   ]
+  },
+  {
+   "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana, a go c)",
+   "forms": [
+    "admhaigh (confess): admháil, admhaithe",
+    "aeraigh (ventilate): aerú, aeraithe",
+    "análaigh (breathe): análú, análaithe",
+    "aontaigh (agree): aontú, aontaithe",
+    "ardaigh (raise, build): ardú, ardaithe",
+    "aslonnaigh (evacuate): aslonnú, aslonnaithe",
+    "athraigh (change): athrú, athraithe",
+    "beannaigh (bless): beannú, beannaithe",
+    "beartaigh (plan, decide): beartú, beartaithe",
+    "beathaigh (feed): beathú, beathaithe",
+    "bláthaigh (flower, adorn): bláthú, bláthaithe",
+    "bodhraigh (deafen): bodhrú, bodhraithe",
+    "bréagnaigh (refute): bréagnú, bréagnaithe",
+    "breathnaigh (look): breathnú, breathnaithe",
+    "brostaigh (hurry): brostú, brostaithe",
+    "buanaigh (persevere): buanú, buanaithe",
+    "bunaigh (establish): bunú, bunaithe",
+    "cabhraigh (help): cabhrú, cabhraithe",
+    "caolaigh (reduce, dilute): caolú, caolaithe",
+    "caomhnaigh (conserve): caomhnú, caomhnaithe",
+    "ceadaigh (allow): ceadú, ceadaithe",
+    "cealaigh (cancel): cealú, cealaithe",
+    "ceannaigh (buy): ceannach, ceannaithe",
+    "ceansaigh (tame): ceansú, ceansaithe",
+    "ceartaigh (correct): ceartú, ceartaithe",
+    "ciallaigh (signify): ciallú, ciallaithe",
+    "ciontaigh (convict): ciontú, ciontaithe",
+    "ciúnaigh (quieten): ciúnú, ciúnaithe",
+    "claochlaigh (change): claochlú, claochlaithe",
+    "cláraigh (register): clárú, cláraithe",
+    "clúdaigh (cover): clúdach, clúdaithe",
+    "cnuasaigh (collect): cnuasach, cnuasaithe",
+    "comhdaigh (file): comhdú, comhdaithe",
+    "corraigh (stir): corraí, corraithe",
+    "cothaigh (feed): cothú, cothaithe",
+    "creathnaigh (shake): creathnú, creathnaithe",
+    "críochnaigh (finish): críochnú, críochnaithe",
+    "cruthaigh (create, prove): cruthú, cruthaithe",
+    "cuardaigh (search): cuardach, cuardaithe",
+    "cúlaigh (retreat): cúlú, cúlaithe"
+   ]
+  },
+  {
+   "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana, c go t)",
+   "forms": [
+    "cumhdaigh (cover): cumhdach, cumhdaithe",
+    "dathaigh (colour): dathú, daite",
+    "díothaigh (destroy): díothú, díothaithe",
+    "diúltaigh (refuse): diúltú, diúltaithe",
+    "dúnmharaigh (murder): dúnmharú, dúnmharaithe",
+    "éalaigh (escape): éalú, éalaithe",
+    "feabhsaigh (improve): feabhsú, feabhsaithe",
+    "fiafraigh (ask): fiafraí, fiafraithe",
+    "fiosraigh (inquire): fiosrú, fiosraithe",
+    "folmhaigh (empty): folmhú, folmhaithe",
+    "fostaigh (employ): fostú, fostaithe",
+    "fuadaigh (abduct): fuadach, fuadaithe",
+    "giorraigh (shorten): giorrú, giorraithe",
+    "greamaigh (grip): greamú, greamaithe",
+    "gríosaigh (incite): gríosú, gríosaithe",
+    "imeaglaigh (intimidate): imeaglú, imeaglaithe",
+    "iompaigh (turn): iompú, iompaithe",
+    "ionsaigh (assault): ionsaí, ionsaithe",
+    "laghdaigh (diminish): laghdú, laghdaithe",
+    "leasaigh (amend): leasú, leasaithe",
+    "lonraigh (shine): lonrú, lonraithe",
+    "maraigh (kill): marú, maraithe",
+    "maslaigh (insult): maslú, maslaithe",
+    "meabhraigh (memorise, remind): meabhrú, meabhraithe",
+    "mothaigh (feel): mothú, mothaithe",
+    "neadaigh (nest): neadú, neadaithe",
+    "neartaigh (strengthen): neartú, neartaithe",
+    "ordaigh (order): ordú, ordaithe",
+    "salaigh (soil): salú, salaithe",
+    "samhlaigh (imagine): samhlú, samhlaithe",
+    "sáraigh (overcome): sárú, sáraithe",
+    "scanraigh (frighten): scanrú, scanraithe",
+    "scrúdaigh (examine): scrúdú, scrúdaithe",
+    "slánaigh (complete, save): slánú, slánaithe",
+    "sleamhnaigh (slip): sleamhnú, sleamhnaithe",
+    "smachtaigh (control): smachtú, smachtaithe",
+    "socraigh (arrange): socrú, socraithe",
+    "sruthlaigh (rinse): sruthlú, sruthlaithe",
+    "tiomsaigh (gather): tiomsú, tiomsaithe",
+    "tiontaigh (translate, turn): tiontú, tiontaithe"
+   ]
+  },
+  {
+   "title": "Fréamh an Bhriathair / An tAinm Briathartha / An Aidiacht Bhriathartha (briathra leathana t go u, agus briathra caola)",
+   "forms": [
+    "tosaigh (begin): tosú, tosaithe",
+    "trasnaigh (cross): trasnú, trasnaithe",
+    "treoraigh (guide): treorú, treoraithe",
+    "triomaigh (dry): triomú, triomaithe",
+    "ullmhaigh (prepare): ullmhú, ullmhaithe",
+    "aimsigh (locate): aimsiú, aimsithe",
+    "ainmnigh (name): ainmniú, ainmnithe",
+    "aistrigh (transfer): aistriú, aistrithe",
+    "beirigh (boil): beiriú, beirithe",
+    "bisigh (improve): biseach, bisithe",
+    "breithnigh (consider): breithniú, breithnithe",
+    "ceistigh (question): ceistiú, ceistithe",
+    "coinnigh (keep): coinneáil, coinnithe",
+    "cruinnigh (gather): cruinniú, cruinnithe",
+    "cuimhnigh (remember): cuimhneamh, cuimhnithe",
+    "daingnigh (confirm): daingniú, daingnithe",
+    "deifrigh (hurry): deifriú, deifrithe",
+    "deisigh (mend): deisiú, deisithe",
+    "dírigh (straighten): díriú, dírithe",
+    "dúisigh (waken): dúiseacht, dúisithe",
+    "éirigh (arise): éirí, éirithe",
+    "feidhmigh (function): feidhmiú, feidhmithe",
+    "foilsigh (publish): foilsiú, foilsithe",
+    "fuaimnigh (pronounce): fuaimniú, fuaimnithe",
+    "glinnigh (glare, stare): glinniúint, glinnithe",
+    "grinnigh (examine closely): grinniú, grinnithe",
+    "imigh (go): imeacht, imithe",
+    "impigh (beseech): impí, impithe",
+    "maisigh (decorate): maisiú, maisithe",
+    "mínigh (explain): míniú, mínithe",
+    "oibrigh (work): oibriú, oibrithe",
+    "réitigh (settle): réiteach, réitithe",
+    "sínigh (sign): síniú, sínithe",
+    "spídigh (abuse): spídiú, spídithe",
+    "taifigh (analyse): taifeach, taifithe",
+    "truailligh (corrupt): truailliú, truaillithe"
+   ]
+  }
+ ]
 }

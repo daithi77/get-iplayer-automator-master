@@ -1,488 +1,488 @@
 {
-  "id": "nr-laithreach",
-  "lessons": [
+ "id": "nr-laithreach",
+ "lessons": [
+  {
+   "title": "An fhoirm dhiúltach: Ní + séimhiú",
+   "en": "Saying what does not happen: Ní + lenition",
+   "rule": "To make a present-tense verb negative, put Ní in front of it and add h after the first letter: tagann becomes Ní thagann. Deir and verbs that begin with a vowel do not change (Ní deir, Ní itheann), and tá becomes Níl.",
+   "steps": [
+    "Find the verb at the start of the sentence: Déanann.",
+    "Put Ní in front of it.",
+    "Add h after the first letter: Ní dhéanann.",
+    "Keep the rest of the sentence as it was: Ní dhéanann sí a dícheall sa rang Gaeilge."
+   ],
+   "example": {
+    "prompt": "Déanann sí a dícheall sa rang Gaeilge.",
+    "answer": "Ní dhéanann sí a dícheall sa rang Gaeilge."
+   },
+   "more": [
     {
-      "title": "An fhoirm dhiúltach: Ní + séimhiú",
-      "en": "Saying what does not happen: Ní + lenition",
-      "rule": "To make a present-tense verb negative, put Ní in front of it and add h after the first letter: tagann becomes Ní thagann. Deir and verbs that begin with a vowel do not change (Ní deir, Ní itheann), and tá becomes Níl.",
-      "steps": [
-        "Find the verb at the start of the sentence: Déanann.",
-        "Put Ní in front of it.",
-        "Add h after the first letter: Ní dhéanann.",
-        "Keep the rest of the sentence as it was: Ní dhéanann sí a dícheall sa rang Gaeilge."
-      ],
-      "example": {
-        "prompt": "Déanann sí a dícheall sa rang Gaeilge.",
-        "answer": "Déanann sí a dícheall sa rang Gaeilge. -> Ní dhéanann sí a dícheall sa rang Gaeilge."
-      },
-      "more": [
-        {
-          "prompt": "Téann sé chuig an traenáil achan Satharn.",
-          "answer": "Téann sé chuig an traenáil achan Satharn. -> Ní théann sé chuig an traenáil achan Satharn."
-        },
-        {
-          "prompt": "Tchí sé an bus ag teacht.",
-          "answer": "Tchí sé an bus ag teacht. -> Ní fheiceann sé an bus ag teacht."
-        }
-      ],
-      "hint": "Ní + h after the first letter; deir and vowels stay the same, tá becomes Níl.",
-      "items": [
-        {
-          "shape": "transform",
-          "prompt": "Cloiseann muid an nuacht ar an raidió.",
-          "answer": "Cloiseann muid an nuacht ar an raidió. -> Ní chloiseann muid an nuacht ar an raidió."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Deir sí sin lena cara achan lá.",
-          "answer": "Deir sí sin lena cara achan lá. -> Ní deir sí sin lena cara achan lá."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Beireann muid ar an bhus ag a hocht.",
-          "answer": "Beireann muid ar an bhus ag a hocht. -> Ní bheireann muid ar an bhus ag a hocht."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Faigheann muid leathlá ar an Aoine.",
-          "answer": "Faigheann muid leathlá ar an Aoine. -> Ní fhaigheann muid leathlá ar an Aoine."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Itheann sé a lón sa cheaintín.",
-          "answer": "Itheann sé a lón sa cheaintín. -> Ní itheann sé a lón sa cheaintín."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Tá sé ar an fhón.",
-          "answer": "Tá sé ar an fhón. -> Níl sé ar an fhón."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Tagann muid abhaile ar an traein.",
-          "answer": "Tagann muid abhaile ar an traein. -> Ní thagann muid abhaile ar an traein."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Tugann sí a fón don mhúinteoir.",
-          "answer": "Tugann sí a fón don mhúinteoir. -> Ní thugann sí a fón don mhúinteoir."
-        },
-        {
-          "shape": "transform",
-          "prompt": "Téann siad chuig an chluiche camógaíochta.",
-          "answer": "Téann siad chuig an chluiche camógaíochta. -> Ní théann siad chuig an chluiche camógaíochta."
-        }
-      ]
+     "prompt": "Téann sé chuig an traenáil achan Satharn.",
+     "answer": "Ní théann sé chuig an traenáil achan Satharn."
     },
     {
-      "title": "An fhoirm cheisteach: An + urú",
-      "en": "Asking a question: An + eclipsis",
-      "rule": "To turn a sentence into a question, put An in front of the verb and eclipse it: tagann becomes An dtagann, beireann becomes An mbeireann. If the sentence has Ní, take away Ní and its h first; a vowel does not change (An itheann), and deir becomes An ndeir.",
-      "steps": [
-        "Find the verb: Tagann.",
-        "Put An in front of it.",
-        "Eclipse the verb: t takes d, so An dtagann.",
-        "Keep the rest and add a question mark: An dtagann sé ar scoil ar an bhus?"
-      ],
-      "example": {
-        "prompt": "Tagann sé ar scoil ar an bhus.",
-        "answer": "Tagann sé ar scoil ar an bhus. -> An dtagann sé ar scoil ar an bhus?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "Ní théann sé chuig an traenáil achan Satharn.",
-          "answer": "Ní théann sé chuig an traenáil achan Satharn. -> An dtéann sé chuig an traenáil achan Satharn?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "An + eclipsis: b to mb, c to gc, d to nd, f to bhf, g to ng, p to bp, t to dt.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Cloiseann siad an ceol ar an bhus.",
-          "answer": "Cloiseann siad an ceol ar an bhus. -> An gcloiseann siad an ceol ar an bhus?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ní thagann sí chuig an traenáil.",
-          "answer": "Ní thagann sí chuig an traenáil. -> An dtagann sí chuig an traenáil?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ní deir sé mórán sa rang.",
-          "answer": "Ní deir sé mórán sa rang. -> An ndeir sé mórán sa rang?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Tugann sí an fón don mhúinteoir.",
-          "answer": "Tugann sí an fón don mhúinteoir. -> An dtugann sí an fón don mhúinteoir?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Beireann sí ar an liathróid sa chluiche camógaíochta.",
-          "answer": "Beireann sí ar an liathróid sa chluiche camógaíochta. -> An mbeireann sí ar an liathróid sa chluiche camógaíochta?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Ní itheann sí bricfeasta ar maidin.",
-          "answer": "Ní itheann sí bricfeasta ar maidin. -> An itheann sí bricfeasta ar maidin?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Téann siad chuig an Ghaeltacht i dTír Chonaill achan samhradh.",
-          "answer": "Téann siad chuig an Ghaeltacht i dTír Chonaill achan samhradh. -> An dtéann siad chuig an Ghaeltacht i dTír Chonaill achan samhradh?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Ceist le tú agus sibh",
-      "en": "Asking you: swap mé for tú and muid for sibh",
-      "rule": "When the sentence is about me or us, the question is put to you: change the -im form to the verb with tú (Déanaim becomes An ndéanann tú?) and muid to sibh (Téann muid becomes An dtéann sibh?). Tá mé becomes An bhfuil tú?",
-      "steps": [
-        "Find the verb and who does it: Itheann muid.",
-        "The question is put to the group, so change muid to sibh: Itheann sibh.",
-        "Put An in front; a vowel takes no eclipsis: An itheann sibh.",
-        "Keep the rest and add a question mark: An itheann sibh lón sa cheaintín?"
-      ],
-      "example": {
-        "prompt": "Itheann muid lón sa cheaintín.",
-        "answer": "Itheann muid lón sa cheaintín. -> An itheann sibh lón sa cheaintín?",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "Tagaim abhaile ar an bhus.",
-          "answer": "Tagaim abhaile ar an bhus. -> An dtagann tú abhaile ar an bhus?",
-          "shape": "question",
-          "self": true
-        },
-        {
-          "prompt": "Tchím an bus ag teacht.",
-          "answer": "Tchím an bus ag teacht. -> An bhfeiceann tú an bus ag teacht?",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "mé becomes tú, muid becomes sibh, then An + eclipsis.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "Téann muid chuig an chluiche achan Satharn.",
-          "answer": "Téann muid chuig an chluiche achan Satharn. -> An dtéann sibh chuig an chluiche achan Satharn?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Tá mé sa leabharlann.",
-          "answer": "Tá mé sa leabharlann. -> An bhfuil tú sa leabharlann?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Níl muid ar an bhus.",
-          "answer": "Níl muid ar an bhus. -> An bhfuil sibh ar an bhus?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Faigheann muid obair bhaile achan oíche.",
-          "answer": "Faigheann muid obair bhaile achan oíche. -> An bhfaigheann sibh obair bhaile achan oíche?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Déanaim mo chuid obair bhaile ar an táibléad.",
-          "answer": "Déanaim mo chuid obair bhaile ar an táibléad. -> An ndéanann tú do chuid obair bhaile ar an táibléad?",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "Cloiseann muid an clog ag bualadh ag am sosa.",
-          "answer": "Cloiseann muid an clog ag bualadh ag am sosa. -> An gcloiseann sibh an clog ag bualadh ag am sosa?",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "Freagra gairid: dearfach agus diúltach",
-      "en": "Short answers: yes and no",
-      "rule": "Irish has no word for yes or no: for yes, repeat the verb with its subject (Cloisim), and for no, put Ní in front and add h (Ní chloisim). A question to tú is answered with the -im form, and the question An bhfeiceann tú? is answered Tchím or Ní fheicim.",
-      "steps": [
-        "Take the verb from the question and remove the eclipsis: gcloiseann becomes cloiseann.",
-        "For yes, repeat it with the pronoun: Cloiseann sé.",
-        "For no, put Ní in front and add h: Ní chloiseann sé.",
-        "Write both answers after the question: Cloiseann sé. / Ní chloiseann sé."
-      ],
-      "example": {
-        "prompt": "An gcloiseann sé an fón ag bualadh achan mhaidin?",
-        "answer": "An gcloiseann sé an fón ag bualadh achan mhaidin? Cloiseann sé. / Ní chloiseann sé.",
-        "shape": "question",
-        "self": true
-      },
-      "more": [
-        {
-          "prompt": "An bhfeiceann tú an bus?",
-          "answer": "An bhfeiceann tú an bus? Tchím. / Ní fheicim.",
-          "shape": "question",
-          "self": true
-        },
-        {
-          "prompt": "An bhfuil sé go maith ag an pheil?",
-          "answer": "An bhfuil sé go maith ag an pheil? Tá sé. / Níl sé.",
-          "shape": "question",
-          "self": true
-        }
-      ],
-      "hint": "Repeat the verb for yes; Ní + h for no.",
-      "items": [
-        {
-          "shape": "question",
-          "prompt": "An bhfaigheann tú teachtaireacht ar an fhón achan oíche?",
-          "answer": "An bhfaigheann tú teachtaireacht ar an fhón achan oíche? Faighim. / Ní fhaighim.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An itheann tú bricfeasta roimh an scoil?",
-          "answer": "An itheann tú bricfeasta roimh an scoil? Ithim. / Ní ithim.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An dtéann tú chuig an linn snámha achan deireadh seachtaine?",
-          "answer": "An dtéann tú chuig an linn snámha achan deireadh seachtaine? Téim. / Ní théim.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An gcloiseann tú an nuacht ar an raidió ar maidin?",
-          "answer": "An gcloiseann tú an nuacht ar an raidió ar maidin? Cloisim. / Ní chloisim.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An ndéanann do mháthair císte ar do bhreithlá?",
-          "answer": "An ndéanann do mháthair císte ar do bhreithlá? Déanann sí. / Ní dhéanann sí.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An dtugann do thuismitheoirí airgead póca duit achan seachtain?",
-          "answer": "An dtugann do thuismitheoirí airgead póca duit achan seachtain? Tugann siad. / Ní thugann siad.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An ndeir do mháthair leat an fón a chur síos?",
-          "answer": "An ndeir do mháthair leat an fón a chur síos? Deir sí. / Ní deir sí.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An dtagann tú ar scoil ar an bhus?",
-          "answer": "An dtagann tú ar scoil ar an bhus? Tagaim. / Ní thagaim.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An bhfuil tú sa Ghaeltacht anois?",
-          "answer": "An bhfuil tú sa Ghaeltacht anois? Tá mé. / Níl mé.",
-          "self": true
-        },
-        {
-          "shape": "question",
-          "prompt": "An bhfaigheann tú ríomhphost anois is arís?",
-          "answer": "An bhfaigheann tú ríomhphost anois is arís? Faighim. / Ní fhaighim.",
-          "self": true
-        }
-      ]
-    },
-    {
-      "title": "An saorbhriathar",
-      "en": "The autonomous form: when nobody is named",
-      "rule": "When you do not say who does the action, use the autonomous form, which ends in -tar, -tear or -ear and has no pronoun after it: tugann becomes Tugtar, cloiseann becomes Cloistear. Learn the forms from the tables: beirtear, cloistear, tagtar, itear, tugtar, déantar, feictear, deirtear, téitear, faightear.",
-      "steps": [
-        "Find the verb in brackets: téigh.",
-        "Take its autonomous present form: téitear.",
-        "Put it first, with no pronoun after it: Téitear chuig an Ghaeltacht achan samhradh."
-      ],
-      "example": {
-        "prompt": "(téigh) chuig an Ghaeltacht achan samhradh.",
-        "answer": "Téitear chuig an Ghaeltacht achan samhradh.",
-        "shape": "stem"
-      },
-      "more": [
-        {
-          "prompt": "(feic) an fharraige ón bhus.",
-          "answer": "Feictear an fharraige ón bhus.",
-          "shape": "stem"
-        },
-        {
-          "prompt": "(ith) lón sa cheaintín achan lá.",
-          "answer": "Itear lón sa cheaintín achan lá.",
-          "shape": "stem"
-        }
-      ],
-      "hint": "No pronoun: use the -tar, -tear or -ear form.",
-      "items": [
-        {
-          "shape": "stem",
-          "prompt": "(faigh) obair bhaile ar an táibléad achan oíche.",
-          "answer": "Faightear obair bhaile ar an táibléad achan oíche."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(clois) an nuacht ar an raidió achan mhaidin.",
-          "answer": "Cloistear an nuacht ar an raidió achan mhaidin."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(tabhair) duais don fhoireann is fearr.",
-          "answer": "Tugtar duais don fhoireann is fearr."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(déan) obair mhaith sa rang Gaeilge achan lá.",
-          "answer": "Déantar obair mhaith sa rang Gaeilge achan lá."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(abair) go bhfuil muintir an Iúir cairdiúil.",
-          "answer": "Deirtear go bhfuil muintir an Iúir cairdiúil."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(beir) ar an liathróid i gcluiche cispheile.",
-          "answer": "Beirtear ar an liathróid i gcluiche cispheile."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(ith) torthaí ag am sosa go minic.",
-          "answer": "Itear torthaí ag am sosa go minic."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(faigh) leathlá roimh an Nollaig.",
-          "answer": "Faightear leathlá roimh an Nollaig."
-        },
-        {
-          "shape": "stem",
-          "prompt": "(déan) iarracht airgead a bhailiú don scoil.",
-          "answer": "Déantar iarracht airgead a bhailiú don scoil."
-        }
-      ]
+     "prompt": "Tchí sé an bus ag teacht.",
+     "answer": "Ní fheiceann sé an bus ag teacht."
     }
-  ],
-  "tables": [
+   ],
+   "hint": "Ní + h after the first letter; deir and vowels stay the same, tá becomes Níl.",
+   "items": [
     {
-      "title": "Beir, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Beirim | Beireann muid | Ní bheirim | An mbeirim?",
-        "Beireann tú | Beireann sibh",
-        "Beireann sé/sí | Beireann siad",
-        "SB Beirtear | Ní bheirtear | An mbeirtear?"
-      ]
+     "shape": "transform",
+     "prompt": "Cluineann muid an nuacht ar an raidió.",
+     "answer": "Ní chluineann muid an nuacht ar an raidió."
     },
     {
-      "title": "Clois, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Cloisim | Cloiseann muid | Ní chloisim | An gcloisim?",
-        "Cloiseann tú | Cloiseann sibh",
-        "Cloiseann sé/sí | Cloiseann siad",
-        "SB Cloistear | Ní chloistear | An gcloistear?"
-      ]
+     "shape": "transform",
+     "prompt": "Deir sí sin lena cara achan lá.",
+     "answer": "Ní deir sí sin lena cara achan lá."
     },
     {
-      "title": "Tar, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Tagaim | Tagann muid | Ní thagaim | An dtagaim?",
-        "Tagann tú | Tagann sibh",
-        "Tagann sé/sí | Tagann siad",
-        "SB Tagtar | Ní thagtar | An dtagtar?"
-      ]
+     "shape": "transform",
+     "prompt": "Beireann muid ar an bhus ag a hocht.",
+     "answer": "Ní bheireann muid ar an bhus ag a hocht."
     },
     {
-      "title": "Ith, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Ithim | Itheann muid | Ní ithim | An ithim?",
-        "Itheann tú | Itheann sibh",
-        "Itheann sé/sí | Itheann siad",
-        "SB Itear | Ní itear | An itear?"
-      ]
+     "shape": "transform",
+     "prompt": "Faigheann muid leathlá ar an Aoine.",
+     "answer": "Ní fhaigheann muid leathlá ar an Aoine."
     },
     {
-      "title": "Tabhair, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Tugaim | Tugann muid | Ní thugaim | An dtugaim?",
-        "Tugann tú | Tugann sibh",
-        "Tugann sé/sí | Tugann siad",
-        "SB Tugtar | Ní thugtar | An dtugtar?"
-      ]
+     "shape": "transform",
+     "prompt": "Itheann sé a lón sa cheaintín.",
+     "answer": "Ní itheann sé a lón sa cheaintín."
     },
     {
-      "title": "Déan, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Déanaim | Déanann muid | Ní dhéanaim | An ndéanaim?",
-        "Déanann tú | Déanann sibh",
-        "Déanann sé/sí | Déanann siad",
-        "SB Déantar | Ní dhéantar | An ndéantar?"
-      ]
+     "shape": "transform",
+     "prompt": "Tá sé ar an fhón.",
+     "answer": "Níl sé ar an fhón."
     },
     {
-      "title": "Feic, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Tchím | Tchí muid | Ní fheicim | An bhfeicim?",
-        "Tchí tú | Tchí sibh",
-        "Tchí sé/sí | Tchí siad",
-        "SB Feictear (Ulaidh fosta: tchítear) | Ní fheictear | An bhfeictear?"
-      ]
+     "shape": "transform",
+     "prompt": "Tagann muid abhaile ar an traein.",
+     "answer": "Ní thagann muid abhaile ar an traein."
     },
     {
-      "title": "Abair, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Deirim | Deir muid | Ní deirim | An ndeirim?",
-        "Deir tú | Deir sibh",
-        "Deir sé/sí | Deir siad",
-        "SB Deirtear | Ní deirtear | An ndeirtear?"
-      ]
+     "shape": "transform",
+     "prompt": "Tugann sí a fón don mhúinteoir.",
+     "answer": "Ní thugann sí a fón don mhúinteoir."
     },
     {
-      "title": "Téigh, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Téim | Téann muid | Ní théim | An dtéim?",
-        "Téann tú | Téann sibh",
-        "Téann sé/sí | Téann siad",
-        "SB Téitear | Ní théitear | An dtéitear?"
-      ]
-    },
-    {
-      "title": "Faigh, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Faighim | Faigheann muid | Ní fhaighim | An bhfaighim?",
-        "Faigheann tú | Faigheann sibh",
-        "Faigheann sé/sí | Faigheann siad",
-        "SB Faightear | Ní fhaightear | An bhfaightear?"
-      ]
-    },
-    {
-      "title": "Bí, an aimsir láithreach (dearfach, diúltach, ceisteach)",
-      "forms": [
-        "Tá mé | Tá muid | Níl mé | Níl muid | An bhfuil mé?",
-        "Tá tú | Tá sibh | Níl tú | Níl sibh",
-        "Tá sé/sí | Tá siad | Níl sé/sí | Níl siad",
-        "SB Táthar | Níltear"
-      ]
+     "shape": "transform",
+     "prompt": "Téann siad chuig an chluiche camógaíochta.",
+     "answer": "Ní théann siad chuig an chluiche camógaíochta."
     }
-  ]
+   ]
+  },
+  {
+   "title": "An fhoirm cheisteach: An + urú",
+   "en": "Asking a question: An + eclipsis",
+   "rule": "To turn a sentence into a question, put An in front of the verb and eclipse it: tagann becomes An dtagann, beireann becomes An mbeireann. If the sentence has Ní, take away Ní and its h first; a vowel does not change (An itheann), and deir becomes An ndeir.",
+   "steps": [
+    "Find the verb: Tagann.",
+    "Put An in front of it.",
+    "Eclipse the verb: t takes d, so An dtagann.",
+    "Keep the rest and add a question mark: An dtagann sé ar scoil ar an bhus?"
+   ],
+   "example": {
+    "prompt": "Tagann sé ar scoil ar an bhus.",
+    "answer": "An dtagann sé ar scoil ar an bhus?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "Ní théann sé chuig an traenáil achan Satharn.",
+     "answer": "An dtéann sé chuig an traenáil achan Satharn?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "An + eclipsis: b to mb, c to gc, d to nd, f to bhf, g to ng, p to bp, t to dt.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Cluineann siad an ceol ar an bhus.",
+     "answer": "An gcluineann siad an ceol ar an bhus?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní thagann sí chuig an traenáil.",
+     "answer": "An dtagann sí chuig an traenáil?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní deir sé mórán sa rang.",
+     "answer": "An ndeir sé mórán sa rang?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Tugann sí an fón don mhúinteoir.",
+     "answer": "An dtugann sí an fón don mhúinteoir?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Beireann sí ar an liathróid sa chluiche camógaíochta.",
+     "answer": "An mbeireann sí ar an liathróid sa chluiche camógaíochta?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní itheann sí bricfeasta ar maidin.",
+     "answer": "An itheann sí bricfeasta ar maidin?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Téann siad chuig an Ghaeltacht i nDún na nGall achan samhradh.",
+     "answer": "An dtéann siad chuig an Ghaeltacht i nDún na nGall achan samhradh?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Ceist le tú agus sibh",
+   "en": "Asking you: swap mé for tú and muid for sibh",
+   "rule": "When the sentence is about me or us, the question is put to you: change the -im form to the verb with tú (Déanaim becomes An ndéanann tú?) and muid to sibh (Téann muid becomes An dtéann sibh?). Tá mé becomes An bhfuil tú?",
+   "steps": [
+    "Find the verb and who does it: Itheann muid.",
+    "The question is put to the group, so change muid to sibh: Itheann sibh.",
+    "Put An in front; a vowel takes no eclipsis: An itheann sibh.",
+    "Keep the rest and add a question mark: An itheann sibh lón sa cheaintín?"
+   ],
+   "example": {
+    "prompt": "Itheann muid lón sa cheaintín.",
+    "answer": "An itheann sibh lón sa cheaintín?",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "Tagaim abhaile ar an bhus.",
+     "answer": "An dtagann tú abhaile ar an bhus?",
+     "shape": "question",
+     "self": true
+    },
+    {
+     "prompt": "Tchím an bus ag teacht.",
+     "answer": "An bhfeiceann tú an bus ag teacht?",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "mé becomes tú, muid becomes sibh, then An + eclipsis.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Téann muid chuig an chluiche achan Satharn.",
+     "answer": "An dtéann sibh chuig an chluiche achan Satharn?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Tá mé sa leabharlann.",
+     "answer": "An bhfuil tú sa leabharlann?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níl muid ar an bhus.",
+     "answer": "An bhfuil sibh ar an bhus?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Faigheann muid obair bhaile achan oíche.",
+     "answer": "An bhfaigheann sibh obair bhaile achan oíche?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Déanaim mo chuid obair bhaile ar an táibléad.",
+     "answer": "An ndéanann tú do chuid obair bhaile ar an táibléad?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Cluineann muid an clog ag bualadh ag am sosa.",
+     "answer": "An gcluineann sibh an clog ag bualadh ag am sosa?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Freagra gairid: dearfach agus diúltach",
+   "en": "Short answers: yes and no",
+   "rule": "Irish has no word for yes or no: for yes, repeat the verb with its subject (Cluinim), and for no, put Ní in front and add h (Ní chluinim). A question to tú is answered with the -im form, and the question An bhfeiceann tú? is answered Tchím or Ní fheicim.",
+   "steps": [
+    "Take the verb from the question and remove the eclipsis: gcluineann becomes cluineann.",
+    "For yes, repeat it with the pronoun: Cluineann sé.",
+    "For no, put Ní in front and add h: Ní chluineann sé.",
+    "Write both answers after the question: Cluineann sé. / Ní chluineann sé."
+   ],
+   "example": {
+    "prompt": "An gcluineann sé an fón ag bualadh achan mhaidin?",
+    "answer": "An gcluineann sé an fón ag bualadh achan mhaidin? Cluineann sé. / Ní chluineann sé.",
+    "shape": "question",
+    "self": true
+   },
+   "more": [
+    {
+     "prompt": "An bhfeiceann tú an bus?",
+     "answer": "An bhfeiceann tú an bus? Tchím. / Ní fheicim.",
+     "shape": "question",
+     "self": true
+    },
+    {
+     "prompt": "An bhfuil sé go maith ag an pheil?",
+     "answer": "An bhfuil sé go maith ag an pheil? Tá sé. / Níl sé.",
+     "shape": "question",
+     "self": true
+    }
+   ],
+   "hint": "Repeat the verb for yes; Ní + h for no.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "An bhfaigheann tú teachtaireacht ar an fhón achan oíche?",
+     "answer": "An bhfaigheann tú teachtaireacht ar an fhón achan oíche? Faighim. / Ní fhaighim.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An itheann tú bricfeasta roimh an scoil?",
+     "answer": "An itheann tú bricfeasta roimh an scoil? Ithim. / Ní ithim.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An dtéann tú chuig an linn snámha achan deireadh seachtaine?",
+     "answer": "An dtéann tú chuig an linn snámha achan deireadh seachtaine? Téim. / Ní théim.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An gcluineann tú an nuacht ar an raidió ar maidin?",
+     "answer": "An gcluineann tú an nuacht ar an raidió ar maidin? Cluinim. / Ní chluinim.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An ndéanann do mháthair císte ar do bhreithlá?",
+     "answer": "An ndéanann do mháthair císte ar do bhreithlá? Déanann sí. / Ní dhéanann sí.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An dtugann do thuismitheoirí airgead póca duit achan seachtain?",
+     "answer": "An dtugann do thuismitheoirí airgead póca duit achan seachtain? Tugann siad. / Ní thugann siad.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An ndeir do mháthair leat an fón a chur síos?",
+     "answer": "An ndeir do mháthair leat an fón a chur síos? Deir sí. / Ní deir sí.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An dtagann tú ar scoil ar an bhus?",
+     "answer": "An dtagann tú ar scoil ar an bhus? Tagaim. / Ní thagaim.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An bhfuil tú sa Ghaeltacht anois?",
+     "answer": "An bhfuil tú sa Ghaeltacht anois? Tá mé. / Níl mé.",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "An bhfaigheann tú ríomhphost anois is arís?",
+     "answer": "An bhfaigheann tú ríomhphost anois is arís? Faighim. / Ní fhaighim.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar",
+   "en": "The autonomous form: when nobody is named",
+   "rule": "When you do not say who does the action, use the autonomous form, which ends in -tar, -tear or -ear and has no pronoun after it: tugann becomes Tugtar, cluineann becomes Cluintear. Learn the forms from the tables: beirtear, cluintear, tagtar, itear, tugtar, déantar, feictear, deirtear, téitear, faightear.",
+   "steps": [
+    "Find the verb in brackets: téigh.",
+    "Take its autonomous present form: téitear.",
+    "Put it first, with no pronoun after it: Téitear chuig an Ghaeltacht achan samhradh."
+   ],
+   "example": {
+    "prompt": "(téigh) chuig an Ghaeltacht achan samhradh.",
+    "answer": "Téitear chuig an Ghaeltacht achan samhradh.",
+    "shape": "stem"
+   },
+   "more": [
+    {
+     "prompt": "(feic) an fharraige ón bhus.",
+     "answer": "Feictear an fharraige ón bhus.",
+     "shape": "stem"
+    },
+    {
+     "prompt": "(ith) lón sa cheaintín achan lá.",
+     "answer": "Itear lón sa cheaintín achan lá.",
+     "shape": "stem"
+    }
+   ],
+   "hint": "No pronoun: use the -tar, -tear or -ear form.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(faigh) obair bhaile ar an táibléad achan oíche.",
+     "answer": "Faightear obair bhaile ar an táibléad achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(cluin) an nuacht ar an raidió achan mhaidin.",
+     "answer": "Cluintear an nuacht ar an raidió achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(tabhair) duais don fhoireann is fearr.",
+     "answer": "Tugtar duais don fhoireann is fearr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(déan) obair mhaith sa rang Gaeilge achan lá.",
+     "answer": "Déantar obair mhaith sa rang Gaeilge achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(abair) go bhfuil muintir an Iúir cairdiúil.",
+     "answer": "Deirtear go bhfuil muintir an Iúir cairdiúil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(beir) ar an liathróid i gcluiche cispheile.",
+     "answer": "Beirtear ar an liathróid i gcluiche cispheile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(ith) torthaí ag am sosa go minic.",
+     "answer": "Itear torthaí ag am sosa go minic."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(faigh) leathlá roimh an Nollaig.",
+     "answer": "Faightear leathlá roimh an Nollaig."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(déan) iarracht airgead a bhailiú don scoil.",
+     "answer": "Déantar iarracht airgead a bhailiú don scoil."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Beir, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Beirim | Beireann muid | Ní bheirim | An mbeirim?",
+    "Beireann tú | Beireann sibh",
+    "Beireann sé/sí | Beireann siad",
+    "SB Beirtear | Ní bheirtear | An mbeirtear?"
+   ]
+  },
+  {
+   "title": "Cluin, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Cluinim | Cluineann muid | Ní chluinim | An gcluinim?",
+    "Cluineann tú | Cluineann sibh",
+    "Cluineann sé/sí | Cluineann siad",
+    "SB Cluintear | Ní chluintear | An gcluintear?"
+   ]
+  },
+  {
+   "title": "Tar, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Tagaim | Tagann muid | Ní thagaim | An dtagaim?",
+    "Tagann tú | Tagann sibh",
+    "Tagann sé/sí | Tagann siad",
+    "SB Tagtar | Ní thagtar | An dtagtar?"
+   ]
+  },
+  {
+   "title": "Ith, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Ithim | Itheann muid | Ní ithim | An ithim?",
+    "Itheann tú | Itheann sibh",
+    "Itheann sé/sí | Itheann siad",
+    "SB Itear | Ní itear | An itear?"
+   ]
+  },
+  {
+   "title": "Tabhair, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Tugaim | Tugann muid | Ní thugaim | An dtugaim?",
+    "Tugann tú | Tugann sibh",
+    "Tugann sé/sí | Tugann siad",
+    "SB Tugtar | Ní thugtar | An dtugtar?"
+   ]
+  },
+  {
+   "title": "Déan, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Déanaim | Déanann muid | Ní dhéanaim | An ndéanaim?",
+    "Déanann tú | Déanann sibh",
+    "Déanann sé/sí | Déanann siad",
+    "SB Déantar | Ní dhéantar | An ndéantar?"
+   ]
+  },
+  {
+   "title": "Feic, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Tchím | Tchí muid | Ní fheicim | An bhfeicim?",
+    "Tchí tú | Tchí sibh",
+    "Tchí sé/sí | Tchí siad",
+    "SB Feictear (Ulaidh fosta: tchítear) | Ní fheictear | An bhfeictear?"
+   ]
+  },
+  {
+   "title": "Abair, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Deirim | Deir muid | Ní deirim | An ndeirim?",
+    "Deir tú | Deir sibh",
+    "Deir sé/sí | Deir siad",
+    "SB Deirtear | Ní deirtear | An ndeirtear?"
+   ]
+  },
+  {
+   "title": "Téigh, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Téim | Téann muid | Ní théim | An dtéim?",
+    "Téann tú | Téann sibh",
+    "Téann sé/sí | Téann siad",
+    "SB Téitear | Ní théitear | An dtéitear?"
+   ]
+  },
+  {
+   "title": "Faigh, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Faighim | Faigheann muid | Ní fhaighim | An bhfaighim?",
+    "Faigheann tú | Faigheann sibh",
+    "Faigheann sé/sí | Faigheann siad",
+    "SB Faightear | Ní fhaightear | An bhfaightear?"
+   ]
+  },
+  {
+   "title": "Bí, an aimsir láithreach (dearfach, diúltach, ceisteach)",
+   "forms": [
+    "Tá mé | Tá muid | Níl mé | Níl muid | An bhfuil mé?",
+    "Tá tú | Tá sibh | Níl tú | Níl sibh",
+    "Tá sé/sí | Tá siad | Níl sé/sí | Níl siad",
+    "SB Táthar | Níltear"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,266 @@
+{
+ "id": "d1",
+ "lessons": [
+  {
+   "title": "Iolra lag: -án go -áin",
+   "en": "Weak plural: -án becomes -áin",
+   "rule": "To make the plural of a noun ending in -án or -ún, put i before the final n: camán becomes camáin, botún becomes botúin.",
+   "steps": [
+    "Find the noun in brackets: camán, which ends in -án.",
+    "Put i before the final n to make it slender: camáin.",
+    "Write it after na: Chuir muid na camáin isteach sa bhus i ndiaidh an chluiche iomána."
+   ],
+   "example": {
+    "prompt": "Chuir muid na (camán) isteach sa bhus i ndiaidh an chluiche iomána.",
+    "answer": "Chuir muid na camáin isteach sa bhus i ndiaidh an chluiche iomána."
+   },
+   "more": [
+    {
+     "prompt": "Bhí na (bréagán) ina luí ar fud na cistine.",
+     "answer": "Bhí na bréagáin ina luí ar fud na cistine."
+    }
+   ],
+   "hint": "Put i before the last n: -án becomes -áin.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá na (bindealán) sa mhála ag an mhúinteoir corpoideachais.",
+     "answer": "Tá na bindealáin sa mhála ag an mhúinteoir corpoideachais."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bailíonn an scoil airgead do na (bochtán) achan Nollaig.",
+     "answer": "Bailíonn an scoil airgead do na bochtáin achan Nollaig."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Caithfidh mé na (botún) seo a cheartú sula gcuirim isteach an obair bhaile.",
+     "answer": "Caithfidh mé na botúin seo a cheartú sula gcuirim isteach an obair bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fág na (cupán) ar an tábla sa cheaintín, le do thoil.",
+     "answer": "Fág na cupáin ar an tábla sa cheaintín, le do thoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chonaic mé na (gluaisteán) nua sin sa charrchlós ar maidin.",
+     "answer": "Chonaic mé na gluaisteáin nua sin sa charrchlós ar maidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar léigh tú na (nuachtán) ar líne go fóill?",
+     "answer": "Ar léigh tú na nuachtáin ar líne go fóill?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na (suíochán) curtha in áirithe againn sa phictiúrlann roimh ré.",
+     "answer": "Bhí na suíocháin curtha in áirithe againn sa phictiúrlann roimh ré."
+    }
+   ]
+  },
+  {
+   "title": "Iolra lag: caolú",
+   "en": "Weak plural: make the last consonant slender",
+   "rule": "For other first-declension nouns, put i after the last vowel so the final consonant is slender: crann becomes crainn, gasúr becomes gasúir. Where the last vowel is ea it changes to i (peann, pinn), and éa changes to éi (ticéad, ticéid).",
+   "steps": [
+    "Find the last vowel in crann: a.",
+    "Put i after it so the nn becomes slender: crainn.",
+    "Write it after na: Tá na crainn ag cailleadh a gcuid duilleog san fhómhar."
+   ],
+   "example": {
+    "prompt": "Tá na (crann) ag cailleadh a gcuid duilleog san fhómhar.",
+    "answer": "Tá na crainn ag cailleadh a gcuid duilleog san fhómhar."
+   },
+   "more": [
+    {
+     "prompt": "Fág na (peann) ar an deasc roimh an scrúdú.",
+     "answer": "Fág na pinn ar an deasc roimh an scrúdú."
+    }
+   ],
+   "hint": "Put i after the last vowel; ea becomes i.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "An raibh tú riamh sna (cnoc) i dTír Chonaill?",
+     "answer": "An raibh tú riamh sna cnoic i nDún na nGall?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bunaíodh na (cumann) CLG sin breis is céad bliain ó shin.",
+     "answer": "Bunaíodh na cumainn CLG sin breis is céad bliain ó shin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (Gael) óga bródúil as a gcuid Gaeilge.",
+     "answer": "Bíonn na Gaeil óga bródúil as a gcuid Gaeilge."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Abair leis na (gasúr) a gcuid fón a chur sna málaí.",
+     "answer": "Abair leis na gasúir a gcuid fón a chur sna málaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá háit ar fhág tú na (leabhar), a Chiara?",
+     "answer": "Cá háit ar fhág tú na leabhair, a Chiara?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Labhair na (sagart) leis na daltaí i ndiaidh an Aifrinn.",
+     "answer": "Labhair na sagairt leis na daltaí i ndiaidh an Aifrinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuair tú na (ticéad) don cheolchoirm ar an fhón?",
+     "answer": "An bhfuair tú na ticéid don cheolchoirm ar an fhón?"
+    }
+   ]
+  },
+  {
+   "title": "Na + guta: h roimh an iolra",
+   "en": "After na, put h before a vowel",
+   "rule": "Make the plural as usual; if it begins with a vowel, put h in front of it after na: oileán becomes na hoileáin, uan becomes na huain.",
+   "steps": [
+    "Make the plural: oileán becomes oileáin.",
+    "It begins with a vowel, so put h in front of it after na: na hoileáin.",
+    "Write the sentence: Tá na hoileáin amach ó Thír Chonaill iontach ciúin sa gheimhreadh."
+   ],
+   "example": {
+    "prompt": "Tá na (oileán) amach ó Thír Chonaill iontach ciúin sa gheimhreadh.",
+    "answer": "Tá na hoileáin amach ó Thír Chonaill iontach ciúin sa gheimhreadh."
+   },
+   "more": [
+    {
+     "prompt": "Níl na (inneall) ag obair agus tá an bus scoile mall.",
+     "answer": "Níl na hinnill ag obair agus tá an bus scoile mall."
+    }
+   ],
+   "hint": "Plural after na starting with a vowel: add h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (aerfort) iontach gnóthach i mí Iúil.",
+     "answer": "Bíonn na haerfoirt iontach gnóthach i mí Iúil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An maith leat na (amhrán) nua ar an aip sin?",
+     "answer": "An maith leat na hamhráin nua ar an aip sin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na (easpag) ag an Aifreann in Ard Mhacha Dé Domhnaigh.",
+     "answer": "Bhí na heaspaig ag an Aifreann in Ard Mhacha Dé Domhnaigh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na (uan) ag méileach sa pháirc in aice leis an scoil.",
+     "answer": "Bhí na huain ag méileach sa pháirc in aice leis an scoil."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Iolraí laga: caolú",
+   "forms": [
+    "bád: báid"
+   ]
+  },
+  {
+   "title": "Iolraí laga: -a a chur leis",
+   "forms": [
+    "ceart: cearta"
+   ]
+  },
+  {
+   "title": "Tréaniolraí",
+   "forms": [
+    "dán: dánta",
+    "cogadh: cogaí"
+   ]
+  },
+  {
+   "title": "Samplaí: uatha agus iolra",
+   "forms": [
+    "An gabhar: Na gabhair",
+    "An cat: Na cait",
+    "An fear: Na fir",
+    "An t-éan: Na héin",
+    "An néal: Na néalta",
+    "An carr: Na carranna",
+    "An bóthar: Na bóithre"
+   ]
+  },
+  {
+   "title": "An bád: ainmneach agus ginideach, uatha agus iolra",
+   "forms": [
+    "An bád: Na báid",
+    "Seol an bháid: Seolta na mbád"
+   ]
+  },
+  {
+   "title": "An capall: ainmneach agus ginideach, uatha agus iolra",
+   "forms": [
+    "Uatha: An capall; Iolra: Na capaill",
+    "Cosa an chapaill: Cosa na gcapall"
+   ]
+  },
+  {
+   "title": "Focail a thosaíonn ar ghuta",
+   "forms": [
+    "An t-úll",
+    "Dath an úill: Dath na n-úll",
+    "An t-oileán: Na hoileáin",
+    "Muintir an oileáin: Muintir na n-oileán"
+   ]
+  },
+  {
+   "title": "Focail a thosaíonn ar s + guta",
+   "forms": [
+    "Uatha: An sagart; Iolra: Na sagairt",
+    "Cóta an tsagairt: Cótaí na sagart",
+    "An séipéal: Na séipéil",
+    "Doras an tséipéil: Doirse na séipéal"
+   ]
+  },
+  {
+   "title": "Focail a chríochnaíonn ar -ach, -each",
+   "forms": [
+    "An marcach: Na marcaigh",
+    "Cáipín an mharcaigh: Cáipíní na marcach",
+    "An cléireach: Na cléirigh",
+    "Oifig an chléirigh: Oifigí na gcléireach"
+   ]
+  },
+  {
+   "title": "Athraíonn ea go i",
+   "forms": [
+    "An fear: Na fir",
+    "Teach an fhir: Tithe na bhfear"
+   ]
+  },
+  {
+   "title": "Athraíonn éa go éi",
+   "forms": [
+    "An páipéar: Na páipéir",
+    "Dath an pháipéir: Dath na bpáipéar"
+   ]
+  },
+  {
+   "title": "Athraíonn íoch go igh",
+   "forms": [
+    "An beithíoch: Na beithígh",
+    "Luach an bheithígh: Luach na mbeithíoch"
+   ]
+  },
+  {
+   "title": "Athraíonn ia go éi",
+   "forms": [
+    "An t-iasc: Na héisc",
+    "Praghas an éisc: Praghas na n-iasc"
+   ]
+  }
+ ]
+}

@@ -1,209 +1,550 @@
 {
-  "id": "r1-chaite",
-  "lessons": [
+ "id": "r1-chaite",
+ "lessons": [
+  {
+   "title": "Séimhiú san aimsir chaite",
+   "en": "Lenition in the past tense",
+   "rule": "In the past tense, a verb that begins with a consonant takes séimhiú: add h after the first letter (glan becomes ghlan). With muid, just put muid after the lenited verb: bhuail muid.",
+   "steps": [
+    "Find the root of the verb in brackets: glan.",
+    "Add h after the first letter: ghlan.",
+    "Put the verb first, then the rest of the sentence: Ghlan Cathal scáileán an táibléid."
+   ],
+   "example": {
+    "prompt": "(Glan) Cathal scáileán an táibléid.",
+    "answer": "Ghlan Cathal scáileán an táibléid."
+   },
+   "more": [
     {
-      "title": "Séimhiú san aimsir chaite",
-      "en": "Lenition in the past tense",
-      "rule": "In the past tense, a verb that begins with a consonant takes séimhiú: add h after the first letter (glan becomes ghlan). With muid, just put muid after the lenited verb: bhuail muid.",
-      "steps": [
-        "Find the root of the verb in brackets: glan.",
-        "Add h after the first letter: ghlan.",
-        "Put the verb first, then the rest of the sentence: Ghlan Cathal scáileán an táibléid."
-      ],
-      "example": {"prompt": "(Glan) Cathal scáileán an táibléid.", "answer": "Ghlan Cathal scáileán an táibléid."},
-      "more": [
-        {"prompt": "(Múch) Ruairí an ríomhaire glúine ag deireadh an cheachta.", "answer": "Mhúch Ruairí an ríomhaire glúine ag deireadh an cheachta."},
-        {"prompt": "(Caith) Séamus an sliotar chuig an chaptaen.", "answer": "Chaith Séamus an sliotar chuig an chaptaen."}
-      ],
-      "hint": "Consonant verb: add h after the first letter.",
-      "items": [
-        {"shape": "stem", "prompt": "(Bris) Aoife an rialóir sa rang matamaitice.", "answer": "Bhris Aoife an rialóir sa rang matamaitice."},
-        {"shape": "stem", "prompt": "(Díol) sí a seanfhón ar líne.", "answer": "Dhíol sí a seanfhón ar líne."},
-        {"shape": "stem", "prompt": "(Caill) mé mo phasfhocal arís.", "answer": "Chaill mé mo phasfhocal arís."},
-        {"shape": "stem", "prompt": "(Buail: muid) le Méabh ag an stad bus ar maidin.", "answer": "Bhuail muid le Méabh ag an stad bus ar maidin."}
-      ]
+     "prompt": "(Múch) Ruairí an ríomhaire glúine ag deireadh an cheachta.",
+     "answer": "Mhúch Ruairí an ríomhaire glúine ag deireadh an cheachta."
     },
     {
-      "title": "Ceist a fhreagairt",
-      "en": "Answering a question in the past",
-      "rule": "To answer a question that starts with Ar, drop Ar, keep the lenited verb and change tú to mé (and do to mo, ort to orm): Ar ghlan tú? Ghlan mé.",
-      "steps": [
-        "Drop Ar from the start of the question: chuir tú an pláta ar an bhord.",
-        "Keep the h on the verb and give it a capital: Chuir tú an pláta ar an bhord.",
-        "Change tú to mé: Chuir mé an pláta ar an bhord."
-      ],
-      "example": {"prompt": "Ar chuir tú an pláta ar an bhord?", "answer": "Chuir mé an pláta ar an bhord."},
-      "more": [
-        {"prompt": "Ar chaill tú do phasfhocal?", "answer": "Chaill mé mo phasfhocal."},
-        {"prompt": "Ar ghearr tú an cáca don chóisir?", "answer": "Ghearr mé an cáca don chóisir."}
-      ],
-      "hint": "Drop Ar, keep the h, change tú to mé.",
-      "items": [
-        {"shape": "transform", "prompt": "Ar bhris tú scáileán fóin riamh?", "answer": "Bhris mé scáileán fóin."},
-        {"shape": "transform", "prompt": "Ar chuir tú d'éide scoile ort ar maidin?", "answer": "Chuir mé m'éide scoile orm ar maidin."},
-        {"shape": "transform", "prompt": "Ar ghlan tú do bhróga reatha aréir?", "answer": "Ghlan mé mo bhróga reatha aréir."},
-        {"shape": "transform", "prompt": "Ar bhain tú sult as an cheolchoirm Dé Sathairn seo caite?", "answer": "Bhain mé sult as an cheolchoirm Dé Sathairn seo caite."},
-        {"shape": "transform", "prompt": "Ar bhuail tú le do chairde i lár an bhaile Dé Sathairn?", "answer": "Bhuail mé le mo chairde i lár an bhaile Dé Sathairn."},
-        {"shape": "transform", "prompt": "Ar mhúch tú an ríomhaire aréir?", "answer": "Mhúch mé an ríomhaire aréir."}
-      ]
-    },
-    {
-      "title": "Briathra nach nglacann séimhiú",
-      "en": "Verbs that never take lenition",
-      "rule": "A verb beginning with l, n, r, sc, sp or st cannot take séimhiú, so in the past tense the root stays exactly as it is: las, rith, scuab, scríobh. This is true after Níor as well: Níor scuab sé.",
-      "steps": [
-        "Find the root of the verb in brackets: las.",
-        "Check the first letter: l cannot take h.",
-        "Leave the root as it is and put it first: Las Pádraig an scáileán ar a fhón."
-      ],
-      "example": {"prompt": "(Las) Pádraig an scáileán ar a fhón.", "answer": "Las Pádraig an scáileán ar a fhón."},
-      "more": [
-        {"prompt": "(Scuab) Gráinne úrlár an halla spóirt.", "answer": "Scuab Gráinne úrlár an halla spóirt."},
-        {"prompt": "Ar las tú an tine?", "answer": "Las mé an tine."}
-      ],
-      "hint": "l, n, r, sc, sp, st: no h, leave the root alone.",
-      "items": [
-        {"shape": "stem", "prompt": "(Scríobh) mé teachtaireacht chuig mo chara.", "answer": "Scríobh mé teachtaireacht chuig mo chara."},
-        {"shape": "stem", "prompt": "Níor (scuab) Oisín an seomra ranga inniu.", "answer": "Níor scuab Oisín an seomra ranga inniu."},
-        {"shape": "transform", "prompt": "Ar scríobh tú ríomhphost chuig an mhúinteoir inné?", "answer": "Scríobh mé ríomhphost chuig an mhúinteoir inné."},
-        {"shape": "transform", "prompt": "Ar rith tú go dtí an stad bus ar maidin?", "answer": "Rith mé go dtí an stad bus ar maidin."}
-      ]
-    },
-    {
-      "title": "D' roimh ghuta agus roimh f",
-      "en": "d' before a vowel and before f",
-      "rule": "If the verb begins with a vowel, put d' in front of it (ól becomes d'ól). If it begins with f, add the h and then d' (fág becomes d'fhág). After Níor or Ar the d' goes: Níor ól, Níor fhás.",
-      "steps": [
-        "Find the root of the verb in brackets: fág.",
-        "It begins with f, so add h: fhág.",
-        "Put d' in front: d'fhág.",
-        "Put the verb first: D'fhág Ciarán a mhála scoile ar an bhus."
-      ],
-      "example": {"prompt": "(Fág) Ciarán a mhála scoile ar an bhus.", "answer": "D'fhág Ciarán a mhála scoile ar an bhus."},
-      "more": [
-        {"prompt": "(Ól) Oisín cupán tae sa cheaintín.", "answer": "D'ól Oisín cupán tae sa cheaintín."},
-        {"prompt": "(Éist) Gráinne le podchraoladh ar an bhus.", "answer": "D'éist Gráinne le podchraoladh ar an bhus."}
-      ],
-      "hint": "Vowel: d'. f: d'fh. After Níor or Ar, no d'.",
-      "items": [
-        {"shape": "stem", "prompt": "(Ól: muid) cupán tae i ndiaidh an chluiche.", "answer": "D'ól muid cupán tae i ndiaidh an chluiche."},
-        {"shape": "stem", "prompt": "Níor (fás) na prátaí sa ghairdín i mbliana.", "answer": "Níor fhás na prátaí sa ghairdín i mbliana."},
-        {"shape": "transform", "prompt": "Ar ól tú uisce ag am sosa inniu?", "answer": "D'ól mé uisce ag am sosa inniu."},
-        {"shape": "transform", "prompt": "Ar ól tú bainne don bhricfeasta ar maidin?", "answer": "D'ól mé bainne don bhricfeasta ar maidin."},
-        {"shape": "transform", "prompt": "Ar ith tú lón sa cheaintín inniu?", "answer": "D'ith mé lón sa cheaintín inniu."},
-        {"shape": "transform", "prompt": "Ar fhág tú do lón sa bhaile inniu?", "answer": "D'fhág mé mo lón sa bhaile inniu."},
-        {"shape": "transform", "prompt": "Ar fhan tú ag an chlub óige aréir?", "answer": "D'fhan mé ag an chlub óige aréir."},
-        {"shape": "transform", "prompt": "Ar fhág tú do dhialann obair bhaile sa bhaile inniu?", "answer": "D'fhág mé mo dhialann obair bhaile sa bhaile inniu."}
-      ]
-    },
-    {
-      "title": "Ceist le Ar, diúltach le Níor",
-      "en": "Questions with Ar, negatives with Níor",
-      "rule": "To ask a question put Ar before the verb, and for a negative put Níor; both lenite a consonant, and a vowel or f verb loses its d': Ar ól tú? Ar fhan tú? If the answer uses mé, ask with tú; if it uses muid, ask with sibh.",
-      "steps": [
-        "Start from the answer: D'fhág mé.",
-        "Drop the d' and put Ar in front, keeping the h: Ar fhág.",
-        "Change mé to tú and add the rest: Ar fhág tú an leabhar anseo?"
-      ],
-      "example": {"prompt": "D'fhág mé", "answer": "Ar fhág tú an leabhar anseo?"},
-      "more": [
-        {"prompt": "Níor chuir muid", "answer": "Ar chuir sibh an pláta ar an bhord?"},
-        {"prompt": "Níor (glan) Cathal an scáileán.", "answer": "Níor ghlan Cathal an scáileán."}
-      ],
-      "hint": "Ar or Níor, then h on a consonant, and never d'.",
-      "items": [
-        {"shape": "stem", "prompt": "Ar (cuir) tú do bhróga reatha ort, a Chiaráin?", "answer": "Ar chuir tú do bhróga reatha ort, a Chiaráin?"},
-        {"shape": "question", "prompt": "Ghearr siad", "answer": "Ar ghearr siad an cáca?", "self": true},
-        {"shape": "question", "prompt": "Dhoirt sé", "answer": "Ar dhoirt sé an t-uisce ar an ríomhaire glúine?", "self": true},
-        {"shape": "question", "prompt": "Níor thóg mé", "answer": "Ar thóg tú an fón póca?", "self": true},
-        {"shape": "question", "prompt": "Níor ghlan sí", "answer": "Ar ghlan sí an scáileán?", "self": true},
-        {"shape": "question", "prompt": "D'fhill sí", "answer": "Ar fhill sí ón Ghaeltacht?", "self": true},
-        {"shape": "question", "prompt": "Níor ól muid", "answer": "Ar ól sibh tae ag am sosa?", "self": true},
-        {"shape": "question", "prompt": "Chuir muid", "answer": "Ar chuir sibh an físeán ar líne?", "self": true},
-        {"shape": "question", "prompt": "D'fhan muid", "answer": "Ar fhan sibh ag an chlub óige?", "self": true}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -adh",
-      "en": "The autonomous form with -adh",
-      "rule": "When nobody is named as doing the action, add -adh to a broad root (last vowel a, o or u) and do not lenite it: díol becomes díoladh.",
-      "steps": [
-        "Find the root of the verb in brackets: díol.",
-        "The last vowel is o, so the root is broad: add -adh to get díoladh.",
-        "Do not add h, and put it first: Díoladh na ticéid go léir ar líne."
-      ],
-      "example": {"prompt": "(Díol) na ticéid go léir ar líne.", "answer": "Díoladh na ticéid go léir ar líne."},
-      "more": [
-        {"prompt": "(Las) an tine sa seomra suí.", "answer": "Lasadh an tine sa seomra suí."},
-        {"prompt": "(Gearr) an cáca don chóisir.", "answer": "Gearradh an cáca don chóisir."}
-      ],
-      "hint": "Broad root + -adh, no h.",
-      "items": [
-        {"shape": "stem", "prompt": "(Can) amhrán na scoile ag an cheolchoirm.", "answer": "Canadh amhrán na scoile ag an cheolchoirm."},
-        {"shape": "stem", "prompt": "(Craol) an cluiche beo ar an raidió inné.", "answer": "Craoladh an cluiche beo ar an raidió inné."},
-        {"shape": "stem", "prompt": "(Díol) a lán ticéad don chluiche ceannais.", "answer": "Díoladh a lán ticéad don chluiche ceannais."},
-        {"shape": "stem", "prompt": "(Glan) an halla spóirt ó bhun go barr.", "answer": "Glanadh an halla spóirt ó bhun go barr."},
-        {"shape": "stem", "prompt": "(Múch) na soilse sa halla ag a naoi a chlog.", "answer": "Múchadh na soilse sa halla ag a naoi a chlog."},
-        {"shape": "stem", "prompt": "(Scríobh) na freagraí ar an chlár.", "answer": "Scríobhadh na freagraí ar an chlár."}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: -eadh",
-      "en": "The autonomous form with -eadh",
-      "rule": "If the last vowel of the root is i or e (a slender root), add -eadh instead, still with no h: cuir becomes cuireadh, druid becomes druideadh.",
-      "steps": [
-        "Find the root of the verb in brackets: bain.",
-        "The last vowel is i, so the root is slender: add -eadh to get baineadh.",
-        "Do not add h, and put it first: Baineadh an féar Dé Sathairn."
-      ],
-      "example": {"prompt": "(Bain) an féar Dé Sathairn.", "answer": "Baineadh an féar Dé Sathairn."},
-      "more": [
-        {"prompt": "(Druid) an fhuinneog sa seomra ranga.", "answer": "Druideadh an fhuinneog sa seomra ranga."}
-      ],
-      "hint": "Slender root + -eadh, no h.",
-      "items": [
-        {"shape": "stem", "prompt": "(Caill) an cluiche ceannais le cúilín amháin.", "answer": "Cailleadh an cluiche ceannais le cúilín amháin."},
-        {"shape": "stem", "prompt": "(Cuir) na grianghraif ar an suíomh gréasáin.", "answer": "Cuireadh na grianghraif ar an suíomh gréasáin."},
-        {"shape": "stem", "prompt": "(Blais) an cáca ag an chóisir.", "answer": "Blaiseadh an cáca ag an chóisir."},
-        {"shape": "stem", "prompt": "(Baist) mo dheartháir beag Dé Domhnaigh seo caite.", "answer": "Baisteadh mo dheartháir beag Dé Domhnaigh seo caite."},
-        {"shape": "stem", "prompt": "(Goid) rothar ón stáisiún traenach inné.", "answer": "Goideadh rothar ón stáisiún traenach inné."},
-        {"shape": "stem", "prompt": "(Roinn) an físeán ar na meáin shóisialta.", "answer": "Roinneadh an físeán ar na meáin shóisialta."},
-        {"shape": "stem", "prompt": "(Tréig) an seanteach ar an sliabh.", "answer": "Tréigeadh an seanteach ar an sliabh."},
-        {"shape": "stem", "prompt": "(Druid) an bóthar go Sliabh gCuillinn inné.", "answer": "Druideadh an bóthar go Sliabh gCuillinn inné."},
-        {"shape": "stem", "prompt": "(Druid) an siopa sin i lár an bhaile anuraidh.", "answer": "Druideadh an siopa sin i lár an bhaile anuraidh."}
-      ]
-    },
-    {
-      "title": "An saorbhriathar: gan d', gan séimhiú",
-      "en": "The autonomous form: no d', no lenition",
-      "rule": "The autonomous form never takes d' or h, even when the verb begins with a vowel or f, and even after Ar or Níor: óladh, fágadh, Ar díoladh?",
-      "steps": [
-        "Find the root of the verb in brackets: úsáid.",
-        "The last vowel is i, so add -eadh: úsáideadh.",
-        "Do not put d' in front, and put it first: Úsáideadh an peann dearg sa scrúdú."
-      ],
-      "example": {"prompt": "(Úsáid) an peann dearg sa scrúdú.", "answer": "Úsáideadh an peann dearg sa scrúdú."},
-      "more": [
-        {"prompt": "(Fág) an leabhar anseo.", "answer": "Fágadh an leabhar anseo."},
-        {"prompt": "Óladh", "answer": "Ar óladh an deoch?"}
-      ],
-      "hint": "Autonomous form: no d', no h, ever.",
-      "items": [
-        {"shape": "stem", "prompt": "(Ól) an bainne go léir ag am sosa.", "answer": "Óladh an bainne go léir ag am sosa."},
-        {"shape": "stem", "prompt": "(Fág) an mála scoile ar an bhus.", "answer": "Fágadh an mála scoile ar an bhus."},
-        {"shape": "stem", "prompt": "(Íoc) as na ticéid bus ar líne.", "answer": "Íocadh as na ticéid bus ar líne."},
-        {"shape": "stem", "prompt": "(Fág) na gasúir gan bus i ndiaidh na traenála.", "answer": "Fágadh na gasúir gan bus i ndiaidh na traenála."},
-        {"shape": "stem", "prompt": "(Íoc) an t-airgead don turas scoile ar líne.", "answer": "Íocadh an t-airgead don turas scoile ar líne."},
-        {"shape": "question", "prompt": "Díoladh", "answer": "Ar díoladh na ticéid?", "self": true},
-        {"shape": "question", "prompt": "Caitheadh", "answer": "Ar caitheadh an sliotar?", "self": true}
-      ]
+     "prompt": "(Caith) Séamus an sliotar chuig an chaptaen.",
+     "answer": "Chaith Séamus an sliotar chuig an chaptaen."
     }
-  ],
-  "tables": [
-    {"title": "A. Ceist: Ar ghlan tú an bord? (glan, consan leathan)", "forms": ["Ar ghlan tú an bord? Ghlan mé / Níor ghlan mé", "Ar ghlan sé an bord? Ghlan sé / Níor ghlan sé", "Ar ghlan sí an bord? Ghlan sí / Níor ghlan sí", "Ar ghlan sibh an bord? Ghlan muid / Níor ghlan muid", "Ar ghlan siad an bord? Ghlan siad / Níor ghlan siad", "Ar glanadh an bord? Glanadh / Níor glanadh"]},
-    {"title": "B. Ceist: Ar chuir tú an pláta ar an bhord? (cuir, consan caol)", "forms": ["Ar chuir tú an pláta ar an bhord? Chuir mé / Níor chuir mé", "Ar chuir sé an pláta ar an bhord? Chuir sé / Níor chuir sé", "Ar chuir sí an pláta ar an bhord? Chuir sí / Níor chuir sí", "Ar chuir sibh an pláta ar an bhord? Chuir muid / Níor chuir muid", "Ar chuir siad an pláta ar an bhord? Chuir siad / Níor chuir siad", "Ar cuireadh an pláta ar an bhord? Cuireadh / Níor cuireadh"]},
-    {"title": "C. Ceist: Ar ól tú an deoch? (ól, guta leathan)", "forms": ["Ar ól tú an deoch? D'ól mé / Níor ól mé", "Ar ól sé an deoch? D'ól sé / Níor ól sé", "Ar ól sí an deoch? D'ól sí / Níor ól sí", "Ar ól sibh an deoch? D'ól muid / Níor ól muid", "Ar ól siad an deoch? D'ól siad / Níor ól siad", "Ar óladh an deoch? Óladh / Níor óladh"]},
-    {"title": "D. Ceist: Ar úsáid tú an peann dearg? (úsáid, guta caol)", "forms": ["Ar úsáid tú an peann dearg? D'úsáid mé / Níor úsáid mé", "Ar úsáid sé an peann dearg? D'úsáid sé / Níor úsáid sé", "Ar úsáid sí an peann dearg? D'úsáid sí / Níor úsáid sí", "Ar úsáid sibh an peann dearg? D'úsáid muid / Níor úsáid muid", "Ar úsáid siad an peann dearg? D'úsáid siad / Níor úsáid siad", "Ar úsáideadh an peann dearg? Úsáideadh / Níor úsáideadh"]},
-    {"title": "E. Ceist: Ar fhág tú an leabhar anseo? (fág, briathar ar f)", "forms": ["Ar fhág tú an leabhar anseo? D'fhág mé / Níor fhág mé", "Ar fhág sé an leabhar anseo? D'fhág sé / Níor fhág sé", "Ar fhág sí an leabhar anseo? D'fhág sí / Níor fhág sí", "Ar fhág sibh an leabhar anseo? D'fhág muid / Níor fhág muid", "Ar fhág siad an leabhar anseo? D'fhág siad / Níor fhág siad", "Ar fágadh an leabhar anseo? Fágadh / Níor fágadh"]}
-  ]
+   ],
+   "hint": "Consonant verb: add h after the first letter.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bris) Aoife an rialóir sa rang matamaitice.",
+     "answer": "Bhris Aoife an rialóir sa rang matamaitice."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díol) sí a seanfhón ar líne.",
+     "answer": "Dhíol sí a seanfhón ar líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Caill) mé mo phasfhocal arís.",
+     "answer": "Chaill mé mo phasfhocal arís."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Buail: muid) le Méabh ag an stad bus ar maidin.",
+     "answer": "Bhuail muid le Méabh ag an stad bus ar maidin."
+    }
+   ]
+  },
+  {
+   "title": "Ceist a fhreagairt",
+   "en": "Answering a question in the past",
+   "rule": "To answer a question that starts with Ar, drop Ar, keep the lenited verb and change tú to mé (and do to mo, ort to orm): Ar ghlan tú? Ghlan mé.",
+   "steps": [
+    "Drop Ar from the start of the question: chuir tú an pláta ar an tábla.",
+    "Keep the h on the verb and give it a capital: Chuir tú an pláta ar an tábla.",
+    "Change tú to mé: Chuir mé an pláta ar an tábla."
+   ],
+   "example": {
+    "prompt": "Ar chuir tú an pláta ar an tábla?",
+    "answer": "Chuir mé an pláta ar an tábla."
+   },
+   "more": [
+    {
+     "prompt": "Ar chaill tú do phasfhocal?",
+     "answer": "Chaill mé mo phasfhocal."
+    },
+    {
+     "prompt": "Ar ghearr tú an cáca don chóisir?",
+     "answer": "Ghearr mé an cáca don chóisir."
+    }
+   ],
+   "hint": "Drop Ar, keep the h, change tú to mé.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ar bhris tú scáileán fóin riamh?",
+     "answer": "Bhris mé scáileán fóin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar chuir tú d'éide scoile ort ar maidin?",
+     "answer": "Chuir mé m'éide scoile orm ar maidin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar ghlan tú do bhróga reatha aréir?",
+     "answer": "Ghlan mé mo bhróga reatha aréir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar bhain tú sult as an cheolchoirm Dé Sathairn seo caite?",
+     "answer": "Bhain mé sult as an cheolchoirm Dé Sathairn seo caite."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar bhuail tú le do chairde i lár an bhaile Dé Sathairn?",
+     "answer": "Bhuail mé le mo chairde i lár an bhaile Dé Sathairn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar mhúch tú an ríomhaire aréir?",
+     "answer": "Mhúch mé an ríomhaire aréir."
+    }
+   ]
+  },
+  {
+   "title": "Briathra nach nglacann séimhiú",
+   "en": "Verbs that never take lenition",
+   "rule": "A verb beginning with l, n, r, sc, sp or st cannot take séimhiú, so in the past tense the root stays exactly as it is: las, rith, scuab, scríobh. This is true after Níor as well: Níor scuab sé.",
+   "steps": [
+    "Find the root of the verb in brackets: las.",
+    "Check the first letter: l cannot take h.",
+    "Leave the root as it is and put it first: Las Pádraig an scáileán ar a fhón."
+   ],
+   "example": {
+    "prompt": "(Las) Pádraig an scáileán ar a fhón.",
+    "answer": "Las Pádraig an scáileán ar a fhón."
+   },
+   "more": [
+    {
+     "prompt": "(Scuab) Gráinne úrlár an halla spóirt.",
+     "answer": "Scuab Gráinne úrlár an halla spóirt."
+    },
+    {
+     "prompt": "Ar las tú an tine?",
+     "answer": "Las mé an tine."
+    }
+   ],
+   "hint": "l, n, r, sc, sp, st: no h, leave the root alone.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Scríobh) mé teachtaireacht chuig mo chara.",
+     "answer": "Scríobh mé teachtaireacht chuig mo chara."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (scuab) Oisín an seomra ranga inniu.",
+     "answer": "Níor scuab Oisín an seomra ranga inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar scríobh tú ríomhphost chuig an mhúinteoir inné?",
+     "answer": "Scríobh mé ríomhphost chuig an mhúinteoir inné."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar rith tú go dtí an stad bus ar maidin?",
+     "answer": "Rith mé go dtí an stad bus ar maidin."
+    }
+   ]
+  },
+  {
+   "title": "D' roimh ghuta agus roimh f",
+   "en": "d' before a vowel and before f",
+   "rule": "If the verb begins with a vowel, put d' in front of it (ól becomes d'ól). If it begins with f, add the h and then d' (fág becomes d'fhág). After Níor or Ar the d' goes: Níor ól, Níor fhás.",
+   "steps": [
+    "Find the root of the verb in brackets: fág.",
+    "It begins with f, so add h: fhág.",
+    "Put d' in front: d'fhág.",
+    "Put the verb first: D'fhág Ciarán a mhála scoile ar an bhus."
+   ],
+   "example": {
+    "prompt": "(Fág) Ciarán a mhála scoile ar an bhus.",
+    "answer": "D'fhág Ciarán a mhála scoile ar an bhus."
+   },
+   "more": [
+    {
+     "prompt": "(Ól) Oisín cupán tae sa cheaintín.",
+     "answer": "D'ól Oisín cupán tae sa cheaintín."
+    },
+    {
+     "prompt": "(Éist) Gráinne le podchraoladh ar an bhus.",
+     "answer": "D'éist Gráinne le podchraoladh ar an bhus."
+    }
+   ],
+   "hint": "Vowel: d'. f: d'fh. After Níor or Ar, no d'.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ól: muid) cupán tae i ndiaidh an chluiche.",
+     "answer": "D'ól muid cupán tae i ndiaidh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (fás) na prátaí sa ghairdín i mbliana.",
+     "answer": "Níor fhás na prátaí sa ghairdín i mbliana."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar ól tú uisce ag am sosa inniu?",
+     "answer": "D'ól mé uisce ag am sosa inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar ól tú bainne don bhricfeasta ar maidin?",
+     "answer": "D'ól mé bainne don bhricfeasta ar maidin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar ith tú lón sa cheaintín inniu?",
+     "answer": "D'ith mé lón sa cheaintín inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar fhág tú do lón sa bhaile inniu?",
+     "answer": "D'fhág mé mo lón sa bhaile inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar fhan tú ag an chlub óige aréir?",
+     "answer": "D'fhan mé ag an chlub óige aréir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar fhág tú do dhialann obair bhaile sa bhaile inniu?",
+     "answer": "D'fhág mé mo dhialann obair bhaile sa bhaile inniu."
+    }
+   ]
+  },
+  {
+   "title": "Ceist le Ar, diúltach le Níor",
+   "en": "Questions with Ar, negatives with Níor",
+   "rule": "To ask a question put Ar before the verb, and for a negative put Níor; both lenite a consonant, and a vowel or f verb loses its d': Ar ól tú? Ar fhan tú? If the answer uses mé, ask with tú; if it uses muid, ask with sibh.",
+   "steps": [
+    "Start from the answer: D'fhág mé.",
+    "Drop the d' and put Ar in front, keeping the h: Ar fhág.",
+    "Change mé to tú and add the rest: Ar fhág tú an leabhar anseo?"
+   ],
+   "example": {
+    "prompt": "D'fhág mé",
+    "answer": "Ar fhág tú an leabhar anseo?"
+   },
+   "more": [
+    {
+     "prompt": "Níor chuir muid",
+     "answer": "Ar chuir sibh an pláta ar an tábla?"
+    },
+    {
+     "prompt": "Níor (glan) Cathal an scáileán.",
+     "answer": "Níor ghlan Cathal an scáileán."
+    }
+   ],
+   "hint": "Ar or Níor, then h on a consonant, and never d'.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Ar (cuir) tú do bhróga reatha ort, a Chiaráin?",
+     "answer": "Ar chuir tú do bhróga reatha ort, a Chiaráin?"
+    },
+    {
+     "shape": "question",
+     "prompt": "Ghearr siad",
+     "answer": "Ar ghearr siad an cáca?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Dhoirt sé",
+     "answer": "Ar dhoirt sé an t-uisce ar an ríomhaire glúine?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níor thóg mé",
+     "answer": "Ar thóg tú an fón póca?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níor ghlan sí",
+     "answer": "Ar ghlan sí an scáileán?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "D'fhill sí",
+     "answer": "Ar fhill sí ón Ghaeltacht?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níor ól muid",
+     "answer": "Ar ól sibh tae ag am sosa?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Chuir muid",
+     "answer": "Ar chuir sibh an físeán ar líne?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "D'fhan muid",
+     "answer": "Ar fhan sibh ag an chlub óige?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -adh",
+   "en": "The autonomous form with -adh",
+   "rule": "When nobody is named as doing the action, add -adh to a broad root (last vowel a, o or u) and do not lenite it: díol becomes díoladh.",
+   "steps": [
+    "Find the root of the verb in brackets: díol.",
+    "The last vowel is o, so the root is broad: add -adh to get díoladh.",
+    "Do not add h, and put it first: Díoladh na ticéid go léir ar líne."
+   ],
+   "example": {
+    "prompt": "(Díol) na ticéid go léir ar líne.",
+    "answer": "Díoladh na ticéid go léir ar líne."
+   },
+   "more": [
+    {
+     "prompt": "(Las) an tine sa seomra suí.",
+     "answer": "Lasadh an tine sa seomra suí."
+    },
+    {
+     "prompt": "(Gearr) an cáca don chóisir.",
+     "answer": "Gearradh an cáca don chóisir."
+    }
+   ],
+   "hint": "Broad root + -adh, no h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Can) amhrán na scoile ag an cheolchoirm.",
+     "answer": "Canadh amhrán na scoile ag an cheolchoirm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Craol) an cluiche beo ar an raidió inné.",
+     "answer": "Craoladh an cluiche beo ar an raidió inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díol) a lán ticéad don chluiche ceannais.",
+     "answer": "Díoladh a lán ticéad don chluiche ceannais."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Glan) an halla spóirt ó bhun go barr.",
+     "answer": "Glanadh an halla spóirt ó bhun go barr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Múch) na soilse sa halla ag a naoi a chlog.",
+     "answer": "Múchadh na soilse sa halla ag a naoi a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scríobh) na freagraí ar an chlár.",
+     "answer": "Scríobhadh na freagraí ar an chlár."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -eadh",
+   "en": "The autonomous form with -eadh",
+   "rule": "If the last vowel of the root is i or e (a slender root), add -eadh instead, still with no h: cuir becomes cuireadh, druid becomes druideadh.",
+   "steps": [
+    "Find the root of the verb in brackets: bain.",
+    "The last vowel is i, so the root is slender: add -eadh to get baineadh.",
+    "Do not add h, and put it first: Baineadh an féar Dé Sathairn."
+   ],
+   "example": {
+    "prompt": "(Bain) an féar Dé Sathairn.",
+    "answer": "Baineadh an féar Dé Sathairn."
+   },
+   "more": [
+    {
+     "prompt": "(Druid) an fhuinneog sa seomra ranga.",
+     "answer": "Druideadh an fhuinneog sa seomra ranga."
+    }
+   ],
+   "hint": "Slender root + -eadh, no h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Caill) an cluiche ceannais le cúilín amháin.",
+     "answer": "Cailleadh an cluiche ceannais le cúilín amháin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuir) na grianghraif ar an suíomh gréasáin.",
+     "answer": "Cuireadh na grianghraif ar an suíomh gréasáin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Blais) an cáca ag an chóisir.",
+     "answer": "Blaiseadh an cáca ag an chóisir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Baist) mo dheartháir beag Dé Domhnaigh seo caite.",
+     "answer": "Baisteadh mo dheartháir beag Dé Domhnaigh seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Goid) rothar ón stáisiún traenach inné.",
+     "answer": "Goideadh rothar ón stáisiún traenach inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Roinn) an físeán ar na meáin shóisialta.",
+     "answer": "Roinneadh an físeán ar na meáin shóisialta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tréig) an seanteach ar an sliabh.",
+     "answer": "Tréigeadh an seanteach ar an sliabh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Druid) an bóthar go Sliabh gCuillinn inné.",
+     "answer": "Druideadh an bóthar go Sliabh gCuillinn inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Druid) an siopa sin i lár an bhaile anuraidh.",
+     "answer": "Druideadh an siopa sin i lár an bhaile anuraidh."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: gan d', gan séimhiú",
+   "en": "The autonomous form: no d', no lenition",
+   "rule": "The autonomous form never takes d' or h, even when the verb begins with a vowel or f, and even after Ar or Níor: óladh, fágadh, Ar díoladh?",
+   "steps": [
+    "Find the root of the verb in brackets: úsáid.",
+    "The last vowel is i, so add -eadh: úsáideadh.",
+    "Do not put d' in front, and put it first: Úsáideadh an peann dearg sa scrúdú."
+   ],
+   "example": {
+    "prompt": "(Úsáid) an peann dearg sa scrúdú.",
+    "answer": "Úsáideadh an peann dearg sa scrúdú."
+   },
+   "more": [
+    {
+     "prompt": "(Fág) an leabhar anseo.",
+     "answer": "Fágadh an leabhar anseo."
+    },
+    {
+     "prompt": "Óladh",
+     "answer": "Ar óladh an deoch?"
+    }
+   ],
+   "hint": "Autonomous form: no d', no h, ever.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ól) an bainne go léir ag am sosa.",
+     "answer": "Óladh an bainne go léir ag am sosa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fág) an mála scoile ar an bhus.",
+     "answer": "Fágadh an mála scoile ar an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Íoc) as na ticéid bus ar líne.",
+     "answer": "Íocadh as na ticéid bus ar líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fág) na gasúir gan bus i ndiaidh na traenála.",
+     "answer": "Fágadh na gasúir gan bus i ndiaidh na traenála."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Íoc) an t-airgead don turas scoile ar líne.",
+     "answer": "Íocadh an t-airgead don turas scoile ar líne."
+    },
+    {
+     "shape": "question",
+     "prompt": "Díoladh",
+     "answer": "Ar díoladh na ticéid?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Caitheadh",
+     "answer": "Ar caitheadh an sliotar?",
+     "self": true
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. Ceist: Ar ghlan tú an tábla? (glan, consan leathan)",
+   "forms": [
+    "Ar ghlan tú an tábla? Ghlan mé / Níor ghlan mé",
+    "Ar ghlan sé an tábla? Ghlan sé / Níor ghlan sé",
+    "Ar ghlan sí an tábla? Ghlan sí / Níor ghlan sí",
+    "Ar ghlan sibh an tábla? Ghlan muid / Níor ghlan muid",
+    "Ar ghlan siad an tábla? Ghlan siad / Níor ghlan siad",
+    "Ar glanadh an tábla? Glanadh / Níor glanadh"
+   ]
+  },
+  {
+   "title": "B. Ceist: Ar chuir tú an pláta ar an tábla? (cuir, consan caol)",
+   "forms": [
+    "Ar chuir tú an pláta ar an tábla? Chuir mé / Níor chuir mé",
+    "Ar chuir sé an pláta ar an tábla? Chuir sé / Níor chuir sé",
+    "Ar chuir sí an pláta ar an tábla? Chuir sí / Níor chuir sí",
+    "Ar chuir sibh an pláta ar an tábla? Chuir muid / Níor chuir muid",
+    "Ar chuir siad an pláta ar an tábla? Chuir siad / Níor chuir siad",
+    "Ar cuireadh an pláta ar an tábla? Cuireadh / Níor cuireadh"
+   ]
+  },
+  {
+   "title": "C. Ceist: Ar ól tú an deoch? (ól, guta leathan)",
+   "forms": [
+    "Ar ól tú an deoch? D'ól mé / Níor ól mé",
+    "Ar ól sé an deoch? D'ól sé / Níor ól sé",
+    "Ar ól sí an deoch? D'ól sí / Níor ól sí",
+    "Ar ól sibh an deoch? D'ól muid / Níor ól muid",
+    "Ar ól siad an deoch? D'ól siad / Níor ól siad",
+    "Ar óladh an deoch? Óladh / Níor óladh"
+   ]
+  },
+  {
+   "title": "D. Ceist: Ar úsáid tú an peann dearg? (úsáid, guta caol)",
+   "forms": [
+    "Ar úsáid tú an peann dearg? D'úsáid mé / Níor úsáid mé",
+    "Ar úsáid sé an peann dearg? D'úsáid sé / Níor úsáid sé",
+    "Ar úsáid sí an peann dearg? D'úsáid sí / Níor úsáid sí",
+    "Ar úsáid sibh an peann dearg? D'úsáid muid / Níor úsáid muid",
+    "Ar úsáid siad an peann dearg? D'úsáid siad / Níor úsáid siad",
+    "Ar úsáideadh an peann dearg? Úsáideadh / Níor úsáideadh"
+   ]
+  },
+  {
+   "title": "E. Ceist: Ar fhág tú an leabhar anseo? (fág, briathar ar f)",
+   "forms": [
+    "Ar fhág tú an leabhar anseo? D'fhág mé / Níor fhág mé",
+    "Ar fhág sé an leabhar anseo? D'fhág sé / Níor fhág sé",
+    "Ar fhág sí an leabhar anseo? D'fhág sí / Níor fhág sí",
+    "Ar fhág sibh an leabhar anseo? D'fhág muid / Níor fhág muid",
+    "Ar fhág siad an leabhar anseo? D'fhág siad / Níor fhág siad",
+    "Ar fágadh an leabhar anseo? Fágadh / Níor fágadh"
+   ]
+  }
+ ]
 }

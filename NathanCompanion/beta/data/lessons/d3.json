@@ -1,0 +1,545 @@
+{
+ "id": "d3",
+ "lessons": [
+  {
+   "title": "Iolra -í: -óir, -eoir, -éir",
+   "en": "Plural in -í: nouns for people",
+   "rule": "Nouns for people ending in -óir, -eoir or -éir add -í in the plural: múinteoir becomes múinteoirí.",
+   "steps": [
+    "Múinteoir ends in -eoir, so it takes -í.",
+    "Add -í: múinteoirí.",
+    "Write it after na: Beidh na múinteoirí ag obair go déanach sa scoil anocht."
+   ],
+   "example": {
+    "prompt": "Beidh na (múinteoir) ag obair go déanach sa scoil anocht.",
+    "answer": "Beidh na múinteoirí ag obair go déanach sa scoil anocht."
+   },
+   "more": [
+    {
+     "prompt": "Tháinig na (imreoir) anuas den bhus taobh amuigh den scoil.",
+     "answer": "Tháinig na himreoirí anuas den bhus taobh amuigh den scoil."
+    }
+   ],
+   "hint": "Add -í; h before a vowel after na.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Labhair an príomhoide leis na (tuismitheoir) ag an chruinniú.",
+     "answer": "Labhair an príomhoide leis na tuismitheoirí ag an chruinniú."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Shuigh na (réiteoir) ag an tábla roimh an chluiche.",
+     "answer": "Shuigh na réiteoirí ag an tábla roimh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tháinig na (déagóir) isteach roimh a hocht a chlog.",
+     "answer": "Tháinig na déagóirí isteach roimh a hocht a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní raibh na (úsáideoir) sásta leis an aip nua.",
+     "answer": "Ní raibh na húsáideoirí sásta leis an aip nua."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tiocfaidh na (leantóir) chuig an chluiche Dé Domhnaigh.",
+     "answer": "Tiocfaidh na leantóirí chuig an chluiche Dé Domhnaigh."
+    }
+   ]
+  },
+  {
+   "title": "Iolraí eile: -anna, -acha, -ta",
+   "en": "Other plurals: -anna, -acha, -ta",
+   "rule": "Other third-declension nouns add -anna (dath, dathanna), -acha (barúil, barúlacha, dropping the i) or -ta (gleann, gleannta); learn the plural along with the word.",
+   "steps": [
+    "Dath takes -anna in the plural.",
+    "Add the ending: dathanna.",
+    "Write it after na: Tá na dathanna ar an gheansaí nua go hálainn."
+   ],
+   "example": {
+    "prompt": "Tá na (dath) ar an gheansaí nua go hálainn.",
+    "answer": "Tá na dathanna ar an gheansaí nua go hálainn."
+   },
+   "more": [
+    {
+     "prompt": "Léigh mé na (barúil) ar fad ar líne.",
+     "answer": "Léigh mé na barúlacha ar fad ar líne."
+    }
+   ],
+   "hint": "Add -anna, -acha or -ta.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (rang) Gaeilge ar siúl achan oíche Mháirt sa halla.",
+     "answer": "Bíonn na ranganna Gaeilge ar siúl achan oíche Mháirt sa halla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is breá liom na (bláth) atá taobh amuigh den scoil.",
+     "answer": "Is breá liom na bláthanna atá taobh amuigh den scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor mhínigh sé na (fáth) dúinn.",
+     "answer": "Níor mhínigh sé na fáthanna dúinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (loch) i nDún na nGall go hálainn sa samhradh.",
+     "answer": "Bíonn na lochanna i nDún na nGall go hálainn sa samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (canáil) go deas sa samhradh.",
+     "answer": "Bíonn na canálacha go deas sa samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn na (gleann) i nDún na nGall go hálainn sa gheimhreadh fosta.",
+     "answer": "Bíonn na gleannta i nDún na nGall go hálainn sa gheimhreadh fosta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith sí na (bliain) sin i Nua-Eabhrac.",
+     "answer": "Chaith sí na blianta sin i Nua-Eabhrac."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: -óir go -óra",
+   "en": "Genitive singular: -óir becomes -óra",
+   "rule": "For a noun ending in -óir, -eoir, -éir or -úir, take out the i and add -a (-óra, -eora, -éara, -úra); after an, add séimhiú as well, but leave d, t and s alone.",
+   "steps": [
+    "Take the i out of -éir to make it broad: custaiméar.",
+    "Add -a: custaiméara.",
+    "Put séimhiú on it after an: Caithfidh tú éisteacht le gearán an chustaiméara."
+   ],
+   "example": {
+    "prompt": "Caithfidh tú éisteacht le gearán an (custaiméir).",
+    "answer": "Caithfidh tú éisteacht le gearán an chustaiméara."
+   },
+   "more": [
+    {
+     "prompt": "Is fiú éisteacht le comhairle an (moltóir).",
+     "answer": "Is fiú éisteacht le comhairle an mholtóra."
+    }
+   ],
+   "hint": "-óir becomes -óra, -eoir becomes -eora, with séimhiú after an.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Amharc ar ghuthán an (imreoir) sin.",
+     "answer": "Amharc ar ghuthán an imreora sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá oifig an (bainisteoir) druidte inniu.",
+     "answer": "Tá oifig an bhainisteora druidte inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Léigh muid faoi shaol an (deachtóir) sin sa rang staire.",
+     "answer": "Léigh muid faoi shaol an deachtóra sin sa rang staire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar léigh tú nóta an (eagarthóir) ar an suíomh?",
+     "answer": "Ar léigh tú nóta an eagarthóra ar an suíomh?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill mé clúdach an (foclóir) Gaeilge.",
+     "answer": "Chaill mé clúdach an fhoclóra Gaeilge."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is breá liom gúna an (rinceoir) sin.",
+     "answer": "Is breá liom gúna an rinceora sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is maith liom stíl an (scríbhneoir) sin.",
+     "answer": "Is maith liom stíl an scríbhneora sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuala mé torann an (tarracóir) ar maidin.",
+     "answer": "Chuala mé torann an tarracóra ar maidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá eagla orm roimh chathaoir an (fiaclóir).",
+     "answer": "Tá eagla orm roimh chathaoir an fhiaclóra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Guth (an ceoltóir)",
+     "answer": "Guth an cheoltóra"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach uatha: -a a chur leis",
+   "en": "Genitive singular: add -a",
+   "rule": "Other masculine third-declension nouns simply add -a in the genitive, with séimhiú after an: an gleann, lár an ghleanna.",
+   "steps": [
+    "Add -a to the noun: gleanna.",
+    "Put séimhiú on it after an: an ghleanna.",
+    "Write the sentence: Tá an scoil i lár an ghleanna."
+   ],
+   "example": {
+    "prompt": "Tá an scoil i lár an (gleann).",
+    "answer": "Tá an scoil i lár an ghleanna."
+   },
+   "more": [
+    {
+     "prompt": "Léigh muid faoi dheireadh an (cath) sa rang staire.",
+     "answer": "Léigh muid faoi dheireadh an chatha sa rang staire."
+    }
+   ],
+   "hint": "Add -a and séimhiú after an.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Suíonn Seán ag bun an (rang) achan lá.",
+     "answer": "Suíonn Seán ag bun an ranga achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An maith leat boladh an (bláth) sin?",
+     "answer": "An maith leat boladh an bhlátha sin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Deireadh (an t-am)",
+     "answer": "Deireadh an ama"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fuaim (an guth)",
+     "answer": "Fuaim an ghutha"
+    }
+   ]
+  },
+  {
+   "title": "Ainmfhocail bhaininscneacha: na + -a",
+   "en": "Feminine nouns: na and -a",
+   "rule": "A feminine third-declension noun takes na in the genitive with no séimhiú (h before a vowel). Make a slender ending broad by taking out the i, then add -a: an fheoil, blas na feola; an díospóireacht, le linn na díospóireachta.",
+   "steps": [
+    "The noun is feminine, so it follows na with no séimhiú.",
+    "Add -a to the end: díospóireachta.",
+    "Write the sentence: Labhair Áine go maith le linn na díospóireachta."
+   ],
+   "example": {
+    "prompt": "Labhair Áine go maith le linn na (díospóireacht).",
+    "answer": "Labhair Áine go maith le linn na díospóireachta."
+   },
+   "more": [
+    {
+     "prompt": "Chuir muid airgead chuig oifig na (eagraíocht) sin.",
+     "answer": "Chuir muid airgead chuig oifig na heagraíochta sin."
+    }
+   ],
+   "hint": "Use na, no séimhiú, and add -a.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Léigh muid faoi stair na (poblacht) sa rang.",
+     "answer": "Léigh muid faoi stair na poblachta sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Beidh scrúduithe againn ag deireadh na (bliain).",
+     "answer": "Beidh scrúduithe againn ag deireadh na bliana."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn an Ghaeltacht i nDún na nGall ciúin timpeall na (Cáisc).",
+     "answer": "Bíonn an Ghaeltacht i nDún na nGall ciúin timpeall na Cásca."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cé atá ag cócaráil na (feoil) anocht?",
+     "answer": "Cé atá ag cócaráil na feola anocht?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn an grúpa sin ag obair ar son na (síocháin).",
+     "answer": "Bíonn an grúpa sin ag obair ar son na síochána."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sheas an sagart ag bun na (altóir) ag an Aifreann.",
+     "answer": "Sheas an sagart ag bun na haltóra ag an Aifreann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fuaim (an mhuir)",
+     "answer": "Fuaim na mara"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Roinn (an tráchtáil)",
+     "answer": "Roinn na tráchtála"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Blas (an mhil)",
+     "answer": "Blas na meala"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Pictiúr (an bhanríon)",
+     "answer": "Pictiúr na banríona"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach gan alt",
+   "en": "Genitive without the article",
+   "rule": "With no article, make the same change (broaden the end and add -a) but add no séimhiú: nuacht, aip nuachta; poitigéir, comhairle poitigéara. A boy's or man's name takes séimhiú as well (Críostóir, guthán Chríostóra).",
+   "steps": [
+    "There is no an, so do not add séimhiú.",
+    "Add -a to nuacht: nuachta.",
+    "Write the phrase: Aip nuachta."
+   ],
+   "example": {
+    "prompt": "Aip (nuacht)",
+    "answer": "Aip nuachta"
+   },
+   "more": [
+    {
+     "prompt": "Comhairle (poitigéir)",
+     "answer": "Comhairle poitigéara"
+    }
+   ],
+   "hint": "No an: add -a, no séimhiú.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sé ag cur amú (am) ar a ghuthán.",
+     "answer": "Bíonn sé ag cur amú ama ar a ghuthán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn brú (trácht) san Iúr achan mhaidin.",
+     "answer": "Bíonn brú tráchta san Iúr achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní bhfuair mo bharúil mórán (éisteacht) sa rang.",
+     "answer": "Ní bhfuair mo bharúil mórán éisteachta sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl mórán (tuiscint) agam ar an cheist sin sa mhata.",
+     "answer": "Níl mórán tuisceana agam ar an cheist sin sa mhata."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Lucht (troid)",
+     "answer": "Lucht troda"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tine (móin)",
+     "answer": "Tine móna"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Lá (sos)",
+     "answer": "Lá sosa"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fadhb (smacht)",
+     "answer": "Fadhb smachta"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Foclóir (foghlaimeoir)",
+     "answer": "Foclóir foghlaimeora"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Guthán (Críostóir)",
+     "answer": "Guthán Chríostóra"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach iolra",
+   "en": "Genitive plural",
+   "rule": "In the genitive plural keep the plural form and eclipse it after na (na tuismitheoirí, tuairimí na dtuismitheoirí); put n- before a vowel, and leave l, m, n, r and s unchanged.",
+   "steps": [
+    "Keep the plural form: tuismitheoirí.",
+    "Eclipse it after na: t becomes dt, na dtuismitheoirí.",
+    "Write the sentence: Léigh an príomhoide tuairimí na dtuismitheoirí ar an suirbhé."
+   ],
+   "example": {
+    "prompt": "Léigh an príomhoide tuairimí (na tuismitheoirí) ar an suirbhé.",
+    "answer": "Léigh an príomhoide tuairimí na dtuismitheoirí ar an suirbhé."
+   },
+   "more": [
+    {
+     "prompt": "Ainmneacha (na himreoirí)",
+     "answer": "Ainmneacha na n-imreoirí"
+    }
+   ],
+   "hint": "Plural form plus urú after na.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Ní raibh doras (na paisinéirí) druidte ar an bhus.",
+     "answer": "Ní raibh doras na bpaisinéirí druidte ar an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Foireann (na buachaillí)",
+     "answer": "Foireann na mbuachaillí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Leabhair (na scríbhneoirí)",
+     "answer": "Leabhair na scríbhneoirí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tarracóirí (na feirmeoirí)",
+     "answer": "Tarracóirí na bhfeirmeoirí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bus (na ceoltóirí)",
+     "answer": "Bus na gceoltóirí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cuimhní (na blianta)",
+     "answer": "Cuimhní na mblianta"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Nótaí (na léachtaí)",
+     "answer": "Nótaí na léachtaí"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ainmneacha (na dathanna)",
+     "answer": "Ainmneacha na ndathanna"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ciúnas (na gleannta)",
+     "answer": "Ciúnas na ngleannta"
+    }
+   ]
+  },
+  {
+   "title": "An ginideach i ndiaidh an ainm bhriathartha",
+   "en": "Genitive after a verbal noun",
+   "rule": "A noun after a verbal noun such as ag moladh or ag scríobh goes into the genitive: an ceoltóir becomes ag moladh an cheoltóra, an nuacht becomes ag scríobh na nuachta.",
+   "steps": [
+    "The noun follows ag moladh, so it goes into the genitive.",
+    "Ceoltóir ends in -óir: take out the i and add -a, ceoltóra.",
+    "Put séimhiú on it after an: Ag moladh an cheoltóra."
+   ],
+   "example": {
+    "prompt": "Ag moladh (an ceoltóir)",
+    "answer": "Ag moladh an cheoltóra"
+   },
+   "more": [
+    {
+     "prompt": "Ag scríobh (an nuacht)",
+     "answer": "Ag scríobh na nuachta"
+    }
+   ],
+   "hint": "After ag + verbal noun, use the genitive.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bíonn mo dhaideo ag baint (móin) i nDún na nGall achan samhradh.",
+     "answer": "Bíonn mo dhaideo ag baint móna i nDún na nGall achan samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag dó (an mhóin)",
+     "answer": "Ag dó na móna"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag tarraingt (anáil) i ndiaidh an rása",
+     "answer": "Ag tarraingt anála i ndiaidh an rása"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag déanamh (díospóireacht)",
+     "answer": "Ag déanamh díospóireachta"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag scríobh (an tseanmóir)",
+     "answer": "Ag scríobh na seanmóra"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag roghnú (an dath)",
+     "answer": "Ag roghnú an datha"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag glanadh (an altóir)",
+     "answer": "Ag glanadh na haltóra"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ag cócaráil (an fheoil)",
+     "answer": "Ag cócaráil na feola"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "An tríú díochlaonadh: cumadh na huimhreach iolra",
+   "forms": [
+    "(i) Trí -anna a chur leis an fhocal: rang, ranganna",
+    "(ii) Trí -í a chur leis an fhocal: cainteoir, cainteoirí",
+    "(ii) Trí -í a chur leis an fhocal: beannacht, beannachtaí",
+    "(ii) Trí -í a chur leis an fhocal: canúint, canúintí",
+    "(iii) Trí -acha a chur leis an fhocal: barúil, barúlacha",
+    "(iv) Trí -ta, -te a chur leis an fhocal: gleann, gleannta"
+   ]
+  },
+  {
+   "title": "An tuiseal ginideach uatha: leathnú an chonsain chaoil",
+   "forms": [
+    "éir: éara",
+    "eoir: eora",
+    "óir: óra",
+    "úir: úra"
+   ]
+  },
+  {
+   "title": "An tuiseal ginideach uatha: 'ea' de 'io' i bhfocail aonsiollacha",
+   "forms": [
+    "sioc: ag cur seaca",
+    "fios: ag lorg feasa"
+   ]
+  },
+  {
+   "title": "An tuiseal ginideach uatha: focail a chríochnaíonn ar -int",
+   "forms": [
+    "tuiscint: tuisceana"
+   ]
+  },
+  {
+   "title": "An tuiseal ginideach uatha: focail a chríochnaíonn ar -irt",
+   "forms": [
+    "buairt: buartha"
+   ]
+  }
+ ]
+}

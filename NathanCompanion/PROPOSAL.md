@@ -220,3 +220,9 @@ Ulster forms ruling, same night: accepted as drafted: 'an t-ainm atá orm' besid
 
 ## Ruling, 27 September 2026: "An dóigh a n-oibríonn sé"
 "An dóigh a n-oibríonn sé" is preferred to "Mar a oibríonn sé". By the same pattern, "An dóigh a ndéantar é" replaces "Mar a dhéantar é".
+
+## Rulings, 27 September 2026
+- "Dún na nGall" is fine: the ban on "dún" is the verb only.
+- Conditional mood: show both forms where both exist (1st and 3rd person plural): chuirfimis / chuirfeadh muid, chuirfidís / chuirfeadh siad. Both are accepted in marking.
+- "Cluin", not "clois" (the more natural Ulster verb): cluineann, chluinfeadh, cluintear, cluinstin.
+- "Tábla", not "bord", for a table.

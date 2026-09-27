@@ -6,6 +6,19 @@ import Combine
 struct GrammarExample: Codable, Hashable {
     let prompt: String
     let answer: String
+    /// The other correct form where both exist (conditional).
+    let alt: String?
+}
+
+/// "Nó · or: …" under an answer that has a second correct form.
+struct AltLine: View {
+    let alt: String?
+
+    var body: some View {
+        if let alt = alt {
+            Text("Nó · or: \(alt)").font(.subheadline).foregroundStyle(Theme.muted)
+        }
+    }
 }
 
 struct GrammarLesson: Codable, Hashable {
@@ -282,6 +295,7 @@ struct LessonSessionView: View {
             Text(Highlight.changes(from: ex.prompt, to: ex.answer))
                 .font(.title3.weight(.bold))
                 .foregroundStyle(Theme.ink)
+            AltLine(alt: ex.alt)
         }
         .foregroundStyle(Theme.columnInk(1))
         .padding(14)
@@ -387,6 +401,7 @@ struct LessonSessionView: View {
                     Text(o.fadaSlip ? "✓ seiceáil na fadaí" : (o.selfMarked ? "✓" : "✓ ceart!"))
                         .font(Pen.font(30)).foregroundStyle(Theme.pen)
                     Text(Highlight.changes(from: it.prompt, to: it.answer)).font(.title3.weight(.bold))
+                    AltLine(alt: it.alt)
                 } else {
                     Text("✗").font(Pen.font(30)).foregroundStyle(Theme.pen)
                     let typedSomething = !session.typed.isEmpty && !it.isSelfMarked
@@ -394,6 +409,7 @@ struct LessonSessionView: View {
                         .font(.subheadline).foregroundStyle(Theme.muted)
                     Text(Highlight.changes(from: typedSomething ? session.typed : it.prompt, to: it.answer))
                         .font(.title3.weight(.bold))
+                    AltLine(alt: it.alt)
                     Text("Riail · rule: \(session.lesson.rule)").font(.subheadline).foregroundStyle(Theme.muted)
                     if !o.selfMarked && !session.typed.isEmpty {
                         Button("Tá mo leagan ceart freisin · my version is right too") { session.acceptMine() }

@@ -85,6 +85,52 @@ def tidy(v):
     if isinstance(v, list): return [tidy(x) for x in v]
     if isinstance(v, dict): return {k: tidy(x) for k, x in v.items()}
     return v
+# Conditional mood: show both forms where both exist, synthetic and analytic, in the 1st and 3rd person plural.
+COND = {'r1-coinniollach', 'r2-coinniollach', 'nr-coinniollach'}
+IRREG = {'bheimis': 'bheadh muid', 'bheidís': 'bheadh siad', 'mbeimis': 'mbeadh muid', 'mbeidís': 'mbeadh siad',
+         'rachaimis': 'rachadh muid', 'rachaidís': 'rachadh siad', 'ngeobhaimis': 'ngeobhadh muid', 'ngeobhaidís': 'ngeobhadh siad',
+         'gheobhaimis': 'gheobhadh muid', 'gheobhaidís': 'gheobhadh siad'}
+SYN = [('eoimis', 'eodh', 'muid'), ('óimis', 'ódh', 'muid'), ('fimis', 'feadh', 'muid'), ('faimis', 'fadh', 'muid'),
+       ('eoidís', 'eodh', 'siad'), ('óidís', 'ódh', 'siad'), ('fidís', 'feadh', 'siad'), ('faidís', 'fadh', 'siad')]
+ANA = {('eodh', 'muid'): 'eoimis', ('ódh', 'muid'): 'óimis', ('feadh', 'muid'): 'fimis', ('fadh', 'muid'): 'faimis',
+       ('eodh', 'siad'): 'eoidís', ('ódh', 'siad'): 'óidís', ('feadh', 'siad'): 'fidís', ('fadh', 'siad'): 'faidís'}
+IRREG_BACK = {v: k for k, v in IRREG.items()}
+def cond_alt(text):
+    # The same text with each 1st/3rd plural conditional verb in the other form, or None if there is none.
+    toks = re.split(r'(\s+|/)', text)
+    words = [k for k, t in enumerate(toks) if t and not re.fullmatch(r'\s+|/', t)]
+    out = list(toks); changed = False; skip = set()
+    def split(t):
+        core = re.sub(r'[.,?!;:]+$', '', t); return core, t[len(core):]
+    for n, k in enumerate(words):
+        if k in skip: continue
+        core, tail = split(toks[k]); low = core.lower()
+        nk = words[n + 1] if n + 1 < len(words) and toks[k + 1:words[n + 1]] and all(re.fullmatch(r'\s+', x) for x in toks[k + 1:words[n + 1]] if x) else None
+        pron, ptail = split(toks[nk]) if nk is not None else ('', '')
+        cap = lambda rep: core[0] + rep[1:] if core and core[0].isupper() else rep
+        if low in IRREG:
+            out[k] = cap(IRREG[low]) + tail; changed = True; continue
+        if nk is not None and (low + ' ' + pron.lower()) in IRREG_BACK:
+            out[k] = cap(IRREG_BACK[low + ' ' + pron.lower()]) + ptail; out[nk] = ''; out[k + 1:nk] = [''] * (nk - k - 1); skip.add(nk); changed = True; continue
+        done = False
+        for syn, ana, pr in SYN:
+            if low.endswith(syn) and len(low) > len(syn) + 1:
+                out[k] = core[:-len(syn)] + ana + ' ' + pr + tail; changed = done = True; break
+        if done: continue
+        if nk is not None and pron.lower() in ('muid', 'siad'):
+            for (ana, pr), syn in ANA.items():
+                if pr == pron.lower() and low.endswith(ana) and len(low) > len(ana) + 1:
+                    out[k] = core[:-len(ana)] + syn + ptail; out[nk] = ''; out[k + 1:nk] = [''] * (nk - k - 1); skip.add(nk); changed = True; break
+    alt = ''.join(out)
+    return alt if changed and alt != text else None
+
+def table_alt(form):
+    # "label: forms" keeps its label; the other form goes in brackets after it.
+    head, sep, rest = form.rpartition(': ')
+    target = rest if sep else form
+    alt = cond_alt(target)
+    return f"{form} (nó {alt.rstrip('.')})" if alt else form
+
 for sid, sec in out['sections'].items():
     f = f'data/lessons/{sid}.json'
     if os.path.exists(f):
@@ -102,7 +148,15 @@ for sid, sec in out['sections'].items():
                 clean.append({k: it[k] for k in ('shape', 'prompt', 'answer', 'point', 'gap', 'self') if k in it})
             l['items'] = clean
         sec['lessons'] = [l for l in lessons if l['items'] and l.get('example', {}).get('prompt')]
+        if sid in COND:
+            for l in sec['lessons']:
+                for ex in [l['example']] + l['more'] + l['items']:
+                    alt = cond_alt(ex['answer'])
+                    if alt: ex['alt'] = alt
         if L.get('tables'): sec['tables'] = tidy(L['tables'])
+    if sid in COND:
+        for t in sec['tables']:
+            t['forms'] = [table_alt(f) for f in t['forms']]
 for ga, en, em, ids in GROUPS:
     out['groups'].append({'ga': ga, 'en': en, 'emoji': em, 'sections': ids})
 assert sorted(i for g in GROUPS for i in g[3]) == sorted(out['sections'])

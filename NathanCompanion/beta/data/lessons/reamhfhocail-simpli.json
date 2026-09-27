@@ -1,0 +1,780 @@
+{
+ "id": "reamhfhocail-simpli",
+ "lessons": [
+  {
+   "title": "Réamhfhocal gan alt: séimhiú, urú nó gan athrú",
+   "en": "A preposition with no article",
+   "rule": "With no article, ar, do, de, ó, roimh, thar, faoi, trí, gan and idir lenite the next word (ar Phádraig, do Chiara); i eclipses it (i bpeil); ag, le, chuig and as leave it alone (ag Siobhán, le Niamh).",
+   "steps": [
+    "The preposition is ar, one of the ones that lenite.",
+    "Add h after the first letter of the name: Phádraig.",
+    "Tá geansaí ar Phádraig."
+   ],
+   "example": {
+    "prompt": "Tá geansaí ar (Pádraig).",
+    "answer": "Tá geansaí ar Phádraig."
+   },
+   "more": [
+    {
+     "prompt": "Thug sé cárta do (Máire).",
+     "answer": "Thug sé cárta do Mháire."
+    },
+    {
+     "prompt": "Tá ríomhaire glúine ag (Siobhán).",
+     "answer": "Tá ríomhaire glúine ag Siobhán."
+    }
+   ],
+   "hint": "Most simple prepositions lenite; i eclipses; ag, le, chuig and as change nothing.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Thug mé an pasfhocal do (Ciara).",
+     "answer": "Thug mé an pasfhocal do Chiara."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor thug mé an cóipleabhar do (Pádraig) go fóill.",
+     "answer": "Níor thug mé an cóipleabhar do Phádraig go fóill."
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfuil tart ______ Phádraig anois?",
+     "answer": "An bhfuil tart ar Phádraig anois?",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhí eagla ______ Bhríd nuair a chonaic sí an damhán alla.",
+     "answer": "Bhí eagla ar Bhríd nuair a chonaic sí an damhán alla.",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfuair tú teachtaireacht ______ Shíle go fóill, a Liam?",
+     "answer": "An bhfuair tú teachtaireacht ó Shíle go fóill, a Liam?",
+     "gap": "ó"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuaigh sí chuig an phictiúrlann ______ Niamh.",
+     "answer": "Chuaigh sí chuig an phictiúrlann le Niamh.",
+     "gap": "le"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Sheol mé ríomhphost ______ m'uncail inné.",
+     "answer": "Sheol mé ríomhphost chuig m'uncail inné.",
+     "gap": "chuig"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá suim mhór agam ______ bpeil.",
+     "answer": "Tá suim mhór agam i bpeil.",
+     "gap": "i"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ní fhaca mé é ______ seachtain.",
+     "answer": "Ní fhaca mé é le seachtain.",
+     "gap": "le"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Fuair mé fón póca úr ______ mo sheanmháthair.",
+     "answer": "Fuair mé fón póca úr ó mo sheanmháthair.",
+     "gap": "ó"
+    }
+   ]
+  },
+  {
+   "title": "Réamhfhocal + an: séimhiú in Ulaidh",
+   "en": "Preposition + an: lenition in Ulster",
+   "rule": "In Ulster, after a preposition and an, lenite a noun that begins with b, c, f, g, m or p: ar an tábla, ag an fhuinneog, chuig an chailín.",
+   "steps": [
+    "The noun comes after ar an.",
+    "girseach begins with g, so lenite it: ghirseach.",
+    "Tá húdaí ar an ghirseach."
+   ],
+   "example": {
+    "prompt": "Tá húdaí ar an (girseach).",
+    "answer": "Tá húdaí ar an ghirseach."
+   },
+   "more": [
+    {
+     "prompt": "Tá madadh ag an (bean).",
+     "answer": "Tá madadh ag an bhean."
+    },
+    {
+     "prompt": "Tá camán ag an (cailín).",
+     "answer": "Tá camán ag an chailín."
+    }
+   ],
+   "hint": "Preposition + an + b, c, f, g, m, p: add h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá an ríomhaire glúine ar an (cathaoir).",
+     "answer": "Tá an ríomhaire glúine ar an chathaoir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sheas an cat ag an (fuinneog).",
+     "answer": "Sheas an cat ag an fhuinneog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuil carr ag an (fear) sin?",
+     "answer": "An bhfuil carr ag an fhear sin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'ith mé ceapaire roimh an (cluiche).",
+     "answer": "D'ith mé ceapaire roimh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar sheol tú teachtaireacht chuig an (cailín) sin, a Bhríd?",
+     "answer": "Ar sheol tú teachtaireacht chuig an chailín sin, a Bhríd?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith siad cúpla punt ar an (píotsa).",
+     "answer": "Chaith siad cúpla punt ar an phíotsa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an príomhoide ina sheasamh ag an (geata).",
+     "answer": "Tá an príomhoide ina sheasamh ag an gheata."
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar tháinig sí abhaile ______ an bhus?",
+     "answer": "Ar tháinig sí abhaile ar an bhus?",
+     "gap": "ar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuir muid fáilte ______ an mhúinteoir úr.",
+     "answer": "Chuir muid fáilte roimh an mhúinteoir úr.",
+     "gap": "roimh"
+    }
+   ]
+  },
+  {
+   "title": "Réamhfhocail a nascann le 'an'",
+   "en": "Prepositions that join with an",
+   "rule": "Join these prepositions with an: le + an = leis an, do + an = don, de + an = den, ó + an = ón, faoi + an = faoin, i + an = sa. Then lenite b, c, f, g, m, p as usual: don mhadadh, sa bhus.",
+   "steps": [
+    "do and an join to make don.",
+    "madadh begins with m, so lenite it: mhadadh.",
+    "Thug sé bia don mhadadh."
+   ],
+   "example": {
+    "prompt": "Thug sé bia (do an madadh).",
+    "answer": "Thug sé bia don mhadadh."
+   },
+   "more": [
+    {
+     "prompt": "Thug sí úll (do an asal).",
+     "answer": "Thug sí úll don asal."
+    }
+   ],
+   "hint": "leis an, don, den, ón, faoin, sa; then séimhiú as usual.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhí sí ag caint (le an buachaill) sin.",
+     "answer": "Bhí sí ag caint leis an bhuachaill sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Labhair mé (le an príomhoide).",
+     "answer": "Labhair mé leis an phríomhoide."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an cat ina luí (faoi an cathaoir).",
+     "answer": "Tá an cat ina luí faoin chathaoir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Ciara ina suí (i an bus).",
+     "answer": "Tá Ciara ina suí sa bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní bhfuair mé ríomhphost (ó an dochtúir) go fóill.",
+     "answer": "Ní bhfuair mé ríomhphost ón dochtúir go fóill."
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thóg sé an fón ______ chathaoir.",
+     "answer": "Thóg sé an fón den chathaoir.",
+     "gap": "den"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thug an t-athair póg ______ leanbh.",
+     "answer": "Thug an t-athair póg don leanbh.",
+     "gap": "don"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thit an mála ______ rothar.",
+     "answer": "Thit an mála den rothar.",
+     "gap": "den"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Dhíol mé an rothar ______ an rúnaí.",
+     "answer": "Dhíol mé an rothar leis an rúnaí.",
+     "gap": "leis"
+    }
+   ]
+  },
+  {
+   "title": "Réamhfhocal + an: d, n, t, l, s agus gutaí gan athrú",
+   "en": "Preposition + an: no change to d, n, t, l, s or a vowel",
+   "rule": "After a preposition and an, leave a noun that begins with d, n, t, l, s or a vowel as it is (ar an líne, ar an urlár). Only a feminine noun beginning with s and a vowel (or sl, sn, sr) takes t: ar an tsráid.",
+   "steps": [
+    "líne begins with l.",
+    "d, n, t, l, s and vowels do not change after ar an, so leave it: líne.",
+    "Tá an sliotar ar an líne."
+   ],
+   "example": {
+    "prompt": "Tá an sliotar ar an (líne).",
+    "answer": "Tá an sliotar ar an líne."
+   },
+   "more": [
+    {
+     "prompt": "Tá an bus ar an (droichead).",
+     "answer": "Tá an bus ar an droichead."
+    },
+    {
+     "prompt": "Tá sé ina sheasamh ar an (sráid).",
+     "answer": "Tá sé ina sheasamh ar an tsráid."
+    }
+   ],
+   "hint": "d, n, t, l, s and vowels: no change (but an tsráid).",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chuir sí an mála ar an (urlár).",
+     "answer": "Chuir sí an mála ar an urlár."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rith muid as an (teach) go gasta.",
+     "answer": "Rith muid as an teach go gasta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh an bus thar an (teach) gan stad.",
+     "answer": "Chuaigh an bus thar an teach gan stad."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cuir ceist ar an (dalta) sin.",
+     "answer": "Cuir ceist ar an dalta sin."
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'eitil an t-eitleán ______ an scoil.",
+     "answer": "D'eitil an t-eitleán thar an scoil.",
+     "gap": "thar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Nach bhfaca tú é ina sheasamh ______ an stad bus?",
+     "answer": "Nach bhfaca tú é ina sheasamh ag an stad bus?",
+     "gap": "ag"
+    }
+   ]
+  },
+  {
+   "title": "Réamhfhocal + na (iolra)",
+   "en": "Preposition + na (plural)",
+   "rule": "After a preposition and na, leave a consonant alone (ar na páistí, do na daltaí) and put h before a vowel (ar na húlla, do na hainmhithe). Note le + na = leis na.",
+   "steps": [
+    "The article is na, so the noun is plural.",
+    "úlla begins with a vowel, so put h before it: húlla.",
+    "Tá dath dearg ar na húlla."
+   ],
+   "example": {
+    "prompt": "Tá dath dearg ar na (úlla).",
+    "answer": "Tá dath dearg ar na húlla."
+   },
+   "more": [
+    {
+     "prompt": "Thug sé uisce do na (ainmhithe).",
+     "answer": "Thug sé uisce do na hainmhithe."
+    },
+    {
+     "prompt": "Thaispeáin sé an grianghraf do na (páistí).",
+     "answer": "Thaispeáin sé an grianghraf do na páistí."
+    }
+   ],
+   "hint": "na + consonant: no change; na + vowel: add h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhain sí na pictiúir de na (ballaí).",
+     "answer": "Bhain sí na pictiúir de na ballaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuir an múinteoir ceist ar na (daltaí).",
+     "answer": "Chuir an múinteoir ceist ar na daltaí."
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thug an múinteoir obair bhaile ______ na daltaí.",
+     "answer": "Thug an múinteoir obair bhaile do na daltaí.",
+     "gap": "do"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfuil sos ag teastáil ______ na himreoirí anois?",
+     "answer": "An bhfuil sos ag teastáil ó na himreoirí anois?",
+     "gap": "ó"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhuail sí ______ na cairde arú inné.",
+     "answer": "Bhuail sí leis na cairde arú inné.",
+     "gap": "leis"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Thug an múinteoir na táibléid ______ na daltaí.",
+     "answer": "Thug an múinteoir na táibléid do na daltaí.",
+     "gap": "do"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Fuair sí bláthanna ______ na scoláirí.",
+     "answer": "Fuair sí bláthanna ó na scoláirí.",
+     "gap": "ó"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'amharc sé ______ na grianghraif go léir.",
+     "answer": "D'amharc sé ar na grianghraif go léir.",
+     "gap": "ar"
+    }
+   ]
+  },
+  {
+   "title": "An forainm réamhfhoclach: ar",
+   "en": "Prepositional pronouns: ar",
+   "rule": "Do not write ar mé or ar í: join ar and the pronoun into one word: orm, ort, air, uirthi, orainn, oraibh, orthu. Use it with feelings and states too: Tá ocras orthu.",
+   "steps": [
+    "The preposition is ar and the person is í.",
+    "ar + í makes one word: uirthi.",
+    "Tá gúna dearg uirthi."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Tá gúna dearg ______ (í).",
+    "answer": "Tá gúna dearg uirthi.",
+    "gap": "uirthi"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Tá ocras ______ (iad) i ndiaidh an chluiche.",
+     "answer": "Tá ocras orthu i ndiaidh an chluiche.",
+     "gap": "orthu"
+    }
+   ],
+   "hint": "orm, ort, air, uirthi, orainn, oraibh, orthu.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "D'fhan Pádraig sa bhaile inniu mar tá slaghdán ______.",
+     "answer": "D'fhan Pádraig sa bhaile inniu mar tá slaghdán air.",
+     "gap": "air"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfuil tart ______, a Chiara?",
+     "answer": "An bhfuil tart ort, a Chiara?",
+     "gap": "ort"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá díomá ar Aoife mar theip ______ sa scrúdú ceoil.",
+     "answer": "Tá díomá ar Aoife mar theip uirthi sa scrúdú ceoil.",
+     "gap": "uirthi"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar chuir tú cóta fearthainne ______ agus tú ag dul amach?",
+     "answer": "Ar chuir tú cóta fearthainne ort agus tú ag dul amach?",
+     "gap": "ort"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'ith sé an ceapaire mar bhí ocras ______.",
+     "answer": "D'ith sé an ceapaire mar bhí ocras air.",
+     "gap": "air"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá náire ______ (mé) faoin scór.",
+     "answer": "Tá náire orm faoin scór.",
+     "gap": "orm"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Seo an bhean anois, iarr ticéad ______.",
+     "answer": "Seo an bhean anois, iarr ticéad uirthi.",
+     "gap": "uirthi"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cuirigí bhur mbróga peile ______, arsa an bainisteoir leo.",
+     "answer": "Cuirigí bhur mbróga peile oraibh, arsa an bainisteoir leo.",
+     "gap": "oraibh"
+    }
+   ]
+  },
+  {
+   "title": "An forainm réamhfhoclach: do, le agus ag",
+   "en": "Prepositional pronouns: do, le and ag",
+   "rule": "Join do, le or ag and the pronoun into one word: dom, duit, dó, di (do); liom, leat, leis, léi (le); agam, agat, aige, aici (ag).",
+   "steps": [
+    "The preposition is do and the person is í.",
+    "do + í makes one word: di.",
+    "Thaispeáin sé an grianghraf di."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Thaispeáin sé an grianghraf ______ (í).",
+    "answer": "Thaispeáin sé an grianghraf di.",
+    "gap": "di"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Tá cluasáin ______ (í).",
+     "answer": "Tá cluasáin aici.",
+     "gap": "aici"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá ticéid don cheolchoirm ______ (sinn).",
+     "answer": "Tá ticéid don cheolchoirm againn.",
+     "gap": "againn"
+    }
+   ],
+   "hint": "do + mé = dom, le + tú = leat, ag + í = aici.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Chonaic mé Nóra ann agus thug mé an cóipleabhar ______.",
+     "answer": "Chonaic mé Nóra ann agus thug mé an cóipleabhar di.",
+     "gap": "di"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhí Siobhán ar cuairt agus thug sí na milseáin ______ (sinn).",
+     "answer": "Bhí Siobhán ar cuairt agus thug sí na milseáin dúinn.",
+     "gap": "dúinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Tabhair ______ an fón, a Choilm.'",
+     "answer": "'Tabhair dom an fón, a Choilm.'",
+     "gap": "dom"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'inis muid an nuacht ______ ach níor éist sé linn.",
+     "answer": "D'inis muid an nuacht dó ach níor éist sé linn.",
+     "gap": "dó"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An maith ______ píotsa, a Liam?",
+     "answer": "An maith leat píotsa, a Liam?",
+     "gap": "leat"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá an-lúcháir orm, d'éirigh ______ sa chomórtas.",
+     "answer": "Tá an-lúcháir orm, d'éirigh liom sa chomórtas.",
+     "gap": "liom"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar labhair tú ______ (í) ar an fhón?",
+     "answer": "Ar labhair tú léi ar an fhón?",
+     "gap": "léi"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'fhág mé slán ______ (í) ag an stad bus.",
+     "answer": "D'fhág mé slán aici ag an stad bus.",
+     "gap": "aici"
+    }
+   ]
+  },
+  {
+   "title": "An forainm réamhfhoclach: as, de, ó, roimh agus faoi",
+   "en": "Prepositional pronouns: as, de, ó, roimh and faoi",
+   "rule": "Join these prepositions and the pronoun into one word too: asam (as), díobh (de), uaim, uaidh (ó), romhat, roimpi (roimh), fúm (faoi). Check the table for each person.",
+   "steps": [
+    "The preposition is ó and the person is í.",
+    "ó + í makes one word: uaithi.",
+    "Fuair mé téacs uaithi aréir."
+   ],
+   "example": {
+    "shape": "gap",
+    "prompt": "Fuair mé téacs ______ (í) aréir.",
+    "answer": "Fuair mé téacs uaithi aréir.",
+    "gap": "uaithi"
+   },
+   "more": [
+    {
+     "shape": "gap",
+     "prompt": "Rinne siad gáire ______ (sinn).",
+     "answer": "Rinne siad gáire fúinn.",
+     "gap": "fúinn"
+    }
+   ],
+   "hint": "Find the preposition and the person, then use the joined form from the table.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Lig mé béic ______ nuair a fuair muid an cúl.",
+     "answer": "Lig mé béic asam nuair a fuair muid an cúl.",
+     "gap": "asam"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhain an clog aláraim geit ______ (mé).",
+     "answer": "Bhain an clog aláraim geit asam.",
+     "gap": "asam"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tháinig siad isteach agus bhain siad a mbróga ______.",
+     "answer": "Tháinig siad isteach agus bhain siad a mbróga díobh.",
+     "gap": "díobh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "D'fhiafraigh sí ______ (iad) cá raibh an halla spóirt.",
+     "answer": "D'fhiafraigh sí díobh cá raibh an halla spóirt.",
+     "gap": "díobh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Nuair a thagann an múinteoir isteach, fiafraigh ______ cá bhfuil na táibléid.",
+     "answer": "Nuair a thagann an múinteoir isteach, fiafraigh de cá bhfuil na táibléid.",
+     "gap": "de"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Caithfidh mé dul chuig an siopa, tá cipín cuimhne ag teastáil ______.",
+     "answer": "Caithfidh mé dul chuig an siopa, tá cipín cuimhne ag teastáil uaim.",
+     "gap": "uaim"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cá bhfuil Tomás? Caithfidh mé an cipín cuimhne a fháil ______.",
+     "answer": "Cá bhfuil Tomás? Caithfidh mé an cipín cuimhne a fháil uaidh.",
+     "gap": "uaidh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "'Tar isteach, a Chiara, tá fáilte ______.'",
+     "answer": "'Tar isteach, a Chiara, tá fáilte romhat.'",
+     "gap": "romhat"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chonaic mé Aoife ag teacht agus chuir mé fáilte ______.",
+     "answer": "Chonaic mé Aoife ag teacht agus chuir mé fáilte roimpi.",
+     "gap": "roimpi"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Nuair a chonaic sé mo ghruaig, thosaigh sé ag magadh ______.",
+     "answer": "Nuair a chonaic sé mo ghruaig, thosaigh sé ag magadh fúm.",
+     "gap": "fúm"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Réamhfhocail agus an t-alt 'an'",
+   "forms": [
+    "ar an",
+    "ag an",
+    "as an",
+    "roimh an",
+    "thar an",
+    "idir an",
+    "chuig an",
+    "gan an",
+    "faoin (faoi + an)",
+    "leis an (le + an)",
+    "don (do + an)",
+    "den (de + an)",
+    "ón (ó + an)",
+    "tríd an (trí + an)",
+    "sa (i + an)",
+    "san roimh ghuta nó fh: san fhómhar, san oíche"
+   ]
+  },
+  {
+   "title": "Réamhfhocail agus an t-alt 'na'",
+   "forms": [
+    "ar na",
+    "ag na",
+    "as na",
+    "roimh na",
+    "thar na",
+    "idir na",
+    "chuig na",
+    "gan na",
+    "faoi na",
+    "leis na",
+    "do na",
+    "de na",
+    "ó na",
+    "trí na",
+    "sna (i + na)"
+   ]
+  },
+  {
+   "title": "Leanann séimhiú na réamhfhocail shimplí seo a leanas",
+   "forms": [
+    "ar",
+    "roimh",
+    "thar",
+    "faoi",
+    "do",
+    "de",
+    "gan",
+    "idir",
+    "ó",
+    "trí (trí bhalla, trí Ghaeilge)",
+    "um fosta (um Cháisc)"
+   ]
+  },
+  {
+   "title": "Leanann urú an réamhfhocal 'i'",
+   "forms": [
+    "i bpáirc, i gcruachás",
+    "ach: in Éirinn"
+   ]
+  },
+  {
+   "title": "ar + an / ar + na: samplaí",
+   "forms": [
+    "ar an tábla, ar an chailín, ar an fhuinneog, ar an gheata, ar an pháirc",
+    "ar na buachaillí, ar na cailíní, ar na fuinneoga, ar na geataí, ar na páirceanna",
+    "ar an asal, ar an éan, ar an iascaire, ar an oráiste, ar an úll",
+    "ar na hasail, ar na héin, ar na hiascairí, ar na horáistí, ar na húlla",
+    "ar an trá, ar an líne, ar an nuachtán, ar an droichead, ar an sagart; ach ar an tsráid (baininscneach)"
+   ]
+  },
+  {
+   "title": "Forainm réamhfhoclach: ar",
+   "forms": [
+    "ar + mé: orm",
+    "ar + tú: ort",
+    "ar + é: air",
+    "ar + í: uirthi",
+    "ar + sinn: orainn",
+    "ar + sibh: oraibh",
+    "ar + iad: orthu"
+   ]
+  },
+  {
+   "title": "Úsáidtear 'ar' leis na focail seo a leanas",
+   "forms": [
+    "áthas, gliondar, lúcháir, ocras, tart",
+    "brón, díomá, áiféala, amhras",
+    "fearg, ionadh, uaigneas, bród",
+    "eagla, faitíos, scanradh",
+    "imní, náire, tuirse, leisce, éad"
+   ]
+  },
+  {
+   "title": "Ní chuirtear séimhiú ar na focail seo a leanas tar éis 'ar'",
+   "forms": [
+    "ar saoire, ar meisce, ar crochadh, ar buile, ar cairde, ar ceal",
+    "ar crith, ar díol, ar fáil, ar fónamh, ar mire, ar seachrán",
+    "ar siúl, ar iarraidh, ar iasacht, ar oscailt, ar lorg"
+   ]
+  },
+  {
+   "title": "do / don / do na: samplaí",
+   "forms": [
+    "don bhuachaill, don chailín, don fhile, don ghirseach, don pháiste",
+    "don sagart, don tiománaí; ach don tsráid (baininscneach)",
+    "don aisteoir, don oibrí",
+    "do na páistí, do na gardaí, do na múinteoirí",
+    "do na huain, do na héin, do na haisteoirí, do na hainmhithe"
+   ]
+  },
+  {
+   "title": "Forainm réamhfhoclach: do",
+   "forms": [
+    "do + mé: dom",
+    "do + tú: duit",
+    "do + é: dó",
+    "do + í: di",
+    "do + sinn: dúinn",
+    "do + sibh: daoibh",
+    "do + iad: dóibh"
+   ]
+  },
+  {
+   "title": "ag / ag an / ag na: samplaí",
+   "forms": [
+    "ag an bhuachaill, ag an chailín, ag an fháinleog, ag an gheata, ag an phíolóta",
+    "ag na buachaillí, ag na cailíní, ag na fáinleoga, ag na geataí, ag na píolótaí",
+    "ag an aisteoir, ag an éan, ag an iascaire, ag an othar, ag an uan",
+    "ag na hainmhithe, ag na héin, ag na hiascairí, ag na hothair, ag na huain",
+    "ag an doras, ag an tarracóir, ag an lampa, ag an siopa, ag an nead; ach ag an tsráid (baininscneach)"
+   ]
+  },
+  {
+   "title": "Forainm réamhfhoclach: ag",
+   "forms": [
+    "ag + mé: agam",
+    "ag + tú: agat",
+    "ag + é: aige",
+    "ag + í: aici",
+    "ag + sinn: againn",
+    "ag + sibh: agaibh",
+    "ag + iad: acu"
+   ]
+  },
+  {
+   "title": "An forainm réamhfhoclach (tábla iomlán)",
+   "forms": [
+    "AR: orm, ort, air, uirthi; orainn, oraibh, orthu",
+    "AS: asam, asat, as, aisti; asainn, asaibh, astu",
+    "ROIMH: romham, romhat, roimhe, roimpi; romhainn, romhaibh, rompu",
+    "AG: agam, agat, aige, aici; againn, agaibh, acu",
+    "DE: díom, díot, de, di; dínn, díbh, díobh",
+    "CHUIG: chugam, chugat, chuige, chuici; chugainn, chugaibh, chucu",
+    "DO: dom, duit, dó, di; dúinn, daoibh, dóibh",
+    "I: ionam, ionat, ann, inti; ionainn, ionaibh, iontu",
+    "FAOI: fúm, fút, faoi, fúithi; fúinn, fúibh, fúthu",
+    "Ó: uaim, uait, uaidh, uaithi; uainn, uaibh, uathu",
+    "THAR: tharam, tharat, thairis, thairsti; tharainn, tharaibh, tharstu",
+    "IDIR: (gan uatha); eadrainn, eadraibh, eatarthu",
+    "LE: liom, leat, leis, léi; linn, libh, leo",
+    "TRÍ: tríom, tríot, tríd, tríthi; trínn, tríbh, tríothu"
+   ]
+  }
+ ]
+}

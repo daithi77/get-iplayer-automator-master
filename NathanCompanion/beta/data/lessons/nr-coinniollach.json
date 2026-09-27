@@ -1,0 +1,598 @@
+{
+ "id": "nr-coinniollach",
+ "lessons": [
+  {
+   "title": "An fhoirm dhearfach: séimhiú agus d'",
+   "en": "Positive forms: lenition and d'",
+   "rule": "To say what someone would do, lenite the first letter of the conditional form (Chluinfeadh, Thabharfadh, Dhéanfadh) or put d' before a vowel (D'íosfadh). Rachadh, déarfadh and gheobhadh never change.",
+   "steps": [
+    "Find the conditional stem of cluin: cluinf-.",
+    "Add the ending for sí: cluinfeadh.",
+    "Lenite the first letter: Chluinfeadh sí Gaeilge ar an tsráid achan lá sa Ghaeltacht."
+   ],
+   "example": {
+    "prompt": "(cluin) sí Gaeilge ar an tsráid achan lá sa Ghaeltacht.",
+    "answer": "Chluinfeadh sí Gaeilge ar an tsráid achan lá sa Ghaeltacht."
+   },
+   "more": [
+    {
+     "prompt": "Ansin, (téigh) sí go dtí an Ghaeltacht i nDún na nGall ar an bhus.",
+     "answer": "Ansin, rachadh sí go dtí an Ghaeltacht i nDún na nGall ar an bhus."
+    }
+   ],
+   "hint": "Séimhiú or d' at the front; rachadh, déarfadh and gheobhadh stay as they are.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh céad punt ag Órla, (tabhair) sí cuid de dá deirfiúr.",
+     "answer": "Dá mbeadh céad punt ag Órla, thabharfadh sí cuid de dá deirfiúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(faigh) sí ticéad fillte ar an aip agus (déan) sí cuid mhór siopadóireachta sa chathair.",
+     "answer": "Gheobhadh sí ticéad fillte ar an aip agus dhéanfadh sí cuid mhór siopadóireachta sa chathair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(abair) sí le hachan duine ar scoil go raibh am iontach aici.",
+     "answer": "Déarfadh sí le hachan duine ar scoil go raibh am iontach aici."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(ith) sé na sceallóga seo dá mbeadh ocras air.",
+     "answer": "D'íosfadh sé na sceallóga seo dá mbeadh ocras air."
+    }
+   ]
+  },
+  {
+   "title": "Na deirí pearsanta: mé, tú agus siad",
+   "en": "Personal endings: I, you and they",
+   "rule": "For mé, tú and siad, build the person into the ending and drop the pronoun: -inn for mé (bheinn, rachainn, d'íosfainn), -fá or -feá for tú (rachfá, chluinfeá), -idís for siad (bheidís). For sé, sí, muid and sibh use -adh and keep the pronoun: bheadh muid.",
+   "steps": [
+    "Find the conditional stem of ith: íosf-.",
+    "Add the mé ending -ainn and leave out mé: íosfainn.",
+    "Put d' before the vowel: D'íosfainn sicín agus sceallóga i ndiaidh an chluiche."
+   ],
+   "example": {
+    "prompt": "(ith: mé) sicín agus sceallóga i ndiaidh an chluiche.",
+    "answer": "D'íosfainn sicín agus sceallóga i ndiaidh an chluiche."
+   },
+   "more": [
+    {
+     "prompt": "(téigh: mé) go dtí an oifig agus chuirfinn scairt ar mo mhamaí.",
+     "answer": "Rachainn go dtí an oifig agus chuirfinn scairt ar mo mhamaí."
+    },
+    {
+     "prompt": "(cluin: tú) Gaeilge sa Ghaeltacht.",
+     "answer": "Chluinfeá Gaeilge sa Ghaeltacht."
+    }
+   ],
+   "hint": "Mé, tú and siad go into the ending: -inn, -fá, -idís.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeifeá ar an traein gan ticéad agat?",
+     "answer": "Déarfainn leis an fhear nach raibh ticéad agam. Cheannóinn ticéad úr ar an aip.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a chluinfeá dá mbeifeá ag cluiche camógaíochta?",
+     "answer": "Chluinfinn na himreoirí agus an slua ag scairteadh.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a d'íosfá dá mbeifeá sa bhialann i ndiaidh an chluiche?",
+     "answer": "D'íosfainn sicín agus sceallóga agus d'ólfainn uisce.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cá háit a rachfá dá mbeifeá tinn ar scoil?",
+     "answer": "Rachainn go dtí an oifig agus chuirfinn scairt ar mo mhamaí.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cén teanga a chluinfeá sa Ghaeltacht i nDún na nGall?",
+     "answer": "Chluinfinn Gaeilge sa Ghaeltacht.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cá huair a déarfadh duine 'Breithlá sona duit'?",
+     "answer": "Déarfadh duine 'Breithlá sona duit' dá mbeadh breithlá ag a chara.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cá háit a gcluinfeá an cór ag canadh?",
+     "answer": "Chluinfinn an cór ag canadh sa halla ag an cheolchoirm.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm dhiúltach: Ní",
+   "en": "The negative with Ní",
+   "rule": "Put Ní in front and keep the séimhiú (Ní thiocfadh, Ní bheinn), but drop d' (Ní íosfadh). Ní déarfadh and Ní rachadh do not change, and faigh becomes Ní bhfaigheadh.",
+   "steps": [
+    "Put Ní before the verb: Ní thiocfadh.",
+    "Keep the séimhiú that thiocfadh already has and leave the rest as it is: Ní thiocfadh sé go dtí an cheolchoirm liom."
+   ],
+   "example": {
+    "prompt": "Thiocfadh sé go dtí an cheolchoirm liom.",
+    "answer": "Ní thiocfadh sé go dtí an cheolchoirm liom."
+   },
+   "more": [
+    {
+     "prompt": "D'fheicfeadh sí an fharraige ón fhuinneog.",
+     "answer": "Ní fheicfeadh sí an fharraige ón fhuinneog."
+    },
+    {
+     "prompt": "Gheobhadh sí ticéad fillte ar an aip.",
+     "answer": "Ní bhfaigheadh sí ticéad fillte ar an aip."
+    }
+   ],
+   "hint": "Ní + séimhiú; no d'; faigh gives Ní bhfaigheadh.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Gheobhadh sé ticéad don chluiche.",
+     "answer": "Ní bhfaigheadh sé ticéad don chluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'íosfadh muid bricfeasta mór ar an Satharn.",
+     "answer": "Ní íosfadh muid bricfeasta mór ar an Satharn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Thiocfadh sibh go dtí an traenáil ar an rothar.",
+     "answer": "Ní thiocfadh sibh go dtí an traenáil ar an rothar."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bheinn sásta leis an fhón úr.",
+     "answer": "Ní bheinn sásta leis an fhón úr."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Thabharfaidís bronntanas don mhúinteoir ag an Nollaig.",
+     "answer": "Ní thabharfaidís bronntanas don mhúinteoir ag an Nollaig."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Rachadh muid go dtí an Ghaeltacht ar an bhus.",
+     "answer": "Ní rachadh muid go dtí an Ghaeltacht ar an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Déarfadh sí an fhírinne leis an phríomhoide.",
+     "answer": "Ní déarfadh sí an fhírinne leis an phríomhoide."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bhéarfadh muid ar an bhus ag a hocht.",
+     "answer": "Ní bhéarfadh muid ar an bhus ag a hocht."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chluinfinn an múinteoir ó chúl an ranga.",
+     "answer": "Ní chluinfinn an múinteoir ó chúl an ranga."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm cheisteach: An",
+   "en": "Asking a question with An",
+   "rule": "To ask a question, put An in front and eclipse the verb (An mbeadh, An gcluinfeadh, An dtiocfadh, An ndéanfadh, An bhfaigheadh); drop d' (An íosfadh) and leave An rachadh as it is. The answer repeats the verb: Dhéanfadh sé. Ní dhéanfadh sé.",
+   "steps": [
+    "Take the verb from the answer without Ní and without its séimhiú: déanfadh.",
+    "Put An in front and eclipse d to nd: An ndéanfadh sé.",
+    "Add the rest of the question: An ndéanfadh sé físeán don rang dá mbeadh fón aige?"
+   ],
+   "example": {
+    "prompt": "Ní dhéanfadh sé.",
+    "answer": "An ndéanfadh sé físeán don rang dá mbeadh fón aige?"
+   },
+   "more": [
+    {
+     "prompt": "Rachadh sé.",
+     "answer": "An rachadh sé go dtí an cluiche camógaíochta dá mbeadh sé saor?"
+    }
+   ],
+   "hint": "An + urú; the answer repeats the verb.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Dhéanfadh sé",
+     "answer": "An ndéanfadh sé an obair bhaile ar an ríomhaire dá mbeadh an t-idirlíon ag obair?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní chluinfidís",
+     "answer": "An gcluinfidís an clog aláraim dá mbeadh cluasáin orthu?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Bheadh sé",
+     "answer": "An mbeadh sé tuirseach dá mbeadh traenáil aige achan oíche?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Thiocfadh sí",
+     "answer": "An dtiocfadh sí go dtí an club óige dá mbeadh a cairde ann?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Rachaidís",
+     "answer": "An rachaidís go dtí an traenáil dá mbeadh sé ag cur fearthainne?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Chluinfeadh sí",
+     "answer": "An gcluinfeadh sí an clog ar scoil dá mbeadh sí sa chlós?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: mé agus tú, muid agus sibh",
+   "en": "Question and answer: I and you, we and you all",
+   "rule": "When the answer says mé, the question asks tú (Rachainn: An rachfá?); when the answer says muid, the question asks sibh (Gheobhadh muid: An bhfaigheadh sibh?).",
+   "steps": [
+    "The answer uses mé (-finn), so the question asks tú: change -finn to -feá: cluinfeá.",
+    "Put An in front and eclipse c to gc: An gcluinfeá.",
+    "Add the rest of the question: An gcluinfeá an cór ag canadh sa halla?"
+   ],
+   "example": {
+    "prompt": "Chluinfinn.",
+    "answer": "An gcluinfeá an cór ag canadh sa halla?"
+   },
+   "more": [
+    {
+     "prompt": "Bheinn.",
+     "answer": "An mbeifeá sásta leis an fhón úr?"
+    }
+   ],
+   "hint": "Mé in the answer means tú in the question; muid means sibh.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Rachainn",
+     "answer": "An rachfá go dtí an Ghaeltacht sa samhradh dá mbeadh an t-airgead agat?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Bhéarfainn",
+     "answer": "An mbéarfá ar an chamán dá gcaithfinn chugat é?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Gheobhadh muid",
+     "answer": "An bhfaigheadh sibh ticéid don cheolchoirm dá mbeadh airgead agaibh?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Déarfainn",
+     "answer": "An ndéarfá le do mhamaí é dá mbrisfeá d'fhón?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "D'íosfainn",
+     "answer": "An íosfá sceallóga ag an bhialann dá mbeadh ocras ort?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní íosfadh muid",
+     "answer": "An íosfadh sibh na milseáin dá mbeadh sibh ag traenáil?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní dhéanfainn",
+     "answer": "An ndéanfá d'obair bhaile ar an bhus dá mbeifeá mall?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Ní bhfaighinn",
+     "answer": "An bhfaighfeá cead dul go dtí an chóisir dá n-iarrfá ar do dhaidí é?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Dá agus an modh coinníollach",
+   "en": "If: dá and the conditional",
+   "rule": "After dá (if), eclipse the verb and put it in the conditional (dá mbeadh, dá gcuirfinn, dá n-iarrfá); the other half of the sentence is in the conditional too.",
+   "steps": [
+    "Put bí in the conditional: beadh.",
+    "Eclipse it after dá: dá mbeadh.",
+    "Put the other half in the conditional with séimhiú: thabharfadh.",
+    "Dá mbeadh deich míle punt ag Pól, thabharfadh sé cuid de dá thuismitheoirí."
+   ],
+   "example": {
+    "prompt": "Dá (bí) deich míle punt ag Pól, (tabhair) sé cuid de dá thuismitheoirí.",
+    "answer": "Dá mbeadh deich míle punt ag Pól, thabharfadh sé cuid de dá thuismitheoirí."
+   },
+   "more": [
+    {
+     "prompt": "An gcluinfeadh sé a fón óna sheomra dá (bí) an ceol ard?",
+     "answer": "An gcluinfeadh sé a fón óna sheomra dá mbeadh an ceol ard?"
+    }
+   ],
+   "hint": "Dá + urú + conditional.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "An mbeadh sí sásta cuidiú liom leis an obair bhaile dá (bí) an t-am aici?",
+     "answer": "An mbeadh sí sásta cuidiú liom leis an obair bhaile dá mbeadh an t-am aici?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "An ndéarfadh sé é sin ar líne dá (bí) a mháthair ag amharc?",
+     "answer": "An ndéarfadh sé é sin ar líne dá mbeadh a mháthair ag amharc?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "An dtabharfadh sé cead di a fón a úsáid dá (bí) sí tinn?",
+     "answer": "An dtabharfadh sé cead di a fón a úsáid dá mbeadh sí tinn?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thiocfadh sé go dtí an cluiche liom dá (cuir: mé) ceist air.",
+     "answer": "Thiocfadh sé go dtí an cluiche liom dá gcuirfinn ceist air."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Gheofá cead dul go dtí an chóisir dá (iarr: tú) ar do dhaidí é.",
+     "answer": "Gheofá cead dul go dtí an chóisir dá n-iarrfá ar do dhaidí é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bheadh do mhamaí crosta dá (bris: tú) d'fhón.",
+     "answer": "Bheadh do mhamaí crosta dá mbrisfeá d'fhón."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar sa mhodh coinníollach",
+   "en": "The autonomous form in the conditional",
+   "rule": "When no one in particular does the action, leave out the subject and end the verb in -faí or -fí, with séimhiú or d' as usual (Thabharfaí, Chluinfí, D'íosfaí, Bheifí). Rachfaí, déarfaí and gheofaí are fixed.",
+   "steps": [
+    "There is no subject, so add the autonomous ending -faí to the stem: tabharfaí.",
+    "Lenite the first letter as for any positive conditional: Thabharfaí.",
+    "Thabharfaí cuidiú dóibh dá mbeidís i gcruachás."
+   ],
+   "example": {
+    "prompt": "(tabhair) cuidiú dóibh dá mbeidís i gcruachás.",
+    "answer": "Thabharfaí cuidiú dóibh dá mbeidís i gcruachás."
+   },
+   "more": [
+    {
+     "prompt": "(téigh) go dtí an trá dá mbeadh an lá go breá.",
+     "answer": "Rachfaí go dtí an trá dá mbeadh an lá go breá."
+    }
+   ],
+   "hint": "No subject: end in -faí or -fí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(ith) na ceapairí ar fad ag am lóin dá mbeadh ocras ar na gasúir.",
+     "answer": "D'íosfaí na ceapairí ar fad ag am lóin dá mbeadh ocras ar na gasúir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(déan) an obair bhaile ar an ríomhaire dá mbeadh an t-idirlíon ag obair.",
+     "answer": "Dhéanfaí an obair bhaile ar an ríomhaire dá mbeadh an t-idirlíon ag obair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(cluin) an cluiche ar an raidió dá mbeadh muid sa charr.",
+     "answer": "Chluinfí an cluiche ar an raidió dá mbeadh muid sa charr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(bí) ag súil le lá saor dá mbeadh sneachta ann.",
+     "answer": "Bheifí ag súil le lá saor dá mbeadh sneachta ann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(tar) ar réiteach dá labhródh an bheirt acu leis an cheannaire bliana.",
+     "answer": "Thiocfaí ar réiteach dá labhródh an bheirt acu leis an cheannaire bliana."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Beir: an modh coinníollach",
+   "forms": [
+    "mé: Bhéarfainn",
+    "tú: Bhéarfá",
+    "sé/sí: Bhéarfadh sé/sí",
+    "muid: Bhéarfadh muid",
+    "sibh: Bhéarfadh sibh",
+    "siad: Bhéarfaidís",
+    "Diúltach: Ní bhéarfainn",
+    "Ceisteach: An mbéarfainn?",
+    "SB: Bhéarfaí",
+    "SB Diúltach: Ní bhéarfaí",
+    "SB Ceisteach: An mbéarfaí?"
+   ]
+  },
+  {
+   "title": "Cluin: an modh coinníollach",
+   "forms": [
+    "mé: Chluinfinn",
+    "tú: Chluinfeá",
+    "sé/sí: Chluinfeadh sé/sí",
+    "muid: Chluinfeadh muid",
+    "sibh: Chluinfeadh sibh",
+    "siad: Chluinfidís",
+    "Diúltach: Ní chluinfinn",
+    "Ceisteach: An gcluinfinn?",
+    "SB: Chluinfí",
+    "SB Diúltach: Ní chluinfí",
+    "SB Ceisteach: An gcluinfí?"
+   ]
+  },
+  {
+   "title": "Tar: an modh coinníollach",
+   "forms": [
+    "mé: Thiocfainn",
+    "tú: Thiocfá",
+    "sé/sí: Thiocfadh sé/sí",
+    "muid: Thiocfadh muid",
+    "sibh: Thiocfadh sibh",
+    "siad: Thiocfaidís",
+    "Diúltach: Ní thiocfainn",
+    "Ceisteach: An dtiocfainn?",
+    "SB: Thiocfaí",
+    "SB Diúltach: Ní thiocfaí",
+    "SB Ceisteach: An dtiocfaí?"
+   ]
+  },
+  {
+   "title": "Ith: an modh coinníollach",
+   "forms": [
+    "mé: D'íosfainn",
+    "tú: D'íosfá",
+    "sé/sí: D'íosfadh sé/sí",
+    "muid: D'íosfadh muid",
+    "sibh: D'íosfadh sibh",
+    "siad: D'íosfaidís",
+    "Diúltach: Ní íosfainn",
+    "Ceisteach: An íosfainn?",
+    "SB: D'íosfaí",
+    "SB Diúltach: Ní íosfaí",
+    "SB Ceisteach: An íosfaí?"
+   ]
+  },
+  {
+   "title": "Tabhair: an modh coinníollach",
+   "forms": [
+    "mé: Thabharfainn",
+    "tú: Thabharfá",
+    "sé/sí: Thabharfadh sé/sí",
+    "muid: Thabharfadh muid",
+    "sibh: Thabharfadh sibh",
+    "siad: Thabharfaidís",
+    "Diúltach: Ní thabharfainn",
+    "Ceisteach: An dtabharfainn?",
+    "SB: Thabharfaí",
+    "SB Diúltach: Ní thabharfaí",
+    "SB Ceisteach: An dtabharfaí?"
+   ]
+  },
+  {
+   "title": "Déan: an modh coinníollach",
+   "forms": [
+    "mé: Dhéanfainn",
+    "tú: Dhéanfá",
+    "sé/sí: Dhéanfadh sé/sí",
+    "muid: Dhéanfadh muid",
+    "sibh: Dhéanfadh sibh",
+    "siad: Dhéanfaidís",
+    "Diúltach: Ní dhéanfainn",
+    "Ceisteach: An ndéanfainn?",
+    "SB: Dhéanfaí",
+    "SB Diúltach: Ní dhéanfaí",
+    "SB Ceisteach: An ndéanfaí?"
+   ]
+  },
+  {
+   "title": "Feic: an modh coinníollach",
+   "forms": [
+    "mé: D'fheicfinn",
+    "tú: D'fheicfeá",
+    "sé/sí: D'fheicfeadh sé/sí",
+    "muid: D'fheicfeadh muid",
+    "sibh: D'fheicfeadh sibh",
+    "siad: D'fheicfidís",
+    "Diúltach: Ní fheicfinn",
+    "Ceisteach: An bhfeicfinn?",
+    "SB: D'fheicfí",
+    "SB Diúltach: Ní fheicfí",
+    "SB Ceisteach: An bhfeicfí?"
+   ]
+  },
+  {
+   "title": "Abair: an modh coinníollach",
+   "forms": [
+    "mé: Déarfainn",
+    "tú: Déarfá",
+    "sé/sí: Déarfadh sé/sí",
+    "muid: Déarfadh muid",
+    "sibh: Déarfadh sibh",
+    "siad: Déarfaidís",
+    "Diúltach: Ní déarfainn",
+    "Ceisteach: An ndéarfainn?",
+    "SB: Déarfaí",
+    "SB Diúltach: Ní déarfaí",
+    "SB Ceisteach: An ndéarfaí?"
+   ]
+  },
+  {
+   "title": "Téigh: an modh coinníollach",
+   "forms": [
+    "mé: Rachainn",
+    "tú: Rachfá",
+    "sé/sí: Rachadh sé/sí",
+    "muid: Rachadh muid",
+    "sibh: Rachadh sibh",
+    "siad: Rachaidís",
+    "Diúltach: Ní rachainn",
+    "Ceisteach: An rachainn?",
+    "SB: Rachfaí",
+    "SB Diúltach: Ní rachfaí",
+    "SB Ceisteach: An rachfaí?"
+   ]
+  },
+  {
+   "title": "Faigh: an modh coinníollach",
+   "forms": [
+    "mé: Gheobhainn",
+    "tú: Gheofá",
+    "sé/sí: Gheobhadh sé/sí",
+    "muid: Gheobhadh muid",
+    "sibh: Gheobhadh sibh",
+    "siad: Gheobhaidís",
+    "Diúltach: Ní bhfaighinn",
+    "Ceisteach: An bhfaighinn?",
+    "SB: Gheofaí",
+    "SB Diúltach: Ní bhfaighfí",
+    "SB Ceisteach: An bhfaighfí?"
+   ]
+  },
+  {
+   "title": "Bí: an modh coinníollach",
+   "forms": [
+    "mé: Bheinn",
+    "tú: Bheifeá",
+    "sé/sí: Bheadh sé/sí",
+    "muid: Bheadh muid",
+    "sibh: Bheadh sibh",
+    "siad: Bheidís",
+    "Diúltach: Ní bheinn",
+    "Ceisteach: An mbeinn?",
+    "SB: Bheifí",
+    "SB Diúltach: Ní bheifí",
+    "SB Ceisteach: An mbeifí?"
+   ]
+  }
+ ]
+}

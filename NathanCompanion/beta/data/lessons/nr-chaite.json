@@ -1,184 +1,602 @@
 {
-  "id": "nr-chaite",
-  "lessons": [
+ "id": "nr-chaite",
+ "lessons": [
+  {
+   "title": "Níor: beir, cluin, tar, ith, tabhair",
+   "en": "The negative with Níor: five irregular verbs",
+   "rule": "Five irregular verbs, beir, cluin, tar, ith and tabhair, make the negative like regular verbs: put Níor in front of the past form (rug, chuala, tháinig, thug), and D'ith loses its d': Níor ith.",
+   "steps": [
+    "Find the past verb: Thug.",
+    "It is one of the five Níor verbs, so put Níor in front: Níor thug.",
+    "Keep the rest of the sentence: Níor thug Mamaí an t-airgead dom."
+   ],
+   "example": {
+    "prompt": "Thug Mamaí an t-airgead dom.",
+    "answer": "Níor thug Mamaí an t-airgead dom."
+   },
+   "more": [
     {
-      "title": "Níor: beir, clois, tar, ith, tabhair",
-      "en": "The negative with Níor: five irregular verbs",
-      "rule": "Five irregular verbs, beir, clois, tar, ith and tabhair, make the negative like regular verbs: put Níor in front of the past form (rug, chuala, tháinig, thug), and D'ith loses its d': Níor ith.",
-      "steps": [
-        "Find the past verb: Thug.",
-        "It is one of the five Níor verbs, so put Níor in front: Níor thug.",
-        "Keep the rest of the sentence: Níor thug Mamaí an t-airgead dom."
-      ],
-      "example": {"prompt": "Thug Mamaí an t-airgead dom.", "answer": "Níor thug Mamaí an t-airgead dom."},
-      "more": [
-        {"prompt": "D'ith muid sceallóga sa cheaintín.", "answer": "Níor ith muid sceallóga sa cheaintín."}
-      ],
-      "hint": "Níor + the past form; D'ith loses its d'.",
-      "items": [
-        {"shape": "transform", "prompt": "Tháinig muid ar scoil ar an bhus.", "answer": "Níor tháinig muid ar scoil ar an bhus."},
-        {"shape": "transform", "prompt": "D'ith muid an lón sa halla spóirt.", "answer": "Níor ith muid an lón sa halla spóirt."},
-        {"shape": "transform", "prompt": "Chuala sibh an clog ag an sos.", "answer": "Níor chuala sibh an clog ag an sos."},
-        {"shape": "transform", "prompt": "Rug mé ar an liathróid sa chúl.", "answer": "Níor rug mé ar an liathróid sa chúl."}
-      ]
-    },
-    {
-      "title": "Ceist le Ar: beir, clois, tar, ith, tabhair",
-      "en": "Questions with Ar: five irregular verbs",
-      "rule": "To ask a question with these five verbs, put Ar in front of the past form instead of Níor, drop the d' of D'ith, and change mé to tú and muid to sibh: Tháinig mé becomes Ar tháinig tú?",
-      "steps": [
-        "Start from the statement: Chuala mé an nuacht.",
-        "Put Ar in front of the verb: Ar chuala.",
-        "Change mé to tú and add a question mark: Ar chuala tú an nuacht?"
-      ],
-      "example": {"prompt": "Chuala mé an nuacht.", "answer": "Ar chuala tú an nuacht?"},
-      "more": [
-        {"prompt": "Níor rug siad ar an ghadaí.", "answer": "Ar rug siad ar an ghadaí?"}
-      ],
-      "hint": "Ar + the past form, and tú for mé, sibh for muid.",
-      "items": [
-        {"shape": "question", "prompt": "Rug muid ar an bhus in am.", "answer": "Ar rug sibh ar an bhus in am?", "self": true},
-        {"shape": "question", "prompt": "D'ith siad sceallóga sa bhaile.", "answer": "Ar ith siad sceallóga sa bhaile?", "self": true},
-        {"shape": "question", "prompt": "Níor thug mé an fón don mhúinteoir.", "answer": "Ar thug tú an fón don mhúinteoir?", "self": true},
-        {"shape": "question", "prompt": "Tháinig muid abhaile ar an traein.", "answer": "Ar tháinig sibh abhaile ar an traein?", "self": true},
-        {"shape": "question", "prompt": "Níor chuala sé an clog aláraim ar maidin.", "answer": "Ar chuala sé an clog aláraim ar maidin?", "self": true}
-      ]
-    },
-    {
-      "title": "Ceist le Ar a fhreagairt",
-      "en": "Answering an Ar question",
-      "rule": "Answer an Ar question by repeating the verb, with no word for yes: drop Ar, put the d' back on ith, and change tú to mé (do to mo, ort to orm, duit to dom).",
-      "steps": [
-        "Drop Ar: tháinig tú ar scoil ar do rothar.",
-        "Give the verb a capital: Tháinig tú ar scoil ar do rothar.",
-        "Change tú to mé and do to mo: Tháinig mé ar scoil ar mo rothar."
-      ],
-      "example": {"prompt": "Ar tháinig tú ar scoil ar do rothar?", "answer": "Tháinig mé ar scoil ar mo rothar."},
-      "more": [
-        {"prompt": "Ar ith tú do chuid lóin?", "answer": "D'ith mé mo chuid lóin."}
-      ],
-      "hint": "Drop Ar, change tú to mé; ith gets its d' back.",
-      "items": [
-        {"shape": "transform", "prompt": "Ar chuala tú faoin turas scoile go Baile Átha Cliath?", "answer": "Chuala mé faoin turas scoile go Baile Átha Cliath."},
-        {"shape": "transform", "prompt": "Ar chuala tú an múinteoir ag glaoch ort sa chlós?", "answer": "Chuala mé an múinteoir ag glaoch orm sa chlós."},
-        {"shape": "transform", "prompt": "Ar ith tú ceapaire roimh an chluiche?", "answer": "D'ith mé ceapaire roimh an chluiche."},
-        {"shape": "transform", "prompt": "Ar tháinig tú abhaile sa charr inné?", "answer": "Tháinig mé abhaile sa charr inné."},
-        {"shape": "transform", "prompt": "Ar thug an múinteoir cead duit imeacht go luath inniu?", "answer": "Thug an múinteoir cead dom imeacht go luath inniu."},
-        {"shape": "transform", "prompt": "Ar rug an múinteoir ort ag úsáid an fhóin sa rang?", "answer": "Rug an múinteoir orm ag úsáid an fhóin sa rang."},
-        {"shape": "transform", "prompt": "Ar tháinig do chairde chuig an chóisir Dé Sathairn?", "answer": "Tháinig mo chairde chuig an chóisir Dé Sathairn."}
-      ]
-    },
-    {
-      "title": "Ní: déan, feic, abair, téigh, faigh, bí",
-      "en": "The negative with Ní: six irregular verbs",
-      "rule": "Six irregular verbs use Ní and a special negative form that you learn by heart: rinne becomes ní dhearna, chonaic ní fhaca, dúirt ní dúirt, chuaigh ní dheachaigh, fuair ní bhfuair, bhí ní raibh.",
-      "steps": [
-        "Find the past verb: Chuaigh.",
-        "It is one of the six Ní verbs, so swap it for its negative form: Ní dheachaigh.",
-        "Keep the rest of the sentence: Ní dheachaigh sé abhaile."
-      ],
-      "example": {"prompt": "Chuaigh sé abhaile.", "answer": "Ní dheachaigh sé abhaile."},
-      "more": [
-        {"prompt": "Rinne siad a ndícheall.", "answer": "Ní dhearna siad a ndícheall."},
-        {"prompt": "Bhí mé ann.", "answer": "Ní raibh mé ann."}
-      ],
-      "hint": "Ní dhearna, ní fhaca, ní dúirt, ní dheachaigh, ní bhfuair, ní raibh.",
-      "items": [
-        {"shape": "transform", "prompt": "Rinne muid an scrúdú inné.", "answer": "Ní dhearna muid an scrúdú inné."},
-        {"shape": "transform", "prompt": "Dúirt mé é sin leis an ghirseach.", "answer": "Ní dúirt mé é sin leis an ghirseach."},
-        {"shape": "transform", "prompt": "Bhí sí ag an traenáil camógaíochta aréir.", "answer": "Ní raibh sí ag an traenáil camógaíochta aréir."},
-        {"shape": "transform", "prompt": "Fuair siad airgead póca Dé Sathairn.", "answer": "Ní bhfuair siad airgead póca Dé Sathairn."},
-        {"shape": "transform", "prompt": "Chuaigh muid go Gaoth Dobhair sa charr.", "answer": "Ní dheachaigh muid go Gaoth Dobhair sa charr."},
-        {"shape": "transform", "prompt": "Chonaic muid an madadh sa pháirc.", "answer": "Ní fhaca muid an madadh sa pháirc."}
-      ]
-    },
-    {
-      "title": "Ceist le An: déan, feic, abair, téigh, faigh, bí",
-      "en": "Questions with An: six irregular verbs",
-      "rule": "To ask a question with these six verbs, put An in front of the special form, which is eclipsed: an ndearna, an bhfaca, an ndúirt, an ndeachaigh, an bhfuair, an raibh. Change mé to tú and muid to sibh.",
-      "steps": [
-        "Find the past verb: Fuair.",
-        "Swap it for the question form: An bhfuair.",
-        "Change mé to tú and add a question mark: An bhfuair tú airgead uaidh?"
-      ],
-      "example": {"prompt": "Fuair mé airgead uaidh.", "answer": "An bhfuair tú airgead uaidh?"},
-      "more": [
-        {"prompt": "Chonaic mé an scannán sin.", "answer": "An bhfaca tú an scannán sin?"}
-      ],
-      "hint": "An ndearna, an bhfaca, an ndúirt, an ndeachaigh, an bhfuair, an raibh.",
-      "items": [
-        {"shape": "question", "prompt": "Chuaigh mé chuig an chluiche.", "answer": "An ndeachaigh tú chuig an chluiche?", "self": true},
-        {"shape": "question", "prompt": "Dúirt sé é sin ar an fhón.", "answer": "An ndúirt sé é sin ar an fhón?", "self": true},
-        {"shape": "question", "prompt": "Rinne sí a hobair bhaile ar an ríomhaire.", "answer": "An ndearna sí a hobair bhaile ar an ríomhaire?", "self": true},
-        {"shape": "question", "prompt": "Bhí an madadh amuigh sa pháirc.", "answer": "An raibh an madadh amuigh sa pháirc?", "self": true},
-        {"shape": "question", "prompt": "Fuair muid na ticéid don cheolchoirm.", "answer": "An bhfuair sibh na ticéid don cheolchoirm?", "self": true},
-        {"shape": "question", "prompt": "Dúirt muid leis an mhúinteoir é.", "answer": "An ndúirt sibh leis an mhúinteoir é?", "self": true},
-        {"shape": "question", "prompt": "Chonaic muid an scannán sa phictiúrlann san Iúr.", "answer": "An bhfaca sibh an scannán sa phictiúrlann san Iúr?", "self": true}
-      ]
-    },
-    {
-      "title": "Ceist le An a fhreagairt",
-      "en": "Answering an An question",
-      "rule": "Answer an An question with the ordinary past form, not the question form: An bhfaca tú? Chonaic mé. Change tú to mé, do to mo and leat to liom.",
-      "steps": [
-        "Find the verb in the question: raibh, the question form of bí.",
-        "Swap it for the ordinary past form: Bhí.",
-        "Change tú to mé: Bhí mé ann."
-      ],
-      "example": {"prompt": "An raibh tú ann?", "answer": "Bhí mé ann."},
-      "more": [
-        {"prompt": "An ndearna siad a ndícheall?", "answer": "Rinne siad a ndícheall."}
-      ],
-      "hint": "Answer with the ordinary past form: rinne, chonaic, dúirt, chuaigh, fuair, bhí.",
-      "items": [
-        {"shape": "transform", "prompt": "An bhfuair tú cead dul chuig an dioscó Dé hAoine?", "answer": "Fuair mé cead dul chuig an dioscó Dé hAoine."},
-        {"shape": "transform", "prompt": "An ndeachaigh tú chuig an traenáil camógaíochta aréir?", "answer": "Chuaigh mé chuig an traenáil camógaíochta aréir."},
-        {"shape": "transform", "prompt": "An ndúirt do dhaid leat an fón a chur síos?", "answer": "Dúirt mo dhaid liom an fón a chur síos."},
-        {"shape": "transform", "prompt": "An raibh tú sa leabharlann ag an sos inniu?", "answer": "Bhí mé sa leabharlann ag an sos inniu."},
-        {"shape": "transform", "prompt": "An bhfaca tú do sheanmháthair ar na mallaibh?", "answer": "Chonaic mé mo sheanmháthair ar na mallaibh."},
-        {"shape": "transform", "prompt": "An ndearna tú dearmad ar do lón inniu?", "answer": "Rinne mé dearmad ar mo lón inniu."}
-      ]
-    },
-    {
-      "title": "An saorbhriathar",
-      "en": "The autonomous form",
-      "rule": "When nobody is named as doing the action, use the verb's own autonomous form, learnt by heart: rugadh, chualathas, thángthas, itheadh, tugadh, rinneadh, chonacthas, dúradh, chuathas, fuarthas, bhíothas. For a question use the particle the verb always takes: Ar tugadh? An ndearnadh?",
-      "steps": [
-        "Find the verb in brackets: feic.",
-        "Recall its autonomous past form: chonacthas.",
-        "Put it first, with no pronoun after it: Chonacthas an madadh sa pháirc."
-      ],
-      "example": {"prompt": "(Feic) an madadh sa pháirc.", "answer": "Chonacthas an madadh sa pháirc."},
-      "more": [
-        {"prompt": "(Clois) an clog ar fud na scoile.", "answer": "Chualathas an clog ar fud na scoile."},
-        {"prompt": "Rinneadh an obair.", "answer": "An ndearnadh an obair?"}
-      ],
-      "hint": "Learn the eleven autonomous forms; no pronoun follows them.",
-      "items": [
-        {"shape": "stem", "prompt": "(Beir) ar an ghadaí taobh amuigh den siopa.", "answer": "Rugadh ar an ghadaí taobh amuigh den siopa."},
-        {"shape": "stem", "prompt": "(Tabhair) duais don fhoireann camógaíochta.", "answer": "Tugadh duais don fhoireann camógaíochta."},
-        {"shape": "stem", "prompt": "(Ith) na milseáin go léir roimh an chóisir.", "answer": "Itheadh na milseáin go léir roimh an chóisir."},
-        {"shape": "stem", "prompt": "(Faigh) na ticéid ar an fhón go héasca.", "answer": "Fuarthas na ticéid ar an fhón go héasca."},
-        {"shape": "stem", "prompt": "(Déan) an obair bhaile ar an ríomhaire gan stró.", "answer": "Rinneadh an obair bhaile ar an ríomhaire gan stró."},
-        {"shape": "stem", "prompt": "(Abair) léi gan an fón a úsáid sa rang.", "answer": "Dúradh léi gan an fón a úsáid sa rang."},
-        {"shape": "stem", "prompt": "(Tabhair) seans eile don fhoireann.", "answer": "Tugadh seans eile don fhoireann."},
-        {"shape": "question", "prompt": "Tugadh duais don ghirseach.", "answer": "Ar tugadh duais don ghirseach?", "self": true},
-        {"shape": "question", "prompt": "Itheadh na ceapairí go léir ag an sos.", "answer": "Ar itheadh na ceapairí go léir ag an sos?", "self": true}
-      ]
+     "prompt": "D'ith muid sceallóga sa cheaintín.",
+     "answer": "Níor ith muid sceallóga sa cheaintín."
     }
-  ],
-  "tables": [
-    {"title": "Beir: an aimsir chaite, diúltach, ceisteach", "forms": ["Rug mé", "Rug tú", "Rug sé/sí", "Rug muid", "Rug sibh", "Rug siad", "Diúltach: Níor rug mé", "Ceisteach: Ar rug mé?", "SB: Rugadh", "SB diúltach: Níor rugadh", "SB ceisteach: Ar rugadh?"]},
-    {"title": "Clois: an aimsir chaite, diúltach, ceisteach", "forms": ["Chuala mé", "Chuala tú", "Chuala sé/sí", "Chuala muid", "Chuala sibh", "Chuala siad", "Diúltach: Níor chuala mé", "Ceisteach: Ar chuala mé?", "SB: Chualathas", "SB diúltach: Níor chualathas", "SB ceisteach: Ar chualathas?"]},
-    {"title": "Tar: an aimsir chaite, diúltach, ceisteach", "forms": ["Tháinig mé", "Tháinig tú", "Tháinig sé/sí", "Tháinig muid", "Tháinig sibh", "Tháinig siad", "Diúltach: Níor tháinig mé", "Ceisteach: Ar tháinig mé?", "SB: Thángthas", "SB diúltach: Níor thángthas", "SB ceisteach: Ar thángthas?"]},
-    {"title": "Ith: an aimsir chaite, diúltach, ceisteach", "forms": ["D'ith mé", "D'ith tú", "D'ith sé/sí", "D'ith muid", "D'ith sibh", "D'ith siad", "Diúltach: Níor ith mé", "Ceisteach: Ar ith mé?", "SB: Itheadh", "SB diúltach: Níor itheadh", "SB ceisteach: Ar itheadh?"]},
-    {"title": "Tabhair: an aimsir chaite, diúltach, ceisteach", "forms": ["Thug mé", "Thug tú", "Thug sé/sí", "Thug muid", "Thug sibh", "Thug siad", "Diúltach: Níor thug mé", "Ceisteach: Ar thug mé?", "SB: Tugadh", "SB diúltach: Níor tugadh", "SB ceisteach: Ar tugadh?"]},
-    {"title": "Déan: an aimsir chaite, diúltach, ceisteach", "forms": ["Rinne mé", "Rinne tú", "Rinne sé/sí", "Rinne muid", "Rinne sibh", "Rinne siad", "Diúltach: Ní dhearna mé", "Ceisteach: An ndearna mé?", "SB: Rinneadh", "SB diúltach: Ní dhearnadh", "SB ceisteach: An ndearnadh?"]},
-    {"title": "Feic: an aimsir chaite, diúltach, ceisteach", "forms": ["Chonaic mé", "Chonaic tú", "Chonaic sé/sí", "Chonaic muid", "Chonaic sibh", "Chonaic siad", "Diúltach: Ní fhaca mé", "Ceisteach: An bhfaca mé?", "SB: Chonacthas", "SB diúltach: Ní fhacthas", "SB ceisteach: An bhfacthas?"]},
-    {"title": "Abair: an aimsir chaite, diúltach, ceisteach", "forms": ["Dúirt mé", "Dúirt tú", "Dúirt sé/sí", "Dúirt muid", "Dúirt sibh", "Dúirt siad", "Diúltach: Ní dúirt mé", "Ceisteach: An ndúirt mé?", "SB: Dúradh", "SB diúltach: Ní dúradh", "SB ceisteach: An ndúradh?"]},
-    {"title": "Téigh: an aimsir chaite, diúltach, ceisteach", "forms": ["Chuaigh mé", "Chuaigh tú", "Chuaigh sé/sí", "Chuaigh muid", "Chuaigh sibh", "Chuaigh siad", "Diúltach: Ní dheachaigh mé", "Ceisteach: An ndeachaigh mé?", "SB: Chuathas", "SB diúltach: Ní dheachthas", "SB ceisteach: An ndeachthas?"]},
-    {"title": "Faigh: an aimsir chaite, diúltach, ceisteach", "forms": ["Fuair mé", "Fuair tú", "Fuair sé/sí", "Fuair muid", "Fuair sibh", "Fuair siad", "Diúltach: Ní bhfuair mé", "Ceisteach: An bhfuair mé?", "SB: Fuarthas", "SB diúltach: Ní bhfuarthas", "SB ceisteach: An bhfuarthas?"]},
-    {"title": "Bí: an aimsir chaite, diúltach, ceisteach", "forms": ["Bhí mé", "Bhí tú", "Bhí sé/sí", "Bhí muid", "Bhí sibh", "Bhí siad", "Diúltach: Ní raibh mé", "Ceisteach: An raibh mé?", "SB: Bhíothas", "SB diúltach: Ní rabhthas", "SB ceisteach: An rabhthas?"]},
-    {"title": "Ceist agus freagra: na briathra neamhrialta san aimsir chaite", "forms": ["Ar tháinig tú ar scoil ar do rothar? Tháinig mé. Níor tháinig mé.", "Ar thug Mamaí an t-airgead duit? Thug sí. Níor thug sí.", "Ar chuala sí an nuacht? Chuala sí. Níor chuala sí.", "Ar rug siad ar an ghadaí? Rug siad. Níor rug siad.", "Ar ith tú do chuid lóin? D'ith mé. Níor ith mé.", "An bhfaca tú an scannán sin? Chonaic mé. Ní fhaca mé.", "An ndúirt sé é sin? Dúirt sé. Ní dúirt sé.", "An ndeachaigh sé abhaile? Chuaigh sé. Ní dheachaigh sé.", "An bhfuair tú airgead uaidh go fóill? Fuair mé. Ní bhfuair mé.", "An ndearna siad a ndícheall? Rinne siad. Ní dhearna siad.", "An raibh tú ann? Bhí mé. Ní raibh mé."]}
-  ]
+   ],
+   "hint": "Níor + the past form; D'ith loses its d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Tháinig muid ar scoil ar an bhus.",
+     "answer": "Níor tháinig muid ar scoil ar an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'ith muid an lón sa halla spóirt.",
+     "answer": "Níor ith muid an lón sa halla spóirt."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chuala sibh an clog ag an sos.",
+     "answer": "Níor chuala sibh an clog ag an sos."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Rug mé ar an liathróid sa chúl.",
+     "answer": "Níor rug mé ar an liathróid sa chúl."
+    }
+   ]
+  },
+  {
+   "title": "Ceist le Ar: beir, cluin, tar, ith, tabhair",
+   "en": "Questions with Ar: five irregular verbs",
+   "rule": "To ask a question with these five verbs, put Ar in front of the past form instead of Níor, drop the d' of D'ith, and change mé to tú and muid to sibh: Tháinig mé becomes Ar tháinig tú?",
+   "steps": [
+    "Start from the statement: Chuala mé an nuacht.",
+    "Put Ar in front of the verb: Ar chuala.",
+    "Change mé to tú and add a question mark: Ar chuala tú an nuacht?"
+   ],
+   "example": {
+    "prompt": "Chuala mé an nuacht.",
+    "answer": "Ar chuala tú an nuacht?"
+   },
+   "more": [
+    {
+     "prompt": "Níor rug siad ar an ghadaí.",
+     "answer": "Ar rug siad ar an ghadaí?"
+    }
+   ],
+   "hint": "Ar + the past form, and tú for mé, sibh for muid.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Rug muid ar an bhus in am.",
+     "answer": "Ar rug sibh ar an bhus in am?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "D'ith siad sceallóga sa bhaile.",
+     "answer": "Ar ith siad sceallóga sa bhaile?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níor thug mé an fón don mhúinteoir.",
+     "answer": "Ar thug tú an fón don mhúinteoir?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Tháinig muid abhaile ar an traein.",
+     "answer": "Ar tháinig sibh abhaile ar an traein?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Níor chuala sé an clog aláraim ar maidin.",
+     "answer": "Ar chuala sé an clog aláraim ar maidin?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Ceist le Ar a fhreagairt",
+   "en": "Answering an Ar question",
+   "rule": "Answer an Ar question by repeating the verb, with no word for yes: drop Ar, put the d' back on ith, and change tú to mé (do to mo, ort to orm, duit to dom).",
+   "steps": [
+    "Drop Ar: tháinig tú ar scoil ar do rothar.",
+    "Give the verb a capital: Tháinig tú ar scoil ar do rothar.",
+    "Change tú to mé and do to mo: Tháinig mé ar scoil ar mo rothar."
+   ],
+   "example": {
+    "prompt": "Ar tháinig tú ar scoil ar do rothar?",
+    "answer": "Tháinig mé ar scoil ar mo rothar."
+   },
+   "more": [
+    {
+     "prompt": "Ar ith tú do chuid lóin?",
+     "answer": "D'ith mé mo chuid lóin."
+    }
+   ],
+   "hint": "Drop Ar, change tú to mé; ith gets its d' back.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ar chuala tú faoin turas scoile go Baile Átha Cliath?",
+     "answer": "Chuala mé faoin turas scoile go Baile Átha Cliath."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar chuala tú an múinteoir ag glaoch ort sa chlós?",
+     "answer": "Chuala mé an múinteoir ag glaoch orm sa chlós."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar ith tú ceapaire roimh an chluiche?",
+     "answer": "D'ith mé ceapaire roimh an chluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar tháinig tú abhaile sa charr inné?",
+     "answer": "Tháinig mé abhaile sa charr inné."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar thug an múinteoir cead duit imeacht go luath inniu?",
+     "answer": "Thug an múinteoir cead dom imeacht go luath inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar rug an múinteoir ort ag úsáid an fhóin sa rang?",
+     "answer": "Rug an múinteoir orm ag úsáid an fhóin sa rang."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ar tháinig do chairde chuig an chóisir Dé Sathairn?",
+     "answer": "Tháinig mo chairde chuig an chóisir Dé Sathairn."
+    }
+   ]
+  },
+  {
+   "title": "Ní: déan, feic, abair, téigh, faigh, bí",
+   "en": "The negative with Ní: six irregular verbs",
+   "rule": "Six irregular verbs use Ní and a special negative form that you learn by heart: rinne becomes ní dhearna, chonaic ní fhaca, dúirt ní dúirt, chuaigh ní dheachaigh, fuair ní bhfuair, bhí ní raibh.",
+   "steps": [
+    "Find the past verb: Chuaigh.",
+    "It is one of the six Ní verbs, so swap it for its negative form: Ní dheachaigh.",
+    "Keep the rest of the sentence: Ní dheachaigh sé abhaile."
+   ],
+   "example": {
+    "prompt": "Chuaigh sé abhaile.",
+    "answer": "Ní dheachaigh sé abhaile."
+   },
+   "more": [
+    {
+     "prompt": "Rinne siad a ndícheall.",
+     "answer": "Ní dhearna siad a ndícheall."
+    },
+    {
+     "prompt": "Bhí mé ann.",
+     "answer": "Ní raibh mé ann."
+    }
+   ],
+   "hint": "Ní dhearna, ní fhaca, ní dúirt, ní dheachaigh, ní bhfuair, ní raibh.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Rinne muid an scrúdú inné.",
+     "answer": "Ní dhearna muid an scrúdú inné."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Dúirt mé é sin leis an ghirseach.",
+     "answer": "Ní dúirt mé é sin leis an ghirseach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bhí sí ag an traenáil camógaíochta aréir.",
+     "answer": "Ní raibh sí ag an traenáil camógaíochta aréir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Fuair siad airgead póca Dé Sathairn.",
+     "answer": "Ní bhfuair siad airgead póca Dé Sathairn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chuaigh muid go Dún na nGall sa charr.",
+     "answer": "Ní dheachaigh muid go Dún na nGall sa charr."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chonaic muid an madadh sa pháirc.",
+     "answer": "Ní fhaca muid an madadh sa pháirc."
+    }
+   ]
+  },
+  {
+   "title": "Ceist le An: déan, feic, abair, téigh, faigh, bí",
+   "en": "Questions with An: six irregular verbs",
+   "rule": "To ask a question with these six verbs, put An in front of the special form, which is eclipsed: an ndearna, an bhfaca, an ndúirt, an ndeachaigh, an bhfuair, an raibh. Change mé to tú and muid to sibh.",
+   "steps": [
+    "Find the past verb: Fuair.",
+    "Swap it for the question form: An bhfuair.",
+    "Change mé to tú and add a question mark: An bhfuair tú airgead uaidh?"
+   ],
+   "example": {
+    "prompt": "Fuair mé airgead uaidh.",
+    "answer": "An bhfuair tú airgead uaidh?"
+   },
+   "more": [
+    {
+     "prompt": "Chonaic mé an scannán sin.",
+     "answer": "An bhfaca tú an scannán sin?"
+    }
+   ],
+   "hint": "An ndearna, an bhfaca, an ndúirt, an ndeachaigh, an bhfuair, an raibh.",
+   "items": [
+    {
+     "shape": "question",
+     "prompt": "Chuaigh mé chuig an chluiche.",
+     "answer": "An ndeachaigh tú chuig an chluiche?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Dúirt sé é sin ar an fhón.",
+     "answer": "An ndúirt sé é sin ar an fhón?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Rinne sí a hobair bhaile ar an ríomhaire.",
+     "answer": "An ndearna sí a hobair bhaile ar an ríomhaire?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Bhí an madadh amuigh sa pháirc.",
+     "answer": "An raibh an madadh amuigh sa pháirc?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Fuair muid na ticéid don cheolchoirm.",
+     "answer": "An bhfuair sibh na ticéid don cheolchoirm?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Dúirt muid leis an mhúinteoir é.",
+     "answer": "An ndúirt sibh leis an mhúinteoir é?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Chonaic muid an scannán sa phictiúrlann san Iúr.",
+     "answer": "An bhfaca sibh an scannán sa phictiúrlann san Iúr?",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Ceist le An a fhreagairt",
+   "en": "Answering an An question",
+   "rule": "Answer an An question with the ordinary past form, not the question form: An bhfaca tú? Chonaic mé. Change tú to mé, do to mo and leat to liom.",
+   "steps": [
+    "Find the verb in the question: raibh, the question form of bí.",
+    "Swap it for the ordinary past form: Bhí.",
+    "Change tú to mé: Bhí mé ann."
+   ],
+   "example": {
+    "prompt": "An raibh tú ann?",
+    "answer": "Bhí mé ann."
+   },
+   "more": [
+    {
+     "prompt": "An ndearna siad a ndícheall?",
+     "answer": "Rinne siad a ndícheall."
+    }
+   ],
+   "hint": "Answer with the ordinary past form: rinne, chonaic, dúirt, chuaigh, fuair, bhí.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "An bhfuair tú cead dul chuig an dioscó Dé hAoine?",
+     "answer": "Fuair mé cead dul chuig an dioscó Dé hAoine."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An ndeachaigh tú chuig an traenáil camógaíochta aréir?",
+     "answer": "Chuaigh mé chuig an traenáil camógaíochta aréir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An ndúirt do dhaid leat an fón a chur síos?",
+     "answer": "Dúirt mo dhaid liom an fón a chur síos."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An raibh tú sa leabharlann ag an sos inniu?",
+     "answer": "Bhí mé sa leabharlann ag an sos inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An bhfaca tú do sheanmháthair ar na mallaibh?",
+     "answer": "Chonaic mé mo sheanmháthair ar na mallaibh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An ndearna tú dearmad ar do lón inniu?",
+     "answer": "Rinne mé dearmad ar mo lón inniu."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar",
+   "en": "The autonomous form",
+   "rule": "When nobody is named as doing the action, use the verb's own autonomous form, learnt by heart: rugadh, chualathas, thángthas, itheadh, tugadh, rinneadh, chonacthas, dúradh, chuathas, fuarthas, bhíothas. For a question use the particle the verb always takes: Ar tugadh? An ndearnadh?",
+   "steps": [
+    "Find the verb in brackets: feic.",
+    "Recall its autonomous past form: chonacthas.",
+    "Put it first, with no pronoun after it: Chonacthas an madadh sa pháirc."
+   ],
+   "example": {
+    "prompt": "(Feic) an madadh sa pháirc.",
+    "answer": "Chonacthas an madadh sa pháirc."
+   },
+   "more": [
+    {
+     "prompt": "(Cluin) an clog ar fud na scoile.",
+     "answer": "Chualathas an clog ar fud na scoile."
+    },
+    {
+     "prompt": "Rinneadh an obair.",
+     "answer": "An ndearnadh an obair?"
+    }
+   ],
+   "hint": "Learn the eleven autonomous forms; no pronoun follows them.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Beir) ar an ghadaí taobh amuigh den siopa.",
+     "answer": "Rugadh ar an ghadaí taobh amuigh den siopa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tabhair) duais don fhoireann camógaíochta.",
+     "answer": "Tugadh duais don fhoireann camógaíochta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ith) na milseáin go léir roimh an chóisir.",
+     "answer": "Itheadh na milseáin go léir roimh an chóisir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Faigh) na ticéid ar an fhón go héasca.",
+     "answer": "Fuarthas na ticéid ar an fhón go héasca."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan) an obair bhaile ar an ríomhaire gan stró.",
+     "answer": "Rinneadh an obair bhaile ar an ríomhaire gan stró."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Abair) léi gan an fón a úsáid sa rang.",
+     "answer": "Dúradh léi gan an fón a úsáid sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tabhair) seans eile don fhoireann.",
+     "answer": "Tugadh seans eile don fhoireann."
+    },
+    {
+     "shape": "question",
+     "prompt": "Tugadh duais don ghirseach.",
+     "answer": "Ar tugadh duais don ghirseach?",
+     "self": true
+    },
+    {
+     "shape": "question",
+     "prompt": "Itheadh na ceapairí go léir ag an sos.",
+     "answer": "Ar itheadh na ceapairí go léir ag an sos?",
+     "self": true
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Beir: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Rug mé",
+    "Rug tú",
+    "Rug sé/sí",
+    "Rug muid",
+    "Rug sibh",
+    "Rug siad",
+    "Diúltach: Níor rug mé",
+    "Ceisteach: Ar rug mé?",
+    "SB: Rugadh",
+    "SB diúltach: Níor rugadh",
+    "SB ceisteach: Ar rugadh?"
+   ]
+  },
+  {
+   "title": "Cluin: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Chuala mé",
+    "Chuala tú",
+    "Chuala sé/sí",
+    "Chuala muid",
+    "Chuala sibh",
+    "Chuala siad",
+    "Diúltach: Níor chuala mé",
+    "Ceisteach: Ar chuala mé?",
+    "SB: Chualathas",
+    "SB diúltach: Níor chualathas",
+    "SB ceisteach: Ar chualathas?"
+   ]
+  },
+  {
+   "title": "Tar: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Tháinig mé",
+    "Tháinig tú",
+    "Tháinig sé/sí",
+    "Tháinig muid",
+    "Tháinig sibh",
+    "Tháinig siad",
+    "Diúltach: Níor tháinig mé",
+    "Ceisteach: Ar tháinig mé?",
+    "SB: Thángthas",
+    "SB diúltach: Níor thángthas",
+    "SB ceisteach: Ar thángthas?"
+   ]
+  },
+  {
+   "title": "Ith: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "D'ith mé",
+    "D'ith tú",
+    "D'ith sé/sí",
+    "D'ith muid",
+    "D'ith sibh",
+    "D'ith siad",
+    "Diúltach: Níor ith mé",
+    "Ceisteach: Ar ith mé?",
+    "SB: Itheadh",
+    "SB diúltach: Níor itheadh",
+    "SB ceisteach: Ar itheadh?"
+   ]
+  },
+  {
+   "title": "Tabhair: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Thug mé",
+    "Thug tú",
+    "Thug sé/sí",
+    "Thug muid",
+    "Thug sibh",
+    "Thug siad",
+    "Diúltach: Níor thug mé",
+    "Ceisteach: Ar thug mé?",
+    "SB: Tugadh",
+    "SB diúltach: Níor tugadh",
+    "SB ceisteach: Ar tugadh?"
+   ]
+  },
+  {
+   "title": "Déan: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Rinne mé",
+    "Rinne tú",
+    "Rinne sé/sí",
+    "Rinne muid",
+    "Rinne sibh",
+    "Rinne siad",
+    "Diúltach: Ní dhearna mé",
+    "Ceisteach: An ndearna mé?",
+    "SB: Rinneadh",
+    "SB diúltach: Ní dhearnadh",
+    "SB ceisteach: An ndearnadh?"
+   ]
+  },
+  {
+   "title": "Feic: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Chonaic mé",
+    "Chonaic tú",
+    "Chonaic sé/sí",
+    "Chonaic muid",
+    "Chonaic sibh",
+    "Chonaic siad",
+    "Diúltach: Ní fhaca mé",
+    "Ceisteach: An bhfaca mé?",
+    "SB: Chonacthas",
+    "SB diúltach: Ní fhacthas",
+    "SB ceisteach: An bhfacthas?"
+   ]
+  },
+  {
+   "title": "Abair: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Dúirt mé",
+    "Dúirt tú",
+    "Dúirt sé/sí",
+    "Dúirt muid",
+    "Dúirt sibh",
+    "Dúirt siad",
+    "Diúltach: Ní dúirt mé",
+    "Ceisteach: An ndúirt mé?",
+    "SB: Dúradh",
+    "SB diúltach: Ní dúradh",
+    "SB ceisteach: An ndúradh?"
+   ]
+  },
+  {
+   "title": "Téigh: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Chuaigh mé",
+    "Chuaigh tú",
+    "Chuaigh sé/sí",
+    "Chuaigh muid",
+    "Chuaigh sibh",
+    "Chuaigh siad",
+    "Diúltach: Ní dheachaigh mé",
+    "Ceisteach: An ndeachaigh mé?",
+    "SB: Chuathas",
+    "SB diúltach: Ní dheachthas",
+    "SB ceisteach: An ndeachthas?"
+   ]
+  },
+  {
+   "title": "Faigh: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Fuair mé",
+    "Fuair tú",
+    "Fuair sé/sí",
+    "Fuair muid",
+    "Fuair sibh",
+    "Fuair siad",
+    "Diúltach: Ní bhfuair mé",
+    "Ceisteach: An bhfuair mé?",
+    "SB: Fuarthas",
+    "SB diúltach: Ní bhfuarthas",
+    "SB ceisteach: An bhfuarthas?"
+   ]
+  },
+  {
+   "title": "Bí: an aimsir chaite, diúltach, ceisteach",
+   "forms": [
+    "Bhí mé",
+    "Bhí tú",
+    "Bhí sé/sí",
+    "Bhí muid",
+    "Bhí sibh",
+    "Bhí siad",
+    "Diúltach: Ní raibh mé",
+    "Ceisteach: An raibh mé?",
+    "SB: Bhíothas",
+    "SB diúltach: Ní rabhthas",
+    "SB ceisteach: An rabhthas?"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra: na briathra neamhrialta san aimsir chaite",
+   "forms": [
+    "Ar tháinig tú ar scoil ar do rothar? Tháinig mé. Níor tháinig mé.",
+    "Ar thug Mamaí an t-airgead duit? Thug sí. Níor thug sí.",
+    "Ar chuala sí an nuacht? Chuala sí. Níor chuala sí.",
+    "Ar rug siad ar an ghadaí? Rug siad. Níor rug siad.",
+    "Ar ith tú do chuid lóin? D'ith mé. Níor ith mé.",
+    "An bhfaca tú an scannán sin? Chonaic mé. Ní fhaca mé.",
+    "An ndúirt sé é sin? Dúirt sé. Ní dúirt sé.",
+    "An ndeachaigh sé abhaile? Chuaigh sé. Ní dheachaigh sé.",
+    "An bhfuair tú airgead uaidh go fóill? Fuair mé. Ní bhfuair mé.",
+    "An ndearna siad a ndícheall? Rinne siad. Ní dhearna siad.",
+    "An raibh tú ann? Bhí mé. Ní raibh mé."
+   ]
+  }
+ ]
 }

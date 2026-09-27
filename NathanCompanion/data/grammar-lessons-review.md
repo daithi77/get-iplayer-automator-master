@@ -28,3 +28,37 @@
 - Third person plural differs: r2-coinniollach uses the analytic "cheannódh siad", while r1-coinniollach and the r2-gnathchaite table use -óidís / -faidís. Which do you want taught?
 - Doubtful sentences kept: "Bhítí ag súil leis an bhus ag a hocht a chlog"; "Thagtaí ar fhreagra sa leabharlann…"; "Bhainteá an cluiche i gcónaí" (model question "An mbaininn…?"); "Sháródh sé an fhadhb…"; "Cheansódh an gasúr an capall dá mbéarfadh sé air".
 - "Dhéanfaí" (déan) sits in the regular broad saorbhriathar list.
+
+## d1 to d5 (declensions)
+- dún replaced: "Dúnfaidh mé" became "Druidfidh mé"; "Ag dúnadh" became "Ag druidim" (would "ag druid" be more natural?); "Dhún siad" became "Dhruid siad".
+- Place name: every "i nDún na nGall" became "i dTír Chonaill".
+- Prompts reworked into stems, e.g. "Seoladh (an ríomhphost)", "ag fáil (na boinn)" giving "ag fáil na mbonn", "na (mála)" for plurals.
+- Corrections: "chluiche camógaíochta" became "chluiche iomána" (camáin are for hurling); d5 "mo (cara)" became "mo chuid (cara)"; "An mhonarcha"; "Claíocha na dteorainneacha".
+- d1 has 3 lessons (plurals only); first-declension genitive is taught in d2.
+- d4: "Guth an scéalaí" and "Guth an amhránaí" became plural items ("Na scéalaithe", "Na hamhránaithe").
+- d4 -anna rule ("vowel ending: add -nna"); "gé, géanna" dropped as it doesn't fit.
+- To check: "Doras na bpaisinéirí" (could read as "the passengers' door"); "Tháinig mo chuid cairde" (no séimhiú on cairde after chuid).
+- "an príomhoide" kept in two d3 sentences as ordinary school vocabulary.
+- Left as they were: d5 table "Uncail na máithreacha" (reads oddly); d4 "An oíche (b)", "An teanga (b)" with gender markers.
+
+## r1-chaite, r2-chaite, nr-chaite, r1-laithreach, r2-laithreach
+- druid: "Druideadh an bóthar go Sliabh gCuillinn inné" (is druid right for closing a road?); "Druideadh an siopa sin i lár an bhaile anuraidh"; "Druideann siad na geataí ar a ceathair a chlog". Broad tables use glan; "Dún an doras" became "Tóg an mála".
+- Answers written where the source only repeated the prompt (nr-chaite, r1-laithreach); "Ar ith tú rud ar bith roimh an chluiche?" became "Ar ith tú ceapaire…". Odd for a pupil: "Brisim rialacha go minic."
+- To confirm for Ulster: "Ní dúirt" (no lenition) and "Ní dhearna".
+- r1-laithreach rule: no change after Ní on l, n, r, sc, sm, sp, st ("sm" added to match "Ní smaoiním").
+- Kept, worth a glance: "sa tseomra ranga", "a lán peann", "Athraigh an téip".
+- New: "Thug Mamaí an t-airgead dom."; "(Triomaigh) na héadaí ar an líne."; "(Blais) an bia sa cheaintín."; "Chonacthas an madadh sa pháirc."
+
+## nr-coinniollach, aidiacht-bhriathartha, reamhfhocail-simpli, reamhfhocail-briathra, reamhfhocail-chomhshuite
+- Standard feic forms used, not "tchífeadh"; "Ní déarfadh", "Ní rachadh" without séimhiú.
+- New: "D'fheicfeadh sí an fharraige ón fhuinneog"; "Gheofá cead … dá n-iarrfá ar do dhaidí é"; "Bheadh do mhamaí crosta dá mbrisfeá d'fhón"; "Rachfaí go dtí an trá dá mbeadh an lá go breá"; "An mbeifeá sásta leis an fhón úr?"; "Tá an féar gearrtha ag Daidí"; "Tá mo rothar deisithe ag m'uncail"; "Bhí an fear gafa ag na gardaí i ndiaidh na timpiste" (póilíní for a Northern pupil?); "Tá an t-úrscéal léite agam".
+- "tríd na" became "trí na" in the table: please confirm.
+- Pronoun tables still use "sinn", not "muid".
+- "in aice an locha", "in aice na farraige" kept; Ulster may prefer "in aice leis an…".
+
+## Applied after your rulings of 27 September
+- "Dún na nGall" restored wherever an agent had replaced it (32 places); your original "Tír Chonaill" sentences kept.
+- Conditional: both forms shown in tables, worked examples and feedback, and both accepted in marking.
+- "clois" replaced by "cluin" in every form (148 places), including "cluinstin".
+- "bord" replaced by "tábla" (106 places). Two lessons where "bord" carried the teaching point were changed instead: lenition after "den" and "ar an" now uses "cathaoir" ("den chathaoir", "ar an chathaoir"); the genitive after a verbal noun uses "carr" ("ag glanadh an chairr").
+- 30 answers in nr-laithreach held the original and the result joined by an arrow; they now hold the result only.

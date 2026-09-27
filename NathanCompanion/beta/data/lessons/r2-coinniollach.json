@@ -143,8 +143,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Folmhaigh) sí an mála scoile ar an bhord.",
-     "answer": "D'fholmhódh sí an mála scoile ar an bhord."
+     "prompt": "(Folmhaigh) sí an mála scoile ar an tábla.",
+     "answer": "D'fholmhódh sí an mála scoile ar an tábla."
     },
     {
      "shape": "stem",

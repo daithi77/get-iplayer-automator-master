@@ -1,0 +1,406 @@
+{
+ "id": "reamhfhocail-chomhshuite",
+ "lessons": [
+  {
+   "title": "Firinscneach uatha: an + séimhiú",
+   "en": "Masculine nouns: keep an and lenite",
+   "rule": "After a compound preposition (i gcoinne, i ndiaidh, ar chúl) the noun goes into the genitive: for a masculine noun keep an and lenite b, c, f, g, m or p (an cat: i ndiaidh an chait), then give it its genitive ending.",
+   "steps": [
+    "i gcoinne is a compound preposition, so the noun goes into the genitive.",
+    "geata is masculine: keep an and lenite g: an gheata.",
+    "geata keeps the same ending: Tá an rothar ina sheasamh i gcoinne an gheata."
+   ],
+   "example": {
+    "prompt": "Tá an rothar ina sheasamh i gcoinne (an geata).",
+    "answer": "Tá an rothar ina sheasamh i gcoinne an gheata."
+   },
+   "more": [
+    {
+     "prompt": "D'fhan muid sa bhaile i ndiaidh (an cluiche).",
+     "answer": "D'fhan muid sa bhaile i ndiaidh an chluiche."
+    }
+   ],
+   "hint": "Masculine: an + séimhiú + genitive ending.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Rith an madadh i ndiaidh (an cat).",
+     "answer": "Rith an madadh i ndiaidh an chait."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rith mé i ndiaidh (an bus) ar maidin ach chaill mé é.",
+     "answer": "Rith mé i ndiaidh an bhus ar maidin ach chaill mé é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cé atá i bhfeighil (an club)?",
+     "answer": "Cé atá i bhfeighil an chlub?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an carr páirceáilte ar chúl (an garáiste).",
+     "answer": "Tá an carr páirceáilte ar chúl an gharáiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na fóin múchta le linn (an ceacht).",
+     "answer": "Bhí na fóin múchta le linn an cheachta."
+    }
+   ]
+  },
+  {
+   "title": "Firinscneach uatha: d, t, l, n, r, s agus gutaí",
+   "en": "Masculine nouns beginning with d, t, l, n, r, s or a vowel",
+   "rule": "A masculine noun beginning with d, t, l, n or r takes no séimhiú after an (i gcoinne an rialtais); s before a vowel or l, n, r takes t (an tseó), and a vowel loses its t- (an tAifreann: an Aifrinn). Then give the noun its genitive ending.",
+   "steps": [
+    "in aice takes the genitive, and droichead is masculine, so keep an.",
+    "droichead begins with d, so do not lenite it.",
+    "Change the ending to the genitive, droichid: Chuaigh muid ag snámh in aice an droichid."
+   ],
+   "example": {
+    "prompt": "Chuaigh muid ag snámh in aice (an droichead).",
+    "answer": "Chuaigh muid ag snámh in aice an droichid."
+   },
+   "more": [
+    {
+     "prompt": "Tá bruscar caite ar fud (an sráidbhaile).",
+     "answer": "Tá bruscar caite ar fud an tsráidbhaile."
+    }
+   ],
+   "hint": "No séimhiú on d, t, l, n, r; s takes t; drop the t- before a vowel.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Labhair na daoine amach i gcoinne (an rialtas).",
+     "answer": "Labhair na daoine amach i gcoinne an rialtais."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'imir an fhoireann go crua ar son (an teideal).",
+     "answer": "D'imir an fhoireann go crua ar son an teidil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh muid ag siúl in aice (an loch).",
+     "answer": "Chuaigh muid ag siúl in aice an locha."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rinne Ciara a cur i láthair os comhair (an rang).",
+     "answer": "Rinne Ciara a cur i láthair os comhair an ranga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí mé ar m'fhón i gcaitheamh (an tráthnóna).",
+     "answer": "Bhí mé ar m'fhón i gcaitheamh an tráthnóna."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an ghrian ag taitneamh i rith (an lá).",
+     "answer": "Bhí an ghrian ag taitneamh i rith an lae."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fágadh Laoise i mbun (an teach) nuair a bhí a tuismitheoirí amuigh.",
+     "answer": "Fágadh Laoise i mbun an tí nuair a bhí a tuismitheoirí amuigh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na páistí ciúin i rith (an tAifreann).",
+     "answer": "Bhí na páistí ciúin i rith an Aifrinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí achan duine ciúin le linn (an seó).",
+     "answer": "Bhí achan duine ciúin le linn an tseó."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí ocras orm i ndiaidh (an snámh).",
+     "answer": "Bhí ocras orm i ndiaidh an tsnámha."
+    }
+   ]
+  },
+  {
+   "title": "Baininscneach uatha: na, gan séimhiú",
+   "en": "Feminine nouns: an becomes na, lenition goes",
+   "rule": "For a feminine noun, change an to na and take away the séimhiú or the t that an gave it (an fhoireann: na foirne; an tseachtain: na seachtaine), then give it its genitive ending.",
+   "steps": [
+    "sráid is feminine, so an becomes na.",
+    "Take away the t that an gave it: na sráid.",
+    "Add the genitive ending -e: Tá an bus ina stad i lár na sráide."
+   ],
+   "example": {
+    "prompt": "Tá an bus ina stad i lár (an tsráid).",
+    "answer": "Tá an bus ina stad i lár na sráide."
+   },
+   "more": [
+    {
+     "prompt": "Tá crann os comhair (an fhuinneog).",
+     "answer": "Tá crann os comhair na fuinneoige."
+    }
+   ],
+   "hint": "Feminine: na, no séimhiú, no t.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Labhair an captaen os comhair (an fhoireann).",
+     "answer": "Labhair an captaen os comhair na foirne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí a máthair in éadan (an chóisir).",
+     "answer": "Bhí a máthair in éadan na cóisire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí mé tuirseach i ndiaidh (an tseachtain).",
+     "answer": "Bhí mé tuirseach i ndiaidh na seachtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Labhair sí ar son (an Ghaeltacht).",
+     "answer": "Labhair sí ar son na Gaeltachta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí na daoine ag máirseáil ar son (an tsaoirse).",
+     "answer": "Bhí na daoine ag máirseáil ar son na saoirse."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Cill Chaoil in aice (an fharraige).",
+     "answer": "Tá Cill Chaoil in aice na farraige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Vótáil an rang i gcoinne (an chomhairle).",
+     "answer": "Vótáil an rang i gcoinne na comhairle."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sé ag ithe ar nós (an mhuc).",
+     "answer": "Bhí sé ag ithe ar nós na muice."
+    }
+   ]
+  },
+  {
+   "title": "Baininscneach uatha: consan gan athrú, h roimh ghuta",
+   "en": "Feminine nouns: no change to a consonant, h before a vowel",
+   "rule": "When a feminine noun has no séimhiú to take away, na leaves a consonant alone (na scoile) and puts h before a vowel (an oifig: na hoifige). Then give it its genitive ending.",
+   "steps": [
+    "os comhair takes the genitive, and oifig is feminine, so an becomes na.",
+    "oifig begins with a vowel, so put h before it: na hoifig.",
+    "Add the genitive ending -e: Tá Aoife ina seasamh os comhair na hoifige."
+   ],
+   "example": {
+    "prompt": "Tá Aoife ina seasamh os comhair (an oifig).",
+    "answer": "Tá Aoife ina seasamh os comhair na hoifige."
+   },
+   "more": [
+    {
+     "prompt": "Bhí muid ag siúl in aice (an trá).",
+     "answer": "Bhí muid ag siúl in aice na trá."
+    }
+   ],
+   "hint": "na + consonant: no change; na + vowel: add h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "D'imir sí camógaíocht ar son (an scoil).",
+     "answer": "D'imir sí camógaíocht ar son na scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá Bean Uí Néill i bhfeighil (an leabharlann).",
+     "answer": "Tá Bean Uí Néill i bhfeighil na leabharlainne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sé ina shuí i lár (an traein).",
+     "answer": "Bhí sé ina shuí i lár na traenach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cheannaigh sí stampa le haghaidh (an litir).",
+     "answer": "Cheannaigh sí stampa le haghaidh na litreach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí muid inár suí os comhair (an abhainn).",
+     "answer": "Bhí muid inár suí os comhair na habhann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith sí bomaite ar lorg (an uimhir).",
+     "answer": "Chaith sí bomaite ar lorg na huimhreach."
+    }
+   ]
+  },
+  {
+   "title": "An t-iolra: na + urú",
+   "en": "Plural nouns: na and eclipsis",
+   "rule": "In the plural, use na and eclipse the noun (na daltaí: na ndaltaí; na hamhránaithe: na n-amhránaithe). A plural like gasúir that ends in a slender consonant goes back to the singular shape: na ngasúr.",
+   "steps": [
+    "os cionn takes the genitive, and tithe is plural, so use na.",
+    "Eclipse t to dt: na dtithe.",
+    "tithe keeps its ending: Tá an drón os cionn na dtithe."
+   ],
+   "example": {
+    "prompt": "Tá an drón os cionn (na tithe).",
+    "answer": "Tá an drón os cionn na dtithe."
+   },
+   "more": [
+    {
+     "prompt": "Tá an club peile i measc (na páirceanna).",
+     "answer": "Tá an club peile i measc na bpáirceanna."
+    }
+   ],
+   "hint": "Plural: na + urú.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh an madadh i bhfolach i measc (na carranna).",
+     "answer": "Chuaigh an madadh i bhfolach i measc na gcarranna."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Labhair an príomhoide ar son (na daltaí).",
+     "answer": "Labhair an príomhoide ar son na ndaltaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith sé an oíche i gcuideachta (na hamhránaithe).",
+     "answer": "Chaith sé an oíche i gcuideachta na n-amhránaithe."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sí i gcónaí i gcuideachta (na gasúir).",
+     "answer": "Bíonn sí i gcónaí i gcuideachta na ngasúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sí ag traenáil le haghaidh (na cluichí).",
+     "answer": "Bhí sí ag traenáil le haghaidh na gcluichí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí Seán i bhfeighil (na buachaillí) ar an turas scoile.",
+     "answer": "Bhí Seán i bhfeighil na mbuachaillí ar an turas scoile."
+    }
+   ]
+  },
+  {
+   "title": "Ainmfhocal gan alt",
+   "en": "Nouns with no article",
+   "rule": "With no article, add nothing in front and do not lenite: just give the noun its genitive form (ar lorg airgid, ar feadh bliana, i gceann míosa). After mo, do or a, keep the change they make: i gcoinne mo thola.",
+   "steps": [
+    "ar feadh takes the genitive, and there is no article, so add nothing in front.",
+    "Change coicís to its genitive form: coicíse.",
+    "Bhí sí ar saoire ar feadh coicíse."
+   ],
+   "example": {
+    "prompt": "Bhí sí ar saoire ar feadh (coicís).",
+    "answer": "Bhí sí ar saoire ar feadh coicíse."
+   },
+   "more": [
+    {
+     "prompt": "Chuir sé scairt ar an oifig ar lorg (eolas).",
+     "answer": "Chuir sé scairt ar an oifig ar lorg eolais."
+    }
+   ],
+   "hint": "No article: only the ending changes.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh sí chuig an bhanc ar lorg (airgead).",
+     "answer": "Chuaigh sí chuig an bhanc ar lorg airgid."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí mé ag staidéar ar feadh (maidin).",
+     "answer": "Bhí mé ag staidéar ar feadh maidine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sé i Meiriceá ar feadh (bliain).",
+     "answer": "Bhí sé i Meiriceá ar feadh bliana."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Beidh na scrúduithe ann i gceann (seachtain).",
+     "answer": "Beidh na scrúduithe ann i gceann seachtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'ith mé toradh in ionad (seacláid).",
+     "answer": "D'ith mé toradh in ionad seacláide."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sé ar nós (athair) dúinn.",
+     "answer": "Bhí sé ar nós athar dúinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Beidh an Nollaig ann i gceann (mí).",
+     "answer": "Beidh an Nollaig ann i gceann míosa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh sé isteach sa siopa ar lorg (deoch).",
+     "answer": "Chuaigh sé isteach sa siopa ar lorg dí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rinne siad an obair sin ar son (Dia).",
+     "answer": "Rinne siad an obair sin ar son Dé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuir mé an fón síos i gcoinne mo (toil).",
+     "answer": "Chuir mé an fón síos i gcoinne mo thola."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Na réamhfhocail chomhshuite is coitianta",
+   "forms": [
+    "ar aghaidh",
+    "ar chúl",
+    "ar feadh",
+    "ar fud",
+    "ar lorg",
+    "ar nós",
+    "ar son",
+    "os cionn",
+    "os coinne",
+    "os comhair",
+    "i bhfeighil",
+    "i bhfogas",
+    "i dteannta",
+    "i gcaitheamh",
+    "i gceann",
+    "i gcoinne",
+    "i gcuideachta",
+    "i lár",
+    "i measc",
+    "i mbun",
+    "i ndiaidh",
+    "i rith",
+    "in aghaidh",
+    "in aice",
+    "in éadan",
+    "in ionad",
+    "le cois",
+    "le haghaidh",
+    "le hais",
+    "le linn",
+    "fá choinne"
+   ]
+  }
+ ]
+}

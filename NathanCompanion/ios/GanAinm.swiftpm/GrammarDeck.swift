@@ -171,7 +171,7 @@ struct GrammarDeck: View {
         }
     }
 
-    private func revealBlock(prompt: String, answer: String, index: Int, scale s: CGFloat) -> some View {
+    private func revealBlock(prompt: String, answer: String, alt: String? = nil, index: Int, scale s: CGFloat) -> some View {
         VStack(alignment: .leading, spacing: 20 * s) {
             Text(prompt)
                 .font(.system(size: 44 * s, weight: .bold))
@@ -180,8 +180,13 @@ struct GrammarDeck: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.fill(0)))
             if revealed.contains(index) {
-                Text(Highlight.changes(from: prompt, to: answer))
-                    .font(.system(size: 44 * s, weight: .bold))
+                VStack(alignment: .leading, spacing: 8 * s) {
+                    Text(Highlight.changes(from: prompt, to: answer))
+                        .font(.system(size: 44 * s, weight: .bold))
+                    if let alt = alt {
+                        Text("nó \(alt)").font(.system(size: 28 * s))
+                    }
+                }
                     .padding(20 * s)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.penWash))
@@ -250,7 +255,7 @@ struct GrammarDeck: View {
             Text(showEnglish ? "\(item.task.ga) \(item.task.en)" : item.task.ga)
                 .font(.system(size: 26 * s, weight: .semibold))
                 .foregroundStyle(Theme.muted)
-            revealBlock(prompt: item.prompt, answer: item.answer, index: index, scale: s)
+            revealBlock(prompt: item.prompt, answer: item.answer, alt: item.alt, index: index, scale: s)
         case .lessonRule(let lesson, let i):
             heading("Riail \(i + 1)", s)
             Text(lesson.title).font(.system(size: 46 * s, weight: .bold))
@@ -261,7 +266,7 @@ struct GrammarDeck: View {
         case .worked(let lesson):
             heading("Sampla", s)
             Text(lesson.title).font(.system(size: 26 * s, weight: .semibold)).foregroundStyle(Theme.muted)
-            revealBlock(prompt: lesson.example.prompt, answer: lesson.example.answer, index: index, scale: s)
+            revealBlock(prompt: lesson.example.prompt, answer: lesson.example.answer, alt: lesson.example.alt, index: index, scale: s)
         case .end:
             heading("Críoch", s)
             Text(section.title).font(.system(size: 50 * s, weight: .bold))
