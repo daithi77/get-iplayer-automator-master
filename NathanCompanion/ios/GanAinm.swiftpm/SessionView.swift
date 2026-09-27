@@ -347,7 +347,7 @@ struct StepHeader: View {
     let step: Int
     var silent = false
 
-    private var name: (ga: String, en: String) { silent && step == 0 ? ("Léigh", "Read") : Session.steps[step] }
+    private var name: (ga: String, en: String) { silent && step == 0 ? (ga: "Léigh", en: "Read") : Session.steps[step] }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

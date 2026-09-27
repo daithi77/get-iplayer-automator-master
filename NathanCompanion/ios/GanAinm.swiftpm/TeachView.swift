@@ -376,7 +376,7 @@ struct ExamplesSlide: View {
                         .foregroundStyle(Theme.pen)
                         .rotationEffect(.degrees(-2))
                     if showEnglish {
-                        Text("Model answers. Tap one to hear it.")
+                        Text(unit.isSilent ? "Model answers." : "Model answers. Tap one to hear it.")
                             .font(.system(size: 24 * s))
                             .foregroundStyle(Theme.muted)
                     }

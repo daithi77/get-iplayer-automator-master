@@ -265,8 +265,9 @@ struct RecallView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     if run.done {
                         let ok = run.log.filter { $0 }.count
+                        let share: Double = run.log.isEmpty ? 1 : Double(ok) / Double(run.log.count)
                         Panel {
-                            Text(run.log.isEmpty || Double(ok) / Double(run.log.count) >= 0.8 ? "🌟" : (Double(ok) / Double(run.log.count) >= 0.5 ? "👍" : "💪"))
+                            Text(share >= 0.8 ? "🌟" : (share >= 0.5 ? "👍" : "💪"))
                                 .font(.system(size: 64)).frame(maxWidth: .infinity).accessibilityHidden(true)
                             Text("\(ok) / \(run.log.count)").font(.largeTitle.weight(.bold)).frame(maxWidth: .infinity)
                             Text("Answers you found hard come back sooner.").foregroundStyle(Theme.muted).frame(maxWidth: .infinity)
