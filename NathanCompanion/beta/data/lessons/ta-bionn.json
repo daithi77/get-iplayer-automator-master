@@ -1,0 +1,447 @@
+{
+ "id": "ta-bionn",
+ "lessons": [
+  {
+   "title": "Bím agus bíonn: an aimsir ghnáthláithreach",
+   "en": "Bím and bíonn: what usually happens",
+   "rule": "Bí has two present tenses. Tá is for right now; bíonn is for what happens usually, or again and again. For I, the pronoun joins the verb: bím. For we, say bíonn muid (bímid is also right). Everyone else takes bíonn: bíonn tú, bíonn sé, bíonn sí, bíonn sibh, bíonn siad.",
+   "steps": [
+    "Is it a habit? Ar maidin, every morning: yes.",
+    "Use bíonn; for mé, join them: bím.",
+    "Write it: Bím tuirseach ar maidin."
+   ],
+   "example": {
+    "prompt": "(Bí) mé tuirseach ar maidin.",
+    "answer": "Bím tuirseach ar maidin."
+   },
+   "more": [
+    {
+     "prompt": "(Bí) sé fuar sa gheimhreadh.",
+     "answer": "Bíonn sé fuar sa gheimhreadh."
+    }
+   ],
+   "hint": "Usually, or again and again: bíonn. For I: bím.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo dheartháir ag imirt peile achan Satharn.",
+     "answer": "Bíonn mo dheartháir ag imirt peile achan Satharn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé ag obair i siopa ag an deireadh seachtaine.",
+     "answer": "Bím ag obair i siopa ag an deireadh seachtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) muid ag caint Gaeilge sa bhaile.",
+     "answer": "Bíonn muid ag caint Gaeilge sa bhaile.",
+     "alt": "Bímid ag caint Gaeilge sa bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) na siopaí gnóthach roimh an Nollaig.",
+     "answer": "Bíonn na siopaí gnóthach roimh an Nollaig."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo mhamó ag cniotáil san oíche.",
+     "answer": "Bíonn mo mhamó ag cniotáil san oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) tú i gcónaí déanach!",
+     "answer": "Bíonn tú i gcónaí déanach!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an trácht trom san Iúr ar an Aoine.",
+     "answer": "Bíonn an trácht trom san Iúr ar an Aoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) siad sa leabharlann ag am lóin.",
+     "answer": "Bíonn siad sa leabharlann ag am lóin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé neirbhíseach roimh scrúdú.",
+     "answer": "Bím neirbhíseach roimh scrúdú."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an scoil druidte i mí Iúil.",
+     "answer": "Bíonn an scoil druidte i mí Iúil."
+    }
+   ]
+  },
+  {
+   "title": "Tá nó bíonn?",
+   "en": "Tá or bíonn? Now or usually",
+   "rule": "Use tá for something true now, at this moment (Tá sé fuar inniu). Use bíonn for a habit, or something that happens again and again (Bíonn sé fuar sa gheimhreadh). Let the time phrase decide: anois, inniu and faoi láthair point to tá; achan lá, go minic, i gcónaí, de ghnáth and ar an Luan point to bíonn.",
+   "steps": [
+    "Find the time phrase: anois.",
+    "Anois means right now, so use tá.",
+    "Write it: Tá sé ag cur sneachta anois."
+   ],
+   "example": {
+    "prompt": "(Bí) sé ag cur sneachta anois.",
+    "answer": "Tá sé ag cur sneachta anois."
+   },
+   "more": [
+    {
+     "prompt": "(Bí) sé ag cur báistí go minic in Éirinn.",
+     "answer": "Bíonn sé ag cur báistí go minic in Éirinn."
+    }
+   ],
+   "hint": "Now: tá. Usually or often: bíonn.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé tuirseach inniu.",
+     "answer": "Tá mé tuirseach inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé tuirseach achan Luan.",
+     "answer": "Bím tuirseach achan Luan."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an rang ciúin faoi láthair.",
+     "answer": "Tá an rang ciúin faoi láthair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an rang callánach de ghnáth.",
+     "answer": "Bíonn an rang callánach de ghnáth."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) Seán sa bhaile anois.",
+     "answer": "Tá Seán sa bhaile anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) m'athair ag obair go déanach ar an Aoine.",
+     "answer": "Bíonn m'athair ag obair go déanach ar an Aoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) sé grianmhar inniu, buíochas le Dia.",
+     "answer": "Tá sé grianmhar inniu, buíochas le Dia."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) muid ag ithe píotsa achan Aoine.",
+     "answer": "Bíonn muid ag ithe píotsa achan Aoine.",
+     "alt": "Bímid ag ithe píotsa achan Aoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo chara tinn inniu, mar sin níl sí ar scoil.",
+     "answer": "Tá mo chara tinn inniu, mar sin níl sí ar scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé i mo shuí ar a seacht achan mhaidin.",
+     "answer": "Bím i mo shuí ar a seacht achan mhaidin."
+    }
+   ]
+  },
+  {
+   "title": "Ní bhíonn agus An mbíonn?",
+   "en": "Negatives and questions: Ní bhíonn, An mbíonn?",
+   "rule": "For the negative of bíonn, write Ní bhíonn (Ní bhím for I). For a question, write An mbíonn ...? The short answers are Bíonn (yes) and Ní bhíonn (no); to a question with tú, answer Bím or Ní bhím. Compare tá, which becomes Níl and An bhfuil.",
+   "steps": [
+    "Put Ní in front of the verb.",
+    "Add séimhiú: Ní bhíonn.",
+    "For a question use An and eclipsis instead: An mbíonn?"
+   ],
+   "example": {
+    "prompt": "Diúltach: Bíonn an bus déanach.",
+    "answer": "Ní bhíonn an bus déanach."
+   },
+   "more": [
+    {
+     "prompt": "Ceist: Bíonn tú tuirseach ar maidin.",
+     "answer": "An mbíonn tú tuirseach ar maidin?"
+    }
+   ],
+   "hint": "Ní bhíonn, An mbíonn? Answers: Bíonn, Ní bhíonn; Bím, Ní bhím.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Diúltach: Bím neirbhíseach roimh chluiche.",
+     "answer": "Ní bhím neirbhíseach roimh chluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Bíonn sibh ag traenáil ar an Déardaoin.",
+     "answer": "An mbíonn sibh ag traenáil ar an Déardaoin?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Diúltach: Bíonn an siopa ar oscailt Dé Domhnaigh.",
+     "answer": "Ní bhíonn an siopa ar oscailt Dé Domhnaigh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Bíonn obair bhaile agaibh achan oíche.",
+     "answer": "An mbíonn obair bhaile agaibh achan oíche?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Diúltach: Bíonn muid ag imirt ar an Domhnach.",
+     "answer": "Ní bhíonn muid ag imirt ar an Domhnach.",
+     "alt": "Ní bhímid ag imirt ar an Domhnach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Bíonn do dheirfiúr ag obair sa bhialann.",
+     "answer": "An mbíonn do dheirfiúr ag obair sa bhialann?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Freagra diúltach: An mbíonn tú déanach don scoil?",
+     "answer": "Ní bhím.",
+     "alt": "Ní bhím déanach don scoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Freagra dearfach: An mbíonn sé fuar i mBéal Feirste sa gheimhreadh?",
+     "answer": "Bíonn.",
+     "alt": "Bíonn sé fuar i mBéal Feirste sa gheimhreadh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Diúltach: Bíonn an bus scoile plódaithe.",
+     "answer": "Ní bhíonn an bus scoile plódaithe."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Bíonn tú ag amharc ar an teilifís achan oíche.",
+     "answer": "An mbíonn tú ag amharc ar an teilifís achan oíche?"
+    }
+   ]
+  },
+  {
+   "title": "Bíonn le frásaí ama",
+   "en": "Bíonn with time phrases",
+   "rule": "A time phrase that means a habit turns tá into bíonn and níl into ní bhíonn: achan lá, achan Satharn, go minic, i gcónaí, de ghnáth, uaireanta, ó am go ham, sa gheimhreadh, ar an Luan. Riamh (ever) goes with the negative: Ní bhíonn sé in am riamh.",
+   "steps": [
+    "Read the time phrase: sa gheimhreadh.",
+    "It is a habit, so tá becomes bíonn.",
+    "Add the phrase at the end: Bíonn sé fuar sa gheimhreadh."
+   ],
+   "example": {
+    "prompt": "Tá sé fuar. (sa gheimhreadh)",
+    "answer": "Bíonn sé fuar sa gheimhreadh."
+   },
+   "more": [
+    {
+     "prompt": "Níl an bus in am. (riamh)",
+     "answer": "Ní bhíonn an bus in am riamh."
+    }
+   ],
+   "hint": "Habit phrase: tá becomes bíonn, níl becomes ní bhíonn.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Tá mé tuirseach. (achan tráthnóna)",
+     "answer": "Bím tuirseach achan tráthnóna."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá mo mham ag obair san ospidéal. (ar an Satharn)",
+     "answer": "Bíonn mo mham ag obair san ospidéal ar an Satharn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá an trácht go dona. (go minic)",
+     "answer": "Bíonn an trácht go dona go minic."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá muid ag caint faoin pheil. (i gcónaí)",
+     "answer": "Bíonn muid ag caint faoin pheil i gcónaí.",
+     "alt": "Bímid ag caint faoin pheil i gcónaí."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Níl sé ciúin sa teach s'againne. (riamh)",
+     "answer": "Ní bhíonn sé ciúin sa teach s'againne riamh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá Ciara sa leabharlann. (ag am lóin)",
+     "answer": "Bíonn Ciara sa leabharlann ag am lóin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá sé dorcha. (ar a cúig a chlog sa gheimhreadh)",
+     "answer": "Bíonn sé dorcha ar a cúig a chlog sa gheimhreadh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá mé neirbhíseach. (ó am go ham)",
+     "answer": "Bím neirbhíseach ó am go ham."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá siad ag argóint. (uaireanta)",
+     "answer": "Bíonn siad ag argóint uaireanta."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Níl mé sa bhaile. (ag an deireadh seachtaine)",
+     "answer": "Ní bhím sa bhaile ag an deireadh seachtaine."
+    }
+   ]
+  },
+  {
+   "title": "Bíonn ... de ghnáth, ach tá ... inniu",
+   "en": "Usually, but today: bíonn and tá together",
+   "rule": "One sentence can use both: bíonn for the habit and tá for now. Bíonn sé fliuch de ghnáth, ach tá sé grianmhar inniu. This is a good way to add detail to an answer in the speaking test.",
+   "steps": [
+    "The first half is a habit (de ghnáth): bíonn.",
+    "The second half is about today (inniu): tá.",
+    "Write it: Bíonn sé fliuch de ghnáth, ach tá sé grianmhar inniu."
+   ],
+   "example": {
+    "prompt": "(Bí) sé fliuch de ghnáth, ach (bí) sé grianmhar inniu.",
+    "answer": "Bíonn sé fliuch de ghnáth, ach tá sé grianmhar inniu."
+   },
+   "more": [
+    {
+     "prompt": "(Bí) mé ciúin sa rang de ghnáth, ach (bí) mé ag caint go leor inniu.",
+     "answer": "Bím ciúin sa rang de ghnáth, ach tá mé ag caint go leor inniu."
+    }
+   ],
+   "hint": "Habit: bíonn. Now: tá.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an bus plódaithe achan mhaidin, ach (bí) sé folamh anois.",
+     "answer": "Bíonn an bus plódaithe achan mhaidin, ach tá sé folamh anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) Liam ag imirt i lár na páirce de ghnáth, ach (bí) sé sa chúl inniu.",
+     "answer": "Bíonn Liam ag imirt i lár na páirce de ghnáth, ach tá sé sa chúl inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) m'athair sa bhaile ar an Luan, ach (bí) sé i mBéal Feirste an tseachtain seo.",
+     "answer": "Bíonn m'athair sa bhaile ar an Luan, ach tá sé i mBéal Feirste an tseachtain seo."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an siopa druidte ar an Domhnach, ach (bí) sé ar oscailt inniu.",
+     "answer": "Bíonn an siopa druidte ar an Domhnach, ach tá sé ar oscailt inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé tuirseach ar maidin, ach (bí) mé lán fuinnimh anois.",
+     "answer": "Bím tuirseach ar maidin, ach tá mé lán fuinnimh anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (bí) sé ag cur sneachta in Ard Mhacha go minic, ach (bí) sé ag cur sneachta inniu.",
+     "answer": "Ní bhíonn sé ag cur sneachta in Ard Mhacha go minic, ach tá sé ag cur sneachta inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) muid ag siúl ar scoil de ghnáth, ach (bí) muid ar an bhus inniu mar tá sé fliuch.",
+     "answer": "Bíonn muid ag siúl ar scoil de ghnáth, ach tá muid ar an bhus inniu mar tá sé fliuch.",
+     "alt": "Bímid ag siúl ar scoil de ghnáth, ach táimid ar an bhus inniu mar tá sé fliuch."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) Loch nEathach ciúin sa gheimhreadh, ach (bí) sé lán daoine inniu.",
+     "answer": "Bíonn Loch nEathach ciúin sa gheimhreadh, ach tá sé lán daoine inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) Aoife cairdiúil de ghnáth, ach (bí) sí crosta inniu.",
+     "answer": "Bíonn Aoife cairdiúil de ghnáth, ach tá sí crosta inniu."
+    }
+   ]
+  },
+  {
+   "title": "Bhíodh: an aimsir ghnáthchaite",
+   "en": "Used to be: bhíodh",
+   "rule": "For something that used to happen again and again in the past, use bhíodh, the past of bíonn: Bhíodh sé fuar achan gheimhreadh. For one time in the past, use bhí: Bhí sé fuar inné. For I, say bhínn; for they, bhídís (or bhíodh siad); for we, bhíodh muid (or bhímis). Nuair a bhí mé óg keeps bhí, because it is one stretch of time.",
+   "steps": [
+    "Is it one time or again and again? Achan samhradh: again and again.",
+    "So use bhíodh; muid keeps its pronoun: bhíodh muid.",
+    "Write it: Bhíodh muid i nDún na nGall achan samhradh nuair a bhí mé óg."
+   ],
+   "example": {
+    "prompt": "(Bí) muid i nDún na nGall achan samhradh nuair a bhí mé óg.",
+    "answer": "Bhíodh muid i nDún na nGall achan samhradh nuair a bhí mé óg.",
+    "alt": "Bhímis i nDún na nGall achan samhradh nuair a bhí mé óg."
+   },
+   "more": [
+    {
+     "prompt": "(Bí) sé fuar inné.",
+     "answer": "Bhí sé fuar inné."
+    }
+   ],
+   "hint": "Again and again in the past: bhíodh, bhínn. Once: bhí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé i mo shuí go luath achan mhaidin sa bhunscoil.",
+     "answer": "Bhínn i mo shuí go luath achan mhaidin sa bhunscoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) sé ag cur báistí aréir.",
+     "answer": "Bhí sé ag cur báistí aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo sheanathair ag obair ar an fheirm achan lá.",
+     "answer": "Bhíodh mo sheanathair ag obair ar an fheirm achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) siad ag imirt sa pháirc achan tráthnóna nuair a bhí siad óg.",
+     "answer": "Bhídís ag imirt sa pháirc achan tráthnóna nuair a bhí siad óg.",
+     "alt": "Bhíodh siad ag imirt sa pháirc achan tráthnóna nuair a bhí siad óg."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) an cluiche iontach Dé Sathairn seo caite.",
+     "answer": "Bhí an cluiche iontach Dé Sathairn seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (bí) an bus in am riamh an bhliain seo caite.",
+     "answer": "Ní bhíodh an bus in am riamh an bhliain seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé tinn an tseachtain seo caite.",
+     "answer": "Bhí mé tinn an tseachtain seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (bí) tú ag snámh achan Luan nuair a bhí tú sa bhunscoil?",
+     "answer": "An mbíodh tú ag snámh achan Luan nuair a bhí tú sa bhunscoil?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo mhamó ag insint scéalta dúinn achan oíche.",
+     "answer": "Bhíodh mo mhamó ag insint scéalta dúinn achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé ar an bhus ar feadh uair an chloig ar maidin.",
+     "answer": "Bhí mé ar an bhus ar feadh uair an chloig ar maidin."
+    }
+   ]
+  }
+ ]
+}

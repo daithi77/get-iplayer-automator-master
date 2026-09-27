@@ -40,7 +40,7 @@ struct HomeView: View {
                     }
                     if !store.gcse.isEmpty {
                         NavigationLink {
-                            GCSEHome()
+                            GCSEHome(track: .gcse)
                         } label: {
                             HStack(spacing: 14) {
                                 Text("🎓").font(.system(size: 34)).accessibilityHidden(true)
@@ -68,7 +68,7 @@ struct HomeView: View {
                                 Text("💬").font(.system(size: 34)).accessibilityHidden(true)
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text("Comhrá · AS").font(.headline)
-                                    Text("The speaking test conversation: \(store.comhra.count) topics, examiner questions, sentence builders and your own answers.")
+                                    Text("The speaking test conversation: \(store.pupilComhra.count) topics, examiner questions, sentence builders and your own answers.")
                                         .font(.subheadline)
                                         .opacity(0.85)
                                 }
@@ -101,6 +101,36 @@ struct HomeView: View {
                             .padding(16)
                             .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.fill(3)))
                             .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
+                    if !store.spreag.isEmpty {
+                        NavigationLink {
+                            SpreagHome()
+                        } label: {
+                            TrackTile(emoji: "🖼️", title: "An Spreagphictiúr · AS",
+                                      detail: "The picture stimulus: \(store.spreag.count) pictures, five questions each, then the examiner moves to your own life.",
+                                      colour: 1)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                    if !store.leamh.isEmpty {
+                        NavigationLink {
+                            LeamhHome()
+                        } label: {
+                            TrackTile(emoji: "📰", title: "Léitheoireacht agus aistriúchán",
+                                      detail: "Reading and translation, AS and A2: \(store.leamh.count) passages with a glossary, questions and translation both ways.",
+                                      colour: 3)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                    if !store.a2.isEmpty {
+                        NavigationLink {
+                            GCSEHome(track: .a2)
+                        } label: {
+                            TrackTile(emoji: "🎓", title: UnitTrack.a2.title,
+                                      detail: "Discussion and writing: \(store.a2.count) units with opinion frames, a better-answer ladder, a debate with the examiner and an essay.",
+                                      colour: 0)
                         }
                         .buttonStyle(.plain)
                     }
@@ -145,6 +175,32 @@ struct HomeView: View {
         .onAppear {
             if !seenIntro { showIntro = true }
         }
+    }
+}
+
+/// A tile on the home screen that opens a track, in one of the column colours.
+struct TrackTile: View {
+    let emoji: String
+    let title: String
+    let detail: String
+    let colour: Int
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Text(emoji).font(.system(size: 34)).accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title).font(.headline)
+                Text(detail)
+                    .font(.subheadline)
+                    .opacity(0.85)
+            }
+            Spacer(minLength: 8)
+            Image(systemName: "chevron.right").accessibilityHidden(true)
+        }
+        .foregroundStyle(Theme.columnInk(colour))
+        .padding(16)
+        .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.fill(colour)))
+        .contentShape(Rectangle())
     }
 }
 

@@ -129,6 +129,38 @@ struct RolePlay: Codable, Hashable {
     let tasks: [RoleTask]
 }
 
+/// A2: an essay question with a plan and a model answer. The pupil's draft is kept on the device.
+struct WritingTask: Codable, Hashable {
+    let title: String?
+    let prompt: String?
+    let promptEn: String?
+    /// About how many words the essay should be (300 when not given).
+    let words: Int?
+    let plan: [String]?
+    let model: String?
+
+    enum CodingKeys: String, CodingKey {
+        case title, prompt, promptEn, words, plan, model
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        title = try c.decodeIfPresent(String.self, forKey: .title)
+        prompt = try c.decodeIfPresent(String.self, forKey: .prompt)
+        promptEn = try c.decodeIfPresent(String.self, forKey: .promptEn)
+        // The word count may be written as a number or as text.
+        if let n = try? c.decodeIfPresent(Int.self, forKey: .words) {
+            words = n
+        } else if let text = try? c.decodeIfPresent(String.self, forKey: .words) {
+            words = Int(text)
+        } else {
+            words = nil
+        }
+        plan = try c.decodeIfPresent([String].self, forKey: .plan)
+        model = try c.decodeIfPresent(String.self, forKey: .model)
+    }
+}
+
 struct BuilderUnit: Codable, Hashable, Identifiable {
     let id: String
     let title: String
@@ -151,12 +183,18 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
     let ladder: [LadderRung]?
     let roleplays: [RolePlay]?
     let extraAudio: [String]?
+    /// A2 units: essay questions, each with a plan and a model answer.
+    let writing: [WritingTask]?
+    /// Conversation topics for the class screen only: left out of the pupil's list, kept in Don rang.
+    let teacherLed: Bool?
 
     enum CodingKeys: String, CodingKey {
         case id, title, en, questions, examples, rows, teaches, noAudio, grammar
-        case level, sprioc, patterns, ladder, roleplays, extraAudio
+        case level, sprioc, patterns, ladder, roleplays, extraAudio, writing, teacherLed
         case isNew = "new"
     }
+
+    var isTeacherLed: Bool { teacherLed ?? false }
 
     var isSilent: Bool { noAudio ?? false }
 
@@ -220,6 +258,127 @@ struct PlacedSentence: Hashable {
     let row: Int
 }
 
+/// The two unit tracks in the Year 8 unit shape: GCSE (Bliain 11, gcse.json) and A2 (Bliain 14, a2.json).
+enum UnitTrack: Hashable {
+    case gcse
+    case a2
+
+    var title: String {
+        switch self {
+        case .gcse: return "GCSE · Bliain 11"
+        case .a2: return "A2 · Bliain 14"
+        }
+    }
+}
+
+// MARK: - AS picture stimulus (spreag.json) and reading and translation (leamh.json)
+
+/// A line of Irish with its English. Also read from a plain string, which is taken as the Irish.
+struct GaEn: Codable, Hashable {
+    let ga: String
+    let en: String?
+
+    enum CodingKeys: String, CodingKey {
+        case ga, en
+    }
+
+    init(from decoder: Decoder) throws {
+        if let single = try? decoder.singleValueContainer(), let text = try? single.decode(String.self) {
+            ga = text
+            en = nil
+            return
+        }
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        ga = try c.decodeIfPresent(String.self, forKey: .ga) ?? ""
+        en = try c.decodeIfPresent(String.self, forKey: .en)
+    }
+}
+
+/// One finger of the five-finger method: a question, chunks to use, and a model answer.
+struct SpreagFinger: Codable, Hashable {
+    let finger: String?
+    let q: String?
+    let qEn: String?
+    let frames: [GaEn]?
+    let model: GaEn?
+}
+
+/// One rung of the picture's ladder, from a basic answer to the best one. New words are marked [x].
+struct SpreagRung: Codable, Hashable {
+    let label: String?
+    let ga: String?
+    let en: String?
+}
+
+/// One of the examiner's follow-up questions, moving from the picture to the pupil's own life.
+struct SpreagFollowUp: Codable, Hashable {
+    let ga: String?
+    let en: String?
+    let model: GaEn?
+}
+
+struct SpreagPicture: Codable, Hashable, Identifiable {
+    let id: String
+    let title: String
+    let titleEn: String?
+    let emoji: String?
+    let topic: String?
+    /// For the class screen only: left out of the pupil's list.
+    let teacherLed: Bool?
+    let scene: GaEn?
+    /// What the photograph will show, until it is taken.
+    let photo: String?
+    let fingers: [SpreagFinger]?
+    let ladder: [SpreagRung]?
+    let followups: [SpreagFollowUp]?
+
+    var isTeacherLed: Bool { teacherLed ?? false }
+    var icon: String { (emoji ?? "").isEmpty ? "🖼️" : (emoji ?? "") }
+    var allFingers: [SpreagFinger] { fingers ?? [] }
+    var allFollowUps: [SpreagFollowUp] { followups ?? [] }
+}
+
+/// A reading question: in English or Irish, with its marks and a model answer.
+struct LeamhQuestion: Codable, Hashable {
+    let q: String?
+    /// "ga" when the question is asked and answered in Irish.
+    let lang: String?
+    let answer: String?
+    let marks: Int?
+
+    var inIrish: Bool { lang == "ga" }
+}
+
+/// A sentence to put into Irish, with another good answer where there is one and the chunks as a hint.
+struct LeamhToIrish: Codable, Hashable {
+    let en: String?
+    let ga: String?
+    let alt: String?
+    /// Pairs of English and Irish.
+    let chunks: [[String]]?
+}
+
+struct LeamhPassage: Codable, Hashable, Identifiable {
+    let id: String
+    /// "AS" or "A2".
+    let level: String?
+    let title: String
+    let titleEn: String?
+    let emoji: String?
+    let topic: String?
+    /// For the class screen only: left out of the pupil's list.
+    let teacherLed: Bool?
+    let passage: [String]?
+    let glossary: [GaEn]?
+    let questions: [LeamhQuestion]?
+    let toEnglish: [GaEn]?
+    let toIrish: [LeamhToIrish]?
+
+    var isTeacherLed: Bool { teacherLed ?? false }
+    var icon: String { (emoji ?? "").isEmpty ? "📰" : (emoji ?? "") }
+    var allQuestions: [LeamhQuestion] { questions ?? [] }
+}
+
 // MARK: - Progress, kept on the device only
 
 struct Card: Codable {
@@ -245,6 +404,24 @@ final class Store: ObservableObject {
         guard let url = Bundle.main.url(forResource: "gcse", withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return [] }
         return (try? JSONDecoder().decode([BuilderUnit].self, from: data)) ?? []
+    }()
+    /// The A2 track (Bliain 14), in the Year 8 unit shape with essays. Empty if a2.json is missing.
+    let a2: [BuilderUnit] = {
+        guard let url = Bundle.main.url(forResource: "a2", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([BuilderUnit].self, from: data)) ?? []
+    }()
+    /// The AS picture stimulus (An Spreagphictiúr). Empty if spreag.json is missing.
+    let spreag: [SpreagPicture] = {
+        guard let url = Bundle.main.url(forResource: "spreag", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([SpreagPicture].self, from: data)) ?? []
+    }()
+    /// Reading and translation passages, AS and A2. Empty if leamh.json is missing.
+    let leamh: [LeamhPassage] = {
+        guard let url = Bundle.main.url(forResource: "leamh", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([LeamhPassage].self, from: data)) ?? []
     }()
     /// The pupil's own answers to the conversation questions, by question.
     @Published private(set) var own: [String: String] = [:]
@@ -308,6 +485,17 @@ final class Store: ObservableObject {
     func setOwnAnswer(_ question: String, _ text: String) {
         own[question] = text
         save()
+    }
+
+    /// The conversation topics a pupil sees: those for the class screen only are left out.
+    var pupilComhra: [BuilderUnit] { comhra.filter { !$0.isTeacherLed } }
+
+    /// The units of a track.
+    func trackUnits(_ track: UnitTrack) -> [BuilderUnit] {
+        switch track {
+        case .gcse: return gcse
+        case .a2: return a2
+        }
     }
 
     func finishRun(_ unitID: String) {

@@ -1,19 +1,29 @@
 import SwiftUI
 import Combine
 
-// MARK: - GCSE · Bliain 11: the examiner's question chain, sentence builders (the Year 8 engine),
-// patterns to spot, a basic to best ladder and role plays.
+// MARK: - GCSE · Bliain 11 and A2 · Bliain 14: the examiner's question chain, sentence builders (the Year 8 engine),
+// patterns to spot, a basic to best ladder, role plays and (A2) an essay.
 
 struct GCSEHome: View {
     @EnvironmentObject private var store: Store
+    let track: UnitTrack
+
+    private var lede: String {
+        switch track {
+        case .gcse:
+            return "Achan aonad: ceisteanna an scrúdaitheora, abairtí le tógáil, patrún le haimsiú, freagra níos fearr agus ról-imirt. Each unit: the examiner's questions, sentences to build, a pattern to spot, a better answer and a role play."
+        case .a2:
+            return "Each unit: the examiner's questions, opinion frames to build with, a pattern to spot, a better answer, a discussion with the examiner and an essay with a plan and a model."
+        }
+    }
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 12) {
                 DraftBanner()
-                Text("Achan aonad: ceisteanna an scrúdaitheora, abairtí le tógáil, patrún le haimsiú, freagra níos fearr agus ról-imirt. Each unit: the examiner's questions, sentences to build, a pattern to spot, a better answer and a role play.")
+                Text(lede)
                     .foregroundStyle(Theme.muted)
-                ForEach(Array(store.gcse.enumerated()), id: \.element.id) { i, unit in
+                ForEach(Array(store.trackUnits(track).enumerated()), id: \.element.id) { i, unit in
                     NavigationLink {
                         GCSEUnitView(unit: unit)
                     } label: {
@@ -53,7 +63,7 @@ struct GCSEHome: View {
             .frame(maxWidth: .infinity)
         }
         .background(Theme.ground)
-        .navigationTitle("GCSE · Bliain 11")
+        .navigationTitle(track.title)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -117,6 +127,9 @@ struct GCSEUnitView: View {
                 if let ladder = unit.ladder, !ladder.isEmpty {
                     LadderCard(rungs: ladder)
                 }
+                ForEach(Array((unit.writing ?? []).enumerated()), id: \.offset) { k, task in
+                    WritingCard(task: task, key: "w:\(unit.id):\(k)")
+                }
                 NavigationLink {
                     TeachDeck(unit: unit)
                 } label: {
@@ -136,6 +149,52 @@ struct GCSEUnitView: View {
         .navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(item: $active) { session in
             SessionView(session: session)
+        }
+    }
+}
+
+/// Aiste: an essay question with a plan, the pupil's own draft (kept on this device), a word count and a model answer.
+struct WritingCard: View {
+    @EnvironmentObject private var store: Store
+    let task: WritingTask
+    /// Where the draft is kept among the pupil's own answers.
+    let key: String
+    @State private var showModel = false
+
+    var body: some View {
+        let mine = store.ownAnswer(key)
+        Panel {
+            Text("Aiste · essay (about \(task.words ?? 300) words)")
+                .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted)
+            if let prompt = task.prompt, !prompt.isEmpty {
+                Text(prompt).font(.title3.weight(.bold)).foregroundStyle(Theme.ink)
+            }
+            if let promptEn = task.promptEn, !promptEn.isEmpty {
+                Text(promptEn).font(.subheadline).foregroundStyle(Theme.muted)
+            }
+            if let plan = task.plan, !plan.isEmpty {
+                Text("Plean · plan")
+                    .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted)
+                VStack(alignment: .leading, spacing: 6) {
+                    ForEach(Array(plan.enumerated()), id: \.offset) { i, point in
+                        HStack(alignment: .firstTextBaseline, spacing: 8) {
+                            Text("\(i + 1).").font(.headline)
+                            Text(point).foregroundStyle(Theme.ink)
+                        }
+                    }
+                }
+            }
+            OwnBox(key: key, placeholder: "Scríobh d'aiste anseo", minHeight: 220)
+            Text("\(OwnBox.wordCount(mine)) focal · words")
+                .font(.subheadline).foregroundStyle(Theme.muted)
+            DisclosureGroup(isExpanded: $showModel) {
+                Text(task.model ?? "")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top, 4)
+            } label: {
+                Text("Freagra samplach · model answer").font(.headline).foregroundStyle(Theme.ink)
+            }
+            .tint(Theme.columnInk(0))
         }
     }
 }

@@ -22,20 +22,23 @@ struct TeachHome: View {
                         .buttonStyle(.plain)
                     }
                 }
-                if !store.gcse.isEmpty {
-                    Text("GCSE · Bliain 11")
-                        .font(.caption.weight(.bold))
-                        .textCase(.uppercase)
-                        .foregroundStyle(Theme.muted)
-                        .padding(.top, 8)
-                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 260), spacing: 12)], spacing: 12) {
-                        ForEach(store.gcse) { unit in
-                            NavigationLink {
-                                TeachDeck(unit: unit)
-                            } label: {
-                                deckCard(unit.title, unit)
+                ForEach([UnitTrack.gcse, UnitTrack.a2], id: \.self) { track in
+                    let units = store.trackUnits(track)
+                    if !units.isEmpty {
+                        Text(track.title)
+                            .font(.caption.weight(.bold))
+                            .textCase(.uppercase)
+                            .foregroundStyle(Theme.muted)
+                            .padding(.top, 8)
+                        LazyVGrid(columns: [GridItem(.adaptive(minimum: 260), spacing: 12)], spacing: 12) {
+                            ForEach(units) { unit in
+                                NavigationLink {
+                                    TeachDeck(unit: unit)
+                                } label: {
+                                    deckCard(unit.title, unit)
+                                }
+                                .buttonStyle(.plain)
                             }
-                            .buttonStyle(.plain)
                         }
                     }
                 }

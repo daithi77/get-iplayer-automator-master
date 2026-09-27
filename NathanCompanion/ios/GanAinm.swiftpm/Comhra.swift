@@ -13,7 +13,7 @@ struct ComhraHome: View {
                 DraftBanner()
                 Text("Achan topaic: ceisteanna an scrúdaitheora, freagraí samplacha, abairtí le tógáil agus d'fhreagraí féin. Each topic: the examiner's questions, model answers, sentences to build, and your own answers.")
                     .foregroundStyle(Theme.muted)
-                ForEach(store.comhra) { unit in
+                ForEach(store.pupilComhra) { unit in
                     NavigationLink {
                         ComhraTopic(unit: unit)
                     } label: {
@@ -397,7 +397,8 @@ struct ComhraDeckList: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(unit.title).font(.headline).foregroundStyle(Theme.ink)
-                            Text(unit.en).font(.subheadline).foregroundStyle(Theme.muted)
+                            Text(unit.isTeacherLed ? unit.en + " · don rang amháin, for the class only" : unit.en)
+                                .font(.subheadline).foregroundStyle(Theme.muted)
                         }
                         Spacer()
                         Image(systemName: "play.rectangle.fill").font(.title2).foregroundStyle(Theme.columnInk(1))

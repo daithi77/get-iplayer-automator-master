@@ -26,15 +26,18 @@ GROUPS = [
  ("An aimsir fháistineach","The future","⏩",["r1-fhaistineach","r2-fhaistineach","nr-fhaistineach"]),
  ("An aimsir ghnáthchaite","The past habitual","🔁",["r1-gnathchaite","r2-gnathchaite","nr-gnathchaite"]),
  ("An modh coinníollach","The conditional","🤔",["r1-coinniollach","r2-coinniollach","nr-coinniollach"]),
- ("An briathar: foirmeacha eile","Other verb forms","🧩",["ainm-briathartha","aidiacht-bhriathartha"]),
+ ("An briathar: foirmeacha eile","Other verb forms","🧩",["ainm-briathartha","aidiacht-bhriathartha","ordaitheach","giorru"]),
  ("An t-ainmfhocal","Nouns","📚",["d1","d2","d3","d4","d5","sealbhach"]),
  ("Na réamhfhocail","Prepositions","📍",["reamhfhocail-simpli","reamhfhocail-briathra","reamhfhocail-chomhshuite"]),
  ("Aidiachtaí, uimhreacha, dobhriathra","Adjectives, numbers, adverbs","🔢",["aidiachtai","uimhreacha","dobhriathar"]),
- ("Ceisteanna agus clásail","Questions and clauses","❓",["ceisteanna","clasail"]),
+ ("Ceisteanna agus clásail","Questions and clauses","❓",["ceisteanna","clasail","coibhneasta"]),
 ]
 # Sections written as walk-through lessons only, with no entry in the grammar extraction.
 LESSON_ONLY = {"ceisteanna": ("Na míreanna ceisteacha", "Question words"),
-               "clasail": ("Clásail: go, nach, gur, nár", "Dependent clauses: that, that not")}
+               "clasail": ("Clásail: go, nach, gur, nár", "Dependent clauses: that, that not"),
+               "coibhneasta": ("An clásal coibhneasta", "Relative clauses"),
+               "ordaitheach": ("An modh ordaitheach", "The imperative"),
+               "giorru": ("Briathra a ghiorraítear", "Verbs that shorten")}
 PIC = re.compile(r'\s*\[pictiúr:\s*([^\]]*)\]\s*')
 def gap_answer(stem, fresh):
     parts = re.split(r'_{3,}', stem)

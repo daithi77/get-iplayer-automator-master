@@ -1,0 +1,400 @@
+{
+ "id": "ma-da-mura",
+ "lessons": [
+  {
+   "title": "Má + séimhiú",
+   "en": "If: má with the present",
+   "rule": "Má (if) puts séimhiú on the verb after it: bíonn becomes má bhíonn, feiceann becomes má fheiceann. Tá, deir and verbs that begin with a vowel do not change (má tá, má deir, má itheann). Use the present tense after má even when you mean the future: Má bhíonn sé fliuch amárach, fanfaidh muid istigh. Never put the future tense after má.",
+   "steps": [
+    "Put the verb in the present: bíonn.",
+    "Add séimhiú after má: má bhíonn.",
+    "The other half can be in the future: fanfaidh muid istigh."
+   ],
+   "example": {
+    "prompt": "Má (bí) sé fliuch amárach, fanfaidh muid istigh.",
+    "answer": "Má bhíonn sé fliuch amárach, fanfaidh muid istigh.",
+    "alt": "Má bhíonn sé fliuch amárach, fanfaimid istigh."
+   },
+   "more": [
+    {
+     "prompt": "Má (feic) tú Ciara, abair léi glaoch a chur orm.",
+     "answer": "Má fheiceann tú Ciara, abair léi glaoch a chur orm."
+    }
+   ],
+   "hint": "Má + h + the present. Tá, deir and vowels: no change.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Má (faigh) mé an post, beidh mé sásta.",
+     "answer": "Má fhaighim an post, beidh mé sásta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (tar) tú go Béal Feirste, cuir scairt orm.",
+     "answer": "Má thagann tú go Béal Feirste, cuir scairt orm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (tá) ocras ort, tá ceapairí sa chuisneoir.",
+     "answer": "Má tá ocras ort, tá ceapairí sa chuisneoir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (ith) tú do dhinnéar, gheobhaidh tú milseog.",
+     "answer": "Má itheann tú do dhinnéar, gheobhaidh tú milseog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (cuir) sé báisteach Dé Sathairn, ní bheidh an cluiche ar siúl.",
+     "answer": "Má chuireann sé báisteach Dé Sathairn, ní bheidh an cluiche ar siúl."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (bí) an ghrian ag taitneamh amárach, rachaidh muid chuig an trá.",
+     "answer": "Má bhíonn an ghrian ag taitneamh amárach, rachaidh muid chuig an trá.",
+     "alt": "Má bhíonn an ghrian ag taitneamh amárach, rachaimid chuig an trá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (déan) tú do dhícheall, éireoidh go maith leat.",
+     "answer": "Má dhéanann tú do dhícheall, éireoidh go maith leat."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (abair) an múinteoir sin, caithfidh sé a bheith fíor.",
+     "answer": "Má deir an múinteoir sin, caithfidh sé a bheith fíor."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (fan) tú anseo, beidh mé ar ais i gceann bomaite.",
+     "answer": "Má fhanann tú anseo, beidh mé ar ais i gceann bomaite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (feic) mé é, inseoidh mé dó.",
+     "answer": "Má fheicim é, inseoidh mé dó."
+    }
+   ]
+  },
+  {
+   "title": "Má + an aimsir chaite",
+   "en": "If, in the past: má with the past tense",
+   "rule": "Má can also go with the past tense. The verb stays exactly as it is in the past, with its séimhiú or d': má chuaigh sé, má d'ith tú, má fuair sí. Nothing is added and nothing is taken away.",
+   "steps": [
+    "Put the verb in the past: chuaigh.",
+    "Write má in front of it and change nothing: má chuaigh.",
+    "Finish the sentence: Má chuaigh sé abhaile, cuirfidh mé scairt air."
+   ],
+   "example": {
+    "prompt": "Má (téigh, an aimsir chaite) sé abhaile, cuirfidh mé scairt air.",
+    "answer": "Má chuaigh sé abhaile, cuirfidh mé scairt air."
+   },
+   "more": [
+    {
+     "prompt": "Má (ith, an aimsir chaite) tú an cáca, admhaigh é!",
+     "answer": "Má d'ith tú an cáca, admhaigh é!"
+    }
+   ],
+   "hint": "Má + the past tense, unchanged: má chuaigh, má d'ith.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Má (bí, an aimsir chaite) tú tinn inné, an bhfuil tú níos fearr anois?",
+     "answer": "Má bhí tú tinn inné, an bhfuil tú níos fearr anois?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (faigh, an aimsir chaite) sí an litir, cad chuige nár fhreagair sí í?",
+     "answer": "Má fuair sí an litir, cad chuige nár fhreagair sí í?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (déan, an aimsir chaite) tú an obair bhaile, taispeáin dom í.",
+     "answer": "Má rinne tú an obair bhaile, taispeáin dom í."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (feic, an aimsir chaite) tú an scannán, ná hinis an deireadh dom!",
+     "answer": "Má chonaic tú an scannán, ná hinis an deireadh dom!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (fág, an aimsir chaite) mé mo chóta ar an bhus, beidh mé fuar.",
+     "answer": "Má d'fhág mé mo chóta ar an bhus, beidh mé fuar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (abair, an aimsir chaite) sé sin, bhí sé mícheart.",
+     "answer": "Má dúirt sé sin, bhí sé mícheart."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (cluin, an aimsir chaite) tú an nuacht, tá a fhios agat cheana féin.",
+     "answer": "Má chuala tú an nuacht, tá a fhios agat cheana féin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (caill, an aimsir chaite) tú an bus, cuir scairt orm agus tiocfaidh mé fá do choinne.",
+     "answer": "Má chaill tú an bus, cuir scairt orm agus tiocfaidh mé fá do choinne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (tar, an aimsir chaite) sé isteach go déanach, níor chuala mé é.",
+     "answer": "Má tháinig sé isteach go déanach, níor chuala mé é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Má (ól, an aimsir chaite) tú an bainne ar fad, ceannaigh tuilleadh.",
+     "answer": "Má d'ól tú an bainne ar fad, ceannaigh tuilleadh."
+    }
+   ]
+  },
+  {
+   "title": "Dá + urú + an modh coinníollach",
+   "en": "If (would): dá with the conditional",
+   "rule": "For something imagined or unlikely (if I were, if I had), use dá: put the verb in the conditional and eclipse it (dá mbeadh, dá bhfaighinn, dá n-éistfeá). The other half is in the conditional too, with séimhiú: Dá mbeadh airgead agam, rachainn go Meiriceá. Rachainn and rachfá take no eclipsis after dá. With muid and siad either form is right: rachadh muid or rachaimis, bheadh siad or bheidís.",
+   "steps": [
+    "Put bí in the conditional and eclipse it: dá mbeadh.",
+    "Put the other verb in the conditional with the right person: rachainn.",
+    "Write it: Dá mbeadh airgead agam, rachainn go Meiriceá."
+   ],
+   "example": {
+    "prompt": "Dá (bí) airgead agam, (téigh) mé go Meiriceá.",
+    "answer": "Dá mbeadh airgead agam, rachainn go Meiriceá."
+   },
+   "more": [
+    {
+     "prompt": "Dá (bí) airgead againn, (téigh) muid go Meiriceá.",
+     "answer": "Dá mbeadh airgead againn, rachadh muid go Meiriceá.",
+     "alt": "Dá mbeadh airgead againn, rachaimis go Meiriceá."
+    }
+   ],
+   "hint": "Dá + urú + conditional, and the conditional in the other half.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dá (bí) mé saibhir, (ceannaigh) mé teach mór do mo mhamaí.",
+     "answer": "Dá mbeinn saibhir, cheannóinn teach mór do mo mhamaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (faigh) mé an seans, (foghlaim) mé an Spáinnis.",
+     "answer": "Dá bhfaighinn an seans, d'fhoghlaimeoinn an Spáinnis."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (bí) an lá go breá, (imir) muid peil sa pháirc.",
+     "answer": "Dá mbeadh an lá go breá, d'imreodh muid peil sa pháirc.",
+     "alt": "Dá mbeadh an lá go breá, d'imreoimis peil sa pháirc."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (tar) sé in am, (feic) sé tús an scannáin.",
+     "answer": "Dá dtiocfadh sé in am, d'fheicfeadh sé tús an scannáin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (déan) tú níos mó staidéir, (faigh) tú marcanna níos fearr.",
+     "answer": "Dá ndéanfá níos mó staidéir, gheofá marcanna níos fearr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (cuir) mé ceist air, (tabhair) sé cuidiú dom.",
+     "answer": "Dá gcuirfinn ceist air, thabharfadh sé cuidiú dom."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (bí) an bus in am, (bí) siad ar scoil ag a naoi.",
+     "answer": "Dá mbeadh an bus in am, bheidís ar scoil ag a naoi.",
+     "alt": "Dá mbeadh an bus in am, bheadh siad ar scoil ag a naoi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (éist) tú liom, (tuig) tú an scéal.",
+     "answer": "Dá n-éistfeá liom, thuigfeá an scéal."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (bí) cead agam, (fan) mé amuigh go déanach.",
+     "answer": "Dá mbeadh cead agam, d'fhanfainn amuigh go déanach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá (téigh) tú chuig an Ghaeltacht, (labhair) tú Gaeilge achan lá.",
+     "answer": "Dá rachfá chuig an Ghaeltacht, labhrófá Gaeilge achan lá."
+    }
+   ]
+  },
+  {
+   "title": "Mura + urú",
+   "en": "If not: mura",
+   "rule": "Mura (if not) eclipses the verb after it. Like má, it takes the present when you mean the future (Mura mbíonn tú in am, imeoidh an bus gan thú), and tá becomes mura bhfuil. For something imagined, use the conditional: Mura mbeadh an bháisteach, rachainn amach. In Ulster you will also hear and see muna, which is fine: muna mbíonn.",
+   "steps": [
+    "Put the verb in the present: bíonn.",
+    "Eclipse it after mura: mura mbíonn.",
+    "Finish the sentence: Mura mbíonn tú in am, imeoidh an bus gan thú."
+   ],
+   "example": {
+    "prompt": "Mura (bí) tú in am, imeoidh an bus gan thú.",
+    "answer": "Mura mbíonn tú in am, imeoidh an bus gan thú.",
+    "alt": "Muna mbíonn tú in am, imeoidh an bus gan thú."
+   },
+   "more": [
+    {
+     "prompt": "Mura (bí) an bháisteach, rachainn amach.",
+     "answer": "Mura mbeadh an bháisteach, rachainn amach.",
+     "alt": "Muna mbeadh an bháisteach, rachainn amach."
+    }
+   ],
+   "hint": "Mura (or muna) + urú. Tá: mura bhfuil.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Mura (tá) do chóta agat, beidh tú fuar.",
+     "answer": "Mura bhfuil do chóta agat, beidh tú fuar.",
+     "alt": "Muna bhfuil do chóta agat, beidh tú fuar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (déan) tú d'obair bhaile, beidh an múinteoir crosta.",
+     "answer": "Mura ndéanann tú d'obair bhaile, beidh an múinteoir crosta.",
+     "alt": "Muna ndéanann tú d'obair bhaile, beidh an múinteoir crosta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (faigh) mé na marcanna, ní rachaidh mé chuig an ollscoil.",
+     "answer": "Mura bhfaighim na marcanna, ní rachaidh mé chuig an ollscoil.",
+     "alt": "Muna bhfaighim na marcanna, ní rachaidh mé chuig an ollscoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (tar) sí go luath, beidh muid déanach.",
+     "answer": "Mura dtagann sí go luath, beidh muid déanach.",
+     "alt": "Muna dtagann sí go luath, beidh muid déanach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (bí) an fharraige garbh amárach, rachaidh mé ag snámh.",
+     "answer": "Mura mbíonn an fharraige garbh amárach, rachaidh mé ag snámh.",
+     "alt": "Muna mbíonn an fharraige garbh amárach, rachaidh mé ag snámh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (bí) airgead agam, ní rachainn ar saoire.",
+     "answer": "Mura mbeadh airgead agam, ní rachainn ar saoire.",
+     "alt": "Muna mbeadh airgead agam, ní rachainn ar saoire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (cuidigh) mo chairde liom, ní bheinn in ann é a dhéanamh.",
+     "answer": "Mura gcuideodh mo chairde liom, ní bheinn in ann é a dhéanamh.",
+     "alt": "Muna gcuideodh mo chairde liom, ní bheinn in ann é a dhéanamh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (éist) tú leis an mhúinteoir, ní thuigfidh tú an cheist.",
+     "answer": "Mura n-éisteann tú leis an mhúinteoir, ní thuigfidh tú an cheist.",
+     "alt": "Muna n-éisteann tú leis an mhúinteoir, ní thuigfidh tú an cheist."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (bí) an Ghaeilge agam, ní bhfaighinn an post seo.",
+     "answer": "Mura mbeadh an Ghaeilge agam, ní bhfaighinn an post seo.",
+     "alt": "Muna mbeadh an Ghaeilge agam, ní bhfaighinn an post seo."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Mura (imir) sé sa chluiche ceannais, caillfidh muid.",
+     "answer": "Mura n-imríonn sé sa chluiche ceannais, caillfidh muid.",
+     "alt": "Muna n-imríonn sé sa chluiche ceannais, caillfidh muid."
+    }
+   ]
+  },
+  {
+   "title": "Má, dá nó mura? Sa Chomhrá",
+   "en": "Má, dá or mura? In the speaking test",
+   "rule": "In the speaking test, listen to the question and look at the other half of your answer. If it is real or likely, use má + séimhiú and the present (or the past). If it is imagined and the other half is in the conditional, use dá + urú. If you mean if not, use mura + urú. Examiners often ask Cad é a dhéanfá dá ...? and the answer starts with Dá.",
+   "steps": [
+    "Read the other half: thabharfainn is in the conditional.",
+    "So the if half is imagined: dá + urú + the conditional.",
+    "Answer: Dá mbeinn i mo Phríomh-Aire, thabharfainn ..."
+   ],
+   "example": {
+    "prompt": "Cad é a dhéanfá dá mbeifeá i do Phríomh-Aire? _______ (if: bí, mé) i mo Phríomh-Aire, thabharfainn níos mó airgid do na scoileanna agus do na hospidéil.",
+    "answer": "Cad é a dhéanfá dá mbeifeá i do Phríomh-Aire? Dá mbeinn i mo Phríomh-Aire, thabharfainn níos mó airgid do na scoileanna agus do na hospidéil."
+   },
+   "more": [
+    {
+     "prompt": "An mbeidh tú ag dul chuig an ollscoil? Beidh, _______ (if: faigh, mé) na marcanna a theastaíonn uaim.",
+     "answer": "An mbeidh tú ag dul chuig an ollscoil? Beidh, má fhaighim na marcanna a theastaíonn uaim."
+    }
+   ],
+   "hint": "Real: má. Imagined, with a conditional: dá. If not: mura.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Cá rachfá dá mbeadh do rogha saoire agat? _______ (if: bí) mo rogha agam, rachainn go dtí an tSeapáin.",
+     "answer": "Cá rachfá dá mbeadh do rogha saoire agat? Dá mbeadh mo rogha agam, rachainn go dtí an tSeapáin.",
+     "gap": "Dá mbeadh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cad é a dhéanfaidh tú an deireadh seachtaine seo? _______ (if: tar) Aoife ar cuairt, rachaidh an bheirt againn chuig an phictiúrlann.",
+     "answer": "Cad é a dhéanfaidh tú an deireadh seachtaine seo? Má thagann Aoife ar cuairt, rachaidh an bheirt againn chuig an phictiúrlann.",
+     "gap": "Má thagann"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An mbeidh tú ag imirt Dé Sathairn? Beidh, _______ (if not: bí) sé ag cur báistí.",
+     "answer": "An mbeidh tú ag imirt Dé Sathairn? Beidh, mura mbíonn sé ag cur báistí.",
+     "alt": "An mbeidh tú ag imirt Dé Sathairn? Beidh, muna mbíonn sé ag cur báistí.",
+     "gap": "mura mbíonn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar mhaith leat a bheith i do mhúinteoir? Ba mhaith, _______ (if: faigh, mé) post sa cheantar seo.",
+     "answer": "Ar mhaith leat a bheith i do mhúinteoir? Ba mhaith, dá bhfaighinn post sa cheantar seo.",
+     "gap": "dá bhfaighinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cad é a dhéanfaidh tú mura n-éiríonn leat sa scrúdú? _______ (if not: éirigh) liom, déanfaidh mé an scrúdú arís.",
+     "answer": "Cad é a dhéanfaidh tú mura n-éiríonn leat sa scrúdú? Mura n-éiríonn liom, déanfaidh mé an scrúdú arís.",
+     "alt": "Cad é a dhéanfaidh tú muna n-éiríonn leat sa scrúdú? Muna n-éiríonn liom, déanfaidh mé an scrúdú arís.",
+     "gap": "Mura n-éiríonn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An dtéann tú ag siúl ar Shliabh gCuillinn? Téim, _______ (if: bí) an aimsir go maith.",
+     "answer": "An dtéann tú ag siúl ar Shliabh gCuillinn? Téim, má bhíonn an aimsir go maith.",
+     "gap": "má bhíonn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An rachfá chuig an Ghaeltacht arís? Rachainn, _______ (if not: bí) sé chomh daor sin.",
+     "answer": "An rachfá chuig an Ghaeltacht arís? Rachainn, mura mbeadh sé chomh daor sin.",
+     "alt": "An rachfá chuig an Ghaeltacht arís? Rachainn, muna mbeadh sé chomh daor sin.",
+     "gap": "mura mbeadh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cad é a dhéanfá dá mbeifeá i do phríomhoide? _______ (if: bí, mé) i mo phríomhoide, chuirfinn deireadh leis an éide scoile.",
+     "answer": "Cad é a dhéanfá dá mbeifeá i do phríomhoide? Dá mbeinn i mo phríomhoide, chuirfinn deireadh leis an éide scoile.",
+     "gap": "Dá mbeinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cad é a dhéanfá dá bhfeicfeá bulaíocht ar líne? _______ (if: feic, mé) é sin, d'inseoinn do mhúinteoir é.",
+     "answer": "Cad é a dhéanfá dá bhfeicfeá bulaíocht ar líne? Dá bhfeicfinn é sin, d'inseoinn do mhúinteoir é.",
+     "gap": "Dá bhfeicfinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ar bhuaigh Camloch aréir? Níl a fhios agam, ach _______ (if: buaigh, an aimsir chaite) siad, beidh na himreoirí sásta inniu.",
+     "answer": "Ar bhuaigh Camloch aréir? Níl a fhios agam, ach má bhuaigh siad, beidh na himreoirí sásta inniu.",
+     "gap": "má bhuaigh"
+    }
+   ]
+  }
+ ]
+}

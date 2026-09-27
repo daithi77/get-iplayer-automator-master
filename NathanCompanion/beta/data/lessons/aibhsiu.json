@@ -1,0 +1,374 @@
+{
+ "id": "aibhsiu",
+ "lessons": [
+  {
+   "title": "Is é Seán an captaen: ionannas",
+   "en": "Saying exactly who: Is é Seán an captaen",
+   "rule": "To say exactly who or what someone or something is, when both parts are definite (a name, or a noun with an), use Is + é for a man or a masculine noun, í for a woman or a feminine noun, iad for more than one, then the name, then the definite noun: Is é Seán an captaen. Is í Aoife an duine is sine. Is iad Tomás agus Niamh na captaein.",
+   "steps": [
+    "Both parts are definite: Seán and an captaen.",
+    "Seán is a man, so use Is é.",
+    "Write it: Is é Seán an captaen."
+   ],
+   "example": {
+    "prompt": "Seán / an captaen",
+    "answer": "Is é Seán an captaen."
+   },
+   "more": [
+    {
+     "prompt": "Aoife / an duine is sine",
+     "answer": "Is í Aoife an duine is sine."
+    }
+   ],
+   "hint": "Is + é/í/iad + name + an + noun.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ciara / an cathaoirleach",
+     "answer": "Is í Ciara an cathaoirleach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An tUasal Ó Néill / an príomhoide",
+     "answer": "Is é an tUasal Ó Néill an príomhoide."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Loch nEathach / an loch is mó in Éirinn",
+     "answer": "Is é Loch nEathach an loch is mó in Éirinn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Oisín / an t-imreoir is fearr ar an fhoireann",
+     "answer": "Is é Oisín an t-imreoir is fearr ar an fhoireann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mo mham / an duine is cineálta sa teaghlach",
+     "answer": "Is í mo mham an duine is cineálta sa teaghlach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tomás agus Niamh / na captaein",
+     "answer": "Is iad Tomás agus Niamh na captaein."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sliabh gCuillinn / an sliabh is airde i gContae Ard Mhacha",
+     "answer": "Is é Sliabh gCuillinn an sliabh is airde i gContae Ard Mhacha."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An Ghaeilge / an t-ábhar is fearr liom",
+     "answer": "Is í an Ghaeilge an t-ábhar is fearr liom."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Aoife Ní Bhriain / an múinteoir Gaeilge",
+     "answer": "Is í Aoife Ní Bhriain an múinteoir Gaeilge."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Eoin / an t-amhránaí is fearr sa scoil",
+     "answer": "Is é Eoin an t-amhránaí is fearr sa scoil."
+    }
+   ]
+  },
+  {
+   "title": "Aicme nó ionannas?",
+   "en": "What kind, or exactly who?",
+   "rule": "Is + noun + é or í says what kind of person or thing someone is: Is dochtúir í Siobhán (Siobhán is a doctor). Is + é or í + name + the definite noun says exactly who: Is í Siobhán an dochtúir (Siobhán is the doctor). If the noun has an, or is followed by a noun with an or na (captaen na foirne), it is definite: use Is é or Is í first.",
+   "steps": [
+    "Is the noun definite? dochtúir has no an: no.",
+    "So say what kind: Is + dochtúir + í.",
+    "Write it: Is dochtúir í Siobhán."
+   ],
+   "example": {
+    "prompt": "Siobhán / dochtúir",
+    "answer": "Is dochtúir í Siobhán."
+   },
+   "more": [
+    {
+     "prompt": "Siobhán / an dochtúir",
+     "answer": "Is í Siobhán an dochtúir."
+    }
+   ],
+   "hint": "A doctor: Is dochtúir í. The doctor: Is í ... an dochtúir.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Pádraig / feirmeoir",
+     "answer": "Is feirmeoir é Pádraig."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Pádraig / an feirmeoir",
+     "answer": "Is é Pádraig an feirmeoir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Méabh / imreoir maith",
+     "answer": "Is imreoir maith í Méabh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Méabh / captaen na foirne",
+     "answer": "Is í Méabh captaen na foirne."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mo dheartháir / meicneoir",
+     "answer": "Is meicneoir é mo dheartháir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mo dheartháir / an meicneoir is fearr sa bhaile",
+     "answer": "Is é mo dheartháir an meicneoir is fearr sa bhaile."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ard Mhacha / cathair bheag",
+     "answer": "Is cathair bheag í Ard Mhacha."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo / an leabhar is fearr liom",
+     "answer": "Is é seo an leabhar is fearr liom."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Aoife agus Niamh / cúpla",
+     "answer": "Is cúpla iad Aoife agus Niamh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Niall / an t-amhránaí",
+     "answer": "Is é Niall an t-amhránaí."
+    }
+   ]
+  },
+  {
+   "title": "An é ...? Cé hé ...?",
+   "en": "Asking who: An é ...? Cé hé ...?",
+   "rule": "To ask if someone is the person, change Is to An: An é Seán an captaen? An í Aoife an duine is sine? Answer Is é or Ní hé (Is í or Ní hí). To ask who, use Cé hé for a man, Cé hí for a woman and Cé iad for more than one: Cé hé an fear sin?",
+   "steps": [
+    "Start from the statement: Is é Seán an captaen.",
+    "Change Is to An.",
+    "Add a question mark: An é Seán an captaen?"
+   ],
+   "example": {
+    "prompt": "Ceist: Is é Seán an captaen.",
+    "answer": "An é Seán an captaen?"
+   },
+   "more": [
+    {
+     "prompt": "Ceist le Cé: an príomhoide (fear)",
+     "answer": "Cé hé an príomhoide?"
+    }
+   ],
+   "hint": "An é/í ...? Is é, Ní hé. Cé hé, Cé hí, Cé iad?",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Is í Aoife an duine is sine.",
+     "answer": "An í Aoife an duine is sine?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Is é Oisín an t-imreoir is fearr.",
+     "answer": "An é Oisín an t-imreoir is fearr?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist le Cé: an ghirseach sin",
+     "answer": "Cé hí an ghirseach sin?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist le Cé: an fear sin",
+     "answer": "Cé hé an fear sin?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist le Cé: na daoine sin",
+     "answer": "Cé iad na daoine sin?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Freagra dearfach: An é seo do mhála?",
+     "answer": "Is é.",
+     "alt": "Is é seo mo mhála."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Freagra diúltach: An í Siobhán an captaen?",
+     "answer": "Ní hí.",
+     "alt": "Ní hí Siobhán an captaen."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Freagra diúltach: An é Seán do dheartháir?",
+     "answer": "Ní hé.",
+     "alt": "Ní hé Seán mo dheartháir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist le Cé: an múinteoir nua (fear)",
+     "answer": "Cé hé an múinteoir nua?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ceist: Is í Máire do chara is fearr.",
+     "answer": "An í Máire do chara is fearr?"
+    }
+   ]
+  },
+  {
+   "title": "Is ar maidin a ...: béim a chur ar fhocal",
+   "en": "Emphasis: putting a phrase first",
+   "rule": "To stress one part of a sentence, put it first after Is, then a, then the rest: Téim ag rith ar maidin becomes Is ar maidin a théim ag rith (it is in the morning that I go running). The verb after a takes séimhiú (a théim, a chuaigh), a verb with d' keeps it (a d'fhág), and tá becomes atá.",
+   "steps": [
+    "Take out the phrase to stress: ar maidin.",
+    "Put Is ar maidin first, then a.",
+    "Add séimhiú to the verb: a théim ag rith."
+   ],
+   "example": {
+    "prompt": "Béim ar 'ar maidin': Téim ag rith ar maidin.",
+    "answer": "Is ar maidin a théim ag rith."
+   },
+   "more": [
+    {
+     "prompt": "Béim ar 'i mBéal Feirste': Rugadh mé i mBéal Feirste.",
+     "answer": "Is i mBéal Feirste a rugadh mé."
+    }
+   ],
+   "hint": "Is + phrase + a + séimhiú. Tá: atá.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'Dé Sathairn': Bíonn an cluiche ar siúl Dé Sathairn.",
+     "answer": "Is Dé Sathairn a bhíonn an cluiche ar siúl."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'inné': D'fhág sé an scoil inné.",
+     "answer": "Is inné a d'fhág sé an scoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'sa tSruthán': Tá mé i mo chónaí sa tSruthán.",
+     "answer": "Is sa tSruthán atá mé i mo chónaí."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'le mo chara': Chuaigh mé chuig an cheolchoirm le mo chara.",
+     "answer": "Is le mo chara a chuaigh mé chuig an cheolchoirm."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'ar an bhus': Tagann sí ar scoil ar an bhus.",
+     "answer": "Is ar an bhus a thagann sí ar scoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'anocht': Beidh an scannán ar an teilifís anocht.",
+     "answer": "Is anocht a bheidh an scannán ar an teilifís."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'i gCamloch': Imríonn sé peil i gCamloch.",
+     "answer": "Is i gCamloch a imríonn sé peil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'ar a hocht': Éirím ar a hocht.",
+     "answer": "Is ar a hocht a éirím."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'Dé Luain': Thosaigh an scoil Dé Luain.",
+     "answer": "Is Dé Luain a thosaigh an scoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'i mí Iúil': Rachaidh muid ar saoire i mí Iúil.",
+     "answer": "Is i mí Iúil a rachaidh muid ar saoire.",
+     "alt": "Is i mí Iúil a rachaimid ar saoire."
+    }
+   ]
+  },
+  {
+   "title": "Is mise a rinne é",
+   "en": "Stressing who: Is mise a rinne é",
+   "rule": "To stress who did something, put Is and the emphatic pronoun first (mise, tusa, eisean, ise, muidne, sibhse, iadsan), then a + séimhiú + the verb: Rinne mé é becomes Is mise a rinne é. With a name or a noun, use Is é or Is í: Is é Seán a scóráil an cúl. In the negative, Ní goes on the copula and the verb stays positive: Ní mise a rinne é.",
+   "steps": [
+    "Take out the person to stress: mé.",
+    "Put Is mise first, then a.",
+    "Keep the verb and drop the old pronoun: Is mise a rinne an cáca."
+   ],
+   "example": {
+    "prompt": "Béim ar 'mé': Rinne mé an cáca.",
+    "answer": "Is mise a rinne an cáca."
+   },
+   "more": [
+    {
+     "prompt": "Béim ar 'Seán': Scóráil Seán an cúl.",
+     "answer": "Is é Seán a scóráil an cúl."
+    }
+   ],
+   "hint": "Is mise, tusa, eisean, ise, muidne, sibhse, iadsan + a + séimhiú.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'sí': Bhuaigh sí an rás.",
+     "answer": "Is ise a bhuaigh an rás."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'siad': Bhris siad an fhuinneog.",
+     "answer": "Is iadsan a bhris an fhuinneog."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'tú': Tá tú ag caint.",
+     "answer": "Is tusa atá ag caint."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'sé': Fuair sé an duais.",
+     "answer": "Is eisean a fuair an duais."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'muid': Chaill muid an cluiche.",
+     "answer": "Is muidne a chaill an cluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'Aoife': Chan Aoife an t-amhrán.",
+     "answer": "Is í Aoife a chan an t-amhrán."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'mé': Ní dhearna mé é.",
+     "answer": "Ní mise a rinne é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'mo dheartháir': Glanann mo dheartháir an carr.",
+     "answer": "Is é mo dheartháir a ghlanann an carr."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'sibh': Rinne sibh an obair.",
+     "answer": "Is sibhse a rinne an obair."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Béim ar 'Ciara agus Liam': D'eagraigh Ciara agus Liam an dioscó.",
+     "answer": "Is iad Ciara agus Liam a d'eagraigh an dioscó."
+    }
+   ]
+  }
+ ]
+}
