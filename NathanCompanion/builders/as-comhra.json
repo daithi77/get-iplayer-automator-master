@@ -1,0 +1,5186 @@
+{
+ "version": 1,
+ "year": "AS",
+ "note": "Drafted by Claude from Dáithí's own AS conversation answers (2009), corrected and modernised in Ulster Irish for his sign-off. Each builder reads left to right: one chunk from each column makes a sentence; tiles marked optional may be skipped. Units marked new are proposals awaiting approval. The review list is in data/comhra-AS-review.md.",
+ "builders": [
+  {
+   "id": "as-teaghlach",
+   "title": "Mé féin agus mo theaghlach",
+   "en": "Me and my family",
+   "teaches": "Introducing yourself and your family; the personal numbers (cúigear, seisear); advantages and disadvantages with 'ag baint le'; genitive after éadaí (mo dhearthár, mo dheirféar); getting on with siblings.",
+   "questions": [
+    "Inis dom rud beag fút féin agus faoi do theaghlach.",
+    "An bhfuil buntáistí nó míbhuntáistí ag baint le bheith ar an duine is sine nó ar an duine is óige sa teaghlach?",
+    "An réitíonn tú go maith le do dheartháireacha agus le do dheirfiúracha?"
+   ],
+   "rows": [
+    {
+     "label": "Ainm",
+     "columns": [
+      [
+       {
+        "ga": "Ciarán",
+        "en": "Ciarán"
+       },
+       {
+        "ga": "Aoife",
+        "en": "Aoife"
+       },
+       {
+        "ga": "Niamh",
+        "en": "Niamh"
+       },
+       {
+        "ga": "Oisín",
+        "en": "Oisín"
+       }
+      ],
+      [
+       {
+        "ga": "an t-ainm atá orm",
+        "en": "is my name"
+       },
+       {
+        "ga": "an t-ainm a thug mo thuismitheoirí orm",
+        "en": "is the name my parents gave me"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Pearsantacht",
+     "columns": [
+      [
+       {
+        "ga": "Is duine",
+        "en": "I am a"
+       }
+      ],
+      [
+       {
+        "ga": "cairdiúil",
+        "en": "friendly"
+       },
+       {
+        "ga": "cainteach",
+        "en": "chatty"
+       },
+       {
+        "ga": "ceanndána",
+        "en": "stubborn"
+       },
+       {
+        "ga": "lách",
+        "en": "kind"
+       },
+       {
+        "ga": "argóinteach",
+        "en": "argumentative"
+       },
+       {
+        "ga": "ciúin",
+        "en": "quiet"
+       }
+      ],
+      [
+       {
+        "ga": "mé",
+        "en": "person (literally: me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Líon an teaghlaigh",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There are"
+       }
+      ],
+      [
+       {
+        "ga": "ceathrar",
+        "en": "four people"
+       },
+       {
+        "ga": "cúigear",
+        "en": "five people"
+       },
+       {
+        "ga": "seisear",
+        "en": "six people"
+       },
+       {
+        "ga": "seachtar",
+        "en": "seven people"
+       },
+       {
+        "ga": "ochtar",
+        "en": "eight people"
+       }
+      ],
+      [
+       {
+        "ga": "i mo theaghlach",
+        "en": "in my family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Áit sa teaghlach",
+     "columns": [
+      [
+       {
+        "ga": "Is mise",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "an duine is sine",
+        "en": "the eldest"
+       },
+       {
+        "ga": "an duine is óige",
+        "en": "the youngest"
+       },
+       {
+        "ga": "an t-aon pháiste",
+        "en": "the only child"
+       }
+      ],
+      [
+       {
+        "ga": "sa teaghlach",
+        "en": "in the family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Buntáistí agus míbhuntáistí",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a admháil go bhfuil",
+        "en": "I have to admit that there are"
+       },
+       {
+        "ga": "Ar an taobh eile, tá",
+        "en": "On the other hand, there are"
+       }
+      ],
+      [
+       {
+        "ga": "an-chuid buntáistí",
+        "en": "lots of advantages"
+       },
+       {
+        "ga": "an-chuid míbhuntáistí",
+        "en": "lots of disadvantages"
+       }
+      ],
+      [
+       {
+        "ga": "ag baint le bheith ar an duine is sine",
+        "en": "to being the eldest"
+       },
+       {
+        "ga": "ag baint le bheith ar an duine is óige",
+        "en": "to being the youngest"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Saoirse",
+     "columns": [
+      [
+       {
+        "ga": "Faighim",
+        "en": "I get"
+       }
+      ],
+      [
+       {
+        "ga": "i bhfad níos mó saoirse",
+        "en": "far more freedom"
+       },
+       {
+        "ga": "níos mó airgid póca",
+        "en": "more pocket money"
+       }
+      ],
+      [
+       {
+        "ga": "ó mo thuismitheoirí",
+        "en": "from my parents"
+       }
+      ],
+      [
+       {
+        "ga": "i gcomparáid le mo dheartháir",
+        "en": "compared with my brother"
+       },
+       {
+        "ga": "i gcomparáid le mo dheirfiúr",
+        "en": "compared with my sister"
+       },
+       {
+        "ga": "i gcomparáid leis an chuid eile den teaghlach",
+        "en": "compared with the rest of the family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cead",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn cead agam",
+        "en": "I am allowed"
+       }
+      ],
+      [
+       {
+        "ga": "fanacht amuigh níos moille",
+        "en": "to stay out later"
+       },
+       {
+        "ga": "dul amach le mo chairde",
+        "en": "to go out with my friends"
+       },
+       {
+        "ga": "mo ghuthán a choinneáil i mo sheomra",
+        "en": "to keep my phone in my room"
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       },
+       {
+        "ga": "anois",
+        "en": "now"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Freagracht",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé",
+        "en": "I have to"
+       },
+       {
+        "ga": "Bíonn orm",
+        "en": "I have to (regularly)"
+       }
+      ],
+      [
+       {
+        "ga": "dea-shampla a thabhairt do na páistí beaga",
+        "en": "set a good example for the little ones"
+       },
+       {
+        "ga": "aire a thabhairt do na páistí beaga",
+        "en": "look after the little ones"
+       },
+       {
+        "ga": "éadaí mo dhearthár a chaitheamh",
+        "en": "wear my brother's clothes"
+       },
+       {
+        "ga": "éadaí mo dheirféar a chaitheamh",
+        "en": "wear my sister's clothes"
+       }
+      ],
+      [
+       {
+        "ga": "agus bíonn sé sin deacair in amanna",
+        "en": "and that is hard at times"
+       },
+       {
+        "ga": "agus ní maith liom sin",
+        "en": "and I don't like that"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Réiteach",
+     "columns": [
+      [
+       {
+        "ga": "Réitím go maith",
+        "en": "I get on well"
+       },
+       {
+        "ga": "Ní réitím rómhaith",
+        "en": "I don't get on too well"
+       }
+      ],
+      [
+       {
+        "ga": "le mo dheartháir",
+        "en": "with my brother"
+       },
+       {
+        "ga": "le mo dheirfiúr",
+        "en": "with my sister"
+       },
+       {
+        "ga": "le mo thuismitheoirí",
+        "en": "with my parents"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An gaol",
+     "columns": [
+      [
+       {
+        "ga": "Tá gaol láidir",
+        "en": "There is a strong relationship"
+       },
+       {
+        "ga": "Níl gaol rómhaith",
+        "en": "There isn't a very good relationship"
+       },
+       {
+        "ga": "Bíonn achrann go minic",
+        "en": "There are often rows"
+       }
+      ],
+      [
+       {
+        "ga": "idir an bheirt againn",
+        "en": "between the two of us"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tacaíocht",
+     "columns": [
+      [
+       {
+        "ga": "Seasann sé liom",
+        "en": "He stands up for me"
+       },
+       {
+        "ga": "Seasann sí liom",
+        "en": "She stands up for me"
+       },
+       {
+        "ga": "Tuigeann sé mo chás",
+        "en": "He understands my situation"
+       },
+       {
+        "ga": "Tuigeann sí mo chás",
+        "en": "She understands my situation"
+       }
+      ],
+      [
+       {
+        "ga": "má bhíonn achrann sa teach",
+        "en": "if there is a row in the house"
+       },
+       {
+        "ga": "nuair a bhím ag iarraidh dul amach le mo chairde",
+        "en": "when I want to go out with my friends"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Ciarán an t-ainm atá orm. Is duine cairdiúil mé. Tá cúigear i mo theaghlach agus is mise an duine is sine sa teaghlach.",
+    "Caithfidh mé a admháil go bhfuil an-chuid buntáistí ag baint le bheith ar an duine is sine. Faighim i bhfad níos mó saoirse ó mo thuismitheoirí i gcomparáid le mo dheirfiúr. Bíonn cead agam fanacht amuigh níos moille ag an deireadh seachtaine. Ar an taobh eile, tá an-chuid míbhuntáistí ag baint le bheith ar an duine is sine. Caithfidh mé aire a thabhairt do na páistí beaga agus bíonn sé sin deacair in amanna.",
+    "Réitím go maith le mo dheirfiúr. Tá sí níos sine ná mise agus tá sí ag obair. Tá gaol láidir idir an bheirt againn. Seasann sí liom má bhíonn achrann sa teach, agus tuigeann sí mo chás, mar tá sí óg í féin."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-ceantar",
+   "title": "Mo cheantar agus an timpeallacht",
+   "en": "My area and the environment",
+   "teaches": "Describing where you live (feminine áit with lenited adjectives); facilities with Tá / Níl and the conditional 'Bheadh sé deas dá mbeadh'; environmental problems, cause and solution.",
+   "questions": [
+    "Cá bhfuil tú i do chónaí? An bhfuil dúil agat ann?",
+    "An bhfuil go leor áiseanna ann do dhaoine óga?",
+    "An bhfuil na daoine a chónaíonn i do cheantar cúramach faoin timpeallacht?",
+    "An bhfuil fadhbanna timpeallachta i do cheantar?"
+   ],
+   "rows": [
+    {
+     "label": "Cá háit",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "in áit bheag",
+        "en": "in a small place"
+       },
+       {
+        "ga": "i sráidbhaile",
+        "en": "in a village"
+       },
+       {
+        "ga": "faoin tuath",
+        "en": "in the countryside"
+       },
+       {
+        "ga": "in áit mhór",
+        "en": "in a big place"
+       }
+      ],
+      [
+       {
+        "ga": "in Ard Mhacha Theas",
+        "en": "in South Armagh"
+       },
+       {
+        "ga": "in aice le hIúr Cinn Trá",
+        "en": "near Newry"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An ceantar dúchais",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo cheantar dúchais",
+        "en": "My home area is"
+       }
+      ],
+      [
+       {
+        "ga": "in aice leis an teorainn",
+        "en": "near the border"
+       },
+       {
+        "ga": "faoi scáth Shliabh gCuillinn",
+        "en": "in the shadow of Slieve Gullion"
+       },
+       {
+        "ga": "i gcroílár Ard Mhacha Theas",
+        "en": "in the heart of South Armagh"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cén sórt áite",
+     "columns": [
+      [
+       {
+        "ga": "Is áit",
+        "en": "It is a"
+       }
+      ],
+      [
+       {
+        "ga": "bheag chiúin",
+        "en": "small, quiet"
+       },
+       {
+        "ga": "álainn",
+        "en": "beautiful"
+       },
+       {
+        "ga": "chairdiúil",
+        "en": "friendly"
+       },
+       {
+        "ga": "bhríomhar",
+        "en": "lively"
+       }
+      ],
+      [
+       {
+        "ga": "í",
+        "en": "place (literally: it)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Áiseanna",
+     "columns": [
+      [
+       {
+        "ga": "Tá cuid mhór áiseanna",
+        "en": "There are plenty of facilities"
+       },
+       {
+        "ga": "Níl go leor áiseanna",
+        "en": "There aren't enough facilities"
+       }
+      ],
+      [
+       {
+        "ga": "ann",
+        "en": "there"
+       }
+      ],
+      [
+       {
+        "ga": "don phobal",
+        "en": "for the community"
+       },
+       {
+        "ga": "do dhaoine óga",
+        "en": "for young people"
+       },
+       {
+        "ga": "do dhaoine mo chomhaoise",
+        "en": "for people my age"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é atá in easnamh",
+     "columns": [
+      [
+       {
+        "ga": "Níl",
+        "en": "There is no"
+       }
+      ],
+      [
+       {
+        "ga": "ionad fóillíochta",
+        "en": "leisure centre"
+       },
+       {
+        "ga": "club óige",
+        "en": "youth club"
+       },
+       {
+        "ga": "caife do dhaoine óga",
+        "en": "café for young people"
+       },
+       {
+        "ga": "linn snámha",
+        "en": "swimming pool"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       },
+       {
+        "ga": "i mo bhaile féin",
+        "en": "in my own town"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba bhreá liom",
+     "columns": [
+      [
+       {
+        "ga": "Bheadh sé deas dá mbeadh",
+        "en": "It would be nice if there were"
+       }
+      ],
+      [
+       {
+        "ga": "club óige",
+        "en": "a youth club"
+       },
+       {
+        "ga": "ionad spóirt",
+        "en": "a sports centre"
+       },
+       {
+        "ga": "caife do dhaoine óga",
+        "en": "a café for young people"
+       },
+       {
+        "ga": "linn snámha nua",
+        "en": "a new swimming pool"
+       }
+      ],
+      [
+       {
+        "ga": "i mo cheantar",
+        "en": "in my area"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fadhb",
+     "columns": [
+      [
+       {
+        "ga": "Tá fadhb mhór",
+        "en": "There is a big problem"
+       }
+      ],
+      [
+       {
+        "ga": "le bruscar",
+        "en": "with litter"
+       },
+       {
+        "ga": "le trácht",
+        "en": "with traffic"
+       },
+       {
+        "ga": "le salachar",
+        "en": "with dirt"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       },
+       {
+        "ga": "thart ar an scoil",
+        "en": "around the school"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Comparáid",
+     "columns": [
+      [
+       {
+        "ga": "Ó tharla nach bhfuil monarchana móra sa cheantar,",
+        "en": "Since there are no big factories in the area,"
+       }
+      ],
+      [
+       {
+        "ga": "níl an oiread céanna toitcheo ann",
+        "en": "there isn't as much smog"
+       },
+       {
+        "ga": "níl an oiread céanna truaillithe ann",
+        "en": "there isn't as much pollution"
+       }
+      ],
+      [
+       {
+        "ga": "agus a bheadh i gcathair mhór",
+        "en": "as there would be in a big city"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na daoine",
+     "columns": [
+      [
+       {
+        "ga": "Tá cuid mhór daoine",
+        "en": "A lot of people are"
+       }
+      ],
+      [
+       {
+        "ga": "beag beann ar an bhruscar",
+        "en": "indifferent to the litter"
+       },
+       {
+        "ga": "sásta a gcuid bruscair a chaitheamh ar an talamh",
+        "en": "happy to throw their rubbish on the ground"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tuairim",
+     "columns": [
+      [
+       {
+        "ga": "Cuireann sé sin isteach go mór orm",
+        "en": "That really annoys me"
+       },
+       {
+        "ga": "Is mór an trua sin",
+        "en": "That is a great pity"
+       }
+      ],
+      [
+       {
+        "ga": "mar is ceantar álainn é",
+        "en": "because it is a beautiful area"
+       },
+       {
+        "ga": "mar tá cuid mhór boscaí bruscair sa cheantar",
+        "en": "because there are plenty of bins in the area"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Réiteach",
+     "columns": [
+      [
+       {
+        "ga": "Bheadh",
+        "en": "There would be"
+       }
+      ],
+      [
+       {
+        "ga": "athrú meoin",
+        "en": "a change of attitude"
+       },
+       {
+        "ga": "níos mó boscaí athchúrsála",
+        "en": "more recycling bins"
+       },
+       {
+        "ga": "feachtas glantacháin",
+        "en": "a clean-up campaign"
+       }
+      ],
+      [
+       {
+        "ga": "de dhíth",
+        "en": "needed"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé i mo chónaí faoin tuath in Ard Mhacha Theas. Tá mo cheantar dúchais in aice leis an teorainn. Is áit bheag chiúin í atá lán de radharcanna deasa, de shléibhte áille agus de dhaoine cairdiúla. Tá dúil mhór agam ann.",
+    "Tá cuid mhór áiseanna ann don phobal, mar shampla, siopaí, ionad pobail agus leabharlann. Ach níl go leor áiseanna ann do dhaoine óga. Níl club óige sa cheantar. Bheadh sé deas dá mbeadh caife do dhaoine óga i mo cheantar.",
+    "Tá agus níl. Ó tharla nach bhfuil monarchana móra sa cheantar, níl an oiread céanna toitcheo ann agus a bheadh i gcathair mhór. Ach tá fadhb mhór le bruscar sa cheantar. Tá cuid mhór daoine sásta a gcuid bruscair a chaitheamh ar an talamh. Is mór an trua sin mar is ceantar álainn é. Bheadh athrú meoin de dhíth."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-scoil",
+   "title": "An scoil agus na hábhair AS",
+   "en": "School and AS subjects",
+   "teaches": "Opinions of school with reasons (mar, cé nach); subjects after 'ar an' with Ulster lenition; giving reasons for choices; the gap between GCSE and AS; connectors (Chomh maith le sin, Ina theannta sin, Ar an taobh eile).",
+   "questions": [
+    "An bhfuil dúil agat sa scoil seo?",
+    "Cad iad na hábhair AS atá á ndéanamh agat?",
+    "Cad chuige ar roghnaigh tú na hábhair sin?",
+    "An maith leat gach gné den chúrsa Gaeilge ag leibhéal AS?"
+   ],
+   "rows": [
+    {
+     "label": "Dúil sa scoil",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a admháil go bhfuil an-dúil agam",
+        "en": "I have to admit that I really like"
+       },
+       {
+        "ga": "Tá dúil mhór agam",
+        "en": "I really like"
+       }
+      ],
+      [
+       {
+        "ga": "sa scoil seo",
+        "en": "this school"
+       }
+      ],
+      [
+       {
+        "ga": "mar is scoil iontach í",
+        "en": "because it is a great school"
+       },
+       {
+        "ga": "cé nach bhfuil scoth na n-áiseanna inti",
+        "en": "although it doesn't have the best facilities"
+       },
+       {
+        "ga": "mar bhuail mé le cairde speisialta anseo",
+        "en": "because I met special friends here"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Croí an cheantair",
+     "columns": [
+      [
+       {
+        "ga": "Amharcaim ar an scoil",
+        "en": "I see the school"
+       }
+      ],
+      [
+       {
+        "ga": "mar chroí an cheantair",
+        "en": "as the heart of the area"
+       },
+       {
+        "ga": "mar chuid lárnach den phobal",
+        "en": "as a central part of the community"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na hábhair",
+     "columns": [
+      [
+       {
+        "ga": "Déanaim staidéar",
+        "en": "I study"
+       }
+      ],
+      [
+       {
+        "ga": "ar an Ghaeilge",
+        "en": "Irish"
+       },
+       {
+        "ga": "ar an Bhéarla",
+        "en": "English"
+       },
+       {
+        "ga": "ar an bhitheolaíocht",
+        "en": "biology"
+       },
+       {
+        "ga": "ar an cheimic",
+        "en": "chemistry"
+       },
+       {
+        "ga": "ar an stair",
+        "en": "history"
+       },
+       {
+        "ga": "ar an tíreolaíocht",
+        "en": "geography"
+       }
+      ],
+      [
+       {
+        "ga": "ag leibhéal AS",
+        "en": "at AS level",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige",
+     "columns": [
+      [
+       {
+        "ga": "Roghnaigh mé na hábhair seo",
+        "en": "I chose these subjects"
+       }
+      ],
+      [
+       {
+        "ga": "mar fuair mé gráid mhaithe iontu sna scrúduithe GCSE",
+        "en": "because I got good grades in them in the GCSE exams"
+       },
+       {
+        "ga": "mar tá suim mhór agam iontu",
+        "en": "because I am very interested in them"
+       },
+       {
+        "ga": "mar mhol mo mhúinteoirí dom iad a roghnú",
+        "en": "because my teachers advised me to choose them"
+       },
+       {
+        "ga": "mar beidh siad úsáideach don ollscoil",
+        "en": "because they will be useful for university"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ina theannta sin",
+     "columns": [
+      [
+       {
+        "ga": "Chomh maith le sin,",
+        "en": "As well as that,"
+       },
+       {
+        "ga": "Ina theannta sin,",
+        "en": "In addition,"
+       },
+       {
+        "ga": "Ar bharr sin,",
+        "en": "On top of that,"
+       }
+      ],
+      [
+       {
+        "ga": "shíl mo mhúinteoir go mbeadh sé ar mo chumas an t-ábhar a leanúint go leibhéal AS",
+        "en": "my teacher thought I would be able to follow the subject to AS level"
+       },
+       {
+        "ga": "tá siad tábhachtach don tslí bheatha atá ar intinn agam",
+        "en": "they are important for the career I have in mind"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An bhearna",
+     "columns": [
+      [
+       {
+        "ga": "Thug mé faoi deara go bhfuil",
+        "en": "I noticed that there is"
+       },
+       {
+        "ga": "Caithfidh mé a admháil go bhfuil",
+        "en": "I have to admit that there is"
+       }
+      ],
+      [
+       {
+        "ga": "bearna an-mhór idir GCSE agus AS",
+        "en": "a very big gap between GCSE and AS"
+       },
+       {
+        "ga": "i bhfad Éireann níos mó oibre ann anois",
+        "en": "far, far more work now"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag dúil le",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn na múinteoirí ag dúil",
+        "en": "The teachers expect"
+       }
+      ],
+      [
+       {
+        "ga": "le i bhfad níos mó díograise uainn",
+        "en": "far more commitment from us"
+       },
+       {
+        "ga": "le níos mó léitheoireachta uainn",
+        "en": "more reading from us"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Saoirse",
+     "columns": [
+      [
+       {
+        "ga": "Ar an taobh eile,",
+        "en": "On the other hand,"
+       }
+      ],
+      [
+       {
+        "ga": "bíonn cuid mhór tréimhsí saora agam anois",
+        "en": "I have a lot of free periods now"
+       },
+       {
+        "ga": "tugtar i bhfad níos mó saoirse dúinn anois",
+        "en": "we are given far more freedom now"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tréimhsí saora",
+     "columns": [
+      [
+       {
+        "ga": "Thig liom dul",
+        "en": "I can go"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an leabharlann",
+        "en": "to the library"
+       },
+       {
+        "ga": "chuig an halla staidéir",
+        "en": "to the study hall"
+       }
+      ],
+      [
+       {
+        "ga": "le tuilleadh staidéir a dhéanamh",
+        "en": "to do more study"
+       },
+       {
+        "ga": "le m'obair bhaile a dhéanamh",
+        "en": "to do my homework"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An cúrsa Gaeilge",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn",
+        "en": "(usually) is"
+       }
+      ],
+      [
+       {
+        "ga": "an ghramadach",
+        "en": "the grammar"
+       },
+       {
+        "ga": "an aiste",
+        "en": "the essay"
+       },
+       {
+        "ga": "an cur i láthair",
+        "en": "the presentation"
+       },
+       {
+        "ga": "an litríocht",
+        "en": "the literature"
+       }
+      ],
+      [
+       {
+        "ga": "casta agus deacair",
+        "en": "complicated and difficult"
+       },
+       {
+        "ga": "suimiúil",
+        "en": "interesting"
+       },
+       {
+        "ga": "dúshlánach",
+        "en": "challenging"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cleachtadh",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé deacair",
+        "en": "It is hard"
+       }
+      ],
+      [
+       {
+        "ga": "mo chuid smaointí uilig a chur síos ar pháipéar",
+        "en": "to put all my thoughts down on paper"
+       },
+       {
+        "ga": "labhairt go líofa gan ullmhúchán",
+        "en": "to speak fluently without preparation"
+       }
+      ],
+      [
+       {
+        "ga": "ach cleachtadh a dhéanann máistreacht",
+        "en": "but practice makes perfect",
+        "optional": true
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Caithfidh mé a admháil go bhfuil an-dúil agam sa scoil seo. Is scoil iontach í cé nach bhfuil scoth na n-áiseanna inti. Bhuail mé le cuid mhór cairde speisialta anseo. Amharcaim ar an scoil mar chroí an cheantair.",
+    "Déanaim staidéar ar an Ghaeilge, ar an bhitheolaíocht agus ar an cheimic. Roghnaigh mé na hábhair seo mar fuair mé gráid mhaithe iontu sna scrúduithe GCSE. Ina theannta sin, mhol mo mhúinteoirí dom iad a roghnú. Thug mé faoi deara go bhfuil bearna an-mhór idir GCSE agus AS. Ar an taobh eile, tugtar i bhfad níos mó saoirse dúinn anois.",
+    "Is maith liom an chuid is mó den chúrsa. Bíonn an ghramadach casta agus deacair, ach bíonn an litríocht suimiúil. Tá sé deacair mo chuid smaointí uilig a chur síos ar pháipéar, ach cleachtadh a dhéanann máistreacht, a deir mo mhúinteoirí."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-todhchai",
+   "title": "Pleananna don todhchaí",
+   "en": "Plans for the future",
+   "teaches": "Talking about the future: Tá sé ar intinn agam; the future tense after 'go' and 'an' (go bhfaighidh mé, an bhfaighidh mé); i mo + lenition for jobs (i mo mhúinteoir); options after school.",
+   "questions": [
+    "Cad iad na hábhair ar mhaith leat a dhéanamh an bhliain seo chugainn?",
+    "Ar smaoinigh tú ar chúrsa ollscoile go fóill?",
+    "An bhfuil slí bheatha ar bith ar intinn agat?",
+    "Cad é ba mhaith leat a dhéanamh i ndiaidh na scoile?"
+   ],
+   "rows": [
+    {
+     "label": "Sásta",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé sásta gur roghnaigh mé na hábhair seo",
+        "en": "I am glad I chose these subjects"
+       }
+      ],
+      [
+       {
+        "ga": "cé go bhfuil an-chuid oibre i gceist",
+        "en": "although there is a lot of work involved"
+       },
+       {
+        "ga": "mar tá siad suimiúil",
+        "en": "because they are interesting"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An bhliain seo chugainn",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé ar intinn agam",
+        "en": "I intend"
+       },
+       {
+        "ga": "Níl sé ar intinn agam",
+        "en": "I don't intend"
+       }
+      ],
+      [
+       {
+        "ga": "dul ar aghaidh leis na hábhair seo go leibhéal A2",
+        "en": "to go on with these subjects to A2 level"
+       },
+       {
+        "ga": "an Ghaeilge a dhéanamh go leibhéal A2",
+        "en": "to do Irish to A2 level"
+       }
+      ],
+      [
+       {
+        "ga": "an bhliain seo chugainn",
+        "en": "next year"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An ollscoil",
+     "columns": [
+      [
+       {
+        "ga": "Leis an fhírinne a insint,",
+        "en": "To tell the truth,"
+       },
+       {
+        "ga": "Déanta na fírinne,",
+        "en": "In fact,"
+       }
+      ],
+      [
+       {
+        "ga": "níor smaoinigh mé air go fóill",
+        "en": "I haven't thought about it yet"
+       },
+       {
+        "ga": "níl mé róchinnte cad é ba mhaith liom a dhéanamh",
+        "en": "I'm not too sure what I would like to do"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cúrsa",
+     "columns": [
+      [
+       {
+        "ga": "Bhí sé i gcónaí ar m'intinn cúrsa",
+        "en": "I always had it in mind to do a course"
+       }
+      ],
+      [
+       {
+        "ga": "sa leigheas",
+        "en": "in medicine"
+       },
+       {
+        "ga": "sa dlí",
+        "en": "in law"
+       },
+       {
+        "ga": "san innealtóireacht",
+        "en": "in engineering"
+       },
+       {
+        "ga": "sa mhúinteoireacht",
+        "en": "in teaching"
+       },
+       {
+        "ga": "sa ríomheolaíocht",
+        "en": "in computer science"
+       }
+      ],
+      [
+       {
+        "ga": "a dhéanamh ar an ollscoil",
+        "en": "at university"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na gráid",
+     "columns": [
+      [
+       {
+        "ga": "Tá súil agam go bhfaighidh mé",
+        "en": "I hope I will get"
+       },
+       {
+        "ga": "Níl a fhios agam an bhfaighidh mé",
+        "en": "I don't know if I will get"
+       }
+      ],
+      [
+       {
+        "ga": "na gráid",
+        "en": "the grades"
+       }
+      ],
+      [
+       {
+        "ga": "le háit a fháil ar an chúrsa sin",
+        "en": "to get a place on that course"
+       },
+       {
+        "ga": "le háit a fháil in Ollscoil na Banríona",
+        "en": "to get a place at Queen's University"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Slí bheatha",
+     "columns": [
+      [
+       {
+        "ga": "Ó bhí mé óg, bhí mé i gcónaí ag iarraidh a bheith",
+        "en": "Since I was young, I always wanted to be"
+       }
+      ],
+      [
+       {
+        "ga": "i mo mhúinteoir",
+        "en": "a teacher"
+       },
+       {
+        "ga": "i mo dhochtúir",
+        "en": "a doctor"
+       },
+       {
+        "ga": "i mo bhanaltra",
+        "en": "a nurse"
+       },
+       {
+        "ga": "i m'innealtóir",
+        "en": "an engineer"
+       },
+       {
+        "ga": "i mo chuntasóir",
+        "en": "an accountant"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige",
+     "columns": [
+      [
+       {
+        "ga": "Ba mhaith liom",
+        "en": "I would like"
+       }
+      ],
+      [
+       {
+        "ga": "obair le daoine",
+        "en": "to work with people"
+       },
+       {
+        "ga": "cuidiú le daoine",
+        "en": "to help people"
+       },
+       {
+        "ga": "post seasmhach a fháil",
+        "en": "to get a secure job"
+       },
+       {
+        "ga": "taisteal leis an obair",
+        "en": "to travel with work"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An post",
+     "columns": [
+      [
+       {
+        "ga": "Is post",
+        "en": "It is a"
+       }
+      ],
+      [
+       {
+        "ga": "suimiúil",
+        "en": "interesting"
+       },
+       {
+        "ga": "dúshlánach",
+        "en": "challenging"
+       },
+       {
+        "ga": "sásúil",
+        "en": "satisfying"
+       },
+       {
+        "ga": "seasmhach",
+        "en": "secure"
+       }
+      ],
+      [
+       {
+        "ga": "é",
+        "en": "job (literally: it)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "I ndiaidh na scoile",
+     "columns": [
+      [
+       {
+        "ga": "I ndiaidh na scoile, ba mhaith liom",
+        "en": "After school, I would like"
+       }
+      ],
+      [
+       {
+        "ga": "bliain amach a thógáil",
+        "en": "to take a gap year"
+       },
+       {
+        "ga": "printíseacht a dhéanamh",
+        "en": "to do an apprenticeship"
+       },
+       {
+        "ga": "dul díreach chun na hollscoile",
+        "en": "to go straight to university"
+       },
+       {
+        "ga": "freastal ar ollscoil anseo sa Tuaisceart",
+        "en": "to attend a university here in the North"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé sásta gur roghnaigh mé na hábhair seo cé go bhfuil an-chuid oibre i gceist. Tá sé ar intinn agam dul ar aghaidh leis na hábhair seo go leibhéal A2 an bhliain seo chugainn. Ba mhaith liom an Ghaeilge a dhéanamh go leibhéal A2 fosta, mar tá dúil mhór agam inti.",
+    "Leis an fhírinne a insint, níl mé róchinnte cad é ba mhaith liom a dhéanamh. Bhí sé i gcónaí ar m'intinn cúrsa sa dlí a dhéanamh ar an ollscoil. Níl a fhios agam an bhfaighidh mé na gráid le háit a fháil ar an chúrsa sin. Fan go bhfeice muid!",
+    "Ó bhí mé óg, bhí mé i gcónaí ag iarraidh a bheith i mo mhúinteoir. Bhíodh múinteoirí maithe agam ón bhunscoil go dtí an leibhéal seo. Ba mhaith liom obair le daoine agus is post sásúil é. Chomh maith le sin, ní thiocfadh leat gearán a dhéanamh faoi na laethanta saoire!"
+   ],
+   "new": false
+  },
+  {
+   "id": "as-teicneolaiocht",
+   "title": "An teicneolaíocht i mo shaol",
+   "en": "Technology in my life",
+   "teaches": "Smartphones, social media, screen time and online safety; purpose clauses with le + verbal noun; Caithfidh mé a admháil go ...; agreeing and disagreeing (Aontaím go huile is go hiomlán, go pointe).",
+   "questions": [
+    "An bhfuil guthán cliste agat? Cad é a dhéanann tú leis?",
+    "An mbaineann tú úsáid as na meáin shóisialta?",
+    "An gcaitheann tú an iomarca ama ar do ghuthán?",
+    "An bhfuil tú cúramach ar líne?",
+    "An aontaíonn tú leis an bhéim a chuirtear ar an teicneolaíocht ar scoil agus sa saol i gcoitinne?"
+   ],
+   "rows": [
+    {
+     "label": "An guthán",
+     "columns": [
+      [
+       {
+        "ga": "Tá guthán cliste agam",
+        "en": "I have a smartphone"
+       }
+      ],
+      [
+       {
+        "ga": "agus bainim an-úsáid as",
+        "en": "and I use it a lot"
+       },
+       {
+        "ga": "agus bíonn sé i mo lámh an t-am ar fad",
+        "en": "and it is in my hand all the time"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Úsáid",
+     "columns": [
+      [
+       {
+        "ga": "Úsáidim é",
+        "en": "I use it"
+       }
+      ],
+      [
+       {
+        "ga": "le teachtaireachtaí a sheoladh chuig mo chairde",
+        "en": "to send messages to my friends"
+       },
+       {
+        "ga": "le héisteacht le ceol",
+        "en": "to listen to music"
+       },
+       {
+        "ga": "le taighde a dhéanamh don obair scoile",
+        "en": "to do research for schoolwork"
+       },
+       {
+        "ga": "le hamharc ar fhíseáin",
+        "en": "to watch videos"
+       }
+      ],
+      [
+       {
+        "ga": "achan lá",
+        "en": "every day"
+       },
+       {
+        "ga": "go minic",
+        "en": "often"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na meáin shóisialta",
+     "columns": [
+      [
+       {
+        "ga": "Bainim úsáid as",
+        "en": "I use"
+       },
+       {
+        "ga": "Ní bhainim mórán úsáide as",
+        "en": "I don't use much"
+       }
+      ],
+      [
+       {
+        "ga": "Snapchat",
+        "en": "Snapchat"
+       },
+       {
+        "ga": "Instagram",
+        "en": "Instagram"
+       },
+       {
+        "ga": "TikTok",
+        "en": "TikTok"
+       },
+       {
+        "ga": "WhatsApp",
+        "en": "WhatsApp"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Buntáiste",
+     "columns": [
+      [
+       {
+        "ga": "Is áis iontach iad na meáin shóisialta",
+        "en": "Social media is a great resource"
+       }
+      ],
+      [
+       {
+        "ga": "le coinneáil i dteagmháil le mo chairde",
+        "en": "for keeping in touch with my friends"
+       },
+       {
+        "ga": "le nuacht a fháil",
+        "en": "for getting news"
+       },
+       {
+        "ga": "le rudaí nua a fhoghlaim",
+        "en": "for learning new things"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Am scáileáin",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a admháil go gcaithim",
+        "en": "I have to admit that I spend"
+       },
+       {
+        "ga": "Is dócha go gcaithim",
+        "en": "I suppose I spend"
+       }
+      ],
+      [
+       {
+        "ga": "an iomarca ama",
+        "en": "too much time"
+       },
+       {
+        "ga": "thart ar cheithre huaire an chloig sa lá",
+        "en": "about four hours a day"
+       }
+      ],
+      [
+       {
+        "ga": "ar mo ghuthán",
+        "en": "on my phone"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Drochthionchar",
+     "columns": [
+      [
+       {
+        "ga": "Cuireann sé isteach ar",
+        "en": "It affects"
+       }
+      ],
+      [
+       {
+        "ga": "mo chodladh",
+        "en": "my sleep"
+       },
+       {
+        "ga": "m'obair scoile",
+        "en": "my schoolwork"
+       },
+       {
+        "ga": "mo chuid staidéir",
+        "en": "my study"
+       }
+      ],
+      [
+       {
+        "ga": "in amanna",
+        "en": "at times"
+       },
+       {
+        "ga": "go minic",
+        "en": "often"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Réiteach",
+     "columns": [
+      [
+       {
+        "ga": "Fágaim mo ghuthán",
+        "en": "I leave my phone"
+       }
+      ],
+      [
+       {
+        "ga": "sa chistin",
+        "en": "in the kitchen"
+       },
+       {
+        "ga": "taobh amuigh de mo sheomra",
+        "en": "outside my room"
+       }
+      ],
+      [
+       {
+        "ga": "istoíche",
+        "en": "at night"
+       },
+       {
+        "ga": "nuair a bhím ag staidéar",
+        "en": "when I am studying"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sábháilteacht ar líne",
+     "columns": [
+      [
+       {
+        "ga": "Bím cúramach i gcónaí ar líne",
+        "en": "I am always careful online"
+       }
+      ],
+      [
+       {
+        "ga": "agus ní roinnim eolas pearsanta le strainséirí",
+        "en": "and I don't share personal information with strangers"
+       },
+       {
+        "ga": "agus ní ghlacaim le hiarratais ó dhaoine nach n-aithním",
+        "en": "and I don't accept requests from people I don't know"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fadhbanna",
+     "columns": [
+      [
+       {
+        "ga": "Is fadhb mhór í",
+        "en": "It is a big problem:"
+       }
+      ],
+      [
+       {
+        "ga": "an bhulaíocht ar líne",
+        "en": "online bullying"
+       },
+       {
+        "ga": "an fhaisnéis bhréagach",
+        "en": "false information"
+       },
+       {
+        "ga": "an chaimiléireacht ar líne",
+        "en": "online scams"
+       }
+      ],
+      [
+       {
+        "ga": "sa lá atá inniu ann",
+        "en": "nowadays"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An bhéim ar scoil",
+     "columns": [
+      [
+       {
+        "ga": "Aontaím go huile is go hiomlán",
+        "en": "I agree completely"
+       },
+       {
+        "ga": "Aontaím go pointe",
+        "en": "I agree up to a point"
+       }
+      ],
+      [
+       {
+        "ga": "leis an bhéim a chuirtear ar an teicneolaíocht",
+        "en": "with the emphasis placed on technology"
+       }
+      ],
+      [
+       {
+        "ga": "ar scoil agus sa saol i gcoitinne",
+        "en": "in school and in life in general"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Scil don todhchaí",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé iontach tábhachtach",
+        "en": "It is very important"
+       },
+       {
+        "ga": "Tá sé riachtanach",
+        "en": "It is essential"
+       }
+      ],
+      [
+       {
+        "ga": "a bheith ábalta an teicneolaíocht a úsáid",
+        "en": "to be able to use technology"
+       },
+       {
+        "ga": "a bheith sábháilte ar líne",
+        "en": "to be safe online"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá guthán cliste agam agus bainim an-úsáid as. Úsáidim é le teachtaireachtaí a sheoladh chuig mo chairde achan lá. Bainim úsáid as Snapchat agus WhatsApp. Is áis iontach iad na meáin shóisialta le coinneáil i dteagmháil le mo chairde.",
+    "Caithfidh mé a admháil go gcaithim an iomarca ama ar mo ghuthán. Cuireann sé isteach ar mo chodladh in amanna. Anois, fágaim mo ghuthán sa chistin istoíche. Bím cúramach i gcónaí ar líne agus ní roinnim eolas pearsanta le strainséirí.",
+    "Aontaím go huile is go hiomlán leis an bhéim a chuirtear ar an teicneolaíocht ar scoil agus sa saol i gcoitinne. Tá sé iontach tábhachtach a bheith ábalta an teicneolaíocht a úsáid, agus beidh an scil sin ina cuidiú dom sa todhchaí. Ach is fadhb mhór í an bhulaíocht ar líne sa lá atá inniu ann."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-gaeilge",
+   "title": "Mé féin agus an Ghaeilge",
+   "en": "Me and the Irish language",
+   "teaches": "Reasons for choosing Irish; pride and ambition (Ba bhreá liom); recommending the Gaeltacht (Is fiú go mór); a Gaeltacht course in the past tense with the analytic plural (chuir muid, bhain muid).",
+   "questions": [
+    "Cad chuige ar roghnaigh tú an Ghaeilge mar ábhar AS?",
+    "An fiú do dhuine atá ag foghlaim na Gaeilge dul chun na Gaeltachta, i do bharúil?",
+    "An raibh tú riamh ar chúrsa sa Ghaeltacht?",
+    "Inis dom fá dtaobh dó."
+   ],
+   "rows": [
+    {
+     "label": "Cad chuige",
+     "columns": [
+      [
+       {
+        "ga": "Roghnaigh mé an Ghaeilge ag leibhéal AS",
+        "en": "I chose Irish at AS level"
+       }
+      ],
+      [
+       {
+        "ga": "mar fuair mé grád ard inti sna scrúduithe GCSE",
+        "en": "because I got a high grade in it in the GCSE exams"
+       },
+       {
+        "ga": "mar is í mo theanga dhúchais í",
+        "en": "because it is my native language"
+       },
+       {
+        "ga": "mar tá dúil mhór agam sa teanga",
+        "en": "because I really like the language"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bród",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé an-bhródúil",
+        "en": "I am very proud"
+       }
+      ],
+      [
+       {
+        "ga": "as an Ghaeilge",
+        "en": "of Irish"
+       },
+       {
+        "ga": "as mo theanga dhúchais",
+        "en": "of my native language"
+       },
+       {
+        "ga": "as mo chultúr",
+        "en": "of my culture"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Uaillmhian",
+     "columns": [
+      [
+       {
+        "ga": "Ba bhreá liom",
+        "en": "I would love"
+       },
+       {
+        "ga": "Ba mhaith liom go láidir",
+        "en": "I would really like"
+       }
+      ],
+      [
+       {
+        "ga": "a bheith ábalta an Ghaeilge a labhairt go líofa",
+        "en": "to be able to speak Irish fluently"
+       },
+       {
+        "ga": "an oiread ama agus is féidir a chaitheamh ar an Ghaeilge",
+        "en": "to spend as much time as possible on Irish"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Todhchaí na teanga",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé tábhachtach do thodhchaí na teanga",
+        "en": "It is important for the future of the language"
+       }
+      ],
+      [
+       {
+        "ga": "go mbeadh an oiread cainteoirí Gaeilge agus is féidir ann",
+        "en": "that there should be as many Irish speakers as possible"
+       },
+       {
+        "ga": "go labhródh daoine óga í achan lá",
+        "en": "that young people would speak it every day"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An ghluaiseacht",
+     "columns": [
+      [
+       {
+        "ga": "Ba mhaith liom a bheith páirteach",
+        "en": "I would like to be part"
+       }
+      ],
+      [
+       {
+        "ga": "sa ghluaiseacht sin",
+        "en": "of that movement"
+       },
+       {
+        "ga": "in athbheochan na Gaeilge",
+        "en": "of the revival of Irish"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Is fiú",
+     "columns": [
+      [
+       {
+        "ga": "Is fiú go mór",
+        "en": "It is well worth"
+       },
+       {
+        "ga": "Is cinnte gur fiú",
+        "en": "It is certainly worth"
+       }
+      ],
+      [
+       {
+        "ga": "dul chun na Gaeltachta",
+        "en": "going to the Gaeltacht"
+       }
+      ],
+      [
+       {
+        "ga": "le cleachtadh a fháil",
+        "en": "to get practice"
+       },
+       {
+        "ga": "le Gaeilge nádúrtha a chluinstin",
+        "en": "to hear natural Irish"
+       },
+       {
+        "ga": "le cairde úra a dhéanamh",
+        "en": "to make new friends"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tobar na Gaeilge",
+     "columns": [
+      [
+       {
+        "ga": "Níl áit ar bith ar dhroim an domhain",
+        "en": "There is nowhere on the face of the earth"
+       }
+      ],
+      [
+       {
+        "ga": "níos fearr ná an Ghaeltacht",
+        "en": "better than the Gaeltacht"
+       }
+      ],
+      [
+       {
+        "ga": "le Gaeilge a fhoghlaim",
+        "en": "to learn Irish"
+       },
+       {
+        "ga": "le do chuid Gaeilge a fheabhsú",
+        "en": "to improve your Irish"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An cúrsa",
+     "columns": [
+      [
+       {
+        "ga": "Chuaigh mé",
+        "en": "I went"
+       }
+      ],
+      [
+       {
+        "ga": "go Loch an Iúir",
+        "en": "to Loughanure"
+       },
+       {
+        "ga": "go Rann na Feirste",
+        "en": "to Ranafast"
+       },
+       {
+        "ga": "go Gaoth Dobhair",
+        "en": "to Gweedore"
+       }
+      ],
+      [
+       {
+        "ga": "ar chúrsa Gaeilge",
+        "en": "on an Irish course"
+       }
+      ],
+      [
+       {
+        "ga": "anuraidh",
+        "en": "last year"
+       },
+       {
+        "ga": "um Cháisc",
+        "en": "at Easter"
+       },
+       {
+        "ga": "an samhradh seo caite",
+        "en": "last summer"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fad",
+     "columns": [
+      [
+       {
+        "ga": "Chaith mé",
+        "en": "I spent"
+       }
+      ],
+      [
+       {
+        "ga": "seachtain",
+        "en": "a week"
+       },
+       {
+        "ga": "coicís",
+        "en": "a fortnight"
+       },
+       {
+        "ga": "trí seachtaine",
+        "en": "three weeks"
+       }
+      ],
+      [
+       {
+        "ga": "ann",
+        "en": "there"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rinne muid",
+     "columns": [
+      [
+       {
+        "ga": "Chuir muid aithne ar dhaoine úra",
+        "en": "We got to know new people"
+       },
+       {
+        "ga": "D'fhoghlaim muid amhráin nua",
+        "en": "We learned new songs"
+       },
+       {
+        "ga": "Bhí céilí againn achan oíche",
+        "en": "We had a céilí every night"
+       },
+       {
+        "ga": "Rinne muid drámaí agus sceitsí",
+        "en": "We did plays and sketches"
+       }
+      ],
+      [
+       {
+        "ga": "agus bhain muid an-sult as an chúrsa",
+        "en": "and we really enjoyed the course"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An toradh",
+     "columns": [
+      [
+       {
+        "ga": "D'fheabhsaigh",
+        "en": "improved"
+       }
+      ],
+      [
+       {
+        "ga": "mo chuid Gaeilge",
+        "en": "my Irish"
+       },
+       {
+        "ga": "mo líofacht",
+        "en": "my fluency"
+       },
+       {
+        "ga": "mo mhuinín",
+        "en": "my confidence"
+       }
+      ],
+      [
+       {
+        "ga": "go mór",
+        "en": "a lot"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Roghnaigh mé an Ghaeilge ag leibhéal AS mar fuair mé grád ard inti sna scrúduithe GCSE. Chomh maith le sin, is í an Ghaeilge mo theanga dhúchais agus tá mé an-bhródúil aisti. Ba bhreá liom a bheith ábalta an Ghaeilge a labhairt go líofa. Tá sé tábhachtach do thodhchaí na teanga go mbeadh an oiread cainteoirí Gaeilge agus is féidir ann.",
+    "Molaim an Ghaeltacht go hard na spéire. Is í an Ghaeltacht tobar na Gaeilge. Má tá tú ag iarraidh go mbeadh Gaeilge mhaith, chruinn, líofa agat, is fiú go mór dul chun na Gaeltachta le cleachtadh a fháil. Níl áit ar bith ar dhroim an domhain níos fearr ná an Ghaeltacht le Gaeilge a fhoghlaim.",
+    "Chuaigh mé go Loch an Iúir ar chúrsa Gaeilge um Cháisc. Chaith mé seachtain ann. Chuir muid aithne ar dhaoine úra agus bhain muid an-sult as an chúrsa. D'fheabhsaigh mo chuid Gaeilge go mór."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-meain",
+   "title": "TG4, scannáin agus sruthú",
+   "en": "TG4, films and streaming",
+   "teaches": "Watching TG4 on television, TG4 Player and streaming; how TG4 helps language learning; describing a film in the past tense with a reason (Thaitin sé liom mar ...; Níor thaitin sé liom mar ...).",
+   "questions": [
+    "An amharcann tú ar TG4?",
+    "Cad é do bharúil air?",
+    "An gcuidíonn sé le foghlaim na teanga?",
+    "An bhfaca tú scannán ar bith ar na mallaibh? Inis dom fá dtaobh dó."
+   ],
+   "rows": [
+    {
+     "label": "TG4",
+     "columns": [
+      [
+       {
+        "ga": "Amharcaim ar TG4",
+        "en": "I watch TG4"
+       }
+      ],
+      [
+       {
+        "ga": "go minic",
+        "en": "often"
+       },
+       {
+        "ga": "ó am go ham",
+        "en": "from time to time"
+       },
+       {
+        "ga": "anois is arís",
+        "en": "now and again"
+       }
+      ],
+      [
+       {
+        "ga": "ar an teilifís",
+        "en": "on television"
+       },
+       {
+        "ga": "ar TG4 Player",
+        "en": "on TG4 Player"
+       },
+       {
+        "ga": "ar mo ghuthán",
+        "en": "on my phone"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na cláir",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom a bheith ag amharc ar TG4",
+        "en": "I like watching TG4"
+       }
+      ],
+      [
+       {
+        "ga": "don pheil",
+        "en": "for the football"
+       },
+       {
+        "ga": "don iomáint",
+        "en": "for the hurling"
+       },
+       {
+        "ga": "do Ros na Rún",
+        "en": "for Ros na Rún"
+       },
+       {
+        "ga": "do na cláir cheoil",
+        "en": "for the music programmes"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Freastal",
+     "columns": [
+      [
+       {
+        "ga": "Déanann TG4 freastal an-mhaith",
+        "en": "TG4 provides very good coverage"
+       }
+      ],
+      [
+       {
+        "ga": "ar chomórtais nach gclúdaíonn RTÉ nó BBC",
+        "en": "of competitions that RTÉ or the BBC don't cover"
+       },
+       {
+        "ga": "ar pheil na mban",
+        "en": "of ladies' football"
+       },
+       {
+        "ga": "ar chluichí na gclubanna",
+        "en": "of club games"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deacrachtaí",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn",
+        "en": "(usually) are"
+       }
+      ],
+      [
+       {
+        "ga": "na canúintí eile",
+        "en": "the other dialects"
+       },
+       {
+        "ga": "an Ghaeilge ghasta",
+        "en": "the fast Irish"
+       },
+       {
+        "ga": "cuid den stór focal",
+        "en": "some of the vocabulary"
+       }
+      ],
+      [
+       {
+        "ga": "deacair a thuigbheáil",
+        "en": "hard to understand"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fotheidil",
+     "columns": [
+      [
+       {
+        "ga": "Amharcaim ar na cláir",
+        "en": "I watch the programmes"
+       }
+      ],
+      [
+       {
+        "ga": "le fotheidil Ghaeilge",
+        "en": "with Irish subtitles"
+       },
+       {
+        "ga": "le fotheidil Bhéarla",
+        "en": "with English subtitles"
+       },
+       {
+        "ga": "gan fotheidil",
+        "en": "without subtitles"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cuidíonn sé",
+     "columns": [
+      [
+       {
+        "ga": "Cuidíonn TG4 go mór liom",
+        "en": "TG4 helps me a lot"
+       },
+       {
+        "ga": "Cuidíonn na cláir Ghaeilge liom",
+        "en": "Irish-language programmes help me"
+       }
+      ],
+      [
+       {
+        "ga": "le mo stór focal a leathnú",
+        "en": "to widen my vocabulary"
+       },
+       {
+        "ga": "le canúintí eile a thuigbheáil",
+        "en": "to understand other dialects"
+       },
+       {
+        "ga": "leis an teanga a chluinstin go nádúrtha",
+        "en": "to hear the language spoken naturally"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sruthú",
+     "columns": [
+      [
+       {
+        "ga": "Amharcaim ar",
+        "en": "I watch"
+       }
+      ],
+      [
+       {
+        "ga": "scannáin",
+        "en": "films"
+       },
+       {
+        "ga": "shraitheanna",
+        "en": "series"
+       },
+       {
+        "ga": "chláir fhaisnéise",
+        "en": "documentaries"
+       }
+      ],
+      [
+       {
+        "ga": "ar Netflix",
+        "en": "on Netflix"
+       },
+       {
+        "ga": "ar TG4 Player",
+        "en": "on TG4 Player"
+       },
+       {
+        "ga": "ar sheirbhísí sruthaithe",
+        "en": "on streaming services"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Scannán",
+     "columns": [
+      [
+       {
+        "ga": "Coicís ó shin, chonaic mé scannán",
+        "en": "A fortnight ago, I saw a"
+       },
+       {
+        "ga": "An tseachtain seo caite, chonaic mé scannán",
+        "en": "Last week, I saw a"
+       }
+      ],
+      [
+       {
+        "ga": "grinn",
+        "en": "comedy film"
+       },
+       {
+        "ga": "uafáis",
+        "en": "horror film"
+       },
+       {
+        "ga": "fantasaíochta",
+        "en": "fantasy film"
+       },
+       {
+        "ga": "aicsin",
+        "en": "action film"
+       }
+      ],
+      [
+       {
+        "ga": "sa phictiúrlann",
+        "en": "at the cinema"
+       },
+       {
+        "ga": "ar Netflix",
+        "en": "on Netflix"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Thaitin sé liom",
+     "columns": [
+      [
+       {
+        "ga": "Thaitin sé go mór liom",
+        "en": "I really enjoyed it"
+       }
+      ],
+      [
+       {
+        "ga": "mar bhí an scéal iontach corraitheach",
+        "en": "because the story was really exciting"
+       },
+       {
+        "ga": "mar bhí na héifeachtaí speisialta go han-mhaith",
+        "en": "because the special effects were very good"
+       },
+       {
+        "ga": "mar tá dúil mhór agam sna scannáin sin",
+        "en": "because I really like those films"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Níor thaitin sé liom",
+     "columns": [
+      [
+       {
+        "ga": "Níor thaitin sé liom ar chor ar bith",
+        "en": "I didn't enjoy it at all"
+       }
+      ],
+      [
+       {
+        "ga": "mar bhí sé i bhfad rófhada",
+        "en": "because it was far too long"
+       },
+       {
+        "ga": "mar bhí an scéal leadránach",
+        "en": "because the story was boring"
+       },
+       {
+        "ga": "agus is beag nár thit mé i mo chodladh leathbhealaigh fríd",
+        "en": "and I nearly fell asleep halfway through"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Amharcaim ar TG4 go minic, ar an teilifís agus ar TG4 Player. Is maith liom a bheith ag amharc ar TG4 don pheil agus don iomáint. Déanann TG4 freastal an-mhaith ar chomórtais nach gclúdaíonn RTÉ nó BBC, mar shampla, comórtas peile na gcoláistí.",
+    "Ó am go ham, amharcaim ar Ros na Rún. Labhraítear an Ghaeilge go han-ghasta ar an chainéal agus bíonn na canúintí eile deacair a thuigbheáil. Amharcaim ar na cláir le fotheidil Ghaeilge. Cuidíonn TG4 go mór liom le mo stór focal a leathnú.",
+    "Coicís ó shin, chonaic mé scannán fantasaíochta sa phictiúrlann. Thaitin sé go mór liom mar tá dúil mhór agam sna scannáin sin. An tseachtain seo caite, chonaic mé scannán aicsin ar Netflix. Níor thaitin sé liom ar chor ar bith mar bhí sé i bhfad rófhada, agus is beag nár thit mé i mo chodladh leathbhealaigh fríd!"
+   ],
+   "new": false
+  },
+  {
+   "id": "as-post",
+   "title": "Post páirtaimseartha",
+   "en": "Part-time work",
+   "teaches": "Describing a part-time job (i + eclipsis: i gcaife, i mbialann); pay per hour with numbers and eclipsis (ocht bpunt); what you do with money; balancing work and study with contrasting connectors.",
+   "questions": [
+    "An bhfuil post páirtaimseartha agat? Cuir síos air.",
+    "Cén ráta pá a fhaigheann tú?",
+    "Cad é a dhéanann tú leis an airgead?",
+    "An bhfuil sé doiligh a bheith ag obair agus ag déanamh staidéir ag an am chéanna?"
+   ],
+   "rows": [
+    {
+     "label": "An post",
+     "columns": [
+      [
+       {
+        "ga": "Tá post páirtaimseartha agam",
+        "en": "I have a part-time job"
+       },
+       {
+        "ga": "Bhí post páirtaimseartha agam",
+        "en": "I had a part-time job"
+       }
+      ],
+      [
+       {
+        "ga": "in ollmhargadh",
+        "en": "in a supermarket"
+       },
+       {
+        "ga": "i gcaife",
+        "en": "in a café"
+       },
+       {
+        "ga": "i mbialann",
+        "en": "in a restaurant"
+       },
+       {
+        "ga": "i siopa éadaí",
+        "en": "in a clothes shop"
+       },
+       {
+        "ga": "i ngaráiste",
+        "en": "in a garage"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cathain",
+     "columns": [
+      [
+       {
+        "ga": "Oibrím ann",
+        "en": "I work there"
+       },
+       {
+        "ga": "D'oibrigh mé ann",
+        "en": "I worked there"
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       },
+       {
+        "ga": "dhá oíche sa tseachtain",
+        "en": "two nights a week"
+       },
+       {
+        "ga": "i rith an tsamhraidh",
+        "en": "during the summer"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Éirí as",
+     "columns": [
+      [
+       {
+        "ga": "Bhí orm éirí as",
+        "en": "I had to give it up"
+       }
+      ],
+      [
+       {
+        "ga": "le díriú isteach ar mo scrúduithe",
+        "en": "to concentrate on my exams"
+       },
+       {
+        "ga": "mar bhí barraíocht oibre scoile agam",
+        "en": "because I had too much schoolwork"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Buntáistí",
+     "columns": [
+      [
+       {
+        "ga": "Chuidigh an post liom",
+        "en": "The job helped me"
+       },
+       {
+        "ga": "Cuidíonn an post liom",
+        "en": "The job helps me"
+       }
+      ],
+      [
+       {
+        "ga": "mo scileanna cumarsáide a fheabhsú",
+        "en": "to improve my communication skills"
+       },
+       {
+        "ga": "muinín a fháil",
+        "en": "to gain confidence"
+       },
+       {
+        "ga": "a bheith neamhspleách ar mo thuismitheoirí",
+        "en": "to be independent of my parents"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An ráta pá",
+     "columns": [
+      [
+       {
+        "ga": "Faighim",
+        "en": "I get"
+       }
+      ],
+      [
+       {
+        "ga": "ocht bpunt",
+        "en": "eight pounds"
+       },
+       {
+        "ga": "naoi bpunt",
+        "en": "nine pounds"
+       },
+       {
+        "ga": "deich bpunt",
+        "en": "ten pounds"
+       }
+      ],
+      [
+       {
+        "ga": "san uair",
+        "en": "an hour"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tuairim ar an phá",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé suarach mar phá",
+        "en": "It is poor pay"
+       },
+       {
+        "ga": "Tá sé níos ísle ná an ráta do dhaoine fásta",
+        "en": "It is lower than the adult rate"
+       }
+      ],
+      [
+       {
+        "ga": "ach ní dhéanaim gearán",
+        "en": "but I don't complain"
+       },
+       {
+        "ga": "ach coinním mo bhéal druidte",
+        "en": "but I keep my mouth shut"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sábháil",
+     "columns": [
+      [
+       {
+        "ga": "Cuirim cuid den airgead",
+        "en": "I put some of the money"
+       },
+       {
+        "ga": "Cuirim an chuid is mó den airgead",
+        "en": "I put most of the money"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhanc",
+        "en": "in the bank"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá mé ag sábháil le dul thar lear",
+        "en": "because I am saving to go abroad"
+       },
+       {
+        "ga": "mar tá mé ag sábháil le carr a cheannach",
+        "en": "because I am saving to buy a car"
+       },
+       {
+        "ga": "mar tá mé ag sábháil don ollscoil",
+        "en": "because I am saving for university"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An chuid eile",
+     "columns": [
+      [
+       {
+        "ga": "Leis an chuid eile,",
+        "en": "With the rest,"
+       }
+      ],
+      [
+       {
+        "ga": "ceannaím éadaí dom féin",
+        "en": "I buy clothes for myself"
+       },
+       {
+        "ga": "ceannaím ticéid do cheolchoirmeacha",
+        "en": "I buy tickets for concerts"
+       },
+       {
+        "ga": "téim amach le mo chairde",
+        "en": "I go out with my friends"
+       },
+       {
+        "ga": "íocaim as mo cheachtanna tiomána",
+        "en": "I pay for my driving lessons"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Obair agus staidéar",
+     "columns": [
+      [
+       {
+        "ga": "Le bheith fírinneach,",
+        "en": "To be honest,"
+       },
+       {
+        "ga": "Déanta na fírinne,",
+        "en": "In fact,"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé an-doiligh an dá rud a dhéanamh",
+        "en": "it is very hard to do both"
+       },
+       {
+        "ga": "ní chuireann an obair isteach ar mo chuid staidéir",
+        "en": "the work doesn't interfere with my study"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fulaingt",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn mo chuid oibre scoile ag fulaingt",
+        "en": "My schoolwork suffers"
+       }
+      ],
+      [
+       {
+        "ga": "mar gheall ar an phost",
+        "en": "because of the job"
+       },
+       {
+        "ga": "nuair a bhím tuirseach",
+        "en": "when I am tired"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cothromaíocht",
+     "columns": [
+      [
+       {
+        "ga": "Oibrím ag an deireadh seachtaine amháin",
+        "en": "I only work at the weekend"
+       }
+      ],
+      [
+       {
+        "ga": "agus tá an chuid eile den tseachtain agam don staidéar",
+        "en": "and I have the rest of the week for study"
+       },
+       {
+        "ga": "agus mar sin ní bhíonn brú rómhór orm",
+        "en": "and so I am not under too much pressure"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Ag an phointe seo, níl post páirtaimseartha agam. Bhí post páirtaimseartha agam i gcaife go dtí ar na mallaibh, ach bhí orm éirí as le díriú isteach ar mo scrúduithe. D'oibrigh mé ann ag an deireadh seachtaine agus bhain mé an-sult as an am a chaith mé ann. Chuidigh an post liom mo scileanna cumarsáide a fheabhsú.",
+    "Faighim ocht bpunt san uair. Tá sé níos ísle ná an ráta do dhaoine fásta ach ní dhéanaim gearán. Cuirim cuid den airgead sa bhanc mar tá mé ag sábháil le dul thar lear. Leis an chuid eile, ceannaím éadaí dom féin agus íocaim as mo cheachtanna tiomána.",
+    "Le bheith fírinneach, tá sé an-doiligh an dá rud a dhéanamh. Bíonn mo chuid oibre scoile ag fulaingt nuair a bhím tuirseach. Ar an taobh eile, oibrím ag an deireadh seachtaine amháin agus tá an chuid eile den tseachtain agam don staidéar."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-caitheamh",
+   "title": "Caitheamh aimsire agus ceol",
+   "en": "Pastimes and music",
+   "teaches": "Hobbies and music: tugtha do; seinn ar an + lenition (ar an fhidil, ar an ghiotár); music grades; screen time and what others say about it (Deir mo dhaidí gur ...); interests with sa / san.",
+   "questions": [
+    "An bhfuil caitheamh aimsire ar bith agat? Inis dom fá dtaobh dó.",
+    "An bhfuil gléas ceoil ar bith agat? Cuir síos air.",
+    "Cad é a dhéanann tú nuair nach mbíonn tú ag déanamh oibre scoile?",
+    "An bhfuil suim agat sa pholaitíocht?"
+   ],
+   "rows": [
+    {
+     "label": "Tugtha do",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé iontach tugtha",
+        "en": "I am really into"
+       }
+      ],
+      [
+       {
+        "ga": "don cheol",
+        "en": "music"
+       },
+       {
+        "ga": "don spórt",
+        "en": "sport"
+       },
+       {
+        "ga": "don léitheoireacht",
+        "en": "reading"
+       },
+       {
+        "ga": "don ealaín",
+        "en": "art"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Seinm",
+     "columns": [
+      [
+       {
+        "ga": "Caithim cuid mhór de m'am saor",
+        "en": "I spend a lot of my free time"
+       }
+      ],
+      [
+       {
+        "ga": "ag seinm ar an fhidil",
+        "en": "playing the fiddle"
+       },
+       {
+        "ga": "ag seinm ar an ghiotár",
+        "en": "playing the guitar"
+       },
+       {
+        "ga": "ag seinm ar an chláirseach",
+        "en": "playing the harp"
+       },
+       {
+        "ga": "ag seinm ar an phianó",
+        "en": "playing the piano"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Grád",
+     "columns": [
+      [
+       {
+        "ga": "Anuraidh bhain mé",
+        "en": "Last year I got"
+       }
+      ],
+      [
+       {
+        "ga": "grád a cúig",
+        "en": "grade five"
+       },
+       {
+        "ga": "grád a sé",
+        "en": "grade six"
+       },
+       {
+        "ga": "grád a seacht",
+        "en": "grade seven"
+       },
+       {
+        "ga": "grád a hocht",
+        "en": "grade eight"
+       }
+      ],
+      [
+       {
+        "ga": "amach sna scrúduithe ceoil",
+        "en": "in the music exams"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cleachtadh",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé cleachtadh a dhéanamh",
+        "en": "I have to practise"
+       }
+      ],
+      [
+       {
+        "ga": "achan oíche",
+        "en": "every night"
+       },
+       {
+        "ga": "gach lá",
+        "en": "every day"
+       }
+      ],
+      [
+       {
+        "ga": "ar feadh uair an chloig",
+        "en": "for an hour"
+       },
+       {
+        "ga": "ar feadh leathuaire",
+        "en": "for half an hour"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Éisteacht",
+     "columns": [
+      [
+       {
+        "ga": "Éistim le cuid mhór ceoil",
+        "en": "I listen to a lot of music"
+       }
+      ],
+      [
+       {
+        "ga": "ar mo ghuthán,",
+        "en": "on my phone,"
+       },
+       {
+        "ga": "ar Spotify,",
+        "en": "on Spotify,"
+       },
+       {
+        "ga": "ar an raidió,",
+        "en": "on the radio,"
+       }
+      ],
+      [
+       {
+        "ga": "go háirithe ceol traidisiúnta",
+        "en": "especially traditional music"
+       },
+       {
+        "ga": "go háirithe ceol nua-aimseartha",
+        "en": "especially modern music"
+       },
+       {
+        "ga": "go háirithe rac-cheol",
+        "en": "especially rock music"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ceolchoirm",
+     "columns": [
+      [
+       {
+        "ga": "Chuaigh mé chuig ceolchoirm",
+        "en": "I went to a concert"
+       }
+      ],
+      [
+       {
+        "ga": "i mBéal Feirste",
+        "en": "in Belfast"
+       },
+       {
+        "ga": "i mBaile Átha Cliath",
+        "en": "in Dublin"
+       }
+      ],
+      [
+       {
+        "ga": "an samhradh seo caite",
+        "en": "last summer"
+       },
+       {
+        "ga": "ar na mallaibh",
+        "en": "recently"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An scáileán",
+     "columns": [
+      [
+       {
+        "ga": "Caithim an iomarca ama",
+        "en": "I spend too much time"
+       },
+       {
+        "ga": "Caithim leath na hoíche",
+        "en": "I spend half the night"
+       }
+      ],
+      [
+       {
+        "ga": "os comhair an scáileáin",
+        "en": "in front of the screen"
+       },
+       {
+        "ga": "ag amharc ar shraitheanna ar líne",
+        "en": "watching series online"
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deir mo thuismitheoirí",
+     "columns": [
+      [
+       {
+        "ga": "Deir mo dhaidí",
+        "en": "My dad says"
+       },
+       {
+        "ga": "Deir mo mhamaí",
+        "en": "My mum says"
+       }
+      ],
+      [
+       {
+        "ga": "gur duine leisciúil mé",
+        "en": "that I am a lazy person"
+       },
+       {
+        "ga": "nach bhfuil mé ag déanamh aclaíochta ar bith",
+        "en": "that I am not doing any exercise"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cláir",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom a bheith ag amharc ar",
+        "en": "I like watching"
+       }
+      ],
+      [
+       {
+        "ga": "chláir a bhaineann le cúrsaí reatha",
+        "en": "programmes about current affairs"
+       },
+       {
+        "ga": "chláir ghrinn",
+        "en": "comedy programmes"
+       },
+       {
+        "ga": "chláir cheoil",
+        "en": "music programmes"
+       }
+      ],
+      [
+       {
+        "ga": "mar fhaoiseamh ó bhrú na scoile",
+        "en": "as a relief from the pressure of school"
+       },
+       {
+        "ga": "fosta",
+        "en": "too"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Suim",
+     "columns": [
+      [
+       {
+        "ga": "Tá suim mhór agam",
+        "en": "I am very interested"
+       },
+       {
+        "ga": "Níl suim ar bith agam",
+        "en": "I am not at all interested"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheol",
+        "en": "in music"
+       },
+       {
+        "ga": "sa spórt",
+        "en": "in sport"
+       },
+       {
+        "ga": "sa pholaitíocht",
+        "en": "in politics"
+       },
+       {
+        "ga": "san fhaisean",
+        "en": "in fashion"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé iontach tugtha don cheol. Caithim cuid mhór de m'am saor ag seinm ar an fhidil. Anuraidh bhain mé grád a seacht amach sna scrúduithe ceoil. Caithfidh mé cleachtadh a dhéanamh achan oíche ar feadh uair an chloig.",
+    "Éistim le cuid mhór ceoil ar mo ghuthán, go háirithe ceol traidisiúnta. Chuaigh mé chuig ceolchoirm i mBéal Feirste an samhradh seo caite. Caithim an iomarca ama os comhair an scáileáin, caithfidh mé a admháil. Deir mo dhaidí nach bhfuil mé ag déanamh aclaíochta ar bith!",
+    "Is maith liom a bheith ag amharc ar chláir a bhaineann le cúrsaí reatha, mar tá an-suim agam i nuacht an domhain. Is maith liom a bheith ag amharc ar chláir ghrinn fosta, mar fhaoiseamh ó bhrú na scoile. Tá suim mhór agam sa pholaitíocht."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-sport",
+   "title": "Spórt agus peil na mban",
+   "en": "Sport and ladies' football",
+   "teaches": "Playing sport (imir without the article); training days with 'ar an' and Ulster lenition (ar an Mháirt); the analytic present plural (bíonn muid); opinions on ladies' football (Sílim gur rud iontach é go ...).",
+   "questions": [
+    "An imríonn tú spórt ar bith? Inis dom faoin tsuim atá agat sa spórt.",
+    "Cad é do bharúil ar pheil na mban?",
+    "An bhfuil peil na mban ag fás i do cheantar?"
+   ],
+   "rows": [
+    {
+     "label": "Imrím",
+     "columns": [
+      [
+       {
+        "ga": "Imrím",
+        "en": "I play"
+       }
+      ],
+      [
+       {
+        "ga": "peil Ghaelach",
+        "en": "Gaelic football"
+       },
+       {
+        "ga": "camógaíocht",
+        "en": "camogie"
+       },
+       {
+        "ga": "iomáint",
+        "en": "hurling"
+       },
+       {
+        "ga": "cispheil",
+        "en": "basketball"
+       },
+       {
+        "ga": "eitpheil",
+        "en": "volleyball"
+       },
+       {
+        "ga": "líonpheil",
+        "en": "netball"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chlub áitiúil",
+        "en": "with my local club"
+       },
+       {
+        "ga": "leis an scoil",
+        "en": "with the school"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ball",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo bhall",
+        "en": "I am a member"
+       }
+      ],
+      [
+       {
+        "ga": "d'fhoireann na scoile",
+        "en": "of the school team"
+       },
+       {
+        "ga": "den chlub áitiúil",
+        "en": "of the local club"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Áit lárnach",
+     "columns": [
+      [
+       {
+        "ga": "Tá áit lárnach ag an pheil Ghaelach",
+        "en": "Gaelic football has a central place"
+       }
+      ],
+      [
+       {
+        "ga": "i mo cheantar",
+        "en": "in my area"
+       },
+       {
+        "ga": "i saol an phobail",
+        "en": "in the life of the community"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Corn Sam Mhig Uidhir",
+     "columns": [
+      [
+       {
+        "ga": "Ó bhain Ard Mhacha Corn Sam Mhig Uidhir",
+        "en": "Since Armagh won the Sam Maguire Cup"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhliain 2024,",
+        "en": "in 2024,"
+       }
+      ],
+      [
+       {
+        "ga": "tá rath agus bláth ar an chluiche",
+        "en": "the game has been thriving"
+       },
+       {
+        "ga": "tá gach duine sa cheantar bródúil as an fhoireann",
+        "en": "everyone in the area is proud of the team"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cluichí",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn muid ag imirt cluichí",
+        "en": "We play matches"
+       }
+      ],
+      [
+       {
+        "ga": "ar an Aoine",
+        "en": "on Fridays"
+       },
+       {
+        "ga": "ar an Domhnach",
+        "en": "on Sundays"
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Traenáil",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn seisiún traenála againn",
+        "en": "We have a training session"
+       }
+      ],
+      [
+       {
+        "ga": "ar an Mháirt",
+        "en": "on Tuesdays"
+       },
+       {
+        "ga": "ar an Déardaoin",
+        "en": "on Thursdays"
+       },
+       {
+        "ga": "dhá uair sa tseachtain",
+        "en": "twice a week"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An t-am",
+     "columns": [
+      [
+       {
+        "ga": "Tógann sé cuid mhór de m'am saor",
+        "en": "It takes up a lot of my free time"
+       }
+      ],
+      [
+       {
+        "ga": "ach taitníonn sé go mór liom",
+        "en": "but I really enjoy it"
+       },
+       {
+        "ga": "ach is fiú é",
+        "en": "but it is worth it"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sláinte",
+     "columns": [
+      [
+       {
+        "ga": "Coinníonn an spórt",
+        "en": "Sport keeps"
+       },
+       {
+        "ga": "Coinníonn an traenáil",
+        "en": "Training keeps"
+       }
+      ],
+      [
+       {
+        "ga": "aclaí agus sláintiúil mé",
+        "en": "me fit and healthy"
+       },
+       {
+        "ga": "i bhfoirm mhaith mé",
+        "en": "me in good form"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Peil na mban",
+     "columns": [
+      [
+       {
+        "ga": "Sílim gur rud iontach é",
+        "en": "I think it is a great thing"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil fás agus bláth ar pheil na mban",
+        "en": "that ladies' football is thriving"
+       },
+       {
+        "ga": "go bhfuil TG4 ag craoladh na gcluichí beo",
+        "en": "that TG4 is broadcasting the games live"
+       },
+       {
+        "ga": "go bhfuil na sluaite ag freastal ar na cluichí",
+        "en": "that crowds are going to the games"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sa chlub",
+     "columns": [
+      [
+       {
+        "ga": "I mo chlub féin,",
+        "en": "In my own club,"
+       }
+      ],
+      [
+       {
+        "ga": "tá foireann láidir ban ann",
+        "en": "there is a strong women's team"
+       },
+       {
+        "ga": "bíonn na mná ag traenáil chomh crua leis na fir",
+        "en": "the women train as hard as the men"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Comhionannas",
+     "columns": [
+      [
+       {
+        "ga": "Is léir",
+        "en": "It is clear"
+       },
+       {
+        "ga": "Is maith an rud é",
+        "en": "It is a good thing"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil páirt lárnach le himirt ag na mná sa chlub",
+        "en": "that the women have a central part to play in the club"
+       },
+       {
+        "ga": "go bhfuil na mná ag fáil cothrom na Féinne sa spórt",
+        "en": "that women are getting fair play in sport"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Imrím peil Ghaelach le mo chlub áitiúil agus leis an scoil. Tá áit lárnach ag an pheil Ghaelach i mo cheantar. Ó bhain Ard Mhacha Corn Sam Mhig Uidhir sa bhliain 2024, tá rath agus bláth ar an chluiche. Bíonn seisiún traenála againn ar an Mháirt agus ar an Déardaoin. Tógann sé cuid mhór de m'am saor ach taitníonn sé go mór liom.",
+    "Sílim gur rud iontach é go bhfuil fás agus bláth ar pheil na mban. I mo chlub féin, tá foireann láidir ban ann. Bíonn na mná ag traenáil chomh crua agus chomh minic leis na fir. Is léir go bhfuil páirt lárnach le himirt ag na mná sa chlub.",
+    "Is maith liom cispheil a imirt ar scoil. Tá mé i mo bhall d'fhoireann na scoile agus is foireann an-láidir muid. Coinníonn an spórt aclaí agus sláintiúil mé."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-deireadh-seachtaine",
+   "title": "An deireadh seachtaine",
+   "en": "The weekend",
+   "teaches": "A weekend routine in the present habitual: first person singular (téim, bíonn ... agam) and the analytic plural (téann muid); days and times; Ulster lenition after 'ar an' and 'chuig an' (ar an bhus, chuig an phictiúrlann).",
+   "questions": [
+    "Cá háit a dtéann tú ag deireadh na seachtaine?",
+    "Cad é a dhéanann tú ar an Satharn?",
+    "Agus cad é a dhéanann tú ar an Domhnach?"
+   ],
+   "rows": [
+    {
+     "label": "Scíth",
+     "columns": [
+      [
+       {
+        "ga": "Oibrím go dian le linn na seachtaine",
+        "en": "I work hard during the week"
+       }
+      ],
+      [
+       {
+        "ga": "agus sílim gur tábhachtach mo scíth a ligean ag an deireadh seachtaine",
+        "en": "and I think it is important to relax at the weekend"
+       },
+       {
+        "ga": "agus mar sin is maith liom dul amach ag an deireadh seachtaine",
+        "en": "and so I like to go out at the weekend"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An Satharn",
+     "columns": [
+      [
+       {
+        "ga": "Ar an Satharn,",
+        "en": "On Saturday,"
+       }
+      ],
+      [
+       {
+        "ga": "téim isteach go dtí an baile mór",
+        "en": "I go into town"
+       },
+       {
+        "ga": "déanaim giota beag siopadóireachta",
+        "en": "I do a bit of shopping"
+       }
+      ],
+      [
+       {
+        "ga": "le mo mhamaí",
+        "en": "with my mum",
+        "optional": true
+       },
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sos",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn cupán caife",
+        "en": "I have a cup of coffee"
+       },
+       {
+        "ga": "Bíonn seacláid the",
+        "en": "I have a hot chocolate"
+       },
+       {
+        "ga": "Bíonn pizza",
+        "en": "I have pizza"
+       }
+      ],
+      [
+       {
+        "ga": "agam le mo chairde",
+        "en": "with my friends"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhaile mór",
+        "en": "in town"
+       },
+       {
+        "ga": "i gcaife áitiúil",
+        "en": "in a local café"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Oíche Shathairn",
+     "columns": [
+      [
+       {
+        "ga": "Oíche Shathairn,",
+        "en": "On Saturday night,"
+       }
+      ],
+      [
+       {
+        "ga": "téim chuig teach mo charad",
+        "en": "I go to my friend's house"
+       },
+       {
+        "ga": "téim chuig an phictiúrlann",
+        "en": "I go to the cinema"
+       },
+       {
+        "ga": "téim chuig an chlub óige",
+        "en": "I go to the youth club"
+       },
+       {
+        "ga": "bím ag obair sa chaife",
+        "en": "I work in the café"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Taisteal",
+     "columns": [
+      [
+       {
+        "ga": "Téann muid",
+        "en": "We go"
+       }
+      ],
+      [
+       {
+        "ga": "ar an bhus",
+        "en": "on the bus"
+       },
+       {
+        "ga": "i dtacsaí",
+        "en": "in a taxi"
+       },
+       {
+        "ga": "sa charr le mo dhaidí",
+        "en": "in the car with my dad"
+       }
+      ],
+      [
+       {
+        "ga": "go hIúr Cinn Trá",
+        "en": "to Newry"
+       },
+       {
+        "ga": "isteach sa bhaile mór",
+        "en": "into town"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Críoch na hoíche",
+     "columns": [
+      [
+       {
+        "ga": "Críochnaíonn an oíche",
+        "en": "The night ends"
+       }
+      ],
+      [
+       {
+        "ga": "thart fá mheán oíche",
+        "en": "around midnight"
+       },
+       {
+        "ga": "thart ar a haon déag a chlog",
+        "en": "around eleven o'clock"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An Domhnach",
+     "columns": [
+      [
+       {
+        "ga": "Ar an Domhnach,",
+        "en": "On Sunday,"
+       }
+      ],
+      [
+       {
+        "ga": "téann muid ar Aifreann",
+        "en": "we go to Mass"
+       },
+       {
+        "ga": "caithim an lá ar mo sháimhín só",
+        "en": "I spend the day taking it easy"
+       },
+       {
+        "ga": "téim chuig cluiche peile le m'athair",
+        "en": "I go to a football match with my father"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Réidh don tseachtain",
+     "columns": [
+      [
+       {
+        "ga": "Cinntím go bhfuil",
+        "en": "I make sure that"
+       }
+      ],
+      [
+       {
+        "ga": "an obair bhaile uilig déanta",
+        "en": "all the homework is done"
+       },
+       {
+        "ga": "mo mhála réidh",
+        "en": "my bag is ready"
+       }
+      ],
+      [
+       {
+        "ga": "roimh mhaidin Dé Luain",
+        "en": "before Monday morning"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "A luí",
+     "columns": [
+      [
+       {
+        "ga": "Téim a luí go luath",
+        "en": "I go to bed early"
+       }
+      ],
+      [
+       {
+        "ga": "oíche Dhomhnaigh",
+        "en": "on Sunday night"
+       }
+      ],
+      [
+       {
+        "ga": "le bheith réidh don tseachtain",
+        "en": "to be ready for the week",
+        "optional": true
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Oibrím go dian le linn na seachtaine agus sílim gur tábhachtach mo scíth a ligean ag an deireadh seachtaine. Ar an Satharn, téim isteach go dtí an baile mór le mo mhamaí. Déanaim giota beag siopadóireachta agus ansin bíonn cupán caife agam le mo chairde.",
+    "Oíche Shathairn, téim chuig teach mo charad. Téann muid ar an bhus go hIúr Cinn Trá agus téann muid chuig an phictiúrlann. Críochnaíonn an oíche thart fá mheán oíche.",
+    "Ní dhéanaim mórán ar an Domhnach. Is maith liom an lá a chaitheamh ar mo sháimhín só. Téann muid ar Aifreann, ar ndóigh, agus má bhíonn cluiche peile ann, téim ann le m'athair. Cinntím go bhfuil an obair bhaile uilig déanta roimh mhaidin Dé Luain agus téim a luí go luath oíche Dhomhnaigh."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-saoire",
+   "title": "Laethanta saoire agus taisteal",
+   "en": "Holidays and travel",
+   "teaches": "Holiday preferences (Is fearr liom, plural adjectives); where you usually go (present) and went last year (past); plans for next summer in the future with the analytic plural (rachaidh muid, beidh muid).",
+   "questions": [
+    "Cén cineál saoire is fearr leat?",
+    "Cá háit a dtéann tú ar laethanta saoire de ghnáth?",
+    "Cá háit a ndeachaigh tú anuraidh?",
+    "An raibh tú riamh sa Spáinn?",
+    "An bhfuil rud ar bith beartaithe agat don samhradh seo chugainn?"
+   ],
+   "rows": [
+    {
+     "label": "Cineál saoire",
+     "columns": [
+      [
+       {
+        "ga": "Is fearr liom laethanta saoire",
+        "en": "I prefer"
+       }
+      ],
+      [
+       {
+        "ga": "grianmhara",
+        "en": "sunny holidays"
+       },
+       {
+        "ga": "gníomhacha",
+        "en": "active holidays"
+       },
+       {
+        "ga": "sa bhaile in Éirinn",
+        "en": "holidays at home in Ireland"
+       },
+       {
+        "ga": "i gcathair mhór",
+        "en": "holidays in a big city"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Níl áit níos fearr",
+     "columns": [
+      [
+       {
+        "ga": "Níl áit ar bith ar dhroim an domhain níos fearr",
+        "en": "There is nowhere on earth better"
+       }
+      ],
+      [
+       {
+        "ga": "ná a bheith i do luí ar an trá",
+        "en": "than lying on the beach"
+       },
+       {
+        "ga": "ná a bheith ag siúl sna sléibhte",
+        "en": "than walking in the mountains"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "De ghnáth",
+     "columns": [
+      [
+       {
+        "ga": "De ghnáth, téim le mo theaghlach",
+        "en": "Usually I go with my family"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an Fhrainc",
+        "en": "to France"
+       },
+       {
+        "ga": "go dtí an Spáinn",
+        "en": "to Spain"
+       },
+       {
+        "ga": "go dtí an Phortaingéil",
+        "en": "to Portugal"
+       },
+       {
+        "ga": "go Tír Chonaill",
+        "en": "to Donegal"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Lóistín",
+     "columns": [
+      [
+       {
+        "ga": "Is maith linn",
+        "en": "We like"
+       }
+      ],
+      [
+       {
+        "ga": "dul ag campáil",
+        "en": "to go camping"
+       },
+       {
+        "ga": "fanacht in árasán",
+        "en": "to stay in an apartment"
+       },
+       {
+        "ga": "fanacht in óstán",
+        "en": "to stay in a hotel"
+       }
+      ],
+      [
+       {
+        "ga": "ansin",
+        "en": "there"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mo chroí",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo chroí san áit sin",
+        "en": "My heart is in that place"
+       }
+      ],
+      [
+       {
+        "ga": "mar gheall ar an aimsir mhaith",
+        "en": "because of the good weather"
+       },
+       {
+        "ga": "mar gheall ar chairdeas mhuintir na háite",
+        "en": "because of the friendliness of the local people"
+       },
+       {
+        "ga": "mar gheall ar an bhia",
+        "en": "because of the food"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Anuraidh",
+     "columns": [
+      [
+       {
+        "ga": "Anuraidh, chuaigh mé",
+        "en": "Last year, I went"
+       }
+      ],
+      [
+       {
+        "ga": "go Meiriceá",
+        "en": "to America"
+       },
+       {
+        "ga": "go dtí an Iodáil",
+        "en": "to Italy"
+       },
+       {
+        "ga": "go Londain",
+        "en": "to London"
+       }
+      ],
+      [
+       {
+        "ga": "le cuairt a thabhairt ar mo dheirfiúr",
+        "en": "to visit my sister"
+       },
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mar a bhí",
+     "columns": [
+      [
+       {
+        "ga": "Bhí sé iontach deas",
+        "en": "It was really nice"
+       }
+      ],
+      [
+       {
+        "ga": "a bheith ar shiúl ó mo bhaile féin",
+        "en": "to be away from my own home"
+       },
+       {
+        "ga": "an ghrian a fheiceáil gach lá",
+        "en": "to see the sun every day"
+       },
+       {
+        "ga": "cultúr eile a fheiceáil",
+        "en": "to see another culture"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An samhradh seo chugainn",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé ar intinn agam dul ar laethanta saoire",
+        "en": "I intend to go on holiday"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       },
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       }
+      ],
+      [
+       {
+        "ga": "an samhradh seo chugainn",
+        "en": "next summer"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An chéad uair",
+     "columns": [
+      [
+       {
+        "ga": "Seo an chéad uair",
+        "en": "This is the first time"
+       }
+      ],
+      [
+       {
+        "ga": "a tugadh cead dom dul ar laethanta saoire gan mo thuismitheoirí",
+        "en": "I have been allowed to go on holiday without my parents"
+       },
+       {
+        "ga": "a bheas mé ar shiúl gan mo thuismitheoirí",
+        "en": "I will be away without my parents"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rachaidh muid",
+     "columns": [
+      [
+       {
+        "ga": "Rachaidh muid",
+        "en": "We will go"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an Spáinn",
+        "en": "to Spain"
+       },
+       {
+        "ga": "go dtí na hOileáin Chanáracha",
+        "en": "to the Canary Islands"
+       },
+       {
+        "ga": "go Gaillimh",
+        "en": "to Galway"
+       }
+      ],
+      [
+       {
+        "ga": "ar feadh seachtaine",
+        "en": "for a week"
+       },
+       {
+        "ga": "ar feadh coicíse",
+        "en": "for a fortnight"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An costas",
+     "columns": [
+      [
+       {
+        "ga": "Beidh sé iontach costasach",
+        "en": "It will be very expensive"
+       }
+      ],
+      [
+       {
+        "ga": "ach is cuma liom",
+        "en": "but I don't care"
+       },
+       {
+        "ga": "ach tá mé ag sábháil le fada",
+        "en": "but I have been saving for a long time"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is fearr liom laethanta saoire grianmhara. Níl áit ar bith ar dhroim an domhain níos fearr ná a bheith i do luí ar an trá ag déanamh bolg le gréin. Chuaigh mé chun na Spáinne le mo theaghlach cúpla bliain ó shin agus tháinig mé ar ais dóite ag an ghrian!",
+    "De ghnáth, téim le mo theaghlach go dtí an Fhrainc. Is maith linn dul ag campáil ansin. Tá mo chroí san áit sin mar gheall ar an aimsir mhaith agus ar chairdeas mhuintir na háite. Anuraidh, chuaigh mé go Meiriceá le cuairt a thabhairt ar mo dheirfiúr. Bhí sé iontach deas a bheith ar shiúl ó mo bhaile féin.",
+    "Tá sé ar intinn agam dul ar laethanta saoire le mo chairde an samhradh seo chugainn. Seo an chéad uair a tugadh cead dom dul ar laethanta saoire gan mo thuismitheoirí. Rachaidh muid go dtí an Spáinn ar feadh seachtaine agus beidh muid ag stopadh in árasán. Beidh sé iontach costasach ach is cuma liom. Tá an sos agus an tsaoire de dhíth orm!"
+   ],
+   "new": false
+  },
+  {
+   "id": "as-aos-og",
+   "title": "An t-aos óg agus a gcuid fadhbanna",
+   "en": "Young people and their problems",
+   "teaches": "Facilities for young people; alcohol, drugs and vaping (le + h before a vowel: le halcól); the autonomous form (Feictear); pressure at school and from social media; giving an opinion (Is é mo bharúil go ..., Ní shílim go ...).",
+   "questions": [
+    "Cad é a bhíonn le déanamh ag an aos óg i do cheantar féin?",
+    "An mbíonn fadhb drugaí nó alcóil ag daoine óga i do cheantar?",
+    "An bhfuil fadhb le toitíní leictreonacha i measc daoine óga?",
+    "An mbíonn barraíocht brú ar dhaoine óga ar scoil sa lá atá inniu ann?",
+    "An gcuireann na meáin shóisialta brú ar dhaoine óga?",
+    "An mothaíonn tú féin faoi bhrú?"
+   ],
+   "rows": [
+    {
+     "label": "Le déanamh",
+     "columns": [
+      [
+       {
+        "ga": "Ar an drochuair,",
+        "en": "Unfortunately,"
+       },
+       {
+        "ga": "Leis an fhírinne a insint,",
+        "en": "To tell the truth,"
+       }
+      ],
+      [
+       {
+        "ga": "ní bhíonn cuid mhór le déanamh",
+        "en": "there isn't much to do"
+       },
+       {
+        "ga": "níl go leor áiseanna ann do dhaoine óga",
+        "en": "there aren't enough facilities for young people"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar ndóigh",
+     "columns": [
+      [
+       {
+        "ga": "Ar ndóigh, tá",
+        "en": "Of course, there is"
+       }
+      ],
+      [
+       {
+        "ga": "an club peile",
+        "en": "the football club"
+       },
+       {
+        "ga": "an club óige",
+        "en": "the youth club"
+       }
+      ],
+      [
+       {
+        "ga": "agus gach rud a bhaineann leis",
+        "en": "and everything that goes with it"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fadhb",
+     "columns": [
+      [
+       {
+        "ga": "Tá fadhb mhór i mo cheantar",
+        "en": "There is a big problem in my area"
+       }
+      ],
+      [
+       {
+        "ga": "le halcól",
+        "en": "with alcohol"
+       },
+       {
+        "ga": "le drugaí",
+        "en": "with drugs"
+       },
+       {
+        "ga": "le toitíní leictreonacha",
+        "en": "with vapes"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Feictear",
+     "columns": [
+      [
+       {
+        "ga": "Feictear daoine óga",
+        "en": "Young people are seen"
+       }
+      ],
+      [
+       {
+        "ga": "ag ól",
+        "en": "drinking"
+       },
+       {
+        "ga": "ag caitheamh toitíní leictreonacha",
+        "en": "vaping"
+       }
+      ],
+      [
+       {
+        "ga": "ar choirnéil na sráide",
+        "en": "on the street corners"
+       },
+       {
+        "ga": "ar chúl an chlub óige",
+        "en": "behind the youth club"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá háit",
+     "columns": [
+      [
+       {
+        "ga": "Is léir",
+        "en": "It is clear"
+       }
+      ],
+      [
+       {
+        "ga": "go ndíolann cuid de na siopaí eischeadúnais alcól leo",
+        "en": "that some of the off-licences sell alcohol to them"
+       },
+       {
+        "ga": "go gceannaíonn daoine níos sine an t-alcól dóibh",
+        "en": "that older people buy the alcohol for them"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Toitíní leictreonacha",
+     "columns": [
+      [
+       {
+        "ga": "Is fadhb mhór iad na toitíní leictreonacha",
+        "en": "Vapes are a big problem"
+       }
+      ],
+      [
+       {
+        "ga": "i measc daoine óga",
+        "en": "among young people"
+       },
+       {
+        "ga": "sna scoileanna",
+        "en": "in schools"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá siad saor agus blasta",
+        "en": "because they are cheap and flavoured"
+       },
+       {
+        "ga": "mar ní thuigeann daoine óga na contúirtí",
+        "en": "because young people don't understand the dangers"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na húdaráis",
+     "columns": [
+      [
+       {
+        "ga": "Ní shílim go bhfuil",
+        "en": "I don't think"
+       }
+      ],
+      [
+       {
+        "ga": "na húdaráis",
+        "en": "the authorities are"
+       },
+       {
+        "ga": "na siopaí",
+        "en": "the shops are"
+       }
+      ],
+      [
+       {
+        "ga": "ag déileáil leis an fhadhb mar is ceart",
+        "en": "dealing with the problem properly"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Brú",
+     "columns": [
+      [
+       {
+        "ga": "Is é mo bharúil go bhfuil daoine óga",
+        "en": "In my opinion young people are"
+       }
+      ],
+      [
+       {
+        "ga": "faoi i bhfad níos mó brú ná riamh",
+        "en": "under far more pressure than ever"
+       },
+       {
+        "ga": "faoi bhrú mór de thairbhe na scrúduithe",
+        "en": "under great pressure because of exams"
+       },
+       {
+        "ga": "faoi bhrú de thairbhe na meán sóisialta",
+        "en": "under pressure because of social media"
+       }
+      ],
+      [
+       {
+        "ga": "na laethanta seo",
+        "en": "these days",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Scrúduithe",
+     "columns": [
+      [
+       {
+        "ga": "Tá gach rud dírithe ar scrúduithe",
+        "en": "Everything is focused on exams"
+       }
+      ],
+      [
+       {
+        "ga": "agus níl am againn sult a bhaint as ár laethanta scoile",
+        "en": "and we have no time to enjoy our school days"
+       },
+       {
+        "ga": "agus ní bhíonn am againn do rudaí eile",
+        "en": "and we don't have time for other things"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na meáin shóisialta",
+     "columns": [
+      [
+       {
+        "ga": "Cuireann na meáin shóisialta brú ar dhaoine óga",
+        "en": "Social media puts pressure on young people"
+       }
+      ],
+      [
+       {
+        "ga": "a bheith foirfe",
+        "en": "to be perfect"
+       },
+       {
+        "ga": "a bheith cosúil le daoine eile",
+        "en": "to be like other people"
+       },
+       {
+        "ga": "a bheith ar líne an t-am ar fad",
+        "en": "to be online all the time"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mé féin",
+     "columns": [
+      [
+       {
+        "ga": "Mothaím féin faoi chuid mhór brú",
+        "en": "I myself feel under a lot of pressure"
+       },
+       {
+        "ga": "Níl mé faoin iomarca brú",
+        "en": "I am not under too much pressure"
+       }
+      ],
+      [
+       {
+        "ga": "faoi láthair",
+        "en": "at the moment"
+       },
+       {
+        "ga": "i mbliana",
+        "en": "this year"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Ar an drochuair, ní bhíonn cuid mhór le déanamh. Ar ndóigh, tá an club peile agus gach rud a bhaineann leis, ach níl go leor áiseanna ann do dhaoine óga. Téim go hIúr Cinn Trá go minic le mo chairde, mar tá pictiúrlann bhreá ann.",
+    "Bíonn, mar a bhíonn i ngach ceantar in Éirinn na laethanta seo. Tá fadhb mhór i mo cheantar le halcól agus le toitíní leictreonacha. Feictear daoine óga ag ól ar chúl an chlub óige. Is fadhb mhór iad na toitíní leictreonacha i measc daoine óga mar tá siad saor agus blasta. Ní shílim go bhfuil na húdaráis ag déileáil leis an fhadhb mar is ceart.",
+    "Is é mo bharúil go bhfuil daoine óga faoi i bhfad níos mó brú ná riamh na laethanta seo. Tá gach rud dírithe ar scrúduithe agus níl am againn sult a bhaint as ár laethanta scoile. Cuireann na meáin shóisialta brú ar dhaoine óga a bheith foirfe. Mothaím féin faoi chuid mhór brú faoi láthair."
+   ],
+   "new": false
+  },
+  {
+   "id": "as-intleacht-shaorga",
+   "title": "An intleacht shaorga",
+   "en": "Artificial intelligence",
+   "teaches": "Talking about AI in school and life: feminine agreement (tá sí, thig léi, ní bhíonn sí ceart); the future after 'go' (go n-athróidh, go n-éireoidh); the autonomous future (caillfear); balanced opinions with Ar an taobh eile and Ar an iomlán.",
+   "questions": [
+    "An mbaineann tú úsáid as an intleacht shaorga?",
+    "An bhfuil an intleacht shaorga úsáideach don obair scoile?",
+    "An bhfuil contúirtí ag baint leis an intleacht shaorga, i do bharúil?",
+    "An dóigh leat go n-athróidh an intleacht shaorga an saol oibre?"
+   ],
+   "rows": [
+    {
+     "label": "Úsáid",
+     "columns": [
+      [
+       {
+        "ga": "Bainim úsáid as an intleacht shaorga",
+        "en": "I use AI"
+       }
+      ],
+      [
+       {
+        "ga": "ó am go ham",
+        "en": "from time to time"
+       },
+       {
+        "ga": "go minic",
+        "en": "often"
+       }
+      ],
+      [
+       {
+        "ga": "le nótaí a achoimriú",
+        "en": "to summarise notes"
+       },
+       {
+        "ga": "le ceisteanna cleachtaidh a chruthú",
+        "en": "to create practice questions"
+       },
+       {
+        "ga": "le smaointe a fháil do thionscadal",
+        "en": "to get ideas for a project"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Úsáideach",
+     "columns": [
+      [
+       {
+        "ga": "Tá sí an-úsáideach",
+        "en": "It is very useful"
+       },
+       {
+        "ga": "Is áis iontach í",
+        "en": "It is a great resource"
+       }
+      ],
+      [
+       {
+        "ga": "nuair a bhím ag staidéar",
+        "en": "when I am studying"
+       },
+       {
+        "ga": "nuair a bhím i bponc",
+        "en": "when I am stuck"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mar shampla",
+     "columns": [
+      [
+       {
+        "ga": "Mar shampla, thig léi",
+        "en": "For example, it can"
+       }
+      ],
+      [
+       {
+        "ga": "téacs deacair a mhíniú dom",
+        "en": "explain a difficult text to me"
+       },
+       {
+        "ga": "ceisteanna a chur orm roimh scrúdú",
+        "en": "quiz me before a test"
+       },
+       {
+        "ga": "plean staidéir a leagan amach dom",
+        "en": "draw up a study plan for me"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Laigí",
+     "columns": [
+      [
+       {
+        "ga": "Ach ar an taobh eile,",
+        "en": "But on the other hand,"
+       }
+      ],
+      [
+       {
+        "ga": "ní bhíonn sí ceart i gcónaí",
+        "en": "it isn't always right"
+       },
+       {
+        "ga": "déanann sí botúin go minic",
+        "en": "it often makes mistakes"
+       },
+       {
+        "ga": "ní thuigeann sí an Ghaeilge rómhaith",
+        "en": "it doesn't understand Irish very well"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Contúirt",
+     "columns": [
+      [
+       {
+        "ga": "Tá contúirt ann",
+        "en": "There is a danger"
+       }
+      ],
+      [
+       {
+        "ga": "go n-éireoidh daoine leisciúil",
+        "en": "that people will get lazy"
+       },
+       {
+        "ga": "go gcaillfidh daoine a gcuid scileanna smaointeoireachta",
+        "en": "that people will lose their thinking skills"
+       },
+       {
+        "ga": "go gcreidfidh daoine gach rud a léann siad",
+        "en": "that people will believe everything they read"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cúram",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh muid a bheith cúramach",
+        "en": "We have to be careful"
+       }
+      ],
+      [
+       {
+        "ga": "nuair a úsáideann muid í",
+        "en": "when we use it"
+       },
+       {
+        "ga": "agus ár gcuid oibre féin a dhéanamh",
+        "en": "and do our own work"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An saol oibre",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Is dóigh liom",
+        "en": "I suppose"
+       }
+      ],
+      [
+       {
+        "ga": "go n-athróidh an intleacht shaorga",
+        "en": "AI will change"
+       }
+      ],
+      [
+       {
+        "ga": "an saol oibre go mór",
+        "en": "the world of work greatly"
+       },
+       {
+        "ga": "an dóigh a n-oibríonn scoileanna",
+        "en": "the way schools work"
+       },
+       {
+        "ga": "cuid mhór post",
+        "en": "a lot of jobs"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Poist",
+     "columns": [
+      [
+       {
+        "ga": "Caillfear cuid mhór post",
+        "en": "A lot of jobs will be lost"
+       },
+       {
+        "ga": "Beidh poist nua ann fosta",
+        "en": "There will be new jobs too"
+       }
+      ],
+      [
+       {
+        "ga": "agus beidh orainn scileanna nua a fhoghlaim",
+        "en": "and we will have to learn new skills"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rialacha",
+     "columns": [
+      [
+       {
+        "ga": "Ba cheart",
+        "en": "should"
+       }
+      ],
+      [
+       {
+        "ga": "don scoil",
+        "en": "the school"
+       },
+       {
+        "ga": "don rialtas",
+        "en": "the government"
+       }
+      ],
+      [
+       {
+        "ga": "rialacha soiléire a leagan síos",
+        "en": "set out clear rules"
+       }
+      ],
+      [
+       {
+        "ga": "faoin intleacht shaorga",
+        "en": "about AI"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar an iomlán",
+     "columns": [
+      [
+       {
+        "ga": "Ar an iomlán, sílim",
+        "en": "On the whole, I think"
+       },
+       {
+        "ga": "Caithfidh mé a admháil",
+        "en": "I have to admit"
+       }
+      ],
+      [
+       {
+        "ga": "gur uirlis úsáideach í",
+        "en": "that it is a useful tool"
+       },
+       {
+        "ga": "go gcuireann sí imní orm in amanna",
+        "en": "that it worries me at times"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Bainim úsáid as an intleacht shaorga ó am go ham le nótaí a achoimriú. Tá sí an-úsáideach nuair a bhím ag staidéar. Mar shampla, thig léi téacs deacair a mhíniú dom. Ach ar an taobh eile, ní bhíonn sí ceart i gcónaí.",
+    "Tá contúirt ann go n-éireoidh daoine leisciúil. Tá contúirt ann fosta go gcreidfidh daoine gach rud a léann siad. Caithfidh muid a bheith cúramach agus ár gcuid oibre féin a dhéanamh. Ba cheart don scoil rialacha soiléire a leagan síos faoin intleacht shaorga.",
+    "Sílim go n-athróidh an intleacht shaorga an saol oibre go mór. Caillfear cuid mhór post agus beidh orainn scileanna nua a fhoghlaim. Ar an iomlán, sílim gur uirlis úsáideach í, ach caithfidh mé a admháil go gcuireann sí imní orm in amanna."
+   ],
+   "new": true
+  },
+  {
+   "id": "as-slainte-mheabhrach",
+   "title": "Sláinte mheabhrach agus brú",
+   "en": "Mental health and pressure",
+   "teaches": "Coping with stress (Nuair a bhím faoi bhrú, ...); who to talk to (le + article with Ulster lenition: leis an chomhairleoir); the effect of social media on wellbeing; recommendations with Ba cheart; comparisons with chomh ... le.",
+   "questions": [
+    "Cad é a dhéanann tú nuair a bhíonn tú faoi bhrú?",
+    "Cé leis a labhraíonn tú má bhíonn imní ort?",
+    "An bhfuil go leor tacaíochta ann do dhaoine óga?",
+    "An dóigh leat go mbíonn tionchar ag na meáin shóisialta ar shláinte mheabhrach daoine óga?",
+    "Cad é is féidir le scoileanna a dhéanamh le cuidiú le daltaí?"
+   ],
+   "rows": [
+    {
+     "label": "Faoi bhrú",
+     "columns": [
+      [
+       {
+        "ga": "Nuair a bhím faoi bhrú,",
+        "en": "When I am under pressure,"
+       }
+      ],
+      [
+       {
+        "ga": "téim amach ag siúl",
+        "en": "I go out for a walk"
+       },
+       {
+        "ga": "éistim le ceol",
+        "en": "I listen to music"
+       },
+       {
+        "ga": "labhraím le cara",
+        "en": "I talk to a friend"
+       },
+       {
+        "ga": "imrím spórt",
+        "en": "I play sport"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cuidíonn sé",
+     "columns": [
+      [
+       {
+        "ga": "Cuidíonn sé liom",
+        "en": "It helps me"
+       }
+      ],
+      [
+       {
+        "ga": "mo scíth a ligean",
+        "en": "to relax"
+       },
+       {
+        "ga": "smaoineamh go soiléir",
+        "en": "to think clearly"
+       },
+       {
+        "ga": "codladh níos fearr",
+        "en": "to sleep better"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Imní",
+     "columns": [
+      [
+       {
+        "ga": "Nuair a bhíonn imní orm,",
+        "en": "When I am worried,"
+       }
+      ],
+      [
+       {
+        "ga": "ní bhím ábalta codladh",
+        "en": "I can't sleep"
+       },
+       {
+        "ga": "ní bhíonn fonn bia orm",
+        "en": "I have no appetite"
+       },
+       {
+        "ga": "bím crosta le gach duine",
+        "en": "I am cross with everyone"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Labhairt",
+     "columns": [
+      [
+       {
+        "ga": "Tá sé tábhachtach",
+        "en": "It is important"
+       },
+       {
+        "ga": "Tá sé iontach tábhachtach",
+        "en": "It is very important"
+       }
+      ],
+      [
+       {
+        "ga": "labhairt le duine éigin",
+        "en": "to talk to someone"
+       },
+       {
+        "ga": "cuidiú a iarraidh",
+        "en": "to ask for help"
+       }
+      ],
+      [
+       {
+        "ga": "má bhíonn imní ort",
+        "en": "if you are worried"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cé leis",
+     "columns": [
+      [
+       {
+        "ga": "Thig liom labhairt",
+        "en": "I can talk"
+       }
+      ],
+      [
+       {
+        "ga": "le mo thuismitheoirí",
+        "en": "to my parents"
+       },
+       {
+        "ga": "le mo mhúinteoir ranga",
+        "en": "to my form teacher"
+       },
+       {
+        "ga": "leis an chomhairleoir scoile",
+        "en": "to the school counsellor"
+       },
+       {
+        "ga": "le mo chairde",
+        "en": "to my friends"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tacaíocht",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There is"
+       },
+       {
+        "ga": "Níl",
+        "en": "There isn't"
+       }
+      ],
+      [
+       {
+        "ga": "go leor tacaíochta ann do dhaoine óga",
+        "en": "enough support for young people"
+       }
+      ],
+      [
+       {
+        "ga": "sa scoil",
+        "en": "in school"
+       },
+       {
+        "ga": "sa phobal",
+        "en": "in the community"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na meáin shóisialta",
+     "columns": [
+      [
+       {
+        "ga": "Sílim go mbíonn tionchar mór",
+        "en": "I think there is a big effect"
+       },
+       {
+        "ga": "Sílim go mbíonn drochthionchar",
+        "en": "I think there is a bad effect"
+       }
+      ],
+      [
+       {
+        "ga": "ag na meáin shóisialta",
+        "en": "of social media"
+       }
+      ],
+      [
+       {
+        "ga": "ar shláinte mheabhrach daoine óga",
+        "en": "on young people's mental health"
+       },
+       {
+        "ga": "ar mhuinín daoine óga",
+        "en": "on young people's confidence"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Comparáid",
+     "columns": [
+      [
+       {
+        "ga": "Cuireann daoine óga iad féin i gcomparáid",
+        "en": "Young people compare themselves"
+       }
+      ],
+      [
+       {
+        "ga": "le daoine eile ar líne",
+        "en": "with other people online"
+       },
+       {
+        "ga": "le réaltaí agus le tionchairí",
+        "en": "with celebrities and influencers"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba cheart",
+     "columns": [
+      [
+       {
+        "ga": "Ba cheart do scoileanna",
+        "en": "Schools should"
+       }
+      ],
+      [
+       {
+        "ga": "níos mó ama a chur ar fáil don fholláine",
+        "en": "make more time for wellbeing"
+       },
+       {
+        "ga": "ranganna ar an aireachas a chur ar fáil",
+        "en": "provide classes on mindfulness"
+       },
+       {
+        "ga": "a bheith níos tuisceanaí faoin obair bhaile",
+        "en": "be more understanding about homework"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tábhacht",
+     "columns": [
+      [
+       {
+        "ga": "Tá an tsláinte mheabhrach",
+        "en": "Mental health is"
+       }
+      ],
+      [
+       {
+        "ga": "chomh tábhachtach leis an tsláinte choirp",
+        "en": "as important as physical health"
+       },
+       {
+        "ga": "níos tábhachtaí ná na scrúduithe",
+        "en": "more important than exams"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cothromaíocht",
+     "columns": [
+      [
+       {
+        "ga": "Déanaim iarracht",
+        "en": "I try"
+       }
+      ],
+      [
+       {
+        "ga": "go leor codlata a fháil",
+        "en": "to get enough sleep"
+       },
+       {
+        "ga": "cothromaíocht a choinneáil idir obair agus spraoi",
+        "en": "to keep a balance between work and fun"
+       },
+       {
+        "ga": "am a chaitheamh amuigh faoin aer",
+        "en": "to spend time outdoors"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Nuair a bhím faoi bhrú, téim amach ag siúl nó éistim le ceol. Cuidíonn sé liom mo scíth a ligean. Tá sé iontach tábhachtach labhairt le duine éigin má bhíonn imní ort. Thig liom labhairt le mo thuismitheoirí nó leis an chomhairleoir scoile.",
+    "Sílim go mbíonn drochthionchar ag na meáin shóisialta ar shláinte mheabhrach daoine óga. Cuireann daoine óga iad féin i gcomparáid le daoine eile ar líne an t-am ar fad. Nuair a bhíonn imní orm, ní bhím ábalta codladh.",
+    "Tá an tsláinte mheabhrach chomh tábhachtach leis an tsláinte choirp. Ba cheart do scoileanna níos mó ama a chur ar fáil don fholláine. Mé féin, déanaim iarracht go leor codlata a fháil agus am a chaitheamh amuigh faoin aer."
+   ],
+   "new": true
+  },
+  {
+   "id": "as-costas",
+   "title": "Costas maireachtála",
+   "en": "The cost of living",
+   "teaches": "Rising prices (the genitive after praghas: an bhia, an pheitril); the analytic present plural (déanann muid iarracht); saving and budgeting; worries about university costs; opinions with Sílim gur cheart ...",
+   "questions": [
+    "An gcuireann an costas maireachtála isteach ar do theaghlach?",
+    "An bhfuil sé tábhachtach do dhaoine óga airgead a shábháil?",
+    "Cad é a gcaitheann tú d'airgead air?",
+    "An mbeidh sé doiligh íoc as an ollscoil, i do bharúil?"
+   ],
+   "rows": [
+    {
+     "label": "Praghsanna",
+     "columns": [
+      [
+       {
+        "ga": "Tá praghas",
+        "en": "The price of"
+       }
+      ],
+      [
+       {
+        "ga": "an bhia",
+        "en": "food"
+       },
+       {
+        "ga": "an pheitril",
+        "en": "petrol"
+       },
+       {
+        "ga": "an leictreachais",
+        "en": "electricity"
+       }
+      ],
+      [
+       {
+        "ga": "ag ardú an t-am ar fad",
+        "en": "is going up all the time"
+       },
+       {
+        "ga": "i bhfad níos airde ná mar a bhí",
+        "en": "is far higher than it was"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tionchar",
+     "columns": [
+      [
+       {
+        "ga": "Cuireann an costas maireachtála",
+        "en": "The cost of living puts"
+       }
+      ],
+      [
+       {
+        "ga": "brú ar mo thuismitheoirí",
+        "en": "pressure on my parents"
+       },
+       {
+        "ga": "brú ar chuid mhór teaghlach",
+        "en": "pressure on a lot of families"
+       },
+       {
+        "ga": "brú ar dhaoine óga fosta",
+        "en": "pressure on young people too"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sa bhaile",
+     "columns": [
+      [
+       {
+        "ga": "Sa bhaile, déanann muid iarracht",
+        "en": "At home, we try"
+       }
+      ],
+      [
+       {
+        "ga": "gan airgead a chur amú",
+        "en": "not to waste money"
+       },
+       {
+        "ga": "gan bia a chur amú",
+        "en": "not to waste food"
+       },
+       {
+        "ga": "an teas a choinneáil íseal",
+        "en": "to keep the heating low"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Airgead póca",
+     "columns": [
+      [
+       {
+        "ga": "Ní iarraim airgead ar mo thuismitheoirí",
+        "en": "I don't ask my parents for money"
+       }
+      ],
+      [
+       {
+        "ga": "níos mó",
+        "en": "any more"
+       },
+       {
+        "ga": "anois",
+        "en": "now"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá post páirtaimseartha agam",
+        "en": "because I have a part-time job"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sábháil",
+     "columns": [
+      [
+       {
+        "ga": "Déanaim iarracht",
+        "en": "I try"
+       },
+       {
+        "ga": "Tá sé tábhachtach",
+        "en": "It is important"
+       }
+      ],
+      [
+       {
+        "ga": "cuid de m'airgead a shábháil",
+        "en": "to save some of my money"
+       },
+       {
+        "ga": "buiséad a leagan amach",
+        "en": "to draw up a budget"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Aip bhainc",
+     "columns": [
+      [
+       {
+        "ga": "Úsáidim aip bhainc",
+        "en": "I use a banking app"
+       }
+      ],
+      [
+       {
+        "ga": "le súil a choinneáil ar m'airgead",
+        "en": "to keep an eye on my money"
+       },
+       {
+        "ga": "le mo chaiteachas a rianú",
+        "en": "to track my spending"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Caiteachas",
+     "columns": [
+      [
+       {
+        "ga": "Caithim an chuid is mó de m'airgead",
+        "en": "I spend most of my money"
+       }
+      ],
+      [
+       {
+        "ga": "ar bhia",
+        "en": "on food"
+       },
+       {
+        "ga": "ar éadaí",
+        "en": "on clothes"
+       },
+       {
+        "ga": "ar thaisteal",
+        "en": "on travel"
+       },
+       {
+        "ga": "ar mo ghuthán",
+        "en": "on my phone"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An ollscoil",
+     "columns": [
+      [
+       {
+        "ga": "Beidh sé an-chostasach",
+        "en": "It will be very expensive"
+       },
+       {
+        "ga": "Tá imní orm go mbeidh sé costasach",
+        "en": "I am worried it will be expensive"
+       }
+      ],
+      [
+       {
+        "ga": "dul chun na hollscoile",
+        "en": "to go to university"
+       },
+       {
+        "ga": "lóistín a fháil i mBéal Feirste",
+        "en": "to get accommodation in Belfast"
+       },
+       {
+        "ga": "a bheith i mo chónaí ar shiúl ón bhaile",
+        "en": "to live away from home"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mar sin",
+     "columns": [
+      [
+       {
+        "ga": "Mar gheall air sin,",
+        "en": "Because of that,"
+       },
+       {
+        "ga": "Ar an ábhar sin,",
+        "en": "For that reason,"
+       }
+      ],
+      [
+       {
+        "ga": "b'fhéidir go bhfanfaidh mé sa bhaile",
+        "en": "maybe I will stay at home"
+       },
+       {
+        "ga": "beidh orm post a fháil",
+        "en": "I will have to get a job"
+       }
+      ],
+      [
+       {
+        "ga": "agus mé ag staidéar",
+        "en": "while I am studying"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tuairim",
+     "columns": [
+      [
+       {
+        "ga": "Is é mo bharúil",
+        "en": "In my opinion"
+       },
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       }
+      ],
+      [
+       {
+        "ga": "gur cheart don rialtas níos mó a dhéanamh le cuidiú le teaghlaigh",
+        "en": "the government should do more to help families"
+       },
+       {
+        "ga": "gur cheart foghlaim faoi airgead a bheith ar an churaclam",
+        "en": "learning about money should be on the curriculum"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá praghas an bhia ag ardú an t-am ar fad. Cuireann an costas maireachtála brú ar mo thuismitheoirí. Sa bhaile, déanann muid iarracht gan airgead a chur amú. Ní iarraim airgead ar mo thuismitheoirí níos mó mar tá post páirtaimseartha agam.",
+    "Déanaim iarracht cuid de m'airgead a shábháil. Úsáidim aip bhainc le súil a choinneáil ar m'airgead. Caithim an chuid is mó de m'airgead ar thaisteal agus ar éadaí.",
+    "Tá imní orm go mbeidh sé costasach dul chun na hollscoile. Ar an ábhar sin, b'fhéidir go bhfanfaidh mé sa bhaile agus mé ag staidéar. Sílim gur cheart don rialtas níos mó a dhéanamh le cuidiú le teaghlaigh."
+   ],
+   "new": true
+  }
+ ]
+}
