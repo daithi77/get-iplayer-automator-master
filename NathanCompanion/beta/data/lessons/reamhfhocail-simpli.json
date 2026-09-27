@@ -233,12 +233,12 @@
    ]
   },
   {
-   "title": "Réamhfhocal + an: d, n, t, l, s agus gutaí gan athrú",
-   "en": "Preposition + an: no change to d, n, t, l, s or a vowel",
-   "rule": "After a preposition and an, leave a noun that begins with d, n, t, l, s or a vowel as it is (ar an líne, ar an urlár). Only a feminine noun beginning with s and a vowel (or sl, sn, sr) takes t: ar an tsráid.",
+   "title": "Réamhfhocal + an: d, n, t, l agus gutaí gan athrú; s + guta: ts",
+   "en": "Preposition + an: no change to d, n, t, l or a vowel; s takes t",
+   "rule": "After a preposition and an, leave a noun that begins with d, n, t, l, s or a vowel as it is (ar an líne, ar an urlár). The exception is s: a noun beginning with s and a vowel (or sl, sn, sr) takes t, masculine or feminine: ar an tsráid, ag an tsiopa, don tsagart.",
    "steps": [
     "líne begins with l.",
-    "d, n, t, l, s and vowels do not change after ar an, so leave it: líne.",
+    "d, n, t, l and vowels do not change after ar an, so leave it: líne.",
     "Tá an sliotar ar an líne."
    ],
    "example": {
@@ -255,7 +255,7 @@
      "answer": "Tá sé ina sheasamh ar an tsráid."
     }
    ],
-   "hint": "d, n, t, l, s and vowels: no change (but an tsráid).",
+   "hint": "d, n, t, l and vowels: no change. s + vowel, l, n or r takes t: an tsráid, an tsiopa.",
    "items": [
     {
      "shape": "stem",
@@ -577,8 +577,8 @@
     },
     {
      "shape": "gap",
-     "prompt": "Caithfidh mé dul chuig an siopa, tá cipín cuimhne ag teastáil ______.",
-     "answer": "Caithfidh mé dul chuig an siopa, tá cipín cuimhne ag teastáil uaim.",
+     "prompt": "Caithfidh mé dul chuig an tsiopa, tá cipín cuimhne ag teastáil ______.",
+     "answer": "Caithfidh mé dul chuig an tsiopa, tá cipín cuimhne ag teastáil uaim.",
      "gap": "uaim"
     },
     {
@@ -680,7 +680,7 @@
     "ar na buachaillí, ar na cailíní, ar na fuinneoga, ar na geataí, ar na páirceanna",
     "ar an asal, ar an éan, ar an iascaire, ar an oráiste, ar an úll",
     "ar na hasail, ar na héin, ar na hiascairí, ar na horáistí, ar na húlla",
-    "ar an trá, ar an líne, ar an nuachtán, ar an droichead, ar an sagart; ach ar an tsráid (baininscneach)"
+    "ar an trá, ar an líne, ar an nuachtán, ar an droichead; ach ar an tsagart, ar an tsráid (s + guta)"
    ]
   },
   {
@@ -717,7 +717,7 @@
    "title": "do / don / do na: samplaí",
    "forms": [
     "don bhuachaill, don chailín, don fhile, don ghirseach, don pháiste",
-    "don sagart, don tiománaí; ach don tsráid (baininscneach)",
+    "don tiománaí, don dochtúir; ach don tsagart, don tsráid (s + guta)",
     "don aisteoir, don oibrí",
     "do na páistí, do na gardaí, do na múinteoirí",
     "do na huain, do na héin, do na haisteoirí, do na hainmhithe"
@@ -742,7 +742,7 @@
     "ag na buachaillí, ag na cailíní, ag na fáinleoga, ag na geataí, ag na píolótaí",
     "ag an aisteoir, ag an éan, ag an iascaire, ag an othar, ag an uan",
     "ag na hainmhithe, ag na héin, ag na hiascairí, ag na hothair, ag na huain",
-    "ag an doras, ag an tarracóir, ag an lampa, ag an siopa, ag an nead; ach ag an tsráid (baininscneach)"
+    "ag an doras, ag an tarracóir, ag an lampa, ag an nead; ach ag an tsiopa, ag an tsráid (s + guta)"
    ]
   },
   {

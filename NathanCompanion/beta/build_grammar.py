@@ -20,24 +20,29 @@ EN = {"copail":"The copula","r1-chaite":"First conjugation: past","r1-laithreach
  "d2":"Second declension","d3":"Third declension","d4":"Fourth declension","d5":"Fifth declension","reamhfhocail-chomhshuite":"Compound prepositions",
  "ainm-briathartha":"The verbal noun","aidiacht-bhriathartha":"The verbal adjective"}
 GROUPS = [
- ("An chopail","The copula","🟰",["copail"]),
+ ("An chopail","The copula","🟰",["copail","aibhsiu"]),
  ("An aimsir chaite","The past","⏪",["r1-chaite","r2-chaite","nr-chaite"]),
- ("An aimsir láithreach","The present","▶️",["r1-laithreach","r2-laithreach","nr-laithreach"]),
+ ("An aimsir láithreach","The present","▶️",["r1-laithreach","r2-laithreach","nr-laithreach","ta-bionn"]),
  ("An aimsir fháistineach","The future","⏩",["r1-fhaistineach","r2-fhaistineach","nr-fhaistineach"]),
  ("An aimsir ghnáthchaite","The past habitual","🔁",["r1-gnathchaite","r2-gnathchaite","nr-gnathchaite"]),
  ("An modh coinníollach","The conditional","🤔",["r1-coinniollach","r2-coinniollach","nr-coinniollach"]),
  ("An briathar: foirmeacha eile","Other verb forms","🧩",["ainm-briathartha","aidiacht-bhriathartha","ordaitheach","giorru"]),
- ("An t-ainmfhocal","Nouns","📚",["d1","d2","d3","d4","d5","sealbhach"]),
+ ("An t-ainmfhocal","Nouns","📚",["alt","d1","d2","d3","d4","d5","sealbhach","tuisil"]),
  ("Na réamhfhocail","Prepositions","📍",["reamhfhocail-simpli","reamhfhocail-briathra","reamhfhocail-chomhshuite"]),
  ("Aidiachtaí, uimhreacha, dobhriathra","Adjectives, numbers, adverbs","🔢",["aidiachtai","uimhreacha","dobhriathar"]),
- ("Ceisteanna agus clásail","Questions and clauses","❓",["ceisteanna","clasail","coibhneasta"]),
+ ("Ceisteanna agus clásail","Questions and clauses","❓",["ceisteanna","clasail","coibhneasta","ma-da-mura"]),
 ]
 # Sections written as walk-through lessons only, with no entry in the grammar extraction.
 LESSON_ONLY = {"ceisteanna": ("Na míreanna ceisteacha", "Question words"),
                "clasail": ("Clásail: go, nach, gur, nár", "Dependent clauses: that, that not"),
                "coibhneasta": ("An clásal coibhneasta", "Relative clauses"),
                "ordaitheach": ("An modh ordaitheach", "The imperative"),
-               "giorru": ("Briathra a ghiorraítear", "Verbs that shorten")}
+               "giorru": ("Briathra a ghiorraítear", "Verbs that shorten"),
+               "alt": ("An t-alt agus inscne", "The article and gender"),
+               "tuisil": ("Na tuisil agus an tuiseal gairmeach", "Cases and the vocative"),
+               "ma-da-mura": ("Má, dá agus mura", "If: má, dá and mura"),
+               "ta-bionn": ("Tá nó bíonn?", "Tá or bíonn: now or usually"),
+               "aibhsiu": ("An chopail: ionannas agus béim", "The copula: identification and emphasis")}
 PIC = re.compile(r'\s*\[pictiúr:\s*([^\]]*)\]\s*')
 def gap_answer(stem, fresh):
     parts = re.split(r'_{3,}', stem)

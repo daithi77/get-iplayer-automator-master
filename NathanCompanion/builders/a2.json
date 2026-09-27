@@ -1,0 +1,2341 @@
+{
+ "builders": [
+  {
+   "id": "a2-ghaeilge",
+   "title": "An Ghaeilge sa lá atá inniu ann",
+   "en": "The Irish language today",
+   "level": "A2 · Bliain 14",
+   "new": true,
+   "teaches": "Discussing the state of Irish in the North in 2026: the Identity and Language (Northern Ireland) Act 2022, Irish-medium education, Gaeltacht courses and their cost, and Irish online; opinion frames followed by go and nach with the present and future (Ní féidir a shéanadh go bhfuil ..., Caithfidh mé a admháil nach bhfuil ...); gur and nár with the past, and go with the irregular past forms (go ndeachaigh, go raibh, go bhfuair, go ndearna); the copula for emphasis (Is sa Ghaeltacht a chuala mé ...); weighing both sides with Ar an láimh eile and concluding with Dá bhrí sin.",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le plé a dhéanamh ar staid na Gaeilge sa Tuaisceart inniu.",
+     "en": "I am learning to discuss the state of Irish in the North today."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le go, nach, gur agus nár a úsáid i ndiaidh frásaí tuairime.",
+     "en": "I am learning to use go, nach, gur and nár after opinion phrases."
+    }
+   ],
+   "questions": [
+    "Cad é an bhail atá ar an Ghaeilge sa Tuaisceart sa lá atá inniu ann?",
+    "Cad é a tharla nuair a ritheadh an tAcht Féiniúlachta agus Teanga?",
+    "An bhfuil an tAcht láidir go leor, i do bharúil?",
+    "An bhfuil an t-oideachas lán-Ghaeilge lárnach do thodhchaí na teanga?",
+    "An bhfuil fadhbanna ag na scoileanna lán-Ghaeilge?",
+    "Cén tionchar a bhí ag an Ghaeltacht ort féin?",
+    "An bhfuil cúrsaí Gaeltachta ag éirí róchostasach?",
+    "Cad é ba cheart don Rialtas a dhéanamh ar son na Gaeilge?",
+    "An gcuidíonn an t-idirlíon leis an Ghaeilge?"
+   ],
+   "qrows": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Staid na teanga",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh go",
+        "en": "It cannot be denied that"
+       },
+       {
+        "ga": "Caithfidh mé a admháil go",
+        "en": "I have to admit that"
+       },
+       {
+        "ga": "Is í mo bharúil féin go",
+        "en": "My own opinion is that"
+       }
+      ],
+      [
+       {
+        "ga": "bhfuil borradh faoin Ghaeilge",
+        "en": "Irish is booming"
+       },
+       {
+        "ga": "bhfuil níos mó daoine ná riamh ag foghlaim na Gaeilge",
+        "en": "more people than ever are learning Irish"
+       },
+       {
+        "ga": "bhfuil an Ghaeilge i bhfad níos feiceálaí anois",
+        "en": "Irish is far more visible now"
+       }
+      ],
+      [
+       {
+        "ga": "i mBéal Feirste go háirithe",
+        "en": "in Belfast especially",
+        "optional": true
+       },
+       {
+        "ga": "ar fud an Tuaiscirt",
+        "en": "throughout the North",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar an láimh eile",
+     "columns": [
+      [
+       {
+        "ga": "Ar an láimh eile,",
+        "en": "On the other hand,"
+       },
+       {
+        "ga": "Ar an taobh eile den scéal,",
+        "en": "On the other side of the coin,"
+       }
+      ],
+      [
+       {
+        "ga": "níl ach líon beag daoine a labhraíonn Gaeilge sa bhaile",
+        "en": "only a small number of people speak Irish at home"
+       },
+       {
+        "ga": "is annamh a chluintear Gaeilge ar an tsráid",
+        "en": "Irish is rarely heard on the street"
+       },
+       {
+        "ga": "tá daoine ann a fheiceann an teanga mar cheist pholaitiúil",
+        "en": "there are people who see the language as a political issue"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An tAcht Teanga",
+     "columns": [
+      [
+       {
+        "ga": "Faoin Acht Féiniúlachta agus Teanga 2022,",
+        "en": "Under the Identity and Language Act 2022,"
+       },
+       {
+        "ga": "Nuair a ritheadh an tAcht Teanga sa bhliain 2022,",
+        "en": "When the Language Act was passed in 2022,"
+       }
+      ],
+      [
+       {
+        "ga": "tugadh aitheantas oifigiúil don Ghaeilge",
+        "en": "Irish was given official recognition"
+       },
+       {
+        "ga": "cuireadh deireadh le dlí ó 1737 a chuir cosc ar an Ghaeilge sna cúirteanna",
+        "en": "a law from 1737 that banned Irish in the courts was repealed"
+       },
+       {
+        "ga": "socraíodh go mbeadh Coimisinéir Gaeilge ann",
+        "en": "it was decided that there would be an Irish Language Commissioner"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil ar an Acht",
+     "columns": [
+      [
+       {
+        "ga": "Is í mo bharúil féin",
+        "en": "My own opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a admháil",
+        "en": "I have to admit"
+       },
+       {
+        "ga": "Tá mé den bharúil",
+        "en": "I am of the opinion"
+       }
+      ],
+      [
+       {
+        "ga": "gur céim mhór chun tosaigh é an tAcht",
+        "en": "that the Act is a big step forward"
+       },
+       {
+        "ga": "nach bhfuil an tAcht láidir go leor",
+        "en": "that the Act is not strong enough"
+       },
+       {
+        "ga": "go bhfuil a lán le déanamh go fóill",
+        "en": "that there is a lot still to do"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Oideachas lán-Ghaeilge",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh go bhfuil",
+        "en": "It cannot be denied that"
+       },
+       {
+        "ga": "Is léir go bhfuil",
+        "en": "It is clear that"
+       }
+      ],
+      [
+       {
+        "ga": "na bunscoileanna lán-Ghaeilge",
+        "en": "the Irish-medium primary schools"
+       },
+       {
+        "ga": "na naíscoileanna lán-Ghaeilge",
+        "en": "the Irish-medium nursery schools"
+       },
+       {
+        "ga": "na meánscoileanna lán-Ghaeilge",
+        "en": "the Irish-medium secondary schools"
+       }
+      ],
+      [
+       {
+        "ga": "ag fás ó bhliain go bliain",
+        "en": "are growing year by year"
+       },
+       {
+        "ga": "ag tabhairt na teanga don chéad ghlúin eile",
+        "en": "are passing the language on to the next generation"
+       },
+       {
+        "ga": "lárnach do thodhchaí na teanga",
+        "en": "are central to the future of the language"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dúshláin",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh go bhfuil",
+        "en": "It cannot be denied that there is"
+       },
+       {
+        "ga": "Caithfidh mé a admháil go bhfuil",
+        "en": "I have to admit that there is"
+       }
+      ],
+      [
+       {
+        "ga": "ganntanas múinteoirí",
+        "en": "a shortage of teachers"
+       },
+       {
+        "ga": "easpa áiseanna",
+        "en": "a lack of resources"
+       },
+       {
+        "ga": "easpa spáis",
+        "en": "a lack of space"
+       }
+      ],
+      [
+       {
+        "ga": "sna scoileanna lán-Ghaeilge",
+        "en": "in the Irish-medium schools"
+       },
+       {
+        "ga": "i gcuid mhór Gaelscoileanna",
+        "en": "in many Irish-medium schools"
+       }
+      ],
+      [
+       {
+        "ga": "agus caithfear dul i ngleic leis sin",
+        "en": "and that must be tackled",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Is sa Ghaeltacht a ...",
+     "columns": [
+      [
+       {
+        "ga": "Is sa Ghaeltacht a",
+        "en": "It was in the Gaeltacht that"
+       },
+       {
+        "ga": "Is i Loch an Iúir a",
+        "en": "It was in Loch an Iúir that"
+       },
+       {
+        "ga": "Is i Rann na Feirste a",
+        "en": "It was in Rann na Feirste that"
+       }
+      ],
+      [
+       {
+        "ga": "chuala mé Gaeilge nádúrtha den chéad uair",
+        "en": "I first heard natural Irish"
+       },
+       {
+        "ga": "fuair mé an mhuinín leis an teanga a labhairt",
+        "en": "I got the confidence to speak the language"
+       },
+       {
+        "ga": "thuig mé go raibh an Ghaeilge beo",
+        "en": "I realised that Irish was alive"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Costas na Gaeltachta",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a admháil go bhfuil",
+        "en": "I have to admit that"
+       },
+       {
+        "ga": "Ní féidir a shéanadh go bhfuil",
+        "en": "It cannot be denied that"
+       }
+      ],
+      [
+       {
+        "ga": "cúrsaí Gaeltachta ag éirí an-chostasach",
+        "en": "Gaeltacht courses are getting very expensive"
+       },
+       {
+        "ga": "praghas cúrsa Gaeltachta ag ardú achan bhliain",
+        "en": "the price of a Gaeltacht course is rising every year"
+       }
+      ],
+      [
+       {
+        "ga": "agus ní thig le gach teaghlach an costas a íoc",
+        "en": "and not every family can pay the cost"
+       },
+       {
+        "ga": "agus is mór an trua sin",
+        "en": "and that is a great pity"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá bhrí sin",
+     "columns": [
+      [
+       {
+        "ga": "Dá bhrí sin, ba cheart",
+        "en": "Therefore,"
+       },
+       {
+        "ga": "Is í mo bharúil féin gur cheart",
+        "en": "My own opinion is that"
+       }
+      ],
+      [
+       {
+        "ga": "don Rialtas",
+        "en": "the Government"
+       },
+       {
+        "ga": "don Roinn Oideachais",
+        "en": "the Department of Education"
+       }
+      ],
+      [
+       {
+        "ga": "scoláireachtaí Gaeltachta a thabhairt do dhaltaí",
+        "en": "should give Gaeltacht scholarships to pupils"
+       },
+       {
+        "ga": "cúrsaí Gaeltachta a mhaoiniú",
+        "en": "should fund Gaeltacht courses"
+       },
+       {
+        "ga": "tuilleadh múinteoirí a oiliúint",
+        "en": "should train more teachers"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar líne",
+     "columns": [
+      [
+       {
+        "ga": "Ina theannta sin,",
+        "en": "In addition,"
+       },
+       {
+        "ga": "Chomh maith leis sin,",
+        "en": "As well as that,"
+       }
+      ],
+      [
+       {
+        "ga": "tá an Ghaeilge beo bríomhar ar líne",
+        "en": "Irish is alive and well online"
+       },
+       {
+        "ga": "tá cuid mhór ábhair i nGaeilge ar fáil ar líne",
+        "en": "there is a lot of material in Irish available online"
+       },
+       {
+        "ga": "tá daoine óga ag cruthú físeán i nGaeilge ar TikTok",
+        "en": "young people are making videos in Irish on TikTok"
+       }
+      ],
+      [
+       {
+        "ga": "agus is maith an rud é sin",
+        "en": "and that is a good thing",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag éisteacht",
+     "columns": [
+      [
+       {
+        "ga": "Éistim le",
+        "en": "I listen to"
+       },
+       {
+        "ga": "Bím ag éisteacht le",
+        "en": "I regularly listen to"
+       }
+      ],
+      [
+       {
+        "ga": "podchraoltaí Gaeilge",
+        "en": "Irish podcasts"
+       },
+       {
+        "ga": "Raidió Fáilte",
+        "en": "Raidió Fáilte"
+       },
+       {
+        "ga": "Raidió na Gaeltachta",
+        "en": "Raidió na Gaeltachta"
+       }
+      ],
+      [
+       {
+        "ga": "ar mo ghuthán",
+        "en": "on my phone"
+       },
+       {
+        "ga": "ar an bhus ar maidin",
+        "en": "on the bus in the morning"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Ní féidir a shéanadh go bhfuil borradh faoin Ghaeilge i mBéal Feirste go háirithe, ach ar an láimh eile, is annamh a chluintear Gaeilge ar an tsráid.",
+    "Is í mo bharúil féin gur céim mhór chun tosaigh é an tAcht, ach caithfidh mé a admháil go bhfuil a lán le déanamh go fóill.",
+    "Is i Rann na Feirste a fuair mé an mhuinín leis an teanga a labhairt, ach tá cúrsaí Gaeltachta ag éirí an-chostasach."
+   ],
+   "patterns": [
+    {
+     "title": "Go agus nach i ndiaidh frása tuairime",
+     "question": "Cad é a tharlaíonn don bhriathar i ndiaidh go agus nach? Cad chuige nach n-athraíonn labhraíonn?",
+     "questionEn": "What happens to the verb after go and nach? Why does labhraíonn not change?",
+     "rows": [
+      [
+       "Tá borradh faoin Ghaeilge.",
+       "Ní féidir a shéanadh {go} [bh]fuil borradh faoin Ghaeilge."
+      ],
+      [
+       "Níl go leor múinteoirí ann.",
+       "Caithfidh mé a admháil {nach} [bh]fuil go leor múinteoirí ann."
+      ],
+      [
+       "Beidh níos mó Gaelscoileanna ann.",
+       "Is í mo bharúil féin {go} [m]beidh níos mó Gaelscoileanna ann."
+      ],
+      [
+       "Éireoidh leis an teanga.",
+       "Tá mé den bharúil {go} [n-]éireoidh leis an teanga."
+      ],
+      [
+       "Ní thuigeann gach duine an tAcht.",
+       "Caithfidh mé a admháil {nach} [d]tuigeann gach duine an tAcht."
+      ],
+      [
+       "Labhraíonn daoine óga Gaeilge ar líne.",
+       "Is léir {go} labhraíonn daoine óga Gaeilge ar líne."
+      ]
+     ],
+     "rule": "I ndiaidh go agus nach bíonn urú ar an bhriathar: go bhfuil, go mbeidh, nach dtuigeann. Roimh ghuta cuirtear n- leis: go n-éireoidh. Ní ghlacann l, m, n, r ná s urú: go labhraíonn. Éiríonn tá ina go bhfuil, agus éiríonn níl ina nach bhfuil.",
+     "ruleEn": "After go and nach the verb takes urú (eclipsis): go bhfuil, go mbeidh, nach dtuigeann. A vowel takes n-: go n-éireoidh. L, m, n, r and s never take urú: go labhraíonn. Tá becomes go bhfuil, and níl becomes nach bhfuil."
+    },
+    {
+     "title": "Gur agus nár leis an aimsir chaite",
+     "question": "Cad é an focal beag a úsáidtear roimh an aimsir chaite? Cad chuige a n-úsáidtear go le chuaigh, bhí, fuair agus rinne?",
+     "questionEn": "Which little word is used before the past tense? Why is go used with chuaigh, bhí, fuair and rinne?",
+     "rows": [
+      [
+       "Chuir an tAcht athrú ar an scéal.",
+       "Is léir {gur} chuir an tAcht athrú ar an scéal."
+      ],
+      [
+       "D'fhreastail mé ar Ghaelscoil.",
+       "Tá mé sásta {gur} fhreastail mé ar Ghaelscoil."
+      ],
+      [
+       "Níor fhoghlaim mé Gaeilge sa bhunscoil.",
+       "Is mór an trua {nár} fhoghlaim mé Gaeilge sa bhunscoil."
+      ],
+      [
+       "Chuaigh mé go Rann na Feirste.",
+       "Tá mé sásta {go} [ndeachaigh] mé go Rann na Feirste."
+      ],
+      [
+       "Bhí an cúrsa costasach.",
+       "Caithfidh mé a admháil {go} [raibh] an cúrsa costasach."
+      ],
+      [
+       "Fuair mé muinín úr.",
+       "Ní féidir a shéanadh {go} [bh]fuair mé muinín úr."
+      ],
+      [
+       "Rinne an Rialtas dul chun cinn.",
+       "Is í mo bharúil féin {go} [ndearna] an Rialtas dul chun cinn."
+      ]
+     ],
+     "rule": "Leis an aimsir chaite, úsáidtear gur (dearfach) agus nár (diúltach) le formhór na mbriathra. Fanann an séimhiú, ach imíonn d': d'fhreastail, gur fhreastail. Tá foirm spleách ag cuid de na briathra neamhrialta, agus úsáidtear go nó nach leo, le hurú: go ndeachaigh, go raibh, go bhfuair, go ndearna.",
+     "ruleEn": "In the past tense, use gur (positive) and nár (negative) with most verbs. The séimhiú stays, but d' drops: d'fhreastail, gur fhreastail. Some irregular verbs have a dependent form and take go or nach with urú: go ndeachaigh, go raibh, go bhfuair, go ndearna."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Tá borradh faoin Ghaeilge. Níl go leor múinteoirí ann.",
+     "en": "Irish is booming. There are not enough teachers.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "[Ní féidir a shéanadh go bhfuil] borradh faoin Ghaeilge[, ach caithfidh mé a admháil nach bhfuil] go leor múinteoirí ann.",
+     "en": "It cannot be denied that Irish is booming, but I have to admit that there are not enough teachers.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Ní féidir a shéanadh go bhfuil borradh faoin Ghaeilge, ach caithfidh mé a admháil nach bhfuil go leor múinteoirí ann. [Ina theannta sin, is annamh a chluintear Gaeilge ar an tsráid taobh amuigh de Bhéal Feirste. Is sa Ghaeltacht a fuair mé féin an mhuinín leis an teanga a labhairt, ach tá na cúrsaí ag éirí an-chostasach. Dá bhrí sin, is í mo bharúil féin gur cheart don Rialtas scoláireachtaí Gaeltachta a thabhairt do dhaltaí, ionas go mbeidh an deis chéanna ag achan duine.]",
+     "en": "It cannot be denied that Irish is booming, but I have to admit that there are not enough teachers. In addition, Irish is rarely heard on the street outside Belfast. It was in the Gaeltacht that I myself got the confidence to speak the language, but the courses are getting very expensive. Therefore, my own opinion is that the Government should give Gaeltacht scholarships to pupils, so that everyone will have the same chance.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Díospóireacht: an Ghaeilge inniu",
+     "titleEn": "Debate: Irish today",
+     "rubric": "Tá tú ag caint leis an scrúdaitheoir faoin Ghaeilge sa lá atá inniu ann. Labhraíonn an scrúdaitheoir ar dtús. Aontaigh nó easaontaigh, agus tabhair fáth i gcónaí.",
+     "rubricEn": "You are talking to the examiner about Irish today. The examiner speaks first. Agree or disagree, and always give a reason.",
+     "tasks": [
+      {
+       "teacher": "Deir daoine áirithe gur cur amú airgid é an t-oideachas lán-Ghaeilge. Cad é do bharúil?",
+       "en": "Disagree and give a reason.",
+       "ga": "Ní aontaím leis sin ar chor ar bith. Is iad na Gaelscoileanna atá ag tabhairt na teanga don chéad ghlúin eile, agus is infheistíocht é sin, ní cur amú."
+      },
+      {
+       "teacher": "Ní labhraíonn duine ar bith Gaeilge taobh amuigh den seomra ranga.",
+       "en": "Agree in part, but give a counter-example.",
+       "ga": "Tá mé ag teacht leis sin go pointe, ach ní féidir a shéanadh go bhfuil pobal beo Gaeilge i mBéal Feirste. Mar shampla, cluintear Gaeilge achan lá sa Chultúrlann ar Bhóthar na bhFál."
+      },
+      {
+       "teacher": "Níor athraigh an tAcht Teanga rud ar bith do ghnáthdhaoine.",
+       "en": "Disagree, mentioning something the Act did.",
+       "ga": "Ní shílim go bhfuil an ceart agat. Tugadh aitheantas oifigiúil don Ghaeilge, agus cuireadh deireadh le dlí ó 1737 a chuir cosc ar an Ghaeilge sna cúirteanna. Is céim mhór chun tosaigh é sin."
+      },
+      {
+       "teacher": "Is cur amú ama é cúrsa Gaeltachta. Tá achan rud ar líne anois.",
+       "en": "Disagree and give a reason from your own experience.",
+       "ga": "Ní aontaím leis sin. Is sa Ghaeltacht a chuala mé Gaeilge nádúrtha den chéad uair, rud nach dtig le haip ar bith a dhéanamh. Caithfidh tú an teanga a chluinstin i mbéal na ndaoine.",
+       "alt": "Ní aontaím leis sin. Is i Rann na Feirste a fuair mé an mhuinín leis an teanga a labhairt, agus ní thig le haip ar bith sin a thabhairt duit."
+      },
+      {
+       "teacher": "Dá mbeifeá i do Choimisinéir Gaeilge amárach, cad é an chéad rud a dhéanfá?",
+       "en": "Answer the unexpected question.",
+       "ga": "Dá mbeinn i mo Choimisinéir Gaeilge, dhéanfainn cinnte de go mbeadh cúrsa Gaeltachta saor in aisce ag achan dalta sa Tuaisceart.",
+       "unexpected": true
+      }
+     ]
+    }
+   ],
+   "writing": [
+    {
+     "title": "An Ghaeilge sa Tuaisceart: ag fás nó i mbaol?",
+     "prompt": "\"Tá todhchaí na Gaeilge sa Tuaisceart níos sláine anois ná mar a bhí riamh.\" Déan plé ar an ráiteas seo.",
+     "promptEn": "\"The future of Irish in the North is more secure now than it has ever been.\" Discuss this statement.",
+     "words": 300,
+     "plan": [
+      "Tús: cuir an t-ábhar i láthair agus tabhair do bharúil ghinearálta.",
+      "An dul chun cinn: an tAcht Féiniúlachta agus Teanga 2022 agus fás an oideachais lán-Ghaeilge.",
+      "Na dúshláin: ganntanas múinteoirí, líon beag cainteoirí laethúla agus an teanga mar cheist pholaitiúil.",
+      "An Ghaeltacht agus an t-idirlíon: do thaithí féin agus an Ghaeilge ar líne.",
+      "Conclúid: freagair an cheist go díreach agus mol réiteach amháin."
+     ],
+     "model": "Is minic a chluintear go bhfuil an Ghaeilge i mbaol, ach is í mo bharúil féin go bhfuil todhchaí na teanga sa Tuaisceart níos sláine anois ná mar a bhí riamh. Ní hé go bhfuil achan fhadhb réitithe, áfach.\n\nAr an chéad dul síos, ní féidir a shéanadh go ndearnadh dul chun cinn mór le blianta beaga anuas. Nuair a ritheadh an tAcht Féiniúlachta agus Teanga sa bhliain 2022, tugadh aitheantas oifigiúil don Ghaeilge agus cuireadh deireadh le dlí ó 1737 a chuir cosc ar an teanga sna cúirteanna. Ina theannta sin, tá an t-oideachas lán-Ghaeilge ag fás ó bhliain go bliain, ó na naíscoileanna go dtí na meánscoileanna. Is sna scoileanna seo atá an chéad ghlúin eile de chainteoirí Gaeilge á tógáil.\n\nAr an láimh eile, caithfidh mé a admháil go bhfuil dúshláin mhóra ann go fóill. Tá ganntanas múinteoirí sna scoileanna lán-Ghaeilge, agus níl ach líon beag daoine a labhraíonn an teanga sa bhaile. Chomh maith leis sin, feiceann daoine áirithe an Ghaeilge mar cheist pholaitiúil, rud a dhéanann dochar don teanga, dar liom.\n\nNí thig liom labhairt faoin ábhar seo gan an Ghaeltacht a lua. Is i Rann na Feirste a fuair mé féin an mhuinín leis an teanga a labhairt, agus d'fhoghlaim mé níos mó i gcoicís ansin ná mar a d'fhoghlaim mé i mbliain iomlán ar scoil. Anuas air sin, tá an Ghaeilge beo bríomhar ar líne: éistim le podchraoltaí Gaeilge ar an bhus achan mhaidin, agus tá daoine óga ag cruthú físeán i nGaeilge ar TikTok.\n\nDá bhrí sin, aontaím leis an ráiteas den chuid is mó. Tá bunsraith láidir ann anois, ach ní leor dlíthe agus scoileanna iontu féin. Dá labhródh achan duine againn an teanga taobh amuigh den scoil, bheadh todhchaí na Gaeilge slán go deo."
+    }
+   ]
+  },
+  {
+   "id": "a2-mean",
+   "title": "Na meáin shóisialta agus an intleacht shaorga",
+   "en": "Social media and artificial intelligence",
+   "level": "A2 · Bliain 14",
+   "new": true,
+   "teaches": "Debating the effect of social media and AI on young people: screen time, algorithms, fake news and fake videos, personal data, AI in school work and in the world of work, age limits and bans; the copula in a dependent clause (gur fadhb mhór í, gurb áis iontach iad, nach caimiléireacht é, gur cheart, nár cheart); á with the verbal noun for things being done to us, with the same mutations as a (á bhailiú, á húsáid, á mbailiú, á n-úsáid); the copula for emphasis (Is í an bhréagnuacht an chontúirt is mó).",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le díospóireacht a dhéanamh faoi na meáin shóisialta agus faoin intleacht shaorga.",
+     "en": "I am learning to debate social media and artificial intelligence."
+    },
+    {
+     "ga": "Tá mé ag foghlaim leis an chopail a úsáid i ndiaidh frása tuairime: gur, gurb, nach agus gur cheart.",
+     "en": "I am learning to use the copula after an opinion phrase: gur, gurb, nach and gur cheart."
+    }
+   ],
+   "questions": [
+    "Cá mhéad ama a chaitheann tú ar na meáin shóisialta?",
+    "An bhfuil buntáistí ag baint leis na meáin shóisialta?",
+    "Cad iad na contúirtí is mó, dar leat?",
+    "An bhfuil smacht againn ar ár sonraí pearsanta féin?",
+    "Cad é do bharúil faoin intleacht shaorga?",
+    "An caimiléireacht é an intleacht shaorga a úsáid le haiste a scríobh?",
+    "Cén tionchar a bheidh ag an intleacht shaorga ar an tsaol oibre?",
+    "Ar cheart cosc a chur ar na meáin shóisialta do dhaoine óga?",
+    "Cad é is féidir linn a dhéanamh?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Am scáileáin",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a admháil go gcaithim",
+        "en": "I have to admit that I spend"
+       },
+       {
+        "ga": "Ní féidir a shéanadh go gcaitheann daoine óga",
+        "en": "It cannot be denied that young people spend"
+       }
+      ],
+      [
+       {
+        "ga": "cuid mhór ama",
+        "en": "a lot of time"
+       },
+       {
+        "ga": "barraíocht ama",
+        "en": "too much time"
+       }
+      ],
+      [
+       {
+        "ga": "ar na meáin shóisialta",
+        "en": "on social media"
+       },
+       {
+        "ga": "ag scrollú ar líne",
+        "en": "scrolling online"
+       }
+      ],
+      [
+       {
+        "ga": "achan oíche",
+        "en": "every night",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Buntáistí",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh",
+        "en": "It cannot be denied"
+       },
+       {
+        "ga": "Caithfidh mé a admháil",
+        "en": "I have to admit"
+       },
+       {
+        "ga": "Is í mo bharúil féin",
+        "en": "My own opinion is"
+       }
+      ],
+      [
+       {
+        "ga": "gurb áis iontach iad na meáin shóisialta",
+        "en": "that social media is a great resource"
+       },
+       {
+        "ga": "go gcuidíonn na meáin shóisialta linn fanacht i dteagmháil le cairde",
+        "en": "that social media helps us keep in touch with friends"
+       },
+       {
+        "ga": "gur féidir le daoine óga atá aonraic pobal a aimsiú ar líne",
+        "en": "that young people who are isolated can find a community online"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na contúirtí",
+     "columns": [
+      [
+       {
+        "ga": "Ar an láimh eile,",
+        "en": "On the other hand,"
+       },
+       {
+        "ga": "Ar an taobh eile den scéal,",
+        "en": "On the other side of the coin,"
+       }
+      ],
+      [
+       {
+        "ga": "cothaíonn na meáin shóisialta imní agus uaigneas",
+        "en": "social media breeds anxiety and loneliness"
+       },
+       {
+        "ga": "cuireann na halgartaim ábhar díobhálach os comhair daoine óga",
+        "en": "the algorithms put harmful content in front of young people"
+       },
+       {
+        "ga": "is fadhb mhór í an bhulaíocht ar líne",
+        "en": "online bullying is a big problem"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An chontúirt is mó",
+     "columns": [
+      [
+       {
+        "ga": "Is í an bhréagnuacht",
+        "en": "Fake news is"
+       },
+       {
+        "ga": "Is iad na físeáin bhréige",
+        "en": "Fake videos are"
+       }
+      ],
+      [
+       {
+        "ga": "an chontúirt is mó",
+        "en": "the biggest danger"
+       },
+       {
+        "ga": "an fhadhb is práinní",
+        "en": "the most urgent problem"
+       }
+      ],
+      [
+       {
+        "ga": "sa lá atá inniu ann",
+        "en": "nowadays"
+       },
+       {
+        "ga": ", dar liom",
+        "en": ", in my view"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ár sonraí",
+     "columns": [
+      [
+       {
+        "ga": "Tá ár sonraí pearsanta",
+        "en": "Our personal data is"
+       },
+       {
+        "ga": "Tá ár ngrianghraif agus ár bhfíseáin",
+        "en": "Our photos and videos are"
+       }
+      ],
+      [
+       {
+        "ga": "á mbailiú",
+        "en": "being collected"
+       },
+       {
+        "ga": "á n-úsáid",
+        "en": "being used"
+       },
+       {
+        "ga": "á stóráil",
+        "en": "being stored"
+       }
+      ],
+      [
+       {
+        "ga": "ag comhlachtaí móra teicneolaíochta",
+        "en": "by big tech companies"
+       },
+       {
+        "ga": "gan fhios dúinn",
+        "en": "without our knowledge"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An intleacht shaorga",
+     "columns": [
+      [
+       {
+        "ga": "Is í mo bharúil féin",
+        "en": "My own opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a admháil",
+        "en": "I have to admit"
+       },
+       {
+        "ga": "Tá mé den bharúil",
+        "en": "I am of the opinion"
+       }
+      ],
+      [
+       {
+        "ga": "gurb uirlis úsáideach í an intleacht shaorga",
+        "en": "that AI is a useful tool"
+       },
+       {
+        "ga": "gur cheart an intleacht shaorga a úsáid go ciallmhar",
+        "en": "that AI should be used sensibly"
+       },
+       {
+        "ga": "nach bhfuil an intleacht shaorga iontaofa i gcónaí",
+        "en": "that AI is not always reliable"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Caimiléireacht?",
+     "columns": [
+      [
+       {
+        "ga": "Má scríobhann an intleacht shaorga d'aiste duit,",
+        "en": "If AI writes your essay for you,"
+       },
+       {
+        "ga": "Má úsáideann tú an intleacht shaorga le d'obair bhaile a dhéanamh,",
+        "en": "If you use AI to do your homework,"
+       }
+      ],
+      [
+       {
+        "ga": "ní fhoghlaimíonn tú rud ar bith",
+        "en": "you learn nothing"
+       },
+       {
+        "ga": "is caimiléireacht é sin",
+        "en": "that is cheating"
+       },
+       {
+        "ga": "ní leatsa an obair",
+        "en": "the work is not yours"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An saol oibre",
+     "columns": [
+      [
+       {
+        "ga": "Is dóigh liom",
+        "en": "I think"
+       },
+       {
+        "ga": "Deir saineolaithe áirithe",
+        "en": "Some experts say"
+       },
+       {
+        "ga": "Is dócha",
+        "en": "It is likely"
+       }
+      ],
+      [
+       {
+        "ga": "go gcaillfear cuid mhór post",
+        "en": "that a lot of jobs will be lost"
+       },
+       {
+        "ga": "go n-athróidh an intleacht shaorga an saol oibre go hiomlán",
+        "en": "that AI will change the world of work completely"
+       },
+       {
+        "ga": "go mbeidh poist úra ann",
+        "en": "that there will be new jobs"
+       }
+      ],
+      [
+       {
+        "ga": "sna blianta atá romhainn",
+        "en": "in the years ahead",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cosc?",
+     "columns": [
+      [
+       {
+        "ga": "Is í mo bharúil féin gur cheart",
+        "en": "My own opinion is that there should be"
+       },
+       {
+        "ga": "Ní shílim gur cheart",
+        "en": "I don't think there should be"
+       },
+       {
+        "ga": "Tá mé den bharúil nár cheart",
+        "en": "I am of the opinion that there should not be"
+       }
+      ],
+      [
+       {
+        "ga": "cosc a chur ar na meáin shóisialta",
+        "en": "a ban on social media"
+       }
+      ],
+      [
+       {
+        "ga": "do pháistí faoi shé bliana déag",
+        "en": "for children under sixteen"
+       },
+       {
+        "ga": "i rith an lae scoile",
+        "en": "during the school day"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An Astráil",
+     "columns": [
+      [
+       {
+        "ga": "Chuir an Astráil cosc ar na meáin shóisialta do dhaoine faoi shé bliana déag,",
+        "en": "Australia banned social media for people under sixteen,"
+       }
+      ],
+      [
+       {
+        "ga": "agus beidh sé suimiúil an toradh a fheiceáil",
+        "en": "and it will be interesting to see the result"
+       },
+       {
+        "ga": "ach is furasta teacht timpeall ar chosc mar sin",
+        "en": "but it is easy to get around a ban like that"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá bhrí sin",
+     "columns": [
+      [
+       {
+        "ga": "Dá bhrí sin,",
+        "en": "Therefore,"
+       },
+       {
+        "ga": "Ar an ábhar sin,",
+        "en": "For that reason,"
+       }
+      ],
+      [
+       {
+        "ga": "caithfidh muid",
+        "en": "we have to"
+       },
+       {
+        "ga": "ba cheart dúinn",
+        "en": "we should"
+       }
+      ],
+      [
+       {
+        "ga": "smaoineamh go criticiúil faoi achan rud a fheiceann muid ar líne",
+        "en": "think critically about everything we see online"
+       },
+       {
+        "ga": "srian a chur ar an am a chaitheann muid ar ár bhfóin",
+        "en": "limit the time we spend on our phones"
+       },
+       {
+        "ga": "foghlaim cén dóigh le bréagnuacht a aithint",
+        "en": "learn how to recognise fake news"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Caithfidh mé a admháil go gcaithim barraíocht ama ar na meáin shóisialta achan oíche.",
+    "Ní féidir a shéanadh gurb áis iontach iad na meáin shóisialta, ach ar an láimh eile, cuireann na halgartaim ábhar díobhálach os comhair daoine óga.",
+    "Is í an bhréagnuacht an chontúirt is mó sa lá atá inniu ann. Dá bhrí sin, caithfidh muid smaoineamh go criticiúil faoi achan rud a fheiceann muid ar líne."
+   ],
+   "patterns": [
+    {
+     "title": "An chopail i ndiaidh frása tuairime",
+     "question": "Cad é a tharlaíonn do Is agus do Ní i ndiaidh frása tuairime? Cad chuige a n-úsáidtear gurb uaireanta?",
+     "questionEn": "What happens to Is and Ní after an opinion phrase? Why is gurb used sometimes?",
+     "rows": [
+      [
+       "Is fadhb mhór í an bhulaíocht ar líne.",
+       "Is í mo bharúil féin {gur} fadhb mhór í an bhulaíocht ar líne."
+      ],
+      [
+       "Is uirlis úsáideach í.",
+       "Sílim {gurb} uirlis úsáideach í."
+      ],
+      [
+       "Is í an bhréagnuacht an chontúirt is mó.",
+       "Ní féidir a shéanadh {gurb} í an bhréagnuacht an chontúirt is mó."
+      ],
+      [
+       "Is iad na halgartaim atá ciontach.",
+       "Déarfainn {gurb} iad na halgartaim atá ciontach."
+      ],
+      [
+       "Ní caimiléireacht é.",
+       "Sílim {nach} caimiléireacht é."
+      ],
+      [
+       "Ba cheart cosc a chur orthu.",
+       "Is í mo bharúil féin {gur} cheart cosc a chur orthu."
+      ],
+      [
+       "Níor cheart cosc a chur orthu.",
+       "Tá mé den bharúil {nár} cheart cosc a chur orthu."
+      ]
+     ],
+     "rule": "Ní úsáidtear go bhfuil leis an chopail. Éiríonn Is ina gur roimh chonsan agus ina gurb roimh ghuta (gur fadhb í, gurb uirlis í, gurb í). Éiríonn Ní ina nach. Éiríonn Ba cheart ina gur cheart, agus éiríonn Níor cheart ina nár cheart.",
+     "ruleEn": "Do not use go bhfuil with the copula. Is becomes gur before a consonant and gurb before a vowel (gur fadhb í, gurb uirlis í, gurb í). Ní becomes nach. Ba cheart becomes gur cheart, and Níor cheart becomes nár cheart."
+    },
+    {
+     "title": "Á agus an t-ainm briathartha",
+     "question": "Cad é a tharlaíonn don ainm briathartha i ndiaidh á? Cad chuige a bhfuil sé difriúil d'achan ainmfhocal?",
+     "questionEn": "What happens to the verbal noun after á? Why is it different for each noun?",
+     "rows": [
+      [
+       "bailigh: an t-eolas (fir.)",
+       "Tá an t-eolas {á} b[h]ailiú."
+      ],
+      [
+       "bailigh: an fhaisnéis (bain.)",
+       "Tá an fhaisnéis {á} bailiú."
+      ],
+      [
+       "bailigh: na sonraí (iol.)",
+       "Tá na sonraí {á} [m]bailiú."
+      ],
+      [
+       "úsáid: an guthán (fir.)",
+       "Tá an guthán {á} úsáid."
+      ],
+      [
+       "úsáid: an aip (bain.)",
+       "Tá an aip {á} [h]úsáid."
+      ],
+      [
+       "úsáid: na fóin (iol.)",
+       "Tá na fóin {á} [n-]úsáid."
+      ],
+      [
+       "scaip: an bhréagnuacht (bain.)",
+       "Tá an bhréagnuacht {á} scaipeadh."
+      ]
+     ],
+     "rule": "Úsáidtear á leis an ainm briathartha le rá go bhfuil rud á dhéanamh: tá an t-eolas á bhailiú (tá duine éigin ag bailiú an eolais). Leanann á na rialacha céanna leis an aidiacht shealbhach a (a chóta, a cóta, a gcóta): séimhiú más ainmfhocal firinscneach é (á bhailiú), h roimh ghuta más ainmfhocal baininscneach é (á húsáid), agus urú más ainmfhocal iolra é (á mbailiú, á n-úsáid).",
+     "ruleEn": "Á with the verbal noun says that something is being done: tá an t-eolas á bhailiú, the information is being collected (someone is collecting it). It follows the same rule as a (his, her, their): séimhiú for a masculine noun (á bhailiú), h before a vowel for a feminine noun (á húsáid), and urú for a plural noun (á mbailiú, á n-úsáid)."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Úsáidim na meáin shóisialta achan lá. Tá contúirtí ann.",
+     "en": "I use social media every day. There are dangers.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "[Caithfidh mé a admháil go n-úsáidim] na meáin shóisialta achan lá[, ach ní féidir a shéanadh go bhfuil] contúirtí [móra ag baint leo].",
+     "en": "I have to admit that I use social media every day, but it cannot be denied that there are big dangers attached to it.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Caithfidh mé a admháil go n-úsáidim na meáin shóisialta achan lá, ach ní féidir a shéanadh go bhfuil contúirtí móra ag baint leo. [Is í an bhréagnuacht an chontúirt is mó, dar liom, go háirithe anois agus físeáin bhréige á gcruthú leis an intleacht shaorga. Ina theannta sin, tá ár sonraí pearsanta á mbailiú ag comhlachtaí móra teicneolaíochta gan fhios dúinn. Dá bhrí sin, is í mo bharúil féin gur cheart dúinn smaoineamh go criticiúil faoi achan rud a fheiceann muid ar líne.]",
+     "en": "I have to admit that I use social media every day, but it cannot be denied that there are big dangers attached to it. Fake news is the biggest danger, in my view, especially now that fake videos are being created with AI. In addition, our personal data is being collected by big tech companies without our knowledge. Therefore, my own opinion is that we should think critically about everything we see online.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Díospóireacht: an scáileán agus an saol",
+     "titleEn": "Debate: the screen and life",
+     "rubric": "Tá tú ag caint leis an scrúdaitheoir faoi na meáin shóisialta agus faoin intleacht shaorga. Labhraíonn an scrúdaitheoir ar dtús. Aontaigh nó easaontaigh, agus tabhair fáth i gcónaí.",
+     "rubricEn": "You are talking to the examiner about social media and artificial intelligence. The examiner speaks first. Agree or disagree, and always give a reason.",
+     "tasks": [
+      {
+       "teacher": "Is iad na meáin shóisialta is cúis le fadhbanna sláinte intinne i measc daoine óga.",
+       "en": "Agree in part, and give another cause.",
+       "ga": "Tá mé ag teacht leis sin go pointe, ach ní shílim gurb iadsan amháin is cúis leo. Cuireann na scrúduithe agus an costas maireachtála brú ar dhaoine óga fosta."
+      },
+      {
+       "teacher": "Ba cheart cosc iomlán a chur ar fhóin chliste sna scoileanna.",
+       "en": "Agree and give a reason.",
+       "ga": "Aontaím go huile is go hiomlán leis sin. Nuair nach mbíonn an guthán i do phóca, díríonn tú ar an cheacht agus labhraíonn tú le do chairde ag am lóin."
+      },
+      {
+       "teacher": "Níl difear ar bith idir an intleacht shaorga a úsáid agus leabhar a léamh.",
+       "en": "Disagree and explain the difference.",
+       "ga": "Ní aontaím leis sin ar chor ar bith. Nuair a léann tú leabhar, caithfidh tú smaoineamh duit féin, ach má scríobhann an intleacht shaorga an aiste duit, ní fhoghlaimíonn tú rud ar bith."
+      },
+      {
+       "teacher": "Cad chuige a gcreideann daoine óga bréagnuacht?",
+       "en": "Give two reasons.",
+       "ga": "Ceist mhaith í sin. Ar an chéad dul síos, scaiptear bréagnuacht go han-ghasta ar líne. Ina theannta sin, tá na físeáin bhréige chomh réadúil sin anois nach dtig linn iad a aithint."
+      },
+      {
+       "teacher": "Dá mbeadh ort maireachtáil gan do ghuthán ar feadh míosa, cad é mar a bheadh sé?",
+       "en": "Answer the unexpected question.",
+       "ga": "Bheadh sé doiligh ar dtús, caithfidh mé a admháil. Ach dá mbeinn gan ghuthán, is dóigh liom go gcodlóinn níos fearr agus go léifinn níos mó leabhar.",
+       "unexpected": true
+      }
+     ]
+    }
+   ],
+   "writing": [
+    {
+     "title": "Na meáin shóisialta agus an intleacht shaorga: cairde nó naimhde?",
+     "prompt": "\"Déanann na meáin shóisialta agus an intleacht shaorga níos mó dochair ná maitheasa do dhaoine óga.\" An aontaíonn tú leis an ráiteas seo?",
+     "promptEn": "\"Social media and artificial intelligence do young people more harm than good.\" Do you agree with this statement?",
+     "words": 300,
+     "plan": [
+      "Tús: mínigh an dá théarma agus tabhair do sheasamh.",
+      "An taobh dearfach: teagmháil le cairde, pobail ar líne agus an intleacht shaorga mar uirlis fhoghlama.",
+      "An taobh diúltach: am scáileáin, na halgartaim, bréagnuacht agus físeáin bhréige.",
+      "Ár sonraí pearsanta agus an cheist faoi chosc do dhaoine faoi shé bliana déag.",
+      "Conclúid: freagair an cheist go díreach agus mol réiteach."
+     ],
+     "model": "Sa lá atá inniu ann, is beag duine óg nach bhfuil guthán cliste aige. Is í mo bharúil féin go ndéanann na meáin shóisialta níos mó dochair ná maitheasa, ach nach bhfuil an scéal chomh simplí sin maidir leis an intleacht shaorga.\n\nNí féidir a shéanadh go bhfuil buntáistí ag baint leis na meáin shóisialta. Cuidíonn siad linn fanacht i dteagmháil le cairde agus le gaolta atá ina gcónaí thar lear, agus thig le daoine óga atá aonraic pobal a aimsiú ar líne. Ar an dóigh chéanna, is uirlis úsáideach í an intleacht shaorga má úsáidtear go ciallmhar í: thig léi téacs deacair a mhíniú nó ceisteanna cleachtaidh a chruthú roimh scrúdú.\n\nAr an láimh eile, caithfidh mé a admháil go gcaithim féin barraíocht ama ag scrollú ar líne achan oíche. Cuireann na halgartaim ábhar díobhálach os comhair daoine óga, agus cothaíonn sé sin imní agus uaigneas. Is í an bhréagnuacht an chontúirt is mó, dar liom, go háirithe anois agus físeáin bhréige á gcruthú leis an intleacht shaorga. Tá sé ag éirí níos doiligh a aithint cad é atá fíor.\n\nIna theannta sin, tá ár sonraí pearsanta á mbailiú ag comhlachtaí móra teicneolaíochta gan fhios dúinn. Chuir an Astráil cosc ar na meáin shóisialta do dhaoine faoi shé bliana déag, agus beidh sé suimiúil an toradh a fheiceáil. Ní shílim gur cheart an cosc céanna a chur i bhfeidhm anseo, áfach, mar is furasta teacht timpeall air.\n\nDá bhrí sin, aontaím leis an ráiteas maidir leis na meáin shóisialta, ach ní aontaím leis maidir leis an intleacht shaorga. Ní hiad na huirlisí féin is cúis leis an fhadhb, ach an dóigh a n-úsáideann muid iad. Caithfidh muid foghlaim cén dóigh le smaoineamh go criticiúil faoi achan rud a fheiceann muid ar líne."
+    }
+   ]
+  },
+  {
+   "id": "a2-timpeallacht",
+   "title": "An timpeallacht agus Loch nEathach",
+   "en": "The environment and Lough Neagh",
+   "level": "A2 · Bliain 14",
+   "new": true,
+   "teaches": "Discussing the crisis on Loch nEathach and the wider environment: blue-green algae, pollution from farming and sewage, warmer weather, who owns the lough and who is to blame; the autonomous form (saorbhriathar) to say what was, is or will be done without naming who does it (tugadh rabhadh, truaillítear an t-uisce, caithfear gníomhú, níor glanadh); the copula for emphasis to place blame (Is ar an Rialtas atá an locht; Ní ar na feirmeoirí amháin atá an locht); the conditional with Dá (Dá mbeinn i m'Aire Comhshaoil, chuirfinn ...).",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le plé a dhéanamh ar an ghéarchéim ar Loch nEathach agus ar an timpeallacht.",
+     "en": "I am learning to discuss the crisis on Lough Neagh and the environment."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar an fhadhb gan a rá cé is cúis léi, agus le béim a chur ar an té atá ciontach.",
+     "en": "I am learning to describe the problem without saying who is causing it, and to put the emphasis on who is to blame."
+    }
+   ],
+   "questions": [
+    "Cad chuige a bhfuil Loch nEathach chomh tábhachtach sin?",
+    "Cad é atá ag tarlú don loch le cúpla bliain anuas?",
+    "Cad iad na cúiseanna leis an fhadhb?",
+    "Cé air a bhfuil an locht, dar leat?",
+    "Cé leis an loch?",
+    "Cad é ba cheart do na húdaráis a dhéanamh?",
+    "Dá mbeadh an chumhacht agat, cad é a dhéanfá?",
+    "Cad é is féidir le gnáthdhaoine a dhéanamh?"
+   ],
+   "qrows": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "An loch",
+     "columns": [
+      [
+       {
+        "ga": "Is é Loch nEathach",
+        "en": "Lough Neagh is"
+       },
+       {
+        "ga": "Ní féidir a shéanadh gurb é Loch nEathach",
+        "en": "It cannot be denied that Lough Neagh is"
+       }
+      ],
+      [
+       {
+        "ga": "an loch is mó in Éirinn agus sa Bhreatain",
+        "en": "the largest lake in Ireland and Britain"
+       },
+       {
+        "ga": "an acmhainn nádúrtha is luachmhaire sa Tuaisceart",
+        "en": "the most valuable natural resource in the North"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Uisce óil",
+     "columns": [
+      [
+       {
+        "ga": "Tagann cuid mhór d'uisce óil an Tuaiscirt ón loch,",
+        "en": "A large share of the North's drinking water comes from the lough,"
+       }
+      ],
+      [
+       {
+        "ga": "agus dá bhrí sin baineann an fhadhb linn uilig",
+        "en": "and therefore the problem concerns us all"
+       },
+       {
+        "ga": "agus mar sin caithfear é a chosaint",
+        "en": "and so it must be protected"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An fhadhb",
+     "columns": [
+      [
+       {
+        "ga": "Le cúpla samhradh anuas,",
+        "en": "For the last few summers,"
+       },
+       {
+        "ga": "Le blianta beaga anuas,",
+        "en": "In recent years,"
+       }
+      ],
+      [
+       {
+        "ga": "tá an t-uisce clúdaithe le halgaí gormghlasa",
+        "en": "the water has been covered in blue-green algae"
+       },
+       {
+        "ga": "tá boladh bréan ag teacht ón uisce",
+        "en": "a foul smell has been coming from the water"
+       },
+       {
+        "ga": "tá na héisc agus na héin i mbaol",
+        "en": "the fish and the birds have been in danger"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rabhadh",
+     "columns": [
+      [
+       {
+        "ga": "Tugadh rabhadh do dhaoine",
+        "en": "People were warned"
+       },
+       {
+        "ga": "Iarradh ar dhaoine",
+        "en": "People were asked"
+       }
+      ],
+      [
+       {
+        "ga": "gan dul ag snámh sa loch",
+        "en": "not to go swimming in the lough"
+       },
+       {
+        "ga": "gan a gcuid madraí a ligean isteach san uisce",
+        "en": "not to let their dogs into the water"
+       },
+       {
+        "ga": "gan teagmháil a dhéanamh leis an uisce",
+        "en": "not to touch the water"
+       }
+      ],
+      [
+       {
+        "ga": "i rith an tsamhraidh",
+        "en": "during the summer",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na cúiseanna",
+     "columns": [
+      [
+       {
+        "ga": "Deir eolaithe gurb iad",
+        "en": "Scientists say that it is"
+       },
+       {
+        "ga": "Is léir gurb iad",
+        "en": "It is clear that it is"
+       }
+      ],
+      [
+       {
+        "ga": "leasacháin feirme agus sciodar",
+        "en": "farm fertilisers and slurry"
+       },
+       {
+        "ga": "séarachas ó thithe agus dramhuisce ó mhonarchana",
+        "en": "sewage from houses and waste water from factories"
+       },
+       {
+        "ga": "na teochtaí arda agus an t-athrú aeráide",
+        "en": "the high temperatures and climate change"
+       }
+      ],
+      [
+       {
+        "ga": "is cúis leis an fhadhb",
+        "en": "that cause the problem"
+       },
+       {
+        "ga": "is mó atá ciontach",
+        "en": "that are most to blame"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An locht",
+     "columns": [
+      [
+       {
+        "ga": "Is ar an Rialtas",
+        "en": "It is the Government"
+       },
+       {
+        "ga": "Is ar na comhlachtaí móra",
+        "en": "It is the big companies"
+       },
+       {
+        "ga": "Ní ar na feirmeoirí amháin",
+        "en": "It is not the farmers alone"
+       }
+      ],
+      [
+       {
+        "ga": "atá an locht",
+        "en": "who are to blame"
+       }
+      ],
+      [
+       {
+        "ga": ", dar liom",
+        "en": ", in my view",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na feirmeoirí",
+     "columns": [
+      [
+       {
+        "ga": "Ar an láimh eile,",
+        "en": "On the other hand,"
+       },
+       {
+        "ga": "Ar an taobh eile den scéal,",
+        "en": "On the other side of the coin,"
+       }
+      ],
+      [
+       {
+        "ga": "caithfidh na feirmeoirí a mbeatha a thuilleamh",
+        "en": "the farmers have to earn their living"
+       },
+       {
+        "ga": "tá na feirmeoirí faoi bhrú mór airgid",
+        "en": "the farmers are under great financial pressure"
+       }
+      ],
+      [
+       {
+        "ga": "agus ní féidir an locht ar fad a chur orthu",
+        "en": "and not all the blame can be put on them",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cé leis an loch?",
+     "columns": [
+      [
+       {
+        "ga": "Tá grinneall an locha",
+        "en": "The bed of the lough is"
+       }
+      ],
+      [
+       {
+        "ga": "i seilbh eastáit phríobháidigh",
+        "en": "owned by a private estate"
+       }
+      ],
+      [
+       {
+        "ga": "agus ba cheart é a chur faoi úinéireacht an phobail",
+        "en": "and it should be put into public ownership"
+       },
+       {
+        "ga": "agus is dóigh liom go bhfuil sé sin míchothrom",
+        "en": "and I think that is unfair"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na húdaráis",
+     "columns": [
+      [
+       {
+        "ga": "Dá bhrí sin, ba cheart",
+        "en": "Therefore,"
+       },
+       {
+        "ga": "Is í mo bharúil féin gur cheart",
+        "en": "My own opinion is that"
+       },
+       {
+        "ga": "Tá mé den bharúil gur cheart",
+        "en": "I am of the opinion that"
+       }
+      ],
+      [
+       {
+        "ga": "don Rialtas",
+        "en": "the Government"
+       },
+       {
+        "ga": "do na húdaráis",
+        "en": "the authorities"
+       }
+      ],
+      [
+       {
+        "ga": "rialacha níos déine a chur i bhfeidhm ar thruailliú",
+        "en": "should enforce stricter rules on pollution"
+       },
+       {
+        "ga": "infheistíocht a dhéanamh sna córais séarachais",
+        "en": "should invest in the sewage systems"
+       },
+       {
+        "ga": "cuidiú leis na feirmeoirí a gcuid modhanna a athrú",
+        "en": "should help the farmers change their methods"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá mbeinn ...",
+     "columns": [
+      [
+       {
+        "ga": "Dá mbeadh an chumhacht agam,",
+        "en": "If I had the power,"
+       },
+       {
+        "ga": "Dá mbeinn i m'Aire Comhshaoil,",
+        "en": "If I were Environment Minister,"
+       }
+      ],
+      [
+       {
+        "ga": "chuirfinn cosc ar sciodar a scaipeadh in aice leis an loch",
+        "en": "I would ban spreading slurry near the lough"
+       },
+       {
+        "ga": "chaithfinn níos mó airgid ar ghlanadh an locha",
+        "en": "I would spend more money on cleaning the lough"
+       },
+       {
+        "ga": "chuirfinn an loch faoi úinéireacht an phobail",
+        "en": "I would put the lough into public ownership"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Muid féin",
+     "columns": [
+      [
+       {
+        "ga": "Ina theannta sin,",
+        "en": "In addition,"
+       },
+       {
+        "ga": "Chomh maith leis sin,",
+        "en": "As well as that,"
+       }
+      ],
+      [
+       {
+        "ga": "thig linn uilig",
+        "en": "we can all"
+       },
+       {
+        "ga": "ba cheart dúinn uilig",
+        "en": "we should all"
+       }
+      ],
+      [
+       {
+        "ga": "plaisteach aon úsáide a sheachaint",
+        "en": "avoid single-use plastic"
+       },
+       {
+        "ga": "brú a chur ar ár bpolaiteoirí",
+        "en": "put pressure on our politicians"
+       },
+       {
+        "ga": "páirt a ghlacadh i nglanadh an chladaigh",
+        "en": "take part in cleaning the shore"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is é Loch nEathach an loch is mó in Éirinn agus sa Bhreatain, agus tagann cuid mhór d'uisce óil an Tuaiscirt uaidh.",
+    "Le cúpla samhradh anuas, tá an t-uisce clúdaithe le halgaí gormghlasa, agus tugadh rabhadh do dhaoine gan dul ag snámh sa loch.",
+    "Ní ar na feirmeoirí amháin atá an locht, dar liom. Dá mbeinn i m'Aire Comhshaoil, chaithfinn níos mó airgid ar ghlanadh an locha."
+   ],
+   "patterns": [
+    {
+     "title": "An saorbhriathar",
+     "question": "Cad é mar a deir tú go ndearnadh rud gan a rá cé a rinne é? Cad é a tharlaíonn don séimhiú san aimsir chaite?",
+     "questionEn": "How do you say that something was done without saying who did it? What happens to the séimhiú in the past tense?",
+     "rows": [
+      [
+       "Thug an Rialtas rabhadh do dhaoine.",
+       "Tug[adh] rabhadh do dhaoine."
+      ],
+      [
+       "Chuir siad cosc ar shnámh.",
+       "Cuir[eadh] cosc ar shnámh."
+      ],
+      [
+       "Rinne siad scrúdú ar an uisce.",
+       "Rinne[adh] scrúdú ar an uisce."
+      ],
+      [
+       "Níor ghlan siad an loch.",
+       "Níor glan[adh] an loch."
+      ],
+      [
+       "Truaillíonn na feirmeoirí an t-uisce.",
+       "Truaillí[tear] an t-uisce."
+      ],
+      [
+       "Cluineann muid scéalta faoin loch.",
+       "Cluin[tear] scéalta faoin loch."
+      ],
+      [
+       "Caithfidh muid gníomhú anois.",
+       "Caith[fear] gníomhú anois."
+      ]
+     ],
+     "rule": "Úsáidtear an saorbhriathar nuair nach luaitear cé a rinne an gníomh. San aimsir chaite cuirtear -adh nó -eadh leis an fhréamh, agus ní bhíonn séimhiú ann: tugadh, cuireadh, níor glanadh. San aimsir láithreach cuirtear -tar nó -tear leis: truaillítear, cluintear. San aimsir fháistineach cuirtear -far nó -fear leis: caithfear.",
+     "ruleEn": "The autonomous form is used when you do not say who did the action. In the past tense add -adh or -eadh to the root, with no séimhiú: tugadh, cuireadh, níor glanadh. In the present add -tar or -tear: truaillítear, cluintear. In the future add -far or -fear: caithfear."
+    },
+    {
+     "title": "An chopail ag cur béime ar an locht",
+     "question": "Cad é mar a chuireann tú béim ar an duine nó ar an rud atá ciontach? Cá háit a dtéann Is, a agus atá?",
+     "questionEn": "How do you put the emphasis on the person or thing to blame? Where do Is, a and atá go?",
+     "rows": [
+      [
+       "Tá an locht ar an Rialtas.",
+       "{Is} ar an Rialtas {atá} an locht."
+      ],
+      [
+       "Tá an locht ar na comhlachtaí móra.",
+       "{Is} ar na comhlachtaí móra {atá} an locht."
+      ],
+      [
+       "Níl an locht ar na feirmeoirí amháin.",
+       "{Ní} ar na feirmeoirí amháin {atá} an locht."
+      ],
+      [
+       "Truaillíonn an sciodar an t-uisce.",
+       "{Is é} an sciodar {a} t[h]ruaillíonn an t-uisce."
+      ],
+      [
+       "Cuireann na halgaí na héisc i mbaol.",
+       "{Is iad} na halgaí {a} c[h]uireann na héisc i mbaol."
+      ],
+      [
+       "Chuaigh mé ag siúl cois an locha inné.",
+       "{Is} cois an locha {a} chuaigh mé ag siúl inné."
+      ]
+     ],
+     "rule": "Le béim a chur ar chuid den abairt, cuir Is ar tús agus an chuid thábhachtach díreach ina diaidh. Ansin tagann a (le séimhiú) nó atá. Roimh ainmfhocal úsáid Is é, Is í nó Is iad: Is é an sciodar a thruaillíonn an t-uisce. Roimh fhrása mar ar an Rialtas, ní úsáidtear é, í ná iad: Is ar an Rialtas atá an locht. San fhoirm dhiúltach úsáid Ní.",
+     "ruleEn": "To emphasise part of the sentence, put Is first and the important part straight after it. Then comes a (with séimhiú) or atá. Before a noun use Is é, Is í or Is iad: Is é an sciodar a thruaillíonn an t-uisce. Before a phrase such as ar an Rialtas, do not use é, í or iad: Is ar an Rialtas atá an locht. For the negative use Ní."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Tá Loch nEathach salach. Níl sé go maith.",
+     "en": "Lough Neagh is dirty. It is not good.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Tá Loch nEathach [truaillithe go dona]. [Le cúpla samhradh anuas, tá an t-uisce clúdaithe le halgaí gormghlasa.]",
+     "en": "Lough Neagh is badly polluted. For the last few summers, the water has been covered in blue-green algae.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Tá Loch nEathach truaillithe go dona. Le cúpla samhradh anuas, tá an t-uisce clúdaithe le halgaí gormghlasa[, agus tugadh rabhadh do dhaoine gan dul ag snámh ann. Deir eolaithe gurb iad leasacháin feirme agus séarachas is cúis leis an fhadhb. Ar an láimh eile, caithfidh na feirmeoirí a mbeatha a thuilleamh, agus ní ar na feirmeoirí amháin atá an locht. Dá bhrí sin, is í mo bharúil féin gur cheart don Rialtas infheistíocht a dhéanamh sna córais séarachais agus cuidiú leis na feirmeoirí a gcuid modhanna a athrú.]",
+     "en": "Lough Neagh is badly polluted. For the last few summers, the water has been covered in blue-green algae, and people were warned not to go swimming in it. Scientists say that it is farm fertilisers and sewage that cause the problem. On the other hand, the farmers have to earn their living, and it is not the farmers alone who are to blame. Therefore, my own opinion is that the Government should invest in the sewage systems and help the farmers change their methods.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Díospóireacht: Loch nEathach",
+     "titleEn": "Debate: Lough Neagh",
+     "rubric": "Tá tú ag caint leis an scrúdaitheoir faoi Loch nEathach agus faoin timpeallacht. Labhraíonn an scrúdaitheoir ar dtús. Aontaigh nó easaontaigh, agus tabhair fáth i gcónaí.",
+     "rubricEn": "You are talking to the examiner about Lough Neagh and the environment. The examiner speaks first. Agree or disagree, and always give a reason.",
+     "tasks": [
+      {
+       "teacher": "Níl sa scéal faoi Loch nEathach ach fadhb d'iascairí agus d'fheirmeoirí.",
+       "en": "Disagree and explain why it matters to everyone.",
+       "ga": "Ní aontaím leis sin ar chor ar bith. Tagann cuid mhór d'uisce óil an Tuaiscirt ón loch, mar sin baineann an fhadhb linn uilig."
+      },
+      {
+       "teacher": "Is ar na feirmeoirí atá an locht ar fad.",
+       "en": "Agree in part, but name another cause.",
+       "ga": "Tá mé ag teacht leis sin go pointe, ach ní ar na feirmeoirí amháin atá an locht. Tá séarachas ó thithe agus ó mhonarchana ag dul isteach sa loch fosta, agus tá an aimsir ag éirí níos teo."
+      },
+      {
+       "teacher": "Ba cheart an loch a fhágáil mar atá sé. Leigheasfaidh an dúlra é féin.",
+       "en": "Disagree and give a reason.",
+       "ga": "Ní shílim go bhfuil an ceart agat. Má fhágtar an loch mar atá sé, rachaidh an scéal in olcas achan samhradh. Caithfear gníomhú anois."
+      },
+      {
+       "teacher": "Cad é is féidir le duine óg a dhéanamh faoi seo?",
+       "en": "Suggest two things young people can do.",
+       "ga": "Thig linn brú a chur ar ár bpolaiteoirí agus ríomhphost a chur chucu. Ina theannta sin, thig linn páirt a ghlacadh i nglanadh an chladaigh ag an deireadh seachtaine."
+      },
+      {
+       "teacher": "Dá mbeifeá i do chónaí cois an locha, an rachfá ag snámh ann?",
+       "en": "Answer the unexpected question.",
+       "ga": "Ní rachainn, faraor, go dtí go mbeadh an t-uisce glan arís. Ach dá mbeadh sé glan, rachainn ann achan lá.",
+       "unexpected": true
+      }
+     ]
+    }
+   ],
+   "writing": [
+    {
+     "title": "Loch nEathach: an féidir é a shábháil?",
+     "prompt": "\"Tá Loch nEathach ag fáil bháis, agus is orainn uilig atá an locht.\" Déan plé ar an ráiteas seo.",
+     "promptEn": "\"Lough Neagh is dying, and we are all to blame.\" Discuss this statement.",
+     "words": 300,
+     "plan": [
+      "Tús: tábhacht an locha don Tuaisceart (uisce óil, dúlra agus iascaireacht).",
+      "An fhadhb: na halgaí gormghlasa agus an tionchar atá acu ar dhaoine agus ar an dúlra.",
+      "Na cúiseanna: an fheirmeoireacht, an séarachas agus an t-athrú aeráide.",
+      "An locht agus an fhreagracht: an Rialtas, na comhlachtaí, na feirmeoirí agus muid féin.",
+      "Conclúid: réitigh agus do bharúil féin."
+     ],
+     "model": "Is é Loch nEathach an loch is mó in Éirinn agus sa Bhreatain, agus ní féidir a shéanadh gurb é an acmhainn nádúrtha is luachmhaire sa Tuaisceart. Tagann cuid mhór dár n-uisce óil uaidh, agus tá iascairí, feirmeoirí agus pobail iomlána ag brath air.\n\nLe cúpla samhradh anuas, áfach, tá an t-uisce clúdaithe le halgaí gormghlasa. Tugadh rabhadh do dhaoine gan dul ag snámh sa loch agus gan a gcuid madraí a ligean isteach san uisce. Nuair a chuaigh mé féin ag siúl cois an locha an samhradh seo caite, bhí an t-uisce glas agus tiubh, agus bhí boladh bréan uaidh. Baineadh stad asam, caithfidh mé a admháil.\n\nDeir eolaithe gurb iad leasacháin feirme, sciodar agus séarachas is cúis leis an fhadhb, agus go bhfuil an aimsir níos teo ag cur léi. Is furasta an locht a chur ar na feirmeoirí, ach ar an láimh eile, caithfidh siad a mbeatha a thuilleamh, agus is dóigh liom nach bhfuair siad go leor tacaíochta le hathruithe a dhéanamh. Ina theannta sin, tá séarachas ó thithe agus ó mhonarchana ag dul isteach sa loch le blianta.\n\nAn bhfuil an locht orainn uilig, mar sin? Go pointe, tá. Is muidne a úsáideann an t-uisce agus a cheannaíonn an bia saor, agus is muidne a vótálann do na polaiteoirí. Ach is ar an Rialtas atá an fhreagracht is mó, dar liom, mar is aige atá an chumhacht. Chomh maith leis sin, is le heastát príobháideach grinneall an locha, rud a fhágann nach léir i gcónaí cé atá freagrach as.\n\nDá bhrí sin, is í mo bharúil féin gur cheart rialacha níos déine a chur i bhfeidhm ar thruailliú, infheistíocht a dhéanamh sna córais séarachais agus cuidiú leis na feirmeoirí a gcuid modhanna a athrú. Dá ndéanfaí sin, bheadh seans ann go fóill an loch a shábháil don chéad ghlúin eile."
+    }
+   ]
+  },
+  {
+   "id": "a2-todhchai",
+   "title": "Obair, ollscoil agus an todhchaí",
+   "en": "Work, university and the future",
+   "level": "A2 · Bliain 14",
+   "new": true,
+   "teaches": "Weighing up the options after Year 14: university here or in Britain, higher-level apprenticeships, a gap year, emigration and the cost of living; the conditional with Dá and urú (Dá mbeinn, Dá bhfaighinn, Dá n-éireodh liom, Dá dtiocfadh liom), with both forms of the first person plural (rachaimis or rachadh muid); the copula for emphasis (Is é an costas an rud is mó a chuireann imní orm; Is é an rud is tábhachtaí ná ...).",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le plé a dhéanamh ar na roghanna atá romham i ndiaidh na scoile.",
+     "en": "I am learning to discuss the options ahead of me after school."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le Dá agus an modh coinníollach a úsáid, agus le béim a chur ar an rud is tábhachtaí.",
+     "en": "I am learning to use Dá and the conditional, and to put the emphasis on the most important thing."
+    }
+   ],
+   "questions": [
+    "Cad é atá ar intinn agat a dhéanamh i ndiaidh na scoile?",
+    "Cad é a mheallann thú chuig an rogha sin?",
+    "An í an ollscoil an rogha is fearr d'achan duine?",
+    "Cad é an rud is mó a chuireann imní ort faoin todhchaí?",
+    "Dá bhfaighfeá na gráid atá uait, cad é a dhéanfá?",
+    "Ar mhaith leat taisteal nó obair thar lear?",
+    "Cad chuige a bhfuil an oiread sin daoine óga ag fágáil an Tuaiscirt?",
+    "An bhfuil sé ag éirí níos doiligh do dhaoine óga?",
+    "Cad é ba cheart don Rialtas a dhéanamh?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "I ndiaidh na scoile",
+     "columns": [
+      [
+       {
+        "ga": "I ndiaidh na scrúduithe,",
+        "en": "After the exams,"
+       },
+       {
+        "ga": "Nuair a fhágfaidh mé an scoil,",
+        "en": "When I leave school,"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé ar intinn agam",
+        "en": "I intend"
+       },
+       {
+        "ga": "ba mhaith liom",
+        "en": "I would like"
+       }
+      ],
+      [
+       {
+        "ga": "dul chun na hollscoile i mBéal Feirste",
+        "en": "to go to university in Belfast"
+       },
+       {
+        "ga": "printíseacht ardleibhéil a dhéanamh",
+        "en": "to do a higher-level apprenticeship"
+       },
+       {
+        "ga": "bliain amach a thógáil",
+        "en": "to take a gap year"
+       },
+       {
+        "ga": "staidéar a dhéanamh i Sasana nó in Albain",
+        "en": "to study in England or Scotland"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An rud a mheallann mé",
+     "columns": [
+      [
+       {
+        "ga": "Is é an rud is mó a mheallann mé",
+        "en": "The thing that attracts me most"
+       },
+       {
+        "ga": "Is é an buntáiste is mó",
+        "en": "The biggest advantage"
+       }
+      ],
+      [
+       {
+        "ga": "ná an deis",
+        "en": "is the chance"
+       }
+      ],
+      [
+       {
+        "ga": "taithí oibre a fháil agus mé ag foghlaim",
+        "en": "to get work experience while I am learning"
+       },
+       {
+        "ga": "céim a bhaint amach gan fiacha móra",
+        "en": "to get a degree without big debts"
+       },
+       {
+        "ga": "an domhan a fheiceáil",
+        "en": "to see the world"
+       },
+       {
+        "ga": "cairde úra a dhéanamh",
+        "en": "to make new friends"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Printíseachtaí",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh",
+        "en": "It cannot be denied"
+       },
+       {
+        "ga": "Caithfidh mé a admháil",
+        "en": "I have to admit"
+       },
+       {
+        "ga": "Is í mo bharúil féin",
+        "en": "My own opinion is"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil printíseachtaí ag éirí níos coitianta",
+        "en": "that apprenticeships are becoming more common"
+       },
+       {
+        "ga": "go bhfaigheann printísigh pá agus iad ag foghlaim",
+        "en": "that apprentices get paid while they are learning"
+       },
+       {
+        "ga": "nach bhfuil an ollscoil oiriúnach d'achan duine",
+        "en": "that university is not suitable for everyone"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An imní is mó",
+     "columns": [
+      [
+       {
+        "ga": "Is é an costas",
+        "en": "The cost is"
+       },
+       {
+        "ga": "Is é praghas an lóistín",
+        "en": "The price of accommodation is"
+       }
+      ],
+      [
+       {
+        "ga": "an rud is mó a chuireann imní orm",
+        "en": "the thing that worries me most"
+       },
+       {
+        "ga": "an bac is mó ar dhaoine óga",
+        "en": "the biggest obstacle for young people"
+       }
+      ],
+      [
+       {
+        "ga": "faoi láthair",
+        "en": "at the moment",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fiacha",
+     "columns": [
+      [
+       {
+        "ga": "Má théim chun na hollscoile i Sasana,",
+        "en": "If I go to university in England,"
+       },
+       {
+        "ga": "Má bhogaim go Béal Feirste le staidéar a dhéanamh,",
+        "en": "If I move to Belfast to study,"
+       }
+      ],
+      [
+       {
+        "ga": "beidh fiacha móra orm",
+        "en": "I will have big debts"
+       },
+       {
+        "ga": "beidh orm post páirtaimseartha a fháil",
+        "en": "I will have to get a part-time job"
+       },
+       {
+        "ga": "beidh orm cíos ard a íoc",
+        "en": "I will have to pay high rent"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá bhfaighinn ...",
+     "columns": [
+      [
+       {
+        "ga": "Dá bhfaighinn na gráid,",
+        "en": "If I got the grades,"
+       },
+       {
+        "ga": "Dá n-éireodh liom sna scrúduithe,",
+        "en": "If I did well in the exams,"
+       }
+      ],
+      [
+       {
+        "ga": "rachainn go hOllscoil na Banríona",
+        "en": "I would go to Queen's University"
+       },
+       {
+        "ga": "dhéanfainn cúrsa sa leigheas",
+        "en": "I would do a course in medicine"
+       },
+       {
+        "ga": "dhéanfainn cúrsa san innealtóireacht",
+        "en": "I would do a course in engineering"
+       },
+       {
+        "ga": "d'fhanfainn sa Tuaisceart le staidéar a dhéanamh",
+        "en": "I would stay in the North to study"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Thar lear",
+     "columns": [
+      [
+       {
+        "ga": "Dá mbeadh an deis againn,",
+        "en": "If we had the chance,"
+       },
+       {
+        "ga": "Dá mbeadh go leor airgid againn,",
+        "en": "If we had enough money,"
+       }
+      ],
+      [
+       {
+        "ga": "rachaimis",
+        "en": "we would go"
+       },
+       {
+        "ga": "rachadh muid",
+        "en": "we would go"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an Astráil ar feadh bliana",
+        "en": "to Australia for a year"
+       },
+       {
+        "ga": "ag taisteal thart ar an domhan",
+        "en": "travelling around the world"
+       },
+       {
+        "ga": "go Ceanada le hobair a fháil",
+        "en": "to Canada to find work"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An imirce",
+     "columns": [
+      [
+       {
+        "ga": "Ní féidir a shéanadh go bhfuil",
+        "en": "It cannot be denied that"
+       },
+       {
+        "ga": "Is trua liom go bhfuil",
+        "en": "I think it is a pity that"
+       }
+      ],
+      [
+       {
+        "ga": "cuid mhór daoine óga ag fágáil an Tuaiscirt",
+        "en": "a lot of young people are leaving the North"
+       },
+       {
+        "ga": "na daoine óga is cumasaí ag dul ar imirce",
+        "en": "the most talented young people are emigrating"
+       }
+      ],
+      [
+       {
+        "ga": "agus nach dtagann siad ar ais",
+        "en": "and that they do not come back",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige?",
+     "columns": [
+      [
+       {
+        "ga": "Téann siad thar lear",
+        "en": "They go abroad"
+       },
+       {
+        "ga": "Fágann siad an baile",
+        "en": "They leave home"
+       }
+      ],
+      [
+       {
+        "ga": "mar nach bhfuil go leor áiteanna ollscoile anseo",
+        "en": "because there are not enough university places here"
+       },
+       {
+        "ga": "mar go bhfuil pá níos fearr ar fáil in áiteanna eile",
+        "en": "because better pay is available elsewhere"
+       },
+       {
+        "ga": "mar go bhfuil sé ródhoiligh teach a fháil anseo",
+        "en": "because it is too hard to get a house here"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An costas maireachtála",
+     "columns": [
+      [
+       {
+        "ga": "Ina theannta sin,",
+        "en": "In addition,"
+       },
+       {
+        "ga": "Chomh maith leis sin,",
+        "en": "As well as that,"
+       }
+      ],
+      [
+       {
+        "ga": "tá an costas maireachtála ag cur brú ar dhaoine óga",
+        "en": "the cost of living is putting pressure on young people"
+       },
+       {
+        "ga": "tá cíosanna ag ardú ó bhliain go bliain",
+        "en": "rents are rising year on year"
+       },
+       {
+        "ga": "is doiligh do dhaoine óga teach dá gcuid féin a cheannach",
+        "en": "it is hard for young people to buy a house of their own"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá bhrí sin",
+     "columns": [
+      [
+       {
+        "ga": "Dá bhrí sin,",
+        "en": "Therefore,"
+       },
+       {
+        "ga": "Ar an ábhar sin,",
+        "en": "For that reason,"
+       }
+      ],
+      [
+       {
+        "ga": "is í mo bharúil féin gur cheart",
+        "en": "my own opinion is that"
+       }
+      ],
+      [
+       {
+        "ga": "don Rialtas níos mó áiteanna ollscoile a chruthú sa Tuaisceart",
+        "en": "the Government should create more university places in the North"
+       },
+       {
+        "ga": "níos mó printíseachtaí a chur ar fáil do dhaoine óga",
+        "en": "more apprenticeships should be made available for young people"
+       },
+       {
+        "ga": "cuidiú le daoine óga fanacht sa bhaile",
+        "en": "young people should be helped to stay at home"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "I ndiaidh na scrúduithe, tá sé ar intinn agam printíseacht ardleibhéil a dhéanamh. Is é an rud is mó a mheallann mé ná an deis taithí oibre a fháil agus mé ag foghlaim.",
+    "Dá bhfaighinn na gráid, rachainn go hOllscoil na Banríona, ach is é praghas an lóistín an rud is mó a chuireann imní orm.",
+    "Ní féidir a shéanadh go bhfuil cuid mhór daoine óga ag fágáil an Tuaiscirt, mar nach bhfuil go leor áiteanna ollscoile anseo."
+   ],
+   "patterns": [
+    {
+     "title": "Dá agus an modh coinníollach",
+     "question": "Cad é a tharlaíonn don bhriathar i ndiaidh Dá? Cén aimsir atá sa dara leath den abairt?",
+     "questionEn": "What happens to the verb after Dá? Which tense is in the second half of the sentence?",
+     "rows": [
+      [
+       "Bheinn saor.",
+       "{Dá} [m]beinn saor, rachainn ag taisteal."
+      ],
+      [
+       "Gheobhainn na gráid.",
+       "{Dá} [bhfaighinn] na gráid, d'fhanfainn sa bhaile."
+      ],
+      [
+       "D'éireodh liom.",
+       "{Dá} [n-]éireodh liom, bheinn an-sásta."
+      ],
+      [
+       "Thiocfadh liom.",
+       "{Dá} [d]tiocfadh liom, d'fhoghlaimeoinn Spáinnis."
+      ],
+      [
+       "Rachainn go Ceanada.",
+       "{Dá} rachainn go Ceanada, bheadh uaigneas orm."
+      ],
+      [
+       "Bheadh an deis againn.",
+       "{Dá} [m]beadh an deis againn, rachaimis (nó rachadh muid) go dtí an Astráil."
+      ]
+     ],
+     "rule": "I ndiaidh Dá bíonn urú ar an bhriathar, agus bíonn an modh coinníollach sa dá leath den abairt: dá mbeinn, dá dtiocfadh, dá n-éireodh. Ní ghlacann r urú: dá rachainn. Tá foirm spleách ag gheobhainn: dá bhfaighinn. Tá dhá fhoirm ag an chéad phearsa iolra: rachaimis nó rachadh muid.",
+     "ruleEn": "After Dá the verb takes urú, and both halves of the sentence are in the conditional: dá mbeinn, dá dtiocfadh, dá n-éireodh. R never takes urú: dá rachainn. Gheobhainn has a dependent form: dá bhfaighinn. The first person plural has two forms: rachaimis or rachadh muid."
+    },
+    {
+     "title": "An chopail ag cur béime: Is é ... ná ...",
+     "question": "Cad é mar a chuireann tú béim ar an rud is tábhachtaí? Cad é a tharlaíonn don bhriathar i ndiaidh a?",
+     "questionEn": "How do you put the emphasis on the most important thing? What happens to the verb after a?",
+     "rows": [
+      [
+       "Cuireann an costas imní orm.",
+       "{Is é} an costas an rud is mó {a} c[h]uireann imní orm."
+      ],
+      [
+       "Meallann an pá mé.",
+       "{Is é} an pá {a} m[h]eallann mé."
+      ],
+      [
+       "Tá na fiacha ag cur isteach orm.",
+       "{Is iad} na fiacha {atá} ag cur isteach orm."
+      ],
+      [
+       "Tá an deis tábhachtach.",
+       "{Is é} an rud is tábhachtaí {ná} an deis."
+      ],
+      [
+       "Tá mé ag iarraidh fanacht sa bhaile.",
+       "{Is é} an rud {atá} uaim {ná} fanacht sa bhaile."
+      ],
+      [
+       "Chuaigh sí go Ceanada.",
+       "{Is} go Ceanada {a} chuaigh sí."
+      ]
+     ],
+     "rule": "Le béim a chur ar rud, tosaigh le Is é, Is í nó Is iad. Ansin tagann a (le séimhiú) nó atá: Is é an costas a chuireann imní orm. Tá an struchtúr Is é an rud ... ná ... an-úsáideach i ndíospóireacht: Is é an rud is tábhachtaí ná an deis.",
+     "ruleEn": "To emphasise something, start with Is é, Is í or Is iad. Then comes a (with séimhiú) or atá: Is é an costas a chuireann imní orm. The structure Is é an rud ... ná ... is very useful in a debate: Is é an rud is tábhachtaí ná an deis."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Ba mhaith liom dul chun na hollscoile. Tá sé costasach.",
+     "en": "I would like to go to university. It is expensive.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "[I ndiaidh na scrúduithe,] ba mhaith liom dul chun na hollscoile [i mBéal Feirste. Is é an costas an rud is mó a chuireann imní orm].",
+     "en": "After the exams, I would like to go to university in Belfast. The cost is the thing that worries me most.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "I ndiaidh na scrúduithe, ba mhaith liom dul chun na hollscoile i mBéal Feirste. Is é an costas an rud is mó a chuireann imní orm[, go háirithe praghas an lóistín. Ar an láimh eile, caithfidh mé a admháil go bhfuil printíseachtaí ag éirí níos coitianta, agus go bhfaigheann printísigh pá agus iad ag foghlaim. Dá bhfaighinn printíseacht mhaith sa Tuaisceart, ní bheadh fiacha móra orm ag deireadh an chúrsa. Dá bhrí sin, níl mé cinnte go fóill, ach is é an rud is tábhachtaí ná go roghnóidh mé an bealach atá ceart domsa].",
+     "en": "After the exams, I would like to go to university in Belfast. The cost is the thing that worries me most, especially the price of accommodation. On the other hand, I have to admit that apprenticeships are becoming more common, and that apprentices get paid while they are learning. If I got a good apprenticeship in the North, I would not have big debts at the end of the course. Therefore, I am not sure yet, but the most important thing is that I choose the path that is right for me.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Díospóireacht: an todhchaí",
+     "titleEn": "Debate: the future",
+     "rubric": "Tá tú ag caint leis an scrúdaitheoir faoin ollscoil, faoin obair agus faoin todhchaí. Labhraíonn an scrúdaitheoir ar dtús. Aontaigh nó easaontaigh, agus tabhair fáth i gcónaí.",
+     "rubricEn": "You are talking to the examiner about university, work and the future. The examiner speaks first. Agree or disagree, and always give a reason.",
+     "tasks": [
+      {
+       "teacher": "Is cur amú ama agus airgid í an ollscoil sa lá atá inniu ann.",
+       "en": "Disagree and give a reason.",
+       "ga": "Ní aontaím leis sin. Ní féidir a shéanadh go bhfuil an ollscoil costasach, ach tá céim de dhíth le haghaidh cuid mhór post, mar shampla le bheith i do dhochtúir nó i do mhúinteoir."
+      },
+      {
+       "teacher": "Níl printíseachtaí ann ach do dhaltaí nach bhfuil cliste go leor don ollscoil.",
+       "en": "Disagree strongly.",
+       "ga": "Ní aontaím leis sin ar chor ar bith. Tá printíseachtaí ardleibhéil ann anois san innealtóireacht agus sa chuntasaíocht, agus faigheann printísigh pá agus cáilíocht araon. Is rogha chliste í, ní rogha den dara grád."
+      },
+      {
+       "teacher": "Ba cheart do dhaoine óga fanacht sa Tuaisceart agus cuidiú lena bpobal féin.",
+       "en": "Agree in part, but explain why many leave.",
+       "ga": "Tá mé ag teacht leis sin go pointe. Ach caithfidh mé a admháil nach bhfuil go leor áiteanna ollscoile anseo, agus mar sin bíonn ar chuid mhór daltaí imeacht go Sasana nó go hAlbain."
+      },
+      {
+       "teacher": "Cad é an rud is mó a chuireann imní ar dhaoine óga faoin todhchaí?",
+       "en": "Give your view, putting the emphasis on the main worry.",
+       "ga": "Is é an costas maireachtála an rud is mó, gan amhras. Tá cíosanna ag ardú ó bhliain go bliain, agus is doiligh do dhaoine óga teach dá gcuid féin a cheannach."
+      },
+      {
+       "teacher": "Dá mbeadh milliún punt agat amárach, an rachfá chun na hollscoile ar chor ar bith?",
+       "en": "Answer the unexpected question.",
+       "ga": "Rachainn, cinnte. Dá mbeadh milliún punt agam, ní bheadh imní orm faoi fhiacha, agus thiocfadh liom díriú go hiomlán ar mo chuid staidéir.",
+       "unexpected": true
+      }
+     ]
+    }
+   ],
+   "writing": [
+    {
+     "title": "An todhchaí: fanacht nó imeacht?",
+     "prompt": "\"Níl todhchaí ar bith do dhaoine óga sa Tuaisceart.\" Déan plé ar an ráiteas seo, ag tagairt don ollscoil, don obair agus don imirce.",
+     "promptEn": "\"There is no future for young people in the North.\" Discuss this statement, with reference to university, work and emigration.",
+     "words": 300,
+     "plan": [
+      "Tús: do phleananna féin agus do sheasamh ar an ráiteas.",
+      "An ollscoil: na roghanna, an costas agus an easpa áiteanna sa Tuaisceart.",
+      "Printíseachtaí agus an saol oibre: na buntáistí agus na míbhuntáistí.",
+      "An imirce agus an costas maireachtála: cad chuige a n-imíonn daoine óga?",
+      "Conclúid: freagair an cheist agus mol cad é ba cheart don Rialtas a dhéanamh."
+     ],
+     "model": "Is minic a chluintear nach bhfuil todhchaí ar bith do dhaoine óga sa Tuaisceart. Caithfidh mé a admháil go dtuigim cad chuige a mbíonn an tuairim sin ag daoine, ach ní aontaím go hiomlán leis an ráiteas.\n\nTá mé féin sa bhliain dheireanach ar scoil anois, agus tá cinneadh mór romham. Ba mhaith liom dul chun na hollscoile, ach ní féidir a shéanadh go bhfuil fadhbanna ann. Níl go leor áiteanna ollscoile sa Tuaisceart, agus dá bhrí sin bíonn ar chuid mhór daltaí imeacht go Sasana nó go hAlbain. Is é an costas an rud is mó a chuireann imní orm: idir tháillí, chíos agus bhia, bheadh fiacha móra orm ag deireadh an chúrsa.\n\nAr an láimh eile, tá roghanna eile ann anois nach raibh ann roimhe. Tá printíseachtaí ardleibhéil ag éirí níos coitianta, agus faigheann printísigh pá agus iad ag foghlaim. Dá bhfaighinn printíseacht mhaith anseo, ní bheadh fiacha orm, agus bheinn ag cur le geilleagar mo cheantair féin.\n\nIna theannta sin, ní féidir neamhaird a dhéanamh den imirce. Tá cuid mhór de mo chairde ag caint ar bhliain a chaitheamh san Astráil nó i gCeanada. Dá mbeadh an deis againn, rachaimis (nó rachadh muid) ann ar feadh tamaill, ach is í an cheist mhór an dtiocfaimis (nó an dtiocfadh muid) ar ais. Ní hiontas é sin, mar tá cíosanna ag ardú ó bhliain go bliain, agus is doiligh do dhaoine óga teach dá gcuid féin a cheannach sa bhaile.\n\nDá bhrí sin, is í mo bharúil féin go bhfuil todhchaí ann do dhaoine óga sa Tuaisceart, ach nach dtig linn í a ghlacadh mar rud cinnte. Ba cheart don Rialtas níos mó áiteanna ollscoile a chruthú agus cuidiú le daoine óga fanacht sa bhaile. Is anseo atá ár muintir agus ár gcairde, agus is anseo ba mhaith liomsa mo shaol a chaitheamh."
+    }
+   ]
+  }
+ ]
+}
