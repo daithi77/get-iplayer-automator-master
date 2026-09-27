@@ -77,6 +77,32 @@ for s in SRC['sections']:
         'rules': [{'point': nb(r['point']), 'text': t} for r in s.get('rulesUlster', []) for t in [clean_rule(r['statement'])] if t],
         'tables': [{'title': nb(p['title']), 'forms': [BOOKNOTE.sub('', f) for f in p['forms']]} for p in s.get('paradigmsUlster', [])],
         'models': models, 'items': items}
+# Walk-through lessons (data/lessons/<id>.json), written per section: rule, steps, worked example, hint, practice.
+import os
+DASH = re.compile('[\u2013\u2014]')
+def tidy(v):
+    if isinstance(v, str): return DASH.sub(',', nb(v)) if v else v
+    if isinstance(v, list): return [tidy(x) for x in v]
+    if isinstance(v, dict): return {k: tidy(x) for k, x in v.items()}
+    return v
+for sid, sec in out['sections'].items():
+    f = f'data/lessons/{sid}.json'
+    if os.path.exists(f):
+        L = json.load(open(f))
+        lessons = tidy(L.get('lessons', []))
+        # Every practice item carries shape, prompt, answer and point (the lesson title), so both apps can decode it.
+        for l in lessons:
+            l['more'] = l.get('more') or []
+            clean = []
+            for it in l.get('items', []):
+                if not it.get('prompt') or not it.get('answer'): continue
+                it['shape'] = it.get('shape') or 'stem'
+                it['point'] = it.get('point') or l['title']
+                if it['shape'] in ('question', 'free'): it['self'] = True
+                clean.append({k: it[k] for k in ('shape', 'prompt', 'answer', 'point', 'gap', 'self') if k in it})
+            l['items'] = clean
+        sec['lessons'] = [l for l in lessons if l['items'] and l.get('example', {}).get('prompt')]
+        if L.get('tables'): sec['tables'] = tidy(L['tables'])
 for ga, en, em, ids in GROUPS:
     out['groups'].append({'ga': ga, 'en': en, 'emoji': em, 'sections': ids})
 assert sorted(i for g in GROUPS for i in g[3]) == sorted(out['sections'])

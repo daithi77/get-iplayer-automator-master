@@ -8,11 +8,23 @@ enum GrammarSlide {
     case rule(GrammarRule)
     case table(GrammarTable)
     case item(GrammarItem)
+    case lessonRule(GrammarLesson, Int)
+    case worked(GrammarLesson)
     case end
 }
 
 enum GrammarSlides {
     static func make(_ section: GrammarSection) -> [GrammarSlide] {
+        if let lessons = section.lessons, !lessons.isEmpty {
+            var slides: [GrammarSlide] = [.title]
+            for (i, lesson) in lessons.enumerated() {
+                slides.append(.lessonRule(lesson, i))
+                slides.append(.worked(lesson))
+                slides += lesson.items.shuffled().prefix(3).map { GrammarSlide.item($0) }
+            }
+            slides.append(.end)
+            return slides
+        }
         var byPoint: [String: [GrammarModel]] = [:]
         for m in section.models { byPoint[m.point, default: []].append(m) }
         let points = byPoint.keys.filter { (byPoint[$0]?.count ?? 0) >= 3 }
@@ -145,10 +157,44 @@ struct GrammarDeck: View {
 
     /// On a practice slide the first press shows the answer; the next moves on.
     private func advance() {
-        if case .item = slides[page], !revealed.contains(page) {
+        if isReveal(slides[page]), !revealed.contains(page) {
             revealed.insert(page)
         } else {
             withAnimation { page = min(lastPage, page + 1) }
+        }
+    }
+
+    private func isReveal(_ slide: GrammarSlide) -> Bool {
+        switch slide {
+        case .item, .worked: return true
+        default: return false
+        }
+    }
+
+    private func revealBlock(prompt: String, answer: String, index: Int, scale s: CGFloat) -> some View {
+        VStack(alignment: .leading, spacing: 20 * s) {
+            Text(prompt)
+                .font(.system(size: 44 * s, weight: .bold))
+                .foregroundStyle(Theme.columnInk(0))
+                .padding(20 * s)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.fill(0)))
+            if revealed.contains(index) {
+                Text(Highlight.changes(from: prompt, to: answer))
+                    .font(.system(size: 44 * s, weight: .bold))
+                    .padding(20 * s)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.penWash))
+            } else {
+                Button {
+                    revealed.insert(index)
+                } label: {
+                    Label("Taispeáin an freagra · show the answer", systemImage: "eye")
+                        .font(.system(size: 24 * s, weight: .bold))
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(Theme.ink)
+            }
         }
     }
 
@@ -204,28 +250,18 @@ struct GrammarDeck: View {
             Text(showEnglish ? "\(item.task.ga) \(item.task.en)" : item.task.ga)
                 .font(.system(size: 26 * s, weight: .semibold))
                 .foregroundStyle(Theme.muted)
-            Text(item.prompt)
-                .font(.system(size: 44 * s, weight: .bold))
-                .foregroundStyle(Theme.columnInk(0))
-                .padding(20 * s)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.fill(0)))
-            if revealed.contains(index) {
-                Text(item.answer)
-                    .font(.system(size: 44 * s, weight: .bold))
-                    .padding(20 * s)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.penWash))
-            } else {
-                Button {
-                    revealed.insert(index)
-                } label: {
-                    Label("Taispeáin an freagra · show the answer", systemImage: "eye")
-                        .font(.system(size: 24 * s, weight: .bold))
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(Theme.ink)
+            revealBlock(prompt: item.prompt, answer: item.answer, index: index, scale: s)
+        case .lessonRule(let lesson, let i):
+            heading("Riail \(i + 1)", s)
+            Text(lesson.title).font(.system(size: 46 * s, weight: .bold))
+            Text(lesson.rule).font(.system(size: 30 * s)).frame(maxWidth: 1100 * s, alignment: .leading)
+            ForEach(Array(lesson.steps.enumerated()), id: \.offset) { n, step in
+                Text("\(n + 1). \(step)").font(.system(size: 26 * s))
             }
+        case .worked(let lesson):
+            heading("Sampla", s)
+            Text(lesson.title).font(.system(size: 26 * s, weight: .semibold)).foregroundStyle(Theme.muted)
+            revealBlock(prompt: lesson.example.prompt, answer: lesson.example.answer, index: index, scale: s)
         case .end:
             heading("Críoch", s)
             Text(section.title).font(.system(size: 50 * s, weight: .bold))

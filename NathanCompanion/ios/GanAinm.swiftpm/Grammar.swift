@@ -74,6 +74,10 @@ struct GrammarSection: Codable, Hashable, Identifiable {
     let tables: [GrammarTable]
     let models: [GrammarModel]
     let items: [GrammarItem]
+    /// Walk-through lessons. When present, the section is taught lesson by lesson.
+    let lessons: [GrammarLesson]?
+
+    var hasLessons: Bool { !(lessons ?? []).isEmpty }
 }
 
 enum GrammarLoader {

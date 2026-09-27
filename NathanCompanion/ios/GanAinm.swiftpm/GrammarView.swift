@@ -34,12 +34,21 @@ struct GrammarHome: View {
                             .padding(.top, 6)
                         ForEach(group.sections, id: \.self) { sid in
                             if let section = grammar.sections[sid] {
-                                Button {
-                                    active = GrammarSession(section: section, store: store)
-                                } label: {
-                                    GrammarSectionRow(section: section, progress: progress(section))
+                                if section.hasLessons {
+                                    NavigationLink {
+                                        LessonList(section: section)
+                                    } label: {
+                                        GrammarSectionRow(section: section, progress: progress(section))
+                                    }
+                                    .buttonStyle(.plain)
+                                } else {
+                                    Button {
+                                        active = GrammarSession(section: section, store: store)
+                                    } label: {
+                                        GrammarSectionRow(section: section, progress: progress(section))
+                                    }
+                                    .buttonStyle(.plain)
                                 }
-                                .buttonStyle(.plain)
                             }
                         }
                     }
@@ -72,7 +81,7 @@ struct GrammarSectionRow: View {
         HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 3) {
                 Text(section.title).font(.headline).foregroundStyle(Theme.ink)
-                Text("\(section.en) · \(section.items.count) cleachtadh")
+                Text(section.hasLessons ? "\(section.en) · \(section.lessons?.count ?? 0) ceacht" : "\(section.en) · \(section.items.count) cleachtadh")
                     .font(.subheadline)
                     .foregroundStyle(Theme.muted)
                 ProgressView(value: progress).tint(Theme.good)
@@ -129,8 +138,8 @@ struct GrammarSessionView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Dún") { dismiss() }
-                        .accessibilityLabel("Dún. Close")
+                    Button("Druid") { dismiss() }
+                        .accessibilityLabel("Druid. Close")
                 }
             }
         }

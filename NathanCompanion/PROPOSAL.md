@@ -214,3 +214,9 @@ Ulster forms ruling, same night: accepted as drafted: 'an t-ainm atá orm' besid
 - Ulster voice: Áine, voice id `ga_UL_anb_piper`. The website calls `https://synthesis.abair.ie/api/synthesise?input=…&voice=ga_UL_anb_piper&normalise=true`. That host is not yet reachable from this session; `synthesis.abair.ie` needs adding to the allowed domains.
 - Terms: generated audio may be used "for personal, educational, or non-commercial purposes"; commercial use needs prior written consent; users of the service must be 16 or over or have parental consent. The embeddable reader is free and needs only the ABAIR mark as attribution.
 - Consequence for design: pupils should not call Abair directly. The audio for every chunk and model sentence is generated once, by the school, checked by Dáithí, and shipped inside the app. Written consent from the ABAIR team should be sought before any App Store release.
+
+## Ruling, 27 September 2026: never "dún"
+"Dún" is not Ulster Irish and is never used, in the interface or in any Irish content. The Ulster verb for close is "druid" (slender, first conjugation: druideann, dhruid, druidfidh, dhruidfeadh, druidte). Replacing dún in examples means re-forming the sentence, not swapping the word.
+
+## Ruling, 27 September 2026: "An dóigh a n-oibríonn sé"
+"An dóigh a n-oibríonn sé" is preferred to "Mar a oibríonn sé". By the same pattern, "An dóigh a ndéantar é" replaces "Mar a dhéantar é".

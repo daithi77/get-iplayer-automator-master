@@ -42,11 +42,11 @@ struct SessionView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Dún") {
+                    Button("Druid") {
                         Speaker.shared.stop()
                         dismiss()
                     }
-                    .accessibilityLabel("Dún. Close")
+                    .accessibilityLabel("Druid. Close")
                 }
             }
         }

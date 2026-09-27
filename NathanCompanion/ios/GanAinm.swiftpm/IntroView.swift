@@ -65,7 +65,7 @@ struct IntroView: View {
 
     private var howItWorks: some View {
         pageBody {
-            Text("Mar a oibríonn sé")
+            Text("An dóigh a n-oibríonn sé")
                 .font(.largeTitle.weight(.bold))
             Text("How it works: about six minutes, four steps.")
                 .foregroundStyle(Theme.muted)
