@@ -21,7 +21,7 @@ for b in src['builders']:
         random.shuffle(combos)
         mk = lambda c: {'ga': irish(c), 'en': english(c), 'chunks': [x['id'] for x in c], 'audio': aid(irish(c))}
         rows.append({'label': r['label'], 'columns': cols, 'sentences': [mk(c) for c in combos[:6]], 'all': [mk(c) for c in combos[:400]], 'total': len(combos)})
-    units.append({'id': b['id'], 'title': b['title'], 'en': b['en'], 'teaches': b.get('teaches', ''), 'new': bool(b.get('new')), 'noAudio': True,
+    units.append({'id': b['id'], 'title': b['title'], 'en': b['en'], 'teaches': b.get('teaches', ''), 'new': bool(b.get('new')), 'teacherLed': bool(b.get('teacherLed')), 'noAudio': True,
                   'questions': [{'ga': q, 'audio': aid(q), 'rows': None} for q in b['questions']],
                   'examples': [{'ga': e, 'audio': aid(e)} for e in b['examples']], 'rows': rows})
 json.dump(units, open('data/comhra.json', 'w'), ensure_ascii=False)
