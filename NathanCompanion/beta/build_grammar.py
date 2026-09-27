@@ -151,7 +151,7 @@ for sid, sec in out['sections'].items():
                 it['shape'] = it.get('shape') or 'stem'
                 it['point'] = it.get('point') or l['title']
                 if it['shape'] in ('question', 'free'): it['self'] = True
-                clean.append({k: it[k] for k in ('shape', 'prompt', 'answer', 'point', 'gap', 'self') if k in it})
+                clean.append({k: it[k] for k in ('shape', 'prompt', 'answer', 'point', 'gap', 'self', 'alt') if k in it})
             l['items'] = clean
         sec['lessons'] = [l for l in lessons if l['items'] and l.get('example', {}).get('prompt')]
         if sid in COND:

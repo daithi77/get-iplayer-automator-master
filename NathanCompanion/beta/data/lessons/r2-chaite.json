@@ -4,7 +4,7 @@
   {
    "title": "Séimhiú: -aigh agus -igh",
    "en": "Lenition with -aigh and -igh verbs",
-   "rule": "In the past tense, add h after the first letter and keep the whole root, ending and all: ceannaigh becomes cheannaigh, bailigh becomes bhailigh. A verb beginning with l, n, r, sc, sp or st does not change: réitigh sí.",
+   "rule": "In the past tense, add h after the first letter and keep the whole root, ending and all: ceannaigh becomes cheannaigh, bailigh becomes bhailigh. A verb beginning with l, n, r, sc, sm, sp or st does not change: réitigh sí.",
    "steps": [
     "Find the root of the verb in brackets: ceannaigh.",
     "Add h after the first letter: cheannaigh.",
@@ -60,6 +60,11 @@
      "shape": "stem",
      "prompt": "(Réitigh) sí an cheist mhata go gasta.",
      "answer": "Réitigh sí an cheist mhata go gasta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Smaoinigh) sí ar an cheist ar feadh tamaill.",
+     "answer": "Smaoinigh sí ar an cheist ar feadh tamaill."
     }
    ]
   },

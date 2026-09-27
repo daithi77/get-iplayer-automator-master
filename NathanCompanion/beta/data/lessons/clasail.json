@@ -236,7 +236,7 @@
   {
    "title": "Na briathra neamhrialta san aimsir chaite",
    "en": "Irregular verbs in the past",
-   "rule": "Irregular verbs follow their question form. Bí, téigh, feic, faigh and déan (An raibh? An ndeachaigh?) take go or nach with eclipsis: go ndeachaigh, go bhfaca, go bhfuair, go ndearna; raibh never changes (go raibh). Tar, tabhair, beir, cluin, ith and abair (Ar tháinig? Níor dhúirt) take gur or nár: gur tháinig, gur thug, gur chuala, gur dhúirt.",
+   "rule": "Irregular verbs follow their question form. Bí, téigh, feic, faigh, déan and abair (An raibh? An ndeachaigh? An ndúirt?) take go or nach with eclipsis: go ndeachaigh, go bhfaca, go bhfuair, go ndearna, go ndúirt; raibh never changes (go raibh). Tar, tabhair, beir, cluin and ith (Ar tháinig? Níor ith) take gur or nár: gur tháinig, gur thug, gur chuala, gur ith. In Ulster you will also hear gur dhúirt and nár dhúirt.",
    "steps": [
     "Ask: does this verb take An or Ar in the past?",
     "An: use go or nach, and eclipse (go ndeachaigh).",
@@ -252,7 +252,7 @@
      "answer": "Deir sé gur tháinig sé abhaile go déanach."
     }
    ],
-   "hint": "An verbs: go/nach. Ar verbs: gur/nár.",
+   "hint": "An verbs (bí, téigh, feic, faigh, déan, abair): go/nach. Ar verbs (tar, tabhair, beir, cluin, ith): gur/nár.",
    "items": [
     {
      "shape": "transform",
@@ -287,7 +287,8 @@
     {
      "shape": "transform",
      "prompt": "Deir sé: Dúirt sé an fhírinne.",
-     "answer": "Deir sé gur dhúirt sé an fhírinne."
+     "answer": "Deir sé go ndúirt sé an fhírinne.",
+     "alt": "Deir sé gur dhúirt sé an fhírinne."
     },
     {
      "shape": "transform",

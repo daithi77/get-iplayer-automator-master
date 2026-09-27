@@ -118,6 +118,8 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
         case "b7-la": return "⏰"
         case "b8-guthan": return "📱"
         case "b9-laethanta": return "📅"
+        case "b0-failte": return "👋"
+        case "b10-uimhreacha": return "🔢"
         default: return "💬"
         }
     }

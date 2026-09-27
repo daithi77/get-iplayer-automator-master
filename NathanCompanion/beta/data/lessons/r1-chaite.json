@@ -108,7 +108,7 @@
   {
    "title": "Briathra nach nglacann séimhiú",
    "en": "Verbs that never take lenition",
-   "rule": "A verb beginning with l, n, r, sc, sp or st cannot take séimhiú, so in the past tense the root stays exactly as it is: las, rith, scuab, scríobh. This is true after Níor as well: Níor scuab sé.",
+   "rule": "A verb beginning with l, n, r, sc, sm, sp or st cannot take séimhiú, so in the past tense the root stays exactly as it is: las, rith, scuab, scríobh. This is true after Níor as well: Níor scuab sé. But s followed by a vowel, l, n or r does take h: sheas, shiúil, shnámh.",
    "steps": [
     "Find the root of the verb in brackets: las.",
     "Check the first letter: l cannot take h.",
@@ -120,15 +120,15 @@
    },
    "more": [
     {
-     "prompt": "(Scuab) Gráinne úrlár an halla spóirt.",
-     "answer": "Scuab Gráinne úrlár an halla spóirt."
+     "prompt": "(Scuab) Gráinne urlár an halla spóirt.",
+     "answer": "Scuab Gráinne urlár an halla spóirt."
     },
     {
      "prompt": "Ar las tú an tine?",
      "answer": "Las mé an tine."
     }
    ],
-   "hint": "l, n, r, sc, sp, st: no h, leave the root alone.",
+   "hint": "l, n, r, sc, sm, sp and st: no h. S + vowel, l, n or r: h (sheas, shnámh).",
    "items": [
     {
      "shape": "stem",
@@ -149,6 +149,21 @@
      "shape": "transform",
      "prompt": "Ar rith tú go dtí an stad bus ar maidin?",
      "answer": "Rith mé go dtí an stad bus ar maidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Snámh) muid sa linn snámha inné.",
+     "answer": "Shnámh muid sa linn snámha inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Seas) an rang nuair a tháinig an príomhoide isteach.",
+     "answer": "Sheas an rang nuair a tháinig an príomhoide isteach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Smaoinigh) mé ar an cheist ar feadh tamaill.",
+     "answer": "Smaoinigh mé ar an cheist ar feadh tamaill."
     }
    ]
   },

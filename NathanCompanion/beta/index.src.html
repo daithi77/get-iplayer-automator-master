@@ -171,7 +171,7 @@ const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(M
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 const fold=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC');
 const norm=s=>String(s||'').toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?,]/g,' ').replace(/\s+/g,' ').trim();
-const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱','b9-laethanta':'📅'};
+const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱','b9-laethanta':'📅','b0-failte':'👋','b10-uimhreacha':'🔢'};
 const STEPS=[['Éist','Listen'],['Aithin','Recognise'],['Tóg','Build'],['Ó chuimhne','From memory']];
 const DAY=86400000, INT=[0,1,2,4,8,16,32];
 
@@ -571,7 +571,7 @@ function lCheck(skip){
   const it=gl.items[gl.i];const typed=skip?'':(($('#typed')||{}).value||'');gl.typed=typed;
   if(it.self){if(typed){gl.res={ok:false};render();return;}gl.res={ok:false,self:false};lRecord(false);render();return;}
   let r={ok:false};
-  if(typed){r=gMatch(typed,it.answer);if(!r.ok&&it.gap){const g=gMatch(typed,it.gap);if(g.ok)r=g;}}
+  if(typed){r=gMatch(typed,it.answer);if(!r.ok&&it.gap){const g=gMatch(typed,it.gap);if(g.ok)r=g;}if(!r.ok&&it.alt){const a=gMatch(typed,it.alt);if(a.ok)r=a;}}
   gl.res=r;lRecord(r.ok);render();
 }
 function lRecord(ok){const it=gl.items[gl.i];gl.log.push({ok,answer:it.answer});bump(gid(it.answer),ok);save();}

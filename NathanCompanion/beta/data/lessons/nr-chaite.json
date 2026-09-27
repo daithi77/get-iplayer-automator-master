@@ -158,7 +158,7 @@
   {
    "title": "Ní: déan, feic, abair, téigh, faigh, bí",
    "en": "The negative with Ní: six irregular verbs",
-   "rule": "Six irregular verbs use Ní and a special negative form that you learn by heart: rinne becomes ní dhearna, chonaic ní fhaca, dúirt ní dúirt, chuaigh ní dheachaigh, fuair ní bhfuair, bhí ní raibh.",
+   "rule": "Six irregular verbs use Ní and a special negative form that you learn by heart: rinne becomes ní dhearna, chonaic ní fhaca, dúirt ní dúirt, chuaigh ní dheachaigh, fuair ní bhfuair, bhí ní raibh. In Ulster you will also hear níor dhúirt.",
    "steps": [
     "Find the past verb: Chuaigh.",
     "It is one of the six Ní verbs, so swap it for its negative form: Ní dheachaigh.",
@@ -188,7 +188,8 @@
     {
      "shape": "transform",
      "prompt": "Dúirt mé é sin leis an ghirseach.",
-     "answer": "Ní dúirt mé é sin leis an ghirseach."
+     "answer": "Ní dúirt mé é sin leis an ghirseach.",
+     "alt": "Níor dhúirt mé é sin leis an ghirseach."
     },
     {
      "shape": "transform",
@@ -243,7 +244,8 @@
      "shape": "question",
      "prompt": "Dúirt sé é sin ar an fhón.",
      "answer": "An ndúirt sé é sin ar an fhón?",
-     "self": true
+     "self": true,
+     "alt": "Ar dhúirt sé é sin ar an fhón?"
     },
     {
      "shape": "question",
@@ -267,7 +269,8 @@
      "shape": "question",
      "prompt": "Dúirt muid leis an mhúinteoir é.",
      "answer": "An ndúirt sibh leis an mhúinteoir é?",
-     "self": true
+     "self": true,
+     "alt": "Ar dhúirt sibh leis an mhúinteoir é?"
     },
     {
      "shape": "question",

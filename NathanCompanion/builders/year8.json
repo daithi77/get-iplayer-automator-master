@@ -83,7 +83,7 @@
       ],
       [
        {
-        "ga": "sa Sruthán",
+        "ga": "sa tSruthán",
         "en": "in Bessbrook"
        },
        {
@@ -217,9 +217,15 @@
    "examples": [
     "Is mise Aoife.",
     "Ciarán an t-ainm atá orm.",
-    "Tá mé i mo chónaí sa Sruthán.",
+    "Tá mé i mo chónaí sa tSruthán.",
     "Tá mé dhá bhliain déag d'aois.",
     "Bíonn mo lá breithe i mí na Samhna."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le mé féin a chur in aithne.",
+     "en": "I am learning to introduce myself."
+    }
    ]
   },
   {
@@ -397,6 +403,12 @@
     "Tá beirt deirfiúracha agam.",
     "Níl deartháir ar bith agam.",
     "Tá madadh againn fosta."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo theaghlach.",
+     "en": "I am learning to describe my family."
+    }
    ]
   },
   {
@@ -544,6 +556,12 @@
     "Tá mo chuid gruaige donn agus fada.",
     "Tá mo shúile gorm.",
     "Deir mo chairde go bhfuil mé greannmhar."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh orm féin.",
+     "en": "I am learning to describe myself."
+    }
    ]
   },
   {
@@ -568,7 +586,7 @@
       ],
       [
        {
-        "ga": "sa Sruthán",
+        "ga": "sa tSruthán",
         "en": "in Bessbrook"
        },
        {
@@ -752,6 +770,12 @@
     "Tá mé i mo chónaí i dteach faoin tuath.",
     "Tá club CLG cóngarach dom.",
     "Is maith liom mo cheantar mar tá sé ciúin."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo cheantar.",
+     "en": "I am learning to talk about my area."
+    }
    ]
   },
   {
@@ -1057,6 +1081,12 @@
     "Ní maith liom an mhatamaitic mar tá sí deacair.",
     "Is maith liom an ceol mar tá an múinteoir go deas.",
     "Is í an Ghaeilge an t-ábhar is fearr liom."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi na hábhair scoile agus mo bharúil a thabhairt.",
+     "en": "I am learning to talk about school subjects and give my opinion."
+    }
    ]
   },
   {
@@ -1250,6 +1280,12 @@
     "Imrím peil Ghaelach leis an chlub achan Satharn.",
     "Seinnim an giotár uair sa tseachtain.",
     "Téim chuig an phictiúrlann ag an deireadh seachtaine."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo chaitheamh aimsire.",
+     "en": "I am learning to talk about my pastimes."
+    }
    ]
   },
   {
@@ -1385,6 +1421,12 @@
     "Téim ar scoil ar an bhus.",
     "Déanaim m'obair bhaile ar a sé a chlog.",
     "Téim a luí ar a deich a chlog."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo lá.",
+     "en": "I am learning to describe my day."
+    }
    ]
   },
   {
@@ -1481,7 +1523,13 @@
     "Úsáidim é le teachtaireachtaí a sheoladh achan lá.",
     "Úsáidim é le héisteacht le ceol ag an deireadh seachtaine."
    ],
-   "note": "The 'Cad chuige' row follows a 'Tá' answer only. The exam list's wording 'Cad iad an cineál rudaí' was corrected to 'Cad é an cineál rudaí'."
+   "note": "The 'Cad chuige' row follows a 'Tá' answer only. The exam list's wording 'Cad iad an cineál rudaí' was corrected to 'Cad é an cineál rudaí'.",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo ghuthán.",
+     "en": "I am learning to talk about my phone."
+    }
+   ]
   },
   {
    "id": "b9-laethanta",
@@ -1731,7 +1779,657 @@
     "Bíonn mo lá breithe ar an dara lá de mhí na Samhna.",
     "Imrím peil Dé Sathairn agus téim chuig an Aifreann Dé Domhnaigh."
    ],
-   "new": true
+   "new": true,
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim laethanta na seachtaine agus dátaí.",
+     "en": "I am learning the days of the week and dates."
+    }
+   ]
+  },
+  {
+   "id": "b0-failte",
+   "title": "Fáilte",
+   "en": "Greetings and how I am",
+   "new": true,
+   "teaches": "Dia duit to one person, Dia daoibh to more than one; the reply adds is Muire. Slán leat to someone who is leaving, slán agat when you are the one leaving. Cad é mar atá tú? Tá mé ... / Níl mé ... Feelings with tá ... orm: Tá ocras orm.",
+   "questions": [
+    "Cad é mar atá tú?",
+    "Cad é an chraic?",
+    "Cad é an dóigh atá ort?"
+   ],
+   "rows": [
+    {
+     "label": "Dia duit",
+     "columns": [
+      [
+       {
+        "ga": "Dia duit",
+        "en": "Hello (to one person)"
+       }
+      ],
+      [
+       {
+        "ga": ", a mhúinteoir",
+        "en": ", teacher",
+        "optional": true
+       },
+       {
+        "ga": ", a chara",
+        "en": ", my friend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dia daoibh",
+     "columns": [
+      [
+       {
+        "ga": "Dia daoibh",
+        "en": "Hello (to more than one)"
+       }
+      ],
+      [
+       {
+        "ga": ", a chairde",
+        "en": ", friends",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An freagra",
+     "columns": [
+      [
+       {
+        "ga": "Dia is Muire duit",
+        "en": "Hello (reply to one person)"
+       },
+       {
+        "ga": "Dia is Muire daoibh",
+        "en": "Hello (reply to more than one)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Slán",
+     "columns": [
+      [
+       {
+        "ga": "Slán leat",
+        "en": "Bye (to someone leaving)"
+       },
+       {
+        "ga": "Slán agat",
+        "en": "Bye (when you are leaving)"
+       },
+       {
+        "ga": "Slán go fóill",
+        "en": "Bye for now"
+       },
+       {
+        "ga": "Oíche mhaith",
+        "en": "Good night"
+       }
+      ],
+      [
+       {
+        "ga": ", a chara",
+        "en": ", my friend",
+        "optional": true
+       },
+       {
+        "ga": ", a mhúinteoir",
+        "en": ", teacher",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tchífidh mé thú",
+     "columns": [
+      [
+       {
+        "ga": "Tchífidh mé thú",
+        "en": "I'll see you"
+       }
+      ],
+      [
+       {
+        "ga": "ar ball",
+        "en": "later"
+       },
+       {
+        "ga": "amárach",
+        "en": "tomorrow"
+       },
+       {
+        "ga": "Dé Luain",
+        "en": "on Monday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Go maith",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "go maith",
+        "en": "well"
+       },
+       {
+        "ga": "go hiontach",
+        "en": "great"
+       },
+       {
+        "ga": "go breá",
+        "en": "fine"
+       },
+       {
+        "ga": "measartha",
+        "en": "so-so"
+       },
+       {
+        "ga": "ceart go leor",
+        "en": "all right"
+       }
+      ],
+      [
+       {
+        "ga": ", agus tú féin?",
+        "en": ", and yourself?",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Níl mé go maith",
+     "columns": [
+      [
+       {
+        "ga": "Níl mé",
+        "en": "I'm not"
+       }
+      ],
+      [
+       {
+        "ga": "go maith",
+        "en": "well"
+       },
+       {
+        "ga": "rómhaith",
+        "en": "too good"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mar a mhothaím",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "tinn",
+        "en": "sick"
+       },
+       {
+        "ga": "tuirseach",
+        "en": "tired"
+       },
+       {
+        "ga": "sásta",
+        "en": "happy"
+       },
+       {
+        "ga": "brónach",
+        "en": "sad"
+       },
+       {
+        "ga": "ar bís",
+        "en": "excited"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá ... orm",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "ocras",
+        "en": "hungry"
+       },
+       {
+        "ga": "tart",
+        "en": "thirsty"
+       },
+       {
+        "ga": "eagla",
+        "en": "scared"
+       },
+       {
+        "ga": "fearg",
+        "en": "angry"
+       }
+      ],
+      [
+       {
+        "ga": "orm",
+        "en": "(on me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é an chraic?",
+     "columns": [
+      [
+       {
+        "ga": "Níl mórán",
+        "en": "Not much"
+       },
+       {
+        "ga": "Níl a dhath",
+        "en": "Nothing"
+       },
+       {
+        "ga": "Tá an chraic go maith",
+        "en": "The craic is good"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Dia duit, a mhúinteoir.",
+    "Dia is Muire duit.",
+    "Tá mé go maith, agus tú féin?",
+    "Tá ocras orm.",
+    "Slán go fóill, a chara!"
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le beannú do dhaoine agus slán a fhágáil acu.",
+     "en": "I am learning to greet people and say goodbye."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le rá cad é mar atá mé.",
+     "en": "I am learning to say how I am."
+    }
+   ]
+  },
+  {
+   "id": "b10-uimhreacha",
+   "title": "Uimhreacha",
+   "en": "Numbers 0 to 100",
+   "new": true,
+   "teaches": "Counting numbers take a: a haon, a dó (h before a vowel: a haon, a hocht). 11 to 19 add déag, and a dó dhéag. Tens: fiche, tríocha, daichead, caoga, seasca, seachtó, ochtó, nócha, then a haon to a naoi: fiche a haon. Leathanach a trí, seomra a haon déag. Before a noun: dhá pheann, trí leabhar, seacht mbosca, ocht n-úll.",
+   "questions": [
+    "Cad é an uimhir?",
+    "Cén leathanach?",
+    "Cá mhéad peann atá agat?"
+   ],
+   "rows": [
+    {
+     "label": "0 go 10",
+     "columns": [
+      [
+       {
+        "ga": "a náid",
+        "en": "zero"
+       },
+       {
+        "ga": "a haon",
+        "en": "one"
+       },
+       {
+        "ga": "a dó",
+        "en": "two"
+       },
+       {
+        "ga": "a trí",
+        "en": "three"
+       },
+       {
+        "ga": "a ceathair",
+        "en": "four"
+       },
+       {
+        "ga": "a cúig",
+        "en": "five"
+       },
+       {
+        "ga": "a sé",
+        "en": "six"
+       },
+       {
+        "ga": "a seacht",
+        "en": "seven"
+       },
+       {
+        "ga": "a hocht",
+        "en": "eight"
+       },
+       {
+        "ga": "a naoi",
+        "en": "nine"
+       },
+       {
+        "ga": "a deich",
+        "en": "ten"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "11 go 19",
+     "columns": [
+      [
+       {
+        "ga": "a haon déag",
+        "en": "eleven"
+       },
+       {
+        "ga": "a dó dhéag",
+        "en": "twelve"
+       },
+       {
+        "ga": "a trí déag",
+        "en": "thirteen"
+       },
+       {
+        "ga": "a ceathair déag",
+        "en": "fourteen"
+       },
+       {
+        "ga": "a cúig déag",
+        "en": "fifteen"
+       },
+       {
+        "ga": "a sé déag",
+        "en": "sixteen"
+       },
+       {
+        "ga": "a seacht déag",
+        "en": "seventeen"
+       },
+       {
+        "ga": "a hocht déag",
+        "en": "eighteen"
+       },
+       {
+        "ga": "a naoi déag",
+        "en": "nineteen"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na deicheanna",
+     "columns": [
+      [
+       {
+        "ga": "fiche",
+        "en": "twenty"
+       },
+       {
+        "ga": "tríocha",
+        "en": "thirty"
+       },
+       {
+        "ga": "daichead",
+        "en": "forty"
+       },
+       {
+        "ga": "caoga",
+        "en": "fifty"
+       },
+       {
+        "ga": "seasca",
+        "en": "sixty"
+       },
+       {
+        "ga": "seachtó",
+        "en": "seventy"
+       },
+       {
+        "ga": "ochtó",
+        "en": "eighty"
+       },
+       {
+        "ga": "nócha",
+        "en": "ninety"
+       }
+      ],
+      [
+       {
+        "ga": "a haon",
+        "en": "one",
+        "optional": true
+       },
+       {
+        "ga": "a dó",
+        "en": "two",
+        "optional": true
+       },
+       {
+        "ga": "a trí",
+        "en": "three",
+        "optional": true
+       },
+       {
+        "ga": "a ceathair",
+        "en": "four",
+        "optional": true
+       },
+       {
+        "ga": "a cúig",
+        "en": "five",
+        "optional": true
+       },
+       {
+        "ga": "a sé",
+        "en": "six",
+        "optional": true
+       },
+       {
+        "ga": "a seacht",
+        "en": "seven",
+        "optional": true
+       },
+       {
+        "ga": "a hocht",
+        "en": "eight",
+        "optional": true
+       },
+       {
+        "ga": "a naoi",
+        "en": "nine",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Leathanach agus seomra",
+     "columns": [
+      [
+       {
+        "ga": "Leathanach",
+        "en": "Page"
+       },
+       {
+        "ga": "Seomra",
+        "en": "Room"
+       },
+       {
+        "ga": "Ceacht",
+        "en": "Lesson"
+       }
+      ],
+      [
+       {
+        "ga": "a haon",
+        "en": "one"
+       },
+       {
+        "ga": "a dó",
+        "en": "two"
+       },
+       {
+        "ga": "a trí",
+        "en": "three"
+       },
+       {
+        "ga": "a ceathair",
+        "en": "four"
+       },
+       {
+        "ga": "a cúig",
+        "en": "five"
+       },
+       {
+        "ga": "a sé",
+        "en": "six"
+       },
+       {
+        "ga": "a seacht",
+        "en": "seven"
+       },
+       {
+        "ga": "a hocht",
+        "en": "eight"
+       },
+       {
+        "ga": "a naoi",
+        "en": "nine"
+       },
+       {
+        "ga": "a deich",
+        "en": "ten"
+       },
+       {
+        "ga": "a haon déag",
+        "en": "eleven"
+       },
+       {
+        "ga": "a dó dhéag",
+        "en": "twelve"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Céad agus míle",
+     "columns": [
+      [
+       {
+        "ga": "céad",
+        "en": "a hundred"
+       },
+       {
+        "ga": "míle",
+        "en": "a thousand"
+       },
+       {
+        "ga": "milliún",
+        "en": "a million"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá ... agam",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "dhá pheann",
+        "en": "two pens"
+       },
+       {
+        "ga": "trí leabhar",
+        "en": "three books"
+       },
+       {
+        "ga": "ceithre chóipleabhar",
+        "en": "four copybooks"
+       },
+       {
+        "ga": "cúig phunt",
+        "en": "five pounds"
+       },
+       {
+        "ga": "sé mhála",
+        "en": "six bags"
+       },
+       {
+        "ga": "seacht mbosca",
+        "en": "seven boxes"
+       },
+       {
+        "ga": "ocht n-úll",
+        "en": "eight apples"
+       },
+       {
+        "ga": "deich bpeann",
+        "en": "ten pens"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "A haon, a dó, a trí, a ceathair, a cúig.",
+    "Leathanach a dó dhéag.",
+    "Tá seacht mbosca agam.",
+    "Céad míle fáilte!"
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim na n-uimhreacha ó náid go céad.",
+     "en": "I am learning the numbers from zero to a hundred."
+    },
+    {
+     "ga": "Tá mé ag foghlaim cad é a tharlaíonn don ainmfhocal i ndiaidh uimhreach.",
+     "en": "I am learning what happens to a noun after a number."
+    }
+   ]
   }
  ],
  "reviewed": "Independent check applied 26 September 2026: gender agreement after feminine subjects, contradictory opinion and reason pairs, untrue county combinations, bedtime times, sport and computer games, guthán for fón, two question wordings, the copula gloss."

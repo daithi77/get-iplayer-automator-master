@@ -81,27 +81,30 @@
   {
    "title": "An t-am",
    "en": "Telling the time",
-   "rule": "For the hour say Tá sé + a + number + a chlog: Tá sé a trí a chlog. For minutes, say the minutes, then tar éis (past) or chun (to), then the hour with a: Tá sé fiche bomaite tar éis a sé.",
+   "rule": "For the hour say Tá sé + a + number + a chlog: Tá sé a trí a chlog. For minutes, say the minutes, then i ndiaidh (past) or go dtí (to), then the hour with a: Tá sé fiche bomaite i ndiaidh a sé.",
    "steps": [
     "Say the minutes: 20 minutes is fiche bomaite.",
-    "It is not yet half past, so use tar éis (past).",
-    "Add the hour with a, and start with Tá sé: Tá sé fiche bomaite tar éis a sé."
+    "It is not yet half past, so use i ndiaidh (past).",
+    "Add the hour with a, and start with Tá sé: Tá sé fiche bomaite i ndiaidh a sé."
    ],
    "example": {
     "prompt": "6.20",
-    "answer": "Tá sé fiche bomaite tar éis a sé."
+    "answer": "Tá sé fiche bomaite i ndiaidh a sé.",
+    "alt": "Tá sé fiche bomaite tar éis a sé."
    },
    "more": [
     {
      "prompt": "4.45",
-     "answer": "Tá sé ceathrú chun a cúig."
+     "answer": "Tá sé ceathrú go dtí a cúig.",
+     "alt": "Tá sé ceathrú chun a cúig."
     },
     {
      "prompt": "10.30",
-     "answer": "Tá sé leathuair tar éis a deich."
+     "answer": "Tá sé leathuair i ndiaidh a deich.",
+     "alt": "Tá sé leathuair tar éis a deich."
     }
    ],
-   "hint": "Up to half past: tar éis. After half past: chun the next hour. Cúig bhomaite, deich mbomaite.",
+   "hint": "Up to half past: i ndiaidh. After half past: go dtí the next hour. Cúig bhomaite, deich mbomaite.",
    "items": [
     {
      "shape": "stem",
@@ -121,37 +124,44 @@
     {
      "shape": "stem",
      "prompt": "9.30",
-     "answer": "Tá sé leathuair tar éis a naoi."
+     "answer": "Tá sé leathuair i ndiaidh a naoi.",
+     "alt": "Tá sé leathuair tar éis a naoi."
     },
     {
      "shape": "stem",
      "prompt": "10.15",
-     "answer": "Tá sé ceathrú tar éis a deich."
+     "answer": "Tá sé ceathrú i ndiaidh a deich.",
+     "alt": "Tá sé ceathrú tar éis a deich."
     },
     {
      "shape": "stem",
      "prompt": "2.45",
-     "answer": "Tá sé ceathrú chun a trí."
+     "answer": "Tá sé ceathrú go dtí a trí.",
+     "alt": "Tá sé ceathrú chun a trí."
     },
     {
      "shape": "stem",
      "prompt": "4.20",
-     "answer": "Tá sé fiche bomaite tar éis a ceathair."
+     "answer": "Tá sé fiche bomaite i ndiaidh a ceathair.",
+     "alt": "Tá sé fiche bomaite tar éis a ceathair."
     },
     {
      "shape": "stem",
      "prompt": "5.40",
-     "answer": "Tá sé fiche bomaite chun a sé."
+     "answer": "Tá sé fiche bomaite go dtí a sé.",
+     "alt": "Tá sé fiche bomaite chun a sé."
     },
     {
      "shape": "stem",
      "prompt": "9.10",
-     "answer": "Tá sé deich mbomaite tar éis a naoi."
+     "answer": "Tá sé deich mbomaite i ndiaidh a naoi.",
+     "alt": "Tá sé deich mbomaite tar éis a naoi."
     },
     {
      "shape": "stem",
      "prompt": "4.50",
-     "answer": "Tá sé deich mbomaite chun a cúig."
+     "answer": "Tá sé deich mbomaite go dtí a cúig.",
+     "alt": "Tá sé deich mbomaite chun a cúig."
     }
    ]
   },
@@ -813,18 +823,18 @@
   {
    "title": "An t-am le bomaite (Ulaidh)",
    "forms": [
-    "Cúig bhomaite tar éis a hocht (8.05)",
-    "Deich mbomaite tar éis a seacht (7.10)",
-    "Ceathrú tar éis a trí (3.15)",
-    "Fiche bomaite tar éis a sé (6.20)",
-    "Cúig bhomaite is fiche tar éis a naoi (9.25)",
-    "Leathuair tar éis a deich (10.30)",
-    "Cúig bhomaite is fiche chun a hocht (7.35)",
-    "Fiche bomaite chun a trí (2.40)",
-    "Ceathrú chun a cúig (4.45)",
-    "Deich mbomaite chun a dó dhéag (11.50)",
-    "Cúig bhomaite chun a naoi (8.55)",
-    "(Cluintear fosta: i ndiaidh in áit tar éis, go dtí in áit chun)"
+    "Cúig bhomaite i ndiaidh a hocht (8.05)",
+    "Deich mbomaite i ndiaidh a seacht (7.10)",
+    "Ceathrú i ndiaidh a trí (3.15)",
+    "Fiche bomaite i ndiaidh a sé (6.20)",
+    "Cúig bhomaite is fiche i ndiaidh a naoi (9.25)",
+    "Leathuair i ndiaidh a deich (10.30)",
+    "Cúig bhomaite is fiche go dtí a hocht (7.35)",
+    "Fiche bomaite go dtí a trí (2.40)",
+    "Ceathrú go dtí a cúig (4.45)",
+    "Deich mbomaite go dtí a dó dhéag (11.50)",
+    "Cúig bhomaite go dtí a naoi (8.55)",
+    "(Cluintear fosta: tar éis in áit i ndiaidh, chun in áit go dtí)"
    ]
   }
  ]

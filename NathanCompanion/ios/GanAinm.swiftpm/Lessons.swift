@@ -118,6 +118,10 @@ final class LessonSession: ObservableObject, Identifiable {
                 let g = Mark.grammarCompare(answer, gap)
                 if g.ok { verdict = g }
             }
+            if !verdict.ok, let alt = it.alt {
+                let a = Mark.grammarCompare(answer, alt)
+                if a.ok { verdict = a }
+            }
         }
         outcome = GrammarOutcome(ok: verdict.ok, fadaSlip: verdict.fadaSlip)
         record(verdict.ok)
