@@ -591,7 +591,51 @@ function groleHTML(){
 let gl=null;
 const wordsOf=t=>norm(String(t).replace(/[()]/g,' ').replace(/_{2,}/g,' ')).split(' ').filter(Boolean).map(w=>fold(w));
 /* The answer with every word that is not already in `from` marked, so the change the rule makes stands out. */
-function hl(from,answer){const have=new Set(wordsOf(from));return esc(answer).split(/(\s+)/).map(w=>{const k=fold(norm(w.replace(/&[a-z#0-9]+;/g,'')));return k&&!have.has(k)&&!/^\s+$/.test(w)?`<mark class="chg">${w}</mark>`:w;}).join('');}
+/* House style: letters added to a word in red, a new particle in green, both underlined, so colour is never the only signal. */
+const PARTICLES=new Set(['an','is','ar','ní','níor','nár','nach','go','gur','cha','char','a','ná','má','dá','mura','muna','ba','níorbh','arbh','gurbh','nárbh'].map(fold));
+const fc=c=>c.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[’‘]/g,"'");
+/* The initial mutations a word may carry: [kind, positions of the added letters]. */
+function muts(w){const o=[['',[]]];
+  if(w.startsWith("d'")){o.push(["d'",[0,1]]);if(w[3]==='h'&&/[bcdfgmpst]/.test(w[2]))o.push(["d'h",[0,1,3]]);}
+  if(/^bhf/.test(w))o.push(['u',[0,1]]);
+  if(/^(mb|gc|nd|dt|bp|ng|ts)/.test(w))o.push(['u',[0]]);
+  if(/^[nth]-/.test(w))o.push(['p',[0,1]]);
+  if(/^h[aeiou]/.test(w))o.push(['h',[0]]);
+  if(w[1]==='h'&&/[bcdfgmpst]/.test(w[0]))o.push(['s',[1]]);
+  return o;}
+function markWord(cs,have){
+  const a=cs.map(fc).join('');let best=null;
+  for(const h of have){if(h.length<2)continue;const hb=[...h].map(fc).join('');
+    for(const [ka,ia] of muts(a))for(const [kb,ib] of muts(hb)){
+      const sa=cs.map((_,i)=>i).filter(i=>!ia.includes(i)),ra=sa.map(i=>a[i]).join('');
+      const rb0=[...hb].filter((_,i)=>!ib.includes(i)).join('');
+      /* syncope: tabhair, tabharfaidh; imir, imreoidh */
+      const vs=[rb0];for(let i=Math.max(1,rb0.length-3);i<rb0.length;i++)if('aeiou'.includes(rb0[i]))vs.push(rb0.slice(0,i)+rb0.slice(i+1));
+      for(const rb of vs){
+      let p=0;while(p<ra.length&&p<rb.length&&ra[p]===rb[p])p++;
+      if(!(p>=3||(p>=2&&p===rb.length))||p*2<ra.length)continue;
+      const score=p*10-(ka?1:0)-(kb?1:0)-(ka===kb?0:1);
+      if(!best||score>best.score)best={score,red:new Set(ka===kb?[]:ia),sa,p,ra,rb};}}}
+  if(!best)return null;
+  const {red,sa,p,ra,rb}=best,ta=ra.slice(p),tb=rb.slice(p);
+  const end=tb&&ta.endsWith(tb)?ra.length-tb.length:ra.length;
+  for(let j=p;j<end;j++)red.add(sa[j]);
+  return red;}
+function hl(from,answer){
+  const have=wordsOf(String(from).replace(/[:;/]/g,' ')),hs=new Set(have);
+  return String(answer).split(/(\s+)/).map(w=>{
+    if(!w||/^\s+$/.test(w))return w;
+    const m=w.match(/^([("'‘“]*)(.*?)([.,!?;:)"'’”]*)$/),core=m[2],k=fold(norm(core));
+    if(!k||hs.has(k)||!/\p{L}/u.test(core))return esc(w);
+    const wrap=x=>esc(m[1])+x+esc(m[3]);
+    if(PARTICLES.has(k))return wrap(`<span class="part">${esc(core)}</span>`);
+    const cs=[...core],red=markWord(cs,have);
+    if(!red)return wrap(`<span class="chg">${esc(core)}</span>`);
+    let out='',run='';
+    cs.forEach((c,i)=>{if(red.has(i))run+=c;else{if(run){out+=`<span class="chg">${esc(run)}</span>`;run='';}out+=esc(c);}});
+    if(run)out+=`<span class="chg">${esc(run)}</span>`;
+    return wrap(out);
+  }).join('');}
 const lProgress=l=>{if(!l.items.length)return 0;return Math.round(100*l.items.filter(x=>(S.sent[gid(x.answer)]||{}).box>=2).length/l.items.length);};
 /* The other correct form (synthetic or analytic) where both exist, e.g. in the conditional. */
 const altHTML=x=>x&&x.alt?`<span class="gloss" lang="ga">Nó · or: <b>${esc(x.alt)}</b></span>`:'';
@@ -662,10 +706,17 @@ function lRecord(ok){const it=gl.items[gl.i];gl.log.push({ok,answer:it.answer});
 
 /* grammar slides for the class screen: title, pattern, one slide per rule and table, practice with the answer on a tap */
 let gd=null;
+/* Well-known seanfhocail to close a deck, one per topic, always the same for that topic. */
+const SEAN=[['Cleachtadh a dhéanann máistreacht.','Practice makes perfect.'],['Tús maith leath na hoibre.','A good start is half the work.'],['Ní neart go cur le chéile.','There is strength in working together.'],['Mol an óige agus tiocfaidh sí.','Praise the young and they will flourish.'],['Beagán agus a rá go maith.','Say a little, and say it well.'],['Bíonn gach tosach lag.','Every beginning is weak.'],['Is fada an bóthar nach bhfuil casadh ann.','It is a long road that has no turning.'],['Níl aon tinteán mar do thinteán féin.','There is no place like home.']];
+const seanFor=id=>SEAN[[...String(id)].reduce((h,c)=>(h*31+c.charCodeAt(0))>>>0,7)%SEAN.length];
+const seanHTML=id=>{const [ga,en]=seanFor(id);return `<p class="pen h">Seanfhocal</p><p class="lbl" lang="ga" style="color:var(--ink);font-size:clamp(22px,2.6vw,40px)">${esc(ga)} <span class="en" style="color:var(--muted);font-size:.7em">${esc(en)}</span></p>`;};
 function gSlides(sec){
   if(sec.lessons&&sec.lessons.length){
     const out=[{t:'title'},{t:'contents'}];
-    sec.lessons.forEach((l,i)=>{out.push({t:'lrule',l,i});out.push({t:'item',it:l.example,l,worked:true});shuffle(l.items).slice(0,3).forEach(it=>out.push({t:'item',it,l}));});
+    const used=new Set();
+    sec.lessons.forEach((l,i)=>{out.push({t:'lrule',l,i});out.push({t:'item',it:l.example,l,worked:true});shuffle(l.items).slice(0,3).forEach(it=>{used.add(it);out.push({t:'item',it,l});});});
+    const rest=shuffle(sec.lessons.flatMap(l=>(l.items||[]).filter(it=>!used.has(it)&&!it.self)));
+    if(rest.length)out.push({t:'dulsiar',its:rest.slice(0,4)});
     out.push({t:'end'});return out;
   }
   const byPoint={};sec.models.forEach(m=>(byPoint[m.point]=byPoint[m.point]||[]).push(m));
@@ -674,12 +725,16 @@ function gSlides(sec){
   const models=focus?shuffle(byPoint[focus]).slice(0,6):shuffle(sec.models).slice(0,6);
   const lead=focus?shuffle(sec.items.filter(x=>x.point===focus)).slice(0,4):[];
   const items=lead.concat(shuffle(sec.items.filter(x=>!lead.includes(x)))).slice(0,8);
-  return [{t:'title'}].concat(models.length?[{t:'pattern',models}]:[],sec.rules.map(r=>({t:'rule',r})),sec.tables.map(tb=>({t:'table',tb})),items.map(it=>({t:'item',it})),[{t:'end'}]);
+  const rest=shuffle(sec.items.filter(x=>!items.includes(x)&&!x.self)).slice(0,4);
+  return [{t:'title'},{t:'sprioc'}].concat(models.length?[{t:'pattern',models}]:[],sec.rules.map(r=>({t:'rule',r})),sec.tables.map(tb=>({t:'table',tb})),items.map(it=>({t:'item',it})),rest.length?[{t:'dulsiar',its:rest}]:[],[{t:'end'}]);
 }
 function gdeckHTML(){
   const x=gd.sec,n=gd.slides.length,p=gd.page,sl=gd.slides[p];let inner='';
   if(sl.t==='title') inner=`<h2 lang="ga">${esc(x.title)}</h2><p class="lbl en">${esc(x.en)}</p><p class="pen h">${x.lessons&&x.lessons.length?'Riail · Sampla · Cleachtadh':'Patrún · Riail · Cleachtadh'}</p>${(x.comhra||[]).length?`<p class="lbl">Sa Chomhrá · in the speaking test: <span lang="ga" style="color:var(--ink)">${x.comhra.map(c=>esc(c.title)).join(' · ')}</span></p>`:''}${DRAFT}`;
-  else if(sl.t==='contents') inner=`<p class="pen h">Na ceachtanna</p>${x.lessons.map((l,i)=>`<button class="q" data-act="gdjump" data-i="${i}" lang="ga">${i+1}. ${esc(l.title)} <span class="en" style="font-weight:400;color:var(--muted)">· ${esc(l.en)}</span></button>`).join('')}`;
+  else if(sl.t==='sprioc') inner=`<p class="pen h">Sprioc foghlama</p><p class="lbl en">Learning goals: by the end of this section.</p><ul class="gtab" lang="ga" style="font-size:clamp(18px,2.2vw,32px)">${x.rules.map(r=>`<li>${esc(r.point)}</li>`).join('')}</ul>`;
+  else if(sl.t==='dulsiar') inner=`<p class="pen h">Dul siar</p><p class="lbl en">Revision: answer each one aloud, then check.</p>${sl.its.map((it,i)=>`<div class="model" lang="ga"><span>${i+1}. ${esc(it.prompt)}</span>${gd.shown?`<br><b style="font-size:1.05em">${hl(it.prompt,it.answer)}</b>`:''}</div>`).join('')}
+      ${gd.shown?'':`<div><button class="play" data-act="gdshow">Taispeáin na freagraí · show the answers</button></div>`}`;
+  else if(sl.t==='contents') inner=`<p class="pen h">Sprioc foghlama · na ceachtanna</p>${x.lessons.map((l,i)=>`<button class="q" data-act="gdjump" data-i="${i}" lang="ga">${i+1}. ${esc(l.title)} <span class="en" style="font-weight:400;color:var(--muted)">· ${esc(l.en)}</span></button>`).join('')}`;
   else if(sl.t==='lrule') inner=`<p class="pen h">Riail ${sl.i+1}</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.l.title)}</h2><p class="ruletext">${esc(sl.l.rule)}</p><ol class="ruletext" style="padding-left:1.3em">${sl.l.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`;
   else if(sl.t==='pattern') inner=`<p class="pen h">Patrún</p><p class="lbl">Cad é atá cosúil eatarthu? <span class="en">What do they have in common?</span></p>${sl.models.map(m=>`<p class="model" lang="ga">${esc(m.ga)}${m.cue?`<span class="cue en">${esc(m.cue)}</span>`:''}</p>`).join('')}`;
   else if(sl.t==='rule') inner=`<p class="pen h">Riail</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.r.point)}</h2><p class="ruletext">${esc(sl.r.text)}</p>`;
@@ -687,7 +742,7 @@ function gdeckHTML(){
   else if(sl.t==='item'){const t=TASK[sl.it.shape]||TASK.stem;
     inner=`<p class="pen h">${sl.worked?'Sampla':'Cleachtadh'}</p><p class="lbl">${sl.l?`<span lang="ga">${esc(sl.l.title)}</span> · `:''}${t[0]} <span class="en">${t[1]}</span></p><p class="prompt" lang="ga">${esc(sl.it.prompt)}</p>
       ${gd.shown?`<p class="answer-big" lang="ga">${hl(sl.it.prompt,sl.it.answer)}${sl.it.alt?`<br><span style="font-size:.6em;font-weight:400">nó ${esc(sl.it.alt)}</span>`:''}</p>`:`<div><button class="play" data-act="gdshow">Taispeáin an freagra · show the answer</button></div>`}`;}
-  else inner=`<p class="pen h">Críoch</p><h2 lang="ga">${esc(x.title)}</h2><div><button class="play" data-act="teach">Na sleamhnáin eile · other slides</button></div>`;
+  else inner=`<p class="pen h">Críoch</p><h2 lang="ga">${esc(x.title)}</h2>${seanHTML(x.id)}<div><button class="play" data-act="teach">Na sleamhnáin eile · other slides</button></div>`;
   return `<div class="deckbar"><button class="icon" data-act="teach" aria-label="Siar. Back to slides">←</button><b class="sp" lang="ga">${esc(x.title)}</b>
     <button class="pill" data-act="gden">${gd.en?'🙈 Folaigh an Béarla':'👁 Taispeáin an Béarla'}</button>
     <button class="pill" data-act="dfull">⛶ Lánscáileán</button>
@@ -744,7 +799,7 @@ function deckHTML(){
   }else{
     inner=`<div style="display:flex;gap:20px;align-items:center"><span style="font-size:clamp(56px,8vw,110px)" aria-hidden="true">${EM[u.id]||'💬'}</span><div><h2 lang="ga">${esc(u.title)}</h2><p class="lbl en">${esc(u.en)}</p></div></div>
       ${(u.sprioc||[]).length?`<p class="pen h">Anois is féidir liom ...</p>${u.sprioc.map(x=>`<p class="lbl" lang="ga" style="color:var(--ink)">✓ ${esc(x.ga.replace(/^Tá mé ag foghlaim /,''))} <span class="en" style="color:var(--muted)">${esc(x.en.replace(/^I am learning /,''))}</span></p>`).join('')}`:''}
-      <p class="lbl" lang="ga">Cleachtadh a dhéanann máistreacht. <span class="en">Practice makes perfect.</span></p>
+      ${seanHTML(u.id)}
       <div><button class="play" data-act="teach">Na sleamhnáin eile · other slides</button></div>`;
   }
   return `<div class="deckbar"><button class="icon" data-act="teach" aria-label="Siar go dtí na haonaid. Back to units">←</button><b class="sp">${EM[u.id]||'💬'} ${esc(u.title)}</b>
@@ -905,7 +960,7 @@ document.addEventListener('click',e=>{
   A[a.dataset.act]&&A[a.dataset.act](a,e);
 });
 document.addEventListener('keydown',e=>{if(view!=='gdeck'||e.target.id==='typed')return;
-  if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();const sl=gd.slides[gd.page];if(sl.t==='item'&&!gd.shown){A.gdshow();}else gdGo(gd.page+1);}
+  if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();const sl=gd.slides[gd.page];if((sl.t==='item'||sl.t==='dulsiar')&&!gd.shown){A.gdshow();}else gdGo(gd.page+1);}
   else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();gdGo(gd.page-1);}
   else if(e.key==='ArrowDown'||e.key===' '){e.preventDefault();A.gdshow();}
   else if(e.key==='e'||e.key==='E'){A.gden();}});
