@@ -77,7 +77,7 @@
   {
    "title": "An coibhneasta díreach: an aimsir láithreach agus fháistineach",
    "en": "Who, which, that: the present and the future",
-   "rule": "In the present and the future, write the ordinary form of the verb after a, with h on a consonant: an cailín a imríonn peil, an fear a chónaíonn sa tSruthán, an bus a bheidh déanach. A verb beginning with a vowel does not change. Tá becomes atá, written as one word: an fear atá tinn. You may hear older forms such as a bheas; in your own writing use a bheidh.",
+   "rule": "In the present and the future, write the ordinary form of the verb after a, with h on a consonant: an cailín a imríonn peil, an fear a chónaíonn sa tSruthán, an bus a bheidh déanach. A verb beginning with a vowel does not change. Tá becomes atá, written as one word: an fear atá tinn. In Ulster speech you will also hear relative forms such as a bhíos and a bheas; in your own writing use a bhíonn and a bheidh.",
    "steps": [
     "Add a after the noun.",
     "Put h on a consonant (a chónaíonn); a vowel stays as it is (a imríonn).",
@@ -90,7 +90,8 @@
    "more": [
     {
      "prompt": "Sin an bus. Beidh sé déanach arís.",
-     "answer": "Sin an bus a bheidh déanach arís."
+     "answer": "Sin an bus a bheidh déanach arís.",
+     "alt": "Sin an bus a bheas déanach arís."
     }
    ],
    "hint": "a + h. Tá becomes atá. A vowel does not change.",
@@ -123,7 +124,8 @@
     {
      "shape": "transform",
      "prompt": "Seo na daltaí. Beidh siad ag canadh ag an cheolchoirm.",
-     "answer": "Seo na daltaí a bheidh ag canadh ag an cheolchoirm."
+     "answer": "Seo na daltaí a bheidh ag canadh ag an cheolchoirm.",
+     "alt": "Seo na daltaí a bheas ag canadh ag an cheolchoirm."
     },
     {
      "shape": "transform",
@@ -147,7 +149,7 @@
    "en": "Who ... not: nach and nár",
    "rule": "For who ... not or which ... not, drop ní and use nach with eclipsis: an cailín nach n-imríonn peil, an fear nach bhfuil anseo, an bus nach mbeidh in am. In the past, a regular verb takes nár and h: an fear nár fhreagair an fón. Irregular verbs follow their question form: nár tháinig, nár ith (Ar tháinig?), but nach ndeachaigh, nach bhfuair, nach raibh (An ndeachaigh?).",
    "steps": [
-    "Drop ní or níor, and drop the pronoun.",
+    "Drop ní or níor (níl becomes nach bhfuil), and drop the pronoun.",
     "Present, future and conditional: nach + eclipsis (nach bhfuil, nach mbeidh).",
     "Regular past: nár + h (nár fhreagair)."
    ],
@@ -218,11 +220,11 @@
   {
    "title": "An coibhneasta indíreach: a + urú",
    "en": "Where, with whom, whose: a + eclipsis",
-   "rule": "When the noun is not the one doing the action (it goes with a preposition such as ann or léi, or with a possessive such as a deartháir), use a and eclipsis, and keep the subject and the preposition: Seo an teach. Tá mé i mo chónaí ann. becomes Seo an teach a bhfuil mé i mo chónaí ann. Bhí becomes a raibh: an bhean a raibh mé ag caint léi.",
+   "rule": "When the noun is not the one doing the action (it goes with a preposition such as ann or léi, or with a possessive such as a deartháir), use a and eclipsis, and keep the subject and the preposition: Seo an teach. Tá mé i mo chónaí ann. becomes Seo an teach a bhfuil mé i mo chónaí ann. Bhí becomes a raibh (an bhean a raibh mé ag caint léi) and gheobhaidh becomes a bhfaighidh. A verb beginning with l, m, n, r or s cannot be eclipsed, so it does not change: an cara a rachaidh mé leis.",
    "steps": [
     "Keep the whole second sentence, with its subject and ann, léi or leis at the end.",
     "Add a and eclipse the verb: tá becomes a bhfuil, téann becomes a dtéann.",
-    "Bhí becomes a raibh. A vowel takes n-: a n-imrím."
+    "Bhí becomes a raibh, gheobhaidh becomes a bhfaighidh. A vowel takes n-: a n-imrím."
    ],
    "example": {
     "prompt": "Seo an teach. Tá mé i mo chónaí ann.",
@@ -399,8 +401,9 @@
     },
     {
      "shape": "stem",
-     "prompt": "An té (bí, an aimsir láithreach) ag caint, ní bhíonn sé ag éisteacht.",
-     "answer": "An té a bhíonn ag caint, ní bhíonn sé ag éisteacht."
+     "prompt": "An té (bí, an aimsir ghnáthláithreach) ag caint, ní bhíonn sé ag éisteacht.",
+     "answer": "An té a bhíonn ag caint, ní bhíonn sé ag éisteacht.",
+     "alt": "An té a bhíos ag caint, ní bhíonn sé ag éisteacht."
     },
     {
      "shape": "stem",
@@ -436,7 +439,7 @@
    "steps": [
     "Start with an áit, an fáth or an dóigh.",
     "Add a and eclipse the verb: a bhfuil, a n-imríonn.",
-    "Regular past: ar + h (ar fhág). Irregular An verbs keep a + eclipsis (a ndeachaigh)."
+    "Regular past: ar + h (ar fhág). Irregular verbs whose question starts with An (An ndeachaigh?) keep a + eclipsis (a ndeachaigh)."
    ],
    "example": {
     "prompt": "Sin an áit (bí) mé i mo chónaí.",

@@ -1,0 +1,515 @@
+{
+ "id": "tuisil",
+ "lessons": [
+  {
+   "title": "An tuiseal gairmeach: ainmneacha buachaillí",
+   "en": "Calling a boy or man by name",
+   "rule": "When you speak to someone by name, the name is in the vocative case (an tuiseal gairmeach): put a in front and add séimhiú, so Pádraig becomes a Phádraig. A boy's name that ends in a broad consonant also turns slender: put i before the last consonant, so Seán becomes a Sheáin and Ciarán becomes a Chiaráin. Names that begin with a vowel, l, n or r show no séimhiú (a Eoin, a Rónáin).",
+   "steps": [
+    "Put a in front: a Seán.",
+    "Add séimhiú: a Sheán.",
+    "Seán ends in a broad n, so make it slender: a Sheáin."
+   ],
+   "example": {
+    "prompt": "A (Seán), an bhfuil tú réidh?",
+    "answer": "A Sheáin, an bhfuil tú réidh?"
+   },
+   "more": [
+    {
+     "prompt": "Cá bhfuil tú, a (Pádraig)?",
+     "answer": "Cá bhfuil tú, a Phádraig?"
+    }
+   ],
+   "hint": "a + h, and a broad ending turns slender: a Sheáin.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "A (Ciarán), cuir ort do chóta.",
+     "answer": "A Chiaráin, cuir ort do chóta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Maith thú, a (Cathal)!",
+     "answer": "Maith thú, a Chathail!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Séamas), an dtig leat cuidiú liom?",
+     "answer": "A Shéamais, an dtig leat cuidiú liom?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Go raibh maith agat, a (Tomás).",
+     "answer": "Go raibh maith agat, a Thomáis."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Dónall), tá an bus ag fanacht.",
+     "answer": "A Dhónaill, tá an bus ag fanacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar atá tú, a (Colm)?",
+     "answer": "Cad é mar atá tú, a Choilm?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Eoin), druid an doras, le do thoil.",
+     "answer": "A Eoin, druid an doras, le do thoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ná bí buartha, a (Rónán).",
+     "answer": "Ná bí buartha, a Rónáin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Pól), cá raibh tú?",
+     "answer": "A Phóil, cá raibh tú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Slán abhaile, a (Caoimhín).",
+     "answer": "Slán abhaile, a Chaoimhín."
+    }
+   ]
+  },
+  {
+   "title": "An tuiseal gairmeach: ainmneacha cailíní",
+   "en": "Calling a girl or woman by name",
+   "rule": "A girl's name takes a and séimhiú too, but its ending never changes: Máire becomes a Mháire, Siobhán becomes a Shiobhán. A name that begins with a vowel, l, n or r only takes a: a Aoife, a Niamh, a Róisín.",
+   "steps": [
+    "Put a in front: a Máire.",
+    "Add séimhiú: a Mháire.",
+    "A girl's name keeps its ending, so that is all."
+   ],
+   "example": {
+    "prompt": "A (Máire), tá do dhinnéar réidh.",
+    "answer": "A Mháire, tá do dhinnéar réidh."
+   },
+   "more": [
+    {
+     "prompt": "Cad é atá cearr, a (Niamh)?",
+     "answer": "Cad é atá cearr, a Niamh?"
+    },
+    {
+     "prompt": "Maith thú, a (Bríd)!",
+     "answer": "Maith thú, a Bhríd!"
+    }
+   ],
+   "hint": "a + h; a girl's name keeps its ending: a Shiobhán.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "A (Gráinne), an bhfuil tú ag teacht?",
+     "answer": "A Ghráinne, an bhfuil tú ag teacht?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Go raibh maith agat, a (Siobhán).",
+     "answer": "Go raibh maith agat, a Shiobhán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Aoife), cá bhfuil do mhála?",
+     "answer": "A Aoife, cá bhfuil do mhála?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ádh mór ort, a (Ciara)!",
+     "answer": "Ádh mór ort, a Chiara!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Nuala), éist liom.",
+     "answer": "A Nuala, éist liom."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar atá tú, a (Sorcha)?",
+     "answer": "Cad é mar atá tú, a Shorcha?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Méabh), an dtig leat an fhuinneog a oscailt?",
+     "answer": "A Mhéabh, an dtig leat an fhuinneog a oscailt?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Oíche mhaith, a (Mamaí).",
+     "answer": "Oíche mhaith, a Mhamaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Róisín), tá tú déanach arís!",
+     "answer": "A Róisín, tá tú déanach arís!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Slán, a (Caitlín).",
+     "answer": "Slán, a Chaitlín."
+    }
+   ]
+  },
+  {
+   "title": "An tuiseal gairmeach: a chara agus a chairde",
+   "en": "Calling people: a chara and a chairde",
+   "rule": "Words you call people work like names: a + séimhiú, so múinteoir becomes a mhúinteoir and cara becomes a chara. To speak to a group, use a + séimhiú + the plural: a chairde, a dhaltaí, a pháistí, a chailíní.",
+   "steps": [
+    "Speaking to a group of friends? Use the plural: cairde.",
+    "Put a in front: a cairde.",
+    "Add séimhiú: a chairde."
+   ],
+   "example": {
+    "prompt": "A (cairde), fáilte romhaibh!",
+    "answer": "A chairde, fáilte romhaibh!"
+   },
+   "more": [
+    {
+     "prompt": "A (múinteoir), an dtig liom dul amach?",
+     "answer": "A mhúinteoir, an dtig liom dul amach?"
+    }
+   ],
+   "hint": "a + h, one person or many: a chara, a chairde.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "A (daltaí), suígí síos, le bhur dtoil.",
+     "answer": "A dhaltaí, suígí síos, le bhur dtoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (páistí), tá an dinnéar réidh.",
+     "answer": "A pháistí, tá an dinnéar réidh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (cailíní), maith sibh!",
+     "answer": "A chailíní, maith sibh!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Go raibh maith agat, a (dochtúir).",
+     "answer": "Go raibh maith agat, a dhochtúir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (daoine) uaisle, fáilte chuig an cheolchoirm.",
+     "answer": "A dhaoine uaisle, fáilte chuig an cheolchoirm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (Daidí), an dtig leat mé a thabhairt chuig an traenáil?",
+     "answer": "A Dhaidí, an dtig leat mé a thabhairt chuig an traenáil?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (buachaillí), bígí ciúin!",
+     "answer": "A bhuachaillí, bígí ciúin!"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dia duit, a (cara).",
+     "answer": "Dia duit, a chara."
+    },
+    {
+     "shape": "stem",
+     "prompt": "A (máthair), an bhfaca tú mo gheansaí?",
+     "answer": "A mháthair, an bhfaca tú mo gheansaí?"
+    }
+   ]
+  },
+  {
+   "title": "An tuiseal tabharthach: réamhfhocal + an",
+   "en": "The dative: a noun after a preposition",
+   "rule": "A noun after a simple preposition (ag, ar, as, chuig, de, do, faoi, i, le, ó, roimh, thar, trí) is in the dative case (an tuiseal tabharthach), and it keeps its dictionary form. With the article in Ulster, b, c, f, g, m and p take séimhiú: leis an bhus, ón bhanc, faoin chrann. D, t and vowels do not change: ag an doras, ar an tábla. Remember the joined forms: leis an, don, den, faoin, ón and sa.",
+   "steps": [
+    "Join the preposition and an: le + an is leis an.",
+    "bus begins with b, so add séimhiú: bhus.",
+    "Write it: leis an bhus."
+   ],
+   "example": {
+    "prompt": "Tá mé ag fanacht (le + an + bus).",
+    "answer": "Tá mé ag fanacht leis an bhus."
+   },
+   "more": [
+    {
+     "prompt": "Tá sé ina sheasamh (ag + an + doras).",
+     "answer": "Tá sé ina sheasamh ag an doras."
+    },
+    {
+     "prompt": "Chuir mé an mála (ar + an + tábla).",
+     "answer": "Chuir mé an mála ar an tábla."
+    }
+   ],
+   "hint": "Preposition + an + b, c, f, g, m, p: add h. D, t and vowels: no change.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Shuigh muid (faoi + an + crann) sa pháirc.",
+     "answer": "Shuigh muid faoin chrann sa pháirc."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí mé ag caint (le + an + cailín) nua.",
+     "answer": "Bhí mé ag caint leis an chailín nua."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Fuair mé litir (ó + an + banc).",
+     "answer": "Fuair mé litir ón bhanc."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thug mé cárta (do + an + múinteoir).",
+     "answer": "Thug mé cárta don mhúinteoir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh sé isteach (i + an + caifé).",
+     "answer": "Chuaigh sé isteach sa chaifé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh muid (chuig + an + cluiche) i mBéal Feirste.",
+     "answer": "Chuaigh muid chuig an chluiche i mBéal Feirste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí sí ag imirt (le + an + foireann) scoile.",
+     "answer": "Bhí sí ag imirt leis an fhoireann scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thit an cupán (de + an + tábla).",
+     "answer": "Thit an cupán den tábla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá póstaer (ar + an + balla) i mo sheomra.",
+     "answer": "Tá póstaer ar an bhalla i mo sheomra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rith mé cúig chiliméadar (roimh + an + bricfeasta).",
+     "answer": "Rith mé cúig chiliméadar roimh an bhricfeasta."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach i ndiaidh an ainm bhriathartha: frásaí coitianta",
+   "en": "The genitive after a verbal noun: everyday phrases",
+   "rule": "The object of a verbal noun (ag déanamh, ag imirt, ag glanadh) goes into the genitive. With no article, just use the genitive form: ag imirt peile, ag seinm ceoil, ag cur ama amú. With the article, a masculine noun keeps an and takes séimhiú (ag glanadh an tí), and a feminine noun takes na (ag déanamh na hoibre). Learn the common ones as chunks.",
+   "steps": [
+    "Find the object: an obair.",
+    "Put it in the genitive: obair is feminine, so na hoibre.",
+    "Write it after the verbal noun: ag déanamh na hoibre."
+   ],
+   "example": {
+    "prompt": "Tá siad ag déanamh (an obair) anois.",
+    "answer": "Tá siad ag déanamh na hoibre anois."
+   },
+   "more": [
+    {
+     "prompt": "Is maith liom a bheith ag imirt (peil).",
+     "answer": "Is maith liom a bheith ag imirt peile."
+    }
+   ],
+   "hint": "ag + verbal noun + genitive: ag imirt peile, ag déanamh na hoibre.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sé ag seinm (ceol) sa bhaile.",
+     "answer": "Bíonn sé ag seinm ceoil sa bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá mé ag scuabadh (an t-urlár).",
+     "answer": "Tá mé ag scuabadh an urláir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí mo mham ag glanadh (an teach) ar maidin.",
+     "answer": "Bhí mo mham ag glanadh an tí ar maidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn sí ag imirt (camógaíocht) le Camloch.",
+     "answer": "Bíonn sí ag imirt camógaíochta le Camloch."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an rang ag scríobh (an aiste) inniu.",
+     "answer": "Tá an rang ag scríobh na haiste inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ná bí ag cur (am) amú.",
+     "answer": "Ná bí ag cur ama amú."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí siad ag oscailt (an doras) nuair a tháinig mé.",
+     "answer": "Bhí siad ag oscailt an dorais nuair a tháinig mé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá sé ag cur (báisteach) arís.",
+     "answer": "Tá sé ag cur báistí arís."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn muid ag foghlaim (an fhilíocht) de ghlanmheabhair.",
+     "answer": "Bíonn muid ag foghlaim na filíochta de ghlanmheabhair.",
+     "alt": "Bímid ag foghlaim na filíochta de ghlanmheabhair."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach i ndiaidh focal cainníochta",
+   "en": "The genitive after words of quantity",
+   "rule": "After a word that says how much (a lán, go leor, roinnt, beagán, mórán, an iomarca, an t-uafás, dóthain, níos mó, mo chuid), the noun goes into the genitive, with no article: a lán airgid, roinnt eolais, an iomarca oibre.",
+   "steps": [
+    "Find the quantity word: a lán.",
+    "Put the noun after it into the genitive: airgead becomes airgid.",
+    "Write it: a lán airgid."
+   ],
+   "example": {
+    "prompt": "Níl a lán (airgead) agam.",
+    "answer": "Níl a lán airgid agam."
+   },
+   "more": [
+    {
+     "prompt": "An bhfuil roinnt (eolas) agat faoin chúrsa?",
+     "answer": "An bhfuil roinnt eolais agat faoin chúrsa?"
+    }
+   ],
+   "hint": "How much + genitive: a lán airgid, roinnt eolais.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá an iomarca (obair) le déanamh.",
+     "answer": "Tá an iomarca oibre le déanamh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl go leor (am) agam.",
+     "answer": "Níl go leor ama agam."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ba mhaith liom níos mó (spórt) ar scoil.",
+     "answer": "Ba mhaith liom níos mó spóirt ar scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl mórán (ocras) orm.",
+     "answer": "Níl mórán ocrais orm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith mé mo chuid (airgead) ar chluiche nua.",
+     "answer": "Chaith mé mo chuid airgid ar chluiche nua."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an t-uafás (trácht) ar an bhóthar go Béal Feirste.",
+     "answer": "Bhí an t-uafás tráchta ar an bhóthar go Béal Feirste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl dóthain (fuinneamh) agam inniu.",
+     "answer": "Níl dóthain fuinnimh agam inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá beagán (Fraincis) agam.",
+     "answer": "Tá beagán Fraincise agam."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cuir roinnt (salann) ar na sceallóga.",
+     "answer": "Cuir roinnt salainn ar na sceallóga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí a lán (torann) sa rang.",
+     "answer": "Bhí a lán torainn sa rang."
+    }
+   ]
+  },
+  {
+   "title": "An ginideach i ndiaidh chun, cois, trasna agus timpeall",
+   "en": "The genitive after chun, cois, trasna and timpeall",
+   "rule": "Four simple prepositions take the genitive, not the dative: chun (to), cois (beside), trasna (across) and timpeall (around). A masculine noun keeps an, takes séimhiú and its genitive ending (timpeall an bhaile, trasna an bhóthair). A feminine noun takes na (trasna na sráide, cois na farraige). D, t and vowels do not take séimhiú: timpeall an tí.",
+   "steps": [
+    "Is the noun masculine or feminine? sráid is feminine.",
+    "Feminine: an becomes na.",
+    "Give it the genitive ending: sráid becomes sráide, so trasna na sráide."
+   ],
+   "example": {
+    "prompt": "Tá an siopa trasna (an tsráid).",
+    "answer": "Tá an siopa trasna na sráide."
+   },
+   "more": [
+    {
+     "prompt": "Shiúil muid timpeall (an teach).",
+     "answer": "Shiúil muid timpeall an tí."
+    }
+   ],
+   "hint": "chun, cois, trasna, timpeall + genitive.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Shiúil muid timpeall (an loch).",
+     "answer": "Shiúil muid timpeall an locha."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rith an madadh trasna (an bóthar).",
+     "answer": "Rith an madadh trasna an bhóthair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá teach saoire againn cois (an fharraige).",
+     "answer": "Tá teach saoire againn cois na farraige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh siad chun (an Ghaeltacht) sa samhradh.",
+     "answer": "Chuaigh siad chun na Gaeltachta sa samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh muid timpeall (an chathair) ar an bhus.",
+     "answer": "Chuaigh muid timpeall na cathrach ar an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Shuigh muid cois (an tine) aréir.",
+     "answer": "Shuigh muid cois na tine aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Rith sí timpeall (an pháirc) trí huaire.",
+     "answer": "Rith sí timpeall na páirce trí huaire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá droichead trasna (an abhainn) sa tSruthán.",
+     "answer": "Tá droichead trasna na habhann sa tSruthán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Shiúil mé timpeall (an baile) le mo mhadadh.",
+     "answer": "Shiúil mé timpeall an bhaile le mo mhadadh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ba mhaith liom taisteal timpeall (an domhan).",
+     "answer": "Ba mhaith liom taisteal timpeall an domhain."
+    }
+   ]
+  }
+ ]
+}

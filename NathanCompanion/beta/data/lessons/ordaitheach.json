@@ -78,7 +78,7 @@
   {
    "title": "An t-iolra: -aigí agus -igí",
    "en": "Telling more than one person",
-   "rule": "To tell more than one person, add an ending to the root. One-syllable verbs take -aigí after a broad vowel and -igí after a slender one: glanaigí, tógaigí, éistigí, druidigí. Verbs in -aigh or -igh drop it and take -aígí or -ígí: ceannaígí, bailígí. Suigh, nigh and léigh give suígí, nígí and léigí. Verbs that shorten do the same: osclaígí, imrígí.",
+   "rule": "To tell more than one person, add an ending to the root. One-syllable verbs take -aigí after a broad vowel and -igí after a slender one: glanaigí, tógaigí, éistigí, druidigí. Verbs in -aigh or -igh drop it and take -aígí or -ígí: ceannaígí, bailígí. Suigh, nigh and léigh give suígí, nígí and léigí. Verbs that shorten do the same: osclaígí, imrígí. Siúil drops its i and is broad: siúlaigí.",
    "steps": [
     "Is the last vowel of the root broad (a, o, u) or slender (i, e)?",
     "Broad: -aigí (glanaigí). Slender: -igí (éistigí).",
@@ -167,7 +167,7 @@
      "answer": "Ná hith an milseán sin."
     }
    ],
-   "hint": "Ná + command. Vowel: Ná h-.",
+   "hint": "Ná + command. Before a vowel, add h: Ná hól.",
    "items": [
     {
      "shape": "transform",
@@ -224,7 +224,7 @@
   {
    "title": "Déanaimis nó Déanadh muid",
    "en": "Let's",
-   "rule": "For let's, add -aimis to a broad root or -imis to a slender one: déanaimis, fanaimis, cuirimis. Verbs in -aigh or -igh, and verbs that shorten, take -aímis or -ímis: ceannaímis, tosaímis, imrímis. You will also hear the form with muid: déanadh muid, cuireadh muid, imríodh muid. Both are right. For let's not, put Ná in front: Ná déanaimis.",
+   "rule": "For let's, add -aimis to a broad root or -imis to a slender one: déanaimis, fanaimis, cuirimis. Verbs in -aigh or -igh, and verbs that shorten, take -aímis or -ímis: ceannaímis, tosaímis, imrímis. Siúil gives siúlaimis. You will also hear the form with muid: déanadh muid, cuireadh muid, imríodh muid. Both are right. For let's not, put Ná in front: Ná déanaimis.",
    "steps": [
     "Take the root: déan.",
     "Add -aimis (broad) or -imis (slender): déanaimis.",
@@ -232,12 +232,14 @@
    ],
    "example": {
     "prompt": "(Déan: muid) an obair bhaile le chéile.",
-    "answer": "Déanaimis an obair bhaile le chéile. / Déanadh muid an obair bhaile le chéile."
+    "answer": "Déanaimis an obair bhaile le chéile.",
+    "alt": "Déanadh muid an obair bhaile le chéile."
    },
    "more": [
     {
      "prompt": "(Imir: muid) cluiche eile.",
-     "answer": "Imrímis cluiche eile. / Imríodh muid cluiche eile."
+     "answer": "Imrímis cluiche eile.",
+     "alt": "Imríodh muid cluiche eile."
     }
    ],
    "hint": "-aimis / -imis, or -adh muid / -eadh muid.",
@@ -401,8 +403,8 @@
    "items": [
     {
      "shape": "transform",
-     "prompt": "Seas suas.",
-     "answer": "Seasaigí suas."
+     "prompt": "Seas suas anois.",
+     "answer": "Seasaigí suas anois."
     },
     {
      "shape": "transform",
@@ -416,8 +418,8 @@
     },
     {
      "shape": "transform",
-     "prompt": "Bí ciúin.",
-     "answer": "Bígí ciúin."
+     "prompt": "Bí ciúin, le do thoil.",
+     "answer": "Bígí ciúin, le do thoil."
     },
     {
      "shape": "transform",

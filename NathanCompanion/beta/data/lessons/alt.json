@@ -1,0 +1,450 @@
+{
+ "id": "alt",
+ "lessons": [
+  {
+   "title": "An t- roimh ghuta: ainmfhocal firinscneach",
+   "en": "Masculine nouns: t- before a vowel",
+   "rule": "Irish has no word for a: árasán means flat or a flat. The only article is an (the). A masculine noun that begins with a consonant does not change after an (an bus, an doras), but a masculine noun that begins with a vowel takes t- joined to it with a hyphen: an t-árasán, an t-uisce. Before a capital letter there is no hyphen: an tIúr.",
+   "steps": [
+    "Is the noun masculine? árasán is (it ends in -án).",
+    "Does it begin with a vowel? Yes, á.",
+    "Put t- in front of it: an t-árasán."
+   ],
+   "example": {
+    "prompt": "Tá an (árasán) i lár an Iúir.",
+    "answer": "Tá an t-árasán i lár an Iúir."
+   },
+   "more": [
+    {
+     "prompt": "Chonaic mé an (éan) sa ghairdín.",
+     "answer": "Chonaic mé an t-éan sa ghairdín."
+    },
+    {
+     "prompt": "Tá an (bus) déanach.",
+     "answer": "Tá an bus déanach."
+    }
+   ],
+   "hint": "Masculine + vowel: an t-. Masculine + consonant: no change.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá an (uisce) i Loch nEathach fuar.",
+     "answer": "Tá an t-uisce i Loch nEathach fuar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ghlan mé an (urlár) sa chistin.",
+     "answer": "Ghlan mé an t-urlár sa chistin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil an (ospidéal) is gaire?",
+     "answer": "Cá bhfuil an t-ospidéal is gaire?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tháinig an (eitleán) isteach go déanach.",
+     "answer": "Tháinig an t-eitleán isteach go déanach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Scríobh an (ainm) ar an chóipleabhar.",
+     "answer": "Scríobh an t-ainm ar an chóipleabhar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (oileán) sin álainn.",
+     "answer": "Tá an t-oileán sin álainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'ith sé an (úll) sa charr.",
+     "answer": "D'ith sé an t-úll sa charr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (aisteoir) iontach sa scannán.",
+     "answer": "Bhí an t-aisteoir iontach sa scannán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (doras) ar oscailt.",
+     "answer": "Tá an doras ar oscailt."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is maith liom an (Iúr).",
+     "answer": "Is maith liom an tIúr."
+    }
+   ]
+  },
+  {
+   "title": "Ainmfhocal baininscneach: an + séimhiú",
+   "en": "Feminine nouns: an adds h",
+   "rule": "After an, a feminine noun that begins with b, c, f, g, m or p takes séimhiú: bean becomes an bhean, fuinneog becomes an fhuinneog. Nouns that begin with d or t never take séimhiú after an, whatever their gender: an deirfiúr, an teilifís. A feminine noun that begins with a vowel does not change: an oíche.",
+   "steps": [
+    "Is the noun feminine? fuinneog is (it ends in -eog).",
+    "Does it begin with b, c, f, g, m or p? Yes, f.",
+    "Add h after the first letter: an fhuinneog."
+   ],
+   "example": {
+    "prompt": "Druid an (fuinneog), le do thoil.",
+    "answer": "Druid an fhuinneog, le do thoil."
+   },
+   "more": [
+    {
+     "prompt": "Tá an (bean) ag an doras.",
+     "answer": "Tá an bhean ag an doras."
+    },
+    {
+     "prompt": "Tá an (deirfiúr) s'agam ina cónaí i mBéal Feirste.",
+     "answer": "Tá an deirfiúr s'agam ina cónaí i mBéal Feirste."
+    }
+   ],
+   "hint": "Feminine: an + h. But d, t and vowels stay as they are.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá an (cistin) glan anois.",
+     "answer": "Tá an chistin glan anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is maith liom an (Gaeilge).",
+     "answer": "Is maith liom an Ghaeilge."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (páirc) fliuch inniu.",
+     "answer": "Tá an pháirc fliuch inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill mé an (bróg) eile.",
+     "answer": "Chaill mé an bhróg eile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (farraige) garbh inné.",
+     "answer": "Bhí an fharraige garbh inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (teilifís) ar siúl.",
+     "answer": "Tá an teilifís ar siúl."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Las an (tine), a Dhaidí.",
+     "answer": "Las an tine, a Dhaidí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (girseach) sin i mo rang.",
+     "answer": "Tá an ghirseach sin i mo rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (maidin) fuar.",
+     "answer": "Bhí an mhaidin fuar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'oscail sí an (oifig) ar a naoi.",
+     "answer": "D'oscail sí an oifig ar a naoi."
+    }
+   ]
+  },
+  {
+   "title": "An ts: ainmfhocal baininscneach le s",
+   "en": "Feminine nouns beginning with s: an ts",
+   "rule": "A feminine noun that begins with s followed by a vowel, or by l, n or r, takes t in front after an, with no hyphen: sráid becomes an tsráid, slí becomes an tslí. A masculine noun beginning with s does not change (an siopa, an samhradh), and sc, sm, sp and st never change (an scoil, an spéir).",
+   "steps": [
+    "Is the noun feminine? sráid is.",
+    "Is the s followed by a vowel, l, n or r? Yes, r.",
+    "Put t in front of it: an tsráid."
+   ],
+   "example": {
+    "prompt": "Tá an (sráid) seo an-ghnóthach.",
+    "answer": "Tá an tsráid seo an-ghnóthach."
+   },
+   "more": [
+    {
+     "prompt": "Bhí an (scoil) druidte inné.",
+     "answer": "Bhí an scoil druidte inné."
+    },
+    {
+     "prompt": "Tá an (samhradh) thart.",
+     "answer": "Tá an samhradh thart."
+    }
+   ],
+   "hint": "Feminine s + vowel, l, n or r: an ts. Masculine s, or sc, sm, sp, st: no change.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (seachtain) seo caite fada.",
+     "answer": "Bhí an tseachtain seo caite fada."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Trasnaigh an (sráid) go cúramach.",
+     "answer": "Trasnaigh an tsráid go cúramach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (sneachta) bán ar Shliabh gCuillinn.",
+     "answer": "Tá an sneachta bán ar Shliabh gCuillinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (spéir) gorm inniu.",
+     "answer": "Tá an spéir gorm inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (sláinte) níos tábhachtaí ná an t-airgead.",
+     "answer": "Tá an tsláinte níos tábhachtaí ná an t-airgead."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Beidh an (saoire) thart go luath.",
+     "answer": "Beidh an tsaoire thart go luath."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (stoirm) uafásach aréir.",
+     "answer": "Bhí an stoirm uafásach aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil an (siopa) spóirt?",
+     "answer": "Cá bhfuil an siopa spóirt?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní fheicim an (slí) amach.",
+     "answer": "Ní fheicim an tslí amach."
+    }
+   ]
+  },
+  {
+   "title": "Na + h roimh ghuta",
+   "en": "Plural: na, and h before a vowel",
+   "rule": "In the plural the article is na for every noun, masculine or feminine. Na leaves a consonant as it is, so the séimhiú of the singular goes (an bhróg, na bróga). Before a vowel na puts h, and the t- of the singular goes: an t-úll becomes na húlla.",
+   "steps": [
+    "Change an to na.",
+    "Use the plural: éan becomes éin.",
+    "It begins with a vowel, so put h in front: na héin."
+   ],
+   "example": {
+    "prompt": "Iolra: Tá an t-éan sa chrann. (éin)",
+    "answer": "Tá na héin sa chrann."
+   },
+   "more": [
+    {
+     "prompt": "Iolra: Tá an cailín ag canadh. (cailíní)",
+     "answer": "Tá na cailíní ag canadh."
+    }
+   ],
+   "hint": "Plural: na. Vowel: na h-. The t- and the séimhiú go.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tá an t-úll sa mhála. (úlla)",
+     "answer": "Tá na húlla sa mhála."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Bhí an oíche fada. (oícheanta)",
+     "answer": "Bhí na hoícheanta fada."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tá an t-árasán daor. (árasáin)",
+     "answer": "Tá na hárasáin daor."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Scríobh mé an aiste aréir. (aistí)",
+     "answer": "Scríobh mé na haistí aréir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Bhí an t-ainmhí ocrach. (ainmhithe)",
+     "answer": "Bhí na hainmhithe ocrach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Cá bhfuil an eochair? (eochracha)",
+     "answer": "Cá bhfuil na heochracha?"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tá an t-oibrí tuirseach. (oibrithe)",
+     "answer": "Tá na hoibrithe tuirseach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tá an t-ospidéal gnóthach. (ospidéil)",
+     "answer": "Tá na hospidéil gnóthach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tá an bhróg salach. (bróga)",
+     "answer": "Tá na bróga salach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Iolra: Tháinig an t-uncail ar cuairt. (uncailí)",
+     "answer": "Tháinig na huncailí ar cuairt."
+    }
+   ]
+  },
+  {
+   "title": "Firinscneach nó baininscneach? Na deirí",
+   "en": "Masculine or feminine? The endings",
+   "rule": "Some endings tell you the gender. Feminine: -óg and -eog (fuinneog), -lann (bialann), and -acht or -íocht in a word of more than one syllable (Gaeltacht, filíocht). Masculine: -ín (cailín), -án (cupán), -óir, -eoir and -éir (múinteoir, úinéir), -aire (iascaire) and -adh (geimhreadh). Once you know the gender, you know what an does: an bhialann, an cupán, an t-úinéir.",
+   "steps": [
+    "Look at the ending: bialann ends in -lann.",
+    "-lann is feminine.",
+    "Feminine with b: add h after an, so an bhialann."
+   ],
+   "example": {
+    "prompt": "Tá an (bialann) ar an phríomhshráid.",
+    "answer": "Tá an bhialann ar an phríomhshráid."
+   },
+   "more": [
+    {
+     "prompt": "Tháinig an (úinéir) isteach.",
+     "answer": "Tháinig an t-úinéir isteach."
+    }
+   ],
+   "hint": "-óg, -eog, -lann, -acht: feminine. -ín, -án, -óir, -eoir, -éir, -aire, -adh: masculine.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (pictiúrlann) lán aréir.",
+     "answer": "Bhí an phictiúrlann lán aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (Gaeltacht) i dTír Chonaill go hálainn.",
+     "answer": "Tá an Ghaeltacht i dTír Chonaill go hálainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (cupán) ar an tábla.",
+     "answer": "Tá an cupán ar an tábla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is maith liom an (filíocht) sin.",
+     "answer": "Is maith liom an fhilíocht sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil an (caipín) s'agam?",
+     "answer": "Cá bhfuil an caipín s'agam?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (bábóg) ag mo dheirfiúr bheag.",
+     "answer": "Tá an bhábóg ag mo dheirfiúr bheag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (iascaire) ar an loch.",
+     "answer": "Tá an t-iascaire ar an loch."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is fuath liom an (cócaireacht).",
+     "answer": "Is fuath liom an chócaireacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (cuileog) ar an bhalla.",
+     "answer": "Tá an chuileog ar an bhalla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (geimhreadh) fada agus fuar.",
+     "answer": "Bhí an geimhreadh fada agus fuar."
+    }
+   ]
+  },
+  {
+   "title": "An t-alt: cleachtadh measctha",
+   "en": "The article: mixed practice",
+   "rule": "Put it all together. The prompt tells you the gender (fir. is firinscneach, masculine; bain. is baininscneach, feminine). Masculine: t- before a vowel, no change to a consonant. Feminine: séimhiú on b, c, f, g, m, p; t before s + vowel, l, n or r; no change to d, t, sc, sm, sp, st or a vowel.",
+   "steps": [
+    "Read the gender in the brackets: bain.",
+    "Check the first letter: b takes séimhiú.",
+    "Write it: an bhó."
+   ],
+   "example": {
+    "prompt": "Chonaic mé an (bó: bain.) sa pháirc.",
+    "answer": "Chonaic mé an bhó sa pháirc."
+   },
+   "more": [
+    {
+     "prompt": "Tá an (athair: fir.) ag obair san Iúr.",
+     "answer": "Tá an t-athair ag obair san Iúr."
+    }
+   ],
+   "hint": "fir.: t- before a vowel. bain.: h, or ts before s.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá an (scian: bain.) géar.",
+     "answer": "Tá an scian géar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (abhainn: bain.) ard inniu.",
+     "answer": "Tá an abhainn ard inniu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an (báisteach: bain.) trom.",
+     "answer": "Bhí an bháisteach trom."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (im: fir.) sa chuisneoir.",
+     "answer": "Tá an t-im sa chuisneoir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (madadh: fir.) ina chodladh.",
+     "answer": "Tá an madadh ina chodladh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (mí: bain.) seo ag dul thart go gasta.",
+     "answer": "Tá an mhí seo ag dul thart go gasta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is fuath le mo dhaid an (siopadóireacht: bain.).",
+     "answer": "Is fuath le mo dhaid an tsiopadóireacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (eolas: fir.) ar fáil ar líne.",
+     "answer": "Tá an t-eolas ar fáil ar líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'fhág mé an (eochair: bain.) sa doras.",
+     "answer": "D'fhág mé an eochair sa doras."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an (gairdín: fir.) mór.",
+     "answer": "Tá an gairdín mór."
+    }
+   ]
+  }
+ ]
+}

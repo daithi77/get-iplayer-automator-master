@@ -85,7 +85,8 @@
    "more": [
     {
      "prompt": "(Imir: muid) cispheil i ndiaidh na scoile.",
-     "answer": "Imríonn muid cispheil i ndiaidh na scoile."
+     "answer": "Imríonn muid cispheil i ndiaidh na scoile.",
+     "alt": "Imrímid cispheil i ndiaidh na scoile."
     }
    ],
    "hint": "Short stem + -aíonn or -íonn.",
@@ -215,7 +216,7 @@
   {
    "title": "An modh coinníollach: -ódh agus -eodh",
    "en": "The conditional",
-   "rule": "Start from the future and add h, or d' before a vowel or f: osclóidh becomes d'osclódh, labhróidh becomes labhródh, codlóidh becomes chodlódh, imreoidh becomes d'imreodh. With mé: d'imreoinn. Muid and siad have two forms: d'imreodh muid or d'imreoimis; d'imreodh siad or d'imreoidís.",
+   "rule": "Start from the future, change -óidh to -ódh or -eoidh to -eodh, and add h, or d' before a vowel or f: osclóidh becomes d'osclódh, codlóidh becomes chodlódh, imreoidh becomes d'imreodh. L, n and r take no h: labhróidh becomes labhródh. With mé: d'imreoinn. Muid and siad have two forms: d'imreodh muid or d'imreoimis; d'imreodh siad or d'imreoidís.",
    "steps": [
     "Start from the future: imreoidh.",
     "Change -óidh to -ódh or -eoidh to -eodh (-óinn or -eoinn with mé).",
@@ -228,7 +229,8 @@
    "more": [
     {
      "prompt": "Dá mbeadh muid níos aclaí, (imir: muid) níos fearr.",
-     "answer": "Dá mbeadh muid níos aclaí, d'imreodh muid níos fearr. / Dá mbeadh muid níos aclaí, d'imreoimis níos fearr."
+     "answer": "Dá mbeadh muid níos aclaí, d'imreodh muid níos fearr.",
+     "alt": "Dá mbeadh muid níos aclaí, d'imreoimis níos fearr."
     }
    ],
    "hint": "Future first, then h or d': d'imreodh, chodlódh.",
@@ -362,7 +364,7 @@
    "steps": [
     "Look at the last syllable: is there a fada (áin, áil, áid)?",
     "Fada: do not squeeze. Taispeáin and sábháil drop the i: taispeán-, sábhál-.",
-    "Add first-conjugation endings: -aim, -ann, -faidh."
+    "Add first-conjugation endings: -aim, -ann, -faidh (slender: -im, -eann, -fidh)."
    ],
    "example": {
     "prompt": "(Taispeáin: mé) mo chóipleabhar don mhúinteoir achan lá.",
@@ -414,8 +416,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Sábháil) sé a chuid airgid don samhradh seo chugainn.",
-     "answer": "Sábhálfaidh sé a chuid airgid don samhradh seo chugainn."
+     "prompt": "Ó seo amach, (sábháil) sé a chuid airgid.",
+     "answer": "Ó seo amach, sábhálfaidh sé a chuid airgid."
     },
     {
      "shape": "stem",
@@ -427,7 +429,7 @@
   {
    "title": "Nigh, suigh, léigh: an aimsir láithreach",
    "en": "One-syllable -igh verbs: the present",
-   "rule": "A few short verbs end in -igh but have only one syllable: nigh, suigh, léigh, luigh. They do not take second-conjugation endings. Nigh, suigh and luigh drop -gh and keep the í: ním, níonn sé; suím, suíonn sé; luíonn sé. Léigh drops -igh: léim, léann sé. (Léim also means jump: the sentence tells you which.)",
+   "rule": "A few short verbs end in -igh but have only one syllable: nigh, suigh, léigh, luigh. They do not take second-conjugation endings. Nigh, suigh and luigh drop -gh and put a fada on the i: ním, níonn sé; suím, suíonn sé; luíonn sé. Léigh drops -igh: léim, léann sé. (Léim also means jump: the sentence tells you which.)",
    "steps": [
     "Is the verb one syllable ending in -igh?",
     "Nigh, suigh, luigh: drop -gh (ní-, suí-, luí-). Léigh: drop -igh (lé-).",
@@ -503,8 +505,8 @@
     "Conditional: h + ní-, suí-, léi- + -feadh (-finn with mé)."
    ],
    "example": {
-    "prompt": "(Nigh) mé na gréithe anocht.",
-    "answer": "Nífidh mé na gréithe anocht."
+    "prompt": "(Nigh) mé na gréithe amárach.",
+    "answer": "Nífidh mé na gréithe amárach."
    },
    "more": [
     {
