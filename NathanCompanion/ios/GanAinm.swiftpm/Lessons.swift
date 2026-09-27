@@ -155,6 +155,8 @@ struct LessonList: View {
     @EnvironmentObject private var store: Store
     let section: GrammarSection
     @State private var active: LessonSession?
+    /// The lesson to open once the current one has finished closing.
+    @State private var pendingNext: Int?
 
     var body: some View {
         ScrollView {
@@ -203,16 +205,20 @@ struct LessonList: View {
         .background(Theme.ground)
         .navigationTitle(section.title)
         .navigationBarTitleDisplayMode(.inline)
-        .fullScreenCover(item: $active) { session in
+        .fullScreenCover(item: $active, onDismiss: openPending) { session in
             LessonSessionView(session: session) { next in
+                pendingNext = next
                 active = nil
-                if let next = next {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-                        active = LessonSession(section: section, lessonIndex: next, store: store)
-                    }
-                }
             }
         }
+    }
+
+    /// Runs once the closing cover has fully gone, so the next lesson is not presented mid-dismissal.
+    private func openPending() {
+        guard let next = pendingNext else { return }
+        pendingNext = nil
+        guard next < (section.lessons?.count ?? 0) else { return }
+        active = LessonSession(section: section, lessonIndex: next, store: store)
     }
 
     private func progress(_ lesson: GrammarLesson) -> Double {

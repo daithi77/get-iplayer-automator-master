@@ -10,13 +10,14 @@ enum GrammarSlide {
     case item(GrammarItem)
     case lessonRule(GrammarLesson, Int)
     case worked(GrammarLesson)
+    case contents([GrammarLesson])
     case end
 }
 
 enum GrammarSlides {
     static func make(_ section: GrammarSection) -> [GrammarSlide] {
         if let lessons = section.lessons, !lessons.isEmpty {
-            var slides: [GrammarSlide] = [.title]
+            var slides: [GrammarSlide] = [.title, .contents(lessons)]
             for (i, lesson) in lessons.enumerated() {
                 slides.append(.lessonRule(lesson, i))
                 slides.append(.worked(lesson))
@@ -164,6 +165,15 @@ struct GrammarDeck: View {
         }
     }
 
+    /// From the contents slide, straight to that lesson's rule.
+    private func jump(toLesson n: Int) {
+        let target = slides.firstIndex { slide in
+            if case .lessonRule(_, let i) = slide { return i == n }
+            return false
+        }
+        if let target = target { withAnimation { page = target } }
+    }
+
     private func isReveal(_ slide: GrammarSlide) -> Bool {
         switch slide {
         case .item, .worked: return true
@@ -218,8 +228,26 @@ struct GrammarDeck: View {
             if showEnglish {
                 Text(section.en).font(.system(size: 30 * s)).foregroundStyle(Theme.muted)
             }
-            heading("Patrún · Riail · Cleachtadh", s)
+            heading(section.hasLessons ? "Riail · Sampla · Cleachtadh" : "Patrún · Riail · Cleachtadh", s)
             DraftBanner()
+        case .contents(let lessons):
+            heading("Na ceachtanna", s)
+            ForEach(Array(lessons.enumerated()), id: \.offset) { i, lesson in
+                Button {
+                    jump(toLesson: i)
+                } label: {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("\(i + 1). \(lesson.title)")
+                            .font(.system(size: 30 * s, weight: .bold))
+                            .foregroundStyle(Theme.ink)
+                        if showEnglish {
+                            Text(lesson.en).font(.system(size: 20 * s)).foregroundStyle(Theme.muted)
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .buttonStyle(.plain)
+            }
         case .pattern(let models):
             heading("Patrún", s)
             Text(showEnglish ? "Cad é atá cosúil eatarthu? What do they have in common?" : "Cad é atá cosúil eatarthu?")
