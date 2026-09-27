@@ -964,6 +964,2735 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g3-ceantar",
+   "title": "Mo cheantar",
+   "en": "My area",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Saying where you live with i + urú (i bPort an Dúnáin, i gCamloch) and sa + séimhiú (sa bhaile mór, sa pháirc) or t before s (sa tSruthán); saying what there is and is not in your area (Tá ... ann, Ach níl ... ann); giving an opinion with a reason (mar); saying what you would change (Ba mhaith liom go mbeadh ..., Bheadh sé deas dá mbeadh ...); the past with An Satharn seo caite.",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo cheantar.",
+     "en": "I am learning to describe my area."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le barúil a thabhairt ar mo cheantar agus fáth a lua.",
+     "en": "I am learning to give an opinion on my area and give a reason."
+    }
+   ],
+   "questions": [
+    "Cá bhfuil tú i do chónaí?",
+    "Déan cur síos ar do cheantar.",
+    "Cad é atá le déanamh i do cheantar?",
+    "An bhfuil rud ar bith in easnamh i do cheantar?",
+    "An maith leat do cheantar? Cad chuige?",
+    "Cad é a dhéanann tú i do cheantar ag an deireadh seachtaine?",
+    "Cad é a rinne tú an deireadh seachtaine seo caite?",
+    "Dá mbeadh an rogha agat, cad é a d'athrófá i do cheantar?",
+    "Cá háit ar mhaith leat a bheith i do chónaí amach anseo?"
+   ],
+   "qrows": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Cá háit",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "sa tSruthán",
+        "en": "in Bessbrook"
+       },
+       {
+        "ga": "i gCamloch",
+        "en": "in Camlough"
+       },
+       {
+        "ga": "san Iúr",
+        "en": "in Newry"
+       },
+       {
+        "ga": "sa Lorgain",
+        "en": "in Lurgan"
+       },
+       {
+        "ga": "i bPort an Dúnáin",
+        "en": "in Portadown"
+       },
+       {
+        "ga": "in Ard Mhacha",
+        "en": "in Armagh"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An teach",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé i mo chónaí",
+        "en": "I live"
+       }
+      ],
+      [
+       {
+        "ga": "i dteach leathscoite",
+        "en": "in a semi-detached house"
+       },
+       {
+        "ga": "i dteach sraithe",
+        "en": "in a terraced house"
+       },
+       {
+        "ga": "in árasán",
+        "en": "in a flat"
+       },
+       {
+        "ga": "i mbungaló",
+        "en": "in a bungalow"
+       }
+      ],
+      [
+       {
+        "ga": "i lár an bhaile",
+        "en": "in the town centre"
+       },
+       {
+        "ga": "ar imeall an bhaile",
+        "en": "on the edge of the town"
+       },
+       {
+        "ga": "in eastát tithíochta",
+        "en": "in a housing estate"
+       },
+       {
+        "ga": "faoin tuath",
+        "en": "in the countryside"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cén sórt áite",
+     "columns": [
+      [
+       {
+        "ga": "Is áit",
+        "en": "It is a"
+       }
+      ],
+      [
+       {
+        "ga": "bheag chiúin",
+        "en": "small, quiet"
+       },
+       {
+        "ga": "mhór ghnóthach",
+        "en": "big, busy"
+       },
+       {
+        "ga": "chairdiúil",
+        "en": "friendly"
+       },
+       {
+        "ga": "álainn",
+        "en": "beautiful"
+       }
+      ],
+      [
+       {
+        "ga": "í",
+        "en": "place"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é atá ann?",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There is"
+       }
+      ],
+      [
+       {
+        "ga": "linn snámha",
+        "en": "a swimming pool"
+       },
+       {
+        "ga": "ionad spóirt",
+        "en": "a sports centre"
+       },
+       {
+        "ga": "club CLG",
+        "en": "a GAA club"
+       },
+       {
+        "ga": "leabharlann",
+        "en": "a library"
+       },
+       {
+        "ga": "páirc mhór",
+        "en": "a big park"
+       },
+       {
+        "ga": "ionad siopadóireachta",
+        "en": "a shopping centre"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhaile mór",
+        "en": "in the town"
+       },
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       },
+       {
+        "ga": "in aice le mo theach",
+        "en": "near my house"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é nach bhfuil ann?",
+     "columns": [
+      [
+       {
+        "ga": "Ach níl",
+        "en": "But there is no"
+       }
+      ],
+      [
+       {
+        "ga": "pictiúrlann",
+        "en": "cinema"
+       },
+       {
+        "ga": "stáisiún traenach",
+        "en": "train station"
+       },
+       {
+        "ga": "club óige",
+        "en": "youth club"
+       },
+       {
+        "ga": "caife do dhaoine óga",
+        "en": "café for young people"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       },
+       {
+        "ga": "i mo bhaile féin",
+        "en": "in my own town"
+       },
+       {
+        "ga": "in aice liom",
+        "en": "near me"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil dhearfach",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom mo cheantar",
+        "en": "I like my area"
+       },
+       {
+        "ga": "Is breá liom mo cheantar",
+        "en": "I love my area"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá na daoine cairdiúil",
+        "en": "because the people are friendly"
+       },
+       {
+        "ga": "mar tá go leor le déanamh ann",
+        "en": "because there is plenty to do there"
+       },
+       {
+        "ga": "mar tá sé ciúin agus sábháilte",
+        "en": "because it is quiet and safe"
+       },
+       {
+        "ga": "mar tá mo chairde uilig ina gcónaí in aice liom",
+        "en": "because all my friends live near me"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil dhiúltach",
+     "columns": [
+      [
+       {
+        "ga": "Ach cuireann sé isteach orm",
+        "en": "But it annoys me"
+       }
+      ],
+      [
+       {
+        "ga": "nach bhfuil a dhath le déanamh ann san oíche",
+        "en": "that there is nothing to do there at night"
+       },
+       {
+        "ga": "go bhfuil an iomarca tráchta ann",
+        "en": "that there is too much traffic"
+       },
+       {
+        "ga": "go bhfuil bruscar ar na sráideanna",
+        "en": "that there is litter on the streets"
+       },
+       {
+        "ga": "nach bhfuil go leor busanna ann",
+        "en": "that there are not enough buses"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag an deireadh seachtaine",
+     "columns": [
+      [
+       {
+        "ga": "Ag an deireadh seachtaine,",
+        "en": "At the weekend,"
+       }
+      ],
+      [
+       {
+        "ga": "téim isteach go dtí an baile mór",
+        "en": "I go into town"
+       },
+       {
+        "ga": "téim ag siúl ar Shliabh gCuillinn",
+        "en": "I go walking on Slieve Gullion"
+       },
+       {
+        "ga": "téim ag snámh san ionad spóirt",
+        "en": "I go swimming in the sports centre"
+       },
+       {
+        "ga": "téim chuig an phictiúrlann",
+        "en": "I go to the cinema"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       },
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An Satharn seo caite",
+     "columns": [
+      [
+       {
+        "ga": "An Satharn seo caite,",
+        "en": "Last Saturday,"
+       }
+      ],
+      [
+       {
+        "ga": "chuaigh mé isteach go dtí an tIúr",
+        "en": "I went into Newry"
+       },
+       {
+        "ga": "chuaigh mé go dtí Lochanna Craigavon",
+        "en": "I went to Craigavon Lakes"
+       },
+       {
+        "ga": "chuaigh mé ag siúl ar Shliabh gCuillinn",
+        "en": "I went walking on Slieve Gullion"
+       },
+       {
+        "ga": "d'imir mé peil sa pháirc",
+        "en": "I played football in the park"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       },
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é a d'athrófá?",
+     "columns": [
+      [
+       {
+        "ga": "Ba mhaith liom go mbeadh",
+        "en": "I would like there to be"
+       },
+       {
+        "ga": "Bheadh sé deas dá mbeadh",
+        "en": "It would be nice if there were"
+       }
+      ],
+      [
+       {
+        "ga": "club óige",
+        "en": "a youth club"
+       },
+       {
+        "ga": "páirc scátála",
+        "en": "a skate park"
+       },
+       {
+        "ga": "pictiúrlann nua",
+        "en": "a new cinema"
+       },
+       {
+        "ga": "níos mó busanna",
+        "en": "more buses"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheantar",
+        "en": "in the area"
+       },
+       {
+        "ga": "i mo bhaile féin",
+        "en": "in my own town"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Amach anseo",
+     "columns": [
+      [
+       {
+        "ga": "Amach anseo, ba mhaith liom a bheith i mo chónaí",
+        "en": "In the future, I would like to live"
+       }
+      ],
+      [
+       {
+        "ga": "i mBéal Feirste",
+        "en": "in Belfast"
+       },
+       {
+        "ga": "i mBaile Átha Cliath",
+        "en": "in Dublin"
+       },
+       {
+        "ga": "i nDoire",
+        "en": "in Derry"
+       },
+       {
+        "ga": "i dTír Chonaill",
+        "en": "in Donegal"
+       },
+       {
+        "ga": "faoin tuath",
+        "en": "in the countryside"
+       },
+       {
+        "ga": "anseo sa cheantar",
+        "en": "here in the area"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá mé i mo chónaí i bPort an Dúnáin, i dteach leathscoite ar imeall an bhaile.",
+    "Is breá liom mo cheantar mar tá na daoine cairdiúil, ach cuireann sé isteach orm go bhfuil an iomarca tráchta ann.",
+    "Níl pictiúrlann sa cheantar, agus ba mhaith liom go mbeadh club óige i mo bhaile féin."
+   ],
+   "patterns": [
+    {
+     "title": "I agus urú le logainmneacha",
+     "question": "Cad é a tharlaíonn d'ainm na háite i ndiaidh i? Cad chuige nach n-athraíonn Ard Mhacha ná Londain ar an dóigh chéanna?",
+     "questionEn": "What happens to the place name after i? Why do Ard Mhacha and Londain not change in the same way?",
+     "rows": [
+      [
+       "Béal Feirste",
+       "{i} [m]Béal Feirste"
+      ],
+      [
+       "Port an Dúnáin",
+       "{i} [b]Port an Dúnáin"
+      ],
+      [
+       "Camloch",
+       "{i} [g]Camloch"
+      ],
+      [
+       "Contae Ard Mhacha",
+       "{i} [g]Contae Ard Mhacha"
+      ],
+      [
+       "Tír Eoghain",
+       "{i} [d]Tír Eoghain"
+      ],
+      [
+       "Doire",
+       "{i} [n]Doire"
+      ],
+      [
+       "Ard Mhacha",
+       "{i}[n] Ard Mhacha"
+      ],
+      [
+       "Londain",
+       "{i} Londain"
+      ]
+     ],
+     "rule": "I eclipses the next word: i mBéal Feirste, i gCamloch, i nDoire. Before a vowel, i becomes in: in Ard Mhacha. L, m, n, r and s do not change: i Londain.",
+     "ruleEn": "I eclipses the next word: i mBéal Feirste, i gCamloch, i nDoire. Before a vowel, i becomes in: in Ard Mhacha. L, m, n, r and s do not change: i Londain."
+    },
+    {
+     "title": "Sa agus séimhiú",
+     "question": "Cad é a tharlaíonn i ndiaidh sa? Cad chuige a bhfuil t roimh siopa agus sráid, ach nach n-athraíonn teach?",
+     "questionEn": "What happens after sa? Why is there a t before siopa and sráid, but teach does not change?",
+     "rows": [
+      [
+       "baile mór",
+       "{sa} b[h]aile mór"
+      ],
+      [
+       "páirc",
+       "{sa} p[h]áirc"
+      ],
+      [
+       "cathair",
+       "{sa} c[h]athair"
+      ],
+      [
+       "gairdín",
+       "{sa} g[h]airdín"
+      ],
+      [
+       "siopa",
+       "{sa} [t]siopa"
+      ],
+      [
+       "sráid",
+       "{sa} [t]sráid"
+      ],
+      [
+       "teach",
+       "{sa} teach"
+      ],
+      [
+       "ionad spóirt",
+       "{sa}[n] ionad spóirt"
+      ]
+     ],
+     "rule": "Sa means in the. It puts a h after b, c, g, m and p: sa bhaile mór, sa pháirc. Before f, sa becomes san and the f takes a h: san fharraige. Before s followed by a vowel, l, n or r, sa puts a t in front: sa tsiopa, sa tsráid. D and t do not change: sa teach. Before a vowel, sa becomes san: san ionad spóirt.",
+     "ruleEn": "Sa means in the. It puts a h after b, c, g, m and p: sa bhaile mór, sa pháirc. Before f, sa becomes san and the f takes a h: san fharraige. Before s followed by a vowel, l, n or r, sa puts a t in front: sa tsiopa, sa tsráid. D and t do not change: sa teach. Before a vowel, sa becomes san: san ionad spóirt."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Tá mé i mo chónaí sa Lorgain. Is áit mhór ghnóthach í. Is maith liom mo cheantar.",
+     "en": "I live in Lurgan. It is a big, busy place. I like my area.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Tá mé i mo chónaí sa Lorgain[, in aice le Craigavon]. Is áit mhór ghnóthach í[ agus tá linn snámha agus páirc mhór sa bhaile mór]. Is maith liom mo cheantar[ mar tá go leor le déanamh ann].",
+     "en": "I live in Lurgan, near Craigavon. It is a big, busy place and there is a swimming pool and a big park in the town. I like my area because there is plenty to do there.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Tá mé i mo chónaí sa Lorgain, in aice le Craigavon. Is áit mhór ghnóthach í agus tá linn snámha agus páirc mhór sa bhaile mór. Is maith liom mo cheantar mar tá go leor le déanamh ann. [Ach caithfidh mé a rá nach bhfuil pictiúrlann sa bhaile mór. Dá mbeadh an rogha agam, chuirfinn club óige ar bun, mar níl mórán le déanamh ag daoine óga san oíche.]",
+     "en": "I live in Lurgan, near Craigavon. It is a big, busy place and there is a swimming pool and a big park in the town. I like my area because there is plenty to do there. But I have to say that there is no cinema in the town. If I had the choice, I would set up a youth club, because there is not much for young people to do at night.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Sa bhaile mór",
+     "titleEn": "In town",
+     "rubric": "Tá tú i lár an bhaile san Iúr. Labhraíonn duine den phobal ar dtús.",
+     "rubricEn": "You are in the town centre in Newry. A member of the public speaks first.",
+     "tasks": [
+      {
+       "teacher": "Dia duit. An dtig liom cuidiú leat?",
+       "en": "Ask where the library is.",
+       "ga": "Gabh mo leithscéal, cá bhfuil an leabharlann, le do thoil?"
+      },
+      {
+       "teacher": "Gabh síos an tsráid seo. Tá sí ar thaobh na láimhe clé, in aice leis an bhanc.",
+       "en": "Ask if it is far away.",
+       "ga": "An bhfuil sí i bhfad ar shiúl?"
+      },
+      {
+       "teacher": "Níl. Níl sí ach cúig bhomaite ar shiúl.",
+       "en": "Ask what time it closes.",
+       "ga": "Cén t-am a dhruideann sí?",
+       "alt": "Cá huair a dhruideann sí?"
+      },
+      {
+       "teacher": "Druideann sí ar a sé a chlog.",
+       "en": "Ask if there is a café near it.",
+       "ga": "An bhfuil caife in aice léi?"
+      },
+      {
+       "teacher": "Tá. Tá caife beag ar an choirnéal. An maith leat an tIúr?",
+       "en": "Answer the unexpected question.",
+       "ga": "Is maith. Tá go leor siopaí anseo agus tá na daoine cairdiúil.",
+       "unexpected": true
+      }
+     ]
+    },
+    {
+     "title": "Cara ar cuairt",
+     "titleEn": "A friend on a visit",
+     "rubric": "Tá cara ó Bhaile Átha Cliath ag teacht ar cuairt chugat. Labhraíonn do chara ar dtús.",
+     "rubricEn": "A friend from Dublin is coming to visit you. Your friend speaks first.",
+     "tasks": [
+      {
+       "teacher": "Cá bhfuil tú i do chónaí go díreach?",
+       "en": "Say you live in Camlough, near Newry.",
+       "ga": "Tá mé i mo chónaí i gCamloch, in aice leis an Iúr."
+      },
+      {
+       "teacher": "Cad é atá le déanamh ansin?",
+       "en": "Say there is a GAA club and a big park.",
+       "ga": "Tá club CLG agus páirc mhór ann."
+      },
+      {
+       "teacher": "Cad é a dhéanfaidh muid Dé Sathairn?",
+       "en": "Suggest going walking on Slieve Gullion.",
+       "ga": "Rachaidh muid ag siúl ar Shliabh gCuillinn, más maith leat."
+      },
+      {
+       "teacher": "Agus san oíche?",
+       "en": "Say there is not much to do at night, but you can go to the cinema in Newry.",
+       "ga": "Níl mórán le déanamh san oíche, ach thig linn dul chuig an phictiúrlann san Iúr."
+      },
+      {
+       "teacher": "Cad é nach maith leat faoi do cheantar?",
+       "en": "Answer the unexpected question.",
+       "ga": "Níl go leor busanna ann, agus bíonn sé deacair dul isteach go dtí an baile mór.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g4-caitheamh",
+   "title": "Caitheamh aimsire agus mo lá",
+   "en": "Free time and my day",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Talking about sport, music, gaming and your phone; describing a school day in the present (éirím, téim, buailim) and in the past with inné (d'éirigh mé, chuaigh mé, bhuail mé); the past tense séimhiú and d' before a vowel or f; is maith liom (I like) and ba mhaith liom (I would like) with a reason.",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo chaitheamh aimsire agus barúil a thabhairt.",
+     "en": "I am learning to talk about my free time and give an opinion."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo lá, inniu agus inné.",
+     "en": "I am learning to describe my day, today and yesterday."
+    }
+   ],
+   "questions": [
+    "Cad é a dhéanann tú i d'am saor?",
+    "An imríonn tú spórt ar bith?",
+    "An seinneann tú uirlis cheoil?",
+    "Cá mhéad ama a chaitheann tú ar do ghuthán?",
+    "Cad é a dhéanann tú ar maidin roimh an scoil?",
+    "Cad é a dhéanann tú i ndiaidh na scoile?",
+    "Cad é a rinne tú inné?",
+    "Cad é a rinne tú an deireadh seachtaine seo caite?",
+    "Cad é ba mhaith leat a dhéanamh an deireadh seachtaine seo chugainn?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Is maith liom",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom",
+        "en": "I like"
+       },
+       {
+        "ga": "Is breá liom",
+        "en": "I love"
+       }
+      ],
+      [
+       {
+        "ga": "spórt",
+        "en": "sport"
+       },
+       {
+        "ga": "ceol",
+        "en": "music"
+       },
+       {
+        "ga": "damhsa",
+        "en": "dancing"
+       },
+       {
+        "ga": "snámh",
+        "en": "swimming"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá sé spraíúil",
+        "en": "because it is fun"
+       },
+       {
+        "ga": "mar cuidíonn sé liom mo scíth a ligean",
+        "en": "because it helps me relax"
+       },
+       {
+        "ga": "mar bíonn an chraic go maith le mo chairde",
+        "en": "because the craic is good with my friends"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Spórt",
+     "columns": [
+      [
+       {
+        "ga": "Imrím",
+        "en": "I play"
+       }
+      ],
+      [
+       {
+        "ga": "peil Ghaelach",
+        "en": "Gaelic football"
+       },
+       {
+        "ga": "sacar",
+        "en": "soccer"
+       },
+       {
+        "ga": "camógaíocht",
+        "en": "camogie"
+       },
+       {
+        "ga": "iomáint",
+        "en": "hurling"
+       },
+       {
+        "ga": "cispheil",
+        "en": "basketball"
+       },
+       {
+        "ga": "haca",
+        "en": "hockey"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chlub áitiúil",
+        "en": "with my local club"
+       },
+       {
+        "ga": "le foireann na scoile",
+        "en": "with the school team"
+       }
+      ],
+      [
+       {
+        "ga": "dhá uair sa tseachtain",
+        "en": "twice a week"
+       },
+       {
+        "ga": "achan Satharn",
+        "en": "every Saturday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ceol",
+     "columns": [
+      [
+       {
+        "ga": "Seinnim",
+        "en": "I play"
+       }
+      ],
+      [
+       {
+        "ga": "an giotár",
+        "en": "the guitar"
+       },
+       {
+        "ga": "an pianó",
+        "en": "the piano"
+       },
+       {
+        "ga": "an fhidil",
+        "en": "the fiddle"
+       },
+       {
+        "ga": "na drumaí",
+        "en": "the drums"
+       },
+       {
+        "ga": "an fheadóg stáin",
+        "en": "the tin whistle"
+       }
+      ],
+      [
+       {
+        "ga": "achan lá",
+        "en": "every day"
+       },
+       {
+        "ga": "uair sa tseachtain",
+        "en": "once a week"
+       },
+       {
+        "ga": "sa bhanna ceoil ar scoil",
+        "en": "in the school band"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cluichí agus an guthán",
+     "columns": [
+      [
+       {
+        "ga": "Imrím cluichí ríomhaire",
+        "en": "I play computer games"
+       },
+       {
+        "ga": "Bím ar mo ghuthán",
+        "en": "I am on my phone"
+       },
+       {
+        "ga": "Amharcaim ar fhíseáin ar líne",
+        "en": "I watch videos online"
+       }
+      ],
+      [
+       {
+        "ga": "ar feadh leathuaire",
+        "en": "for half an hour"
+       },
+       {
+        "ga": "ar feadh uair an chloig",
+        "en": "for an hour"
+       },
+       {
+        "ga": "ar feadh dhá uair an chloig",
+        "en": "for two hours"
+       }
+      ],
+      [
+       {
+        "ga": "achan oíche",
+        "en": "every night"
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deir mo thuismitheoirí",
+     "columns": [
+      [
+       {
+        "ga": "Deir mo thuismitheoirí",
+        "en": "My parents say"
+       }
+      ],
+      [
+       {
+        "ga": "go gcaithim an iomarca ama ar mo ghuthán",
+        "en": "that I spend too much time on my phone"
+       },
+       {
+        "ga": "go gcaithim an iomarca ama ag imirt cluichí",
+        "en": "that I spend too much time playing games"
+       }
+      ],
+      [
+       {
+        "ga": "ach ní aontaím leo",
+        "en": "but I do not agree with them"
+       },
+       {
+        "ga": "agus b'fhéidir go bhfuil an ceart acu",
+        "en": "and maybe they are right"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar maidin",
+     "columns": [
+      [
+       {
+        "ga": "Éirím",
+        "en": "I get up"
+       },
+       {
+        "ga": "Ithim mo bhricfeasta",
+        "en": "I eat my breakfast"
+       },
+       {
+        "ga": "Fágaim an teach",
+        "en": "I leave the house"
+       }
+      ],
+      [
+       {
+        "ga": "ar a seacht a chlog",
+        "en": "at seven o'clock"
+       },
+       {
+        "ga": "ar leath i ndiaidh a seacht",
+        "en": "at half past seven"
+       },
+       {
+        "ga": "ar a hocht a chlog",
+        "en": "at eight o'clock"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar scoil",
+     "columns": [
+      [
+       {
+        "ga": "Téim ar scoil",
+        "en": "I go to school"
+       }
+      ],
+      [
+       {
+        "ga": "ar an bhus",
+        "en": "on the bus"
+       },
+       {
+        "ga": "sa charr",
+        "en": "in the car"
+       },
+       {
+        "ga": "de shiúl na gcos",
+        "en": "on foot"
+       },
+       {
+        "ga": "ar mo rothar",
+        "en": "on my bike"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends",
+        "optional": true
+       },
+       {
+        "ga": "le mo dheartháir",
+        "en": "with my brother",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "I ndiaidh na scoile",
+     "columns": [
+      [
+       {
+        "ga": "I ndiaidh na scoile,",
+        "en": "After school,"
+       }
+      ],
+      [
+       {
+        "ga": "déanaim m'obair bhaile",
+        "en": "I do my homework"
+       },
+       {
+        "ga": "bím ag traenáil leis an chlub",
+        "en": "I train with the club"
+       },
+       {
+        "ga": "buailim le mo chairde",
+        "en": "I meet my friends"
+       },
+       {
+        "ga": "amharcaim ar an teilifís",
+        "en": "I watch television"
+       },
+       {
+        "ga": "seinnim ceol",
+        "en": "I play music"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Inné",
+     "columns": [
+      [
+       {
+        "ga": "Inné,",
+        "en": "Yesterday,"
+       }
+      ],
+      [
+       {
+        "ga": "d'éirigh mé ar a seacht a chlog",
+        "en": "I got up at seven o'clock"
+       },
+       {
+        "ga": "chuaigh mé ar scoil ar an bhus",
+        "en": "I went to school on the bus"
+       },
+       {
+        "ga": "d'imir mé cispheil ag am lóin",
+        "en": "I played basketball at lunchtime"
+       },
+       {
+        "ga": "bhuail mé le mo chairde i ndiaidh na scoile",
+        "en": "I met my friends after school"
+       },
+       {
+        "ga": "d'amharc mé ar chluiche peile ar an teilifís",
+        "en": "I watched a football match on television"
+       },
+       {
+        "ga": "d'amharc mé ar scannán",
+        "en": "I watched a film"
+       },
+       {
+        "ga": "rinne mé m'obair bhaile",
+        "en": "I did my homework"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An deireadh seachtaine seo caite",
+     "columns": [
+      [
+       {
+        "ga": "An deireadh seachtaine seo caite,",
+        "en": "Last weekend,"
+       }
+      ],
+      [
+       {
+        "ga": "d'imir mé cluiche peile",
+        "en": "I played a football match"
+       },
+       {
+        "ga": "chuaigh mé ag rothaíocht thart ar Lochanna Craigavon",
+        "en": "I went cycling around Craigavon Lakes"
+       },
+       {
+        "ga": "chuaigh mé chuig ceolchoirm i mBéal Feirste",
+        "en": "I went to a concert in Belfast"
+       },
+       {
+        "ga": "d'fhan mé sa bhaile",
+        "en": "I stayed at home"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       },
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       }
+      ],
+      [
+       {
+        "ga": "agus bhí an-chraic againn",
+        "en": "and we had great craic"
+       },
+       {
+        "ga": "agus bhain mé sult as",
+        "en": "and I enjoyed it"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba mhaith liom",
+     "columns": [
+      [
+       {
+        "ga": "An deireadh seachtaine seo chugainn, ba mhaith liom",
+        "en": "Next weekend, I would like"
+       }
+      ],
+      [
+       {
+        "ga": "dul chuig cluiche peile in Ard Mhacha",
+        "en": "to go to a football match in Armagh"
+       },
+       {
+        "ga": "dul ag snámh san ionad spóirt",
+        "en": "to go swimming in the sports centre"
+       },
+       {
+        "ga": "dul ag siúl ar Shliabh gCuillinn",
+        "en": "to go walking on Slieve Gullion"
+       },
+       {
+        "ga": "an lá a chaitheamh le mo chairde",
+        "en": "to spend the day with my friends"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Imrím camógaíocht le foireann na scoile achan Satharn.",
+    "Inné, d'éirigh mé ar a seacht a chlog agus chuaigh mé ar scoil ar an bhus.",
+    "Is breá liom ceol mar cuidíonn sé liom mo scíth a ligean, agus ba mhaith liom an giotár a fhoghlaim."
+   ],
+   "patterns": [
+    {
+     "title": "An aimsir chaite agus séimhiú",
+     "question": "Cad é a tharlaíonn don bhriathar san aimsir chaite? Cad chuige a bhfuil d' roimh chuid acu? Cad é atá aisteach faoi téim?",
+     "questionEn": "What happens to the verb in the past tense? Why do some of them have d' in front? What is strange about téim?",
+     "rows": [
+      [
+       "buailim",
+       "b[h]uail mé"
+      ],
+      [
+       "ceannaím",
+       "c[h]eannaigh mé"
+      ],
+      [
+       "tosaím",
+       "t[h]osaigh mé"
+      ],
+      [
+       "imrím",
+       "{d'}imir mé"
+      ],
+      [
+       "éirím",
+       "{d'}éirigh mé"
+      ],
+      [
+       "fanaim",
+       "{d'}f[h]an mé"
+      ],
+      [
+       "léim",
+       "léigh mé"
+      ],
+      [
+       "téim",
+       "[chuaigh] mé"
+      ]
+     ],
+     "rule": "In the past tense, put a h after the first letter: bhuail mé, cheannaigh mé. Before a vowel, put d' in front: d'imir mé, d'éirigh mé. F takes both: d'fhan mé. L, n and r do not change: léigh mé. Téigh is irregular: téim becomes chuaigh mé.",
+     "ruleEn": "In the past tense, put a h after the first letter: bhuail mé, cheannaigh mé. Before a vowel, put d' in front: d'imir mé, d'éirigh mé. F takes both: d'fhan mé. L, n and r do not change: léigh mé. Téigh is irregular: téim becomes chuaigh mé."
+    },
+    {
+     "title": "Is maith liom agus ba mhaith liom",
+     "question": "Cad é an difear idir is maith liom agus ba mhaith liom? Cad é a tharlaíonn do maith i ndiaidh ba?",
+     "questionEn": "What is the difference between is maith liom and ba mhaith liom? What happens to maith after ba?",
+     "rows": [
+      [
+       "Is maith liom peil.",
+       "{Ba} m[h]aith liom peil a imirt."
+      ],
+      [
+       "Is breá liom snámh.",
+       "{Ba} b[h]reá liom dul ag snámh."
+      ],
+      [
+       "Is maith liom ceol.",
+       "{Ba} m[h]aith liom an giotár a fhoghlaim."
+      ],
+      [
+       "Is fearr liom rugbaí.",
+       "{B'}f[h]earr liom rugbaí a imirt."
+      ],
+      [
+       "Ní maith liom haca.",
+       "{Níor} m[h]aith liom haca a imirt."
+      ],
+      [
+       "An maith leat cispheil?",
+       "{Ar} m[h]aith leat cispheil a imirt?"
+      ]
+     ],
+     "rule": "Is maith liom means I like, now or in general. Ba mhaith liom means I would like, and an action usually follows it: ba mhaith liom dul ag snámh. Ba puts a h after the next letter: ba mhaith, ba bhreá. Before f or a vowel, ba becomes b': b'fhearr liom. The question and the negative change too: ar mhaith leat? níor mhaith liom.",
+     "ruleEn": "Is maith liom means I like, now or in general. Ba mhaith liom means I would like, and an action usually follows it: ba mhaith liom dul ag snámh. Ba puts a h after the next letter: ba mhaith, ba bhreá. Before f or a vowel, ba becomes b': b'fhearr liom. The question and the negative change too: ar mhaith leat? níor mhaith liom."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Imrím peil Ghaelach. Is maith liom spórt. Inné, d'imir mé peil i ndiaidh na scoile.",
+     "en": "I play Gaelic football. I like sport. Yesterday, I played football after school.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Imrím peil Ghaelach[ le mo chlub áitiúil dhá uair sa tseachtain]. Is maith liom spórt[ mar bíonn an chraic go maith le mo chairde]. Inné, d'imir mé peil i ndiaidh na scoile[ agus ina dhiaidh sin, bhuail mé le mo chairde sa bhaile mór].",
+     "en": "I play Gaelic football with my local club twice a week. I like sport because the craic is good with my friends. Yesterday, I played football after school and after that, I met my friends in town.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Imrím peil Ghaelach le mo chlub áitiúil dhá uair sa tseachtain. Is maith liom spórt mar bíonn an chraic go maith le mo chairde. Inné, d'imir mé peil i ndiaidh na scoile agus ina dhiaidh sin, bhuail mé le mo chairde sa bhaile mór. [Caithfidh mé a rá go gcaithim an iomarca ama ar mo ghuthán san oíche, áfach. An deireadh seachtaine seo chugainn, ba mhaith liom dul ag siúl ar Shliabh gCuillinn in áit a bheith istigh os comhair an scáileáin.]",
+     "en": "I play Gaelic football with my local club twice a week. I like sport because the craic is good with my friends. Yesterday, I played football after school and after that, I met my friends in town. I have to say that I spend too much time on my phone at night, however. Next weekend, I would like to go walking on Slieve Gullion instead of being inside in front of the screen.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Ag déanamh pleananna don deireadh seachtaine",
+     "titleEn": "Making plans for the weekend",
+     "rubric": "Tá tú ag caint le do chara faoin deireadh seachtaine. Labhraíonn do chara ar dtús.",
+     "rubricEn": "You are talking to your friend about the weekend. Your friend speaks first.",
+     "tasks": [
+      {
+       "teacher": "An bhfuil tú saor Dé Sathairn?",
+       "en": "Say yes, you are free in the afternoon.",
+       "ga": "Tá. Tá mé saor san iarnóin."
+      },
+      {
+       "teacher": "Ar mhaith leat dul chuig an phictiúrlann san Iúr?",
+       "en": "Say you would prefer to play football in the park.",
+       "ga": "B'fhearr liom peil a imirt sa pháirc.",
+       "alt": "Níor mhaith. B'fhearr liom peil a imirt sa pháirc."
+      },
+      {
+       "teacher": "Maith go leor. Cén t-am?",
+       "en": "Suggest two o'clock.",
+       "ga": "Ar a dó a chlog, más maith leat."
+      },
+      {
+       "teacher": "Cá háit a mbuailfidh muid le chéile?",
+       "en": "Say you will meet at the park gate.",
+       "ga": "Buailfidh muid le chéile ag geata na páirce."
+      },
+      {
+       "teacher": "Cad é a rinne tú an deireadh seachtaine seo caite?",
+       "en": "Answer the unexpected question.",
+       "ga": "D'imir mé cluiche peile agus chuaigh mé chuig teach mo charad.",
+       "unexpected": true
+      }
+     ]
+    },
+    {
+     "title": "Mo lá inné",
+     "titleEn": "My day yesterday",
+     "rubric": "Tá do mhúinteoir ag cur ceisteanna ort faoi do lá inné. Labhraíonn do mhúinteoir ar dtús.",
+     "rubricEn": "Your teacher is asking you questions about your day yesterday. Your teacher speaks first.",
+     "tasks": [
+      {
+       "teacher": "Cén t-am a d'éirigh tú inné?",
+       "en": "Say you got up at seven o'clock.",
+       "ga": "D'éirigh mé ar a seacht a chlog."
+      },
+      {
+       "teacher": "Cad é mar a chuaigh tú ar scoil?",
+       "en": "Say you went on the bus with your friend.",
+       "ga": "Chuaigh mé ar an bhus le mo chara."
+      },
+      {
+       "teacher": "Cad é a rinne tú ag am lóin?",
+       "en": "Say you played basketball with your friends.",
+       "ga": "D'imir mé cispheil le mo chairde."
+      },
+      {
+       "teacher": "Agus i ndiaidh na scoile?",
+       "en": "Say you did your homework and watched a film.",
+       "ga": "Rinne mé m'obair bhaile agus d'amharc mé ar scannán."
+      },
+      {
+       "teacher": "Cén t-am a chuaigh tú a luí?",
+       "en": "Answer the unexpected question.",
+       "ga": "Chuaigh mé a luí ar leath i ndiaidh a deich.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g5-siopadoireacht",
+   "title": "Siopadóireacht agus éadaí",
+   "en": "Shopping and clothes",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Describing what you wear and your school uniform; colours after the noun, with séimhiú after a feminine noun (léine bhán, casóg dhubh) and no change after a masculine noun (geansaí bán, bríste dubh); numbers with punt (trí phunt, deich bpunt, fiche punt); an opinion with Sílim go bhfuil and the incidental Caithfidh mé a rá go gcuireann ... isteach orm; the past for what you bought (cheannaigh mé, chosain sé); ar + séimhiú (ar chluichí ríomhaire); the future for next weekend (rachaidh mé, ceannóidh mé); asking for things in a shop with de dhíth orm and Cá mhéad atá air?",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo chuid éadaí agus ar an éide scoile.",
+     "en": "I am learning to describe my clothes and my school uniform."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le rudaí a cheannach i siopa agus praghsanna a rá.",
+     "en": "I am learning to buy things in a shop and say prices."
+    }
+   ],
+   "questions": [
+    "Cad é a chaitheann tú ar scoil?",
+    "Cad é do bharúil faoin éide scoile?",
+    "Cad é a chaitheann tú ag an deireadh seachtaine?",
+    "An maith leat a bheith ag siopadóireacht?",
+    "Cá dtéann tú ag siopadóireacht?",
+    "Cad é a cheannaigh tú an tseachtain seo caite?",
+    "Cá mhéad a chosain sé?",
+    "An bhfaigheann tú airgead póca?",
+    "Cad é a cheannóidh tú an deireadh seachtaine seo chugainn?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "An éide scoile",
+     "columns": [
+      [
+       {
+        "ga": "Ar scoil, caithim",
+        "en": "At school, I wear"
+       }
+      ],
+      [
+       {
+        "ga": "geansaí dúghorm",
+        "en": "a navy jumper"
+       },
+       {
+        "ga": "léine bhán",
+        "en": "a white shirt"
+       },
+       {
+        "ga": "bléasar dubh",
+        "en": "a black blazer"
+       },
+       {
+        "ga": "carbhat stríocach",
+        "en": "a striped tie"
+       }
+      ],
+      [
+       {
+        "ga": "agus bríste liath",
+        "en": "and grey trousers"
+       },
+       {
+        "ga": "agus sciorta liath",
+        "en": "and a grey skirt"
+       },
+       {
+        "ga": "agus bróga dubha",
+        "en": "and black shoes"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mo bharúil faoin éide",
+     "columns": [
+      [
+       {
+        "ga": "Sílim go bhfuil an éide scoile",
+        "en": "I think the school uniform is"
+       },
+       {
+        "ga": "Sílim nach bhfuil an éide scoile",
+        "en": "I don't think the school uniform is"
+       }
+      ],
+      [
+       {
+        "ga": "compordach",
+        "en": "comfortable"
+       },
+       {
+        "ga": "praiticiúil",
+        "en": "practical"
+       },
+       {
+        "ga": "galánta",
+        "en": "smart"
+       },
+       {
+        "ga": "seanfhaiseanta",
+        "en": "old-fashioned"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cuireann sé isteach orm",
+     "columns": [
+      [
+       {
+        "ga": "Caithfidh mé a rá go gcuireann",
+        "en": "I have to say that"
+       }
+      ],
+      [
+       {
+        "ga": "an carbhat",
+        "en": "the tie"
+       },
+       {
+        "ga": "an bléasar",
+        "en": "the blazer"
+       },
+       {
+        "ga": "an geansaí",
+        "en": "the jumper"
+       }
+      ],
+      [
+       {
+        "ga": "isteach orm",
+        "en": "annoys me"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá sé míchompordach",
+        "en": "because it is uncomfortable",
+        "optional": true
+       },
+       {
+        "ga": "mar tá sé seanfhaiseanta",
+        "en": "because it is old-fashioned",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag an deireadh seachtaine",
+     "columns": [
+      [
+       {
+        "ga": "Ag an deireadh seachtaine, caithim",
+        "en": "At the weekend, I wear"
+       }
+      ],
+      [
+       {
+        "ga": "bríste géine gorm",
+        "en": "blue jeans"
+       },
+       {
+        "ga": "T-léine bhán",
+        "en": "a white T-shirt"
+       },
+       {
+        "ga": "casóg dhearg",
+        "en": "a red jacket"
+       },
+       {
+        "ga": "geansaí dubh",
+        "en": "a black jumper"
+       },
+       {
+        "ga": "bróga reatha bána",
+        "en": "white trainers"
+       }
+      ],
+      [
+       {
+        "ga": "mar is maith liom a bheith compordach",
+        "en": "because I like to be comfortable",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An maith leat siopadóireacht?",
+     "columns": [
+      [
+       {
+        "ga": "Is breá liom a bheith ag siopadóireacht",
+        "en": "I love shopping"
+       },
+       {
+        "ga": "Is maith liom a bheith ag siopadóireacht",
+        "en": "I like shopping"
+       },
+       {
+        "ga": "Ní maith liom a bheith ag siopadóireacht",
+        "en": "I don't like shopping"
+       }
+      ],
+      [
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       },
+       {
+        "ga": "le mo mhamaí",
+        "en": "with my mum"
+       },
+       {
+        "ga": "ar líne",
+        "en": "online"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá dtéann tú?",
+     "columns": [
+      [
+       {
+        "ga": "Téim",
+        "en": "I go"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an tIúr",
+        "en": "to Newry"
+       },
+       {
+        "ga": "go Béal Feirste",
+        "en": "to Belfast"
+       },
+       {
+        "ga": "go dtí an Lorgain",
+        "en": "to Lurgan"
+       },
+       {
+        "ga": "go hArd Mhacha",
+        "en": "to Armagh"
+       }
+      ],
+      [
+       {
+        "ga": "ar an bhus",
+        "en": "on the bus"
+       },
+       {
+        "ga": "sa charr",
+        "en": "in the car"
+       }
+      ],
+      [
+       {
+        "ga": "le siopadóireacht a dhéanamh",
+        "en": "to do some shopping"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é a cheannaigh tú?",
+     "columns": [
+      [
+       {
+        "ga": "An tseachtain seo caite, cheannaigh mé",
+        "en": "Last week, I bought"
+       }
+      ],
+      [
+       {
+        "ga": "geansaí nua",
+        "en": "a new jumper"
+       },
+       {
+        "ga": "péire bróg reatha",
+        "en": "a pair of trainers"
+       },
+       {
+        "ga": "hata olla",
+        "en": "a woolly hat"
+       },
+       {
+        "ga": "cóta báistí",
+        "en": "a raincoat"
+       }
+      ],
+      [
+       {
+        "ga": "i siopa spóirt",
+        "en": "in a sports shop"
+       },
+       {
+        "ga": "i siopa carthanachta",
+        "en": "in a charity shop"
+       },
+       {
+        "ga": "san ionad siopadóireachta",
+        "en": "in the shopping centre"
+       },
+       {
+        "ga": "ar líne",
+        "en": "online"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá mhéad?",
+     "columns": [
+      [
+       {
+        "ga": "Chosain sé",
+        "en": "It cost"
+       },
+       {
+        "ga": "Níor chosain sé ach",
+        "en": "It only cost"
+       }
+      ],
+      [
+       {
+        "ga": "trí phunt",
+        "en": "three pounds"
+       },
+       {
+        "ga": "cúig phunt",
+        "en": "five pounds"
+       },
+       {
+        "ga": "deich bpunt",
+        "en": "ten pounds"
+       },
+       {
+        "ga": "fiche punt",
+        "en": "twenty pounds"
+       },
+       {
+        "ga": "tríocha punt",
+        "en": "thirty pounds"
+       }
+      ],
+      [
+       {
+        "ga": "sa tsladmhargadh",
+        "en": "in the sale",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Airgead póca",
+     "columns": [
+      [
+       {
+        "ga": "Faighim",
+        "en": "I get"
+       }
+      ],
+      [
+       {
+        "ga": "cúig phunt",
+        "en": "five pounds"
+       },
+       {
+        "ga": "deich bpunt",
+        "en": "ten pounds"
+       },
+       {
+        "ga": "fiche punt",
+        "en": "twenty pounds"
+       }
+      ],
+      [
+       {
+        "ga": "mar airgead póca",
+        "en": "as pocket money"
+       }
+      ],
+      [
+       {
+        "ga": "gach seachtain",
+        "en": "every week"
+       },
+       {
+        "ga": "ó mo thuismitheoirí gach seachtain",
+        "en": "from my parents every week"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Caithim mo chuid airgid",
+     "columns": [
+      [
+       {
+        "ga": "Caithim mo chuid airgid",
+        "en": "I spend my money"
+       }
+      ],
+      [
+       {
+        "ga": "ar éadaí",
+        "en": "on clothes"
+       },
+       {
+        "ga": "ar chluichí ríomhaire",
+        "en": "on computer games"
+       },
+       {
+        "ga": "ar leabhair",
+        "en": "on books"
+       },
+       {
+        "ga": "ar mhilseáin",
+        "en": "on sweets"
+       }
+      ],
+      [
+       {
+        "ga": ", ach sábhálaim cuid de fosta",
+        "en": ", but I save some of it too",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An deireadh seachtaine seo chugainn",
+     "columns": [
+      [
+       {
+        "ga": "An deireadh seachtaine seo chugainn,",
+        "en": "Next weekend,"
+       }
+      ],
+      [
+       {
+        "ga": "rachaidh mé go Béal Feirste",
+        "en": "I will go to Belfast"
+       },
+       {
+        "ga": "rachaidh muid go dtí an tIúr",
+        "en": "we will go to Newry"
+       }
+      ],
+      [
+       {
+        "ga": "agus ceannóidh mé geansaí nua",
+        "en": "and I will buy a new jumper"
+       },
+       {
+        "ga": "agus ceannóidh mé bróga reatha nua",
+        "en": "and I will buy new trainers"
+       },
+       {
+        "ga": "agus ceannóidh mé bronntanas do mo dheirfiúr",
+        "en": "and I will buy a present for my sister"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Ar scoil, caithim léine bhán, geansaí dúghorm agus bríste liath.",
+    "Sílim go bhfuil an éide scoile compordach, ach caithfidh mé a rá go gcuireann an carbhat isteach orm.",
+    "An tseachtain seo caite, cheannaigh mé péire bróg reatha i siopa spóirt san Iúr. Níor chosain siad ach tríocha punt sa tsladmhargadh."
+   ],
+   "patterns": [
+    {
+     "title": "Uimhreacha agus punt",
+     "question": "Cad é a tharlaíonn don fhocal punt i ndiaidh trí, cúig, seacht agus deich? Cad chuige nach n-athraíonn sé i ndiaidh fiche?",
+     "questionEn": "What happens to the word punt after three, five, seven and ten? Why does it not change after twenty?",
+     "rows": [
+      [
+       "punt amháin",
+       "punt amháin"
+      ],
+      [
+       "dhá phunt",
+       "dhá p[h]unt"
+      ],
+      [
+       "trí phunt",
+       "trí p[h]unt"
+      ],
+      [
+       "cúig phunt",
+       "cúig p[h]unt"
+      ],
+      [
+       "seacht bpunt",
+       "seacht [b]punt"
+      ],
+      [
+       "deich bpunt",
+       "deich [b]punt"
+      ],
+      [
+       "fiche punt",
+       "fiche punt"
+      ],
+      [
+       "caoga punt",
+       "caoga punt"
+      ]
+     ],
+     "rule": "After 2 to 6 the noun takes a h (séimhiú): trí phunt, cúig phunt. After 7 to 10 it is eclipsed (urú): seacht bpunt, deich bpunt. After fiche, tríocha, caoga and the other tens it does not change: fiche punt. The noun stays singular after a number.",
+     "ruleEn": "After 2 to 6 the noun takes a h (séimhiú): trí phunt, cúig phunt. After 7 to 10 it is eclipsed (urú): seacht bpunt, deich bpunt. After fiche, tríocha, caoga and the other tens it does not change: fiche punt. The noun stays singular after a number."
+    },
+    {
+     "title": "Dathanna i ndiaidh an ainmfhocail",
+     "question": "Cad chuige a gcuirtear h ar an fhocal bán i ndiaidh léine ach nach gcuirtear i ndiaidh geansaí? Cad chuige nach n-athraíonn liath?",
+     "questionEn": "Why does bán take a h after léine but not after geansaí? Why does liath not change?",
+     "rows": [
+      [
+       "geansaí + bán",
+       "geansaí bán"
+      ],
+      [
+       "bríste + dubh",
+       "bríste dubh"
+      ],
+      [
+       "cóta + gorm",
+       "cóta gorm"
+      ],
+      [
+       "léine + bán",
+       "léine b[h]án"
+      ],
+      [
+       "casóg + dubh",
+       "casóg d[h]ubh"
+      ],
+      [
+       "T-léine + dearg",
+       "T-léine d[h]earg"
+      ],
+      [
+       "casóg + liath",
+       "casóg liath"
+      ]
+     ],
+     "rule": "In Irish the colour comes after the noun. After a feminine noun (léine, casóg, T-léine) the colour takes a h (séimhiú): léine bhán, casóg dhubh. After a masculine noun (geansaí, bríste, cóta) it does not change: geansaí bán. L, n and r never take h: casóg liath.",
+     "ruleEn": "In Irish the colour comes after the noun. After a feminine noun (léine, casóg, T-léine) the colour takes a h (séimhiú): léine bhán, casóg dhubh. After a masculine noun (geansaí, bríste, cóta) it does not change: geansaí bán. L, n and r never take h: casóg liath."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Ar scoil, caithim léine bhán agus bríste liath.",
+     "en": "At school, I wear a white shirt and grey trousers.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Ar scoil, caithim léine bhán[, geansaí dúghorm] agus bríste liath. [Sílim go bhfuil an éide compordach agus praiticiúil.]",
+     "en": "At school, I wear a white shirt, a navy jumper and grey trousers. I think the uniform is comfortable and practical.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Ar scoil, caithim léine bhán, geansaí dúghorm agus bríste liath. Sílim go bhfuil an éide compordach agus praiticiúil[, ach caithfidh mé a rá go gcuireann an carbhat isteach orm. Ag an deireadh seachtaine, is fearr liom bríste géine agus T-léine a chaitheamh mar is maith liom a bheith compordach. An tseachtain seo caite, cheannaigh mé casóg dhearg san Iúr agus níor chosain sí ach fiche punt sa tsladmhargadh].",
+     "en": "At school, I wear a white shirt, a navy jumper and grey trousers. I think the uniform is comfortable and practical, but I have to say that the tie annoys me. At the weekend, I prefer to wear jeans and a T-shirt because I like to be comfortable. Last week, I bought a red jacket in Newry and it only cost twenty pounds in the sale.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Sa siopa éadaí",
+     "titleEn": "In the clothes shop",
+     "rubric": "Tá tú i siopa éadaí san Iúr. Labhraíonn an freastalaí ar dtús.",
+     "rubricEn": "You are in a clothes shop in Newry. The shop assistant speaks first.",
+     "tasks": [
+      {
+       "teacher": "Dia duit. An dtig liom cuidiú leat?",
+       "en": "Say you need a jumper for school.",
+       "ga": "Tá geansaí scoile de dhíth orm, le do thoil.",
+       "alt": "Tá mé ag cuartú geansaí scoile."
+      },
+      {
+       "teacher": "Cinnte. Cén dath ba mhaith leat?",
+       "en": "Say you would like a navy one.",
+       "ga": "Ba mhaith liom ceann dúghorm, le do thoil."
+      },
+      {
+       "teacher": "Seo duit. An bhfuil sé ceart go leor?",
+       "en": "Say it is too big and ask for a smaller size.",
+       "ga": "Tá sé rómhór. An bhfuil méid níos lú agaibh?"
+      },
+      {
+       "teacher": "Tá. Seo ceann níos lú.",
+       "en": "Ask how much it costs.",
+       "ga": "Cá mhéad atá air?",
+       "alt": "Cá mhéad atá ar an gheansaí seo?"
+      },
+      {
+       "teacher": "Tá fiche punt air. Cad é mar a íocfaidh tú?",
+       "en": "Answer the unexpected question.",
+       "ga": "Íocfaidh mé le mo ghuthán.",
+       "alt": "Íocfaidh mé le hairgead tirim.",
+       "unexpected": true
+      }
+     ]
+    },
+    {
+     "title": "San ollmhargadh",
+     "titleEn": "In the supermarket",
+     "rubric": "Tá tú san ollmhargadh. Labhraíonn an freastalaí ar dtús.",
+     "rubricEn": "You are in the supermarket. The shop assistant speaks first.",
+     "tasks": [
+      {
+       "teacher": "Dia duit. An dtig liom cuidiú leat?",
+       "en": "Ask where the vegetables are.",
+       "ga": "Gabh mo leithscéal, cá bhfuil na glasraí?"
+      },
+      {
+       "teacher": "Tá siad thíos ansin ar clé.",
+       "en": "Ask if they are fresh.",
+       "ga": "An bhfuil siad úr?"
+      },
+      {
+       "teacher": "Tá, cinnte. Tháinig siad isteach ar maidin.",
+       "en": "Say you need potatoes too.",
+       "ga": "Tá prátaí de dhíth orm fosta.",
+       "alt": "Tá sé chomh maith dom prátaí a cheannach agus mé anseo."
+      },
+      {
+       "teacher": "Tá siad in aice leis na cairéid.",
+       "en": "Ask what time the shop closes tonight.",
+       "ga": "Cén t-am a dhruideann an siopa anocht?"
+      },
+      {
+       "teacher": "Ar a deich a chlog. An bhfuil mála de dhíth ort?",
+       "en": "Answer the unexpected question.",
+       "ga": "Níl, go raibh maith agat. Tá mo mhála féin agam.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g6-slainte",
+   "title": "Sláinte agus timpistí",
+   "en": "Health and accidents",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Talking about staying healthy (sport, food and sleep) and saying what is wrong; Tá ... orm for illnesses (tá slaghdán orm, tá tinneas cinn orm) and the question An bhfuil ... ort?; Tá mo ... nimhneach and Ghortaigh mé mo ... with mo + séimhiú (mo chos, mo ghlúin), no change on l, r or sc (mo lámh, mo rúitín, mo sceadamán) and m' before a vowel (m'uillinn); an injury at sport in the past (bhris mé, bhí orm dul); ag imirt + the genitive (ag imirt peile); advice with Ba chóir dom.",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo shláinte agus faoi bheith sláintiúil.",
+     "en": "I am learning to talk about my health and being healthy."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le rá cad é atá cearr liom agus cad é a tharla dom.",
+     "en": "I am learning to say what is wrong with me and what happened to me."
+    }
+   ],
+   "questions": [
+    "An duine sláintiúil thú?",
+    "Cad é a dhéanann tú le fanacht aclaí?",
+    "Cad é a itheann tú de ghnáth?",
+    "Cá huair a théann tú a luí?",
+    "Cad é atá cearr leat?",
+    "Ar ghortaigh tú thú féin riamh?",
+    "An ndeachaigh tú chuig an dochtúir?",
+    "Cad é a rinne an dochtúir?",
+    "Cad é ba chóir duit a dhéanamh le bheith níos sláintiúla?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "An duine sláintiúil thú?",
+     "columns": [
+      [
+       {
+        "ga": "Sílim gur duine",
+        "en": "I think I am a"
+       }
+      ],
+      [
+       {
+        "ga": "sláintiúil",
+        "en": "healthy"
+       },
+       {
+        "ga": "measartha sláintiúil",
+        "en": "fairly healthy"
+       },
+       {
+        "ga": "aclaí",
+        "en": "fit"
+       }
+      ],
+      [
+       {
+        "ga": "mé",
+        "en": "person"
+       }
+      ],
+      [
+       {
+        "ga": "mar imrím spórt go minic",
+        "en": "because I play sport often",
+        "optional": true
+       },
+       {
+        "ga": "mar ithim bia folláin",
+        "en": "because I eat healthy food",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Le fanacht aclaí",
+     "columns": [
+      [
+       {
+        "ga": "Le fanacht aclaí,",
+        "en": "To stay fit,"
+       }
+      ],
+      [
+       {
+        "ga": "imrím peil Ghaelach",
+        "en": "I play Gaelic football"
+       },
+       {
+        "ga": "imrím camógaíocht",
+        "en": "I play camogie"
+       },
+       {
+        "ga": "téim ag snámh",
+        "en": "I go swimming"
+       },
+       {
+        "ga": "téim ag rith",
+        "en": "I go running"
+       }
+      ],
+      [
+       {
+        "ga": "dhá uair sa tseachtain",
+        "en": "twice a week"
+       },
+       {
+        "ga": "trí huaire sa tseachtain",
+        "en": "three times a week"
+       },
+       {
+        "ga": "gach lá",
+        "en": "every day"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bia folláin",
+     "columns": [
+      [
+       {
+        "ga": "Ithim",
+        "en": "I eat"
+       }
+      ],
+      [
+       {
+        "ga": "a lán torthaí",
+        "en": "a lot of fruit"
+       },
+       {
+        "ga": "a lán glasraí",
+        "en": "a lot of vegetables"
+       },
+       {
+        "ga": "bia folláin",
+        "en": "healthy food"
+       },
+       {
+        "ga": "bricfeasta maith gach maidin",
+        "en": "a good breakfast every morning"
+       }
+      ],
+      [
+       {
+        "ga": "agus ólaim a lán uisce",
+        "en": "and I drink a lot of water",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An iomarca",
+     "columns": [
+      [
+       {
+        "ga": "Ach caithfidh mé a rá go n-ithim",
+        "en": "But I have to say that I eat"
+       }
+      ],
+      [
+       {
+        "ga": "an iomarca milseán",
+        "en": "too many sweets"
+       },
+       {
+        "ga": "an iomarca seacláide",
+        "en": "too much chocolate"
+       },
+       {
+        "ga": "an iomarca sceallóg",
+        "en": "too many chips"
+       }
+      ],
+      [
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Codladh",
+     "columns": [
+      [
+       {
+        "ga": "Téim a luí",
+        "en": "I go to bed"
+       }
+      ],
+      [
+       {
+        "ga": "ar a deich a chlog",
+        "en": "at ten o'clock"
+       },
+       {
+        "ga": "ar leath i ndiaidh a deich",
+        "en": "at half past ten"
+       },
+       {
+        "ga": "ar a haon déag a chlog",
+        "en": "at eleven o'clock"
+       }
+      ],
+      [
+       {
+        "ga": "agus codlaím go maith",
+        "en": "and I sleep well"
+       },
+       {
+        "ga": "ach bím tuirseach ar maidin",
+        "en": "but I am tired in the morning"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá ... orm",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "slaghdán",
+        "en": "a cold"
+       },
+       {
+        "ga": "tinneas cinn",
+        "en": "a headache"
+       },
+       {
+        "ga": "tinneas boilg",
+        "en": "a sore stomach"
+       },
+       {
+        "ga": "déideadh",
+        "en": "toothache"
+       },
+       {
+        "ga": "an ulpóg",
+        "en": "the flu"
+       },
+       {
+        "ga": "teocht ard",
+        "en": "a high temperature"
+       }
+      ],
+      [
+       {
+        "ga": "orm",
+        "en": "(on me)"
+       }
+      ],
+      [
+       {
+        "ga": "le dhá lá anuas",
+        "en": "for the last two days",
+        "optional": true
+       },
+       {
+        "ga": "ó inné",
+        "en": "since yesterday",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá mo ... nimhneach",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo",
+        "en": "My"
+       }
+      ],
+      [
+       {
+        "ga": "sceadamán",
+        "en": "throat"
+       },
+       {
+        "ga": "chos",
+        "en": "leg"
+       },
+       {
+        "ga": "lámh",
+        "en": "hand"
+       },
+       {
+        "ga": "dhroim",
+        "en": "back"
+       },
+       {
+        "ga": "chluas",
+        "en": "ear"
+       },
+       {
+        "ga": "ghlúin",
+        "en": "knee"
+       }
+      ],
+      [
+       {
+        "ga": "nimhneach",
+        "en": "is sore"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ghortaigh mé mo ...",
+     "columns": [
+      [
+       {
+        "ga": "Ghortaigh mé",
+        "en": "I hurt"
+       },
+       {
+        "ga": "Bhris mé",
+        "en": "I broke"
+       }
+      ],
+      [
+       {
+        "ga": "mo lámh",
+        "en": "my hand"
+       },
+       {
+        "ga": "mo chos",
+        "en": "my leg"
+       },
+       {
+        "ga": "mo mhurnán",
+        "en": "my ankle"
+       },
+       {
+        "ga": "mo mhéar",
+        "en": "my finger"
+       },
+       {
+        "ga": "m'uillinn",
+        "en": "my elbow"
+       }
+      ],
+      [
+       {
+        "ga": "ag imirt peile",
+        "en": "playing football"
+       },
+       {
+        "ga": "ag imirt camógaíochta",
+        "en": "playing camogie"
+       },
+       {
+        "ga": "ag traenáil",
+        "en": "at training"
+       }
+      ],
+      [
+       {
+        "ga": "Dé Sathairn seo caite",
+        "en": "last Saturday",
+        "optional": true
+       },
+       {
+        "ga": "anuraidh",
+        "en": "last year",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bhí orm dul",
+     "columns": [
+      [
+       {
+        "ga": "Bhí orm dul",
+        "en": "I had to go"
+       }
+      ],
+      [
+       {
+        "ga": "chuig an dochtúir",
+        "en": "to the doctor"
+       },
+       {
+        "ga": "go dtí an t-ospidéal",
+        "en": "to the hospital"
+       },
+       {
+        "ga": "go dtí an t-ionad sláinte",
+        "en": "to the health centre"
+       }
+      ],
+      [
+       {
+        "ga": "san Iúr",
+        "en": "in Newry"
+       },
+       {
+        "ga": "in Ard Mhacha",
+        "en": "in Armagh"
+       },
+       {
+        "ga": "i mBéal Feirste",
+        "en": "in Belfast"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An dochtúir",
+     "columns": [
+      [
+       {
+        "ga": "Thug an dochtúir",
+        "en": "The doctor gave"
+       }
+      ],
+      [
+       {
+        "ga": "táibléid",
+        "en": "tablets"
+       },
+       {
+        "ga": "oideas",
+        "en": "a prescription"
+       },
+       {
+        "ga": "bindealán",
+        "en": "a bandage"
+       }
+      ],
+      [
+       {
+        "ga": "dom",
+        "en": "to me"
+       }
+      ],
+      [
+       {
+        "ga": "agus bhí orm scíth a ligean ar feadh seachtaine",
+        "en": "and I had to rest for a week",
+        "optional": true
+       },
+       {
+        "ga": "agus ní raibh cead agam spórt a imirt ar feadh míosa",
+        "en": "and I was not allowed to play sport for a month",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba chóir dom",
+     "columns": [
+      [
+       {
+        "ga": "Ba chóir dom",
+        "en": "I should"
+       }
+      ],
+      [
+       {
+        "ga": "níos mó uisce a ól",
+        "en": "drink more water"
+       },
+       {
+        "ga": "níos mó glasraí a ithe",
+        "en": "eat more vegetables"
+       },
+       {
+        "ga": "dul a luí níos luaithe",
+        "en": "go to bed earlier"
+       },
+       {
+        "ga": "níos lú ama a chaitheamh ar an ghuthán",
+        "en": "spend less time on the phone"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Le fanacht aclaí, imrím peil Ghaelach dhá uair sa tseachtain agus ithim a lán torthaí.",
+    "Tá tinneas cinn orm le dhá lá anuas agus tá mo sceadamán nimhneach.",
+    "Bhris mé mo lámh ag imirt peile Dé Sathairn seo caite agus bhí orm dul go dtí an t-ospidéal san Iúr."
+   ],
+   "patterns": [
+    {
+     "title": "Tá ... orm",
+     "question": "Cad é an focal beag a thaispeánann cé atá tinn? Cad é a tharlaíonn dó nuair a athraíonn an duine?",
+     "questionEn": "Which little word tells you who is ill? What happens to it when the person changes?",
+     "rows": [
+      [
+       "Tá slaghdán orm.",
+       "Tá slaghdán orm."
+      ],
+      [
+       "Tá tinneas cinn orm.",
+       "Tá tinneas cinn orm."
+      ],
+      [
+       "Tá tinneas boilg ort.",
+       "Tá tinneas boilg ort."
+      ],
+      [
+       "Tá déideadh air.",
+       "Tá déideadh air."
+      ],
+      [
+       "Tá an ulpóg uirthi.",
+       "Tá an ulpóg uirthi."
+      ],
+      [
+       "An bhfuil teocht ard ort?",
+       "{An} [bh]fuil teocht ard ort?"
+      ],
+      [
+       "Níl slaghdán orm.",
+       "Níl slaghdán orm."
+      ]
+     ],
+     "rule": "In Irish an illness is on you: Tá slaghdán orm (a cold is on me). The person is shown by ar: orm (me), ort (you), air (him), uirthi (her). Ask with An bhfuil ... ort? and answer Tá or Níl.",
+     "ruleEn": "In Irish an illness is on you: Tá slaghdán orm (a cold is on me). The person is shown by ar: orm (me), ort (you), air (him), uirthi (her). Ask with An bhfuil ... ort? and answer Tá or Níl."
+    },
+    {
+     "title": "Ghortaigh mé mo ...",
+     "question": "Cad é a tharlaíonn don fhocal i ndiaidh mo? Cad chuige nach n-athraíonn lámh ná rúitín?",
+     "questionEn": "What happens to the word after mo? Why do lámh and rúitín not change?",
+     "rows": [
+      [
+       "cos",
+       "Ghortaigh mé mo c[h]os."
+      ],
+      [
+       "glúin",
+       "Ghortaigh mé mo g[h]lúin."
+      ],
+      [
+       "droim",
+       "Ghortaigh mé mo d[h]roim."
+      ],
+      [
+       "méar",
+       "Bhris mé mo m[h]éar."
+      ],
+      [
+       "murnán",
+       "Bhris mé mo m[h]urnán."
+      ],
+      [
+       "lámh",
+       "Bhris mé mo lámh."
+      ],
+      [
+       "rúitín",
+       "Ghortaigh mé mo rúitín."
+      ],
+      [
+       "uillinn",
+       "Ghortaigh mé m'uillinn."
+      ]
+     ],
+     "rule": "Mo puts a h after the first letter (séimhiú): mo chos, mo ghlúin. L, n and r never take h: mo lámh, mo rúitín. Sc, sm, sp and st do not take h either: mo sceadamán. Before a vowel, mo becomes m': m'uillinn.",
+     "ruleEn": "Mo puts a h after the first letter (séimhiú): mo chos, mo ghlúin. L, n and r never take h: mo lámh, mo rúitín. Sc, sm, sp and st do not take h either: mo sceadamán. Before a vowel, mo becomes m': m'uillinn."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Bhris mé mo lámh. Chuaigh mé chuig an dochtúir.",
+     "en": "I broke my hand. I went to the doctor.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Bhris mé mo lámh [ag imirt peile Dé Sathairn seo caite]. Chuaigh mé chuig an dochtúir [san Iúr le mo mhamaí].",
+     "en": "I broke my hand playing football last Saturday. I went to the doctor in Newry with my mum.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Bhris mé mo lámh ag imirt peile Dé Sathairn seo caite. Chuaigh mé chuig an dochtúir san Iúr le mo mhamaí. [Ar an drochuair, bhí orm scíth a ligean ar feadh seachtaine agus ní raibh cead agam peil a imirt ar feadh míosa. Caithfidh mé a rá gur chuir sé isteach go mór orm, ach beidh mé ar ais ar an fhoireann go luath.]",
+     "en": "I broke my hand playing football last Saturday. I went to the doctor in Newry with my mum. Unfortunately, I had to rest for a week and I was not allowed to play football for a month. I have to say that it really annoyed me, but I will be back on the team soon.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Ag an dochtúir",
+     "titleEn": "At the doctor's",
+     "rubric": "Tá tú ag an dochtúir san Iúr. Labhraíonn an dochtúir ar dtús.",
+     "rubricEn": "You are at the doctor's in Newry. The doctor speaks first.",
+     "tasks": [
+      {
+       "teacher": "Dia duit. Cad é atá cearr leat?",
+       "en": "Say you have a headache and a sore throat.",
+       "ga": "Tá tinneas cinn orm agus tá mo sceadamán nimhneach."
+      },
+      {
+       "teacher": "Cá fhad atá tú mar seo?",
+       "en": "Say for the last two days.",
+       "ga": "Le dhá lá anuas.",
+       "alt": "Tá mé mar seo le dhá lá anuas."
+      },
+      {
+       "teacher": "An bhfuil tú ag ithe go maith?",
+       "en": "Say you are not hungry but you are drinking a lot of water.",
+       "ga": "Níl ocras orm, ach tá mé ag ól a lán uisce."
+      },
+      {
+       "teacher": "Ceart go leor.",
+       "en": "Ask if there is anything that would help you.",
+       "ga": "An bhfuil rud ar bith agat a chuideodh liom?"
+      },
+      {
+       "teacher": "Glac dhá tháibléad trí huaire sa lá. An bhfuil teocht ard ort?",
+       "en": "Answer the unexpected question.",
+       "ga": "Níl, ní shílim go bhfuil.",
+       "unexpected": true
+      }
+     ]
+    },
+    {
+     "title": "Timpiste ag an traenáil",
+     "titleEn": "An accident at training",
+     "rubric": "Ghortaigh tú thú féin ag traenáil peile i gCamloch. Tá tú ag caint leis an traenálaí. Labhraíonn an traenálaí ar dtús.",
+     "rubricEn": "You hurt yourself at football training in Camlough. You are talking to the coach. The coach speaks first.",
+     "tasks": [
+      {
+       "teacher": "Cad é a tharla duit?",
+       "en": "Say you fell and hurt your ankle.",
+       "ga": "Thit mé agus ghortaigh mé mo mhurnán.",
+       "alt": "Thit mé agus ghortaigh mé mo rúitín."
+      },
+      {
+       "teacher": "An bhfuil sé nimhneach?",
+       "en": "Say it is very sore and you cannot walk.",
+       "ga": "Tá sé an-nimhneach agus ní thig liom siúl."
+      },
+      {
+       "teacher": "Cuirfidh mé scairt ar do thuismitheoirí. Cá bhfuil siad inniu?",
+       "en": "Say your mum is at work in Newry.",
+       "ga": "Tá mo mhamaí ag obair san Iúr."
+      },
+      {
+       "teacher": "Ceart go leor. Suigh síos anseo go fóill.",
+       "en": "Ask for a bottle of water.",
+       "ga": "An dtig liom buidéal uisce a fháil, le do thoil?"
+      },
+      {
+       "teacher": "Seo duit. An mbeidh tú ar ais ag an traenáil an tseachtain seo chugainn?",
+       "en": "Answer the unexpected question.",
+       "ga": "Tá súil agam go mbeidh, ach caithfidh mé dul chuig an dochtúir ar dtús.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

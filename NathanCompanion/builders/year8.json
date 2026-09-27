@@ -2430,6 +2430,1805 @@
      "en": "I am learning what happens to a noun after a number."
     }
    ]
+  },
+  {
+   "id": "b11-seomra",
+   "title": "Sa seomra ranga",
+   "en": "Classroom language",
+   "new": true,
+   "teaches": "An dtig liom ...? asks if you may do something: An dtig liom dul chuig an leithreas? An dtig leat ...? asks someone else to do something. Níl ... agam when you are missing something: Níl peann agam. Cad é mar a deir tú 'pencil' as Gaeilge? The teacher says Suigh síos to one pupil and Suígí síos to the class. Do leabhar is your book, bhur leabhair is your books. Oscail is open, druid is close.",
+   "questions": [
+    "Cad é atá uait?",
+    "An bhfuil peann agat?",
+    "Cad chuige a bhfuil tú mall?",
+    "An dtuigeann tú?"
+   ],
+   "qrows": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ],
+   "rows": [
+    {
+     "label": "An dtig liom?",
+     "columns": [
+      [
+       {
+        "ga": "An dtig liom",
+        "en": "Can I"
+       }
+      ],
+      [
+       {
+        "ga": "dul chuig an leithreas",
+        "en": "go to the toilet"
+       },
+       {
+        "ga": "deoch uisce a fháil",
+        "en": "get a drink of water"
+       },
+       {
+        "ga": "peann a fháil ar iasacht",
+        "en": "borrow a pen"
+       },
+       {
+        "ga": "an fhuinneog a oscailt",
+        "en": "open the window"
+       },
+       {
+        "ga": "an doras a dhruidim",
+        "en": "close the door"
+       },
+       {
+        "ga": "suí anseo",
+        "en": "sit here"
+       }
+      ],
+      [
+       {
+        "ga": ", le do thoil?",
+        "en": ", please?"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An dtig leat?",
+     "columns": [
+      [
+       {
+        "ga": "An dtig leat",
+        "en": "Can you"
+       }
+      ],
+      [
+       {
+        "ga": "é sin a rá arís",
+        "en": "say that again"
+       },
+       {
+        "ga": "é sin a scríobh ar an chlár",
+        "en": "write that on the board"
+       },
+       {
+        "ga": "labhairt níos moille",
+        "en": "speak more slowly"
+       },
+       {
+        "ga": "cuidiú liom",
+        "en": "help me"
+       }
+      ],
+      [
+       {
+        "ga": ", le do thoil?",
+        "en": ", please?"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Níl ... agam",
+     "columns": [
+      [
+       {
+        "ga": "Níl",
+        "en": "I don't have"
+       }
+      ],
+      [
+       {
+        "ga": "peann",
+        "en": "a pen"
+       },
+       {
+        "ga": "peann luaidhe",
+        "en": "a pencil"
+       },
+       {
+        "ga": "rialóir",
+        "en": "a ruler"
+       },
+       {
+        "ga": "scriosán",
+        "en": "a rubber"
+       },
+       {
+        "ga": "mo leabhar",
+        "en": "my book"
+       },
+       {
+        "ga": "mo chóipleabhar",
+        "en": "my copybook"
+       },
+       {
+        "ga": "m'obair bhaile",
+        "en": "my homework"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ],
+      [
+       {
+        "ga": "inniu",
+        "en": "today",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá brón orm",
+     "columns": [
+      [
+       {
+        "ga": "Tá brón orm",
+        "en": "I'm sorry"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil mé mall",
+        "en": "that I'm late"
+       },
+       {
+        "ga": ", ach ní thuigim",
+        "en": ", but I don't understand"
+       },
+       {
+        "ga": ", ach níl a fhios agam",
+        "en": ", but I don't know"
+       }
+      ],
+      [
+       {
+        "ga": ", a mhúinteoir",
+        "en": ", teacher",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "As Gaeilge",
+     "columns": [
+      [
+       {
+        "ga": "Cad é mar a deir tú",
+        "en": "How do you say"
+       }
+      ],
+      [
+       {
+        "ga": "'pencil'",
+        "en": "'pencil'"
+       },
+       {
+        "ga": "'window'",
+        "en": "'window'"
+       },
+       {
+        "ga": "'homework'",
+        "en": "'homework'"
+       },
+       {
+        "ga": "'Monday'",
+        "en": "'Monday'"
+       },
+       {
+        "ga": "'thank you'",
+        "en": "'thank you'"
+       }
+      ],
+      [
+       {
+        "ga": "as Gaeilge?",
+        "en": "in Irish?"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "As Béarla",
+     "columns": [
+      [
+       {
+        "ga": "Cad é mar a deir tú",
+        "en": "How do you say"
+       }
+      ],
+      [
+       {
+        "ga": "'fuinneog'",
+        "en": "'fuinneog'"
+       },
+       {
+        "ga": "'leithreas'",
+        "en": "'leithreas'"
+       },
+       {
+        "ga": "'cóipleabhar'",
+        "en": "'cóipleabhar'"
+       },
+       {
+        "ga": "'scriosán'",
+        "en": "'scriosán'"
+       },
+       {
+        "ga": "'Dé Luain'",
+        "en": "'Dé Luain'"
+       }
+      ],
+      [
+       {
+        "ga": "as Béarla?",
+        "en": "in English?"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cabhair",
+     "columns": [
+      [
+       {
+        "ga": "Níl a fhios agam",
+        "en": "I don't know"
+       },
+       {
+        "ga": "Ní thuigim",
+        "en": "I don't understand"
+       },
+       {
+        "ga": "Tuigim anois",
+        "en": "I understand now"
+       },
+       {
+        "ga": "Tá ceist agam",
+        "en": "I have a question"
+       },
+       {
+        "ga": "Tá mé réidh",
+        "en": "I'm finished"
+       },
+       {
+        "ga": "Gabh mo leithscéal",
+        "en": "Excuse me"
+       },
+       {
+        "ga": "Go raibh maith agat",
+        "en": "Thank you"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Orduithe don rang",
+     "columns": [
+      [
+       {
+        "ga": "Suígí síos",
+        "en": "Sit down (all of you)"
+       },
+       {
+        "ga": "Seasaigí suas",
+        "en": "Stand up (all of you)"
+       },
+       {
+        "ga": "Éistigí",
+        "en": "Listen (all of you)"
+       },
+       {
+        "ga": "Bígí ciúin",
+        "en": "Be quiet (all of you)"
+       },
+       {
+        "ga": "Tagaigí isteach",
+        "en": "Come in (all of you)"
+       },
+       {
+        "ga": "Cuirigí suas bhur lámha",
+        "en": "Put your hands up (all of you)"
+       },
+       {
+        "ga": "Amharcaigí ar an chlár",
+        "en": "Look at the board (all of you)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Do leabhar (duine amháin)",
+     "columns": [
+      [
+       {
+        "ga": "Oscail",
+        "en": "Open"
+       },
+       {
+        "ga": "Druid",
+        "en": "Close"
+       },
+       {
+        "ga": "Tóg amach",
+        "en": "Take out"
+       }
+      ],
+      [
+       {
+        "ga": "do leabhar",
+        "en": "your book"
+       },
+       {
+        "ga": "do chóipleabhar",
+        "en": "your copybook"
+       },
+       {
+        "ga": "do dhialann",
+        "en": "your diary"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bhur leabhair (an rang)",
+     "columns": [
+      [
+       {
+        "ga": "Osclaígí",
+        "en": "Open (all of you)"
+       },
+       {
+        "ga": "Druidigí",
+        "en": "Close (all of you)"
+       },
+       {
+        "ga": "Tógaigí amach",
+        "en": "Take out (all of you)"
+       }
+      ],
+      [
+       {
+        "ga": "bhur leabhair",
+        "en": "your books"
+       },
+       {
+        "ga": "bhur gcóipleabhair",
+        "en": "your copybooks"
+       },
+       {
+        "ga": "bhur ndialanna",
+        "en": "your diaries"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "An dtig liom dul chuig an leithreas, le do thoil?",
+    "Tá brón orm go bhfuil mé mall, a mhúinteoir.",
+    "Cad é mar a deir tú 'pencil' as Gaeilge?"
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cuidiú a iarraidh agus le ceisteanna a chur sa rang.",
+     "en": "I am learning to ask for help and to ask questions in class."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le horduithe an mhúinteora a thuiscint.",
+     "en": "I am learning to understand the teacher's instructions."
+    }
+   ]
+  },
+  {
+   "id": "b12-dathanna",
+   "title": "Dathanna",
+   "en": "Colours",
+   "new": true,
+   "teaches": "The colour comes after the noun: peann gorm, a blue pen. After a feminine noun the colour takes séimhiú: léine bhán, a white shirt. After a plural noun like bróga or stocaí the colour adds a: bróga dubha, stocaí bána. After tá the colour never changes: Tá na ballaí bán. Tá mo bhróga liath.",
+   "questions": [
+    "Cad é an dath is fearr leat?",
+    "Cén dath atá ar do mhála scoile?",
+    "Cén dath atá ar na ballaí sa seomra ranga?",
+    "Cad é a chaitheann tú ar scoil?"
+   ],
+   "qrows": [
+    [
+     0,
+     7
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ],
+   "rows": [
+    {
+     "label": "An dath is fearr liom",
+     "columns": [
+      [
+       {
+        "ga": "Is é",
+        "en": "(it is)"
+       }
+      ],
+      [
+       {
+        "ga": "dearg",
+        "en": "red"
+       },
+       {
+        "ga": "gorm",
+        "en": "blue"
+       },
+       {
+        "ga": "glas",
+        "en": "green"
+       },
+       {
+        "ga": "buí",
+        "en": "yellow"
+       },
+       {
+        "ga": "dubh",
+        "en": "black"
+       },
+       {
+        "ga": "bán",
+        "en": "white"
+       },
+       {
+        "ga": "donn",
+        "en": "brown"
+       },
+       {
+        "ga": "liath",
+        "en": "grey"
+       },
+       {
+        "ga": "oráiste",
+        "en": "orange"
+       },
+       {
+        "ga": "bándearg",
+        "en": "pink"
+       },
+       {
+        "ga": "corcra",
+        "en": "purple"
+       },
+       {
+        "ga": "dúghorm",
+        "en": "navy"
+       }
+      ],
+      [
+       {
+        "ga": "an dath is fearr liom",
+        "en": "is my favourite colour"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mo chuid rudaí",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo mhála scoile",
+        "en": "My school bag is"
+       },
+       {
+        "ga": "Tá mo gheansaí scoile",
+        "en": "My school jumper is"
+       },
+       {
+        "ga": "Tá mo chóta",
+        "en": "My coat is"
+       },
+       {
+        "ga": "Tá mo rothar",
+        "en": "My bike is"
+       },
+       {
+        "ga": "Tá mo bhróga",
+        "en": "My shoes are"
+       }
+      ],
+      [
+       {
+        "ga": "dúghorm",
+        "en": "navy"
+       },
+       {
+        "ga": "gorm",
+        "en": "blue"
+       },
+       {
+        "ga": "dearg",
+        "en": "red"
+       },
+       {
+        "ga": "liath",
+        "en": "grey"
+       },
+       {
+        "ga": "glas",
+        "en": "green"
+       },
+       {
+        "ga": "donn",
+        "en": "brown"
+       },
+       {
+        "ga": "buí",
+        "en": "yellow"
+       },
+       {
+        "ga": "bándearg",
+        "en": "pink"
+       },
+       {
+        "ga": "corcra",
+        "en": "purple"
+       },
+       {
+        "ga": "oráiste",
+        "en": "orange"
+       }
+      ],
+      [
+       {
+        "ga": "agus bán",
+        "en": "and white",
+        "optional": true
+       },
+       {
+        "ga": "agus dubh",
+        "en": "and black",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Sa seomra ranga",
+     "columns": [
+      [
+       {
+        "ga": "Tá an doras",
+        "en": "The door is"
+       },
+       {
+        "ga": "Tá an tábla",
+        "en": "The table is"
+       },
+       {
+        "ga": "Tá an cófra",
+        "en": "The cupboard is"
+       },
+       {
+        "ga": "Tá na ballaí",
+        "en": "The walls are"
+       },
+       {
+        "ga": "Tá na cathaoireacha",
+        "en": "The chairs are"
+       }
+      ],
+      [
+       {
+        "ga": "dearg",
+        "en": "red"
+       },
+       {
+        "ga": "gorm",
+        "en": "blue"
+       },
+       {
+        "ga": "glas",
+        "en": "green"
+       },
+       {
+        "ga": "buí",
+        "en": "yellow"
+       },
+       {
+        "ga": "bán",
+        "en": "white"
+       },
+       {
+        "ga": "donn",
+        "en": "brown"
+       },
+       {
+        "ga": "liath",
+        "en": "grey"
+       }
+      ],
+      [
+       {
+        "ga": "sa seomra ranga",
+        "en": "in the classroom"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá ... agam",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "peann dearg",
+        "en": "a red pen"
+       },
+       {
+        "ga": "peann gorm",
+        "en": "a blue pen"
+       },
+       {
+        "ga": "peann luaidhe buí",
+        "en": "a yellow pencil"
+       },
+       {
+        "ga": "peann luaidhe corcra",
+        "en": "a purple pencil"
+       },
+       {
+        "ga": "rialóir glas",
+        "en": "a green ruler"
+       },
+       {
+        "ga": "rialóir oráiste",
+        "en": "an orange ruler"
+       },
+       {
+        "ga": "mála dubh",
+        "en": "a black bag"
+       },
+       {
+        "ga": "mála bándearg",
+        "en": "a pink bag"
+       },
+       {
+        "ga": "cóipleabhar bán",
+        "en": "a white copybook"
+       },
+       {
+        "ga": "cóipleabhar gorm",
+        "en": "a blue copybook"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Caithim (firinscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Caithim",
+        "en": "I wear"
+       }
+      ],
+      [
+       {
+        "ga": "geansaí dúghorm",
+        "en": "a navy jumper"
+       },
+       {
+        "ga": "geansaí liath",
+        "en": "a grey jumper"
+       },
+       {
+        "ga": "bríste dubh",
+        "en": "black trousers"
+       },
+       {
+        "ga": "bríste liath",
+        "en": "grey trousers"
+       },
+       {
+        "ga": "carbhat dearg",
+        "en": "a red tie"
+       },
+       {
+        "ga": "carbhat gorm",
+        "en": "a blue tie"
+       },
+       {
+        "ga": "cóta dubh",
+        "en": "a black coat"
+       },
+       {
+        "ga": "seaicéad donn",
+        "en": "a brown jacket"
+       },
+       {
+        "ga": "seaicéad glas",
+        "en": "a green jacket"
+       }
+      ],
+      [
+       {
+        "ga": "ar scoil",
+        "en": "to school",
+        "optional": true
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Caithim léine (baininscneach)",
+     "columns": [
+      [
+       {
+        "ga": "Caithim",
+        "en": "I wear"
+       }
+      ],
+      [
+       {
+        "ga": "léine bhán",
+        "en": "a white shirt"
+       },
+       {
+        "ga": "léine ghorm",
+        "en": "a blue shirt"
+       },
+       {
+        "ga": "léine bhándearg",
+        "en": "a pink shirt"
+       },
+       {
+        "ga": "léine liath",
+        "en": "a grey shirt"
+       },
+       {
+        "ga": "léine dhubh",
+        "en": "a black shirt"
+       },
+       {
+        "ga": "léine bhuí",
+        "en": "a yellow shirt"
+       },
+       {
+        "ga": "léine ghlas",
+        "en": "a green shirt"
+       },
+       {
+        "ga": "léine dhearg",
+        "en": "a red shirt"
+       }
+      ],
+      [
+       {
+        "ga": "ar scoil",
+        "en": "to school",
+        "optional": true
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bróga agus stocaí (iolra)",
+     "columns": [
+      [
+       {
+        "ga": "Caithim",
+        "en": "I wear"
+       }
+      ],
+      [
+       {
+        "ga": "bróga dubha",
+        "en": "black shoes"
+       },
+       {
+        "ga": "bróga donna",
+        "en": "brown shoes"
+       },
+       {
+        "ga": "bróga bána",
+        "en": "white shoes"
+       },
+       {
+        "ga": "bróga gorma",
+        "en": "blue shoes"
+       },
+       {
+        "ga": "bróga liatha",
+        "en": "grey shoes"
+       },
+       {
+        "ga": "bróga dearga",
+        "en": "red shoes"
+       },
+       {
+        "ga": "stocaí dubha",
+        "en": "black socks"
+       },
+       {
+        "ga": "stocaí donna",
+        "en": "brown socks"
+       },
+       {
+        "ga": "stocaí bána",
+        "en": "white socks"
+       },
+       {
+        "ga": "stocaí gorma",
+        "en": "blue socks"
+       },
+       {
+        "ga": "stocaí liatha",
+        "en": "grey socks"
+       },
+       {
+        "ga": "stocaí dearga",
+        "en": "red socks"
+       }
+      ],
+      [
+       {
+        "ga": "ar scoil",
+        "en": "to school",
+        "optional": true
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Is maith liom an dath",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom an dath",
+        "en": "I like the colour"
+       },
+       {
+        "ga": "Ní maith liom an dath",
+        "en": "I don't like the colour"
+       }
+      ],
+      [
+       {
+        "ga": "dearg",
+        "en": "red"
+       },
+       {
+        "ga": "gorm",
+        "en": "blue"
+       },
+       {
+        "ga": "glas",
+        "en": "green"
+       },
+       {
+        "ga": "buí",
+        "en": "yellow"
+       },
+       {
+        "ga": "oráiste",
+        "en": "orange"
+       },
+       {
+        "ga": "bándearg",
+        "en": "pink"
+       },
+       {
+        "ga": "corcra",
+        "en": "purple"
+       },
+       {
+        "ga": "donn",
+        "en": "brown"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is é gorm an dath is fearr liom.",
+    "Caithim léine bhán ar scoil.",
+    "Caithim bróga dubha ar scoil."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim na ndathanna le cur síos a dhéanamh ar mo chuid rudaí.",
+     "en": "I am learning the colours so that I can describe my things."
+    },
+    {
+     "ga": "Tá mé ag foghlaim go dtagann an dath i ndiaidh an ainmfhocail.",
+     "en": "I am learning that the colour comes after the noun."
+    }
+   ]
+  },
+  {
+   "id": "b13-corp",
+   "title": "An corp",
+   "en": "The body",
+   "new": true,
+   "teaches": "Mo adds séimhiú: mo cheann, mo shrón. After a number the noun stays singular. Dhá, trí, ceithre, cúig and sé add séimhiú: dhá shúil, trí shúil, sé chos. Seacht, ocht, naoi and deich add urú: seacht mbéal, naoi bhfiacail (l cannot take urú: ocht lámh). For a pain: Tá tinneas cinn orm, or Tá mo chos tinn. After a plural like súile the colour or size adds a: súile móra.",
+   "questions": [
+    "Cad é seo?",
+    "Cá mhéad cos atá agat?",
+    "Cá mhéad súil atá ag an arracht?",
+    "Cad é atá cearr leat?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Seo mo ...",
+     "columns": [
+      [
+       {
+        "ga": "Seo",
+        "en": "This is"
+       }
+      ],
+      [
+       {
+        "ga": "mo cheann",
+        "en": "my head"
+       },
+       {
+        "ga": "mo shrón",
+        "en": "my nose"
+       },
+       {
+        "ga": "mo bhéal",
+        "en": "my mouth"
+       },
+       {
+        "ga": "mo mhuineál",
+        "en": "my neck"
+       },
+       {
+        "ga": "mo lámh",
+        "en": "my hand"
+       },
+       {
+        "ga": "mo chos",
+        "en": "my leg"
+       },
+       {
+        "ga": "mo ghlúin",
+        "en": "my knee"
+       },
+       {
+        "ga": "mo bholg",
+        "en": "my stomach"
+       },
+       {
+        "ga": "mo shúil",
+        "en": "my eye"
+       },
+       {
+        "ga": "mo chluas",
+        "en": "my ear"
+       },
+       {
+        "ga": "mo mhéar",
+        "en": "my finger"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dhá + uatha",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "dhá shúil",
+        "en": "two eyes"
+       },
+       {
+        "ga": "dhá chluas",
+        "en": "two ears"
+       },
+       {
+        "ga": "dhá lámh",
+        "en": "two hands"
+       },
+       {
+        "ga": "dhá chos",
+        "en": "two legs"
+       },
+       {
+        "ga": "dhá ghlúin",
+        "en": "two knees"
+       },
+       {
+        "ga": "dhá uillinn",
+        "en": "two elbows"
+       },
+       {
+        "ga": "dhá ghualainn",
+        "en": "two shoulders"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An t-arracht",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "The monster has"
+       }
+      ],
+      [
+       {
+        "ga": "dhá cheann",
+        "en": "two heads"
+       },
+       {
+        "ga": "trí shúil",
+        "en": "three eyes"
+       },
+       {
+        "ga": "ceithre chluas",
+        "en": "four ears"
+       },
+       {
+        "ga": "cúig shrón",
+        "en": "five noses"
+       },
+       {
+        "ga": "sé chos",
+        "en": "six legs"
+       },
+       {
+        "ga": "seacht mbéal",
+        "en": "seven mouths"
+       },
+       {
+        "ga": "ocht lámh",
+        "en": "eight hands"
+       },
+       {
+        "ga": "naoi bhfiacail",
+        "en": "nine teeth"
+       }
+      ],
+      [
+       {
+        "ga": "ag an arracht",
+        "en": "(at the monster)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cur síos ar an arracht",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "He has"
+       }
+      ],
+      [
+       {
+        "ga": "súile móra",
+        "en": "big eyes"
+       },
+       {
+        "ga": "súile dearga",
+        "en": "red eyes"
+       },
+       {
+        "ga": "cluasa móra",
+        "en": "big ears"
+       },
+       {
+        "ga": "cluasa beaga",
+        "en": "small ears"
+       },
+       {
+        "ga": "cosa glasa",
+        "en": "green legs"
+       },
+       {
+        "ga": "cosa beaga",
+        "en": "small legs"
+       },
+       {
+        "ga": "lámha móra",
+        "en": "big hands"
+       },
+       {
+        "ga": "lámha gorma",
+        "en": "blue hands"
+       },
+       {
+        "ga": "fiacla móra",
+        "en": "big teeth"
+       },
+       {
+        "ga": "fiacla glasa",
+        "en": "green teeth"
+       }
+      ],
+      [
+       {
+        "ga": "aige",
+        "en": "(at him)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá tinneas ... orm",
+     "columns": [
+      [
+       {
+        "ga": "Tá tinneas",
+        "en": "I have (literally: there is pain)"
+       }
+      ],
+      [
+       {
+        "ga": "cinn",
+        "en": "a headache (of the head)"
+       },
+       {
+        "ga": "fiacaile",
+        "en": "toothache (of a tooth)"
+       },
+       {
+        "ga": "cluaise",
+        "en": "earache (of an ear)"
+       },
+       {
+        "ga": "droma",
+        "en": "backache (of the back)"
+       },
+       {
+        "ga": "boilg",
+        "en": "a stomach ache (of the stomach)"
+       }
+      ],
+      [
+       {
+        "ga": "orm",
+        "en": "(on me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tá mo ... tinn",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo cheann",
+        "en": "My head is"
+       },
+       {
+        "ga": "Tá mo dhroim",
+        "en": "My back is"
+       },
+       {
+        "ga": "Tá mo chos",
+        "en": "My leg is"
+       },
+       {
+        "ga": "Tá mo lámh",
+        "en": "My arm is"
+       },
+       {
+        "ga": "Tá mo ghlúin",
+        "en": "My knee is"
+       },
+       {
+        "ga": "Tá mo chluas",
+        "en": "My ear is"
+       },
+       {
+        "ga": "Tá mo sceadamán",
+        "en": "My throat is"
+       }
+      ],
+      [
+       {
+        "ga": "tinn",
+        "en": "sore"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ghortaigh mé",
+     "columns": [
+      [
+       {
+        "ga": "Ghortaigh mé",
+        "en": "I hurt"
+       }
+      ],
+      [
+       {
+        "ga": "mo chos",
+        "en": "my leg"
+       },
+       {
+        "ga": "mo lámh",
+        "en": "my arm"
+       },
+       {
+        "ga": "mo ghlúin",
+        "en": "my knee"
+       },
+       {
+        "ga": "mo ghualainn",
+        "en": "my shoulder"
+       },
+       {
+        "ga": "mo mhéar",
+        "en": "my finger"
+       },
+       {
+        "ga": "mo dhroim",
+        "en": "my back"
+       }
+      ],
+      [
+       {
+        "ga": "ag imirt peile",
+        "en": "playing football",
+        "optional": true
+       },
+       {
+        "ga": "sa chlós",
+        "en": "in the yard",
+        "optional": true
+       },
+       {
+        "ga": "inné",
+        "en": "yesterday",
+        "optional": true
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Tá tinneas cinn orm.",
+    "Tá trí shúil aige.",
+    "Ghortaigh mé mo ghlúin ag imirt peile."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le baill an choirp a ainmniú.",
+     "en": "I am learning to name the parts of the body."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le rá cad é atá cearr liom.",
+     "en": "I am learning to say what is wrong with me."
+    }
+   ]
+  },
+  {
+   "id": "b14-teach",
+   "title": "Mo theach",
+   "en": "My house",
+   "new": true,
+   "teaches": "Mo adds séimhiú: mo theach, mo sheomra. I mo theach is in my house; i mo sheomra is in my room. Is teach leathscoite é: it is a semi-detached house. After dhá up to sé, seomra takes séimhiú: dhá sheomra, trí sheomra, sé sheomra; after seacht to deich it does not change, because s never takes urú: seacht seomra. Thíos staighre is downstairs; thuas staighre is upstairs.",
+   "questions": [
+    "Cén cineál tí é do theach?",
+    "Cá bhfuil do theach?",
+    "Cá mhéad seomra atá i do theach?",
+    "Cad é atá i do sheomra?",
+    "An maith leat do theach?"
+   ],
+   "qrows": [
+    [
+     0,
+     7
+    ],
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     8
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Cineál tí",
+     "columns": [
+      [
+       {
+        "ga": "Is",
+        "en": "It is"
+       }
+      ],
+      [
+       {
+        "ga": "teach scoite",
+        "en": "a detached house"
+       },
+       {
+        "ga": "teach leathscoite",
+        "en": "a semi-detached house"
+       },
+       {
+        "ga": "teach sraithe",
+        "en": "a terraced house"
+       },
+       {
+        "ga": "bungaló",
+        "en": "a bungalow"
+       },
+       {
+        "ga": "árasán",
+        "en": "a flat"
+       }
+      ],
+      [
+       {
+        "ga": "é",
+        "en": "(it)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá bhfuil sé?",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo theach",
+        "en": "My house is"
+       }
+      ],
+      [
+       {
+        "ga": "cóngarach don scoil",
+        "en": "near the school"
+       },
+       {
+        "ga": "i lár an bhaile",
+        "en": "in the town centre"
+       },
+       {
+        "ga": "faoin tuath",
+        "en": "in the countryside"
+       },
+       {
+        "ga": "cóngarach don Iúr",
+        "en": "near Newry"
+       },
+       {
+        "ga": "in aice le Sliabh gCuillinn",
+        "en": "near Slieve Gullion"
+       },
+       {
+        "ga": "in aice le Loch nEathach",
+        "en": "near Lough Neagh"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Thíos staighre, thuas staighre",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There is"
+       }
+      ],
+      [
+       {
+        "ga": "cistin",
+        "en": "a kitchen"
+       },
+       {
+        "ga": "seomra suí",
+        "en": "a sitting room"
+       },
+       {
+        "ga": "seomra folctha",
+        "en": "a bathroom"
+       },
+       {
+        "ga": "seomra codlata",
+        "en": "a bedroom"
+       }
+      ],
+      [
+       {
+        "ga": "thíos staighre",
+        "en": "downstairs"
+       },
+       {
+        "ga": "thuas staighre",
+        "en": "upstairs"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá mhéad seomra?",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There are"
+       }
+      ],
+      [
+       {
+        "ga": "dhá sheomra codlata",
+        "en": "two bedrooms"
+       },
+       {
+        "ga": "trí sheomra codlata",
+        "en": "three bedrooms"
+       },
+       {
+        "ga": "ceithre sheomra",
+        "en": "four rooms"
+       },
+       {
+        "ga": "cúig sheomra",
+        "en": "five rooms"
+       },
+       {
+        "ga": "sé sheomra",
+        "en": "six rooms"
+       },
+       {
+        "ga": "seacht seomra",
+        "en": "seven rooms"
+       },
+       {
+        "ga": "ocht seomra",
+        "en": "eight rooms"
+       },
+       {
+        "ga": "naoi seomra",
+        "en": "nine rooms"
+       },
+       {
+        "ga": "deich seomra",
+        "en": "ten rooms"
+       }
+      ],
+      [
+       {
+        "ga": "i mo theach",
+        "en": "in my house"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "I mo sheomra",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There is"
+       }
+      ],
+      [
+       {
+        "ga": "leaba",
+        "en": "a bed"
+       },
+       {
+        "ga": "deasc",
+        "en": "a desk"
+       },
+       {
+        "ga": "cathaoir",
+        "en": "a chair"
+       },
+       {
+        "ga": "vardrús",
+        "en": "a wardrobe"
+       },
+       {
+        "ga": "scáthán",
+        "en": "a mirror"
+       },
+       {
+        "ga": "ríomhaire",
+        "en": "a computer"
+       },
+       {
+        "ga": "teilifíseán",
+        "en": "a television"
+       },
+       {
+        "ga": "póstaer mór",
+        "en": "a big poster"
+       }
+      ],
+      [
+       {
+        "ga": "i mo sheomra",
+        "en": "in my room"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mo sheomra féin",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo sheomra féin agam",
+        "en": "I have my own room"
+       },
+       {
+        "ga": "Roinnim mo sheomra le mo dheartháir",
+        "en": "I share my room with my brother"
+       },
+       {
+        "ga": "Roinnim mo sheomra le mo dheirfiúr",
+        "en": "I share my room with my sister"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Taobh amuigh",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "We have"
+       }
+      ],
+      [
+       {
+        "ga": "gairdín",
+        "en": "a garden"
+       },
+       {
+        "ga": "garáiste",
+        "en": "a garage"
+       },
+       {
+        "ga": "trampailín",
+        "en": "a trampoline"
+       }
+      ],
+      [
+       {
+        "ga": "againn",
+        "en": "(at us)"
+       }
+      ],
+      [
+       {
+        "ga": "ar chúl an tí",
+        "en": "at the back of the house",
+        "optional": true
+       },
+       {
+        "ga": "os comhair an tí",
+        "en": "at the front of the house",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cur síos",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo theach",
+        "en": "My house is"
+       },
+       {
+        "ga": "Tá mo sheomra",
+        "en": "My room is"
+       }
+      ],
+      [
+       {
+        "ga": "mór",
+        "en": "big"
+       },
+       {
+        "ga": "beag",
+        "en": "small"
+       },
+       {
+        "ga": "nua",
+        "en": "new"
+       },
+       {
+        "ga": "compordach",
+        "en": "comfortable"
+       },
+       {
+        "ga": "geal",
+        "en": "bright"
+       },
+       {
+        "ga": "néata",
+        "en": "tidy"
+       },
+       {
+        "ga": "trína chéile",
+        "en": "untidy"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Barúil",
+     "columns": [
+      [
+       {
+        "ga": "Is maith liom mo theach",
+        "en": "I like my house"
+       },
+       {
+        "ga": "Is breá liom mo sheomra",
+        "en": "I love my room"
+       }
+      ],
+      [
+       {
+        "ga": "mar",
+        "en": "because"
+       }
+      ],
+      [
+       {
+        "ga": "tá sé compordach",
+        "en": "it is comfortable"
+       },
+       {
+        "ga": "tá sé ciúin",
+        "en": "it is quiet"
+       },
+       {
+        "ga": "tá sé mór",
+        "en": "it is big"
+       },
+       {
+        "ga": "tá sé te",
+        "en": "it is warm"
+       },
+       {
+        "ga": "tá sé geal",
+        "en": "it is bright"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is teach leathscoite é.",
+    "Tá sé sheomra i mo theach.",
+    "Tá gairdín againn ar chúl an tí."
+   ],
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le cur síos a dhéanamh ar mo theach.",
+     "en": "I am learning to describe my house."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le rá cad é atá i mo sheomra.",
+     "en": "I am learning to say what is in my room."
+    }
+   ]
   }
  ],
  "reviewed": "Independent check applied 26 September 2026: gender agreement after feminine subjects, contradictory opinion and reason pairs, untrue county combinations, bedtime times, sport and computer games, guthán for fón, two question wordings, the copula gloss."
