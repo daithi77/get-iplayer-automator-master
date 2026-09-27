@@ -1,9 +1,10 @@
 import SwiftUI
 
-/// Grammar slides for the class screen: title, pattern, one slide per rule and table,
-/// then practice with the answer revealed on a tap.
+/// Grammar slides for the class screen: title, Sprioc foghlama, pattern, one slide per rule and table,
+/// practice with the answer revealed on a tap, Dul siar, then a closing slide with a seanfhocal.
 enum GrammarSlide {
     case title
+    case sprioc
     case pattern([GrammarModel])
     case rule(GrammarRule)
     case table(GrammarTable)
@@ -11,18 +12,46 @@ enum GrammarSlide {
     case lessonRule(GrammarLesson, Int)
     case worked(GrammarLesson)
     case contents([GrammarLesson])
+    /// Revision: up to four items not already shown, answers revealed together.
+    case dulsiar([GrammarItem])
     case end
+}
+
+/// Well-known seanfhocail to close a deck, one per section, always the same for that section (as on the web).
+enum Seanfhocal {
+    static let all: [(ga: String, en: String)] = [
+        ("Cleachtadh a dhéanann máistreacht.", "Practice makes perfect."),
+        ("Tús maith leath na hoibre.", "A good start is half the work."),
+        ("Ní neart go cur le chéile.", "There is strength in working together."),
+        ("Mol an óige agus tiocfaidh sí.", "Praise the young and they will flourish."),
+        ("Beagán agus a rá go maith.", "Say a little, and say it well."),
+        ("Bíonn gach tosach lag.", "Every beginning is weak."),
+        ("Is fada an bóthar nach bhfuil casadh ann.", "It is a long road that has no turning."),
+        ("Níl aon tinteán mar do thinteán féin.", "There is no place like home.")
+    ]
+
+    /// The web's seanFor: h = 7, then h = (h * 31 + c) mod 2^32 for each UTF-16 code unit, index h mod 8.
+    static func forID(_ id: String) -> (ga: String, en: String) {
+        var h: UInt32 = 7
+        for c in id.utf16 { h = h &* 31 &+ UInt32(c) }
+        return all[Int(h % UInt32(all.count))]
+    }
 }
 
 enum GrammarSlides {
     static func make(_ section: GrammarSection) -> [GrammarSlide] {
         if let lessons = section.lessons, !lessons.isEmpty {
             var slides: [GrammarSlide] = [.title, .contents(lessons)]
+            var used: [GrammarItem] = []
             for (i, lesson) in lessons.enumerated() {
                 slides.append(.lessonRule(lesson, i))
                 slides.append(.worked(lesson))
-                slides += lesson.items.shuffled().prefix(3).map { GrammarSlide.item($0) }
+                let shown = Array(lesson.items.shuffled().prefix(3))
+                used += shown
+                slides += shown.map { GrammarSlide.item($0) }
             }
+            let rest = lessons.flatMap { $0.items }.filter { !used.contains($0) && !$0.isSelfMarked }.shuffled()
+            if !rest.isEmpty { slides.append(.dulsiar(Array(rest.prefix(4)))) }
             slides.append(.end)
             return slides
         }
@@ -38,11 +67,13 @@ enum GrammarSlides {
             models = Array(section.models.shuffled().prefix(6))
         }
         let items = Array((lead + section.items.filter { !lead.contains($0) }.shuffled()).prefix(8))
-        var slides: [GrammarSlide] = [.title]
+        let rest = Array(section.items.filter { !items.contains($0) && !$0.isSelfMarked }.shuffled().prefix(4))
+        var slides: [GrammarSlide] = [.title, .sprioc]
         if !models.isEmpty { slides.append(.pattern(models)) }
         slides += section.rules.map { GrammarSlide.rule($0) }
         slides += section.tables.map { GrammarSlide.table($0) }
         slides += items.map { GrammarSlide.item($0) }
+        if !rest.isEmpty { slides.append(.dulsiar(rest)) }
         slides.append(.end)
         return slides
     }
@@ -94,6 +125,7 @@ struct GrammarDeckList: View {
 
 struct GrammarDeck: View {
     let section: GrammarSection
+    @Environment(\.dismiss) private var dismiss
     @State private var slides: [GrammarSlide]
     @State private var page = 0
     @State private var showEnglish = true
@@ -156,7 +188,7 @@ struct GrammarDeck: View {
         .onDisappear { UIApplication.shared.isIdleTimerDisabled = false }
     }
 
-    /// On a practice slide the first press shows the answer; the next moves on.
+    /// On a practice or Dul siar slide the first press shows the answer; the next moves on.
     private func advance() {
         if isReveal(slides[page]), !revealed.contains(page) {
             revealed.insert(page)
@@ -176,7 +208,7 @@ struct GrammarDeck: View {
 
     private func isReveal(_ slide: GrammarSlide) -> Bool {
         switch slide {
-        case .item, .worked: return true
+        case .item, .worked, .dulsiar: return true
         default: return false
         }
     }
@@ -235,8 +267,21 @@ struct GrammarDeck: View {
                     .foregroundStyle(Theme.muted)
             }
             DraftBanner()
+        case .sprioc:
+            heading("Sprioc foghlama", s)
+            if showEnglish {
+                Text("Learning goals: by the end of this section.")
+                    .font(.system(size: 24 * s))
+                    .foregroundStyle(Theme.muted)
+            }
+            ForEach(Array(section.rules.enumerated()), id: \.offset) { _, rule in
+                Text("• \(rule.point)")
+                    .font(.system(size: 32 * s, weight: .semibold))
+                    .foregroundStyle(Theme.ink)
+                    .frame(maxWidth: 1100 * s, alignment: .leading)
+            }
         case .contents(let lessons):
-            heading("Na ceachtanna", s)
+            heading("Sprioc foghlama · na ceachtanna", s)
             ForEach(Array(lessons.enumerated()), id: \.offset) { i, lesson in
                 Button {
                     jump(toLesson: i)
@@ -300,9 +345,59 @@ struct GrammarDeck: View {
             heading("Sampla", s)
             Text(lesson.title).font(.system(size: 26 * s, weight: .semibold)).foregroundStyle(Theme.muted)
             revealBlock(prompt: lesson.example.prompt, answer: lesson.example.answer, alt: lesson.example.alt, index: index, scale: s)
+        case .dulsiar(let items):
+            heading("Dul siar", s)
+            if showEnglish {
+                Text("Revision: answer each one aloud, then check.")
+                    .font(.system(size: 24 * s))
+                    .foregroundStyle(Theme.muted)
+            }
+            ForEach(Array(items.enumerated()), id: \.offset) { n, item in
+                VStack(alignment: .leading, spacing: 8 * s) {
+                    Text("\(n + 1). \(item.prompt)")
+                        .font(.system(size: 30 * s, weight: .semibold))
+                        .foregroundStyle(Theme.ink)
+                    if revealed.contains(index) {
+                        Text(Highlight.changes(from: item.prompt, to: item.answer))
+                            .font(.system(size: 32 * s, weight: .bold))
+                            .accessibilityLabel(item.answer)
+                    }
+                }
+                .padding(.vertical, 4 * s)
+            }
+            if !revealed.contains(index) {
+                Button {
+                    revealed.insert(index)
+                } label: {
+                    Label("Taispeáin na freagraí · show the answers", systemImage: "eye")
+                        .font(.system(size: 24 * s, weight: .bold))
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(Theme.ink)
+            }
         case .end:
             heading("Críoch", s)
             Text(section.title).font(.system(size: 50 * s, weight: .bold))
+            let sean = Seanfhocal.forID(section.id)
+            heading("Seanfhocal", s)
+            VStack(alignment: .leading, spacing: 4 * s) {
+                Text(sean.ga)
+                    .font(.system(size: 36 * s, weight: .semibold))
+                    .foregroundStyle(Theme.ink)
+                if showEnglish {
+                    Text(sean.en)
+                        .font(.system(size: 24 * s))
+                        .foregroundStyle(Theme.muted)
+                }
+            }
+            Button {
+                dismiss()
+            } label: {
+                Label("Na sleamhnáin eile · other slides", systemImage: "square.grid.2x2")
+                    .font(.system(size: 22 * s, weight: .bold))
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(Theme.ink)
         }
     }
 }

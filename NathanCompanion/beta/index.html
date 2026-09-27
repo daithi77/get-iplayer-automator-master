@@ -882,7 +882,7 @@ const A={
       if(sess.own){const own=sess.own;playSentence(own,unit,()=>later(()=>playSentence(it.s,unit),700));}else playSentence(it.s,unit);return;}
     const typed=($('#typed')||{}).value||''; sess.typed=typed;
     if(it.kind==='type'){const a=norm(typed),b=norm(it.s.ga);const ok=a===b||fold(a)===fold(b);sess.res={ok,fada:ok&&a!==b};record(ok,it.s.ga,it.s.en,it.s.audio);render();playSentence(it.s,unit);return;}
-    if(it.kind==='question'){const a=fold(norm(typed));const ok=it.combos.some(c=>fold(norm(c))===a);sess.res={ok};record(ok,it.q.ga,typed||'—');render();}
+    if(it.kind==='question'){const a=fold(norm(typed));const ok=it.combos.some(c=>fold(norm(c))===a);sess.res={ok};record(ok,it.q.ga,typed||'…');render();}
   },
   skip:()=>{sess.typed=($('#typed')||{}).value||'';A.check();},
   next:()=>{

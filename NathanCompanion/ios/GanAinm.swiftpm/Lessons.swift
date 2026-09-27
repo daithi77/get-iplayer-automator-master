@@ -32,30 +32,6 @@ struct GrammarLesson: Codable, Hashable {
     let items: [GrammarItem]
 }
 
-enum Highlight {
-    private static func key(_ word: String) -> String {
-        Mark.fold(Mark.norm(word.replacingOccurrences(of: "(", with: " ").replacingOccurrences(of: ")", with: " ")))
-    }
-
-    /// The answer with every word that is not in `from` highlighted, so the change the rule makes stands out.
-    static func changes(from: String, to answer: String) -> AttributedString {
-        let have = Set(from.replacingOccurrences(of: "(", with: " ").replacingOccurrences(of: ")", with: " ")
-            .split(whereSeparator: { $0.isWhitespace }).map { key(String($0)) })
-        var out = AttributedString()
-        let words = answer.split(separator: " ", omittingEmptySubsequences: false)
-        for (i, w) in words.enumerated() {
-            var part = AttributedString(String(w))
-            let k = key(String(w))
-            if !k.isEmpty && !have.contains(k) {
-                part.backgroundColor = Theme.hi
-            }
-            out += part
-            if i < words.count - 1 { out += AttributedString(" ") }
-        }
-        return out
-    }
-}
-
 final class LessonSession: ObservableObject, Identifiable {
     let id = UUID()
     let section: GrammarSection

@@ -81,7 +81,8 @@ enum Marking {
         source.filter { $0 != "[" && $0 != "]" && $0 != "{" && $0 != "}" }
     }
 
-    private static func marked(_ text: String, particle: Bool) -> AttributedString {
+    /// One marked run: red for a change, green for a particle, bold and underlined either way.
+    static func marked(_ text: String, particle: Bool) -> AttributedString {
         var part = AttributedString(text)
         let colour: Color = particle ? Theme.good : Theme.pen
         part.foregroundColor = colour

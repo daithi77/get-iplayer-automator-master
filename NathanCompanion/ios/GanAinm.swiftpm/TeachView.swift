@@ -868,12 +868,13 @@ struct EndSlide: View {
                     }
                 }
             }
+            SlideHeading(text: "Seanfhocal", scale: s)
             VStack(alignment: .leading, spacing: 2) {
-                Text("Cleachtadh a dhéanann máistreacht.")
+                Text(Seanfhocal.forID(unit.id).ga)
                     .font(.system(size: 26 * s, weight: .semibold))
                     .foregroundStyle(Theme.ink)
                 if showEnglish {
-                    Text("Practice makes perfect.")
+                    Text(Seanfhocal.forID(unit.id).en)
                         .font(.system(size: 22 * s))
                         .foregroundStyle(Theme.muted)
                 }

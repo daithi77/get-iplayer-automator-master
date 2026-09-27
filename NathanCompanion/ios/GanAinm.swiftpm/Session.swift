@@ -194,7 +194,7 @@ final class Session: ObservableObject, Identifiable {
             guard let q = it.question else { return }
             let answer = Mark.fold(Mark.norm(typed))
             let ok = it.combos.contains { Mark.fold(Mark.norm($0)) == answer }
-            finish(ok: ok, ga: q.ga, en: typed.isEmpty ? "—" : typed, audio: nil)
+            finish(ok: ok, ga: q.ga, en: typed.isEmpty ? "…" : typed, audio: nil)
         case .meaning:
             break
         }
