@@ -1,0 +1,567 @@
+{
+ "id": "giorru",
+ "lessons": [
+  {
+   "title": "Giorrú: -aím agus -ím",
+   "en": "Verbs that shorten: I in the present",
+   "rule": "Some two-syllable verbs ending in -ail, -ain, -air, -il, -ir or -is squeeze out their last vowel when an ending is added, then take second-conjugation endings: oscail becomes oscl-, so osclaím; imir becomes imr-, so imrím. Add -aím if the short stem is broad, with a, o or u before the last consonants (oscl-, labhr-, codl-), and -ím if it is slender, with i or e (imr-, ins-).",
+   "steps": [
+    "Take the root: oscail, imir, labhair.",
+    "Squeeze out the last vowel: oscl-, imr-, labhr-.",
+    "Add -aím (broad) or -ím (slender): osclaím, imrím."
+   ],
+   "example": {
+    "prompt": "(Oscail: mé) an doras do mo mháthair.",
+    "answer": "Osclaím an doras do mo mháthair."
+   },
+   "more": [
+    {
+     "prompt": "(Imir: mé) camógaíocht.",
+     "answer": "Imrím camógaíocht."
+    }
+   ],
+   "hint": "Squeeze out the last vowel, then -aím or -ím.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Imir: mé) peil le club an tSrutháin.",
+     "answer": "Imrím peil le club an tSrutháin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail: mé) an fhuinneog nuair a bhíonn sé te.",
+     "answer": "Osclaím an fhuinneog nuair a bhíonn sé te."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Inis: mé) scéal do mo dheartháir beag achan oíche.",
+     "answer": "Insím scéal do mo dheartháir beag achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Labhair: mé) Gaeilge le mo mhamó.",
+     "answer": "Labhraím Gaeilge le mo mhamó."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Codail: mé) go maith i ndiaidh na traenála.",
+     "answer": "Codlaím go maith i ndiaidh na traenála."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceangail: mé) mo rothar taobh amuigh den scoil.",
+     "answer": "Ceanglaím mo rothar taobh amuigh den scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Freagair: mé) achan cheist sa rang.",
+     "answer": "Freagraím achan cheist sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cosain: mé) an cúl don fhoireann.",
+     "answer": "Cosnaím an cúl don fhoireann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (inis: mé) bréaga riamh.",
+     "answer": "Ní insím bréaga riamh."
+    }
+   ]
+  },
+  {
+   "title": "An aimsir láithreach: -aíonn agus -íonn",
+   "en": "The present: other people, questions and negatives",
+   "rule": "With anyone else, add -aíonn or -íonn to the short stem: osclaíonn sí, imríonn siad, insíonn sé, labhraíonn sibh. With muid, write imríonn muid (imrímid is also right). An and Ní work as usual: An imríonn tú peil? Ní labhraíonn sé. A verb beginning with a vowel never changes after An or Ní: Ní osclaíonn an siopa.",
+   "steps": [
+    "Squeeze out the last vowel: oscl-, imr-.",
+    "Add -aíonn (broad) or -íonn (slender).",
+    "Add the subject: osclaíonn sí, imríonn muid."
+   ],
+   "example": {
+    "prompt": "(Oscail) an siopa ar a naoi a chlog.",
+    "answer": "Osclaíonn an siopa ar a naoi a chlog."
+   },
+   "more": [
+    {
+     "prompt": "(Imir: muid) cispheil i ndiaidh na scoile.",
+     "answer": "Imríonn muid cispheil i ndiaidh na scoile."
+    }
+   ],
+   "hint": "Short stem + -aíonn or -íonn.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Labhair) mo mháthair Gaeilge ag an obair.",
+     "answer": "Labhraíonn mo mháthair Gaeilge ag an obair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Codail) mo dheartháir go meán lae ar an Satharn.",
+     "answer": "Codlaíonn mo dheartháir go meán lae ar an Satharn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Inis) an múinteoir scéal greannmhar dúinn achan Aoine.",
+     "answer": "Insíonn an múinteoir scéal greannmhar dúinn achan Aoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cosain) an ticéad deich bpunt.",
+     "answer": "Cosnaíonn an ticéad deich bpunt."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Freagair) sí an fón i gcónaí.",
+     "answer": "Freagraíonn sí an fón i gcónaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bagair) an múinteoir obair bhaile bhreise orainn nuair a bhíonn muid glórach.",
+     "answer": "Bagraíonn an múinteoir obair bhaile bhreise orainn nuair a bhíonn muid glórach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Imir: muid) peil achan Déardaoin.",
+     "answer": "Imríonn muid peil achan Déardaoin.",
+     "alt": "Imrímid peil achan Déardaoin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceangail) siad a mbróga sula dtosaíonn an cluiche.",
+     "answer": "Ceanglaíonn siad a mbróga sula dtosaíonn an cluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (imir) tú peil Ghaelach?",
+     "answer": "An imríonn tú peil Ghaelach?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (oscail) an leabharlann ar an Domhnach.",
+     "answer": "Ní osclaíonn an leabharlann ar an Domhnach."
+    }
+   ]
+  },
+  {
+   "title": "An aimsir fháistineach: -óidh agus -eoidh",
+   "en": "The future",
+   "rule": "In the future, add -óidh to a broad short stem and -eoidh to a slender one: osclóidh, labhróidh, codlóidh, but imreoidh, inseoidh. With muid, write imreoidh muid (imreoimid is also right). Ní and An work as usual: Ní labhróidh sé. An imreoidh tú?",
+   "steps": [
+    "Squeeze out the last vowel: labhr-, imr-.",
+    "Add -óidh (broad) or -eoidh (slender).",
+    "Add the subject: labhróidh sí, imreoidh muid."
+   ],
+   "example": {
+    "prompt": "(Inis) mé an scéal duit amárach.",
+    "answer": "Inseoidh mé an scéal duit amárach."
+   },
+   "more": [
+    {
+     "prompt": "(Oscail) an siopa nua sa tSruthán an tseachtain seo chugainn.",
+     "answer": "Osclóidh an siopa nua sa tSruthán an tseachtain seo chugainn."
+    }
+   ],
+   "hint": "Short stem + -óidh or -eoidh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Imir) muid in éadan Ard Mhacha Dé Sathairn seo chugainn.",
+     "answer": "Imreoidh muid in éadan Ard Mhacha Dé Sathairn seo chugainn.",
+     "alt": "Imreoimid in éadan Ard Mhacha Dé Sathairn seo chugainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Labhair) an príomhoide leis na tuismitheoirí anocht.",
+     "answer": "Labhróidh an príomhoide leis na tuismitheoirí anocht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Codail) mé go maith anocht i ndiaidh an chluiche.",
+     "answer": "Codlóidh mé go maith anocht i ndiaidh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceangail) sé an madadh taobh amuigh den siopa ar ball.",
+     "answer": "Ceanglóidh sé an madadh taobh amuigh den siopa ar ball."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Freagair) sí do cheist amárach.",
+     "answer": "Freagróidh sí do cheist amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cosain) na ticéid fiche punt an bhliain seo chugainn.",
+     "answer": "Cosnóidh na ticéid fiche punt an bhliain seo chugainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail) mé na bronntanais maidin Lá Nollag.",
+     "answer": "Osclóidh mé na bronntanais maidin Lá Nollag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (labhair) sé leat go dtí amárach.",
+     "answer": "Ní labhróidh sé leat go dtí amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (imir) tú sa chluiche Dé Sathairn seo chugainn?",
+     "answer": "An imreoidh tú sa chluiche Dé Sathairn seo chugainn?"
+    }
+   ]
+  },
+  {
+   "title": "An modh coinníollach: -ódh agus -eodh",
+   "en": "The conditional",
+   "rule": "Start from the future and add h, or d' before a vowel or f: osclóidh becomes d'osclódh, labhróidh becomes labhródh, codlóidh becomes chodlódh, imreoidh becomes d'imreodh. With mé: d'imreoinn. Muid and siad have two forms: d'imreodh muid or d'imreoimis; d'imreodh siad or d'imreoidís.",
+   "steps": [
+    "Start from the future: imreoidh.",
+    "Change -óidh to -ódh or -eoidh to -eodh (-óinn or -eoinn with mé).",
+    "Add h, or d' before a vowel or f: d'imreodh, chodlódh."
+   ],
+   "example": {
+    "prompt": "Dá mbeadh am agam, (imir: mé) peil achan lá.",
+    "answer": "Dá mbeadh am agam, d'imreoinn peil achan lá."
+   },
+   "more": [
+    {
+     "prompt": "Dá mbeadh muid níos aclaí, (imir: muid) níos fearr.",
+     "answer": "Dá mbeadh muid níos aclaí, d'imreodh muid níos fearr. / Dá mbeadh muid níos aclaí, d'imreoimis níos fearr."
+    }
+   ],
+   "hint": "Future first, then h or d': d'imreodh, chodlódh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh an lá te, (oscail: mé) an fhuinneog.",
+     "answer": "Dá mbeadh an lá te, d'osclóinn an fhuinneog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Labhair: sé) Gaeilge níos minice dá mbeadh sé níos muiníní.",
+     "answer": "Labhródh sé Gaeilge níos minice dá mbeadh sé níos muiníní."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeinn tuirseach, (codail: mé) go meán lae.",
+     "answer": "Dá mbeinn tuirseach, chodlóinn go meán lae."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá n-iarrfá orm, (inis: mé) an fhírinne duit.",
+     "answer": "Dá n-iarrfá orm, d'inseoinn an fhírinne duit."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh an aimsir go breá, (imir: muid) sa pháirc.",
+     "answer": "Dá mbeadh an aimsir go breá, d'imreodh muid sa pháirc.",
+     "alt": "Dá mbeadh an aimsir go breá, d'imreoimis sa pháirc."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Freagair: siad) an cheist dá mbeadh an freagra acu.",
+     "answer": "D'fhreagródh siad an cheist dá mbeadh an freagra acu.",
+     "alt": "D'fhreagróidís an cheist dá mbeadh an freagra acu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh rothar agam, (ceangail: mé) é ag an gheata.",
+     "answer": "Dá mbeadh rothar agam, cheanglóinn é ag an gheata."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cosain: sé) níos mó dá gceannófá sa siopa é.",
+     "answer": "Chosnódh sé níos mó dá gceannófá sa siopa é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (labhair: mé) leis dá mbeadh sé mímhúinte liom.",
+     "answer": "Ní labhróinn leis dá mbeadh sé mímhúinte liom."
+    }
+   ]
+  },
+  {
+   "title": "An aimsir chaite agus an fhréamh: gan ghiorrú",
+   "en": "The past and the root: no shortening",
+   "rule": "The past uses the root with no ending, so nothing is squeezed out: d'oscail, d'imir, d'inis, labhair, chodail, cheangail, d'fhreagair. Put h on a consonant and d' before a vowel or f, as with any verb. The command to one person is the full root too (Oscail an doras), but the plural command has an ending, so it shortens: Osclaígí, Imrígí, Insígí.",
+   "steps": [
+    "Past: keep the whole root: oscail, imir.",
+    "Add h, or d' before a vowel or f: d'oscail, chodail.",
+    "An ending is added (osclaígí)? Then squeeze."
+   ],
+   "example": {
+    "prompt": "(Oscail) sé an doras inné.",
+    "answer": "D'oscail sé an doras inné."
+   },
+   "more": [
+    {
+     "prompt": "(Codail) mé go dtí a deich maidin inné.",
+     "answer": "Chodail mé go dtí a deich maidin inné."
+    }
+   ],
+   "hint": "No ending, no squeeze: d'oscail, d'imir.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Imir) muid go maith Dé Sathairn seo caite.",
+     "answer": "D'imir muid go maith Dé Sathairn seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Inis) sí scéal dúinn aréir.",
+     "answer": "D'inis sí scéal dúinn aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Labhair) mé leis an phríomhoide inné.",
+     "answer": "Labhair mé leis an phríomhoide inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Freagair) sé an cheist i gceart inné.",
+     "answer": "D'fhreagair sé an cheist i gceart inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bagair) an réiteoir cárta dearg air aréir.",
+     "answer": "Bhagair an réiteoir cárta dearg air aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cosain) na bróga caoga punt nuair a cheannaigh mé iad.",
+     "answer": "Chosain na bróga caoga punt nuair a cheannaigh mé iad."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceangail) sí a bróga go docht roimh an rás inné.",
+     "answer": "Cheangail sí a bróga go docht roimh an rás inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (oscail) sé an litir inné.",
+     "answer": "Níor oscail sé an litir inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail: sibh) bhur leabhair.",
+     "answer": "Osclaígí bhur leabhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Imir: sibh) go cothrom.",
+     "answer": "Imrígí go cothrom."
+    }
+   ]
+  },
+  {
+   "title": "Taispeáin, sábháil, úsáid: gan ghiorrú",
+   "en": "Verbs that do not shorten",
+   "rule": "Not every two-syllable verb shortens. If the last syllable has a long vowel (a fada), nothing is squeezed out, and the verb takes first-conjugation endings. Taispeáin and sábháil drop the i to become broad: taispeánaim, taispeánann sé, taispeánfaidh, thaispeáin; sábhálaim, sábhálfaidh. Úsáid keeps it: úsáideann, úsáidfidh. Compare oscail, which does shorten: osclaíonn, osclóidh.",
+   "steps": [
+    "Look at the last syllable: is there a fada (áin, áil, áid)?",
+    "Fada: do not squeeze. Taispeáin and sábháil drop the i: taispeán-, sábhál-.",
+    "Add first-conjugation endings: -aim, -ann, -faidh."
+   ],
+   "example": {
+    "prompt": "(Taispeáin: mé) mo chóipleabhar don mhúinteoir achan lá.",
+    "answer": "Taispeánaim mo chóipleabhar don mhúinteoir achan lá."
+   },
+   "more": [
+    {
+     "prompt": "(Taispeáin) sí na grianghraif dúinn amárach.",
+     "answer": "Taispeánfaidh sí na grianghraif dúinn amárach."
+    }
+   ],
+   "hint": "Fada in the last syllable: no squeeze, first-conjugation endings.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Taispeáin) sé an bealach dúinn inné.",
+     "answer": "Thaispeáin sé an bealach dúinn inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Taispeáin) an múinteoir físeán dúinn achan Aoine.",
+     "answer": "Taispeánann an múinteoir físeán dúinn achan Aoine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sábháil: mé) airgead achan seachtain.",
+     "answer": "Sábhálaim airgead achan seachtain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sábháil) an cúl báire an cic éirice inné.",
+     "answer": "Shábháil an cúl báire an cic éirice inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Úsáid) muid an ríomhaire sa rang amárach.",
+     "answer": "Úsáidfidh muid an ríomhaire sa rang amárach.",
+     "alt": "Úsáidfimid an ríomhaire sa rang amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail) sí an siopa amárach.",
+     "answer": "Osclóidh sí an siopa amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Taispeáin: sibh) bhur gcóipleabhair dom.",
+     "answer": "Taispeánaigí bhur gcóipleabhair dom."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sábháil) sé a chuid airgid don samhradh seo chugainn.",
+     "answer": "Sábhálfaidh sé a chuid airgid don samhradh seo chugainn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail) sé an doras achan mhaidin.",
+     "answer": "Osclaíonn sé an doras achan mhaidin."
+    }
+   ]
+  },
+  {
+   "title": "Nigh, suigh, léigh: an aimsir láithreach",
+   "en": "One-syllable -igh verbs: the present",
+   "rule": "A few short verbs end in -igh but have only one syllable: nigh, suigh, léigh, luigh. They do not take second-conjugation endings. Nigh, suigh and luigh drop -gh and keep the í: ním, níonn sé; suím, suíonn sé; luíonn sé. Léigh drops -igh: léim, léann sé. (Léim also means jump: the sentence tells you which.)",
+   "steps": [
+    "Is the verb one syllable ending in -igh?",
+    "Nigh, suigh, luigh: drop -gh (ní-, suí-, luí-). Léigh: drop -igh (lé-).",
+    "Add -m for mé, -onn for the others (léigh: -ann)."
+   ],
+   "example": {
+    "prompt": "(Nigh: mé) na gréithe i ndiaidh an dinnéir.",
+    "answer": "Ním na gréithe i ndiaidh an dinnéir."
+   },
+   "more": [
+    {
+     "prompt": "(Léigh) mo dheirfiúr an nuacht ar a fón.",
+     "answer": "Léann mo dheirfiúr an nuacht ar a fón."
+    }
+   ],
+   "hint": "Ním, suím, léim; níonn, suíonn, léann.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Suigh: mé) in aice le mo chara sa rang.",
+     "answer": "Suím in aice le mo chara sa rang."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Léigh: mé) leabhar achan oíche.",
+     "answer": "Léim leabhar achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Nigh) sé an carr ar an Satharn.",
+     "answer": "Níonn sé an carr ar an Satharn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Suigh) na daltaí ag an tábla céanna achan lá.",
+     "answer": "Suíonn na daltaí ag an tábla céanna achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Luigh) an madadh os comhair na tine.",
+     "answer": "Luíonn an madadh os comhair na tine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (léigh) tú an páipéar?",
+     "answer": "An léann tú an páipéar?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní (nigh) sé a chuid éadaigh féin.",
+     "answer": "Ní níonn sé a chuid éadaigh féin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Suigh: muid) ar an bhus céanna achan mhaidin.",
+     "answer": "Suíonn muid ar an bhus céanna achan mhaidin.",
+     "alt": "Suímid ar an bhus céanna achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Léigh) na páistí scéalta sa leabharlann.",
+     "answer": "Léann na páistí scéalta sa leabharlann."
+    }
+   ]
+  },
+  {
+   "title": "Nigh, suigh, léigh: caite, fáistineach, coinníollach",
+   "en": "One-syllable -igh verbs: past, future and conditional",
+   "rule": "The past is the root with h where it can take it: nigh mé, shuigh mé, léigh mé. The future adds -fidh to ní-, suí- and léi-: nífidh, suífidh, léifidh. The conditional adds -feadh with h: nífeadh, shuífeadh, léifeadh (mé: nífinn, shuífinn, léifinn). Muid and siad have two forms: léifeadh siad or léifidís.",
+   "steps": [
+    "Past: the root, with h (shuigh); n and l take no h.",
+    "Future: ní-, suí-, léi- + -fidh.",
+    "Conditional: h + ní-, suí-, léi- + -feadh (-finn with mé)."
+   ],
+   "example": {
+    "prompt": "(Nigh) mé na gréithe anocht.",
+    "answer": "Nífidh mé na gréithe anocht."
+   },
+   "more": [
+    {
+     "prompt": "(Suigh) mé síos i ndiaidh an rása inné.",
+     "answer": "Shuigh mé síos i ndiaidh an rása inné."
+    }
+   ],
+   "hint": "Nigh, shuigh, léigh; nífidh, suífidh, léifidh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Suigh) sí in aice liom amárach.",
+     "answer": "Suífidh sí in aice liom amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Léigh) muid an dán sa rang amárach.",
+     "answer": "Léifidh muid an dán sa rang amárach.",
+     "alt": "Léifimid an dán sa rang amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Léigh) sé an leabhar ar fad aréir.",
+     "answer": "Léigh sé an leabhar ar fad aréir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Nigh) sí an madadh inné.",
+     "answer": "Nigh sí an madadh inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh an carr salach, (nigh: mé) é.",
+     "answer": "Dá mbeadh an carr salach, nífinn é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh tuirse air, (suigh: sé) síos.",
+     "answer": "Dá mbeadh tuirse air, shuífeadh sé síos."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor (suigh) sé ar an tolg inné.",
+     "answer": "Níor shuigh sé ar an tolg inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Léigh: siad) níos mó dá mbeadh am acu.",
+     "answer": "Léifeadh siad níos mó dá mbeadh am acu.",
+     "alt": "Léifidís níos mó dá mbeadh am acu."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (suigh) tú in aice liom ar an bhus amárach?",
+     "answer": "An suífidh tú in aice liom ar an bhus amárach?"
+    }
+   ]
+  }
+ ]
+}

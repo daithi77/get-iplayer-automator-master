@@ -1,0 +1,501 @@
+{
+ "id": "coibhneasta",
+ "lessons": [
+  {
+   "title": "An coibhneasta díreach: a + séimhiú",
+   "en": "Who, which, that: a + lenition",
+   "rule": "When the person or thing does the action in the second part, join the two with a and put h on the verb. Drop the pronoun after the verb: Seo an fear. D'fhreagair sé an fón. becomes Seo an fear a d'fhreagair an fón. In the past, d' stays (a d'ól, a d'fhág). Fuair and dúirt never take h: a fuair, a dúirt.",
+   "steps": [
+    "Find the person or thing that does the action.",
+    "Add a, and put h on the verb: a bhris, a chuaigh. Keep d' in the past.",
+    "Drop sé, sí or siad after the verb."
+   ],
+   "example": {
+    "prompt": "Seo an fear. D'fhreagair sé an fón.",
+    "answer": "Seo an fear a d'fhreagair an fón."
+   },
+   "more": [
+    {
+     "prompt": "Sin an cailín. Fuair sí an duais.",
+     "answer": "Sin an cailín a fuair an duais."
+    }
+   ],
+   "hint": "a + h, and drop the pronoun. D' stays in the past.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sin an buachaill. Bhris sé an fhuinneog.",
+     "answer": "Sin an buachaill a bhris an fhuinneog."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an cailín. Chaill sí a fón ar an bhus.",
+     "answer": "Seo an cailín a chaill a fón ar an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an múinteoir. D'fhág sí an scoil anuraidh.",
+     "answer": "Sin an múinteoir a d'fhág an scoil anuraidh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo na daltaí. D'imir siad sa chluiche ceannais.",
+     "answer": "Seo na daltaí a d'imir sa chluiche ceannais."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an fear. Chuaigh sé go Béal Feirste ar an traein.",
+     "answer": "Sin an fear a chuaigh go Béal Feirste ar an traein."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an gasúr. Fuair sé an marc is airde.",
+     "answer": "Seo an gasúr a fuair an marc is airde."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an bhean. Dúirt sí an fhírinne.",
+     "answer": "Sin an bhean a dúirt an fhírinne."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo na himreoirí. Bhuaigh siad an chraobh.",
+     "answer": "Seo na himreoirí a bhuaigh an chraobh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an bhean. Tháinig sí ón Iúr.",
+     "answer": "Sin an bhean a tháinig ón Iúr."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an cailín. Rinne sí an cáca.",
+     "answer": "Seo an cailín a rinne an cáca."
+    }
+   ]
+  },
+  {
+   "title": "An coibhneasta díreach: an aimsir láithreach agus fháistineach",
+   "en": "Who, which, that: the present and the future",
+   "rule": "In the present and the future, write the ordinary form of the verb after a, with h on a consonant: an cailín a imríonn peil, an fear a chónaíonn sa tSruthán, an bus a bheidh déanach. A verb beginning with a vowel does not change. Tá becomes atá, written as one word: an fear atá tinn. You may hear older forms such as a bheas; in your own writing use a bheidh.",
+   "steps": [
+    "Add a after the noun.",
+    "Put h on a consonant (a chónaíonn); a vowel stays as it is (a imríonn).",
+    "Tá becomes atá, one word."
+   ],
+   "example": {
+    "prompt": "Seo an cailín. Imríonn sí peil le Camloch.",
+    "answer": "Seo an cailín a imríonn peil le Camloch."
+   },
+   "more": [
+    {
+     "prompt": "Sin an bus. Beidh sé déanach arís.",
+     "answer": "Sin an bus a bheidh déanach arís."
+    }
+   ],
+   "hint": "a + h. Tá becomes atá. A vowel does not change.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sin an fear. Tá sé ag obair sa siopa.",
+     "answer": "Sin an fear atá ag obair sa siopa."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo mo chara. Cónaíonn sí sa tSruthán.",
+     "answer": "Seo mo chara a chónaíonn sa tSruthán."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an buachaill. Imríonn sé iománaíocht.",
+     "answer": "Sin an buachaill a imríonn iománaíocht."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an múinteoir. Múineann sí Gaeilge dúinn.",
+     "answer": "Seo an múinteoir a mhúineann Gaeilge dúinn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an cailín. Téann sí ar scoil ar a rothar.",
+     "answer": "Sin an cailín a théann ar scoil ar a rothar."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo na daltaí. Beidh siad ag canadh ag an cheolchoirm.",
+     "answer": "Seo na daltaí a bheidh ag canadh ag an cheolchoirm."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an bus. Fágfaidh sé Ard Mhacha ar a naoi.",
+     "answer": "Sin an bus a fhágfaidh Ard Mhacha ar a naoi."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an aip. Cuideoidh sí leat leis an ghramadach.",
+     "answer": "Seo an aip a chuideoidh leat leis an ghramadach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an gasúr. Léann sé achan oíche.",
+     "answer": "Sin an gasúr a léann achan oíche."
+    }
+   ]
+  },
+  {
+   "title": "An diúltach díreach: nach agus nár",
+   "en": "Who ... not: nach and nár",
+   "rule": "For who ... not or which ... not, drop ní and use nach with eclipsis: an cailín nach n-imríonn peil, an fear nach bhfuil anseo, an bus nach mbeidh in am. In the past, a regular verb takes nár and h: an fear nár fhreagair an fón. Irregular verbs follow their question form: nár tháinig, nár ith (Ar tháinig?), but nach ndeachaigh, nach bhfuair, nach raibh (An ndeachaigh?).",
+   "steps": [
+    "Drop ní or níor, and drop the pronoun.",
+    "Present, future and conditional: nach + eclipsis (nach bhfuil, nach mbeidh).",
+    "Regular past: nár + h (nár fhreagair)."
+   ],
+   "example": {
+    "prompt": "Seo an fear. Níor fhreagair sé an fón.",
+    "answer": "Seo an fear nár fhreagair an fón."
+   },
+   "more": [
+    {
+     "prompt": "Sin an cailín. Ní imríonn sí peil.",
+     "answer": "Sin an cailín nach n-imríonn peil."
+    }
+   ],
+   "hint": "Regular past: nár + h. Everything else: nach + eclipsis.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sin an buachaill. Níor ghlan sé a sheomra.",
+     "answer": "Sin an buachaill nár ghlan a sheomra."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an cailín. Níl sí sa rang inniu.",
+     "answer": "Seo an cailín nach bhfuil sa rang inniu."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin na daltaí. Ní dhéanann siad obair bhaile ar bith.",
+     "answer": "Sin na daltaí nach ndéanann obair bhaile ar bith."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an fear. Níor fhág sé an baile riamh.",
+     "answer": "Seo an fear nár fhág an baile riamh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an bus. Ní bheidh sé in am.",
+     "answer": "Sin an bus nach mbeidh in am."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an ghirseach. Ní bhfuair sí an litir.",
+     "answer": "Seo an ghirseach nach bhfuair an litir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an gasúr. Níor tháinig sé ar an turas.",
+     "answer": "Sin an gasúr nár tháinig ar an turas."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo na himreoirí. Ní raibh siad sásta leis an réiteoir.",
+     "answer": "Seo na himreoirí nach raibh sásta leis an réiteoir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an cailín. Ní ólann sí caife.",
+     "answer": "Sin an cailín nach n-ólann caife."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an buachaill. Ní dheachaigh sé go Béal Feirste.",
+     "answer": "Sin an buachaill nach ndeachaigh go Béal Feirste."
+    }
+   ]
+  },
+  {
+   "title": "An coibhneasta indíreach: a + urú",
+   "en": "Where, with whom, whose: a + eclipsis",
+   "rule": "When the noun is not the one doing the action (it goes with a preposition such as ann or léi, or with a possessive such as a deartháir), use a and eclipsis, and keep the subject and the preposition: Seo an teach. Tá mé i mo chónaí ann. becomes Seo an teach a bhfuil mé i mo chónaí ann. Bhí becomes a raibh: an bhean a raibh mé ag caint léi.",
+   "steps": [
+    "Keep the whole second sentence, with its subject and ann, léi or leis at the end.",
+    "Add a and eclipse the verb: tá becomes a bhfuil, téann becomes a dtéann.",
+    "Bhí becomes a raibh. A vowel takes n-: a n-imrím."
+   ],
+   "example": {
+    "prompt": "Seo an teach. Tá mé i mo chónaí ann.",
+    "answer": "Seo an teach a bhfuil mé i mo chónaí ann."
+   },
+   "more": [
+    {
+     "prompt": "Sin an bhean. Bhí mé ag caint léi.",
+     "answer": "Sin an bhean a raibh mé ag caint léi."
+    }
+   ],
+   "hint": "a + eclipsis. Keep ann, léi or leis at the end.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Seo an club. Imrím peil ann.",
+     "answer": "Seo an club a n-imrím peil ann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an cailín. Tá a deartháir sa rang s'agam.",
+     "answer": "Sin an cailín a bhfuil a deartháir sa rang s'agam."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an scoil. Téann mo dheirfiúr ann.",
+     "answer": "Seo an scoil a dtéann mo dheirfiúr ann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an fear. Bhí mé ag obair leis an samhradh seo caite.",
+     "answer": "Sin an fear a raibh mé ag obair leis an samhradh seo caite."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an múinteoir. Gheobhaidh mé cuidiú uaithi.",
+     "answer": "Seo an múinteoir a bhfaighidh mé cuidiú uaithi."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an siopa. Ceannaíonn muid ár gcuid bia ann.",
+     "answer": "Sin an siopa a gceannaíonn muid ár gcuid bia ann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an pháirc. Beidh an cluiche ar siúl inti.",
+     "answer": "Seo an pháirc a mbeidh an cluiche ar siúl inti."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an cara. Rachaidh mé go Béal Feirste leis.",
+     "answer": "Sin an cara a rachaidh mé go Béal Feirste leis."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an gasúr. Tá a mháthair ag obair san ospidéal.",
+     "answer": "Seo an gasúr a bhfuil a mháthair ag obair san ospidéal."
+    }
+   ]
+  },
+  {
+   "title": "An coibhneasta indíreach san aimsir chaite: ar agus nár",
+   "en": "The indirect relative in the past: ar and nár",
+   "rule": "In the past, a regular verb takes ar and h, and loses d': Sin an siopa ar cheannaigh mé mo bhróga ann. For not, use nár and h: an cailín nár labhair mé léi. Irregular verbs follow their question form: ar tháinig, ar ith, ar thug, but a ndeachaigh, a bhfuair, a raibh, and nach raibh for not.",
+   "steps": [
+    "Keep the subject, and ann, léi or leis, at the end.",
+    "Regular past: ar + h (ar cheannaigh, ar fhág), with no d'.",
+    "Not: nár + h (nár labhair)."
+   ],
+   "example": {
+    "prompt": "Sin an siopa. Cheannaigh mé mo bhróga ann.",
+    "answer": "Sin an siopa ar cheannaigh mé mo bhróga ann."
+   },
+   "more": [
+    {
+     "prompt": "Seo an cailín. Níor labhair mé léi riamh.",
+     "answer": "Seo an cailín nár labhair mé léi riamh."
+    }
+   ],
+   "hint": "Regular past: ar + h; not: nár + h. No d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Seo an bhialann. D'ith muid ann Dé Sathairn.",
+     "answer": "Seo an bhialann ar ith muid ann Dé Sathairn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an bhean. D'fhág mé mo mhála léi.",
+     "answer": "Sin an bhean ar fhág mé mo mhála léi."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an baile. Chaith mé mo laethanta saoire ann.",
+     "answer": "Seo an baile ar chaith mé mo laethanta saoire ann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an buachaill. Thug mé an peann dó.",
+     "answer": "Sin an buachaill ar thug mé an peann dó."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an cailín. Bhuail mé léi ar an bhus.",
+     "answer": "Seo an cailín ar bhuail mé léi ar an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an múinteoir. Níor labhair mé léi go fóill.",
+     "answer": "Sin an múinteoir nár labhair mé léi go fóill."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an t-óstán. Chuaigh muid ann anuraidh.",
+     "answer": "Seo an t-óstán a ndeachaigh muid ann anuraidh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an fear. Fuair mé an t-eolas uaidh.",
+     "answer": "Sin an fear a bhfuair mé an t-eolas uaidh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sin an cailín. Ní raibh mé ag caint léi.",
+     "answer": "Sin an cailín nach raibh mé ag caint léi."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Seo an pháirc. D'imir muid an cluiche ceannais inti.",
+     "answer": "Seo an pháirc ar imir muid an cluiche ceannais inti."
+    }
+   ]
+  },
+  {
+   "title": "Cé, Cad é agus An té",
+   "en": "Who, what and whoever: the direct relative",
+   "rule": "Cé (who), Cad é (what) and An té (the one who, whoever) take the direct relative, as in the question words section: a and h, or atá for tá. Cé a d'fhreagair an fón? Cad é a tharla? An té a bhíonn ag caint, ní bhíonn sé ag éisteacht. For not, use nach and eclipsis, or nár and h in the regular past: Cé nach ndearna an obair?",
+   "steps": [
+    "Start with Cé, Cad é or An té.",
+    "Add a and put h on the verb, or write atá for tá.",
+    "Not: nach + eclipsis, or nár + h in the regular past."
+   ],
+   "example": {
+    "prompt": "(Cé / freagair, an aimsir chaite) an fón?",
+    "answer": "Cé a d'fhreagair an fón?"
+   },
+   "more": [
+    {
+     "prompt": "An té (déan, an aimsir fháistineach) a dhícheall, éireoidh leis.",
+     "answer": "An té a dhéanfaidh a dhícheall, éireoidh leis."
+    }
+   ],
+   "hint": "Cé, Cad é, An té: a + h, like any direct relative.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Cé / tar, an aimsir chaite) isteach déanach?",
+     "answer": "Cé a tháinig isteach déanach?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / tarlaigh, an aimsir chaite) ag an chluiche?",
+     "answer": "Cad é a tharla ag an chluiche?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / ith, an aimsir chaite) an ceapaire s'agam?",
+     "answer": "Cé a d'ith an ceapaire s'agam?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / bí) ar siúl sa halla?",
+     "answer": "Cad é atá ar siúl sa halla?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "An té (bí, an aimsir láithreach) ag caint, ní bhíonn sé ag éisteacht.",
+     "answer": "An té a bhíonn ag caint, ní bhíonn sé ag éisteacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An té (tar, an aimsir láithreach) déanach, caithfidh sé fanacht ag an doras.",
+     "answer": "An té a thagann déanach, caithfidh sé fanacht ag an doras."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / déan, an aimsir chaite, diúltach) an obair bhaile?",
+     "answer": "Cé nach ndearna an obair bhaile?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / glan, an aimsir chaite, diúltach) an clár bán?",
+     "answer": "Cé nár ghlan an clár bán?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / cuir, an aimsir láithreach) isteach ort?",
+     "answer": "Cad é a chuireann isteach ort?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "An té (éist, an aimsir fháistineach) go cúramach, foghlaimeoidh sé go leor.",
+     "answer": "An té a éistfidh go cúramach, foghlaimeoidh sé go leor."
+    }
+   ]
+  },
+  {
+   "title": "An áit, an fáth, an dóigh",
+   "en": "The place where, the reason why, the way that",
+   "rule": "After an áit, an fáth and an dóigh, use the indirect relative, just like Cá háit, Cén fáth and Cén dóigh in questions: a and eclipsis (an áit a bhfuil mé i mo chónaí), or ar and h for a regular verb in the past (an fáth ar fhág sé). There is no ann at the end: an áit already says where.",
+   "steps": [
+    "Start with an áit, an fáth or an dóigh.",
+    "Add a and eclipse the verb: a bhfuil, a n-imríonn.",
+    "Regular past: ar + h (ar fhág). Irregular An verbs keep a + eclipsis (a ndeachaigh)."
+   ],
+   "example": {
+    "prompt": "Sin an áit (bí) mé i mo chónaí.",
+    "answer": "Sin an áit a bhfuil mé i mo chónaí."
+   },
+   "more": [
+    {
+     "prompt": "Níl a fhios agam an fáth (fág, an aimsir chaite) sé go luath.",
+     "answer": "Níl a fhios agam an fáth ar fhág sé go luath."
+    }
+   ],
+   "hint": "a + eclipsis. Regular past: ar + h. No ann at the end.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Seo an áit (imir, an aimsir láithreach) mo dheartháir peil.",
+     "answer": "Seo an áit a n-imríonn mo dheartháir peil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sin an áit (bí, an aimsir chaite) an cluiche ar siúl.",
+     "answer": "Sin an áit a raibh an cluiche ar siúl."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ní thuigim an fáth (bí) sé míshásta.",
+     "answer": "Ní thuigim an fáth a bhfuil sé míshásta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Inis dom an fáth (caill, an aimsir chaite) tú an bus.",
+     "answer": "Inis dom an fáth ar chaill tú an bus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is maith liom an dóigh (labhair, an aimsir láithreach) sí Gaeilge.",
+     "answer": "Is maith liom an dóigh a labhraíonn sí Gaeilge."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Taispeáin dom an dóigh (déan, an aimsir chaite) tú é.",
+     "answer": "Taispeáin dom an dóigh a ndearna tú é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Seo an áit (fás, an aimsir chaite) mé aníos.",
+     "answer": "Seo an áit ar fhás mé aníos."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl a fhios agam an fáth (téigh, an aimsir chaite) siad abhaile.",
+     "answer": "Níl a fhios agam an fáth a ndeachaigh siad abhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sin an áit (bí, an aimsir fháistineach) an cheolchoirm.",
+     "answer": "Sin an áit a mbeidh an cheolchoirm."
+    }
+   ]
+  }
+ ]
+}

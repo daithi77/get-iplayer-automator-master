@@ -1,0 +1,455 @@
+{
+ "id": "ordaitheach",
+ "lessons": [
+  {
+   "title": "An t-uatha: an fhréamh",
+   "en": "Telling one person: the root",
+   "rule": "To tell one person to do something, use the root of the verb on its own, with nothing added: Suigh síos. Druid an doras. Éist. The root is the form a dictionary gives, and every tense is built from it.",
+   "steps": [
+    "Find the verb: an doras a dhruidim.",
+    "Use the root on its own: druid, éist, ceannaigh.",
+    "Add the rest of the sentence: Druid an doras."
+   ],
+   "example": {
+    "prompt": "An dtig leat an doras a dhruidim?",
+    "answer": "Druid an doras."
+   },
+   "more": [
+    {
+     "prompt": "An dtig leat suí síos?",
+     "answer": "Suigh síos."
+    }
+   ],
+   "hint": "One person: the root, with nothing added.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an fhuinneog a oscailt?",
+     "answer": "Oscail an fhuinneog."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat éisteacht liom?",
+     "answer": "Éist liom."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat seasamh suas?",
+     "answer": "Seas suas."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an solas a lasadh?",
+     "answer": "Las an solas."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an clár bán a ghlanadh?",
+     "answer": "Glan an clár bán."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat do chóipleabhar a thógáil amach?",
+     "answer": "Tóg amach do chóipleabhar.",
+     "alt": "Tóg do chóipleabhar amach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an t-urlár a scuabadh?",
+     "answer": "Scuab an t-urlár."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat na leabhair a bhailiú?",
+     "answer": "Bailigh na leabhair."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an lón a ullmhú?",
+     "answer": "Ullmhaigh an lón."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtig leat an solas a mhúchadh?",
+     "answer": "Múch an solas."
+    }
+   ]
+  },
+  {
+   "title": "An t-iolra: -aigí agus -igí",
+   "en": "Telling more than one person",
+   "rule": "To tell more than one person, add an ending to the root. One-syllable verbs take -aigí after a broad vowel and -igí after a slender one: glanaigí, tógaigí, éistigí, druidigí. Verbs in -aigh or -igh drop it and take -aígí or -ígí: ceannaígí, bailígí. Suigh, nigh and léigh give suígí, nígí and léigí. Verbs that shorten do the same: osclaígí, imrígí.",
+   "steps": [
+    "Is the last vowel of the root broad (a, o, u) or slender (i, e)?",
+    "Broad: -aigí (glanaigí). Slender: -igí (éistigí).",
+    "-aigh or -igh: -aígí or -ígí (ceannaígí, bailígí)."
+   ],
+   "example": {
+    "prompt": "(Suigh: sibh) síos.",
+    "answer": "Suígí síos."
+   },
+   "more": [
+    {
+     "prompt": "(Éist: sibh) go cúramach.",
+     "answer": "Éistigí go cúramach."
+    }
+   ],
+   "hint": "Broad -aigí, slender -igí; -aigh/-igh verbs -aígí/-ígí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Druid: sibh) na fuinneoga.",
+     "answer": "Druidigí na fuinneoga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh: sibh) na ticéid ar líne.",
+     "answer": "Ceannaígí na ticéid ar líne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Seas: sibh) suas.",
+     "answer": "Seasaigí suas."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tóg: sibh) amach bhur gcóipleabhair.",
+     "answer": "Tógaigí amach bhur gcóipleabhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Stop: sibh) ag caint.",
+     "answer": "Stopaigí ag caint."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail: sibh) bhur leabhair ar leathanach a deich.",
+     "answer": "Osclaígí bhur leabhair ar leathanach a deich."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Siúil: sibh) go deas sa dorchla.",
+     "answer": "Siúlaigí go deas sa dorchla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bailigh: sibh) na leabhair.",
+     "answer": "Bailígí na leabhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scríobh: sibh) an dáta.",
+     "answer": "Scríobhaigí an dáta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuir: sibh) bhur málaí faoin tábla.",
+     "answer": "Cuirigí bhur málaí faoin tábla."
+    }
+   ]
+  },
+  {
+   "title": "Ná: an t-ordú diúltach",
+   "en": "Don't: Ná, and h before a vowel",
+   "rule": "To tell someone not to do something, put Ná before the command. Ná does not change a consonant: Ná bris é. Ná druidigí an doras. Before a vowel, Ná adds h: Ná hól é. Ná hith é. Ná héistigí leis.",
+   "steps": [
+    "Write the command: bris, ól, éistigí.",
+    "Put Ná in front.",
+    "Does the verb begin with a vowel? Add h: Ná hól."
+   ],
+   "example": {
+    "prompt": "Bris an fhuinneog.",
+    "answer": "Ná bris an fhuinneog."
+   },
+   "more": [
+    {
+     "prompt": "Ith an milseán sin.",
+     "answer": "Ná hith an milseán sin."
+    }
+   ],
+   "hint": "Ná + command. Vowel: Ná h-.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Ól an t-uisce sin.",
+     "answer": "Ná hól an t-uisce sin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Rith sa dorchla.",
+     "answer": "Ná rith sa dorchla."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Fág do mhála ar an urlár.",
+     "answer": "Ná fág do mhála ar an urlár."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Éistigí leis.",
+     "answer": "Ná héistigí leis."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ith an císte ar fad.",
+     "answer": "Ná hith an císte ar fad."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Druid an doras go fóill.",
+     "answer": "Ná druid an doras go fóill."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Oscail an bosca sin.",
+     "answer": "Ná hoscail an bosca sin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Buailigí an liathróid in éadan an bhalla.",
+     "answer": "Ná buailigí an liathróid in éadan an bhalla."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Úsáid d'fhón sa rang.",
+     "answer": "Ná húsáid d'fhón sa rang."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Caith bruscar ar an talamh.",
+     "answer": "Ná caith bruscar ar an talamh."
+    }
+   ]
+  },
+  {
+   "title": "Déanaimis nó Déanadh muid",
+   "en": "Let's",
+   "rule": "For let's, add -aimis to a broad root or -imis to a slender one: déanaimis, fanaimis, cuirimis. Verbs in -aigh or -igh, and verbs that shorten, take -aímis or -ímis: ceannaímis, tosaímis, imrímis. You will also hear the form with muid: déanadh muid, cuireadh muid, imríodh muid. Both are right. For let's not, put Ná in front: Ná déanaimis.",
+   "steps": [
+    "Take the root: déan.",
+    "Add -aimis (broad) or -imis (slender): déanaimis.",
+    "Or use -adh or -eadh with muid: déanadh muid."
+   ],
+   "example": {
+    "prompt": "(Déan: muid) an obair bhaile le chéile.",
+    "answer": "Déanaimis an obair bhaile le chéile. / Déanadh muid an obair bhaile le chéile."
+   },
+   "more": [
+    {
+     "prompt": "(Imir: muid) cluiche eile.",
+     "answer": "Imrímis cluiche eile. / Imríodh muid cluiche eile."
+    }
+   ],
+   "hint": "-aimis / -imis, or -adh muid / -eadh muid.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Fan: muid) anseo go fóill.",
+     "answer": "Fanaimis anseo go fóill.",
+     "alt": "Fanadh muid anseo go fóill."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Éist: muid) leis an amhrán sin arís.",
+     "answer": "Éistimis leis an amhrán sin arís.",
+     "alt": "Éisteadh muid leis an amhrán sin arís."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh: muid) píotsa anocht.",
+     "answer": "Ceannaímis píotsa anocht.",
+     "alt": "Ceannaíodh muid píotsa anocht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Amharc: muid) ar scannán.",
+     "answer": "Amharcaimis ar scannán.",
+     "alt": "Amharcadh muid ar scannán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Siúil: muid) go dtí an siopa.",
+     "answer": "Siúlaimis go dtí an siopa.",
+     "alt": "Siúladh muid go dtí an siopa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuir: muid) glaoch ar Sheán.",
+     "answer": "Cuirimis glaoch ar Sheán.",
+     "alt": "Cuireadh muid glaoch ar Sheán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tosaigh: muid) anois.",
+     "answer": "Tosaímis anois.",
+     "alt": "Tosaíodh muid anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oscail: muid) na fuinneoga.",
+     "answer": "Osclaímis na fuinneoga.",
+     "alt": "Osclaíodh muid na fuinneoga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan: muid) ceapairí don turas.",
+     "answer": "Déanaimis ceapairí don turas.",
+     "alt": "Déanadh muid ceapairí don turas."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ná (caill: muid) an bus.",
+     "answer": "Ná caillimis an bus.",
+     "alt": "Ná cailleadh muid an bus."
+    }
+   ]
+  },
+  {
+   "title": "Na briathra neamhrialta",
+   "en": "Irregular commands",
+   "rule": "Irregular verbs use their root as a command too: Bí, Déan, Ith, Faigh, Abair, Tabhair, Beir, Tar, Téigh. In Ulster, Gabh is often used for go: Gabh abhaile. The plurals are Bígí, Déanaigí, Ithigí, Faighigí, Abraigí, Tugaigí, Beirigí, Tagaigí, Téigí and Gabhaigí. For look, say Amharc; Feic and Cluin are rare as commands (say Éist for listen). Ná works as usual: Ná habair é, Ná tar isteach.",
+   "steps": [
+    "Take the root: tar, abair, tabhair.",
+    "More than one person: learn the plural (tagaigí, abraigí, tugaigí).",
+    "Not: Ná, with h before a vowel (Ná habair)."
+   ],
+   "example": {
+    "prompt": "(Tar: sibh) isteach.",
+    "answer": "Tagaigí isteach."
+   },
+   "more": [
+    {
+     "prompt": "(Tabhair: tú) an peann dom.",
+     "answer": "Tabhair an peann dom."
+    }
+   ],
+   "hint": "Tar: tagaigí. Abair: abraigí. Tabhair: tugaigí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Téigh: sibh) abhaile go cúramach.",
+     "answer": "Téigí abhaile go cúramach.",
+     "alt": "Gabhaigí abhaile go cúramach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Abair: tú) é sin arís.",
+     "answer": "Abair é sin arís."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tabhair: sibh) na cóipleabhair dom.",
+     "answer": "Tugaigí na cóipleabhair dom."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí: sibh) ciúin.",
+     "answer": "Bígí ciúin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan: sibh) bhur ndícheall.",
+     "answer": "Déanaigí bhur ndícheall."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Faigh: sibh) bhur gcótaí.",
+     "answer": "Faighigí bhur gcótaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ná (abair: tú) é sin.",
+     "answer": "Ná habair é sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ith: sibh) bhur lón.",
+     "answer": "Ithigí bhur lón."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Beir: sibh) ar an liathróid.",
+     "answer": "Beirigí ar an liathróid."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gabh: sibh) amach go ciúin.",
+     "answer": "Gabhaigí amach go ciúin."
+    }
+   ]
+  },
+  {
+   "title": "Sa seomra ranga",
+   "en": "Classroom commands",
+   "rule": "A teacher usually speaks to the whole class, so most classroom commands are plural: Seasaigí suas. Suígí síos. Osclaígí bhur leabhair. Change do (your, one person) to bhur (your, more than one), and make the noun plural. Bhur eclipses: bhur gcóipleabhair, bhur bpinn.",
+   "steps": [
+    "Make the verb plural: suigh becomes suígí.",
+    "Change do to bhur.",
+    "Make the noun plural and eclipse it after bhur: do chóipleabhar becomes bhur gcóipleabhair."
+   ],
+   "example": {
+    "prompt": "Oscail do leabhar.",
+    "answer": "Osclaígí bhur leabhair."
+   },
+   "more": [
+    {
+     "prompt": "Suigh síos.",
+     "answer": "Suígí síos."
+    }
+   ],
+   "hint": "Plural verb; do becomes bhur, and bhur eclipses.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Seas suas.",
+     "answer": "Seasaigí suas."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Druid do chóipleabhar.",
+     "answer": "Druidigí bhur gcóipleabhair."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Éist go cúramach.",
+     "answer": "Éistigí go cúramach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bí ciúin.",
+     "answer": "Bígí ciúin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cuir suas do lámh.",
+     "answer": "Cuirigí suas bhur lámha."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tóg amach do pheann.",
+     "answer": "Tógaigí amach bhur bpinn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Amharc ar an chlár bán.",
+     "answer": "Amharcaigí ar an chlár bán."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Déan an cleachtadh ar leathanach a cúig.",
+     "answer": "Déanaigí an cleachtadh ar leathanach a cúig."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tar isteach go ciúin.",
+     "answer": "Tagaigí isteach go ciúin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Scríobh síos an obair bhaile.",
+     "answer": "Scríobhaigí síos an obair bhaile."
+    }
+   ]
+  }
+ ]
+}
