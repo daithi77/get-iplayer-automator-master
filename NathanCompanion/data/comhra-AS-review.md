@@ -18,7 +18,7 @@ For Dáithí. This goes with `builders/as-comhra.json`, which turns the 2009 AS 
 - "deá-shampla" → "dea-shampla". There is no fada on "dea".
 - "don mhuintir bheaga sa teach" → "do na páistí beaga sa teach". "Muintir" is a feminine singular collective, so "muintir bheaga" does not agree.
 - "aire a thabhairt ar na páistí" → "aire a thabhairt do na páistí". The idiom is "aire do".
-- "faighim ar shiúil le cuid mhór rudaí" → "éalaím le cuid mhór rudaí". "Faigh ar shiúl le" is a calque of "get away with". The spelling is "ar shiúl" either way. (Flagged in section 4.)
+- "faighim ar shiúil le cuid mhór rudaí" → "tá cead mo chinn agam" (your ruling). "Faigh ar shiúl le" is a calque of "get away with". The spelling is "ar shiúl" either way. (Flagged in section 4.)
 - "Ach ar an lámh eile" → "Ach ar an taobh eile". "Ar an láimh eile" (dative) also exists, but the units use "ar an taobh eile" throughout for consistency.
 - "éadaí mo dheirfiúr/mo dheartháir" → "éadaí mo dheirféar / mo dhearthár". These are genitive forms.
 - "nuair a éiríonn sé/sí rómhór dó/di" → "nuair a bhíonn siad róbheag dó/di". The original says the brother or sister grows too big "for him/her". The meaning is that the clothes become too small for them.
@@ -27,7 +27,7 @@ For Dáithí. This goes with `builders/as-comhra.json`, which turns the 2009 AS 
 
 ### Mo cheantar agus an timpeallacht
 
-- "idir Chondae Ard Mhacha agus Chondae Lú" → "idir Condae Ard Mhacha agus Condae Lú". "Idir" lenites only when it means "both", not "between".
+- "idir Chondae Ard Mhacha agus Chondae Lú" → "idir Contae Ard Mhacha agus Contae Lú". "Idir" lenites only when it means "both", not "between".
 - "atá lan de radharcra deasa, sléibhte áille agus daoine atá cairdiúil" → "atá lán de radharcanna deasa, de shléibhte áille agus de dhaoine cairdiúla". Fada. "Radharcra" is a singular collective, so it cannot take the plural "deasa". Repeating "de" makes the list clearer.
 - "thiocfadh le níos mó bheith ann do dhaoine óga" → "ba cheart go mbeadh níos mó ann do dhaoine óga". "Thiocfadh le" needs a person after it.
 - "sólann" → "ionad fóillíochta". (Flagged in section 4.)
@@ -196,3 +196,17 @@ Content added to your answers: apprenticeships and gap years; the adult rate of 
 - **Brand names** (Snapchat, Instagram, TikTok, WhatsApp, Spotify, Netflix, TG4 Player) are left in English as pupils say them. Remove any you would rather not name.
 - **"an intleacht shaorga" with "sí"**: the AI unit refers to AI as "sí" throughout ("Tá sí an-úsáideach", "thig léi"), following your ruling on feminine subjects. Some teachers might expect "sé" referring to "an córas" or "an uirlis".
 - **Model answers**: some of your 2009 answers had alternatives ("/") and gaps ("..."). Each model answer picks one path. The other choices are in the rows.
+
+## 5. Your rulings of 27 September
+
+- Pay: £8 to £10 an hour, kept.
+- Armagh: the 2024 Sam Maguire line, kept.
+- Drinking at the weekend: stays removed.
+- "Tá cead mo chinn agam" replaces "éalaím le" / "faighim ar shiúl le".
+- "Seasann sí liom", "ar an talamh", "ionad fóillíochta": kept.
+- "Sílim an dúrud de": added to the music model answer in Caitheamh aimsire agus ceol.
+- "Leanúint", not "leanstan". "Gráid", not "grádanna". "Contae", not "Condae".
+- "Inis dom fá dtaobh de": changed from "fá dtaobh dó" in all three questions.
+- "A bheith" in writing; "le bheith" after "le". Lenite after slender plurals (cláir cheoil).
+- Vapes: "toitíní leictreonacha", "ag vapeáil" and "ag galú" are all in the rows.
+- "An bhliain seo chugainn" (no "ar"). Brand names kept. AI stays "sí".

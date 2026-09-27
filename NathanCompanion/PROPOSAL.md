@@ -226,3 +226,5 @@ Ulster forms ruling, same night: accepted as drafted: 'an t-ainm atá orm' besid
 - Conditional mood: show both forms where both exist (1st and 3rd person plural): chuirfimis / chuirfeadh muid, chuirfidís / chuirfeadh siad. Both are accepted in marking.
 - "Cluin", not "clois" (the more natural Ulster verb): cluineann, chluinfeadh, cluintear, cluinstin.
 - "Tábla", not "bord", for a table.
+
+Rulings of 27 September (review lists): "Tá cead mo chinn agam" for "I get away with / free rein"; "fá dtaobh de" in writing; "Contae", "gráid", "leanúint", "a bheith"; lenite after slender plurals; vapes as "toitíní leictreonacha", "vapeáil" or "galú"; "Sílim an dúrud de" added; "na gardaí" kept; no drinking in weekend answers.

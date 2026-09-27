@@ -1765,7 +1765,7 @@
     "Cad chuige ar roghnaigh tú an Ghaeilge mar ábhar AS?",
     "An fiú do dhuine atá ag foghlaim na Gaeilge dul chun na Gaeltachta, i do bharúil?",
     "An raibh tú riamh ar chúrsa sa Ghaeltacht?",
-    "Inis dom fá dtaobh dó."
+    "Inis dom fá dtaobh de."
    ],
    "rows": [
     {
@@ -2100,7 +2100,7 @@
     "An amharcann tú ar TG4?",
     "Cad é do bharúil air?",
     "An gcuidíonn sé le foghlaim na teanga?",
-    "An bhfaca tú scannán ar bith ar na mallaibh? Inis dom fá dtaobh dó."
+    "An bhfaca tú scannán ar bith ar na mallaibh? Inis dom fá dtaobh de."
    ],
    "rows": [
     {
@@ -2750,7 +2750,7 @@
    "en": "Pastimes and music",
    "teaches": "Hobbies and music: tugtha do; seinn ar an + lenition (ar an fhidil, ar an ghiotár); music grades; screen time and what others say about it (Deir mo dhaidí gur ...); interests with sa / san.",
    "questions": [
-    "An bhfuil caitheamh aimsire ar bith agat? Inis dom fá dtaobh dó.",
+    "An bhfuil caitheamh aimsire ar bith agat? Inis dom fá dtaobh de.",
     "An bhfuil gléas ceoil ar bith agat? Cuir síos air.",
     "Cad é a dhéanann tú nuair nach mbíonn tú ag déanamh oibre scoile?",
     "An bhfuil suim agat sa pholaitíocht?"
@@ -3077,7 +3077,7 @@
     }
    ],
    "examples": [
-    "Tá mé iontach tugtha don cheol. Caithim cuid mhór de m'am saor ag seinm ar an fhidil. Anuraidh bhain mé grád a seacht amach sna scrúduithe ceoil. Caithfidh mé cleachtadh a dhéanamh achan oíche ar feadh uair an chloig.",
+    "Tá mé iontach tugtha don cheol. Sílim an dúrud de. Caithim cuid mhór de m'am saor ag seinm ar an fhidil. Anuraidh bhain mé grád a seacht amach sna scrúduithe ceoil. Caithfidh mé cleachtadh a dhéanamh achan oíche ar feadh uair an chloig.",
     "Éistim le cuid mhór ceoil ar mo ghuthán, go háirithe ceol traidisiúnta. Chuaigh mé chuig ceolchoirm i mBéal Feirste an samhradh seo caite. Caithim an iomarca ama os comhair an scáileáin, caithfidh mé a admháil. Deir mo dhaidí nach bhfuil mé ag déanamh aclaíochta ar bith!",
     "Is maith liom a bheith ag amharc ar chláir a bhaineann le cúrsaí reatha, mar tá an-suim agam i nuacht an domhain. Is maith liom a bheith ag amharc ar chláir ghrinn fosta, mar fhaoiseamh ó bhrú na scoile. Tá suim mhór agam sa pholaitíocht."
    ],
@@ -4081,6 +4081,14 @@
        },
        {
         "ga": "ag caitheamh toitíní leictreonacha",
+        "en": "vaping"
+       },
+       {
+        "ga": "ag vapeáil",
+        "en": "vaping"
+       },
+       {
+        "ga": "ag galú",
         "en": "vaping"
        }
       ],

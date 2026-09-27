@@ -415,8 +415,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Druid) an bóthar go Sliabh gCuillinn inné.",
-     "answer": "Druideadh an bóthar go Sliabh gCuillinn inné."
+     "prompt": "(Druid) an leabharlann go luath inné.",
+     "answer": "Druideadh an leabharlann go luath inné."
     },
     {
      "shape": "stem",

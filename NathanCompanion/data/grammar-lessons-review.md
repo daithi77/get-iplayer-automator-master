@@ -62,3 +62,10 @@
 - "clois" replaced by "cluin" in every form (148 places), including "cluinstin".
 - "bord" replaced by "tábla" (106 places). Two lessons where "bord" carried the teaching point were changed instead: lenition after "den" and "ar an" now uses "cathaoir" ("den chathaoir", "ar an chathaoir"); the genitive after a verbal noun uses "carr" ("ag glanadh an chairr").
 - 30 answers in nr-laithreach held the original and the result joined by an arrow; they now hold the result only.
+
+## Your rulings of 27 September (second round)
+
+- "Ag druidim" kept (not "ag druid").
+- "Druideadh an bóthar go Sliabh gCuillinn inné" became "Druideadh an leabharlann go luath inné" (the next item already uses a shop).
+- "Na gardaí" kept. "Brisim rialacha go minic" kept.
+- "An dóigh a ndéantar é" kept.
