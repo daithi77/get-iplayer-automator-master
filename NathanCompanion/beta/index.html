@@ -156,6 +156,9 @@ mark.chg{background:var(--hi);color:inherit;border-radius:4px;padding:0 3px}
 .qchain li span{display:block;font-size:13px;font-weight:400;color:var(--muted)}
 .gsec .ex{display:block;font-size:14px;font-style:italic;color:var(--ink);margin-top:4px}
 .chg{color:var(--pen);font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.photo{border:2px dashed var(--rule);border-radius:14px;padding:16px;text-align:center}.photo>span{font-size:56px;display:block}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.chip{border:1px solid var(--rule);border-radius:10px;padding:6px 10px}
+.passage p{font-size:18px;line-height:1.6}
 .part{color:var(--good);font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
 .track.g{background:var(--k0);color:var(--k0i)}
 .sprioc{border-left:4px solid var(--k1i);padding:4px 0 4px 12px;display:flex;flex-direction:column;gap:6px}
@@ -192,7 +195,7 @@ const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(M
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 const fold=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC');
 const norm=s=>String(s||'').toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?,]/g,' ').replace(/\s+/g,' ').trim();
-const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱','b9-laethanta':'📅','b0-failte':'👋','b10-uimhreacha':'🔢','g1-mefein':'🙋','g2-saoire':'🏖️','b11-seomra':'✏️','b12-dathanna':'🎨','b13-corp':'👀','b14-teach':'🛋️','g3-ceantar':'🏘️','g4-caitheamh':'🎮','g5-siopadoireacht':'🛍️','g6-slainte':'🩺'};
+const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱','b9-laethanta':'📅','b0-failte':'👋','b10-uimhreacha':'🔢','g1-mefein':'🙋','g2-saoire':'🏖️','b11-seomra':'✏️','b12-dathanna':'🎨','b13-corp':'👀','b14-teach':'🛋️','g3-ceantar':'🏘️','g4-caitheamh':'🎮','g5-siopadoireacht':'🛍️','g6-slainte':'🩺','a2-ghaeilge':'🗣️','a2-mean':'🤖','a2-timpeallacht':'🌍','a2-todhchai':'🧭'};
 const STEPS=[['Éist','Listen'],['Aithin','Recognise'],['Tóg','Build'],['Ó chuimhne','From memory']];
 const DAY=86400000, INT=[0,1,2,4,8,16,32];
 
@@ -258,6 +261,10 @@ function render(){
   const app=$('#app');
   if(view==='gram'){app.classList.remove('wide');app.innerHTML=gramHomeHTML();return;}
   if(view==='comhra'){app.classList.remove('wide');app.innerHTML=comhraHomeHTML();return;}
+  if(view==='spreag'){app.classList.remove('wide');app.innerHTML=spHomeHTML();return;}
+  if(view==='sp'){app.classList.remove('wide');app.innerHTML=spHTML();return;}
+  if(view==='leamh'){app.classList.remove('wide');app.innerHTML=leHomeHTML();return;}
+  if(view==='le'){app.classList.remove('wide');app.innerHTML=leHTML();return;}
   if(view==='gcse'){app.classList.remove('wide');app.innerHTML=gcseHomeHTML();return;}
   if(view==='gunit'){app.classList.remove('wide');app.innerHTML=gunitHTML();return;}
   if(view==='grole'){app.classList.remove('wide');app.innerHTML=groleHTML();const i=$('#typed');if(i&&!rp.shown)setTimeout(()=>i.focus(),30);return;}
@@ -272,7 +279,8 @@ function render(){
       <p class="lede">Sleamhnáin do mhúinteoirí: one builder row per slide, with Áine's voice. Tap a chunk to hear it. Use the arrow keys, Page Up and Page Down, or a presenter clicker to move.</p>
       <div class="units">${U.map((u,i)=>`<button class="unit" data-act="deck" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'💬'}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)} · ${deckSlides(u).length} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>
       ${GC.length?`<p class="lab" style="margin-top:8px">GCSE · Bliain 11</p><div class="units">${GC.map((u,i)=>`<button class="unit" data-act="deck" data-set="g" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'🎓'}</span><span class="t"><b lang="ga">${esc(u.title)}</b><span class="s">${esc(u.en)} · ${deckSlides(u).length} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>`:''}
-      ${C.length?`<p class="lab" style="margin-top:8px">Comhrá · AS · conversation slides</p><div class="units">${C.map((u,i)=>`<button class="unit" data-act="deck" data-set="c" data-i="${i}"><span class="em" aria-hidden="true">💬</span><span class="t"><b lang="ga">${esc(u.title)}</b><span class="s">${esc(u.en)} · ${deckSlides(u).length} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>`:''}
+      ${A2.length?`<p class="lab" style="margin-top:8px">A2 · Bliain 14</p><div class="units">${A2.map((u,i)=>`<button class="unit" data-act="deck" data-set="a" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'🎓'}</span><span class="t"><b lang="ga">${esc(u.title)}</b><span class="s">${esc(u.en)} · ${deckSlides(u).length} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>`:''}
+      ${C.length?`<p class="lab" style="margin-top:8px">Comhrá · AS · conversation slides</p><div class="units">${C.map((u,i)=>`<button class="unit" data-act="deck" data-set="c" data-i="${i}"><span class="em" aria-hidden="true">💬</span><span class="t"><b lang="ga">${esc(u.title)}</b><span class="s">${esc(u.en)}${u.teacherLed?' · don rang amháin, for the class only':''} · ${deckSlides(u).length} sleamhnán</span></span><span class="go">▶</span></button>`).join('')}</div>`:''}
       ${G?`<p class="lab" style="margin-top:8px">Gramadach · AS agus A2 · grammar slides</p>${DRAFT}`+G.groups.map(g=>`<div class="ggroup"><h2><span aria-hidden="true">${g.emoji}</span> ${esc(g.ga)}</h2>${g.sections.map(id=>{const x=G.sections[id];return `<button class="gsec" data-act="gdeck" data-id="${id}"><span class="t"><b lang="ga">${esc(x.title)}</b><span class="s">${esc(x.en)}</span></span><span class="go">▶</span></button>`;}).join('')}</div>`).join(''):''}
       <div class="card"><p class="lab">Ar an teilifís · on the class screen</p>
       <p><b>Interactive panel, projector or laptop:</b> open this link in the browser and choose a unit. Add <b>#rang</b> to the end of the link to open straight here.</p>
@@ -287,9 +295,12 @@ function render(){
       <p class="lede">Éist, aithin, tóg agus cuimhnigh. Cúpla bomaite san oíche. <br><span class="note">Listen, recognise, build and remember. A few minutes a night.</span></p>
       <div class="units">${U.map((u,i)=>{const p=unitProgress(u);const n=(S.units[u.id]||{}).runs||0;
         return `<button class="unit" data-act="open" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'💬'}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)}</span><span class="bar"><i style="width:${p}%"></i></span></span><span class="go">${n?'Arís':'Tosaigh'} →</span></button>`;}).join('')}</div>
-      ${GC.length?`<button class="track g" data-act="gcse"><span class="em" aria-hidden="true">🎓</span><span><b>GCSE · Bliain 11</b><span class="s">For pupils starting GCSE: ${GC.length} units with the examiner's questions, sentences to build, a better-answer ladder and role plays.</span></span></button>`:''}
+      ${GC.length?`<button class="track g" data-act="gcse" data-t="g"><span class="em" aria-hidden="true">🎓</span><span><b>GCSE · Bliain 11</b><span class="s">For pupils starting GCSE: ${GC.length} units with the examiner's questions, sentences to build, a better-answer ladder and role plays.</span></span></button>`:''}
       <button class="track" data-act="gram"><span class="em" aria-hidden="true">📐</span><span><b>Gramadach · AS agus A2</b><span class="s">Grammar for Years 13 and 14: rule, worked example, practice. 32 sections.</span></span></button>
-      ${C.length?`<button class="track c" data-act="comhra"><span class="em" aria-hidden="true">💬</span><span><b>Comhrá · AS</b><span class="s">The speaking test conversation: ${C.length} topics, examiner questions, sentence builders and your own answers.</span></span></button>`:''}
+      ${C.length?`<button class="track c" data-act="comhra"><span class="em" aria-hidden="true">💬</span><span><b>Comhrá · AS</b><span class="s">The speaking test conversation: ${C.filter(t=>!t.teacherLed).length} topics, examiner questions, sentence builders and your own answers.</span></span></button>`:''}
+      ${SP.length?`<button class="track c" data-act="spreag"><span class="em" aria-hidden="true">🖼️</span><span><b>An Spreagphictiúr · AS</b><span class="s">The picture stimulus: ${SP.length} pictures, five questions each, then the examiner moves to your own life.</span></span></button>`:''}
+      ${LE.length?`<button class="track" data-act="leamh"><span class="em" aria-hidden="true">📰</span><span><b>Léitheoireacht agus aistriúchán</b><span class="s">Reading and translation, AS and A2: ${LE.length} passages with a glossary, questions and translation both ways.</span></span></button>`:''}
+      ${A2.length?`<button class="track g" data-act="gcse" data-t="a"><span class="em" aria-hidden="true">🎓</span><span><b>A2 · Bliain 14</b><span class="s">Discussion and writing: ${A2.length} units with opinion frames, a better-answer ladder, a debate with the examiner and an essay.</span></span></button>`:''}
       <p class="note">Dréacht le haghaidh tástála. A draft for testing. Voice: Áine, ABAIR (Trinity College Dublin). Progress stays on this phone.</p>`;
     return;
   }
@@ -477,7 +488,7 @@ const ownAns=q=>(S.own||{})[oid(q)]||'';
 function comhraHomeHTML(){
   return `${head('Comhrá · AS','The speaking test conversation',true)}${DRAFT}
     <p class="lede">Achan topaic: ceisteanna an scrúdaitheora, freagraí samplacha, abairtí le tógáil agus d'fhreagraí féin. Each topic: the examiner's questions, model answers, sentences to build, and your own answers.</p>
-    <div class="units">${C.map((u,i)=>{const own=u.questions.filter(q=>ownAns(q.ga)).length;return `<button class="unit" data-act="copen" data-i="${i}"><span class="em" aria-hidden="true">💬</span><span class="t"><b lang="ga">${esc(u.title)}${u.new?'<span class="newbadge">nua · new</span>':''}</b><span class="s">${esc(u.en)} · ${u.questions.length} ceist · ${own}/${u.questions.length} freagra féin</span></span><span class="go">→</span></button>`;}).join('')}</div>`;
+    <div class="units">${C.map((u,i)=>{if(u.teacherLed)return '';const own=u.questions.filter(q=>ownAns(q.ga)).length;return `<button class="unit" data-act="copen" data-i="${i}"><span class="em" aria-hidden="true">💬</span><span class="t"><b lang="ga">${esc(u.title)}${u.new?'<span class="newbadge">nua · new</span>':''}</b><span class="s">${esc(u.en)} · ${u.questions.length} ceist · ${own}/${u.questions.length} freagra féin</span></span><span class="go">→</span></button>`;}).join('')}</div>`;
 }
 function ctopicHTML(){
   const u=ct.u;
@@ -535,11 +546,15 @@ const unmk=t=>String(t||'').replace(/[\[\]{}]/g,'');
 
 /* GCSE track (Year 11): the examiner's question chain, sentence builders with audio, a pattern box,
    a basic / better / best ladder and role plays, in the Year 8 unit shape. */
-let GC=[], gt=null, rp=null;
+let GC=[], A2=[], trk='g', gt=null, rp=null;
+const TL=()=>trk==='a'?A2:GC;
+const TNAME=()=>trk==='a'?['A2 · Bliain 14','For final-year pupils']:['GCSE · Bliain 11','For pupils starting GCSE'];
 function gcseHomeHTML(){
-  return `${head('GCSE · Bliain 11','For pupils starting GCSE',true)}${DRAFT}
-    <p class="lede">Achan aonad: ceisteanna an scrúdaitheora, abairtí le tógáil, patrún le haimsiú, freagra níos fearr agus ról-imirt. Each unit: the examiner's questions, sentences to build, a pattern to spot, a better answer and a role play.</p>
-    <div class="units">${GC.map((u,i)=>`<button class="unit" data-act="gopenU" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'🎓'}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}${u.new?'<span class="newbadge">nua · new</span>':''}</b><span class="s">${esc(u.en)} · ${u.questions.length} ceist</span><span class="bar"><i style="width:${unitProgress(u)}%"></i></span></span><span class="go">→</span></button>`).join('')}</div>`;
+  const [tn,ts]=TNAME();
+  return `${head(tn,ts,true)}${DRAFT}
+    ${trk==='a'?`<p class="lede">Each unit: the examiner's questions, opinion frames to build with, a pattern to spot, a better answer, a discussion with the examiner and an essay with a plan and a model.</p>`
+    :`<p class="lede">Achan aonad: ceisteanna an scrúdaitheora, abairtí le tógáil, patrún le haimsiú, freagra níos fearr agus ról-imirt. Each unit: the examiner's questions, sentences to build, a pattern to spot, a better answer and a role play.</p>`}
+    <div class="units">${TL().map((u,i)=>`<button class="unit" data-act="gopenU" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'🎓'}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}${u.new?'<span class="newbadge">nua · new</span>':''}</b><span class="s">${esc(u.en)} · ${u.questions.length} ceist</span><span class="bar"><i style="width:${unitProgress(u)}%"></i></span></span><span class="go">→</span></button>`).join('')}</div>`;
 }
 function spriocHTML(u){return (u.sprioc||[]).length?`<div class="card"><p class="lab">Sprioc foghlama · learning intentions</p><div class="sprioc">${u.sprioc.map(x=>`<p><span lang="ga" style="font-weight:700">${esc(x.ga)}</span><br><span class="gloss">${esc(x.en)}</span></p>`).join('')}</div></div>`:'';}
 function patternHTML(pt,k){
@@ -551,9 +566,60 @@ function ladderHTML(u){
   return (u.ladder||[]).length?`<div class="card"><p class="lab">Freagra níos fearr · make it better</p><p class="gloss">Na focail dhearga: cad é atá nua? The words in red are new. Can you do better still?</p>
     <div class="ladder">${u.ladder.map(x=>`<div class="rung"><span class="lv">${esc(x.label)}</span><p class="ga" lang="ga" style="margin:4px 0">${mk(x.ga)}</p><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button class="play small" data-act="dq" data-a="${x.audio}">▶ Éist</button><span class="gloss">${esc(x.en)}</span></div></div>`).join('')}</div></div>`:'';
 }
+/* A2: an essay question with a plan, the pupil's own draft (kept on this device) and a model answer. */
+const wc=t=>(String(t||'').trim().match(/\S+/g)||[]).length;
+function writingHTML(u){
+  return (u.writing||[]).map((w,k)=>{const key=`w:${u.id}:${k}`,mine=ownAns(key);
+    return `<div class="card"><p class="lab">Aiste · essay (about ${w.words||300} words)</p><p class="big" style="font-size:20px" lang="ga">${esc(w.prompt)}</p><p class="gloss">${esc(w.promptEn||'')}</p>
+    ${(w.plan||[]).length?`<p class="lab">Plean · plan</p><ol lang="ga">${w.plan.map(p=>`<li>${esc(p)}</li>`).join('')}</ol>`:''}
+    <textarea class="input" lang="ga" rows="8" data-own="${esc(key)}" spellcheck="false" placeholder="Scríobh d'aiste anseo">${esc(mine)}</textarea>
+    <p class="gloss" data-wc="${esc(key)}">${wc(mine)} focal · words</p>
+    <details class="rule"><summary>Freagra samplach · model answer</summary><p lang="ga">${esc(w.model)}</p></details></div>`;}).join('');
+}
+/* AS picture stimulus: the five-finger method, a ladder and the examiner's follow-up questions. */
+let SP=[], sp=null, LE=[], le=null;
+function spHomeHTML(){
+  return `${head('An Spreagphictiúr','AS · the picture stimulus',true)}${DRAFT}
+    <p class="lede">Five fingers, five questions: who, where, what is happening, before and after, and what you think. Then the examiner moves from the picture to your own life.</p>
+    <div class="units">${SP.map((x,i)=>x.teacherLed?'':`<button class="unit" data-act="spopen" data-i="${i}"><span class="em" aria-hidden="true">${esc(x.emoji||'🖼️')}</span><span class="t"><b lang="ga">${i+1}. ${esc(x.title)}</b><span class="s">${esc(x.titleEn)} · ${x.fingers.length} + ${(x.followups||[]).length} ceist</span></span><span class="go">→</span></button>`).join('')}</div>`;
+}
+const ownBox=(key,rows)=>`<textarea class="input" lang="ga" rows="${rows||3}" data-own="${esc(key)}" spellcheck="false" placeholder="Scríobh do fhreagra anseo">${esc(ownAns(key))}</textarea>`;
+const modelBox=(m,lab)=>m?`<details class="rule"><summary>${lab||'Freagra samplach · model answer'}</summary><p lang="ga" style="font-weight:700;margin:6px 0 2px">${mk(m.ga||m)}</p>${m.en?`<p class="gloss">${esc(m.en)}</p>`:''}</details>`:'';
+function spHTML(){
+  const x=sp;
+  return `<div class="top"><button class="icon" data-act="spreag" aria-label="Siar. Back to the pictures">←</button><h1 lang="ga">${esc(x.title)}<span class="sub">${esc(x.titleEn)} · An Spreagphictiúr</span></h1></div>${DRAFT}
+    <div class="card"><p class="lab">An pictiúr · the picture</p><div class="photo"><span aria-hidden="true">${esc(x.emoji||'🖼️')}</span><p lang="ga">${esc(x.scene.ga)}</p><p class="gloss">${esc(x.scene.en)}</p></div>
+      <p class="note">Grianghraf le teacht · photo to come: ${esc(x.photo||'')}</p></div>
+    ${x.fingers.map((f,k)=>`<div class="card"><p class="lab">✋ ${k+1} · ${esc(f.finger)}</p><p class="big" style="font-size:20px" lang="ga">${esc(f.q)}</p><p class="gloss">${esc(f.qEn)}</p>
+      ${(f.frames||[]).length?`<details class="rule"><summary>Frámaí · useful chunks</summary><div class="chips" lang="ga">${f.frames.map(c=>`<span class="chip"><b>${esc(c.ga)}</b> <span class="gloss">${esc(c.en)}</span></span>`).join('')}</div></details>`:''}
+      ${ownBox(`sp:${x.id}:${k}`)}${modelBox(f.model)}</div>`).join('')}
+    ${(x.ladder||[]).length?`<div class="card"><p class="lab">Freagra níos fearr · make it better</p><div class="ladder">${x.ladder.map(r=>`<div class="rung"><span class="lv">${esc(r.label)}</span><p class="ga" lang="ga" style="margin:4px 0">${mk(r.ga)}</p><span class="gloss">${esc(r.en)}</span></div>`).join('')}</div></div>`:''}
+    ${(x.followups||[]).length?`<div class="card"><p class="lab">Ceisteanna leantacha · the examiner's follow-up questions</p>${x.followups.map((f,k)=>`<div style="margin:14px 0"><p lang="ga" style="font-weight:700;margin:0">${k+1}. ${esc(f.ga)}</p><p class="gloss" style="margin:2px 0 6px">${esc(f.en)}</p>${ownBox(`spf:${x.id}:${k}`)}${modelBox(f.model)}</div>`).join('')}</div>`:''}`;
+}
+/* Reading and translation, in the worksheet layout: passage, glossary, questions, translation both ways. */
+function leHomeHTML(){
+  const grp=lv=>{const xs=LE.map((x,i)=>[x,i]).filter(([x])=>x.level===lv&&!x.teacherLed);return xs.length?`<p class="lab" style="margin-top:8px">${lv}</p><div class="units">${xs.map(([x,i])=>`<button class="unit" data-act="leopen" data-i="${i}"><span class="em" aria-hidden="true">${esc(x.emoji||'📰')}</span><span class="t"><b lang="ga">${esc(x.title)}</b><span class="s">${esc(x.titleEn)} · ${x.questions.length} ceist</span></span><span class="go">→</span></button>`).join('')}</div>`:'';};
+  return `${head('Léitheoireacht agus aistriúchán','Reading and translation · AS and A2',true)}${DRAFT}
+    <p class="lede">Read the passage, check the glossary, answer the questions, then translate: into English, and into Irish a chunk at a time.</p>${grp('AS')}${grp('A2')}`;
+}
+function leHTML(){
+  const x=le;
+  return `<div class="top"><button class="icon" data-act="leamh" aria-label="Siar. Back to the passages">←</button><h1 lang="ga">${esc(x.title)}<span class="sub">${esc(x.titleEn)} · ${esc(x.level)}</span></h1></div>${DRAFT}
+    <div class="card"><p class="lab">An sliocht · the passage</p><div lang="ga" class="passage">${x.passage.map(p=>`<p>${esc(p)}</p>`).join('')}</div>
+      <details class="rule"><summary>Gluais · glossary (${x.glossary.length})</summary><table class="ptab">${x.glossary.map(g=>`<tr><td lang="ga"><b>${esc(g.ga)}</b></td><td>${esc(g.en)}</td></tr>`).join('')}</table></details></div>
+    <div class="card"><p class="lab">Ceisteanna · questions</p>${x.questions.map((q,k)=>`<div style="margin:14px 0"><p ${q.lang==='ga'?'lang="ga"':''} style="font-weight:700;margin:0 0 6px">${k+1}. ${esc(q.q)} <span class="gloss" style="font-weight:400">(${q.marks||1} ${q.marks>1?'marks':'mark'}, answer in ${q.lang==='ga'?'Irish':'English'})</span></p>
+      ${ownBox(`leq:${x.id}:${k}`,2)}<details class="rule"><summary>Freagra samplach · model answer</summary><p ${q.lang==='ga'?'lang="ga"':''}>${esc(q.answer)}</p></details></div>`).join('')}</div>
+    <div class="card"><p class="lab">Aistrigh go Béarla · translate into English</p>${x.toEnglish.map((t,k)=>`<div style="margin:14px 0"><p lang="ga" style="font-weight:700;margin:0 0 6px">${k+1}. ${esc(t.ga)}</p>
+      <textarea class="input" rows="2" data-own="${esc(`lee:${x.id}:${k}`)}" placeholder="Write your English here">${esc(ownAns(`lee:${x.id}:${k}`))}</textarea><details class="rule"><summary>Aistriúchán samplach · model translation</summary><p>${esc(t.en)}</p></details></div>`).join('')}</div>
+    <div class="card"><p class="lab">Aistrigh go Gaeilge · translate into Irish</p><p class="gloss">Work a chunk at a time. Tap Leid for the chunks, then write the whole sentence and check it.</p>${x.toIrish.map((t,k)=>{const r=(le.res||{})[k];const key=`lei:${x.id}:${k}`;return `<div style="margin:16px 0"><p style="font-weight:700;margin:0 0 6px">${k+1}. ${esc(t.en)}</p>
+      ${(t.chunks||[]).length?`<details class="rule"><summary>Leid · the chunks</summary><table class="ptab">${t.chunks.map(c=>`<tr><td>${esc(c[0])}</td><td class="arr" aria-hidden="true">→</td><td lang="ga"><b>${esc(c[1])}</b></td></tr>`).join('')}</table></details>`:''}
+      <textarea class="input" lang="ga" rows="2" id="lei${k}" data-own="${esc(key)}" spellcheck="false" placeholder="Scríobh as Gaeilge">${esc(ownAns(key))}</textarea>
+      <div><button class="play small" data-act="lecheck" data-k="${k}">Seiceáil · check</button></div>
+      ${r?(r.ok?`<div class="fix"><span class="pen">✓ ${r.fada?'seiceáil na fadaí':'ceart!'}</span><span lang="ga">${esc(t.ga)}</span></div>`:`<div class="fix"><span class="gloss">An freagra ceart · the model answer</span><span lang="ga" style="font-weight:700">${hl(r.typed,t.ga)}</span>${t.alt?`<span class="gloss">nó · or: <span lang="ga">${esc(t.alt)}</span></span>`:''}</div>`):''}</div>`;}).join('')}</div>`;
+}
 function gunitHTML(){
   const u=gt;
-  return `<div class="top"><button class="icon" data-act="gcse" aria-label="Siar. Back to GCSE units">←</button><h1 lang="ga">${esc(u.title)}<span class="sub">${esc(u.en)} · ${esc(u.level)}</span></h1></div>${DRAFT}
+  return `<div class="top"><button class="icon" data-act="gcse" data-t="${trk}" aria-label="Siar. Back to the units">←</button><h1 lang="ga">${esc(u.title)}<span class="sub">${esc(u.en)} · ${esc(u.level)}</span></h1></div>${DRAFT}
     ${spriocHTML(u)}
     <div class="card"><p class="lab">Ceisteanna an scrúdaitheora · the examiner's questions</p>
       <ol class="qchain">${u.questions.map((q,i)=>`<li lang="ga"><button class="btn link" style="padding:0;font-weight:700;color:var(--ink);text-decoration:none;text-align:left" data-act="dq" data-a="${q.audio}">🔊 ${esc(q.ga)}</button><span>${i===0?'An chéad cheist · the first question':'Ceist leantach · a follow-up'}</span></li>`).join('')}</ol></div>
@@ -563,7 +629,8 @@ function gunitHTML(){
     </div>
     ${(u.patterns||[]).map(patternHTML).join('')}
     ${ladderHTML(u)}
-    <div><button class="pill" data-act="deck" data-set="g" data-i="${GC.indexOf(u)}">📺 Don rang · slides for this unit</button></div>`;
+    ${writingHTML(u)}
+    <div><button class="pill" data-act="deck" data-set="${trk}" data-i="${TL().indexOf(u)}">📺 Don rang · slides for this unit</button></div>`;
 }
 function groleHTML(){
   const u=gt,p=rp.p,n=p.tasks.length;
@@ -901,8 +968,13 @@ const A={
   comhra:()=>{hush();view='comhra';render();scrollTo(0,0);},
   copen:el=>{ct={u:C[+el.dataset.i]};view='ctopic';render();scrollTo(0,0);},
   cback:()=>{view='ctopic';render();scrollTo(0,0);},
-  gcse:()=>{hush();view='gcse';render();scrollTo(0,0);},
-  gopenU:el=>{gt=GC[+el.dataset.i];ensurePack(gt);view='gunit';render();scrollTo(0,0);},
+  gcse:el=>{hush();if(el&&el.dataset&&el.dataset.t)trk=el.dataset.t;view='gcse';render();scrollTo(0,0);},
+  gopenU:el=>{gt=TL()[+el.dataset.i];ensurePack(gt);view='gunit';render();scrollTo(0,0);},
+  spreag:()=>{hush();view='spreag';render();scrollTo(0,0);},
+  spopen:el=>{sp=SP[+el.dataset.i];view='sp';render();scrollTo(0,0);},
+  leamh:()=>{hush();view='leamh';render();scrollTo(0,0);},
+  leopen:el=>{le=Object.assign(LE[+el.dataset.i],{res:{}});view='le';render();scrollTo(0,0);},
+  lecheck:el=>{const k=+el.dataset.k,t=le.toIrish[k],typed=($('#lei'+k)||{}).value||'';if(!typed.trim())return;let r=gMatch(typed,t.ga);if(!r.ok&&t.alt){const a=gMatch(typed,t.alt);if(a.ok)r=a;}le.res[k]=Object.assign(r,{typed});const y=scrollY;render();scrollTo(0,y);},
   gunitback:()=>{hush();view='gunit';render();scrollTo(0,0);},
   gpractise:()=>startUnit(gt),
   grole:el=>{const k=+el.dataset.k;rp={k,p:gt.roleplays[k],i:0,shown:false,typed:'',log:[]};ensurePack(gt);view='grole';render();scrollTo(0,0);later(()=>play(rp.p.tasks[0].teacherAudio),300);},
@@ -939,7 +1011,7 @@ const A={
   introNext:()=>{if(introPage<INTRO.length-1){introPage++;render();scrollTo(0,0);}else{try{localStorage.setItem('abair-leat.intro','1');}catch(e){}view='home';render();scrollTo(0,0);}},
   introBack:()=>{if(introPage>0){introPage--;render();}},
   teach:()=>{hush();if(deck){deck.token++;deck.playing=false;}view='teach';render();scrollTo(0,0);},
-  deck:el=>{const u=(el.dataset.set==='c'?C:el.dataset.set==='g'?GC:U)[+el.dataset.i];deck={u,slides:deckSlides(u),page:0,en:true,playing:false,token:0,sel:[],shown:false,step:0};ensurePack(deck.u);view='deck';render();scrollTo(0,0);},
+  deck:el=>{const u=(el.dataset.set==='c'?C:el.dataset.set==='g'?GC:el.dataset.set==='a'?A2:U)[+el.dataset.i];deck={u,slides:deckSlides(u),page:0,en:true,playing:false,token:0,sel:[],shown:false,step:0};ensurePack(deck.u);view='deck';render();scrollTo(0,0);},
   dshow:()=>{const sl=deck.slides[deck.page];if(sl.t==='pattern')deck.shown=true;else if(sl.t==='ladder')deck.step=Math.min(deck.u.ladder.length,(deck.step||1)+1);else if(sl.t==='role'){deck.step=(deck.step||0)+1;const t=sl.p.tasks[deck.step-1];if(t)play(t.audio);}render();},
   dnext:()=>deckGo(deck.page+1),
   dprev:()=>deckGo(deck.page-1),
@@ -968,13 +1040,16 @@ document.addEventListener('keydown',e=>{if(view!=='deck'||e.target.id==='typed')
   if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();deckAdvance();}
   else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();deckGo(deck.page-1);}
   else if(e.key==='e'||e.key==='E'){A.den();}});
-document.addEventListener('input',e=>{const k=e.target.dataset&&e.target.dataset.own;if(k===undefined)return;S.own=S.own||{};S.own[oid(k)]=e.target.value;save();});
+document.addEventListener('input',e=>{const k=e.target.dataset&&e.target.dataset.own;if(k===undefined)return;S.own=S.own||{};S.own[oid(k)]=e.target.value;save();const c=document.querySelector(`[data-wc="${CSS.escape(k)}"]`);if(c)c.textContent=wc(e.target.value)+' focal · words';});
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='typed'&&e.target.tagName!=='TEXTAREA'){e.preventDefault();const b=document.querySelector('[data-act="check"],[data-act="next"],[data-act="gnextItem"],[data-act="lnext"]');if(b)b.click();}});
 Promise.all([fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}),
   fetch('data/packs.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
   fetch('data/grammar.json').then(r=>r.ok?r.json():null).catch(()=>null),
   fetch('data/comhra.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
-  fetch('data/gcse.json').then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([d,pk,gr,cm,gc])=>{U=d;PACKS=pk;G=gr;C=cm||[];GC=gc||[];window.__t={U,C:()=>C,GC:()=>GC,gt:()=>gt,rp:()=>rp,ct:()=>ct,cr:()=>cr,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,gd:()=>gd,gl:()=>gl,canon,hl};
+  fetch('data/gcse.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
+  fetch('data/a2.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
+  fetch('data/spreag.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
+  fetch('data/leamh.json').then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([d,pk,gr,cm,gc,a2,spx,lex])=>{U=d;PACKS=pk;G=gr;C=cm||[];GC=gc||[];A2=a2||[];SP=spx||[];LE=lex||[];window.__t={U,C:()=>C,GC:()=>GC,A2:()=>A2,SP:()=>SP,LE:()=>LE,le:()=>le,trk:()=>trk,gt:()=>gt,rp:()=>rp,ct:()=>ct,cr:()=>cr,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,gd:()=>gd,gl:()=>gl,canon,hl};
     let seen=false;try{seen=!!localStorage.getItem('abair-leat.intro');}catch(e){}
     view=location.hash==='#rang'?'teach':(seen?'home':'intro');render();})
   .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});

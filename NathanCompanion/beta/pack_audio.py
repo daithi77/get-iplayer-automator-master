@@ -2,7 +2,8 @@
 The web page slices the pack back into clips, so the link stays well under its file limit."""
 import json, os
 Y8 = json.load(open('data/units.json')); GC = json.load(open('data/gcse.json')) if os.path.exists('data/gcse.json') else []
-units = Y8 + GC
+A2 = json.load(open('data/a2.json')) if os.path.exists('data/a2.json') else []
+units = Y8 + GC + A2
 index = {}
 missing = []
 for u in units:
@@ -32,5 +33,6 @@ for u in units:
 json.dump(index, open('data/packs.json', 'w'))
 json.dump(Y8, open('data/units.json', 'w'), ensure_ascii=False)
 if GC: json.dump(GC, open('data/gcse.json', 'w'), ensure_ascii=False)
+if A2: json.dump(A2, open('data/a2.json', 'w'), ensure_ascii=False)
 print('read mode until audio is finished:', [u['id'] for u in units if u.get('noAudio')])
 print('missing', len(missing))

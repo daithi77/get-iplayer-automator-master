@@ -206,6 +206,10 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
         case "g4-caitheamh": return "🎮"
         case "g5-siopadoireacht": return "🛍️"
         case "g6-slainte": return "🩺"
+        case "a2-ghaeilge": return "🗣️"
+        case "a2-mean": return "🤖"
+        case "a2-timpeallacht": return "🌍"
+        case "a2-todhchai": return "🧭"
         default: return "💬"
         }
     }

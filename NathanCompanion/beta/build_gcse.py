@@ -1,9 +1,10 @@
 """Turn builders/gcse.json (the GCSE track) into data/gcse.json, in the Year 8 unit shape so the same
 session engine, audio and slides run it, plus the question chain, pattern boxes, ladder and role plays.
 Also writes data/audio_texts_gcse.json: every line Áine records for the track."""
-import json, hashlib, itertools, random, re
+import json, hashlib, itertools, random, re, sys
 random.seed(11)
-d = json.load(open('../builders/gcse.json'))
+SRC, OUT, TXT = (sys.argv[1:4] if len(sys.argv) > 3 else ('../builders/gcse.json', 'data/gcse.json', 'data/audio_texts_gcse.json'))
+d = json.load(open(SRC))
 def aid(t): return hashlib.sha1(t.strip().encode()).hexdigest()[:12]
 def gl(e): return re.sub(r'\s*\([^)]*\)', '', e).strip()
 plain = lambda t: t.replace('[', '').replace(']', '')     # [ ] marks what changes; Áine reads the plain text
@@ -40,7 +41,7 @@ for b in d['builders']:
     units.append({'id': b['id'], 'title': b['title'], 'en': b['en'], 'level': b.get('level', ''), 'teaches': b.get('teaches', ''), 'new': bool(b.get('new')),
                   'questions': [{'ga': q, 'audio': say(q), 'rows': b['qrows'][i]} for i, q in enumerate(b['questions'])],
                   'examples': [{'ga': e, 'audio': say(e)} for e in b['examples']], 'rows': rows,
-                  'sprioc': sprioc, 'patterns': b.get('patterns', []), 'ladder': ladder, 'roleplays': plays, 'extraAudio': extra})
-json.dump(units, open('data/gcse.json', 'w'), ensure_ascii=False)
-json.dump(sorted(audio), open('data/audio_texts_gcse.json', 'w'), ensure_ascii=False)
+                  'sprioc': sprioc, 'patterns': b.get('patterns', []), 'ladder': ladder, 'roleplays': plays, 'writing': b.get('writing', []), 'extraAudio': extra})
+json.dump(units, open(OUT, 'w'), ensure_ascii=False)
+json.dump(sorted(audio), open(TXT, 'w'), ensure_ascii=False)
 print(len(units), 'units', sum(len(r['all']) for u in units for r in u['rows']), 'sentences', len(audio), 'audio texts')

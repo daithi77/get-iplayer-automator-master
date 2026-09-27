@@ -4,6 +4,7 @@ import json, hashlib, base64, subprocess, time, os, urllib.parse, sys
 MAX_HOURS=float(sys.argv[1]) if len(sys.argv)>1 else 4
 texts=json.load(open('data/audio_texts.json'))
 if os.path.exists('data/audio_texts_gcse.json'): texts+=[t for t in json.load(open('data/audio_texts_gcse.json')) if t not in texts]
+if os.path.exists('data/audio_texts_a2.json'): texts+=[t for t in json.load(open('data/audio_texts_a2.json')) if t not in texts]
 def aid(t): return hashlib.sha1(t.strip().encode()).hexdigest()[:12]
 os.makedirs('audio',exist_ok=True)
 start=time.time(); todo=[t for t in texts if not os.path.exists(f'audio/{aid(t)}.mp3')]

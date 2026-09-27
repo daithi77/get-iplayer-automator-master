@@ -12,8 +12,11 @@ shutil.copy(os.path.join(beta, 'data', 'units.json'), res)
 shutil.copy(os.path.join(beta, 'data', 'grammar.json'), res)
 shutil.copy(os.path.join(beta, 'data', 'comhra.json'), res)
 shutil.copy(os.path.join(beta, 'data', 'gcse.json'), res)
+for extra in ('a2.json', 'spreag.json', 'leamh.json'):
+    if os.path.exists(os.path.join(beta, 'data', extra)): shutil.copy(os.path.join(beta, 'data', extra), res)
 shutil.copy(os.path.join(here, '..', 'font', 'MarkingHand-Regular.otf'), res)
 units = json.load(open(os.path.join(beta, 'data', 'units.json'))) + json.load(open(os.path.join(beta, 'data', 'gcse.json')))
+if os.path.exists(os.path.join(beta, 'data', 'a2.json')): units += json.load(open(os.path.join(beta, 'data', 'a2.json')))
 needed = set()
 for u in units:
     for q in u['questions']: needed.add(q['audio'])
