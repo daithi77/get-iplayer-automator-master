@@ -38,6 +38,28 @@ struct HomeView: View {
                             .buttonStyle(.plain)
                         }
                     }
+                    if !store.comhra.isEmpty {
+                        NavigationLink {
+                            ComhraHome()
+                        } label: {
+                            HStack(spacing: 14) {
+                                Text("💬").font(.system(size: 34)).accessibilityHidden(true)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("Comhrá · AS").font(.headline)
+                                    Text("The speaking test conversation: \(store.comhra.count) topics, examiner questions, sentence builders and your own answers.")
+                                        .font(.subheadline)
+                                        .opacity(0.85)
+                                }
+                                Spacer(minLength: 8)
+                                Image(systemName: "chevron.right").accessibilityHidden(true)
+                            }
+                            .foregroundStyle(Theme.columnInk(1))
+                            .padding(16)
+                            .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.fill(1)))
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
                     if let grammar = store.grammar {
                         NavigationLink {
                             GrammarHome(grammar: grammar)

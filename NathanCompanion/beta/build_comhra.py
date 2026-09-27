@@ -3,7 +3,7 @@ in the same shape as the Year 8 units so the same session engine runs them. Text
 import json, hashlib, itertools, random, re
 random.seed(13)
 src = json.load(open('../builders/as-comhra.json'))
-aid = lambda t: hashlib.sha1(t.strip().encode()).hexdigest()[:12]
+aid = lambda t: 'c' + hashlib.sha1(t.strip().encode()).hexdigest()[:11]   # own id space: never matches a Year 8 clip
 gl = lambda e: re.sub(r'\s*\([^)]*\)', '', e).strip()
 def irish(cols):
     s = ' '.join(c['ga'] for c in cols).strip(); s = s[0].upper() + s[1:]

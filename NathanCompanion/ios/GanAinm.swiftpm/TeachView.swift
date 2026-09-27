@@ -37,6 +37,9 @@ struct TeachHome: View {
                         .buttonStyle(.plain)
                     }
                 }
+                if !store.comhra.isEmpty {
+                    ComhraDeckList(units: store.comhra)
+                }
                 if let grammar = store.grammar {
                     GrammarDeckList(grammar: grammar)
                 }
@@ -187,7 +190,7 @@ struct TitleSlide: View {
                             Speaker.shared.play(q.audio)
                         } label: {
                             HStack(spacing: 14) {
-                                Image(systemName: "speaker.wave.2.fill")
+                                Image(systemName: unit.isSilent ? "text.bubble" : "speaker.wave.2.fill")
                                     .foregroundStyle(Theme.columnInk(0))
                                 Text(q.ga)
                                     .font(.system(size: 36 * s, weight: .semibold))
@@ -244,22 +247,24 @@ struct RowSlide: View {
                         .buttonStyle(.borderedProminent)
                         .tint(Theme.columnInk(0))
                         .disabled(row.sentence(picked: picked) == nil)
-                        Button {
-                            if playingAll {
-                                Speaker.shared.stop()
-                                playingAll = false
-                                shown = nil
-                            } else {
-                                playingAll = true
-                                play(from: 0)
+                        if !unit.isSilent {
+                            Button {
+                                if playingAll {
+                                    Speaker.shared.stop()
+                                    playingAll = false
+                                    shown = nil
+                                } else {
+                                    playingAll = true
+                                    play(from: 0)
+                                }
+                            } label: {
+                                Label(playingAll ? "Stad" : "Éist leis na habairtí",
+                                      systemImage: playingAll ? "stop.fill" : "play.fill")
+                                    .font(.system(size: 22 * s, weight: .bold))
                             }
-                        } label: {
-                            Label(playingAll ? "Stad" : "Éist leis na habairtí",
-                                  systemImage: playingAll ? "stop.fill" : "play.fill")
-                                .font(.system(size: 22 * s, weight: .bold))
+                            .buttonStyle(.borderedProminent)
+                            .tint(Theme.ink)
                         }
-                        .buttonStyle(.borderedProminent)
-                        .tint(Theme.ink)
                     }
                     // The sentence being spoken sits above the builder, so it is always on screen.
                     if let sentence = shown {
@@ -380,7 +385,7 @@ struct ExamplesSlide: View {
                             Speaker.shared.play(example.audio)
                         } label: {
                             HStack(alignment: .top, spacing: 14) {
-                                Image(systemName: "speaker.wave.2.fill")
+                                Image(systemName: unit.isSilent ? "text.bubble" : "speaker.wave.2.fill")
                                     .foregroundStyle(Theme.columnInk(1))
                                 Text(example.ga)
                                     .font(.system(size: 34 * s, weight: .semibold))

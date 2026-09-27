@@ -13,7 +13,7 @@ struct SessionView: View {
                     VStack(alignment: .leading, spacing: 16) {
                         Color.clear.frame(height: 0).id("top")
                         if session.step < 4 {
-                            StepHeader(step: session.step)
+                            StepHeader(step: session.step, silent: session.unit.isSilent)
                         }
                         content
                         Color.clear.frame(height: 1).id("bottom")
@@ -75,9 +75,15 @@ struct SessionView: View {
                 .foregroundStyle(Theme.muted)
             switch item.kind {
             case .hearTiles:
-                Text("Éist agus roghnaigh na tíleanna.").font(.title2.weight(.bold))
-                Text("Listen, then tap one tile from each colour.").foregroundStyle(Theme.muted)
-                replayButton(item)
+                if session.unit.isSilent {
+                    Text("Léigh agus roghnaigh na tíleanna.").font(.title2.weight(.bold))
+                    Text("Read it, then tap the tiles that make it, one from each colour.").foregroundStyle(Theme.muted)
+                    promptBox(item.sentence?.ga ?? "")
+                } else {
+                    Text("Éist agus roghnaigh na tíleanna.").font(.title2.weight(.bold))
+                    Text("Listen, then tap one tile from each colour.").foregroundStyle(Theme.muted)
+                    replayButton(item)
+                }
                 BuilderGrid(unit: session.unit, row: row, selected: session.selected, litChunk: litChunk(item)) { chunk, column in
                     session.tap(chunk, column: column)
                 }
@@ -85,7 +91,11 @@ struct SessionView: View {
             case .meaning:
                 Text("Cad é an chiall atá leis?").font(.title2.weight(.bold))
                 Text("What does it mean?").foregroundStyle(Theme.muted)
-                replayButton(item)
+                if session.unit.isSilent {
+                    promptBox(item.sentence?.ga ?? "")
+                } else {
+                    replayButton(item)
+                }
                 meaningChoices(item)
                 if session.outcome != nil, let s = item.sentence {
                     Text(s.ga).font(.headline).id("feedback")
@@ -126,6 +136,15 @@ struct SessionView: View {
     private func litChunk(_ item: Item) -> String? {
         guard let s = item.sentence, let i = speaker.lit, speaker.playing == s.audio, s.chunks.indices.contains(i) else { return nil }
         return s.chunks[i]
+    }
+
+    private func promptBox(_ text: String) -> some View {
+        Text(text)
+            .font(.title3.weight(.bold))
+            .foregroundStyle(Theme.columnInk(0))
+            .padding(14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Theme.fill(0)))
     }
 
     private func replayButton(_ item: Item) -> some View {
@@ -326,6 +345,9 @@ struct SessionView: View {
 
 struct StepHeader: View {
     let step: Int
+    var silent = false
+
+    private var name: (ga: String, en: String) { silent && step == 0 ? ("Léigh", "Read") : Session.steps[step] }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -337,9 +359,9 @@ struct StepHeader: View {
                 }
             }
             HStack(alignment: .firstTextBaseline) {
-                Text(Session.steps[step].ga).font(.title2.weight(.bold))
+                Text(name.ga).font(.title2.weight(.bold))
                 Spacer()
-                Text("\(Session.steps[step].en) · \(step + 1) / 4")
+                Text("\(name.en) · \(step + 1) / 4")
                     .font(.subheadline)
                     .foregroundStyle(Theme.muted)
             }
@@ -363,28 +385,41 @@ struct ListenStep: View {
                 .font(.caption.weight(.bold))
                 .textCase(.uppercase)
                 .foregroundStyle(Theme.muted)
-            Text("Brúigh ar thíl le héisteacht. Tap a tile to hear it. Pick one from each colour to hear your own sentence.")
-                .foregroundStyle(Theme.muted)
+            if unit.isSilent {
+                Text("Léigh na samplaí, ansin roghnaigh tíl as gach dath le d'abairt féin a dhéanamh. Read the examples, then pick one tile from each colour to make your own sentence.")
+                    .foregroundStyle(Theme.muted)
+                ForEach(Array(row.sentences.prefix(3).enumerated()), id: \.offset) { _, s in
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(s.ga).font(.headline)
+                        Text(s.en).font(.subheadline).foregroundStyle(Theme.muted)
+                    }
+                }
+            } else {
+                Text("Brúigh ar thíl le héisteacht. Tap a tile to hear it. Pick one from each colour to hear your own sentence.")
+                    .foregroundStyle(Theme.muted)
+            }
             BuilderGrid(unit: unit, row: row, selected: picked, litChunk: litChunk) { chunk, column in
                 picked = row.toggle(chunk.id, column: column, in: picked)
                 Speaker.shared.play(chunk.id)
             }
             FlowLayout(spacing: 10) {
-                Button {
-                    playRow(row, from: 0)
-                } label: {
-                    Label("Éist leis na habairtí", systemImage: "play.fill")
-                        .font(.headline)
+                if !unit.isSilent {
+                    Button {
+                        playRow(row, from: 0)
+                    } label: {
+                        Label("Éist leis na habairtí", systemImage: "play.fill")
+                            .font(.headline)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Theme.ink)
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(Theme.ink)
                 Button {
                     if let mine = mine {
                         shown = mine
                         Speaker.shared.playSentence(mine, in: unit)
                     }
                 } label: {
-                    Label("Éist le m'abairt", systemImage: "play.fill")
+                    Label(unit.isSilent ? "Taispeáin m'abairt" : "Éist le m'abairt", systemImage: unit.isSilent ? "text.bubble" : "play.fill")
                         .font(.headline)
                 }
                 .buttonStyle(.borderedProminent)

@@ -65,6 +65,17 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
     let questions: [UnitQuestion]
     let examples: [Example]
     let rows: [BuilderRow]
+    /// Conversation topics: what the topic practises, whether it is new (awaiting approval), and whether it has audio yet.
+    let teaches: String?
+    let isNew: Bool?
+    let noAudio: Bool?
+
+    enum CodingKeys: String, CodingKey {
+        case id, title, en, questions, examples, rows, teaches, noAudio
+        case isNew = "new"
+    }
+
+    var isSilent: Bool { noAudio ?? false }
 
     func chunk(_ chunkID: String) -> Chunk? {
         for row in rows {
@@ -117,6 +128,14 @@ final class Store: ObservableObject {
     @Published private(set) var loadError: String?
     /// The AS and A2 grammar track. Nil if grammar.json is missing; the home screen then hides the track.
     let grammar: GrammarData? = GrammarLoader.load()
+    /// The AS conversation topics (Comhrá AS). Empty if comhra.json is missing.
+    let comhra: [BuilderUnit] = {
+        guard let url = Bundle.main.url(forResource: "comhra", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([BuilderUnit].self, from: data)) ?? []
+    }()
+    /// The pupil's own answers to the conversation questions, by question.
+    @Published private(set) var own: [String: String] = [:]
 
     /// Days until a sentence comes round again, by box.
     static let intervals = [0, 1, 2, 4, 8, 16, 32]
@@ -125,6 +144,7 @@ final class Store: ObservableObject {
     private struct Saved: Codable {
         var cards: [String: Card]
         var runs: [String: Int]
+        var own: [String: String]?
     }
 
     init() {
@@ -150,10 +170,11 @@ final class Store: ObservableObject {
               let saved = try? JSONDecoder().decode(Saved.self, from: data) else { return }
         cards = saved.cards
         runs = saved.runs
+        own = saved.own ?? [:]
     }
 
     private func save() {
-        if let data = try? JSONEncoder().encode(Saved(cards: cards, runs: runs)) {
+        if let data = try? JSONEncoder().encode(Saved(cards: cards, runs: runs, own: own)) {
             UserDefaults.standard.set(data, forKey: key)
         }
     }
@@ -167,6 +188,13 @@ final class Store: ObservableObject {
         c.box = ok ? min(c.box + 1, Store.intervals.count - 1) : 0
         c.due = Date().addingTimeInterval(Double(Store.intervals[c.box]) * 86_400)
         cards[audio] = c
+        save()
+    }
+
+    func ownAnswer(_ question: String) -> String { own[question] ?? "" }
+
+    func setOwnAnswer(_ question: String, _ text: String) {
+        own[question] = text
         save()
     }
 
