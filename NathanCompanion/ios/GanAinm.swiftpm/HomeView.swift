@@ -38,6 +38,28 @@ struct HomeView: View {
                             .buttonStyle(.plain)
                         }
                     }
+                    if !store.gcse.isEmpty {
+                        NavigationLink {
+                            GCSEHome()
+                        } label: {
+                            HStack(spacing: 14) {
+                                Text("🎓").font(.system(size: 34)).accessibilityHidden(true)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("GCSE · Bliain 11").font(.headline)
+                                    Text("For pupils starting GCSE: \(store.gcse.count) units with the examiner's questions, sentences to build, a better-answer ladder and role plays.")
+                                        .font(.subheadline)
+                                        .opacity(0.85)
+                                }
+                                Spacer(minLength: 8)
+                                Image(systemName: "chevron.right").accessibilityHidden(true)
+                            }
+                            .foregroundStyle(Theme.columnInk(0))
+                            .padding(16)
+                            .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.fill(0)))
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
                     if !store.comhra.isEmpty {
                         NavigationLink {
                             ComhraHome()

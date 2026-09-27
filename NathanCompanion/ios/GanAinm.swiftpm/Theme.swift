@@ -48,6 +48,49 @@ enum Theme {
     static func columnInk(_ column: Int) -> Color { inks[column % 4] }
 }
 
+/// House marks in the data: [x] marks letters or words that change or are new (red), {x} marks a particle (green).
+/// Both are underlined and bold as well, so colour is never the only signal.
+enum Marking {
+    static func text(_ source: String) -> AttributedString {
+        var out = AttributedString()
+        var buffer = ""
+        var closer: Character? = nil
+        for ch in source {
+            if closer == nil && (ch == "[" || ch == "{") {
+                out += AttributedString(buffer)
+                buffer = ""
+                closer = ch == "[" ? Character("]") : Character("}")
+            } else if let c = closer, ch == c {
+                out += marked(buffer, particle: c == "}")
+                buffer = ""
+                closer = nil
+            } else {
+                buffer.append(ch)
+            }
+        }
+        if let c = closer {
+            out += marked(buffer, particle: c == "}")
+        } else {
+            out += AttributedString(buffer)
+        }
+        return out
+    }
+
+    /// The same text with the marks taken out, for reading aloud and for comparing.
+    static func plain(_ source: String) -> String {
+        source.filter { $0 != "[" && $0 != "]" && $0 != "{" && $0 != "}" }
+    }
+
+    private static func marked(_ text: String, particle: Bool) -> AttributedString {
+        var part = AttributedString(text)
+        let colour: Color = particle ? Theme.good : Theme.pen
+        part.foregroundColor = colour
+        part.underlineStyle = Text.LineStyle.single
+        part.inlinePresentationIntent = .stronglyEmphasized
+        return part
+    }
+}
+
 /// Dáithí's marking hand, bundled as a font and registered at launch.
 enum Pen {
     static let postScriptName = "MarkingHand-Regular"

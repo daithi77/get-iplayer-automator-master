@@ -69,6 +69,66 @@ struct GrammarLink: Codable, Hashable {
     let examples: [String]
 }
 
+/// A learning intention (Sprioc foghlama): what the pupil is learning to do in this unit.
+struct Sprioc: Codable, Hashable {
+    let ga: String
+    let en: String
+    let audio: String?
+}
+
+/// GCSE: a pattern to spot. Each row is a word on its own, then the same word after the change,
+/// with the house marks ([x] changed, {x} particle).
+struct SpotPattern: Codable, Hashable {
+    let title: String
+    let question: String
+    let questionEn: String
+    let rows: [[String]]
+    let rule: String?
+
+    /// The rows as pairs. A row with only one entry shows it on both sides.
+    var pairs: [PatternPair] {
+        rows.map { row in
+            let plain = row.first ?? ""
+            return PatternPair(plain: plain, marked: row.count > 1 ? row[1] : plain)
+        }
+    }
+}
+
+struct PatternPair: Hashable {
+    let plain: String
+    let marked: String
+}
+
+/// GCSE: one rung of the ladder from a basic answer to the best one. New words are marked [x].
+struct LadderRung: Codable, Hashable {
+    let ga: String
+    let en: String
+    let label: String
+    let audio: String
+}
+
+/// GCSE: one exchange in a role play. The teacher speaks, the pupil does the task in English.
+struct RoleTask: Codable, Hashable {
+    let teacher: String
+    let en: String
+    let ga: String
+    /// Another good answer, where there is one.
+    let alt: String?
+    let audio: String
+    let teacherAudio: String
+    /// The question the pupil has not seen in advance.
+    let unexpected: Bool?
+}
+
+struct RolePlay: Codable, Hashable {
+    let title: String
+    let titleEn: String
+    let rubric: String
+    let rubricEn: String
+    let rubricAudio: String?
+    let tasks: [RoleTask]
+}
+
 struct BuilderUnit: Codable, Hashable, Identifiable {
     let id: String
     let title: String
@@ -82,13 +142,29 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
     let noAudio: Bool?
     /// Conversation topics: the grammar sections the topic relies on, with the topic's own sentences as evidence.
     let grammar: [GrammarLink]?
+    /// GCSE units: the year group label, e.g. "GCSE · Bliain 11".
+    let level: String?
+    /// Learning intentions (Year 8 and GCSE units).
+    let sprioc: [Sprioc]?
+    /// GCSE units: patterns to spot, a basic to best ladder, role plays, and clips used only by these.
+    let patterns: [SpotPattern]?
+    let ladder: [LadderRung]?
+    let roleplays: [RolePlay]?
+    let extraAudio: [String]?
 
     enum CodingKeys: String, CodingKey {
         case id, title, en, questions, examples, rows, teaches, noAudio, grammar
+        case level, sprioc, patterns, ladder, roleplays, extraAudio
         case isNew = "new"
     }
 
     var isSilent: Bool { noAudio ?? false }
+
+    /// The English title, with the year group where there is one: "Holidays · GCSE · Bliain 11".
+    var subtitle: String {
+        guard let level = level, !level.isEmpty else { return en }
+        return en + " · " + level
+    }
 
     func chunk(_ chunkID: String) -> Chunk? {
         for row in rows {
@@ -120,6 +196,8 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
         case "b9-laethanta": return "📅"
         case "b0-failte": return "👋"
         case "b10-uimhreacha": return "🔢"
+        case "g1-mefein": return "🙋"
+        case "g2-saoire": return "🏖️"
         default: return "💬"
         }
     }
@@ -147,6 +225,12 @@ final class Store: ObservableObject {
     /// The AS conversation topics (Comhrá AS). Empty if comhra.json is missing.
     let comhra: [BuilderUnit] = {
         guard let url = Bundle.main.url(forResource: "comhra", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([BuilderUnit].self, from: data)) ?? []
+    }()
+    /// The GCSE track (Bliain 11), in the Year 8 unit shape. Empty if gcse.json is missing.
+    let gcse: [BuilderUnit] = {
+        guard let url = Bundle.main.url(forResource: "gcse", withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return [] }
         return (try? JSONDecoder().decode([BuilderUnit].self, from: data)) ?? []
     }()
