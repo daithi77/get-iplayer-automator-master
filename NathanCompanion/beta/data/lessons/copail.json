@@ -1,0 +1,598 @@
+{
+ "id": "copail",
+ "lessons": [
+  {
+   "title": "Is + slí bheatha + é/í",
+   "en": "Saying what job someone does",
+   "rule": "To say what job someone does, put Is first, then the job, then é for a man or í for a woman: Is múinteoir í.",
+   "steps": [
+    "Read the question: aici (at her) tells you it is about a woman.",
+    "Start with Is and add the job: Is réiteoir.",
+    "End with í because she is a woman: Is réiteoir í."
+   ],
+   "example": {
+    "prompt": "Cad é an obair atá aici? (réiteoir)",
+    "answer": "Cad é an obair atá aici? Is réiteoir í."
+   },
+   "more": [
+    {
+     "prompt": "Cad é an obair atá aige? (póilín)",
+     "answer": "Cad é an obair atá aige? Is póilín é."
+    },
+    {
+     "prompt": "Cad é an obair atá aici? (ríomhchláraitheoir)",
+     "answer": "Cad é an obair atá aici? Is ríomhchláraitheoir í."
+    }
+   ],
+   "hint": "Is + job + é for a man, í for a woman.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Cad é an tslí bheatha atá ag Sherlock Holmes?",
+     "answer": "Cad é an tslí bheatha atá ag Sherlock Holmes? Is bleachtaire é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an tslí bheatha atá ag Bob the Builder?",
+     "answer": "Cad é an tslí bheatha atá ag Bob the Builder? Is tógálaí é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an tslí bheatha atá ag Fireman Sam?",
+     "answer": "Cad é an tslí bheatha atá ag Fireman Sam? Is fear dóiteáin é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an tslí bheatha atá ag do dhaid?",
+     "answer": "Cad é an tslí bheatha atá ag do dhaid? Is [slí bheatha] é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an tslí bheatha atá ag do mhamaí?",
+     "answer": "Cad é an tslí bheatha atá ag do mhamaí? Is [slí bheatha] í.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An maith leat ...? Is maith liom",
+   "en": "Answering 'Do you like ...?'",
+   "rule": "Answer An maith leat ...? with the copula, never with tá: Is maith liom for yes, Ní maith liom for no. The question says leat (you), your answer says liom (me).",
+   "steps": [
+    "Read the question: An maith leat rapcheol?",
+    "Choose Is for yes or Ní for no: Is.",
+    "Keep maith and change leat to liom: Is maith liom."
+   ],
+   "example": {
+    "prompt": "An maith leat rapcheol?",
+    "answer": "An maith leat rapcheol? Is maith liom."
+   },
+   "more": [
+    {
+     "prompt": "An maith leat bachlóga Bhruiséile?",
+     "answer": "An maith leat bachlóga Bhruiséile? Ní maith liom."
+    },
+    {
+     "prompt": "An maith leat an físeán sin?",
+     "answer": "An maith leat an físeán sin? Is breá liom."
+    }
+   ],
+   "hint": "Is maith liom (yes) or Ní maith liom (no): leat becomes liom.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "An maith leat ceol traidisiúnta?",
+     "answer": "An maith leat ceol traidisiúnta? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat cispheil?",
+     "answer": "An maith leat cispheil? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat an Ghaeltacht?",
+     "answer": "An maith leat an Ghaeltacht? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat an tIúr?",
+     "answer": "An maith leat an tIúr? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat camógaíocht?",
+     "answer": "An maith leat camógaíocht? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat Snapchat?",
+     "answer": "An maith leat Snapchat? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat Gaeilge?",
+     "answer": "An maith leat Gaeilge? Is maith liom. / Ní maith liom.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "An maith leat snámh?",
+     "answer": "An maith leat snámh? Is maith liom. / Ní maith liom.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Cé acu is fearr leat?",
+   "en": "Choosing between two things",
+   "rule": "To answer Cé acu is fearr leat X nó Y?, say Is fearr liom and name the one you like better.",
+   "steps": [
+    "Find the two choices on each side of nó: rapcheol, popcheol.",
+    "Pick one: rapcheol.",
+    "Start with Is fearr liom and add your choice: Is fearr liom rapcheol."
+   ],
+   "example": {
+    "prompt": "Cé acu is fearr leat rapcheol nó popcheol?",
+    "answer": "Cé acu is fearr leat rapcheol nó popcheol? Is fearr liom rapcheol."
+   },
+   "more": [
+    {
+     "prompt": "Cé acu is fearr leat sacar nó peil?",
+     "answer": "Cé acu is fearr leat sacar nó peil? Is fearr liom peil."
+    }
+   ],
+   "hint": "Is fearr liom + your choice.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat uisce nó líomanáid?",
+     "answer": "Cé acu is fearr leat uisce nó líomanáid? Is fearr liom uisce. / Is fearr liom líomanáid.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat leabhair nó scannáin?",
+     "answer": "Cé acu is fearr leat leabhair nó scannáin? Is fearr liom leabhair. / Is fearr liom scannáin.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat teilifís nó podchraoltaí?",
+     "answer": "Cé acu is fearr leat teilifís nó podchraoltaí? Is fearr liom teilifís. / Is fearr liom podchraoltaí.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat tae nó cócó?",
+     "answer": "Cé acu is fearr leat tae nó cócó? Is fearr liom tae. / Is fearr liom cócó.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat píotsa nó sceallóga?",
+     "answer": "Cé acu is fearr leat píotsa nó sceallóga? Is fearr liom píotsa. / Is fearr liom sceallóga.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat greannáin nó úrscéalta?",
+     "answer": "Cé acu is fearr leat greannáin nó úrscéalta? Is fearr liom greannáin. / Is fearr liom úrscéalta.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat an Aoine nó an Luan?",
+     "answer": "Cé acu is fearr leat an Aoine nó an Luan? Is fearr liom an Aoine. / Is fearr liom an Luan.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat sicín nó iasc?",
+     "answer": "Cé acu is fearr leat sicín nó iasc? Is fearr liom sicín. / Is fearr liom iasc.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat peil nó camógaíocht?",
+     "answer": "Cé acu is fearr leat peil nó camógaíocht? Is fearr liom peil. / Is fearr liom camógaíocht.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cé acu is fearr leat ficheall nó cluichí ríomhaire?",
+     "answer": "Cé acu is fearr leat ficheall nó cluichí ríomhaire? Is fearr liom ficheall. / Is fearr liom cluichí ríomhaire.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Cad é an ... is fearr leat?",
+   "en": "Saying what your favourite is",
+   "rule": "To say your favourite, answer Cad é an ... is fearr leat? with Is fearr liom and the thing you like best.",
+   "steps": [
+    "Find what the question asks about: an spórt (the sport).",
+    "Choose your favourite sport: peil.",
+    "Answer with Is fearr liom and your choice: Is fearr liom peil."
+   ],
+   "example": {
+    "prompt": "Cad é an spórt is fearr leat?",
+    "answer": "Cad é an spórt is fearr leat? Is fearr liom peil."
+   },
+   "more": [
+    {
+     "prompt": "Cad é an t-amhránaí is fearr leat?",
+     "answer": "Cad é an t-amhránaí is fearr leat? Is fearr liom [ainm an amhránaí]."
+    }
+   ],
+   "hint": "Is fearr liom + your favourite.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Cad é an aip is fearr leat?",
+     "answer": "Cad é an aip is fearr leat? Is fearr liom [ainm na haipe].",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an peata is fearr leat?",
+     "answer": "Cad é an peata is fearr leat? Is fearr liom an cat.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an dath is fearr leat?",
+     "answer": "Cad é an dath is fearr leat? Is fearr liom gorm.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an sobalchlár is fearr leat?",
+     "answer": "Cad é an sobalchlár is fearr leat? Is fearr liom [ainm an tsobalchláir].",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an podchraoladh is fearr leat?",
+     "answer": "Cad é an podchraoladh is fearr leat? Is fearr liom [ainm an phodchraolta].",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an cluiche ríomhaire is fearr leat?",
+     "answer": "Cad é an cluiche ríomhaire is fearr leat? Is fearr liom [ainm an chluiche].",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an rang is fearr leat?",
+     "answer": "Cad é an rang is fearr leat? Is fearr liom rang Gaeilge.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an mhilseog is fearr leat?",
+     "answer": "Cad é an mhilseog is fearr leat? Is fearr liom uachtar reoite.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an mhí is fearr leat?",
+     "answer": "Cad é an mhí is fearr leat? Is fearr liom mí Iúil.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é an fhoireann is fearr leat?",
+     "answer": "Cad é an fhoireann is fearr leat? Is fearr liom Ard Mhacha.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Sílim gur ...",
+   "en": "Giving an opinion: Sílim gur",
+   "rule": "After sílim (I think), Is changes to gur: Is feirmeoir é becomes Sílim gur feirmeoir é.",
+   "steps": [
+    "Read the clues and decide on the job: she works in a school and corrects homework, so múinteoir.",
+    "Make the plain sentence: Is múinteoir í.",
+    "Put Sílim in front and change Is to gur: Sílim gur múinteoir í."
+   ],
+   "example": {
+    "prompt": "Oibríonn sí i scoil san Iúr. Ceartaíonn sí obair bhaile ar an ríomhaire glúine.",
+    "answer": "Oibríonn sí i scoil san Iúr. Ceartaíonn sí obair bhaile ar an ríomhaire glúine. Sílim gur múinteoir í."
+   },
+   "more": [
+    {
+     "prompt": "Bíonn sé ag obair ar fheirm faoin tuath. Tiománann sé tarracóir achan lá.",
+     "answer": "Bíonn sé ag obair ar fheirm faoin tuath. Tiománann sé tarracóir achan lá. Sílim gur feirmeoir é."
+    }
+   ],
+   "hint": "Sílim gur + job + é/í.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Oibríonn sí sa bhaile ar an ríomhaire glúine. Scríobhann sí aipeanna don fhón póca.",
+     "answer": "Oibríonn sí sa bhaile ar an ríomhaire glúine. Scríobhann sí aipeanna don fhón póca. Sílim gur ríomhchláraitheoir í.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Bíonn sé ag obair in ospidéal san Iúr. Tugann sé piollaí do dhaoine breoite.",
+     "answer": "Bíonn sé ag obair in ospidéal san Iúr. Tugann sé piollaí do dhaoine breoite. Sílim gur altra é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Amharcann sí ar fhiacla na ndaoine. Deir sí leat do chuid fiacla a scuabadh.",
+     "answer": "Amharcann sí ar fhiacla na ndaoine. Deir sí leat do chuid fiacla a scuabadh. Sílim gur fiaclóir í.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Oibríonn sé i gcaifé i lár an Iúir. Déanann sé caife agus ceapairí do na custaiméirí.",
+     "answer": "Oibríonn sé i gcaifé i lár an Iúir. Déanann sé caife agus ceapairí do na custaiméirí. Sílim gur freastalaí é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Oibríonn sí i mbanc i lár an bhaile. Tugann sí airgead do na custaiméirí.",
+     "answer": "Oibríonn sí i mbanc i lár an bhaile. Tugann sí airgead do na custaiméirí. Sílim gur airgeadóir í.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Éiríonn sé go luath ar maidin. Déanann sé arán agus cácaí.",
+     "answer": "Éiríonn sé go luath ar maidin. Déanann sé arán agus cácaí. Sílim gur báicéir é.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Bíonn sé ag obair le sreanga agus soilse. Cuireann sé an solas ar siúl sa teach nua.",
+     "answer": "Bíonn sé ag obair le sreanga agus soilse. Cuireann sé an solas ar siúl sa teach nua. Sílim gur leictreoir é.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "Nach deas an ... é?",
+   "en": "Exclaiming: Isn't it a lovely ...!",
+   "rule": "Put Nach first, then the adjective, then an + noun, then é (or í if the prompt shows í, for a feminine noun). Answer with Is and the adjective only: Is deas.",
+   "steps": [
+    "Start with Nach and the adjective: Nach deas.",
+    "Add an and the noun: Nach deas an fón.",
+    "End with é, because fón is masculine: Nach deas an fón é?",
+    "Answer with Is and the adjective: Is deas."
+   ],
+   "example": {
+    "prompt": "fón/deas",
+    "answer": "Nach deas an fón é? Is deas."
+   },
+   "more": [
+    {
+     "prompt": "timpiste í/uafásach",
+     "answer": "Nach uafásach an timpiste í? Is uafásach."
+    }
+   ],
+   "hint": "Nach + adjective + an + noun + é/í? Answer: Is + adjective.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "aip í/iontach",
+     "answer": "Nach iontach an aip í? Is iontach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "oíche í/fuar",
+     "answer": "Nach fuar an oíche í? Is fuar."
+    },
+    {
+     "shape": "transform",
+     "prompt": "áit í/ciúin",
+     "answer": "Nach ciúin an áit í? Is ciúin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "físeán/greannmhar",
+     "answer": "Nach greannmhar an físeán é? Is greannmhar."
+    },
+    {
+     "shape": "transform",
+     "prompt": "smaoineamh/maith",
+     "answer": "Nach maith an smaoineamh é? Is maith."
+    },
+    {
+     "shape": "transform",
+     "prompt": "peileadóir/cumasach",
+     "answer": "Nach cumasach an peileadóir é? Is cumasach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "trá í/suaimhneach",
+     "answer": "Nach suaimhneach an trá í? Is suaimhneach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "húdaí/álainn",
+     "answer": "Nach álainn an húdaí é? Is álainn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "sobalchlár/suimiúil",
+     "answer": "Nach suimiúil an sobalchlár é? Is suimiúil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "clár/brónach",
+     "answer": "Nach brónach an clár é? Is brónach."
+    }
+   ]
+  },
+  {
+   "title": "Ba san aimsir chaite",
+   "en": "The past: Ba + séimhiú",
+   "rule": "In the past, use Ba instead of Is, and add h after the first letter of the adjective: mór becomes Ba mhór. Adjectives beginning with l, n, r or sp do not change.",
+   "steps": [
+    "Start with Ba.",
+    "Add h after the first letter of the adjective: cumasach becomes chumasach.",
+    "Add an + noun and é: Ba chumasach an peileadóir é."
+   ],
+   "example": {
+    "prompt": "peileadóir/cumasach",
+    "answer": "Ba chumasach an peileadóir é."
+   },
+   "more": [
+    {
+     "prompt": "podchraoladh/spéisiúil",
+     "answer": "Ba spéisiúil an podchraoladh é."
+    }
+   ],
+   "hint": "Ba + h after the first letter of the adjective.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "rang/leadránach",
+     "answer": "Ba leadránach an rang é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "gasúr/spórtúil",
+     "answer": "Ba spórtúil an gasúr é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "múinteoir/cneasta",
+     "answer": "Ba chneasta an múinteoir é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "bua/mór",
+     "answer": "Ba mhór an bua é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "timpiste í/dona",
+     "answer": "Ba dhona an timpiste í."
+    },
+    {
+     "shape": "transform",
+     "prompt": "traenáil í/crua",
+     "answer": "Ba chrua an traenáil í."
+    }
+   ]
+  },
+  {
+   "title": "B' roimh ghuta",
+   "en": "The past: B' before a vowel",
+   "rule": "If the adjective begins with a vowel, Ba becomes B' and is joined to it: B'iontach.",
+   "steps": [
+    "Check the first letter of the adjective: uafásach begins with a vowel.",
+    "Write B' joined to the adjective: B'uafásach.",
+    "Add an + noun and í, because the prompt shows í: B'uafásach an oíche í."
+   ],
+   "example": {
+    "prompt": "oíche í/uafásach",
+    "answer": "B'uafásach an oíche í."
+   },
+   "more": [
+    {
+     "prompt": "lá/álainn",
+     "answer": "B'álainn an lá é."
+    }
+   ],
+   "hint": "Vowel at the start of the adjective: B' + adjective.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "aip í/amaideach",
+     "answer": "B'amaideach an aip í."
+    },
+    {
+     "shape": "transform",
+     "prompt": "turas/aoibhinn",
+     "answer": "B'aoibhinn an turas é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "cluiche/iontach",
+     "answer": "B'iontach an cluiche é."
+    },
+    {
+     "shape": "transform",
+     "prompt": "scéal/olc",
+     "answer": "B'olc an scéal é."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Is + slí bheatha + é/í",
+   "forms": [
+    "Is dochtúir é",
+    "Is feirmeoir é",
+    "Is múinteoir í",
+    "Is fiaclóir é",
+    "Is poitigéir é",
+    "Is réiteoir é",
+    "Is saighdiúir é",
+    "Is pinsinéir í",
+    "Is rinceoir í"
+   ]
+  },
+  {
+   "title": "Ceist agus freagra (An ... é?)",
+   "forms": [
+    "An múinteoir é? Is ea. / Ní hea.",
+    "An rinceoir í? Is ea. / Ní hea.",
+    "An fiaclóir é? Ní hea. Dochtúir atá ann."
+   ]
+  },
+  {
+   "title": "Ceist agus freagra (gur)",
+   "forms": [
+    "Cad é an obair atá aige? Sílim gur feirmeoir é.",
+    "Cad é an obair atá aige? Ceapaim gur feirmeoir é.",
+    "Cad é an obair atá aige? Measaim gur feirmeoir é."
+   ]
+  },
+  {
+   "title": "le + forainmneacha",
+   "forms": [
+    "liom",
+    "leat",
+    "leis",
+    "léi",
+    "linn",
+    "libh",
+    "leo"
+   ]
+  },
+  {
+   "title": "Freagraí ar An maith leat ...?",
+   "forms": [
+    "An maith leat popcheol? Is maith liom.",
+    "An maith leat an t-amhrán sin? Is maith liom. / Is aoibhinn liom. / Is breá liom.",
+    "An maith leat tae milis? Ní maith liom. / Is fuath liom. / Is gráin liom."
+   ]
+  },
+  {
+   "title": "Cé leis? (úinéireacht)",
+   "forms": [
+    "Cé leis an peann? Is liomsa é.",
+    "An leatsa é? Ní liomsa é.",
+    "Cé leis é? Níl a fhios agam ach sílim gur le Pól é."
+   ]
+  }
+ ]
+}

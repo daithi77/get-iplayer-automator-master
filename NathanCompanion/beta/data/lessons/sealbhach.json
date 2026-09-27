@@ -1,0 +1,307 @@
+{
+ "id": "sealbhach",
+ "lessons": [
+  {
+   "title": "Mo, do, a (sé): séimhiú",
+   "en": "My, your, his: add h",
+   "rule": "After mo (my), do (your) and a (his), add h after the first letter of the noun: mo theach, do chóta, a bhróga. Nouns beginning with l, n or r do not change.",
+   "steps": [
+    "Find the word before the brackets: mo (my).",
+    "Add h after the first letter of the noun: guthán becomes ghuthán.",
+    "Write the sentence: Seo é mo ghuthán."
+   ],
+   "example": {
+    "prompt": "Seo é mo (guthán).",
+    "answer": "Seo é mo ghuthán."
+   },
+   "more": [
+    {
+     "prompt": "D'ith sé a (ceapaire) ar an bhus.",
+     "answer": "D'ith sé a cheapaire ar an bhus."
+    },
+    {
+     "prompt": "Cá bhfuil do (geansaí), a Chiara?",
+     "answer": "Cá bhfuil do gheansaí, a Chiara?"
+    }
+   ],
+   "hint": "mo, do, a (his): add h after the first letter.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "D'ól Pól a (cuid) uisce ag an chluiche.",
+     "answer": "D'ól Pól a chuid uisce ag an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dhruid mé mo (cóipleabhar) nuair a bhuail an clog.",
+     "answer": "Dhruid mé mo chóipleabhar nuair a bhuail an clog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar ith tú do (bricfeasta) go fóill, a Chiaráin?",
+     "answer": "Ar ith tú do bhricfeasta go fóill, a Chiaráin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níor chuala sé a (fón) ag bualadh.",
+     "answer": "Níor chuala sé a fhón ag bualadh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cuir do (lámh) in airde, le do thoil.",
+     "answer": "Cuir do lámh in airde, le do thoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar chaill tú mo (cárta) bus, a Sheáin?",
+     "answer": "Ar chaill tú mo chárta bus, a Sheáin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil mo (madadh)?",
+     "answer": "Cá bhfuil mo mhadadh?"
+    }
+   ]
+  },
+  {
+   "title": "M' agus d' roimh ghuta",
+   "en": "My and your before a vowel",
+   "rule": "Before a vowel, mo becomes m' and do becomes d', joined to the noun: m'uncail, d'athair. A noun beginning with f first takes h, then counts as a vowel: m'fhón, d'fhoirm.",
+   "steps": [
+    "Add h after the f, as after any mo: fón becomes fhón.",
+    "fh makes no sound, so the word now begins with a vowel sound: mo becomes m'.",
+    "Join them and write the sentence: Seo é m'fhón póca."
+   ],
+   "example": {
+    "prompt": "Seo é (mo fón) póca.",
+    "answer": "Seo é m'fhón póca."
+   },
+   "more": [
+    {
+     "prompt": "Chonaic mé (do athair) ag an stad bus, a Liam.",
+     "answer": "Chonaic mé d'athair ag an stad bus, a Liam."
+    }
+   ],
+   "hint": "Vowel or fh next: m' and d', no space.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tháinig (mo uncail) abhaile as Meiriceá ar na mallaibh.",
+     "answer": "Tháinig m'uncail abhaile as Meiriceá ar na mallaibh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill mé (mo eochair) ar an bhus inné.",
+     "answer": "Chaill mé m'eochair ar an bhus inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar líon tú (do foirm) isteach, a Mháire?",
+     "answer": "Ar líon tú d'fhoirm isteach, a Mháire?"
+    }
+   ]
+  },
+  {
+   "title": "A (sí): h roimh ghuta",
+   "en": "Her: h before a vowel",
+   "rule": "After a meaning her, a consonant does not change (a cara), but a vowel takes h in front (a haintín). The same goes for lena (with her): lena haintín.",
+   "steps": [
+    "Check whose it is: Síle's, so a means her.",
+    "Look at the first letter: uaireadóir begins with a vowel, so put h in front: huaireadóir.",
+    "Write the sentence: Bhris Síle a huaireadóir ag an chamógaíocht."
+   ],
+   "example": {
+    "prompt": "Bhris Síle a (uaireadóir) ag an chamógaíocht.",
+    "answer": "Bhris Síle a huaireadóir ag an chamógaíocht."
+   },
+   "more": [
+    {
+     "prompt": "Chonaic Nóra a (cara) ar an bhus ar maidin.",
+     "answer": "Chonaic Nóra a cara ar an bhus ar maidin."
+    }
+   ],
+   "hint": "Her: a consonant stays the same, a vowel takes h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chaill Síle a (cóta) agus a (geansaí) ag an traenáil.",
+     "answer": "Chaill Síle a cóta agus a geansaí ag an traenáil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh sí chuig an chluiche camógaíochta lena (cairde).",
+     "answer": "Chuaigh sí chuig an chluiche camógaíochta lena cairde."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chuaigh Bríd go Dún na nGall lena (aintín) an samhradh seo caite.",
+     "answer": "Chuaigh Bríd go Dún na nGall lena haintín an samhradh seo caite."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaill sí a (éide) scoile agus bhí imní uirthi.",
+     "answer": "Chaill sí a héide scoile agus bhí imní uirthi."
+    }
+   ]
+  },
+  {
+   "title": "Ár, bhur, a (siad): urú",
+   "en": "Our, your (plural), their: eclipsis",
+   "rule": "After ár (our), bhur (your, plural) and a (their), eclipse the noun: mb, gc, nd, bhf, ng, bp, dt, and n- before a vowel. Nouns beginning with l, m, n, r or s do not change.",
+   "steps": [
+    "Find the word before the brackets: bhur (your, plural).",
+    "Eclipse the first letter: t takes d in front, so ticéid becomes dticéid.",
+    "Write the sentence: Cá bhfuil bhur dticéid, a pháistí?"
+   ],
+   "example": {
+    "prompt": "Cá bhfuil bhur (ticéid), a pháistí?",
+    "answer": "Cá bhfuil bhur dticéid, a pháistí?"
+   },
+   "more": [
+    {
+     "prompt": "Tá ár (aintín) ag obair in Iúr Cinn Trá.",
+     "answer": "Tá ár n-aintín ag obair in Iúr Cinn Trá."
+    },
+    {
+     "prompt": "Chuir siad a (cluasáin) orthu ar an bhus.",
+     "answer": "Chuir siad a gcluasáin orthu ar an bhus."
+    }
+   ],
+   "hint": "More than one owner: eclipse the noun, or n- before a vowel.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Chuir siad a (bróga) reatha agus a (stocaí) orthu don traenáil.",
+     "answer": "Chuir siad a mbróga reatha agus a stocaí orthu don traenáil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí ár (dóthain) le déanamh againn i ndiaidh na scoile.",
+     "answer": "Bhí ár ndóthain le déanamh againn i ndiaidh na scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá bhfuil bhur (uncail), a pháistí?",
+     "answer": "Cá bhfuil bhur n-uncail, a pháistí?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá ár (múinteoir) ag scríobh ar an chlár fógraí.",
+     "answer": "Tá ár múinteoir ag scríobh ar an chlár fógraí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Glanann muid ár (carr) achan deireadh seachtaine.",
+     "answer": "Glanann muid ár gcarr achan deireadh seachtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'oscail siad a (boscaí) lóin sa chlós.",
+     "answer": "D'oscail siad a mboscaí lóin sa chlós."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ar thug sibh bhur (foirmeacha) dom, a pháistí?",
+     "answer": "Ar thug sibh bhur bhfoirmeacha dom, a pháistí?"
+    }
+   ]
+  },
+  {
+   "title": "I mo chónaí, ina shuí",
+   "en": "Saying where or how someone is: i mo chónaí",
+   "rule": "To say someone lives somewhere or is sitting, standing, lying, asleep, awake or silent, use tá + i mo, i do, ina, inár or in bhur + the state word (cónaí, suí, seasamh, luí, codladh, dúiseacht, tost). Then change the state word as after the possessive: ina shuí (his), ina suí (her), ina gcodladh (their).",
+   "steps": [
+    "Find the person: sé (he), so ina means his.",
+    "After his, add h after the first letter: suí becomes shuí.",
+    "Write the sentence: Tá sé ina shuí ar an bhus."
+   ],
+   "example": {
+    "prompt": "Tá sé ina (suí) ar an bhus.",
+    "answer": "Tá sé ina shuí ar an bhus."
+   },
+   "more": [
+    {
+     "prompt": "Tá siad ina (codladh) go fóill ar maidin Dé Sathairn.",
+     "answer": "Tá siad ina gcodladh go fóill ar maidin Dé Sathairn."
+    },
+    {
+     "prompt": "Tá sí ina (cónaí) i nGaoth Dobhair.",
+     "answer": "Tá sí ina cónaí i nGaoth Dobhair."
+    }
+   ],
+   "hint": "i + possessive + state word, then the usual h, h before a vowel or eclipsis.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá sí ina (suí) ar an bhus scoile.",
+     "answer": "Tá sí ina suí ar an bhus scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí siad ina (luí) sa ghairdín faoin ghrian.",
+     "answer": "Bhí siad ina luí sa ghairdín faoin ghrian."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá muid inár (dúiseacht) ó a seacht a chlog.",
+     "answer": "Tá muid inár ndúiseacht ó a seacht a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad chuige nach bhfuil sibh in bhur (codladh)? Tá scoil ann amárach.",
+     "answer": "Cad chuige nach bhfuil sibh in bhur gcodladh? Tá scoil ann amárach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl Siobhán ina (seasamh) ag an stad bus anois, tá sí ina (suí) ar an bhus.",
+     "answer": "Níl Siobhán ina seasamh ag an stad bus anois, tá sí ina suí ar an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "D'fhan mé i mo (tost) nuair a bhuail m'fhón sa rang.",
+     "answer": "D'fhan mé i mo thost nuair a bhuail m'fhón sa rang."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "An aidiacht shealbhach: uatha agus iolra",
+   "forms": [
+    "Uatha",
+    "(mé): mo, séimhiú",
+    "(tú): do, séimhiú",
+    "(sé): a, séimhiú",
+    "(sí): a, h roimh ghuta",
+    "Iolra",
+    "(muid): ár, urú",
+    "(sibh): bhur, urú",
+    "(siad): a, urú"
+   ]
+  },
+  {
+   "title": "Cónaí leis an aidiacht shealbhach",
+   "forms": [
+    "Tá mé i mo chónaí i mBaile Átha Cliath.",
+    "Tá tú i do chónaí i mBaile Átha Cliath.",
+    "Tá sé ina chónaí i mBaile Átha Cliath.",
+    "Tá sí ina cónaí i mBaile Átha Cliath.",
+    "Tá muid inár gcónaí i mBaile Átha Cliath.",
+    "Tá sibh in bhur gcónaí i mBaile Átha Cliath.",
+    "Tá siad ina gcónaí i mBaile Átha Cliath."
+   ]
+  },
+  {
+   "title": "Staideanna: cónaí, dúiseacht, suí, seasamh, tost, luí, codladh",
+   "forms": [
+    "Tá mé i mo sheasamh.",
+    "Tá tú i do thost.",
+    "Tá sé ina shuí.",
+    "Tá sí ina dúiseacht.",
+    "Tá muid inár dtost.",
+    "Tá sibh i bhur luí.",
+    "Tá siad ina ndúiseacht."
+   ]
+  }
+ ]
+}
