@@ -41,7 +41,7 @@ for b in d['builders']:
         rows.append({'label':r['label'],'columns':cols,'sentences':sents,'all':every,'total':len(combos)})
     for e in b['examples']: audio.add(e)
     for q in b['questions']: audio.add(q)
-    units.append({'id':b['id'],'title':b['title'],'en':b['en'],'questions':[{'ga':q,'audio':aid(q),'rows':QROWS[b['id']][qi]} for qi,q in enumerate(b['questions'])],
+    units.append({'id':b['id'],'title':b['title'],'en':b['en'],'questions':[{'ga':q,'audio':aid(q),'rows':(b.get('qrows') or QROWS[b['id']])[qi]} for qi,q in enumerate(b['questions'])],
                   'examples':[{'ga':e,'audio':aid(e)} for e in b['examples']],'rows':rows,
                   'sprioc':[dict(x,audio=aid(x['ga'])) for x in b.get('sprioc',[])],'new':bool(b.get('new'))})
     for x in b.get('sprioc',[]): audio.add(x['ga'])

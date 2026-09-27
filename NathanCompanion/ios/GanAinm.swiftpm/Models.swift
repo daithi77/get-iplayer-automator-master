@@ -198,6 +198,14 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
         case "b10-uimhreacha": return "🔢"
         case "g1-mefein": return "🙋"
         case "g2-saoire": return "🏖️"
+        case "b11-seomra": return "✏️"
+        case "b12-dathanna": return "🎨"
+        case "b13-corp": return "👀"
+        case "b14-teach": return "🛋️"
+        case "g3-ceantar": return "🏘️"
+        case "g4-caitheamh": return "🎮"
+        case "g5-siopadoireacht": return "🛍️"
+        case "g6-slainte": return "🩺"
         default: return "💬"
         }
     }
