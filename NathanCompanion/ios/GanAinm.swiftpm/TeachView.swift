@@ -201,6 +201,11 @@ struct TitleSlide: View {
                         }
                         .buttonStyle(.plain)
                     }
+                    if let links = unit.grammar, !links.isEmpty {
+                        Text("Gramadach · grammar: " + links.map(\.title).joined(separator: " · "))
+                            .font(.system(size: 24 * s, weight: .semibold))
+                            .foregroundStyle(Theme.muted)
+                    }
                 }
                 .padding(40 * s)
                 .padding(.bottom, 40)

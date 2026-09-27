@@ -229,6 +229,11 @@ struct GrammarDeck: View {
                 Text(section.en).font(.system(size: 30 * s)).foregroundStyle(Theme.muted)
             }
             heading(section.hasLessons ? "Riail · Sampla · Cleachtadh" : "Patrún · Riail · Cleachtadh", s)
+            if let links = section.comhra, !links.isEmpty {
+                Text("Sa Chomhrá · in the speaking test: " + links.map(\.title).joined(separator: " · "))
+                    .font(.system(size: 24 * s, weight: .semibold))
+                    .foregroundStyle(Theme.muted)
+            }
             DraftBanner()
         case .contents(let lessons):
             heading("Na ceachtanna", s)

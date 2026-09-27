@@ -56,6 +56,32 @@ struct ComhraHome: View {
     }
 }
 
+/// One link card: a title, a line of detail, and sentences showing the grammar in use.
+struct LinkCard: View {
+    let title: String
+    let detail: String
+    let examples: [String]
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title).font(.headline).foregroundStyle(Theme.ink)
+                Text(detail).font(.subheadline).foregroundStyle(Theme.muted)
+                ForEach(Array(examples.enumerated()), id: \.offset) { _, e in
+                    Text(e).font(.subheadline).italic().foregroundStyle(Theme.ink)
+                }
+            }
+            Spacer(minLength: 8)
+            Image(systemName: "chevron.right").foregroundStyle(Theme.columnInk(0)).accessibilityHidden(true)
+        }
+        .padding(14)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(Theme.ground))
+        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Theme.rule))
+        .contentShape(Rectangle())
+    }
+}
+
 struct ComhraTopic: View {
     @EnvironmentObject private var store: Store
     let unit: BuilderUnit
@@ -84,6 +110,24 @@ struct ComhraTopic: View {
                                 Text(q.ga).font(.headline)
                                 Text(i == 0 ? "An phríomhcheist · the main question" : "Ceist leantach · a follow-up")
                                     .font(.caption).foregroundStyle(Theme.muted)
+                            }
+                        }
+                    }
+                }
+                if let links = unit.grammar, !links.isEmpty, let grammar = store.grammar {
+                    Panel {
+                        Text("Gramadach an topaic seo · the grammar this topic uses")
+                            .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted)
+                        ForEach(Array(links.enumerated()), id: \.offset) { _, link in
+                            if let section = grammar.sections[link.id], section.hasLessons {
+                                NavigationLink {
+                                    LessonList(section: section, recommended: link.lesson)
+                                } label: {
+                                    LinkCard(title: link.title,
+                                             detail: link.lessonTitle.map { "\(link.whyEn) · ceacht: \($0)" } ?? link.whyEn,
+                                             examples: link.examples)
+                                }
+                                .buttonStyle(.plain)
                             }
                         }
                     }

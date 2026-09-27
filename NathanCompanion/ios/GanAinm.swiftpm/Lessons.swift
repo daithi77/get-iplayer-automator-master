@@ -154,6 +154,8 @@ final class LessonSession: ObservableObject, Identifiable {
 struct LessonList: View {
     @EnvironmentObject private var store: Store
     let section: GrammarSection
+    /// The lesson a conversation topic points to, marked "for your topic".
+    var recommended: Int? = nil
     @State private var active: LessonSession?
     /// The lesson to open once the current one has finished closing.
     @State private var pendingNext: Int?
@@ -177,6 +179,13 @@ struct LessonList: View {
                                 .foregroundStyle(Theme.columnInk(0))
                             VStack(alignment: .leading, spacing: 3) {
                                 Text(lesson.title).font(.headline).foregroundStyle(Theme.ink)
+                                if recommended == i {
+                                    Text("don topaic · for your topic")
+                                        .font(.caption.weight(.bold))
+                                        .padding(.horizontal, 8).padding(.vertical, 2)
+                                        .background(Capsule().fill(Theme.fill(1)))
+                                        .foregroundStyle(Theme.columnInk(1))
+                                }
                                 Text(lesson.en).font(.subheadline).foregroundStyle(Theme.muted)
                                 ProgressView(value: progress(lesson)).tint(Theme.good)
                             }
@@ -185,10 +194,25 @@ struct LessonList: View {
                         }
                         .padding(14)
                         .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(Theme.surface))
-                        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Theme.rule))
+                        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous)
+                            .strokeBorder(recommended == i ? Theme.columnInk(1) : Theme.rule, lineWidth: recommended == i ? 2 : 1))
                         .contentShape(Rectangle())
                     }
                     .buttonStyle(.plain)
+                }
+                if let links = section.comhra, !links.isEmpty {
+                    Text("Sa Chomhrá · where you use this in the speaking test")
+                        .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted).padding(.top, 8)
+                    ForEach(Array(links.enumerated()), id: \.offset) { _, link in
+                        if let unit = store.comhra.first(where: { $0.id == link.id }) {
+                            NavigationLink {
+                                ComhraTopic(unit: unit)
+                            } label: {
+                                LinkCard(title: link.title, detail: link.en, examples: link.example.isEmpty ? [] : [link.example])
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
                 }
                 if !section.tables.isEmpty {
                     Text("Táblaí · tables for reference")

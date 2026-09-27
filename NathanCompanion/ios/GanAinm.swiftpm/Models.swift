@@ -58,6 +58,17 @@ struct Example: Codable, Hashable {
     let audio: String
 }
 
+/// A link from a conversation topic to a grammar section (and the lesson that matters most, if any).
+struct GrammarLink: Codable, Hashable {
+    let id: String
+    let title: String
+    let why: String
+    let whyEn: String
+    let lesson: Int?
+    let lessonTitle: String?
+    let examples: [String]
+}
+
 struct BuilderUnit: Codable, Hashable, Identifiable {
     let id: String
     let title: String
@@ -69,9 +80,11 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
     let teaches: String?
     let isNew: Bool?
     let noAudio: Bool?
+    /// Conversation topics: the grammar sections the topic relies on, with the topic's own sentences as evidence.
+    let grammar: [GrammarLink]?
 
     enum CodingKeys: String, CodingKey {
-        case id, title, en, questions, examples, rows, teaches, noAudio
+        case id, title, en, questions, examples, rows, teaches, noAudio, grammar
         case isNew = "new"
     }
 

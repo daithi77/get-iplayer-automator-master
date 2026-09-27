@@ -68,6 +68,13 @@ struct GrammarItem: Codable, Hashable {
     }
 }
 
+struct ComhraLink: Codable, Hashable {
+    let id: String
+    let title: String
+    let en: String
+    let example: String
+}
+
 struct GrammarSection: Codable, Hashable, Identifiable {
     let id: String
     let title: String
@@ -78,6 +85,8 @@ struct GrammarSection: Codable, Hashable, Identifiable {
     let items: [GrammarItem]
     /// Walk-through lessons. When present, the section is taught lesson by lesson.
     let lessons: [GrammarLesson]?
+    /// The conversation topics that use this grammar, each with one of its sentences.
+    let comhra: [ComhraLink]?
 
     var hasLessons: Bool { !(lessons ?? []).isEmpty }
 }

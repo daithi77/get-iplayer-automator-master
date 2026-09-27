@@ -154,6 +154,9 @@ mark.chg{background:var(--hi);color:inherit;border-radius:4px;padding:0 3px}
 .newbadge{display:inline-block;font-size:12px;font-weight:700;background:var(--k2);color:var(--k2i);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
 .qchain{margin:0;padding-left:1.4em;display:flex;flex-direction:column;gap:8px;font-size:18px;font-weight:700}
 .qchain li span{display:block;font-size:13px;font-weight:400;color:var(--muted)}
+.gsec .ex{display:block;font-size:14px;font-style:italic;color:var(--ink);margin-top:4px}
+.lesson.rec{border:2px solid var(--k1i)}
+.recbadge{display:inline-block;font-size:12px;font-weight:700;background:var(--k1);color:var(--k1i);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
 textarea.input{min-height:120px;resize:vertical;line-height:1.45}
 </style>
 
@@ -456,6 +459,8 @@ function ctopicHTML(){
     ${u.new?`<p class="draft">Topaic nua, le ceadú. A new topic, awaiting approval.</p>`:''}
     <div class="card"><p class="lab">Ceisteanna an scrúdaitheora · the examiner's questions</p>
       <ol class="qchain">${u.questions.map((q,i)=>`<li lang="ga">${esc(q.ga)}<span>${i===0?'An phríomhcheist · the main question':'Ceist leantach · a follow-up'}</span></li>`).join('')}</ol></div>
+    ${(u.grammar||[]).length?`<div class="card"><p class="lab">Gramadach an topaic seo · the grammar this topic uses</p>
+      ${u.grammar.map((g,k)=>`<button class="gsec" data-act="glink" data-k="${k}"><span class="t"><b lang="ga">${esc(g.title)}</b><span class="s">${esc(g.whyEn)}${g.lessonTitle?` · ceacht: <span lang="ga">${esc(g.lessonTitle)}</span>`:''}</span>${g.examples.map(e=>`<span class="ex" lang="ga">${esc(e)}</span>`).join('')}</span><span class="go">→</span></button>`).join('')}</div>`:''}
     <div class="card"><p class="lab">Freagraí samplacha · model answers</p>
       ${u.examples.map((e,i)=>`<details class="rule"${i===0?' open':''}><summary lang="ga">Freagra samplach ${i+1}</summary><p lang="ga">${esc(e.ga)}</p></details>`).join('')}</div>
     <div class="units">
@@ -507,9 +512,12 @@ const lProgress=l=>{if(!l.items.length)return 0;return Math.round(100*l.items.fi
 /* The other correct form (synthetic or analytic) where both exist, e.g. in the conditional. */
 const altHTML=x=>x&&x.alt?`<span class="gloss" lang="ga">Nó · or: <b>${esc(x.alt)}</b></span>`:'';
 function lessonListHTML(sec){
-  return `<div class="top"><button class="icon" data-act="gram" aria-label="Siar go dtí an ghramadach. Back to grammar">←</button><h1 lang="ga">${esc(sec.title)}<span class="sub">${esc(sec.en)}</span></h1></div>${DRAFT}
+  const back=gl.from==='topic'?'<button class="icon" data-act="cback" aria-label="Siar go dtí an topaic. Back to the topic">←</button>':'<button class="icon" data-act="gram" aria-label="Siar go dtí an ghramadach. Back to grammar">←</button>';
+  return `<div class="top">${back}<h1 lang="ga">${esc(sec.title)}<span class="sub">${esc(sec.en)}</span></h1></div>${DRAFT}
     <p class="lede">${sec.lessons.length} ceacht. ${sec.lessons.length} lessons: work through them in order.</p>
-    ${sec.lessons.map((l,i)=>`<button class="lesson" data-act="lopen" data-i="${i}"><span class="n">${i+1}</span><span class="t"><b lang="ga">${esc(l.title)}</b><span class="s">${esc(l.en)}</span><span class="bar"><i style="width:${lProgress(l)}%"></i></span></span><span class="go">→</span></button>`).join('')}
+    ${sec.lessons.map((l,i)=>`<button class="lesson${gl.rec===i?' rec':''}" data-act="lopen" data-i="${i}"><span class="n">${i+1}</span><span class="t"><b lang="ga">${esc(l.title)}${gl.rec===i?'<span class="recbadge">don topaic · for your topic</span>':''}</b><span class="s">${esc(l.en)}</span><span class="bar"><i style="width:${lProgress(l)}%"></i></span></span><span class="go">→</span></button>`).join('')}
+    ${(sec.comhra||[]).length?`<div class="card"><p class="lab">Sa Chomhrá · where you use this in the speaking test</p>
+      ${sec.comhra.map(c=>`<button class="gsec" data-act="ctopic" data-id="${c.id}"><span class="t"><b lang="ga">${esc(c.title)}</b><span class="s">${esc(c.en)}</span>${c.example?`<span class="ex" lang="ga">${esc(c.example)}</span>`:''}</span><span class="go">→</span></button>`).join('')}</div>`:''}
     ${sec.tables.length?`<div class="card"><p class="lab">Táblaí · tables for reference</p>${sec.tables.map(t=>`<details class="table"><summary lang="ga">${esc(t.title)}</summary><ul lang="ga">${t.forms.map(f=>`<li>${esc(f)}</li>`).join('')}</ul></details>`).join('')}</div>`:''}
     <div><button class="pill" data-act="gdeck" data-id="${sec.id}">📺 Don rang · slides for this section</button></div>`;
 }
@@ -586,7 +594,7 @@ function gSlides(sec){
 }
 function gdeckHTML(){
   const x=gd.sec,n=gd.slides.length,p=gd.page,sl=gd.slides[p];let inner='';
-  if(sl.t==='title') inner=`<h2 lang="ga">${esc(x.title)}</h2><p class="lbl en">${esc(x.en)}</p><p class="pen h">${x.lessons&&x.lessons.length?'Riail · Sampla · Cleachtadh':'Patrún · Riail · Cleachtadh'}</p>${DRAFT}`;
+  if(sl.t==='title') inner=`<h2 lang="ga">${esc(x.title)}</h2><p class="lbl en">${esc(x.en)}</p><p class="pen h">${x.lessons&&x.lessons.length?'Riail · Sampla · Cleachtadh':'Patrún · Riail · Cleachtadh'}</p>${(x.comhra||[]).length?`<p class="lbl">Sa Chomhrá · in the speaking test: <span lang="ga" style="color:var(--ink)">${x.comhra.map(c=>esc(c.title)).join(' · ')}</span></p>`:''}${DRAFT}`;
   else if(sl.t==='contents') inner=`<p class="pen h">Na ceachtanna</p>${x.lessons.map((l,i)=>`<button class="q" data-act="gdjump" data-i="${i}" lang="ga">${i+1}. ${esc(l.title)} <span class="en" style="font-weight:400;color:var(--muted)">· ${esc(l.en)}</span></button>`).join('')}`;
   else if(sl.t==='lrule') inner=`<p class="pen h">Riail ${sl.i+1}</p><h2 lang="ga" style="font-size:clamp(26px,3.4vw,52px)">${esc(sl.l.title)}</h2><p class="ruletext">${esc(sl.l.rule)}</p><ol class="ruletext" style="padding-left:1.3em">${sl.l.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`;
   else if(sl.t==='pattern') inner=`<p class="pen h">Patrún</p><p class="lbl">Cad é atá cosúil eatarthu? <span class="en">What do they have in common?</span></p>${sl.models.map(m=>`<p class="model" lang="ga">${esc(m.ga)}${m.cue?`<span class="cue en">${esc(m.cue)}</span>`:''}</p>`).join('')}`;
@@ -611,7 +619,8 @@ function deckHTML(){
   let inner='';
   if(p===0){
     inner=`<div style="display:flex;gap:20px;align-items:center"><span style="font-size:clamp(56px,8vw,110px)" aria-hidden="true">${EM[u.id]||'💬'}</span><div><h2 lang="ga">${esc(u.title)}</h2><p class="lbl en">${esc(u.en)}</p></div></div>
-      <p class="pen h">Ceisteanna</p>${u.questions.map(q=>`<button class="q" data-act="dq" data-a="${q.audio}" lang="ga">${u.noAudio?'':'🔊 '}<span>${esc(q.ga)}</span></button>`).join('')}`;
+      <p class="pen h">Ceisteanna</p>${u.questions.map(q=>`<button class="q" data-act="dq" data-a="${q.audio}" lang="ga">${u.noAudio?'':'🔊 '}<span>${esc(q.ga)}</span></button>`).join('')}
+      ${(u.grammar||[]).length?`<p class="lbl">Gramadach · grammar: <span lang="ga" style="color:var(--ink)">${u.grammar.map(g=>esc(g.title)).join(' · ')}</span></p>`:''}`;
   }else if(p<=u.rows.length){
     const r=u.rows[p-1],widest=Math.max(...r.columns.map(c=>c.length));
     const ts=widest>4?'clamp(15px,1.7vw,30px)':'clamp(18px,2.4vw,40px)';
@@ -713,6 +722,9 @@ const A={
   comhra:()=>{hush();view='comhra';render();scrollTo(0,0);},
   copen:el=>{ct={u:C[+el.dataset.i]};view='ctopic';render();scrollTo(0,0);},
   cback:()=>{view='ctopic';render();scrollTo(0,0);},
+  glink:el=>{const g=ct.u.grammar[+el.dataset.k];const sec=G&&G.sections[g.id];if(!sec)return;
+    if(sec.lessons&&sec.lessons.length){gl={sec,from:'topic',rec:g.lesson};view='glist';render();scrollTo(0,0);}else gOpen(g.id);},
+  ctopic:el=>{const u=C.find(x=>x.id===el.dataset.id);if(!u)return;ct={u};view='ctopic';render();scrollTo(0,0);},
   cpractise:()=>startUnit(ct.u),
   cown:()=>{view='cown';render();scrollTo(0,0);},
   crecall:()=>cStartRecall(),

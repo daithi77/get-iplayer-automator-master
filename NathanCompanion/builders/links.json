@@ -1,0 +1,618 @@
+{
+ "note": "Comhrá AS topic -> the grammar it relies on. Each link names a grammar section, optionally the lesson (1-based) that matters most, and the topic's own rows whose sentences show it in use. beta/build_links.py writes the links into comhra.json (per topic) and grammar.json (per section, reversed). A row label of the form Q4 means the topic's fourth examiner question.",
+ "why": {
+  "ceisteanna": [
+   "Na ceisteanna a thuiscint",
+   "Understanding the examiner's questions"
+  ],
+  "clasail": [
+   "Tuairim a thabhairt: Sílim go ..., Deir siad nach ...",
+   "Giving an opinion: I think that ..."
+  ],
+  "copail": [
+   "An chopail: Is maith liom, Is é mo bharúil, Ba cheart",
+   "The copula: likes, opinions, should"
+  ],
+  "aidiachtai": [
+   "Comparáid: níos fearr, is óige, níos airde",
+   "Comparing things"
+  ],
+  "uimhreacha": [
+   "Uimhreacha: daoine, uaireanta, airgead",
+   "Numbers: people, times, money"
+  ],
+  "ainm-briathartha": [
+   "An t-ainm briathartha: ag seinm, a dhéanamh",
+   "The verbal noun"
+  ],
+  "reamhfhocail-simpli": [
+   "Forainmneacha réamhfhoclacha: liom, orm, dom",
+   "Prepositional pronouns"
+  ],
+  "reamhfhocail-chomhshuite": [
+   "Réamhfhocail chomhshuite: in aice le, i rith",
+   "Compound prepositions"
+  ],
+  "nr-chaite": [
+   "Briathra neamhrialta san aimsir chaite: chuaigh, bhí, chonaic",
+   "Irregular verbs in the past"
+  ],
+  "r1-chaite": [
+   "An aimsir chaite: chaith, bhain, thaitin",
+   "Regular verbs in the past"
+  ],
+  "r2-chaite": [
+   "An aimsir chaite: d'oibrigh, roghnaigh, d'fheabhsaigh",
+   "Second-conjugation verbs in the past"
+  ],
+  "r1-laithreach": [
+   "An aimsir láithreach: amharcaim, caithim, fágaim",
+   "The present: what you do"
+  ],
+  "r2-laithreach": [
+   "An aimsir láithreach: réitím, críochnaíonn, cinntím",
+   "Second-conjugation verbs in the present"
+  ],
+  "nr-laithreach": [
+   "Briathra neamhrialta san aimsir láithreach: bíonn, téim, faighim",
+   "Irregular verbs in the present"
+  ],
+  "nr-fhaistineach": [
+   "An aimsir fháistineach: beidh, rachaidh, gheobhaidh",
+   "The future: plans"
+  ],
+  "r1-fhaistineach": [
+   "An aimsir fháistineach: caillfidh, fanfaidh",
+   "The future of regular verbs"
+  ],
+  "r2-fhaistineach": [
+   "An aimsir fháistineach: athróidh, éireoidh",
+   "The future of second-conjugation verbs"
+  ],
+  "nr-coinniollach": [
+   "An modh coinníollach: bheadh sé deas dá mbeadh ...",
+   "The conditional: what would be"
+  ]
+ },
+ "links": {
+  "as-teaghlach": [
+   [
+    "copail",
+    null,
+    [
+     "Pearsantacht",
+     "Áit sa teaghlach"
+    ]
+   ],
+   [
+    "aidiachtai",
+    7,
+    [
+     "Áit sa teaghlach",
+     "Saoirse"
+    ]
+   ],
+   [
+    "uimhreacha",
+    6,
+    [
+     "Líon an teaghlaigh"
+    ]
+   ],
+   [
+    "r2-laithreach",
+    2,
+    [
+     "Réiteach"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Tuairimí"
+    ]
+   ]
+  ],
+  "as-ceantar": [
+   [
+    "nr-coinniollach",
+    6,
+    [
+     "Ba bhreá liom",
+     "Réiteach"
+    ]
+   ],
+   [
+    "aidiachtai",
+    2,
+    [
+     "Cén sórt áite",
+     "Comparáid"
+    ]
+   ],
+   [
+    "reamhfhocail-chomhshuite",
+    null,
+    [
+     "Cá háit",
+     "An ceantar dúchais"
+    ]
+   ],
+   [
+    "clasail",
+    2,
+    [
+     "Comparáid",
+     "Tuairimí"
+    ]
+   ]
+  ],
+  "as-scoil": [
+   [
+    "clasail",
+    1,
+    [
+     "Dúil sa scoil",
+     "An bhearna",
+     "Ina theannta sin"
+    ]
+   ],
+   [
+    "r2-chaite",
+    1,
+    [
+     "Cad chuige"
+    ]
+   ],
+   [
+    "nr-laithreach",
+    null,
+    [
+     "Ag dúil le",
+     "An cúrsa Gaeilge"
+    ]
+   ],
+   [
+    "ainm-briathartha",
+    3,
+    [
+     "Tréimhsí saora"
+    ]
+   ]
+  ],
+  "as-todhchai": [
+   [
+    "clasail",
+    3,
+    [
+     "Sásta",
+     "Na gráid"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Cad chuige",
+     "An post"
+    ]
+   ],
+   [
+    "ainm-briathartha",
+    3,
+    [
+     "An bhliain seo chugainn",
+     "I ndiaidh na scoile"
+    ]
+   ],
+   [
+    "r2-chaite",
+    2,
+    [
+     "An ollscoil"
+    ]
+   ]
+  ],
+  "as-teicneolaiocht": [
+   [
+    "r1-laithreach",
+    2,
+    [
+     "Úsáid",
+     "Réiteach"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Am scáileáin",
+     "Tuairimí"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Buntáiste",
+     "Fadhbanna"
+    ]
+   ],
+   [
+    "uimhreacha",
+    3,
+    [
+     "Am scáileáin"
+    ]
+   ]
+  ],
+  "as-gaeilge": [
+   [
+    "nr-chaite",
+    4,
+    [
+     "An cúrsa",
+     "Rinne muid"
+    ]
+   ],
+   [
+    "r1-chaite",
+    1,
+    [
+     "Fad",
+     "Rinne muid"
+    ]
+   ],
+   [
+    "r2-chaite",
+    3,
+    [
+     "An toradh"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Is fiú"
+    ]
+   ],
+   [
+    "aidiachtai",
+    7,
+    [
+     "Tobar na Gaeilge"
+    ]
+   ]
+  ],
+  "as-meain": [
+   [
+    "r1-laithreach",
+    2,
+    [
+     "TG4",
+     "Fotheidil"
+    ]
+   ],
+   [
+    "nr-chaite",
+    4,
+    [
+     "Scannán"
+    ]
+   ],
+   [
+    "r2-chaite",
+    2,
+    [
+     "Thaitin sé liom",
+     "Níor thaitin sé liom"
+    ]
+   ],
+   [
+    "copail",
+    2,
+    [
+     "Na cláir"
+    ]
+   ]
+  ],
+  "as-post": [
+   [
+    "nr-chaite",
+    4,
+    [
+     "An post",
+     "Éirí as"
+    ]
+   ],
+   [
+    "r2-chaite",
+    3,
+    [
+     "Cathain"
+    ]
+   ],
+   [
+    "uimhreacha",
+    5,
+    [
+     "An ráta pá"
+    ]
+   ],
+   [
+    "aidiachtai",
+    7,
+    [
+     "Tuairim ar an phá"
+    ]
+   ]
+  ],
+  "as-caitheamh": [
+   [
+    "r1-chaite",
+    1,
+    [
+     "Grád"
+    ]
+   ],
+   [
+    "nr-chaite",
+    4,
+    [
+     "Ceolchoirm"
+    ]
+   ],
+   [
+    "clasail",
+    2,
+    [
+     "Deir mo thuismitheoirí"
+    ]
+   ],
+   [
+    "ainm-briathartha",
+    1,
+    [
+     "Seinm",
+     "Cláir"
+    ]
+   ],
+   [
+    "copail",
+    2,
+    [
+     "Cláir"
+    ]
+   ]
+  ],
+  "as-sport": [
+   [
+    "nr-laithreach",
+    null,
+    [
+     "Cluichí",
+     "Traenáil"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Peil na mban",
+     "Comhionannas"
+    ]
+   ],
+   [
+    "copail",
+    5,
+    [
+     "Peil na mban"
+    ]
+   ],
+   [
+    "uimhreacha",
+    3,
+    [
+     "Traenáil"
+    ]
+   ]
+  ],
+  "as-deireadh-seachtaine": [
+   [
+    "nr-laithreach",
+    null,
+    [
+     "An Satharn",
+     "Oíche Shathairn",
+     "Taisteal"
+    ]
+   ],
+   [
+    "r2-laithreach",
+    1,
+    [
+     "Críoch na hoíche",
+     "Réidh don tseachtain"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Réidh don tseachtain"
+    ]
+   ],
+   [
+    "nr-chaite",
+    4,
+    [
+     "Q4"
+    ]
+   ]
+  ],
+  "as-saoire": [
+   [
+    "nr-chaite",
+    4,
+    [
+     "Anuraidh",
+     "Mar a bhí"
+    ]
+   ],
+   [
+    "nr-fhaistineach",
+    1,
+    [
+     "Rachaidh muid",
+     "An costas"
+    ]
+   ],
+   [
+    "aidiachtai",
+    7,
+    [
+     "Cineál saoire",
+     "Níl áit níos fearr"
+    ]
+   ],
+   [
+    "copail",
+    3,
+    [
+     "Cineál saoire"
+    ]
+   ]
+  ],
+  "as-aos-og": [
+   [
+    "clasail",
+    1,
+    [
+     "Cá háit",
+     "Na húdaráis",
+     "Brú"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Toitíní leictreonacha",
+     "Brú"
+    ]
+   ],
+   [
+    "nr-laithreach",
+    5,
+    [
+     "Feictear"
+    ]
+   ]
+  ],
+  "as-intleacht-shaorga": [
+   [
+    "clasail",
+    6,
+    [
+     "Contúirt",
+     "An saol oibre",
+     "Ar an iomlán"
+    ]
+   ],
+   [
+    "nr-fhaistineach",
+    1,
+    [
+     "Poist"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Rialacha"
+    ]
+   ],
+   [
+    "reamhfhocail-simpli",
+    null,
+    [
+     "Mar shampla"
+    ]
+   ]
+  ],
+  "as-slainte-mheabhrach": [
+   [
+    "nr-laithreach",
+    null,
+    [
+     "Faoi bhrú",
+     "Imní"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Na meáin shóisialta"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "Ba cheart"
+    ]
+   ],
+   [
+    "aidiachtai",
+    4,
+    [
+     "Tábhacht"
+    ]
+   ],
+   [
+    "reamhfhocail-simpli",
+    null,
+    [
+     "Cé leis",
+     "Imní"
+    ]
+   ]
+  ],
+  "as-costas": [
+   [
+    "aidiachtai",
+    4,
+    [
+     "Praghsanna"
+    ]
+   ],
+   [
+    "clasail",
+    6,
+    [
+     "Mar sin",
+     "Tuairim"
+    ]
+   ],
+   [
+    "r1-laithreach",
+    2,
+    [
+     "Caiteachas",
+     "Aip bhainc"
+    ]
+   ],
+   [
+    "nr-fhaistineach",
+    1,
+    [
+     "An ollscoil"
+    ]
+   ]
+  ]
+ }
+}
