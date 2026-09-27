@@ -43,7 +43,7 @@ for b in d['builders']:
     for q in b['questions']: audio.add(q)
     units.append({'id':b['id'],'title':b['title'],'en':b['en'],'questions':[{'ga':q,'audio':aid(q),'rows':QROWS[b['id']][qi]} for qi,q in enumerate(b['questions'])],
                   'examples':[{'ga':e,'audio':aid(e)} for e in b['examples']],'rows':rows,
-                  'sprioc':b.get('sprioc',[]),'new':bool(b.get('new'))})
+                  'sprioc':[dict(x,audio=aid(x['ga'])) for x in b.get('sprioc',[])],'new':bool(b.get('new'))})
     for x in b.get('sprioc',[]): audio.add(x['ga'])
 # Units are generated in file order (so each unit's sampled sentences never change when a unit is added)
 # and shown in teaching order: greetings first.

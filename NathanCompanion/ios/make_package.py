@@ -11,8 +11,9 @@ for f in os.listdir(res):
 shutil.copy(os.path.join(beta, 'data', 'units.json'), res)
 shutil.copy(os.path.join(beta, 'data', 'grammar.json'), res)
 shutil.copy(os.path.join(beta, 'data', 'comhra.json'), res)
+shutil.copy(os.path.join(beta, 'data', 'gcse.json'), res)
 shutil.copy(os.path.join(here, '..', 'font', 'MarkingHand-Regular.otf'), res)
-units = json.load(open(os.path.join(beta, 'data', 'units.json')))
+units = json.load(open(os.path.join(beta, 'data', 'units.json'))) + json.load(open(os.path.join(beta, 'data', 'gcse.json')))
 needed = set()
 for u in units:
     for q in u['questions']: needed.add(q['audio'])
@@ -21,6 +22,9 @@ for u in units:
         for col in r['columns']:
             for c in col: needed.add(c['id'])
         for s in r.get('all', r['sentences']): needed.add(s['audio'])
+    for x in u.get('sprioc', []):
+        if x.get('audio'): needed.add(x['audio'])
+    for i in u.get('extraAudio', []): needed.add(i)
 have = 0
 for n in sorted(needed):
     src = os.path.join(beta, 'audio', n + '.mp3')

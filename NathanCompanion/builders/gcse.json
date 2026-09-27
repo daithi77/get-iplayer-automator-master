@@ -1,0 +1,969 @@
+{
+ "version": 1,
+ "note": "GCSE track (Year 11) for Gan Ainm, drafted by Claude in Ulster Irish for Dáithí Murray's sign-off. Same builder format as year8.json plus a question chain (qrows maps each question to the rows that answer it), pattern boxes ([ ] marks the letters that change), a basic/better/best ladder ([ ] marks the new words) and role plays.",
+ "builders": [
+  {
+   "id": "g1-mefein",
+   "title": "Mé féin agus mo theaghlach",
+   "en": "Myself and my family",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Introducing yourself and your family; mo + séimhiú (mo dheartháir, mo theaghlach) and m' before a vowel (m'athair); beirt with no séimhiú on d, t, s (beirt deartháireacha); comparing with níos sine / níos óige; giving a reason with mar; Deir mo chairde go bhfuil mé ...",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le mé féin agus mo theaghlach a chur in aithne.",
+     "en": "I am learning to introduce myself and my family."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le barúil a thabhairt agus fáth a lua.",
+     "en": "I am learning to give an opinion and a reason."
+    }
+   ],
+   "questions": [
+    "Cad é an t-ainm atá ort?",
+    "Cén aois thú?",
+    "Cá huair a rugadh thú?",
+    "Cá mhéad duine atá i do theaghlach?",
+    "Cé hiad na daoine i do theaghlach?",
+    "An réitíonn tú go maith le do theaghlach?",
+    "Déan cur síos ort féin.",
+    "Cad é a dhéanann sibh le chéile ag an deireadh seachtaine?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Ainm",
+     "columns": [
+      [
+       {
+        "ga": "Is mise",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "Conor",
+        "en": "Conor"
+       },
+       {
+        "ga": "Aoife",
+        "en": "Aoife"
+       },
+       {
+        "ga": "Ciarán",
+        "en": "Ciarán"
+       },
+       {
+        "ga": "Niamh",
+        "en": "Niamh"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Aois",
+     "columns": [
+      [
+       {
+        "ga": "Tá mé",
+        "en": "I am"
+       }
+      ],
+      [
+       {
+        "ga": "ceithre bliana déag",
+        "en": "fourteen"
+       },
+       {
+        "ga": "cúig bliana déag",
+        "en": "fifteen"
+       },
+       {
+        "ga": "sé bliana déag",
+        "en": "sixteen"
+       }
+      ],
+      [
+       {
+        "ga": "d'aois",
+        "en": "years old"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Rugadh mé",
+     "columns": [
+      [
+       {
+        "ga": "Rugadh mé",
+        "en": "I was born"
+       }
+      ],
+      [
+       {
+        "ga": "i mí Eanáir",
+        "en": "in January"
+       },
+       {
+        "ga": "i mí an Mhárta",
+        "en": "in March"
+       },
+       {
+        "ga": "i mí na Bealtaine",
+        "en": "in May"
+       },
+       {
+        "ga": "i mí Iúil",
+        "en": "in July"
+       },
+       {
+        "ga": "i mí Mheán Fómhair",
+        "en": "in September"
+       },
+       {
+        "ga": "i mí na Samhna",
+        "en": "in November"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhliain dhá mhíle is a deich",
+        "en": "in 2010"
+       },
+       {
+        "ga": "sa bhliain dhá mhíle is a haon déag",
+        "en": "in 2011"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Líon an teaghlaigh",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "There are"
+       }
+      ],
+      [
+       {
+        "ga": "ceathrar",
+        "en": "four people"
+       },
+       {
+        "ga": "cúigear",
+        "en": "five people"
+       },
+       {
+        "ga": "seisear",
+        "en": "six people"
+       }
+      ],
+      [
+       {
+        "ga": "i mo theaghlach",
+        "en": "in my family"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deartháireacha agus deirfiúracha",
+     "columns": [
+      [
+       {
+        "ga": "Tá",
+        "en": "I have"
+       }
+      ],
+      [
+       {
+        "ga": "deartháir amháin",
+        "en": "one brother"
+       },
+       {
+        "ga": "beirt deartháireacha",
+        "en": "two brothers"
+       },
+       {
+        "ga": "deirfiúr amháin",
+        "en": "one sister"
+       },
+       {
+        "ga": "beirt deirfiúracha",
+        "en": "two sisters"
+       }
+      ],
+      [
+       {
+        "ga": "agam",
+        "en": "(at me)"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Níos sine, níos óige",
+     "columns": [
+      [
+       {
+        "ga": "Tá mo dheartháir",
+        "en": "My brother is"
+       },
+       {
+        "ga": "Tá mo dheirfiúr",
+        "en": "My sister is"
+       }
+      ],
+      [
+       {
+        "ga": "níos sine",
+        "en": "older"
+       },
+       {
+        "ga": "níos óige",
+        "en": "younger"
+       }
+      ],
+      [
+       {
+        "ga": "ná mé",
+        "en": "than me"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Réitím go maith le",
+     "columns": [
+      [
+       {
+        "ga": "Réitím go maith le",
+        "en": "I get on well with"
+       }
+      ],
+      [
+       {
+        "ga": "mo mhamaí",
+        "en": "my mum"
+       },
+       {
+        "ga": "mo dhaidí",
+        "en": "my dad"
+       },
+       {
+        "ga": "mo dheartháir",
+        "en": "my brother"
+       },
+       {
+        "ga": "mo dheirfiúr",
+        "en": "my sister"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá muid cosúil le chéile",
+        "en": "because we are alike"
+       },
+       {
+        "ga": "mar bíonn muid ag gáire le chéile",
+        "en": "because we laugh together"
+       },
+       {
+        "ga": "mar is maith linn na rudaí céanna",
+        "en": "because we like the same things"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag argóint",
+     "columns": [
+      [
+       {
+        "ga": "Ach bíonn muid ag argóint",
+        "en": "But we argue"
+       }
+      ],
+      [
+       {
+        "ga": "ó am go ham",
+        "en": "from time to time"
+       },
+       {
+        "ga": "faoin teilifís",
+        "en": "about the television"
+       },
+       {
+        "ga": "faoin obair tí",
+        "en": "about the housework"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Deir mo chairde",
+     "columns": [
+      [
+       {
+        "ga": "Deir mo chairde go bhfuil mé",
+        "en": "My friends say that I am"
+       }
+      ],
+      [
+       {
+        "ga": "greannmhar",
+        "en": "funny"
+       },
+       {
+        "ga": "cairdiúil",
+        "en": "friendly"
+       },
+       {
+        "ga": "cainteach",
+        "en": "chatty"
+       },
+       {
+        "ga": "ciúin",
+        "en": "quiet"
+       },
+       {
+        "ga": "spórtúil",
+        "en": "sporty"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ach bím",
+     "columns": [
+      [
+       {
+        "ga": "Ach bím",
+        "en": "But I am"
+       }
+      ],
+      [
+       {
+        "ga": "leisciúil",
+        "en": "lazy"
+       },
+       {
+        "ga": "crosta",
+        "en": "cross"
+       },
+       {
+        "ga": "cúthail",
+        "en": "shy"
+       }
+      ],
+      [
+       {
+        "ga": "ó am go ham",
+        "en": "from time to time"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Le chéile",
+     "columns": [
+      [
+       {
+        "ga": "Téann muid",
+        "en": "We go"
+       }
+      ],
+      [
+       {
+        "ga": "chuig an phictiúrlann",
+        "en": "to the cinema"
+       },
+       {
+        "ga": "chuig an trá",
+        "en": "to the beach"
+       },
+       {
+        "ga": "ar cuairt chuig mo mhamó",
+        "en": "to visit my granny"
+       },
+       {
+        "ga": "ag siopadóireacht",
+        "en": "shopping"
+       }
+      ],
+      [
+       {
+        "ga": "le chéile",
+        "en": "together"
+       },
+       {
+        "ga": "ag an deireadh seachtaine",
+        "en": "at the weekend"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is mise Conor agus tá mé cúig bliana déag d'aois.",
+    "Tá cúigear i mo theaghlach: mo mhamaí, mo dhaidí, beirt deartháireacha agus mé féin.",
+    "Réitím go maith le mo dheartháir mar is maith linn na rudaí céanna."
+   ],
+   "patterns": [
+    {
+     "title": "Mo agus séimhiú",
+     "question": "Cad é a tharlaíonn don fhocal i ndiaidh mo? Cad chuige nach n-athraíonn leabhar ná athair ar an dóigh chéanna?",
+     "questionEn": "What happens to the word after mo? Why do leabhar and athair not change in the same way?",
+     "rows": [
+      [
+       "deartháir",
+       "mo d[h]eartháir"
+      ],
+      [
+       "deirfiúr",
+       "mo d[h]eirfiúr"
+      ],
+      [
+       "teaghlach",
+       "mo t[h]eaghlach"
+      ],
+      [
+       "máthair",
+       "mo m[h]áthair"
+      ],
+      [
+       "cara",
+       "mo c[h]ara"
+      ],
+      [
+       "leabhar",
+       "mo leabhar"
+      ],
+      [
+       "athair",
+       "m'athair"
+      ],
+      [
+       "aintín",
+       "m'aintín"
+      ]
+     ],
+     "rule": "Mo puts a h after the first letter (séimhiú): mo dheartháir. L, n and r never take h: mo leabhar. Before a vowel, mo becomes m': m'athair."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Tá cúigear i mo theaghlach.",
+     "en": "There are five people in my family.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "Tá cúigear i mo theaghlach[: mo mhamaí, mo dhaidí, beirt deartháireacha agus mé féin].",
+     "en": "There are five people in my family: my mum, my dad, two brothers and me.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Tá cúigear i mo theaghlach. [Réitím go han-mhaith le mo dheartháir is óige mar is maith linn na rudaí céanna, ach caithfidh mé a rá go mbíonn muid ag argóint faoin teilifís ó am go ham.]",
+     "en": "There are five people in my family. I get on very well with my youngest brother because we like the same things, but I have to say that we argue about the television from time to time.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Cara nua",
+     "titleEn": "A new friend",
+     "rubric": "Tá tú ag caint le cara nua. Labhraíonn do chara ar dtús.",
+     "rubricEn": "You are talking to a new friend. Your friend speaks first.",
+     "tasks": [
+      {
+       "teacher": "Cá mhéad duine atá i do theaghlach?",
+       "en": "Say how many people are in your family.",
+       "ga": "Tá cúigear i mo theaghlach.",
+       "alt": "Tá cúigear againn sa teaghlach."
+      },
+      {
+       "teacher": "An bhfuil deartháir ar bith agat?",
+       "en": "Say you have two brothers.",
+       "ga": "Tá beirt deartháireacha agam."
+      },
+      {
+       "teacher": "An tusa an duine is sine?",
+       "en": "Say your brother is older than you.",
+       "ga": "Ní mé. Tá mo dheartháir níos sine ná mé."
+      },
+      {
+       "teacher": "Cén aois atá ag do dheartháir?",
+       "en": "Say he is seventeen.",
+       "ga": "Tá sé seacht mbliana déag d'aois."
+      },
+      {
+       "teacher": "Cad é a dhéanann sibh le chéile?",
+       "en": "Answer the unexpected question.",
+       "ga": "Imríonn muid peil sa pháirc.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-saoire",
+   "title": "Laethanta saoire",
+   "en": "Holidays",
+   "level": "GCSE · Bliain 11",
+   "new": true,
+   "teaches": "Talking about last summer's holiday in the past tense, with muid for we (chuaigh muid, chaith muid); go dtí + the article, go + a place name; ar an + séimhiú (ar an bhád) and i + urú (i bpuball); weather graded from go hálainn to go holc; a reason with mar; the future for next summer (rachaidh muid).",
+   "sprioc": [
+    {
+     "ga": "Tá mé ag foghlaim le labhairt faoi mo laethanta saoire san aimsir chaite.",
+     "en": "I am learning to talk about my holidays in the past tense."
+    },
+    {
+     "ga": "Tá mé ag foghlaim le freagra bunúsach a fheabhsú.",
+     "en": "I am learning to improve a basic answer."
+    }
+   ],
+   "questions": [
+    "Cá ndeachaigh tú ar do laethanta saoire?",
+    "Cé a bhí leat?",
+    "Cad é mar a chuaigh tú ann?",
+    "Cá fhad a d'fhan tú ann?",
+    "Cá raibh tú ag stopadh?",
+    "Cad é mar a bhí an aimsir?",
+    "Cad é a rinne tú gach lá?",
+    "Ar thaitin an tsaoire leat?",
+    "Cá rachaidh tú an samhradh seo chugainn?"
+   ],
+   "qrows": [
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ]
+   ],
+   "rows": [
+    {
+     "label": "Cá ndeachaigh tú?",
+     "columns": [
+      [
+       {
+        "ga": "Chuaigh mé",
+        "en": "I went"
+       }
+      ],
+      [
+       {
+        "ga": "go dtí an Spáinn",
+        "en": "to Spain"
+       },
+       {
+        "ga": "go dtí an Fhrainc",
+        "en": "to France"
+       },
+       {
+        "ga": "go dtí an Phortaingéil",
+        "en": "to Portugal"
+       },
+       {
+        "ga": "go Meiriceá",
+        "en": "to America"
+       },
+       {
+        "ga": "go Tír Chonaill",
+        "en": "to Donegal"
+       }
+      ],
+      [
+       {
+        "ga": "le mo theaghlach",
+        "en": "with my family"
+       },
+       {
+        "ga": "le mo chairde",
+        "en": "with my friends"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad é mar a chuaigh tú?",
+     "columns": [
+      [
+       {
+        "ga": "Chuaigh muid ann",
+        "en": "We went there"
+       }
+      ],
+      [
+       {
+        "ga": "ar an bhád",
+        "en": "on the boat"
+       },
+       {
+        "ga": "ar an traein",
+        "en": "on the train"
+       },
+       {
+        "ga": "sa charr",
+        "en": "in the car"
+       },
+       {
+        "ga": "ar an eitleán",
+        "en": "on the plane"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá fhad?",
+     "columns": [
+      [
+       {
+        "ga": "Chaith muid",
+        "en": "We spent"
+       }
+      ],
+      [
+       {
+        "ga": "seachtain",
+        "en": "a week"
+       },
+       {
+        "ga": "coicís",
+        "en": "a fortnight"
+       },
+       {
+        "ga": "deich lá",
+        "en": "ten days"
+       },
+       {
+        "ga": "mí",
+        "en": "a month"
+       }
+      ],
+      [
+       {
+        "ga": "ann",
+        "en": "there"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cá raibh tú ag stopadh?",
+     "columns": [
+      [
+       {
+        "ga": "Bhí muid ag stopadh",
+        "en": "We were staying"
+       }
+      ],
+      [
+       {
+        "ga": "in óstán",
+        "en": "in a hotel"
+       },
+       {
+        "ga": "in árasán",
+        "en": "in an apartment"
+       },
+       {
+        "ga": "i bpuball",
+        "en": "in a tent"
+       },
+       {
+        "ga": "i gcarbhán",
+        "en": "in a caravan"
+       }
+      ],
+      [
+       {
+        "ga": "in aice leis an trá",
+        "en": "beside the beach"
+       },
+       {
+        "ga": "faoin tuath",
+        "en": "in the countryside"
+       },
+       {
+        "ga": "i lár na cathrach",
+        "en": "in the city centre"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An aimsir",
+     "columns": [
+      [
+       {
+        "ga": "Bhí an aimsir",
+        "en": "The weather was"
+       }
+      ],
+      [
+       {
+        "ga": "go hálainn",
+        "en": "lovely"
+       },
+       {
+        "ga": "te agus grianmhar",
+        "en": "hot and sunny"
+       },
+       {
+        "ga": "measartha",
+        "en": "so-so"
+       },
+       {
+        "ga": "go holc",
+        "en": "bad"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Gach lá",
+     "columns": [
+      [
+       {
+        "ga": "Gach lá,",
+        "en": "Every day,"
+       }
+      ],
+      [
+       {
+        "ga": "chuaigh muid ag snámh",
+        "en": "we went swimming"
+       },
+       {
+        "ga": "chuaigh muid ag siopadóireacht",
+        "en": "we went shopping"
+       },
+       {
+        "ga": "d'imir mé leadóg",
+        "en": "I played tennis"
+       },
+       {
+        "ga": "rinne mé bolg le gréin",
+        "en": "I sunbathed"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar thaitin sé leat?",
+     "columns": [
+      [
+       {
+        "ga": "Thaitin an tsaoire go mór liom",
+        "en": "I really enjoyed the holiday"
+       }
+      ],
+      [
+       {
+        "ga": "mar bhí an aimsir go hálainn",
+        "en": "because the weather was lovely"
+       },
+       {
+        "ga": "mar bhí an bia blasta",
+        "en": "because the food was tasty"
+       },
+       {
+        "ga": "mar bhí an chraic go maith",
+        "en": "because the craic was good"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An samhradh seo chugainn",
+     "columns": [
+      [
+       {
+        "ga": "An samhradh seo chugainn,",
+        "en": "Next summer,"
+       }
+      ],
+      [
+       {
+        "ga": "rachaidh muid go dtí an Iodáil",
+        "en": "we will go to Italy"
+       },
+       {
+        "ga": "rachaidh muid go Gaillimh",
+        "en": "we will go to Galway"
+       },
+       {
+        "ga": "beidh muid ag campáil i dTír Chonaill",
+        "en": "we will be camping in Donegal"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Chuaigh mé go dtí an Spáinn le mo theaghlach.",
+    "Bhí muid ag stopadh in óstán in aice leis an trá.",
+    "Thaitin an tsaoire go mór liom mar bhí an aimsir go hálainn."
+   ],
+   "patterns": [
+    {
+     "title": "I agus urú",
+     "question": "Cad chuige a n-athraíonn an litriú i gcuid acu ach nach n-athraíonn sé i gcuid eile?",
+     "questionEn": "Why does the spelling change in some of them but not in others?",
+     "rows": [
+      [
+       "teach",
+       "i [d]teach"
+      ],
+      [
+       "puball",
+       "i [b]puball"
+      ],
+      [
+       "carbhán",
+       "i [g]carbhán"
+      ],
+      [
+       "óstán",
+       "i[n] óstán"
+      ],
+      [
+       "árasán",
+       "i[n] árasán"
+      ],
+      [
+       "lár",
+       "i lár"
+      ]
+     ],
+     "rule": "I eclipses the next word: i bpuball, i gcarbhán. Before a vowel, i becomes in: in óstán. L, m, n, r and s do not change."
+    },
+    {
+     "title": "Ar an agus séimhiú",
+     "question": "Cad é a tharlaíonn i ndiaidh ar an i gcanúint Uladh?",
+     "questionEn": "What happens after ar an in Ulster Irish?",
+     "rows": [
+      [
+       "bád",
+       "ar an b[h]ád"
+      ],
+      [
+       "bus",
+       "ar an b[h]us"
+      ],
+      [
+       "traein",
+       "ar an traein"
+      ],
+      [
+       "eitleán",
+       "ar an eitleán"
+      ]
+     ],
+     "rule": "In Ulster, ar an puts a h on the next word: ar an bhád, ar an bhus. T, d and vowels do not change: ar an traein, ar an eitleán."
+    }
+   ],
+   "ladder": [
+    {
+     "ga": "Chuaigh mé go dtí an Spáinn ar mo laethanta saoire. Chuaigh mé ann ar an eitleán. D'fhan mé cúig lá.",
+     "en": "I went to Spain on my holidays. I went there on the plane. I stayed five days.",
+     "label": "Bunúsach"
+    },
+    {
+     "ga": "[Thaistil] mé go dtí an Spáinn [le mo theaghlach i mí Iúil. D'eitil muid ó Bhéal Feirste go Málaga agus chaith muid] cúig lá ann. [Bhí muid ag stopadh in óstán mór in aice leis an trá.]",
+     "en": "I travelled to Spain with my family in July. We flew from Belfast to Málaga and we spent five days there. We were staying in a big hotel beside the beach.",
+     "label": "Níos fearr"
+    },
+    {
+     "ga": "Thaistil mé go dtí an Spáinn le mo theaghlach i mí Iúil. D'eitil muid ó Bhéal Feirste go Málaga agus chaith muid cúig lá ann. Bhí muid ag stopadh in óstán mór in aice leis an trá. [Thaitin an tsaoire go mór liom mar bhí an aimsir go hálainn, ach caithfidh mé a rá go raibh sé róthe ag am lóin. An bhliain seo chugainn, ba mhaith liom dul go dtí an Iodáil.]",
+     "en": "… I really enjoyed the holiday because the weather was lovely, but I have to say it was too hot at lunchtime. Next year I would like to go to Italy.",
+     "label": "Is fearr"
+    }
+   ],
+   "roleplays": [
+    {
+     "title": "Sa stáisiún traenach",
+     "titleEn": "At the train station",
+     "rubric": "Tá tú i stáisiún na traenach san Iúr. Labhraíonn an t-oifigeach ar dtús.",
+     "rubricEn": "You are in the train station in Newry. The official speaks first.",
+     "tasks": [
+      {
+       "teacher": "Dia duit. An dtig liom cuidiú leat?",
+       "en": "Ask for a return ticket to Dublin.",
+       "ga": "Ba mhaith liom ticéad fillte go Baile Átha Cliath, le do thoil."
+      },
+      {
+       "teacher": "Cinnte. Seo duit.",
+       "en": "Ask what time the next train leaves.",
+       "ga": "Cén t-am a fhágann an chéad traein eile?"
+      },
+      {
+       "teacher": "Fágann sí ar a deich a chlog.",
+       "en": "Ask how much it costs.",
+       "ga": "Cá mhéad atá air?"
+      },
+      {
+       "teacher": "Tá sé fiche punt. Cad chuige a bhfuil tú ag dul go Baile Átha Cliath?",
+       "en": "Answer the unexpected question.",
+       "ga": "Tá mé ag dul chuig ceolchoirm.",
+       "unexpected": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
