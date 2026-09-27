@@ -1482,6 +1482,256 @@
     "Úsáidim é le héisteacht le ceol ag an deireadh seachtaine."
    ],
    "note": "The 'Cad chuige' row follows a 'Tá' answer only. The exam list's wording 'Cad iad an cineál rudaí' was corrected to 'Cad é an cineál rudaí'."
+  },
+  {
+   "id": "b9-laethanta",
+   "title": "Laethanta agus dátaí",
+   "en": "Days and dates",
+   "teaches": "Days of the week: an Luan on its own (Inniu an Luan), Dé Luain for 'on Monday'; Déardaoin has no an or Dé. Inniu, inné, amárach. Dates with ordinal numbers: ar an chéad lá, ar an dara lá, de mhí + the month.",
+   "questions": [
+    "Cad é an lá atá ann inniu?",
+    "Cad é a bhíonn agaibh Dé Luain?",
+    "Cén dáta a bhíonn do lá breithe?",
+    "Cad é a dhéanann tú ag an deireadh seachtaine?"
+   ],
+   "rows": [
+    {
+     "label": "Inniu, inné, amárach",
+     "columns": [
+      [
+       {
+        "ga": "Inniu",
+        "en": "Today is"
+       },
+       {
+        "ga": "Inné",
+        "en": "Yesterday was"
+       },
+       {
+        "ga": "Amárach",
+        "en": "Tomorrow is"
+       }
+      ],
+      [
+       {
+        "ga": "an Luan",
+        "en": "Monday"
+       },
+       {
+        "ga": "an Mháirt",
+        "en": "Tuesday"
+       },
+       {
+        "ga": "an Chéadaoin",
+        "en": "Wednesday"
+       },
+       {
+        "ga": "Déardaoin",
+        "en": "Thursday"
+       },
+       {
+        "ga": "an Aoine",
+        "en": "Friday"
+       },
+       {
+        "ga": "an Satharn",
+        "en": "Saturday"
+       },
+       {
+        "ga": "an Domhnach",
+        "en": "Sunday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An clár ama",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn",
+        "en": "We have"
+       }
+      ],
+      [
+       {
+        "ga": "Gaeilge",
+        "en": "Irish"
+       },
+       {
+        "ga": "Béarla",
+        "en": "English"
+       },
+       {
+        "ga": "matamaitic",
+        "en": "maths"
+       },
+       {
+        "ga": "ceol",
+        "en": "music"
+       },
+       {
+        "ga": "eolaíocht",
+        "en": "science"
+       },
+       {
+        "ga": "corpoideachas",
+        "en": "PE"
+       }
+      ],
+      [
+       {
+        "ga": "againn",
+        "en": "(we)"
+       }
+      ],
+      [
+       {
+        "ga": "Dé Luain",
+        "en": "on Monday"
+       },
+       {
+        "ga": "Dé Máirt",
+        "en": "on Tuesday"
+       },
+       {
+        "ga": "Dé Céadaoin",
+        "en": "on Wednesday"
+       },
+       {
+        "ga": "Déardaoin",
+        "en": "on Thursday"
+       },
+       {
+        "ga": "Dé hAoine",
+        "en": "on Friday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Lá breithe",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn mo lá breithe ar an",
+        "en": "My birthday is on the"
+       }
+      ],
+      [
+       {
+        "ga": "chéad lá",
+        "en": "first day"
+       },
+       {
+        "ga": "dara lá",
+        "en": "second day"
+       },
+       {
+        "ga": "tríú lá",
+        "en": "third day"
+       },
+       {
+        "ga": "ochtú lá",
+        "en": "eighth day"
+       },
+       {
+        "ga": "deichiú lá",
+        "en": "tenth day"
+       }
+      ],
+      [
+       {
+        "ga": "de mhí Eanáir",
+        "en": "of January"
+       },
+       {
+        "ga": "de mhí Feabhra",
+        "en": "of February"
+       },
+       {
+        "ga": "de mhí an Mhárta",
+        "en": "of March"
+       },
+       {
+        "ga": "de mhí Aibreáin",
+        "en": "of April"
+       },
+       {
+        "ga": "de mhí na Bealtaine",
+        "en": "of May"
+       },
+       {
+        "ga": "de mhí an Mheithimh",
+        "en": "of June"
+       },
+       {
+        "ga": "de mhí Iúil",
+        "en": "of July"
+       },
+       {
+        "ga": "de mhí Lúnasa",
+        "en": "of August"
+       },
+       {
+        "ga": "de mhí Mheán Fómhair",
+        "en": "of September"
+       },
+       {
+        "ga": "de mhí Dheireadh Fómhair",
+        "en": "of October"
+       },
+       {
+        "ga": "de mhí na Samhna",
+        "en": "of November"
+       },
+       {
+        "ga": "de mhí na Nollag",
+        "en": "of December"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An deireadh seachtaine",
+     "columns": [
+      [
+       {
+        "ga": "Imrím peil",
+        "en": "I play football"
+       },
+       {
+        "ga": "Téim ag snámh",
+        "en": "I go swimming"
+       },
+       {
+        "ga": "Tugaim cuairt ar mo mhamó",
+        "en": "I visit my granny"
+       },
+       {
+        "ga": "Téim chuig an Aifreann",
+        "en": "I go to Mass"
+       }
+      ],
+      [
+       {
+        "ga": "Dé Sathairn",
+        "en": "on Saturday"
+       },
+       {
+        "ga": "Dé Domhnaigh",
+        "en": "on Sunday"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Inniu an Luan. Bíonn Gaeilge agus ceol againn Dé Luain.",
+    "Bíonn mo lá breithe ar an dara lá de mhí na Samhna.",
+    "Imrím peil Dé Sathairn agus téim chuig an Aifreann Dé Domhnaigh."
+   ],
+   "new": true
   }
  ],
  "reviewed": "Independent check applied 26 September 2026: gender agreement after feminine subjects, contradictory opinion and reason pairs, untrue county combinations, bedtime times, sport and computer games, guthán for fón, two question wordings, the copula gloss."

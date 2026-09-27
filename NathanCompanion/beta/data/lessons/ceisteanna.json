@@ -1,0 +1,426 @@
+{
+ "id": "ceisteanna",
+ "lessons": [
+  {
+   "title": "Cé agus Cad é",
+   "en": "Who and what",
+   "rule": "Cé (who) and Cad é (what) are followed by a and h on the verb: Cé a bhris an fhuinneog? Cad é a dhéanann tú? For bí in the present, use atá: Cé atá ann? Cad é atá ort?",
+   "steps": [
+    "Start with Cé or Cad é.",
+    "Add a, and put h on the verb: cuir becomes a chuir.",
+    "For bí in the present, write atá instead: Cé atá ag caint?"
+   ],
+   "example": {
+    "prompt": "(Cé / cuir, an aimsir chaite) glaoch ort aréir?",
+    "answer": "Cé a chuir glaoch ort aréir?"
+   },
+   "more": [
+    {
+     "prompt": "(Cad é / bí) cearr?",
+     "answer": "Cad é atá cearr?"
+    }
+   ],
+   "hint": "Cé or Cad é, then a + h. Bí in the present: atá.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Cé / bí) ag an doras?",
+     "answer": "Cé atá ag an doras?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / bí) ort?",
+     "answer": "Cad é atá ort?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / bí) ag caint?",
+     "answer": "Cé atá ag caint?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / bris, an aimsir chaite) an fhuinneog inné?",
+     "answer": "Cé a bhris an fhuinneog inné?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / ceannaigh, an aimsir chaite) tú sa siopa inné?",
+     "answer": "Cad é a cheannaigh tú sa siopa inné?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / glan, an aimsir láithreach) an chistin gach oíche?",
+     "answer": "Cé a ghlanann an chistin gach oíche?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cad é / déan, an aimsir láithreach) tú ag an deireadh seachtaine?",
+     "answer": "Cad é a dhéanann tú ag an deireadh seachtaine?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cé / cuir, an aimsir fháistineach) an dinnéar ar an tábla anocht?",
+     "answer": "Cé a chuirfidh an dinnéar ar an tábla anocht?"
+    }
+   ]
+  },
+  {
+   "title": "Cá + urú",
+   "en": "Where: Cá eclipses the verb",
+   "rule": "Cá (where) eclipses the verb after it: Cá bhfuil tú? Cá dtéann tú? In the past, irregular verbs keep Cá with eclipsis (Cá ndeachaigh tú? Cá bhfaca tú é?), but raibh never changes (Cá raibh tú?). Regular verbs in the past take Cár and h: Cár fhág tú do mhála?",
+   "steps": [
+    "Start with Cá.",
+    "Eclipse the verb: téann becomes dtéann, imríonn becomes n-imríonn.",
+    "In the past, a regular verb takes Cár and h: Cár fhág tú é?"
+   ],
+   "example": {
+    "prompt": "(Cá / imir, an aimsir láithreach) tú peil?",
+    "answer": "Cá n-imríonn tú peil?"
+   },
+   "more": [
+    {
+     "prompt": "(Cá / fág, an aimsir chaite) tú do mhála?",
+     "answer": "Cár fhág tú do mhála?"
+    }
+   ],
+   "hint": "Cá + eclipsis. Regular past: Cár + h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Cá / bí) do mhála?",
+     "answer": "Cá bhfuil do mhála?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / téigh, an aimsir láithreach) tú ar scoil?",
+     "answer": "Cá dtéann tú ar scoil?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / cónaigh, an aimsir láithreach) do mhamó?",
+     "answer": "Cá gcónaíonn do mhamó?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / oibrigh, an aimsir láithreach) d'athair?",
+     "answer": "Cá n-oibríonn d'athair?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / téigh, an aimsir chaite) tú ar do laethanta saoire anuraidh?",
+     "answer": "Cá ndeachaigh tú ar do laethanta saoire anuraidh?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / fág, an aimsir chaite) tú do chóta?",
+     "answer": "Cár fhág tú do chóta?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / bí, an aimsir chaite) tú aréir?",
+     "answer": "Cá raibh tú aréir?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cá / feic, an aimsir chaite) tú an scannán?",
+     "answer": "Cá bhfaca tú an scannán?"
+    }
+   ]
+  },
+  {
+   "title": "Cá háit agus Cén áit",
+   "en": "Where: Cá háit and Cén áit",
+   "rule": "Cá háit and Cén áit (what place) are followed by a and eclipsis in the present and future: Cá háit a bhfuil sé? Cén áit a mbeidh tú? In the past, irregular verbs take a and eclipsis (Cá háit a ndeachaigh tú?), and regular verbs take ar and h (Cén áit ar fhan tú?).",
+   "steps": [
+    "Start with Cá háit or Cén áit.",
+    "Add a and eclipse the verb: a bhfuil, a n-oibríonn.",
+    "In the past, a regular verb takes ar and h: Cén áit ar chas tú air?"
+   ],
+   "example": {
+    "prompt": "Cén áit (imir, an aimsir láithreach) sibh peil?",
+    "answer": "Cén áit a n-imríonn sibh peil?"
+   },
+   "more": [
+    {
+     "prompt": "Cén áit (fan, an aimsir chaite) sibh an samhradh seo caite?",
+     "answer": "Cén áit ar fhan sibh an samhradh seo caite?"
+    }
+   ],
+   "hint": "a + eclipsis. Regular past: ar + h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cá háit (bí) an leabharlann?",
+     "answer": "Cá háit a bhfuil an leabharlann?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén áit (ceannaigh, an aimsir láithreach) tú do chuid éadaí?",
+     "answer": "Cén áit a gceannaíonn tú do chuid éadaí?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá háit (téigh, an aimsir chaite) tú anuraidh?",
+     "answer": "Cá háit a ndeachaigh tú anuraidh?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén áit (cas, an aimsir chaite) tú ar do chara?",
+     "answer": "Cén áit ar chas tú ar do chara?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá háit (oibrigh, an aimsir láithreach) do mháthair?",
+     "answer": "Cá háit a n-oibríonn do mháthair?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén áit (fan, an aimsir chaite) sibh an samhradh seo caite?",
+     "answer": "Cén áit ar fhan sibh an samhradh seo caite?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá háit (bí, an aimsir fháistineach) tú ag dul amárach?",
+     "answer": "Cá háit a mbeidh tú ag dul amárach?"
+    }
+   ]
+  },
+  {
+   "title": "Cad chuige agus Cén fáth",
+   "en": "Why",
+   "rule": "Cad chuige and Cén fáth (why) are followed by a and eclipsis: Cad chuige a bhfuil tú déanach? Cén fáth a n-imríonn tú camógaíocht? In the past, irregular verbs take a and eclipsis (Cén fáth a ndearna tú sin?), and regular verbs take ar and h (Cad chuige ar chaill tú an bus?).",
+   "steps": [
+    "Start with Cad chuige or Cén fáth.",
+    "Add a and eclipse the verb: a bhfuil, a n-imríonn.",
+    "In the past, a regular verb takes ar and h: Cad chuige ar fhág tú?"
+   ],
+   "example": {
+    "prompt": "Cad chuige (bí) tú tuirseach?",
+    "answer": "Cad chuige a bhfuil tú tuirseach?"
+   },
+   "more": [
+    {
+     "prompt": "Cad chuige (caill, an aimsir chaite) tú an bus?",
+     "answer": "Cad chuige ar chaill tú an bus?"
+    }
+   ],
+   "hint": "a + eclipsis. Regular past: ar + h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cad chuige (bí) tú déanach?",
+     "answer": "Cad chuige a bhfuil tú déanach?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén fáth (bí) brón ort?",
+     "answer": "Cén fáth a bhfuil brón ort?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén fáth (imir, an aimsir láithreach) tú camógaíocht?",
+     "answer": "Cén fáth a n-imríonn tú camógaíocht?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén fáth (déan, an aimsir chaite) tú sin?",
+     "answer": "Cén fáth a ndearna tú sin?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad chuige (caill, an aimsir chaite) tú do bhus?",
+     "answer": "Cad chuige ar chaill tú do bhus?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén fáth (roghnaigh, an aimsir chaite) tú an Ghaeilge?",
+     "answer": "Cén fáth ar roghnaigh tú an Ghaeilge?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad chuige (téigh, an aimsir chaite) sé abhaile go luath?",
+     "answer": "Cad chuige a ndeachaigh sé abhaile go luath?"
+    }
+   ]
+  },
+  {
+   "title": "Cá mhéad",
+   "en": "How many",
+   "rule": "Cá mhéad (how many) takes the noun in the singular, not the plural: Cá mhéad deartháir atá agat? Cá mhéad ábhar a dhéanann tú? After the noun, use atá for bí, or a and h for other verbs.",
+   "steps": [
+    "Start with Cá mhéad.",
+    "Put the noun in the singular: deartháireacha becomes deartháir.",
+    "Add atá, or a and h on the verb: Cá mhéad deartháir atá agat?"
+   ],
+   "example": {
+    "prompt": "Cá mhéad (deartháireacha) atá agat?",
+    "answer": "Cá mhéad deartháir atá agat?"
+   },
+   "more": [
+    {
+     "prompt": "Cá mhéad (leabhair) a léigh tú?",
+     "answer": "Cá mhéad leabhar a léigh tú?"
+    }
+   ],
+   "hint": "Cá mhéad + singular noun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (deirfiúracha) atá agat?",
+     "answer": "Cá mhéad deirfiúr atá agat?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (ábhair) a dhéanann tú?",
+     "answer": "Cá mhéad ábhar a dhéanann tú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (daltaí) atá sa rang?",
+     "answer": "Cá mhéad dalta atá sa rang?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (uaireanta) a chonaic tú an scannán?",
+     "answer": "Cá mhéad uair a chonaic tú an scannán?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (peataí) atá agaibh?",
+     "answer": "Cá mhéad peata atá agaibh?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (leabhair) a léigh tú?",
+     "answer": "Cá mhéad leabhar a léigh tú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cá mhéad (blianta) atá tú ag foghlaim Gaeilge?",
+     "answer": "Cá mhéad bliain atá tú ag foghlaim Gaeilge?"
+    }
+   ]
+  },
+  {
+   "title": "Cén + ainmfhocal",
+   "en": "Which: Cén + noun",
+   "rule": "Cén (which, what) changes the noun like the article an: h on a feminine noun (Cén bhliain? Cén mhí?) and t- before a masculine noun beginning with a vowel (Cén t-am? Cén t-ábhar?). Other nouns do not change: Cén lá? Cén aois? Cén obair?",
+   "steps": [
+    "Decide if the noun is masculine or feminine.",
+    "Feminine: add h (bliain becomes bhliain). Masculine with a vowel: add t- (am becomes t-am).",
+    "Anything else stays as it is: Cén lá?"
+   ],
+   "example": {
+    "prompt": "Cén (bliain) a bhí ann?",
+    "answer": "Cén bhliain a bhí ann?"
+   },
+   "more": [
+    {
+     "prompt": "Cén (ábhar) is fearr leat?",
+     "answer": "Cén t-ábhar is fearr leat?"
+    }
+   ],
+   "hint": "Cén works like an: h on feminine nouns, t- on masculine vowels.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cén (am) é?",
+     "answer": "Cén t-am é?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (aois) thú?",
+     "answer": "Cén aois thú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (ábhar) is fearr leat?",
+     "answer": "Cén t-ábhar is fearr leat?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (cineál) ceoil a thaitníonn leat?",
+     "answer": "Cén cineál ceoil a thaitníonn leat?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (mí) is fearr leat?",
+     "answer": "Cén mhí is fearr leat?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (craobh) a bhain siad?",
+     "answer": "Cén chraobh a bhain siad?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (obair) a dhéanann d'athair?",
+     "answer": "Cén obair a dhéanann d'athair?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén (contae) as a bhfuil tú?",
+     "answer": "Cén contae as a bhfuil tú?"
+    }
+   ]
+  },
+  {
+   "title": "Cad é mar agus Cén dóigh",
+   "en": "How",
+   "rule": "Cad é mar (how) is followed by atá for bí, or a and h: Cad é mar atá tú? Cad é mar a bhí an aimsir? Cén dóigh (in what way) is followed by a and eclipsis: Cén dóigh a bhfuil tú? Cén dóigh a dtéann tú ar scoil?",
+   "steps": [
+    "Cad é mar: atá, or a + h on the verb.",
+    "Cén dóigh: a + eclipsis on the verb.",
+    "Both are everyday Ulster greetings: Cad é mar atá tú? Cén dóigh a bhfuil tú?"
+   ],
+   "example": {
+    "prompt": "Cad é mar (bí) do mháthair?",
+    "answer": "Cad é mar atá do mháthair?"
+   },
+   "more": [
+    {
+     "prompt": "Cén dóigh (bí) tú?",
+     "answer": "Cén dóigh a bhfuil tú?"
+    }
+   ],
+   "hint": "Cad é mar + a + h. Cén dóigh + a + eclipsis.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar (bí) tú?",
+     "answer": "Cad é mar atá tú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén dóigh (bí) tú?",
+     "answer": "Cén dóigh a bhfuil tú?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar (téigh, an aimsir chaite) an cluiche?",
+     "answer": "Cad é mar a chuaigh an cluiche?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén dóigh (téigh, an aimsir láithreach) tú ar scoil?",
+     "answer": "Cén dóigh a dtéann tú ar scoil?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar (bí, an aimsir chaite) an aimsir inné?",
+     "answer": "Cad é mar a bhí an aimsir inné?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cén dóigh (déan, an aimsir chaite) tú an cáca?",
+     "answer": "Cén dóigh a ndearna tú an cáca?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é mar (mothaigh, an aimsir láithreach) tú inniu?",
+     "answer": "Cad é mar a mhothaíonn tú inniu?"
+    }
+   ]
+  }
+ ]
+}

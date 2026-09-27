@@ -11,7 +11,8 @@
    "questions": [
     "Inis dom rud beag fút féin agus faoi do theaghlach.",
     "An bhfuil buntáistí nó míbhuntáistí ag baint le bheith ar an duine is sine nó ar an duine is óige sa teaghlach?",
-    "An réitíonn tú go maith le do dheartháireacha agus le do dheirfiúracha?"
+    "An réitíonn tú go maith le do dheartháireacha agus le do dheirfiúracha?",
+    "Cé acu is fearr leat, teaghlach mór nó teaghlach beag?"
    ],
    "rows": [
     {
@@ -400,6 +401,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go réitím go maith le mo theaghlach",
+        "en": "that I get on well with my family"
+       },
+       {
+        "ga": "go bhfuil sé deacair a bheith ar an duine is óige",
+        "en": "that it is hard being the youngest"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -418,7 +475,8 @@
     "Cá bhfuil tú i do chónaí? An bhfuil dúil agat ann?",
     "An bhfuil go leor áiseanna ann do dhaoine óga?",
     "An bhfuil na daoine a chónaíonn i do cheantar cúramach faoin timpeallacht?",
-    "An bhfuil fadhbanna timpeallachta i do cheantar?"
+    "An bhfuil fadhbanna timpeallachta i do cheantar?",
+    "Dá dtiocfadh leat cónaí in áit ar bith, cén áit a roghnófá?"
    ],
    "rows": [
     {
@@ -767,6 +825,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "nach bhfuil go leor áiseanna ann do dhaoine óga",
+        "en": "that there are not enough facilities for young people"
+       },
+       {
+        "ga": "go gcaithfidh muid níos mó a dhéanamh ar son na timpeallachta",
+        "en": "that we have to do more for the environment"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -785,7 +899,8 @@
     "An bhfuil dúil agat sa scoil seo?",
     "Cad iad na hábhair AS atá á ndéanamh agat?",
     "Cad chuige ar roghnaigh tú na hábhair sin?",
-    "An maith leat gach gné den chúrsa Gaeilge ag leibhéal AS?"
+    "An maith leat gach gné den chúrsa Gaeilge ag leibhéal AS?",
+    "Dá mbeifeá i do phríomhoide, cad é a d'athrófá sa scoil?"
    ],
    "rows": [
     {
@@ -1114,6 +1229,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil an iomarca brú ar dhaltaí AS",
+        "en": "that there is too much pressure on AS pupils"
+       },
+       {
+        "ga": "go bhfuil na múinteoirí an-chuidiúil",
+        "en": "that the teachers are very helpful"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -1132,7 +1303,8 @@
     "Cad iad na hábhair ar mhaith leat a dhéanamh an bhliain seo chugainn?",
     "Ar smaoinigh tú ar chúrsa ollscoile go fóill?",
     "An bhfuil slí bheatha ar bith ar intinn agat?",
-    "Cad é ba mhaith leat a dhéanamh i ndiaidh na scoile?"
+    "Cad é ba mhaith leat a dhéanamh i ndiaidh na scoile?",
+    "Cá háit a mbeidh tú i gceann deich mbliana, meas tú?"
    ],
    "rows": [
     {
@@ -1407,6 +1579,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go mbeidh sé deacair áit a fháil san ollscoil",
+        "en": "that it will be hard to get a place at university"
+       },
+       {
+        "ga": "go rachaidh mé chun na hollscoile",
+        "en": "that I will go to university"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -1426,7 +1654,8 @@
     "An mbaineann tú úsáid as na meáin shóisialta?",
     "An gcaitheann tú an iomarca ama ar do ghuthán?",
     "An bhfuil tú cúramach ar líne?",
-    "An aontaíonn tú leis an bhéim a chuirtear ar an teicneolaíocht ar scoil agus sa saol i gcoitinne?"
+    "An aontaíonn tú leis an bhéim a chuirtear ar an teicneolaíocht ar scoil agus sa saol i gcoitinne?",
+    "An dtiocfadh leat maireachtáil gan do ghuthán ar feadh seachtaine?"
    ],
    "rows": [
     {
@@ -1747,6 +1976,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go gcaitheann daoine óga an iomarca ama ar líne",
+        "en": "that young people spend too much time online"
+       },
+       {
+        "ga": "go bhfuil an guthán cliste an-úsáideach",
+        "en": "that the smartphone is very useful"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -1765,7 +2050,8 @@
     "Cad chuige ar roghnaigh tú an Ghaeilge mar ábhar AS?",
     "An fiú do dhuine atá ag foghlaim na Gaeilge dul chun na Gaeltachta, i do bharúil?",
     "An raibh tú riamh ar chúrsa sa Ghaeltacht?",
-    "Inis dom fá dtaobh de."
+    "Inis dom fá dtaobh de.",
+    "An labhraíonn tú Gaeilge taobh amuigh den scoil?"
    ],
    "rows": [
     {
@@ -2082,6 +2368,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil an Ghaeltacht ar fheabhas le Gaeilge a fhoghlaim",
+        "en": "that the Gaeltacht is excellent for learning Irish"
+       },
+       {
+        "ga": "go mbeidh an Ghaeilge úsáideach dom sa todhchaí",
+        "en": "that Irish will be useful to me in the future"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -2100,7 +2442,8 @@
     "An amharcann tú ar TG4?",
     "Cad é do bharúil air?",
     "An gcuidíonn sé le foghlaim na teanga?",
-    "An bhfaca tú scannán ar bith ar na mallaibh? Inis dom fá dtaobh de."
+    "An bhfaca tú scannán ar bith ar na mallaibh? Inis dom fá dtaobh de.",
+    "Cén clár teilifíse nó cén tsraith a chuaigh i bhfeidhm ort?"
    ],
    "rows": [
     {
@@ -2412,6 +2755,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go gcuidíonn TG4 le foghlaim na teanga",
+        "en": "that TG4 helps with learning the language"
+       },
+       {
+        "ga": "go bhfuil na cláir ar TG4 níos fearr ná riamh",
+        "en": "that the programmes on TG4 are better than ever"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -2430,7 +2829,8 @@
     "An bhfuil post páirtaimseartha agat? Cuir síos air.",
     "Cén ráta pá a fhaigheann tú?",
     "Cad é a dhéanann tú leis an airgead?",
-    "An bhfuil sé doiligh a bheith ag obair agus ag déanamh staidéir ag an am chéanna?"
+    "An bhfuil sé doiligh a bheith ag obair agus ag déanamh staidéir ag an am chéanna?",
+    "Cad é is tábhachtaí duit i bpost: an pá nó na daoine?"
    ],
    "rows": [
     {
@@ -2735,6 +3135,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil sé doiligh obair agus staidéar a dhéanamh",
+        "en": "that it is hard to work and study"
+       },
+       {
+        "ga": "nach bhfaigheann daoine óga pá cothrom",
+        "en": "that young people do not get fair pay"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -2753,7 +3209,8 @@
     "An bhfuil caitheamh aimsire ar bith agat? Inis dom fá dtaobh de.",
     "An bhfuil gléas ceoil ar bith agat? Cuir síos air.",
     "Cad é a dhéanann tú nuair nach mbíonn tú ag déanamh oibre scoile?",
-    "An bhfuil suim agat sa pholaitíocht?"
+    "An bhfuil suim agat sa pholaitíocht?",
+    "Cén cineál ceoil nach maith leat ar chor ar bith?"
    ],
    "rows": [
     {
@@ -3074,6 +3531,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil caitheamh aimsire tábhachtach don tsláinte",
+        "en": "that pastimes are important for health"
+       },
+       {
+        "ga": "go gcaitheann daoine óga an iomarca ama os comhair an scáileáin",
+        "en": "that young people spend too much time in front of the screen"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -3091,7 +3604,8 @@
    "questions": [
     "An imríonn tú spórt ar bith? Inis dom faoin tsuim atá agat sa spórt.",
     "Cad é do bharúil ar pheil na mban?",
-    "An bhfuil peil na mban ag fás i do cheantar?"
+    "An bhfuil peil na mban ag fás i do cheantar?",
+    "An dóigh leat go bhfuil spórt tábhachtach do dhaoine óga?"
    ],
    "rows": [
     {
@@ -3376,6 +3890,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil peil na mban ag fás go gasta",
+        "en": "that ladies' football is growing fast"
+       },
+       {
+        "ga": "nach bhfaigheann spórt na mban go leor airde",
+        "en": "that women's sport does not get enough attention"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -3393,7 +3963,8 @@
    "questions": [
     "Cá háit a dtéann tú ag deireadh na seachtaine?",
     "Cad é a dhéanann tú ar an Satharn?",
-    "Agus cad é a dhéanann tú ar an Domhnach?"
+    "Agus cad é a dhéanann tú ar an Domhnach?",
+    "Cad é a rinne tú an deireadh seachtaine seo caite?"
    ],
    "rows": [
     {
@@ -3645,6 +4216,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil an deireadh seachtaine róghearr",
+        "en": "that the weekend is too short"
+       },
+       {
+        "ga": "go mbíonn an Satharn níos fearr ná an Domhnach",
+        "en": "that Saturday is better than Sunday"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -3664,7 +4291,8 @@
     "Cá háit a dtéann tú ar laethanta saoire de ghnáth?",
     "Cá háit a ndeachaigh tú anuraidh?",
     "An raibh tú riamh sa Spáinn?",
-    "An bhfuil rud ar bith beartaithe agat don samhradh seo chugainn?"
+    "An bhfuil rud ar bith beartaithe agat don samhradh seo chugainn?",
+    "Dá mbeadh do rogha saoire agat, cá rachfá?"
    ],
    "rows": [
     {
@@ -3965,6 +4593,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil taisteal tábhachtach do dhaoine óga",
+        "en": "that travel is important for young people"
+       },
+       {
+        "ga": "go bhfuil sé níos fearr saoire a chaitheamh in Éirinn",
+        "en": "that it is better to spend a holiday in Ireland"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -3985,7 +4669,8 @@
     "An bhfuil fadhb le toitíní leictreonacha i measc daoine óga?",
     "An mbíonn barraíocht brú ar dhaoine óga ar scoil sa lá atá inniu ann?",
     "An gcuireann na meáin shóisialta brú ar dhaoine óga?",
-    "An mothaíonn tú féin faoi bhrú?"
+    "An mothaíonn tú féin faoi bhrú?",
+    "Cad é an fhadhb is mó atá ag daoine óga sa lá atá inniu ann?"
    ],
    "rows": [
     {
@@ -4285,6 +4970,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil barraíocht brú ar dhaoine óga",
+        "en": "that there is too much pressure on young people"
+       },
+       {
+        "ga": "go bhfuil fadhb mhór ann le toitíní leictreonacha",
+        "en": "that there is a big problem with vapes"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -4303,7 +5044,8 @@
     "An mbaineann tú úsáid as an intleacht shaorga?",
     "An bhfuil an intleacht shaorga úsáideach don obair scoile?",
     "An bhfuil contúirtí ag baint leis an intleacht shaorga, i do bharúil?",
-    "An dóigh leat go n-athróidh an intleacht shaorga an saol oibre?"
+    "An dóigh leat go n-athróidh an intleacht shaorga an saol oibre?",
+    "Ar cheart cosc a chur ar an intleacht shaorga ar scoil?"
    ],
    "rows": [
     {
@@ -4575,6 +5317,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go n-athróidh an intleacht shaorga an saol oibre",
+        "en": "that AI will change the world of work"
+       },
+       {
+        "ga": "go bhfuil contúirtí ag baint leis an intleacht shaorga",
+        "en": "that there are dangers with AI"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -4594,7 +5392,8 @@
     "Cé leis a labhraíonn tú má bhíonn imní ort?",
     "An bhfuil go leor tacaíochta ann do dhaoine óga?",
     "An dóigh leat go mbíonn tionchar ag na meáin shóisialta ar shláinte mheabhrach daoine óga?",
-    "Cad é is féidir le scoileanna a dhéanamh le cuidiú le daltaí?"
+    "Cad é is féidir le scoileanna a dhéanamh le cuidiú le daltaí?",
+    "Cad é a chuidíonn leat do scíth a ligean?"
    ],
    "rows": [
     {
@@ -4889,6 +5688,62 @@
        }
       ]
      ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "nach bhfuil go leor tacaíochta ann do dhaoine óga",
+        "en": "that there is not enough support for young people"
+       },
+       {
+        "ga": "go gcuireann na meáin shóisialta isteach ar shláinte mheabhrach",
+        "en": "that social media affects mental health"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
     }
    ],
    "examples": [
@@ -4907,7 +5762,8 @@
     "An gcuireann an costas maireachtála isteach ar do theaghlach?",
     "An bhfuil sé tábhachtach do dhaoine óga airgead a shábháil?",
     "Cad é a gcaitheann tú d'airgead air?",
-    "An mbeidh sé doiligh íoc as an ollscoil, i do bharúil?"
+    "An mbeidh sé doiligh íoc as an ollscoil, i do bharúil?",
+    "An bhfuil post páirtaimseartha de dhíth ar dhaoine óga sa lá atá inniu ann?"
    ],
    "rows": [
     {
@@ -5178,6 +6034,62 @@
        {
         "ga": "gur cheart foghlaim faoi airgead a bheith ar an churaclam",
         "en": "learning about money should be on the curriculum"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "go bhfuil gach rud ag éirí níos daoire",
+        "en": "that everything is getting dearer"
+       },
+       {
+        "ga": "go bhfuil sé tábhachtach airgead a shábháil",
+        "en": "that it is important to save money"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
        }
       ]
      ]

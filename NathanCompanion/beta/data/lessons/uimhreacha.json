@@ -366,7 +366,7 @@
   {
    "title": "Beirt, triúr, ceathrar",
    "en": "Counting people",
-   "rule": "Count people with beirt, triúr, ceathrar, cúigear, seisear, seachtar, ochtar, naonúr, deichniúr (on their own for duine: seisear), then put the noun in the plural: triúr daltaí. Only beirt adds h: beirt dhochtúirí.",
+   "rule": "Count people with beirt, triúr, ceathrar, cúigear, seisear, seachtar, ochtar, naonúr, deichniúr (on their own for duine: seisear), then put the noun in the plural: triúr daltaí. Only beirt adds h (beirt chailíní), but not to d, t or s: beirt dochtúirí, beirt deartháireacha.",
    "steps": [
     "Choose the people number: 4 people is ceathrar.",
     "Make the noun plural: múinteoir becomes múinteoirí.",
@@ -382,7 +382,7 @@
      "answer": "Beirt chailíní."
     }
    ],
-   "hint": "People number + plural noun. Beirt adds h.",
+   "hint": "People number + plural noun. Beirt adds h, except to d, t and s.",
    "items": [
     {
      "shape": "stem",
@@ -392,7 +392,7 @@
     {
      "shape": "stem",
      "prompt": "2 (dochtúir)",
-     "answer": "Beirt dhochtúirí."
+     "answer": "Beirt dochtúirí."
     },
     {
      "shape": "stem",

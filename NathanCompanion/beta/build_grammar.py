@@ -30,7 +30,11 @@ GROUPS = [
  ("An t-ainmfhocal","Nouns","📚",["d1","d2","d3","d4","d5","sealbhach"]),
  ("Na réamhfhocail","Prepositions","📍",["reamhfhocail-simpli","reamhfhocail-briathra","reamhfhocail-chomhshuite"]),
  ("Aidiachtaí, uimhreacha, dobhriathra","Adjectives, numbers, adverbs","🔢",["aidiachtai","uimhreacha","dobhriathar"]),
+ ("Ceisteanna agus clásail","Questions and clauses","❓",["ceisteanna","clasail"]),
 ]
+# Sections written as walk-through lessons only, with no entry in the grammar extraction.
+LESSON_ONLY = {"ceisteanna": ("Na míreanna ceisteacha", "Question words"),
+               "clasail": ("Clásail: go, nach, gur, nár", "Dependent clauses: that, that not")}
 PIC = re.compile(r'\s*\[pictiúr:\s*([^\]]*)\]\s*')
 def gap_answer(stem, fresh):
     parts = re.split(r'_{3,}', stem)
@@ -79,6 +83,8 @@ for s in SRC['sections']:
         'models': models, 'items': items}
 # Walk-through lessons (data/lessons/<id>.json), written per section: rule, steps, worked example, hint, practice.
 import os
+for sid, (t, e) in LESSON_ONLY.items():
+    out['sections'][sid] = {'id': sid, 'title': t, 'en': e, 'rules': [], 'tables': [], 'models': [], 'items': []}
 DASH = re.compile('[\u2013\u2014]')
 def tidy(v):
     if isinstance(v, str): return DASH.sub(',', nb(v)) if v else v

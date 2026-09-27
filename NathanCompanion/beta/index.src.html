@@ -168,7 +168,7 @@ const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(M
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 const fold=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC');
 const norm=s=>String(s||'').toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?,]/g,' ').replace(/\s+/g,' ').trim();
-const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱'};
+const EM={'b1-mefein':'🙋','b2-teaghlach':'👨‍👩‍👧‍👦','b3-cursios':'🪞','b4-ceantar':'🏡','b5-scoil':'🏫','b6-caitheamh':'⚽','b7-la':'⏰','b8-guthan':'📱','b9-laethanta':'📅'};
 const STEPS=[['Éist','Listen'],['Aithin','Recognise'],['Tóg','Build'],['Ó chuimhne','From memory']];
 const DAY=86400000, INT=[0,1,2,4,8,16,32];
 
@@ -259,7 +259,7 @@ function render(){
       <p class="lede">Éist, aithin, tóg agus cuimhnigh. Cúpla bomaite san oíche. <br><span class="note">Listen, recognise, build and remember. A few minutes a night.</span></p>
       <div class="units">${U.map((u,i)=>{const p=unitProgress(u);const n=(S.units[u.id]||{}).runs||0;
         return `<button class="unit" data-act="open" data-i="${i}"><span class="em" aria-hidden="true">${EM[u.id]||'💬'}</span><span class="t"><b lang="ga">${i+1}. ${esc(u.title)}</b><span class="s">${esc(u.en)}</span><span class="bar"><i style="width:${p}%"></i></span></span><span class="go">${n?'Arís':'Tosaigh'} →</span></button>`;}).join('')}</div>
-      <button class="track" data-act="gram"><span class="em" aria-hidden="true">📐</span><span><b>Gramadach · AS agus A2</b><span class="s">Grammar for Years 13 and 14: pattern, rule, practice. 30 sections.</span></span></button>
+      <button class="track" data-act="gram"><span class="em" aria-hidden="true">📐</span><span><b>Gramadach · AS agus A2</b><span class="s">Grammar for Years 13 and 14: rule, worked example, practice. 32 sections.</span></span></button>
       ${C.length?`<button class="track c" data-act="comhra"><span class="em" aria-hidden="true">💬</span><span><b>Comhrá · AS</b><span class="s">The speaking test conversation: ${C.length} topics, examiner questions, sentence builders and your own answers.</span></span></button>`:''}
       <p class="note">Dréacht le haghaidh tástála. A draft for testing. Voice: Áine, ABAIR (Trinity College Dublin). Progress stays on this phone.</p>`;
     return;

@@ -104,6 +104,7 @@ struct BuilderUnit: Codable, Hashable, Identifiable {
         case "b6-caitheamh": return "⚽"
         case "b7-la": return "⏰"
         case "b8-guthan": return "📱"
+        case "b9-laethanta": return "📅"
         default: return "💬"
         }
     }

@@ -68,7 +68,7 @@ struct HomeView: View {
                                 Text("📐").font(.system(size: 34)).accessibilityHidden(true)
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text("Gramadach · AS agus A2").font(.headline)
-                                    Text("Grammar for Years 13 and 14: pattern, rule, practice. 30 sections.")
+                                    Text("Grammar for Years 13 and 14: rule, worked example, practice. 32 sections.")
                                         .font(.subheadline)
                                         .opacity(0.85)
                                 }

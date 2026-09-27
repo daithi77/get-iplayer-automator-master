@@ -14,7 +14,7 @@ def irish(cols):
 # Which builder rows can answer each question in one sentence. None = needs more than one row; left out of the typed exam question.
 QROWS={'b1-mefein':[[0,1],[3],[4]],'b2-teaghlach':[[0],[1,2],[1,2]],'b3-cursios':[[0,1,2,3],None],
  'b4-ceantar':[[0],[3,4],[2]],'b5-scoil':[None,[4,5],[0,1]],'b6-caitheamh':[[0,1,2],[0],[0,1,2]],
- 'b7-la':[[0],[1],[0,1,2,3]],'b8-guthan':[[0],[1]]}
+ 'b7-la':[[0],[1],[0,1,2,3]],'b8-guthan':[[0],[1]],'b9-laethanta':[[0],[1],[2],[3]]}
 units=[]; audio=set()
 for b in d['builders']:
     rows=[]

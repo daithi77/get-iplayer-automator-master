@@ -1,0 +1,368 @@
+{
+ "id": "clasail",
+ "lessons": [
+  {
+   "title": "go + urú",
+   "en": "That: go eclipses the verb",
+   "rule": "After Sílim, Measaim, Deir sé, Cluinim and Tá a fhios agam, 'that' is go, and go eclipses the verb: Sílim go bhfuil sé fuar. Deir sí go n-imríonn sí peil. The verb keeps its tense.",
+   "steps": [
+    "Write the opener: Sílim.",
+    "Add go.",
+    "Eclipse the verb: tá becomes bhfuil, imríonn becomes n-imríonn."
+   ],
+   "example": {
+    "prompt": "Sílim: Tá sé ag cur báistí.",
+    "answer": "Sílim go bhfuil sé ag cur báistí."
+   },
+   "more": [
+    {
+     "prompt": "Deir sé: Imríonn sé cispheil.",
+     "answer": "Deir sé go n-imríonn sé cispheil."
+    }
+   ],
+   "hint": "go + eclipsis. Tá becomes go bhfuil.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Tá an scrúdú furasta.",
+     "answer": "Sílim go bhfuil an scrúdú furasta."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá a fhios agam: Téann sí ar scoil ar an bhus.",
+     "answer": "Tá a fhios agam go dtéann sí ar scoil ar an bhus."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Measaim: Cuidíonn an Ghaeilge liom.",
+     "answer": "Measaim go gcuidíonn an Ghaeilge liom."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir mo mháthair: Bíonn sí tuirseach.",
+     "answer": "Deir mo mháthair go mbíonn sí tuirseach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Faigheann sé airgead póca.",
+     "answer": "Sílim go bhfaigheann sé airgead póca."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cluinim: Díolann an siopa sin gutháin.",
+     "answer": "Cluinim go ndíolann an siopa sin gutháin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir siad: Ólann siad an iomarca caife.",
+     "answer": "Deir siad go n-ólann siad an iomarca caife."
+    }
+   ]
+  },
+  {
+   "title": "nach + urú",
+   "en": "That ... not: nach",
+   "rule": "For 'that ... not', use nach instead of go. Nach takes the place of ní, and it eclipses too: Sílim nach bhfuil sé fuar. Deir sé nach n-imríonn sé peil.",
+   "steps": [
+    "Write the opener: Sílim.",
+    "Drop ní and write nach.",
+    "Eclipse the verb: níl becomes nach bhfuil."
+   ],
+   "example": {
+    "prompt": "Sílim: Níl an cluiche ar siúl.",
+    "answer": "Sílim nach bhfuil an cluiche ar siúl."
+   },
+   "more": [
+    {
+     "prompt": "Deir sé: Ní imríonn sé peil.",
+     "answer": "Deir sé nach n-imríonn sé peil."
+    }
+   ],
+   "hint": "nach + eclipsis. Níl becomes nach bhfuil.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Níl sé fuar.",
+     "answer": "Sílim nach bhfuil sé fuar."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá a fhios agam: Ní thuigeann sí an cheist.",
+     "answer": "Tá a fhios agam nach dtuigeann sí an cheist."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Measaim: Ní bhíonn go leor ama againn.",
+     "answer": "Measaim nach mbíonn go leor ama againn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir mo dheartháir: Ní ólann sé tae.",
+     "answer": "Deir mo dheartháir nach n-ólann sé tae."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Ní fhaigheann siad obair bhaile.",
+     "answer": "Sílim nach bhfaigheann siad obair bhaile."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cluinim: Ní osclaíonn an siopa Dé Domhnaigh.",
+     "answer": "Cluinim nach n-osclaíonn an siopa Dé Domhnaigh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sí: Ní thaitníonn an ceol léi.",
+     "answer": "Deir sí nach dtaitníonn an ceol léi."
+    }
+   ]
+  },
+  {
+   "title": "gur + séimhiú",
+   "en": "That, in the past: gur",
+   "rule": "In the past, a regular verb takes gur instead of go, and gur puts h on the verb: Deir sé gur ghlan sé an seomra. D' disappears: d'ól becomes gur ól, d'fhág becomes gur fhág.",
+   "steps": [
+    "Write the opener: Deir sé.",
+    "Add gur.",
+    "Keep the h, and drop d': gur ghlan, gur ól."
+   ],
+   "example": {
+    "prompt": "Deir sí: Chuir sí glaoch orm.",
+    "answer": "Deir sí gur chuir sí glaoch orm."
+   },
+   "more": [
+    {
+     "prompt": "Tá a fhios agam: D'ól siad an bainne.",
+     "answer": "Tá a fhios agam gur ól siad an bainne."
+    }
+   ],
+   "hint": "Regular past: gur + h, and no d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Ghlan sé an chistin.",
+     "answer": "Deir sé gur ghlan sé an chistin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Cheannaigh sí carr nua.",
+     "answer": "Sílim gur cheannaigh sí carr nua."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá a fhios agam: D'ól siad an bainne.",
+     "answer": "Tá a fhios agam gur ól siad an bainne."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir mo chara: Bhris sé a chos.",
+     "answer": "Deir mo chara gur bhris sé a chos."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cluinim: D'fhág sí an scoil.",
+     "answer": "Cluinim gur fhág sí an scoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Measaim: Chaill muid an cluiche.",
+     "answer": "Measaim gur chaill muid an cluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir siad: D'imir siad go maith.",
+     "answer": "Deir siad gur imir siad go maith."
+    }
+   ]
+  },
+  {
+   "title": "nár + séimhiú",
+   "en": "That ... not, in the past: nár",
+   "rule": "For 'that ... not' in the past, a regular verb takes nár and h. Nár takes the place of níor: Deir sé nár ghlan sé an seomra.",
+   "steps": [
+    "Write the opener: Deir sé.",
+    "Drop níor and write nár.",
+    "Keep the h: nár ghlan, nár fhág."
+   ],
+   "example": {
+    "prompt": "Deir sé: Níor ith sé an dinnéar.",
+    "answer": "Deir sé nár ith sé an dinnéar."
+   },
+   "more": [
+    {
+     "prompt": "Sílim: Níor cheannaigh sí an carr.",
+     "answer": "Sílim nár cheannaigh sí an carr."
+    }
+   ],
+   "hint": "Regular past, negative: nár + h.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Níor ghlan sé an seomra.",
+     "answer": "Deir sé nár ghlan sé an seomra."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Níor cheannaigh sí an carr.",
+     "answer": "Sílim nár cheannaigh sí an carr."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá a fhios agam: Níor ól siad an bainne.",
+     "answer": "Tá a fhios agam nár ól siad an bainne."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir mo mháthair: Níor fhág sí an teach.",
+     "answer": "Deir mo mháthair nár fhág sí an teach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Measaim: Níor chaill muid an cluiche.",
+     "answer": "Measaim nár chaill muid an cluiche."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cluinim: Níor imir sé inné.",
+     "answer": "Cluinim nár imir sé inné."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir an múinteoir: Níor éist siad léi.",
+     "answer": "Deir an múinteoir nár éist siad léi."
+    }
+   ]
+  },
+  {
+   "title": "Na briathra neamhrialta san aimsir chaite",
+   "en": "Irregular verbs in the past",
+   "rule": "Irregular verbs follow their question form. Bí, téigh, feic, faigh and déan (An raibh? An ndeachaigh?) take go or nach with eclipsis: go ndeachaigh, go bhfaca, go bhfuair, go ndearna; raibh never changes (go raibh). Tar, tabhair, beir, cluin, ith and abair (Ar tháinig? Níor dhúirt) take gur or nár: gur tháinig, gur thug, gur chuala, gur dhúirt.",
+   "steps": [
+    "Ask: does this verb take An or Ar in the past?",
+    "An: use go or nach, and eclipse (go ndeachaigh).",
+    "Ar: use gur or nár, with h (gur tháinig)."
+   ],
+   "example": {
+    "prompt": "Sílim: Bhí an cluiche iontach.",
+    "answer": "Sílim go raibh an cluiche iontach."
+   },
+   "more": [
+    {
+     "prompt": "Deir sé: Tháinig sé abhaile go déanach.",
+     "answer": "Deir sé gur tháinig sé abhaile go déanach."
+    }
+   ],
+   "hint": "An verbs: go/nach. Ar verbs: gur/nár.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Bhí sé tinn.",
+     "answer": "Deir sé go raibh sé tinn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Chuaigh siad go Béal Feirste.",
+     "answer": "Sílim go ndeachaigh siad go Béal Feirste."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá a fhios agam: Chonaic sí an scannán.",
+     "answer": "Tá a fhios agam go bhfaca sí an scannán."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sí: Fuair sí marc maith.",
+     "answer": "Deir sí go bhfuair sí marc maith."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cluinim: Rinne siad an obair.",
+     "answer": "Cluinim go ndearna siad an obair."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sí: Chuala sí an ceol.",
+     "answer": "Deir sí gur chuala sí an ceol."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Dúirt sé an fhírinne.",
+     "answer": "Deir sé gur dhúirt sé an fhírinne."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Ní raibh sé ann.",
+     "answer": "Deir sé nach raibh sé ann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Thug sé an leabhar di.",
+     "answer": "Sílim gur thug sé an leabhar di."
+    }
+   ]
+  },
+  {
+   "title": "An aimsir fháistineach agus an modh coinníollach",
+   "en": "The future and the conditional",
+   "rule": "In the future and the conditional, go and nach eclipse the verb, as in the present: Sílim go mbeidh sé fuar amárach. Deir sé nach ndéanfadh sé sin. Gheobhaidh becomes go bhfaighidh.",
+   "steps": [
+    "Write the opener: Tá súil agam.",
+    "Add go or nach.",
+    "Eclipse the verb: beidh becomes mbeidh; gheobhaidh becomes bhfaighidh."
+   ],
+   "example": {
+    "prompt": "Sílim: Beidh sé fuar anocht.",
+    "answer": "Sílim go mbeidh sé fuar anocht."
+   },
+   "more": [
+    {
+     "prompt": "Tá súil agam: Gheobhaidh mé post sa samhradh.",
+     "answer": "Tá súil agam go bhfaighidh mé post sa samhradh."
+    }
+   ],
+   "hint": "go/nach + eclipsis. Gheobhaidh: go bhfaighidh.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Beidh an aimsir go breá amárach.",
+     "answer": "Sílim go mbeidh an aimsir go breá amárach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá súil agam: Gheobhaidh mé post sa samhradh.",
+     "answer": "Tá súil agam go bhfaighidh mé post sa samhradh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sé: Rachaidh sé go dtí an ollscoil.",
+     "answer": "Deir sé go rachaidh sé go dtí an ollscoil."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Measaim: Ní bheidh an scrúdú deacair.",
+     "answer": "Measaim nach mbeidh an scrúdú deacair."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Sílim: Cheannódh sé carr dá mbeadh an t-airgead aige.",
+     "answer": "Sílim go gceannódh sé carr dá mbeadh an t-airgead aige."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deir sí: Ní dhéanfadh sí sin.",
+     "answer": "Deir sí nach ndéanfadh sí sin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Tá súil agam: Feicfidh mé thú amárach.",
+     "answer": "Tá súil agam go bhfeicfidh mé thú amárach."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Is dóigh liom: Imreoidh siad go maith.",
+     "answer": "Is dóigh liom go n-imreoidh siad go maith."
+    }
+   ]
+  }
+ ]
+}
