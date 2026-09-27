@@ -104,35 +104,38 @@ struct HomeView: View {
                         }
                         .buttonStyle(.plain)
                     }
-                    if !store.spreag.isEmpty {
-                        NavigationLink {
-                            SpreagHome()
-                        } label: {
-                            TrackTile(emoji: "🖼️", title: "An Spreagphictiúr · AS",
-                                      detail: "The picture stimulus: \(store.spreag.count) pictures, five questions each, then the examiner moves to your own life.",
-                                      colour: 1)
+                    // The AS picture stimulus, reading and translation, and the A2 track, in the web's order.
+                    Group {
+                        if !store.spreag.isEmpty {
+                            NavigationLink {
+                                SpreagHome()
+                            } label: {
+                                TrackTile(emoji: "🖼️", title: "An Spreagphictiúr · AS",
+                                          detail: "The picture stimulus: \(store.spreag.count) pictures, five questions each, then the examiner moves to your own life.",
+                                          colour: 1)
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                    }
-                    if !store.leamh.isEmpty {
-                        NavigationLink {
-                            LeamhHome()
-                        } label: {
-                            TrackTile(emoji: "📰", title: "Léitheoireacht agus aistriúchán",
-                                      detail: "Reading and translation, AS and A2: \(store.leamh.count) passages with a glossary, questions and translation both ways.",
-                                      colour: 3)
+                        if !store.leamh.isEmpty {
+                            NavigationLink {
+                                LeamhHome()
+                            } label: {
+                                TrackTile(emoji: "📰", title: "Léitheoireacht agus aistriúchán",
+                                          detail: "Reading and translation, AS and A2: \(store.leamh.count) passages with a glossary, questions and translation both ways.",
+                                          colour: 3)
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                    }
-                    if !store.a2.isEmpty {
-                        NavigationLink {
-                            GCSEHome(track: .a2)
-                        } label: {
-                            TrackTile(emoji: "🎓", title: UnitTrack.a2.title,
-                                      detail: "Discussion and writing: \(store.a2.count) units with opinion frames, a better-answer ladder, a debate with the examiner and an essay.",
-                                      colour: 0)
+                        if !store.a2.isEmpty {
+                            NavigationLink {
+                                GCSEHome(track: .a2)
+                            } label: {
+                                TrackTile(emoji: "🎓", title: UnitTrack.a2.title,
+                                          detail: "Discussion and writing: \(store.a2.count) units with opinion frames, a better-answer ladder, a debate with the examiner and an essay.",
+                                          colour: 0)
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
                     }
                     Text("Dréacht le haghaidh tástála. A draft for testing. Voice: Áine, ABAIR (Trinity College Dublin). Progress stays on this device.")
                         .font(.footnote)

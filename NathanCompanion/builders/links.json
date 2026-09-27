@@ -613,6 +613,162 @@
      "An ollscoil"
     ]
    ]
+  ],
+  "as-dideann": [
+   [
+    "nr-coinniollach",
+    6,
+    [
+     "Dá mbeadh an chumhacht agam"
+    ]
+   ],
+   [
+    "clasail",
+    3,
+    [
+     "An rialtas",
+     "Tuairimí"
+    ]
+   ],
+   [
+    "nr-laithreach",
+    2,
+    [
+     "Q1",
+     "Feicim"
+    ]
+   ],
+   [
+    "ainm-briathartha",
+    3,
+    [
+     "Daoine óga",
+     "An rialtas"
+    ]
+   ],
+   [
+    "reamhfhocail-simpli",
+    2,
+    [
+     "Mothúcháin",
+     "Ag freagairt"
+    ]
+   ]
+  ],
+  "as-vapeail": [
+   [
+    "clasail",
+    6,
+    [
+     "I bhfábhar",
+     "Ar an taobh eile"
+    ]
+   ],
+   [
+    "nr-fhaistineach",
+    3,
+    [
+     "An cosc atá beartaithe"
+    ]
+   ],
+   [
+    "r1-chaite",
+    6,
+    [
+     "Cuireadh cosc"
+    ]
+   ],
+   [
+    "reamhfhocail-simpli",
+    1,
+    [
+     "Ba cheart cosc"
+    ]
+   ],
+   [
+    "r2-laithreach",
+    1,
+    [
+     "Cad chuige"
+    ]
+   ]
+  ],
+  "as-drugai": [
+   [
+    "r1-laithreach",
+    4,
+    [
+     "Díoltar"
+    ]
+   ],
+   [
+    "clasail",
+    1,
+    [
+     "Cad chuige",
+     "Ba cheart"
+    ]
+   ],
+   [
+    "nr-coinniollach",
+    6,
+    [
+     "Cara"
+    ]
+   ],
+   [
+    "aidiachtai",
+    7,
+    [
+     "Contúirtí"
+    ]
+   ],
+   [
+    "copail",
+    5,
+    [
+     "Oideachas nó pionós"
+    ]
+   ]
+  ],
+  "as-lochneathach": [
+   [
+    "aidiachtai",
+    7,
+    [
+     "An loch is mó"
+    ]
+   ],
+   [
+    "r1-laithreach",
+    5,
+    [
+     "Feirmeacha agus séarachas"
+    ]
+   ],
+   [
+    "nr-coinniollach",
+    6,
+    [
+     "Dá n-oibreodh muid"
+    ]
+   ],
+   [
+    "copail",
+    null,
+    [
+     "An loch is mó",
+     "Úinéireacht"
+    ]
+   ],
+   [
+    "reamhfhocail-simpli",
+    2,
+    [
+     "An locht",
+     "Cúiseanna"
+    ]
+   ]
   ]
  }
 }

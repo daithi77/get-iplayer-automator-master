@@ -6101,6 +6101,1464 @@
     "Tá imní orm go mbeidh sé costasach dul chun na hollscoile. Ar an ábhar sin, b'fhéidir go bhfanfaidh mé sa bhaile agus mé ag staidéar. Sílim gur cheart don rialtas níos mó a dhéanamh le cuidiú le teaghlaigh."
    ],
    "new": true
+  },
+  {
+   "id": "as-dideann",
+   "title": "Daoine gan dídean",
+   "en": "Homelessness",
+   "teaches": "Describing what you see in Belfast and Newry (Feicim / Feictear daoine ina suí, ina gcodladh); causes with Is iomaí duine a ... and mar gheall ar + séimhiú (ar chíos ard, ar fhiacha); the housing crisis (Níl amhras ar bith ach go bhfuil ...); what the government and charities should do (gur cheart don Fheidhmeannas); the conditional (Dá mbeadh an chumhacht agam, thógfainn ...); proverbs: Ar scáth a chéile a mhaireann na daoine, Ní thuigeann an sách an seang.",
+   "questions": [
+    "An bhfeiceann tú daoine gan dídean nuair a théann tú go Béal Feirste nó go dtí an Iúr?",
+    "Cad chuige a mbíonn daoine gan dídean, dar leat?",
+    "An bhfuil géarchéim tithíochta sa Tuaisceart, i do bharúil?",
+    "Cad é ba cheart don rialtas agus do na carthanais a dhéanamh?",
+    "Cad é is féidir le daoine óga a dhéanamh le cuidiú?",
+    "Dá mbeadh an chumhacht agat, cad é a dhéanfá faoin fhadhb?"
+   ],
+   "rows": [
+    {
+     "label": "Feicim",
+     "columns": [
+      [
+       {
+        "ga": "Feicim daoine gan dídean",
+        "en": "I see homeless people"
+       },
+       {
+        "ga": "Feictear daoine gan dídean",
+        "en": "Homeless people are seen"
+       }
+      ],
+      [
+       {
+        "ga": "ina suí i ndoirse na siopaí",
+        "en": "sitting in shop doorways"
+       },
+       {
+        "ga": "ina gcodladh amuigh ar an tsráid",
+        "en": "sleeping out on the street"
+       },
+       {
+        "ga": "ag iarraidh déirce",
+        "en": "begging"
+       }
+      ],
+      [
+       {
+        "ga": "nuair a théim isteach go Béal Feirste",
+        "en": "when I go into Belfast"
+       },
+       {
+        "ga": "i lár an Iúir",
+        "en": "in the centre of Newry"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Mothúcháin",
+     "columns": [
+      [
+       {
+        "ga": "Baintear stad asam",
+        "en": "It stops me in my tracks"
+       },
+       {
+        "ga": "Cuireann sé brón orm",
+        "en": "It makes me sad"
+       },
+       {
+        "ga": "Is bocht an scéal é",
+        "en": "It is a sad state of affairs"
+       }
+      ],
+      [
+       {
+        "ga": "nuair a fheicim daoine óga ina gcodladh amuigh faoin bháisteach",
+        "en": "when I see young people sleeping out in the rain"
+       },
+       {
+        "ga": "nuair a shiúlann daoine thart ar dhuine gan dídean gan fiú amharc air",
+        "en": "when people walk past a homeless person without even looking at them"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cúiseanna",
+     "columns": [
+      [
+       {
+        "ga": "Is iomaí duine a chailleann a áit chónaithe",
+        "en": "Many a person loses their home"
+       },
+       {
+        "ga": "Is iomaí duine óg a bhíonn ar an tsráid",
+        "en": "Many a young person ends up on the street"
+       }
+      ],
+      [
+       {
+        "ga": "mar gheall ar chíos ard",
+        "en": "because of high rent"
+       },
+       {
+        "ga": "mar gheall ar fhiacha",
+        "en": "because of debt"
+       },
+       {
+        "ga": "mar gheall ar andúil",
+        "en": "because of addiction"
+       },
+       {
+        "ga": "mar gheall ar fhadhbanna meabhairshláinte",
+        "en": "because of mental health problems"
+       },
+       {
+        "ga": "mar gheall ar bhriseadh sa teaghlach",
+        "en": "because of family breakdown"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tithíocht",
+     "columns": [
+      [
+       {
+        "ga": "Is é mo bharúil go bhfuil",
+        "en": "In my opinion there is"
+       },
+       {
+        "ga": "Níl amhras ar bith ach go bhfuil",
+        "en": "There is no doubt that there is"
+       }
+      ],
+      [
+       {
+        "ga": "géarchéim tithíochta",
+        "en": "a housing crisis"
+       },
+       {
+        "ga": "ganntanas tithe sóisialta",
+        "en": "a shortage of social housing"
+       }
+      ],
+      [
+       {
+        "ga": "sa Tuaisceart",
+        "en": "in the North"
+       },
+       {
+        "ga": "i mBéal Feirste agus san Iúr",
+        "en": "in Belfast and Newry"
+       }
+      ],
+      [
+       {
+        "ga": "faoi láthair",
+        "en": "at the moment",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fadhb cheilte",
+     "columns": [
+      [
+       {
+        "ga": "Ní fheiceann muid ach cuid bheag den fhadhb",
+        "en": "We only see a small part of the problem"
+       }
+      ],
+      [
+       {
+        "ga": "mar tá cuid mhór daoine óga ag codladh ar tholg a gcairde",
+        "en": "because a lot of young people are sleeping on their friends' sofas"
+       },
+       {
+        "ga": "mar tá na mílte teaghlach ina gcónaí i gcóiríocht shealadach",
+        "en": "because thousands of families are living in temporary accommodation"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An rialtas",
+     "columns": [
+      [
+       {
+        "ga": "Sílim gur cheart don rialtas",
+        "en": "I think the government should"
+       },
+       {
+        "ga": "Is é mo bharúil gur cheart don Fheidhmeannas",
+        "en": "In my opinion the Executive should"
+       }
+      ],
+      [
+       {
+        "ga": "tuilleadh tithe sóisialta a thógáil",
+        "en": "build more social housing"
+       },
+       {
+        "ga": "srian a chur ar an chíos",
+        "en": "put a limit on rents"
+       },
+       {
+        "ga": "níos mó airgid a chur ar fáil do na carthanais",
+        "en": "make more money available to the charities"
+       },
+       {
+        "ga": "seirbhísí meabhairshláinte a fheabhsú",
+        "en": "improve mental health services"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá mbeadh an chumhacht agam",
+     "columns": [
+      [
+       {
+        "ga": "Dá mbeadh an chumhacht agam,",
+        "en": "If I had the power,"
+       },
+       {
+        "ga": "Dá mbeinn i mo pholaiteoir,",
+        "en": "If I were a politician,"
+       }
+      ],
+      [
+       {
+        "ga": "thógfainn tithe do gach duine a bhfuil teach de dhíth air",
+        "en": "I would build houses for everyone who needs a home"
+       },
+       {
+        "ga": "d'osclóinn níos mó ionad lae do dhaoine gan dídean",
+        "en": "I would open more day centres for homeless people"
+       },
+       {
+        "ga": "chinnteoinn nach mbeadh duine ar bith ina chodladh amuigh",
+        "en": "I would make sure that nobody was sleeping rough"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na carthanais",
+     "columns": [
+      [
+       {
+        "ga": "Déanann na carthanais obair den scoth",
+        "en": "The charities do excellent work"
+       }
+      ],
+      [
+       {
+        "ga": "i mBéal Feirste agus san Iúr",
+        "en": "in Belfast and Newry"
+       },
+       {
+        "ga": "ar fud an Tuaiscirt",
+        "en": "throughout the North"
+       }
+      ],
+      [
+       {
+        "ga": "ach ní thig leo gach rud a dhéanamh leo féin",
+        "en": "but they can't do everything by themselves"
+       },
+       {
+        "ga": "ach tá níos mó tacaíochta de dhíth orthu",
+        "en": "but they need more support"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Daoine óga",
+     "columns": [
+      [
+       {
+        "ga": "Thig le daoine óga",
+        "en": "Young people can"
+       },
+       {
+        "ga": "Thiocfadh le daltaí scoile",
+        "en": "School pupils could"
+       }
+      ],
+      [
+       {
+        "ga": "airgead a bhailiú do charthanas áitiúil",
+        "en": "collect money for a local charity"
+       },
+       {
+        "ga": "bia a bhailiú don bhanc bia",
+        "en": "collect food for the food bank"
+       },
+       {
+        "ga": "obair dheonach a dhéanamh le carthanas",
+        "en": "do voluntary work with a charity"
+       },
+       {
+        "ga": "labhairt le duine gan dídean agus cupán tae a cheannach dó",
+        "en": "talk to a homeless person and buy them a cup of tea"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tuairimí",
+     "columns": [
+      [
+       {
+        "ga": "Sílim",
+        "en": "I think"
+       },
+       {
+        "ga": "Measaim",
+        "en": "I reckon"
+       },
+       {
+        "ga": "Is é mo bharúil",
+        "en": "My opinion is"
+       },
+       {
+        "ga": "Caithfidh mé a rá",
+        "en": "I have to say"
+       }
+      ],
+      [
+       {
+        "ga": "gur cheart don rialtas i bhfad níos mó a dhéanamh",
+        "en": "that the government should do far more"
+       },
+       {
+        "ga": "go bhfuil an fhadhb ag dul in olcas",
+        "en": "that the problem is getting worse"
+       },
+       {
+        "ga": "gur féidir le gach duine againn cuidiú",
+        "en": "that every one of us can help"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Feicim, faraor. Feicim daoine gan dídean ina suí i ndoirse na siopaí nuair a théim isteach go Béal Feirste, agus feictear iad i lár an Iúir fosta. Baintear stad asam nuair a shiúlann daoine thart orthu gan fiú amharc orthu. Mar a deir an seanfhocal, ní thuigeann an sách an seang.",
+    "Níl amhras ar bith ach go bhfuil géarchéim tithíochta sa Tuaisceart faoi láthair. Is iomaí duine a chailleann a áit chónaithe mar gheall ar chíos ard nó mar gheall ar fhiacha. Ní fheiceann muid ach cuid bheag den fhadhb, mar tá cuid mhór daoine óga ag codladh ar tholg a gcairde. Sílim gur cheart don rialtas tuilleadh tithe sóisialta a thógáil agus srian a chur ar an chíos.",
+    "Déanann na carthanais obair den scoth i mBéal Feirste agus san Iúr, ach tá níos mó tacaíochta de dhíth orthu. Thig le daoine óga bia a bhailiú don bhanc bia nó obair dheonach a dhéanamh le carthanas. Dá mbeadh an chumhacht agam, chinnteoinn nach mbeadh duine ar bith ina chodladh amuigh. Ar scáth a chéile a mhaireann na daoine."
+   ],
+   "new": true
+  },
+  {
+   "id": "as-vapeail",
+   "title": "An cosc ar thobac agus ar vapeáil",
+   "en": "The ban on tobacco and vaping",
+   "teaches": "Arguing both sides (Tá siad siúd atá i bhfábhar an choisc ag rá go ..., Ar an taobh eile den scéal, deir lucht cáinte an choisc ...); the genitive (i bhfábhar an choisc, ar son an choisc); the future after go and nach (go sábhálfaidh sé, nach n-oibreoidh sé); the autonomous past (Cuireadh cosc ar ...); cosc ar + séimhiú (ar thobac, ar fhógraíocht); vaping three ways: toitíní leictreonacha, ag vapeáil, ag galú.",
+   "questions": [
+    "Cad é do bharúil ar an chosc ar thobac atá beartaithe?",
+    "Cad chuige a dtosaíonn daoine óga ag vapeáil?",
+    "An bhfuil na toitíní leictreonacha contúirteach, i do bharúil?",
+    "Ar cheart cosc a chur ar fhógraíocht do thoitíní leictreonacha?",
+    "An n-oibríonn cosc mar seo, dar leat?",
+    "An bhfuil sé de cheart ag duine fásta a rogha féin a dhéanamh?"
+   ],
+   "rows": [
+    {
+     "label": "An cosc atá beartaithe",
+     "columns": [
+      [
+       {
+        "ga": "Faoin chosc ar thobac atá beartaithe,",
+        "en": "Under the proposed ban on tobacco,"
+       }
+      ],
+      [
+       {
+        "ga": "ní bheidh cead ag duine ar bith a rugadh sa bhliain 2009 nó ina dhiaidh sin",
+        "en": "nobody born in 2009 or later will be allowed"
+       },
+       {
+        "ga": "ní bheidh cead ag mo ghlúin féin",
+        "en": "my own generation will not be allowed"
+       }
+      ],
+      [
+       {
+        "ga": "tobac a cheannach",
+        "en": "to buy tobacco"
+       },
+       {
+        "ga": "toitíní a cheannach",
+        "en": "to buy cigarettes"
+       }
+      ],
+      [
+       {
+        "ga": "choíche",
+        "en": "at any age",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "I bhfábhar",
+     "columns": [
+      [
+       {
+        "ga": "Tá siad siúd atá i bhfábhar an choisc ag rá",
+        "en": "Those who are in favour of the ban are saying"
+       }
+      ],
+      [
+       {
+        "ga": "go sábhálfaidh sé na mílte beatha",
+        "en": "that it will save thousands of lives"
+       },
+       {
+        "ga": "go sábhálfaidh sé na milliúin punt don tseirbhís sláinte",
+        "en": "that it will save millions of pounds for the health service"
+       },
+       {
+        "ga": "gurb é an bealach is fearr é le daoine óga a chosaint",
+        "en": "that it is the best way to protect young people"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ar an taobh eile",
+     "columns": [
+      [
+       {
+        "ga": "Ar an taobh eile den scéal,",
+        "en": "On the other side of the argument,"
+       }
+      ],
+      [
+       {
+        "ga": "deir lucht cáinte an choisc",
+        "en": "the ban's critics say"
+       },
+       {
+        "ga": "deir cuid daoine",
+        "en": "some people say"
+       }
+      ],
+      [
+       {
+        "ga": "go dtiocfaidh fás ar an mhargadh dhubh",
+        "en": "that the black market will grow"
+       },
+       {
+        "ga": "gur ionsaí é ar shaoirse an duine",
+        "en": "that it is an attack on personal freedom"
+       },
+       {
+        "ga": "nach n-oibreoidh sé",
+        "en": "that it will not work"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige",
+     "columns": [
+      [
+       {
+        "ga": "Tosaíonn cuid mhór daoine óga",
+        "en": "A lot of young people start"
+       }
+      ],
+      [
+       {
+        "ga": "ag vapeáil",
+        "en": "vaping"
+       },
+       {
+        "ga": "ag galú",
+        "en": "vaping"
+       },
+       {
+        "ga": "ag caitheamh toitíní leictreonacha",
+        "en": "using vapes"
+       }
+      ],
+      [
+       {
+        "ga": "de thairbhe brú ó chairde",
+        "en": "because of pressure from friends"
+       },
+       {
+        "ga": "as fiosracht",
+        "en": "out of curiosity"
+       },
+       {
+        "ga": "de thairbhe na mblasanna milse",
+        "en": "because of the sweet flavours"
+       },
+       {
+        "ga": "mar go síltear go bhfuil sé slán",
+        "en": "because people think it is safe"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Nicitín",
+     "columns": [
+      [
+       {
+        "ga": "Tá nicitín sa chuid is mó de na toitíní leictreonacha",
+        "en": "Most vapes contain nicotine"
+       }
+      ],
+      [
+       {
+        "ga": "agus is druga andúileach é",
+        "en": "and it is an addictive drug"
+       },
+       {
+        "ga": "agus is gairid go mbíonn daoine óga gafa leo",
+        "en": "and young people are soon hooked on them"
+       },
+       {
+        "ga": "agus déanann sé dochar don inchinn atá ag fás",
+        "en": "and it harms the developing brain"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Fógraíocht",
+     "columns": [
+      [
+       {
+        "ga": "Tá na comhlachtaí móra ag díriú ar dhaoine óga",
+        "en": "The big companies are targeting young people"
+       }
+      ],
+      [
+       {
+        "ga": "le blasanna milse",
+        "en": "with sweet flavours"
+       },
+       {
+        "ga": "le pacáistí daite",
+        "en": "with colourful packaging"
+       },
+       {
+        "ga": "ar TikTok agus ar Instagram",
+        "en": "on TikTok and Instagram"
+       },
+       {
+        "ga": "trí thionchairí ar líne",
+        "en": "through influencers online"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba cheart cosc",
+     "columns": [
+      [
+       {
+        "ga": "Sílim gur cheart cosc a chur",
+        "en": "I think there should be a ban"
+       }
+      ],
+      [
+       {
+        "ga": "ar fhógraíocht do thoitíní leictreonacha",
+        "en": "on advertising for vapes"
+       },
+       {
+        "ga": "ar bhlasanna milse",
+        "en": "on sweet flavours"
+       },
+       {
+        "ga": "ar thoitíní leictreonacha a thaispeáint sna siopaí",
+        "en": "on displaying vapes in shops"
+       },
+       {
+        "ga": "ar vapeáil taobh amuigh de gheataí na scoile",
+        "en": "on vaping outside the school gates"
+       }
+      ],
+      [
+       {
+        "ga": "chomh luath agus is féidir",
+        "en": "as soon as possible",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cuireadh cosc",
+     "columns": [
+      [
+       {
+        "ga": "Cuireadh cosc ar thoitíní leictreonacha aon úsáide",
+        "en": "Disposable vapes were banned"
+       }
+      ],
+      [
+       {
+        "ga": "sa bhliain 2025",
+        "en": "in 2025"
+       }
+      ],
+      [
+       {
+        "ga": "ach tá cineálacha eile ar fáil go héasca go fóill",
+        "en": "but other kinds are still easy to get"
+       },
+       {
+        "ga": "ach níor stop sin daoine óga",
+        "en": "but that didn't stop young people"
+       },
+       {
+        "ga": "agus is maith an rud é sin don timpeallacht",
+        "en": "and that is a good thing for the environment"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An n-oibríonn sé",
+     "columns": [
+      [
+       {
+        "ga": "Déarfainn",
+        "en": "I would say"
+       },
+       {
+        "ga": "Is dóigh liom",
+        "en": "I suppose"
+       }
+      ],
+      [
+       {
+        "ga": "gur oibrigh an cosc ar chaitheamh tobac in áiteanna poiblí",
+        "en": "that the ban on smoking in public places worked"
+       },
+       {
+        "ga": "nach n-oibreoidh cosc ar bith mura mbíonn oideachas ann fosta",
+        "en": "that no ban will work unless there is education as well"
+       },
+       {
+        "ga": "go gcuirfeadh an cosc atá beartaithe deireadh leis an tobac i gceann glúine",
+        "en": "that the proposed ban would put an end to tobacco within a generation"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Maidir liom féin",
+     "columns": [
+      [
+       {
+        "ga": "Maidir liom féin, tá mé ar son an choisc",
+        "en": "As for me, I am in favour of the ban"
+       }
+      ],
+      [
+       {
+        "ga": "mar is fearr an tsláinte ná na táinte",
+        "en": "because health is better than wealth"
+       },
+       {
+        "ga": "mar chonaic mé an dochar a rinne na toitíní do mo mhamó",
+        "en": "because I saw the harm that cigarettes did to my granny"
+       },
+       {
+        "ga": "mar is fusa gan tosú ná éirí as",
+        "en": "because it is easier not to start than to give up"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Faoin chosc ar thobac atá beartaithe, ní bheidh cead ag duine ar bith a rugadh sa bhliain 2009 nó ina dhiaidh sin tobac a cheannach choíche. Tá siad siúd atá i bhfábhar an choisc ag rá go sábhálfaidh sé na mílte beatha. Ar an taobh eile den scéal, deir lucht cáinte an choisc gur ionsaí é ar shaoirse an duine. Maidir liom féin, tá mé ar son an choisc, mar is fusa gan tosú ná éirí as.",
+    "Tosaíonn cuid mhór daoine óga ag vapeáil de thairbhe brú ó chairde, nó as fiosracht. Tá nicitín sa chuid is mó de na toitíní leictreonacha agus is gairid go mbíonn daoine óga gafa leo. Tá na comhlachtaí móra ag díriú ar dhaoine óga le blasanna milse agus le pacáistí daite. Níl a fhios ag na dochtúirí go fóill cad é an dochar a dhéanfaidh na toitíní leictreonacha do na scamhóga san fhadtéarma.",
+    "Cuireadh cosc ar thoitíní leictreonacha aon úsáide sa bhliain 2025, ach tá cineálacha eile ar fáil go héasca go fóill. Sílim gur cheart cosc a chur ar fhógraíocht do thoitíní leictreonacha chomh luath agus is féidir. Déarfainn gur oibrigh an cosc ar chaitheamh tobac in áiteanna poiblí, ach ní oibreoidh cosc ar bith mura mbíonn oideachas ann fosta. Mar a deir an seanfhocal, is fearr an tsláinte ná na táinte."
+   ],
+   "new": true
+  },
+  {
+   "id": "as-drugai",
+   "title": "Drugaí",
+   "en": "Drugs",
+   "teacherLed": true,
+   "teaches": "Talking about drugs in society in the third person only; the autonomous present (Díoltar drugaí ...); reasons with de thairbhe, mar go and le (le héalú ó bhrú an tsaoil); the Ulster a dhath (nach dtarlóidh a dhath dóibh); the superlative (Is í an chontúirt is mó ...); helping a friend with Dá + the conditional (Dá mbeadh imní orm faoi chara, labhróinn ...); education or punishment (Is fearr oideachas ná pionós).",
+   "questions": [
+    "An bhfuil fadhb drugaí i do cheantar féin, dar leat?",
+    "Cad chuige a mbaineann daoine óga triail as drugaí?",
+    "Cad iad na contúirtí is mó a bhaineann le drugaí?",
+    "An bhfuil go leor eolais ag daoine óga faoi na contúirtí?",
+    "Cad é a dhéanfá dá mbeadh imní ort faoi chara?",
+    "Cé acu is fearr, oideachas nó pionós?"
+   ],
+   "rows": [
+    {
+     "label": "Ní sna cathracha amháin",
+     "columns": [
+      [
+       {
+        "ga": "Ní sna cathracha móra amháin atá an fhadhb:",
+        "en": "The problem is not only in the big cities:"
+       },
+       {
+        "ga": "Ní i mBéal Feirste amháin atá an fhadhb:",
+        "en": "The problem is not only in Belfast:"
+       }
+      ],
+      [
+       {
+        "ga": "tá drugaí ar fáil sna bailte beaga tuaithe fosta",
+        "en": "drugs are available in small country towns too"
+       },
+       {
+        "ga": "tá drugaí ar fáil i ngach baile agus i ngach sráidbhaile",
+        "en": "drugs are available in every town and every village"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Díoltar",
+     "columns": [
+      [
+       {
+        "ga": "Díoltar drugaí",
+        "en": "Drugs are sold"
+       }
+      ],
+      [
+       {
+        "ga": "ar na meáin shóisialta",
+        "en": "on social media"
+       },
+       {
+        "ga": "ar líne",
+        "en": "online"
+       },
+       {
+        "ga": "ag ceolchoirmeacha agus ag féilte",
+        "en": "at concerts and festivals"
+       }
+      ],
+      [
+       {
+        "ga": "gan stró",
+        "en": "without any bother",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cad chuige",
+     "columns": [
+      [
+       {
+        "ga": "Déarfainn go mbaineann cuid de na daoine óga triail as drugaí",
+        "en": "I would say that some young people try drugs"
+       }
+      ],
+      [
+       {
+        "ga": "de thairbhe brú ó chairde",
+        "en": "because of pressure from friends"
+       },
+       {
+        "ga": "mar go mbíonn siad fiosrach",
+        "en": "because they are curious"
+       },
+       {
+        "ga": "le héalú ó bhrú an tsaoil",
+        "en": "to escape from the pressures of life"
+       },
+       {
+        "ga": "mar go mbíonn leadrán orthu",
+        "en": "because they are bored"
+       },
+       {
+        "ga": "mar go síleann siad nach dtarlóidh a dhath dóibh",
+        "en": "because they think nothing will happen to them"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Contúirtí",
+     "columns": [
+      [
+       {
+        "ga": "Is í an chontúirt is mó",
+        "en": "The biggest danger is"
+       }
+      ],
+      [
+       {
+        "ga": "nach mbíonn a fhios ag daoine cad é atá sna táibléid a cheannaíonn siad",
+        "en": "that people don't know what is in the pills they buy"
+       },
+       {
+        "ga": "go n-éiríonn daoine tugtha do dhrugaí gan mhoill",
+        "en": "that people quickly become addicted to drugs"
+       },
+       {
+        "ga": "go ndéanann drugaí dochar mór don tsláinte mheabhrach",
+        "en": "that drugs do great harm to mental health"
+       },
+       {
+        "ga": "go gcuireann drugaí beatha daoine i mbaol",
+        "en": "that drugs put people's lives in danger"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Tionchar",
+     "columns": [
+      [
+       {
+        "ga": "Bíonn tionchar uafásach ag drugaí",
+        "en": "Drugs have a terrible effect"
+       }
+      ],
+      [
+       {
+        "ga": "ar an duine féin agus ar a theaghlach",
+        "en": "on the person themselves and on their family"
+       },
+       {
+        "ga": "ar shláinte mheabhrach daoine óga",
+        "en": "on young people's mental health"
+       },
+       {
+        "ga": "ar obair scoile agus ar scrúduithe",
+        "en": "on schoolwork and exams"
+       },
+       {
+        "ga": "ar an phobal ar fad",
+        "en": "on the whole community"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Eolas",
+     "columns": [
+      [
+       {
+        "ga": "Níl go leor eolais ag daoine óga",
+        "en": "Young people don't have enough information"
+       },
+       {
+        "ga": "Níl go leor eolais ag tuismitheoirí",
+        "en": "Parents don't have enough information"
+       }
+      ],
+      [
+       {
+        "ga": "faoi na contúirtí",
+        "en": "about the dangers"
+       },
+       {
+        "ga": "faoi na drugaí atá ar fáil sa lá atá inniu ann",
+        "en": "about the drugs that are available nowadays"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba cheart",
+     "columns": [
+      [
+       {
+        "ga": "Ba cheart go mbeadh níos mó",
+        "en": "There should be more"
+       }
+      ],
+      [
+       {
+        "ga": "cainteanna ar scoil faoi dhrugaí",
+        "en": "talks in school about drugs"
+       },
+       {
+        "ga": "oideachais mhacánta faoi na contúirtí",
+        "en": "honest education about the dangers"
+       },
+       {
+        "ga": "seirbhísí tacaíochta do dhaoine óga",
+        "en": "support services for young people"
+       }
+      ],
+      [
+       {
+        "ga": "sa cheantar seo",
+        "en": "in this area",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cara",
+     "columns": [
+      [
+       {
+        "ga": "Dá mbeadh imní orm faoi chara,",
+        "en": "If I were worried about a friend,"
+       },
+       {
+        "ga": "Dá mbeadh cara liom i dtrioblóid le drugaí,",
+        "en": "If a friend of mine were in trouble with drugs,"
+       }
+      ],
+      [
+       {
+        "ga": "labhróinn leis nó léi go ciúin",
+        "en": "I would talk to him or her quietly"
+       },
+       {
+        "ga": "labhróinn le duine fásta a bhfuil muinín agam as",
+        "en": "I would talk to an adult I trust"
+       },
+       {
+        "ga": "mholfainn dó nó di cuidiú a iarraidh",
+        "en": "I would advise him or her to ask for help"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cuidiú",
+     "columns": [
+      [
+       {
+        "ga": "Tá cuidiú ar fáil",
+        "en": "Help is available"
+       }
+      ],
+      [
+       {
+        "ga": "ón dochtúir teaghlaigh",
+        "en": "from the family doctor"
+       },
+       {
+        "ga": "ó chomhairleoir na scoile",
+        "en": "from the school counsellor"
+       },
+       {
+        "ga": "ar líne agus ar an ghuthán",
+        "en": "online and on the phone"
+       }
+      ],
+      [
+       {
+        "ga": "do dhuine ar bith atá i dtrioblóid",
+        "en": "for anyone who is in trouble",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Oideachas nó pionós",
+     "columns": [
+      [
+       {
+        "ga": "Is é mo bharúil",
+        "en": "In my opinion"
+       },
+       {
+        "ga": "Sílim féin",
+        "en": "I myself think"
+       }
+      ],
+      [
+       {
+        "ga": "gur fearr oideachas ná pionós",
+        "en": "education is better than punishment"
+       },
+       {
+        "ga": "gur cheart déileáil le drugaí mar fhadhb sláinte",
+        "en": "drugs should be dealt with as a health problem"
+       },
+       {
+        "ga": "gur cheart na mangairí drugaí a chur i bpríosún",
+        "en": "the drug dealers should be put in prison"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Is cuma cá háit a dtéann tú, bíonn drugaí ann. Ní sna cathracha móra amháin atá an fhadhb: tá drugaí ar fáil sna bailte beaga tuaithe fosta. Díoltar drugaí ar na meáin shóisialta gan stró. Déarfainn go mbaineann cuid de na daoine óga triail as drugaí de thairbhe brú ó chairde, agus cuid eile le héalú ó bhrú an tsaoil.",
+    "Is í an chontúirt is mó nach mbíonn a fhios ag daoine cad é atá sna táibléid a cheannaíonn siad. Bíonn tionchar uafásach ag drugaí ar an duine féin agus ar a theaghlach. Níl go leor eolais ag daoine óga faoi na drugaí atá ar fáil sa lá atá inniu ann, agus ba cheart go mbeadh níos mó cainteanna ar scoil faoi dhrugaí.",
+    "Dá mbeadh imní orm faoi chara, labhróinn leis nó léi go ciúin, agus labhróinn le duine fásta a bhfuil muinín agam as. Tá cuidiú ar fáil ón dochtúir teaghlaigh agus ó chomhairleoir na scoile. Is é mo bharúil gur fearr oideachas ná pionós."
+   ],
+   "new": true
+  },
+  {
+   "id": "as-lochneathach",
+   "title": "Loch nEathach",
+   "en": "Lough Neagh",
+   "teaches": "Describing the lough with the superlative (an loch is mó in Éirinn agus sa Bhreatain) and a cleft (is uaidh a thagann ...); the genitive (grinneall an locha, uisce óil an Tuaiscirt); the autonomous present (tugtar rabhadh, doirtear séarachas); cause and blame (Deir eolaithe go bhfuil baint ag ... leis an fhadhb; gurb iad ... is mó is cúis leis; Tá cuid den locht ar an chomhlacht uisce); what should be done (Ba cheart don Fheidhmeannas ...); Dá + the conditional in both plural forms (dá n-oibreodh muid, dá n-oibreoimis).",
+   "questions": [
+    "Ar chuala tú faoin fhadhb le Loch nEathach?",
+    "Cad é is cúis leis na halgaí gormghlasa, dar leat?",
+    "Cé air a bhfuil an locht, i do bharúil?",
+    "Ar cheart go mbeadh an loch i seilbh an phobail?",
+    "Cad é ba cheart a dhéanamh le Loch nEathach a shábháil?",
+    "An bhfuil muintir na háite bródúil as an loch?"
+   ],
+   "rows": [
+    {
+     "label": "An loch is mó",
+     "columns": [
+      [
+       {
+        "ga": "Is é Loch nEathach",
+        "en": "Lough Neagh is"
+       }
+      ],
+      [
+       {
+        "ga": "an loch is mó in Éirinn agus sa Bhreatain",
+        "en": "the biggest lake in Ireland and Britain"
+       },
+       {
+        "ga": "an loch uisce úir is mó in Éirinn agus sa Bhreatain",
+        "en": "the biggest freshwater lake in Ireland and Britain"
+       }
+      ],
+      [
+       {
+        "ga": "agus is uaidh a thagann cuid mhór d'uisce óil an Tuaiscirt",
+        "en": "and much of the North's drinking water comes from it",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na halgaí",
+     "columns": [
+      [
+       {
+        "ga": "Go minic sa samhradh anois,",
+        "en": "Often in summer now,"
+       },
+       {
+        "ga": "Nuair a bhíonn an aimsir te,",
+        "en": "When the weather is warm,"
+       }
+      ],
+      [
+       {
+        "ga": "bíonn an t-uisce clúdaithe le halgaí gormghlasa",
+        "en": "the water is covered in blue-green algae"
+       },
+       {
+        "ga": "bíonn boladh bréan ón uisce",
+        "en": "there is a foul smell from the water"
+       },
+       {
+        "ga": "tugtar rabhadh do dhaoine gan dul ag snámh sa loch",
+        "en": "people are warned not to go swimming in the lough"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Cúiseanna",
+     "columns": [
+      [
+       {
+        "ga": "Deir eolaithe go bhfuil baint ag",
+        "en": "Scientists say that"
+       }
+      ],
+      [
+       {
+        "ga": "leasacháin feirme",
+        "en": "farm fertilisers play a part"
+       },
+       {
+        "ga": "séarachas",
+        "en": "sewage plays a part"
+       },
+       {
+        "ga": "na diúilicíní riabhacha",
+        "en": "zebra mussels play a part"
+       },
+       {
+        "ga": "an athrú aeráide",
+        "en": "climate change plays a part"
+       }
+      ],
+      [
+       {
+        "ga": "leis an fhadhb",
+        "en": "in the problem"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Feirmeacha agus séarachas",
+     "columns": [
+      [
+       {
+        "ga": "Doirtear séarachas amh",
+        "en": "Raw sewage is released"
+       },
+       {
+        "ga": "Téann sciodar ó na feirmeacha",
+        "en": "Slurry from the farms gets"
+       },
+       {
+        "ga": "Téann leasacháin ó na páirceanna",
+        "en": "Fertiliser from the fields gets"
+       }
+      ],
+      [
+       {
+        "ga": "isteach sna haibhneacha",
+        "en": "into the rivers"
+       },
+       {
+        "ga": "isteach sa loch",
+        "en": "into the lough"
+       }
+      ],
+      [
+       {
+        "ga": "nuair a bhíonn sé ag cur báistí go trom",
+        "en": "when it rains heavily",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "An locht",
+     "columns": [
+      [
+       {
+        "ga": "Tá cuid den locht",
+        "en": "Part of the blame lies"
+       },
+       {
+        "ga": "Tá an chuid is mó den locht",
+        "en": "Most of the blame lies"
+       }
+      ],
+      [
+       {
+        "ga": "ar an chomhlacht uisce",
+        "en": "with the water company"
+       },
+       {
+        "ga": "ar na feirmeoirí",
+        "en": "with the farmers"
+       },
+       {
+        "ga": "ar an rialtas",
+        "en": "with the government"
+       }
+      ],
+      [
+       {
+        "ga": "ach ní féidir an locht ar fad a chur ar dhream amháin",
+        "en": "but you can't put all the blame on one group",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Úinéireacht",
+     "columns": [
+      [
+       {
+        "ga": "Is mór an t-iontas liom",
+        "en": "It amazes me"
+       },
+       {
+        "ga": "Is aisteach liom",
+        "en": "I find it strange"
+       }
+      ],
+      [
+       {
+        "ga": "go raibh grinneall an locha i seilbh teaghlaigh uasail ar feadh na gcéadta bliain",
+        "en": "that the bed of the lough was owned by an aristocratic family for centuries"
+       },
+       {
+        "ga": "nár cheannaigh an rialtas grinneall an locha fadó",
+        "en": "that the government did not buy the bed of the lough long ago"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Seilbh an phobail",
+     "columns": [
+      [
+       {
+        "ga": "Tá go leor daoine ag éileamh",
+        "en": "Many people are calling for"
+       },
+       {
+        "ga": "Tagaim leo siúd atá ag éileamh",
+        "en": "I agree with those who are calling for"
+       }
+      ],
+      [
+       {
+        "ga": "go mbeadh an loch i seilbh an phobail",
+        "en": "the lough to be in public ownership"
+       }
+      ],
+      [
+       {
+        "ga": "mar is le muintir na háite é i ndáiríre",
+        "en": "because it really belongs to the local people",
+        "optional": true
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Na heascanna",
+     "columns": [
+      [
+       {
+        "ga": "Tá cáil ar eascanna Loch nEathach",
+        "en": "Lough Neagh eels are famous"
+       }
+      ],
+      [
+       {
+        "ga": "ar fud na hEorpa",
+        "en": "throughout Europe"
+       },
+       {
+        "ga": "i bhfad agus i gcéin",
+        "en": "far and wide"
+       }
+      ],
+      [
+       {
+        "ga": "ach tá imní ar na hiascairí faoina dtodhchaí",
+        "en": "but the fishermen are worried about their future"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ba cheart",
+     "columns": [
+      [
+       {
+        "ga": "Ba cheart don rialtas",
+        "en": "The government should"
+       },
+       {
+        "ga": "Ba cheart don Fheidhmeannas",
+        "en": "The Executive should"
+       }
+      ],
+      [
+       {
+        "ga": "a chinntiú go mbeidh an loch i seilbh an phobail",
+        "en": "make sure that the lough is in public ownership"
+       },
+       {
+        "ga": "fíneálacha troma a ghearradh ar na truaillitheoirí",
+        "en": "impose heavy fines on the polluters"
+       },
+       {
+        "ga": "infheistíocht a dhéanamh sna córais séarachais",
+        "en": "invest in the sewage systems"
+       },
+       {
+        "ga": "gníomhaireacht chomhshaoil neamhspleách a bhunú",
+        "en": "set up an independent environmental agency"
+       },
+       {
+        "ga": "cuidiú le feirmeoirí a gcuid modhanna oibre a athrú",
+        "en": "help farmers to change their methods"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Dá n-oibreodh muid",
+     "columns": [
+      [
+       {
+        "ga": "Dá n-oibreodh muid uilig le chéile,",
+        "en": "If we all worked together,"
+       },
+       {
+        "ga": "Dá n-oibreoimis uilig le chéile,",
+        "en": "If we all worked together,"
+       }
+      ],
+      [
+       {
+        "ga": "thiocfadh linn an loch a shábháil",
+        "en": "we could save the lough"
+       },
+       {
+        "ga": "bheadh an loch slán sábháilte arís",
+        "en": "the lough would be safe and sound again"
+       },
+       {
+        "ga": "bheadh Loch nEathach ina fhoinse bróid arís",
+        "en": "Lough Neagh would be a source of pride again"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Bród",
+     "columns": [
+      [
+       {
+        "ga": "Tá muintir na háite bródúil as an loch",
+        "en": "Local people are proud of the lough"
+       },
+       {
+        "ga": "Is cuid dár n-oidhreacht é an loch",
+        "en": "The lough is part of our heritage"
+       }
+      ],
+      [
+       {
+        "ga": "agus is mór an trua é a fheiceáil mar atá sé anois",
+        "en": "and it is a great pity to see it as it is now"
+       },
+       {
+        "ga": "agus níl muid sásta ligean dó bás a fháil",
+        "en": "and we are not willing to let it die"
+       }
+      ]
+     ]
+    },
+    {
+     "label": "Ag freagairt",
+     "columns": [
+      [
+       {
+        "ga": "Tagaim leis an mhéid sin",
+        "en": "I agree with that"
+       },
+       {
+        "ga": "Tá sé sin fíor go pointe",
+        "en": "That is true up to a point"
+       },
+       {
+        "ga": "Níl mé ar aon intinn leat faoi sin",
+        "en": "I don't agree with you on that"
+       },
+       {
+        "ga": "Tá mé idir dhá chomhairle faoi sin",
+        "en": "I'm in two minds about that"
+       }
+      ]
+     ]
+    }
+   ],
+   "examples": [
+    "Chuala, cinnte. Is é Loch nEathach an loch is mó in Éirinn agus sa Bhreatain, agus is uaidh a thagann cuid mhór d'uisce óil an Tuaiscirt. Le cúpla samhradh anuas, bíonn an t-uisce clúdaithe le halgaí gormghlasa agus tugtar rabhadh do dhaoine gan dul ag snámh ann.",
+    "Deir eolaithe gurb iad leasacháin feirme agus séarachas is mó is cúis leis an fhadhb. Téann sciodar ó na feirmeacha isteach sna haibhneacha nuair a bhíonn sé ag cur báistí go trom, agus doirtear séarachas amh isteach sa loch fosta. Tá cuid den locht ar na feirmeoirí, cinnte, ach tá cuid mhaith den locht ar an rialtas agus ar an chomhlacht uisce fosta.",
+    "Is mór an t-iontas liom go raibh grinneall an locha i seilbh teaghlaigh uasail ar feadh na gcéadta bliain. Tagaim leo siúd atá ag éileamh go mbeadh an loch i seilbh an phobail. Ba cheart don Fheidhmeannas gníomhaireacht chomhshaoil neamhspleách a bhunú fosta. Tá muintir na háite bródúil as an loch. Deirtear gur thóg Fionn Mac Cumhaill cnap mór cré agus gur chaith sé isteach san fharraige é, agus sin mar a rinneadh Loch nEathach. Dá n-oibreodh gach duine le chéile, thiocfadh linn an loch a shábháil."
+   ],
+   "new": true
   }
  ]
 }

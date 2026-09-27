@@ -4,7 +4,7 @@
   {
    "title": "Is é Seán an captaen: ionannas",
    "en": "Saying exactly who: Is é Seán an captaen",
-   "rule": "To say exactly who or what someone or something is, when both parts are definite (a name, or a noun with an), use Is + é for a man or a masculine noun, í for a woman or a feminine noun, iad for more than one, then the name, then the definite noun: Is é Seán an captaen. Is í Aoife an duine is sine. Is iad Tomás agus Niamh na captaein.",
+   "rule": "To say exactly who or what someone or something is, when both parts are definite (a name, a noun with an, or a noun with mo, do and so on), use Is + é for a man or a masculine noun, í for a woman or a feminine noun, iad for more than one, then the name, then the definite noun: Is é Seán an captaen. Is í Aoife an duine is sine. Is iad Tomás agus Niamh na captaein.",
    "steps": [
     "Both parts are definite: Seán and an captaen.",
     "Seán is a man, so use Is é.",
@@ -122,8 +122,8 @@
     },
     {
      "shape": "transform",
-     "prompt": "Mo dheartháir / an meicneoir is fearr sa bhaile",
-     "answer": "Is é mo dheartháir an meicneoir is fearr sa bhaile."
+     "prompt": "Mo dheartháir / an meicneoir is fearr sa cheantar",
+     "answer": "Is é mo dheartháir an meicneoir is fearr sa cheantar."
     },
     {
      "shape": "transform",
@@ -150,7 +150,7 @@
   {
    "title": "An é ...? Cé hé ...?",
    "en": "Asking who: An é ...? Cé hé ...?",
-   "rule": "To ask if someone is the person, change Is to An: An é Seán an captaen? An í Aoife an duine is sine? Answer Is é or Ní hé (Is í or Ní hí). To ask who, use Cé hé for a man, Cé hí for a woman and Cé iad for more than one: Cé hé an fear sin?",
+   "rule": "To ask if someone is the person, change Is to An: An é Seán an captaen? An í Aoife an duine is sine? The short answer is Is é or Ní hé (Is í or Ní hí). To ask who, use Cé hé for a man, Cé hí for a woman and Cé iad for more than one: Cé hé an fear sin?",
    "steps": [
     "Start from the statement: Is é Seán an captaen.",
     "Change Is to An.",
@@ -195,19 +195,19 @@
     },
     {
      "shape": "transform",
-     "prompt": "Freagra dearfach: An é seo do mhála?",
+     "prompt": "Freagra gearr, dearfach: An é seo do mhála?",
      "answer": "Is é.",
      "alt": "Is é seo mo mhála."
     },
     {
      "shape": "transform",
-     "prompt": "Freagra diúltach: An í Siobhán an captaen?",
+     "prompt": "Freagra gearr, diúltach: An í Siobhán an captaen?",
      "answer": "Ní hí.",
      "alt": "Ní hí Siobhán an captaen."
     },
     {
      "shape": "transform",
-     "prompt": "Freagra diúltach: An é Seán do dheartháir?",
+     "prompt": "Freagra gearr, diúltach: An é Seán do dheartháir?",
      "answer": "Ní hé.",
      "alt": "Ní hé Seán mo dheartháir."
     },
@@ -226,7 +226,7 @@
   {
    "title": "Is ar maidin a ...: béim a chur ar fhocal",
    "en": "Emphasis: putting a phrase first",
-   "rule": "To stress one part of a sentence, put it first after Is, then a, then the rest: Téim ag rith ar maidin becomes Is ar maidin a théim ag rith (it is in the morning that I go running). The verb after a takes séimhiú (a théim, a chuaigh), a verb with d' keeps it (a d'fhág), and tá becomes atá.",
+   "rule": "To stress one part of a sentence, put it first after Is, then a, then the rest: Téim ag rith ar maidin becomes Is ar maidin a théim ag rith (it is in the morning that I go running). The verb after a takes séimhiú (a théim, a chuaigh), a verb with d' keeps it (a d'fhág), a verb that begins with a vowel does not change (a itheann), and tá becomes atá.",
    "steps": [
     "Take out the phrase to stress: ar maidin.",
     "Put Is ar maidin first, then a.",
@@ -300,7 +300,7 @@
   {
    "title": "Is mise a rinne é",
    "en": "Stressing who: Is mise a rinne é",
-   "rule": "To stress who did something, put Is and the emphatic pronoun first (mise, tusa, eisean, ise, muidne, sibhse, iadsan), then a + séimhiú + the verb: Rinne mé é becomes Is mise a rinne é. With a name or a noun, use Is é or Is í: Is é Seán a scóráil an cúl. In the negative, Ní goes on the copula and the verb stays positive: Ní mise a rinne é.",
+   "rule": "To stress who did something, put Is and the emphatic pronoun first (mise, tusa, eisean, ise, muidne, sibhse, iadsan), then a + séimhiú + the verb: Rinne mé é becomes Is mise a rinne é. Tá becomes atá: Is ise atá ag canadh. With a name or a noun, use Is é or Is í: Is é Seán a scóráil an cúl. In the negative, Ní goes on the copula and the verb stays positive: Ní mise a rinne é.",
    "steps": [
     "Take out the person to stress: mé.",
     "Put Is mise first, then a.",

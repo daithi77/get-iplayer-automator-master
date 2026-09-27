@@ -158,7 +158,7 @@
   {
    "title": "An ts: ainmfhocal baininscneach le s",
    "en": "Feminine nouns beginning with s: an ts",
-   "rule": "A feminine noun that begins with s followed by a vowel, or by l, n or r, takes t in front after an, with no hyphen: sráid becomes an tsráid, slí becomes an tslí. A masculine noun beginning with s does not change (an siopa, an samhradh), and sc, sm, sp and st never change (an scoil, an spéir).",
+   "rule": "A feminine noun that begins with s followed by a vowel, or by l, n or r, takes t in front after an, with no hyphen: sráid becomes an tsráid, slí becomes an tslí. As the subject or object of a sentence, a masculine noun beginning with s does not change (an siopa, an samhradh), and sc, sm, sp and st never change (an scoil, an spéir). After a preposition and an, though, a masculine s-noun takes t as well: sa tsiopa, sa tSruthán.",
    "steps": [
     "Is the noun feminine? sráid is.",
     "Is the s followed by a vowel, l, n or r? Yes, r.",
@@ -392,7 +392,7 @@
      "answer": "Tá an t-athair ag obair san Iúr."
     }
    ],
-   "hint": "fir.: t- before a vowel. bain.: h, or ts before s.",
+   "hint": "fir.: t- before a vowel. bain.: h (but not on d or t), or ts before s + vowel, l, n or r.",
    "items": [
     {
      "shape": "stem",

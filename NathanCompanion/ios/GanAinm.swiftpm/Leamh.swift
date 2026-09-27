@@ -143,9 +143,11 @@ struct LeamhView: View {
     private static func questionLine(_ k: Int, _ question: LeamhQuestion) -> AttributedString {
         let given = question.marks ?? 0
         let marks = given > 0 ? given : 1
-        var line = AttributedString("\(k + 1). \(question.q ?? "") ")
+        let head: String = "\(k + 1). \(question.q ?? "") "
+        let tail: String = "(\(marks) \(marks > 1 ? "marks" : "mark"), answer in \(question.inIrish ? "Irish" : "English"))"
+        var line = AttributedString(head)
         line.inlinePresentationIntent = .stronglyEmphasized
-        var detail = AttributedString("(\(marks) \(marks > 1 ? "marks" : "mark"), answer in \(question.inIrish ? "Irish" : "English"))")
+        var detail = AttributedString(tail)
         detail.foregroundColor = Theme.muted
         return line + detail
     }
@@ -172,14 +174,15 @@ struct LeamhView: View {
             Text("Work a chunk at a time. Tap Leid for the chunks, then write the whole sentence and check it.")
                 .font(.subheadline).foregroundStyle(Theme.muted)
             ForEach(Array(lines.enumerated()), id: \.offset) { k, line in
+                let key = "lei:\(passage.id):\(k)"
                 VStack(alignment: .leading, spacing: 8) {
                     Text("\(k + 1). \(line.en ?? "")").font(.headline).foregroundStyle(Theme.ink)
                     if let chunks = line.chunks, !chunks.isEmpty {
                         ChunkHints(chunks: chunks)
                     }
                     TextField("Scríobh as Gaeilge", text: Binding(
-                        get: { store.ownAnswer(LeamhView.irishKey(passage.id, k)) },
-                        set: { store.setOwnAnswer(LeamhView.irishKey(passage.id, k), $0) }), axis: .vertical)
+                        get: { store.ownAnswer(key) },
+                        set: { store.setOwnAnswer(key, $0) }), axis: .vertical)
                         .lineLimit(2...5)
                         .textInputAutocapitalization(.sentences)
                         .autocorrectionDisabled()
@@ -187,7 +190,7 @@ struct LeamhView: View {
                         .background(RoundedRectangle(cornerRadius: 12).fill(Theme.surface))
                         .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(Theme.rule))
                     Button {
-                        check(k, line)
+                        check(k, line, key: key)
                     } label: {
                         Text("Seiceáil · check").font(.subheadline.weight(.semibold))
                     }
@@ -223,12 +226,10 @@ struct LeamhView: View {
         .background(RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Theme.penWash))
     }
 
-    private static func irishKey(_ id: String, _ k: Int) -> String { "lei:\(id):\(k)" }
-
     /// Marks the pupil's Irish as the grammar lessons do (both verb forms allowed, a missing fada spotted),
     /// against the answer and then against the other good answer.
-    private func check(_ k: Int, _ line: LeamhToIrish) {
-        let typed = store.ownAnswer(LeamhView.irishKey(passage.id, k))
+    private func check(_ k: Int, _ line: LeamhToIrish, key: String) {
+        let typed = store.ownAnswer(key)
         guard !typed.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return }
         var verdict = Mark.grammarCompare(typed, line.ga ?? "")
         if !verdict.ok, let alt = line.alt, !alt.isEmpty {

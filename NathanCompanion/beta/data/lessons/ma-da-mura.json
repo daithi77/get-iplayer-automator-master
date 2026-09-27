@@ -26,7 +26,8 @@
     {
      "shape": "stem",
      "prompt": "Má (faigh) mé an post, beidh mé sásta.",
-     "answer": "Má fhaighim an post, beidh mé sásta."
+     "answer": "Má fhaighim an post, beidh mé sásta.",
+     "alt": "Má gheibhim an post, beidh mé sásta."
     },
     {
      "shape": "stem",
@@ -152,7 +153,7 @@
   {
    "title": "Dá + urú + an modh coinníollach",
    "en": "If (would): dá with the conditional",
-   "rule": "For something imagined or unlikely (if I were, if I had), use dá: put the verb in the conditional and eclipse it (dá mbeadh, dá bhfaighinn, dá n-éistfeá). The other half is in the conditional too, with séimhiú: Dá mbeadh airgead agam, rachainn go Meiriceá. Rachainn and rachfá take no eclipsis after dá. With muid and siad either form is right: rachadh muid or rachaimis, bheadh siad or bheidís.",
+   "rule": "For something imagined or unlikely (if I were, if I had), use dá: put the verb in the conditional and eclipse it (dá mbeadh, dá bhfaighinn, dá n-éistfeá). The other half is in the conditional too, with séimhiú, or d' before a vowel or f (d'fhanfainn): Dá mbeadh airgead agam, rachainn go Meiriceá. R cannot be eclipsed, so after dá, rachainn and rachfá stay as they are: dá rachfá. With muid and siad either form is right: rachadh muid or rachaimis, bheadh siad or bheidís.",
    "steps": [
     "Put bí in the conditional and eclipse it: dá mbeadh.",
     "Put the other verb in the conditional with the right person: rachainn.",
@@ -228,7 +229,7 @@
   {
    "title": "Mura + urú",
    "en": "If not: mura",
-   "rule": "Mura (if not) eclipses the verb after it. Like má, it takes the present when you mean the future (Mura mbíonn tú in am, imeoidh an bus gan thú), and tá becomes mura bhfuil. For something imagined, use the conditional: Mura mbeadh an bháisteach, rachainn amach. In Ulster you will also hear and see muna, which is fine: muna mbíonn.",
+   "rule": "Mura (if not) eclipses the verb after it. Like má, it takes the present when you mean the future (Mura mbíonn tú in am, imeoidh an bus gan thú), and tá becomes mura bhfuil. For something imagined, use the conditional: Mura mbeadh sé ag cur báistí, rachainn amach. In Ulster you will also hear and see muna, which is fine: muna mbíonn.",
    "steps": [
     "Put the verb in the present: bíonn.",
     "Eclipse it after mura: mura mbíonn.",
@@ -241,9 +242,9 @@
    },
    "more": [
     {
-     "prompt": "Mura (bí) an bháisteach, rachainn amach.",
-     "answer": "Mura mbeadh an bháisteach, rachainn amach.",
-     "alt": "Muna mbeadh an bháisteach, rachainn amach."
+     "prompt": "Mura (bí) sé ag cur báistí, rachainn amach.",
+     "answer": "Mura mbeadh sé ag cur báistí, rachainn amach.",
+     "alt": "Muna mbeadh sé ag cur báistí, rachainn amach."
     }
    ],
    "hint": "Mura (or muna) + urú. Tá: mura bhfuil.",
@@ -313,7 +314,7 @@
   {
    "title": "Má, dá nó mura? Sa Chomhrá",
    "en": "Má, dá or mura? In the speaking test",
-   "rule": "In the speaking test, listen to the question and look at the other half of your answer. If it is real or likely, use má + séimhiú and the present (or the past). If it is imagined and the other half is in the conditional, use dá + urú. If you mean if not, use mura + urú. Examiners often ask Cad é a dhéanfá dá ...? and the answer starts with Dá.",
+   "rule": "In the speaking test, listen to the question and look at the other half of your answer. If it is real or likely, use má + séimhiú and the present (or the past). If it is imagined and the other half is in the conditional, use dá + urú. If you mean if not, use mura + urú. You will often be asked Cad é a dhéanfá dá ...?, and your answer starts with Dá.",
    "steps": [
     "Read the other half: thabharfainn is in the conditional.",
     "So the if half is imagined: dá + urú + the conditional.",
@@ -325,8 +326,8 @@
    },
    "more": [
     {
-     "prompt": "An mbeidh tú ag dul chuig an ollscoil? Beidh, _______ (if: faigh, mé) na marcanna a theastaíonn uaim.",
-     "answer": "An mbeidh tú ag dul chuig an ollscoil? Beidh, má fhaighim na marcanna a theastaíonn uaim."
+     "prompt": "An mbeidh tú ag dul chuig an ollscoil? Beidh, _______ (if: faigh, mé) na marcanna atá de dhíth orm.",
+     "answer": "An mbeidh tú ag dul chuig an ollscoil? Beidh, má fhaighim na marcanna atá de dhíth orm."
     }
    ],
    "hint": "Real: má. Imagined, with a conditional: dá. If not: mura.",
@@ -347,7 +348,7 @@
      "shape": "gap",
      "prompt": "An mbeidh tú ag imirt Dé Sathairn? Beidh, _______ (if not: bí) sé ag cur báistí.",
      "answer": "An mbeidh tú ag imirt Dé Sathairn? Beidh, mura mbíonn sé ag cur báistí.",
-     "alt": "An mbeidh tú ag imirt Dé Sathairn? Beidh, muna mbíonn sé ag cur báistí.",
+     "alt": "muna mbíonn",
      "gap": "mura mbíonn"
     },
     {
@@ -360,7 +361,7 @@
      "shape": "gap",
      "prompt": "Cad é a dhéanfaidh tú mura n-éiríonn leat sa scrúdú? _______ (if not: éirigh) liom, déanfaidh mé an scrúdú arís.",
      "answer": "Cad é a dhéanfaidh tú mura n-éiríonn leat sa scrúdú? Mura n-éiríonn liom, déanfaidh mé an scrúdú arís.",
-     "alt": "Cad é a dhéanfaidh tú muna n-éiríonn leat sa scrúdú? Muna n-éiríonn liom, déanfaidh mé an scrúdú arís.",
+     "alt": "Muna n-éiríonn",
      "gap": "Mura n-éiríonn"
     },
     {
@@ -373,7 +374,7 @@
      "shape": "gap",
      "prompt": "An rachfá chuig an Ghaeltacht arís? Rachainn, _______ (if not: bí) sé chomh daor sin.",
      "answer": "An rachfá chuig an Ghaeltacht arís? Rachainn, mura mbeadh sé chomh daor sin.",
-     "alt": "An rachfá chuig an Ghaeltacht arís? Rachainn, muna mbeadh sé chomh daor sin.",
+     "alt": "muna mbeadh",
      "gap": "mura mbeadh"
     },
     {

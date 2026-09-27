@@ -127,8 +127,8 @@ struct GCSEUnitView: View {
                 if let ladder = unit.ladder, !ladder.isEmpty {
                     LadderCard(rungs: ladder)
                 }
-                ForEach(Array((unit.writing ?? []).enumerated()), id: \.offset) { k, task in
-                    WritingCard(task: task, key: "w:\(unit.id):\(k)")
+                ForEach(Array((unit.writing ?? []).enumerated()), id: \.offset) { k, essay in
+                    WritingCard(essay: essay, key: "w:\(unit.id):\(k)")
                 }
                 NavigationLink {
                     TeachDeck(unit: unit)
@@ -156,7 +156,7 @@ struct GCSEUnitView: View {
 /// Aiste: an essay question with a plan, the pupil's own draft (kept on this device), a word count and a model answer.
 struct WritingCard: View {
     @EnvironmentObject private var store: Store
-    let task: WritingTask
+    let essay: WritingTask
     /// Where the draft is kept among the pupil's own answers.
     let key: String
     @State private var showModel = false
@@ -164,15 +164,15 @@ struct WritingCard: View {
     var body: some View {
         let mine = store.ownAnswer(key)
         Panel {
-            Text("Aiste · essay (about \(task.words ?? 300) words)")
+            Text("Aiste · essay (about \(essay.words ?? 300) words)")
                 .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted)
-            if let prompt = task.prompt, !prompt.isEmpty {
+            if let prompt = essay.prompt, !prompt.isEmpty {
                 Text(prompt).font(.title3.weight(.bold)).foregroundStyle(Theme.ink)
             }
-            if let promptEn = task.promptEn, !promptEn.isEmpty {
+            if let promptEn = essay.promptEn, !promptEn.isEmpty {
                 Text(promptEn).font(.subheadline).foregroundStyle(Theme.muted)
             }
-            if let plan = task.plan, !plan.isEmpty {
+            if let plan = essay.plan, !plan.isEmpty {
                 Text("Plean · plan")
                     .font(.caption.weight(.bold)).textCase(.uppercase).foregroundStyle(Theme.muted)
                 VStack(alignment: .leading, spacing: 6) {
@@ -188,7 +188,7 @@ struct WritingCard: View {
             Text("\(OwnBox.wordCount(mine)) focal · words")
                 .font(.subheadline).foregroundStyle(Theme.muted)
             DisclosureGroup(isExpanded: $showModel) {
-                Text(task.model ?? "")
+                Text(essay.model ?? "")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 4)
             } label: {

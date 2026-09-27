@@ -50,8 +50,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Bí) tú i gcónaí déanach!",
-     "answer": "Bíonn tú i gcónaí déanach!"
+     "prompt": "(Bí) tú déanach i gcónaí!",
+     "answer": "Bíonn tú déanach i gcónaí!"
     },
     {
      "shape": "stem",
@@ -152,7 +152,7 @@
   {
    "title": "Ní bhíonn agus An mbíonn?",
    "en": "Negatives and questions: Ní bhíonn, An mbíonn?",
-   "rule": "For the negative of bíonn, write Ní bhíonn (Ní bhím for I). For a question, write An mbíonn ...? The short answers are Bíonn (yes) and Ní bhíonn (no); to a question with tú, answer Bím or Ní bhím. Compare tá, which becomes Níl and An bhfuil.",
+   "rule": "For the negative of bíonn, write Ní bhíonn (Ní bhím for I). For a question, write An mbíonn ...? The short answers (freagraí gearra) are Bíonn (yes) and Ní bhíonn (no); to a question with tú, answer Bím or Ní bhím. Compare tá, which becomes Níl and An bhfuil.",
    "steps": [
     "Put Ní in front of the verb.",
     "Add séimhiú: Ní bhíonn.",
@@ -203,13 +203,13 @@
     },
     {
      "shape": "transform",
-     "prompt": "Freagra diúltach: An mbíonn tú déanach don scoil?",
+     "prompt": "Freagra gearr, diúltach: An mbíonn tú déanach don scoil?",
      "answer": "Ní bhím.",
      "alt": "Ní bhím déanach don scoil."
     },
     {
      "shape": "transform",
-     "prompt": "Freagra dearfach: An mbíonn sé fuar i mBéal Feirste sa gheimhreadh?",
+     "prompt": "Freagra gearr, dearfach: An mbíonn sé fuar i mBéal Feirste sa gheimhreadh?",
      "answer": "Bíonn.",
      "alt": "Bíonn sé fuar i mBéal Feirste sa gheimhreadh."
     },
@@ -392,8 +392,8 @@
    "items": [
     {
      "shape": "stem",
-     "prompt": "(Bí) mé i mo shuí go luath achan mhaidin sa bhunscoil.",
-     "answer": "Bhínn i mo shuí go luath achan mhaidin sa bhunscoil."
+     "prompt": "(Bí) mé i mo shuí go luath achan mhaidin nuair a bhí mé sa bhunscoil.",
+     "answer": "Bhínn i mo shuí go luath achan mhaidin nuair a bhí mé sa bhunscoil."
     },
     {
      "shape": "stem",
@@ -402,8 +402,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Bí) mo sheanathair ag obair ar an fheirm achan lá.",
-     "answer": "Bhíodh mo sheanathair ag obair ar an fheirm achan lá."
+     "prompt": "(Bí) mo sheanathair ag obair ar an fheirm achan lá nuair a bhí sé óg.",
+     "answer": "Bhíodh mo sheanathair ag obair ar an fheirm achan lá nuair a bhí sé óg."
     },
     {
      "shape": "stem",
@@ -419,7 +419,8 @@
     {
      "shape": "stem",
      "prompt": "Ní (bí) an bus in am riamh an bhliain seo caite.",
-     "answer": "Ní bhíodh an bus in am riamh an bhliain seo caite."
+     "answer": "Ní bhíodh an bus in am riamh an bhliain seo caite.",
+     "alt": "Ní raibh an bus in am riamh an bhliain seo caite."
     },
     {
      "shape": "stem",
@@ -433,13 +434,13 @@
     },
     {
      "shape": "stem",
-     "prompt": "(Bí) mo mhamó ag insint scéalta dúinn achan oíche.",
-     "answer": "Bhíodh mo mhamó ag insint scéalta dúinn achan oíche."
+     "prompt": "(Bí) mo mhamó ag insint scéalta dúinn achan oíche nuair a bhí muid beag.",
+     "answer": "Bhíodh mo mhamó ag insint scéalta dúinn achan oíche nuair a bhí muid beag."
     },
     {
      "shape": "stem",
-     "prompt": "(Bí) mé ar an bhus ar feadh uair an chloig ar maidin.",
-     "answer": "Bhí mé ar an bhus ar feadh uair an chloig ar maidin."
+     "prompt": "(Bí) mé ar an bhus ar feadh uair an chloig maidin inné.",
+     "answer": "Bhí mé ar an bhus ar feadh uair an chloig maidin inné."
     }
    ]
   }

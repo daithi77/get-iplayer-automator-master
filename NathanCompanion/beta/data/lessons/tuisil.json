@@ -4,7 +4,7 @@
   {
    "title": "An tuiseal gairmeach: ainmneacha buachaillí",
    "en": "Calling a boy or man by name",
-   "rule": "When you speak to someone by name, the name is in the vocative case (an tuiseal gairmeach): put a in front and add séimhiú, so Pádraig becomes a Phádraig. A boy's name that ends in a broad consonant also turns slender: put i before the last consonant, so Seán becomes a Sheáin and Ciarán becomes a Chiaráin. Names that begin with a vowel, l, n or r show no séimhiú (a Eoin, a Rónáin).",
+   "rule": "When you speak to someone by name, the name is in the vocative case (an tuiseal gairmeach): put a in front and add séimhiú, so Pádraig becomes a Phádraig. A boy's name that ends in a broad consonant also turns slender: add i after the last vowel, so Seán becomes a Sheáin, Ciarán becomes a Chiaráin and Colm becomes a Choilm. Names that begin with a vowel, l, n or r show no séimhiú (a Eoin, a Rónáin).",
    "steps": [
     "Put a in front: a Seán.",
     "Add séimhiú: a Sheán.",
@@ -222,7 +222,7 @@
   {
    "title": "An tuiseal tabharthach: réamhfhocal + an",
    "en": "The dative: a noun after a preposition",
-   "rule": "A noun after a simple preposition (ag, ar, as, chuig, de, do, faoi, i, le, ó, roimh, thar, trí) is in the dative case (an tuiseal tabharthach), and it keeps its dictionary form. With the article in Ulster, b, c, f, g, m and p take séimhiú: leis an bhus, ón bhanc, faoin chrann. D, t and vowels do not change: ag an doras, ar an tábla. Remember the joined forms: leis an, don, den, faoin, ón and sa.",
+   "rule": "A noun after a simple preposition (ag, ar, as, chuig, de, do, faoi, i, le, ó, roimh, thar, trí) is in the dative case (an tuiseal tabharthach), and it keeps its dictionary form. With the article in Ulster, b, c, f, g, m and p take séimhiú: leis an bhus, ón bhanc, faoin chrann. A noun that begins with s followed by a vowel, l, n or r takes t instead, whether it is masculine or feminine: sa tsiopa, ar an tsráid, sa tSruthán. D, t and vowels do not change: ag an doras, ar an tábla. Remember the joined forms: leis an, don, den, faoin, ón and sa.",
    "steps": [
     "Join the preposition and an: le + an is leis an.",
     "bus begins with b, so add séimhiú: bhus.",
@@ -242,7 +242,7 @@
      "answer": "Chuir mé an mála ar an tábla."
     }
    ],
-   "hint": "Preposition + an + b, c, f, g, m, p: add h. D, t and vowels: no change.",
+   "hint": "Preposition + an + b, c, f, g, m, p: add h. s + vowel, l, n or r: ts. D, t and vowels: no change.",
    "items": [
     {
      "shape": "stem",
@@ -268,6 +268,11 @@
      "shape": "stem",
      "prompt": "Chuaigh sé isteach (i + an + caifé).",
      "answer": "Chuaigh sé isteach sa chaifé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cheannaigh mé bainne (i + an + siopa) ar maidin.",
+     "answer": "Cheannaigh mé bainne sa tsiopa ar maidin."
     },
     {
      "shape": "stem",
@@ -299,7 +304,7 @@
   {
    "title": "An ginideach i ndiaidh an ainm bhriathartha: frásaí coitianta",
    "en": "The genitive after a verbal noun: everyday phrases",
-   "rule": "The object of a verbal noun (ag déanamh, ag imirt, ag glanadh) goes into the genitive. With no article, just use the genitive form: ag imirt peile, ag seinm ceoil, ag cur ama amú. With the article, a masculine noun keeps an and takes séimhiú (ag glanadh an tí), and a feminine noun takes na (ag déanamh na hoibre). Learn the common ones as chunks.",
+   "rule": "The object of a verbal noun (ag déanamh, ag imirt, ag glanadh) goes into the genitive. With no article, just use the genitive form: ag imirt peile, ag seinm ceoil, ag cur ama amú. With the article, a masculine noun keeps an, takes séimhiú and its genitive ending: ag imirt an chluiche. The t- before a vowel goes (ag ithe an aráin), and d and t do not change (ag ól an tae). A feminine noun takes na, with h before a vowel: ag glanadh na cistine, ag déanamh na hoibre. Learn the common ones as chunks.",
    "steps": [
     "Find the object: an obair.",
     "Put it in the genitive: obair is feminine, so na hoibre.",
