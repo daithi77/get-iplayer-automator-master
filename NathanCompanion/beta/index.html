@@ -852,7 +852,7 @@ function prepItem(){
 function record(ok,ga,en,id){sess.log.push({ok,ga,en});if(id)bump(id,ok);save();}
 
 const A={
-  home:()=>{hush();if(view==='unit'&&unit&&unit.noAudio){ct={u:unit};view='ctopic';render();scrollTo(0,0);return;}
+  home:()=>{hush();if(view==='unit'&&unit&&unit.noAudio&&C.some(t=>t.id===unit.id)){ct={u:unit};view='ctopic';render();scrollTo(0,0);return;}
     if(view==='unit'&&unit&&unit.level){gt=unit;view='gunit';render();scrollTo(0,0);return;}view='home';render();scrollTo(0,0);},
   open:el=>startUnit(el.dataset.set==='c'?C[+el.dataset.i]:+el.dataset.i),
   hear:el=>{const c=chunkById(unit,el.dataset.cid);if(!c)return;const col=+el.dataset.col;const ids=unit.rows[sess.row].columns[col].map(x=>x.id);
