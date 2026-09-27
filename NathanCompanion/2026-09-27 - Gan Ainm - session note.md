@@ -88,3 +88,34 @@ add_session_note(
 ## Diary line for HANDOFF.md
 
 27 September, evening: Gan Ainm 0.5 built unattended: GCSE track (6 units) for Conor, 6 new Year 8 units, house style; review list waiting; upload to TestFlight once audio finishes.
+
+---
+
+# Later still, 27 September (second unattended build)
+
+## Register entries
+
+```python
+add_work_entry(
+    project="Gan Ainm",
+    task="Built Phases 3 and 4 of PLAN-v0.5 from Dáithí's legacy notes and decks: eight new grammar sections (relative clauses, the imperative, verbs that shorten, the article and gender, cases and the vocative, má/dá/mura, tá or bíonn, the copula for emphasis; 50 lessons); four AS Comhrá topics (Daoine gan dídean, the smoking and vaping bans, Drugaí as teacher-led, Loch nEathach); An Spreagphictiúr (six scenes, his five-finger method); Léitheoireacht agus aistriúchán (eight original passages, AS and A2); an A2 track (four discussion units with essays). Web and iPhone. Also uploaded build 8 to TestFlight with Dáithí at the keyboard (it compiled first time).",
+    status="In Progress",
+    output_file="NathanCompanion/data/review-v0.6.md",
+    notes="Every piece drafted by one agent and reviewed by a second. All browser tests pass: 258 grammar lessons, 40 decks, 19 pupil Comhrá topics, 101 links, 6 scenes, 36/36 translations, 4 A2 units, 15 Year 8 and 6 GCSE units. iPhone package 0.5 build 9 in the zip, reviewed for compile errors, not uploaded. No audio for the new material, at Dáithí's request.",
+    device="Home (M5)",
+)
+```
+
+## Session note
+
+```python
+add_session_note(
+    summary="Second unattended build of Gan Ainm: grammar from the old notes, AS picture stimulus and reading modes, four Comhrá topics, and an A2 track, on web and iPhone (build 9 ready). Build 8 went to TestFlight earlier in the evening. Review list in data/review-v0.6.md.",
+    decisions="Drugaí teacher-led; new passages instead of Loch an Iúir; no pictures yet; A2 reuses the GCSE screens with an essay card; corrected the simple-prepositions lesson so masculine s-nouns take t after preposition + an, with the remaining 29 instances elsewhere parked for Dáithí's ruling because they carry recorded audio; audio generation stopped at his request. Dáithí asked why so little of his legacy material was in build 8; Claude had built only Phases 1 and 2 and should have said so plainly when listing what was new.",
+    device="Home (M5)",
+)
+```
+
+## Diary line for HANDOFF.md
+
+27 September, late: Gan Ainm build 9 ready (grammar from the old notes, Spreagphictiúr, reading and translation, four Comhrá topics, A2); review list v0.6 waiting.
