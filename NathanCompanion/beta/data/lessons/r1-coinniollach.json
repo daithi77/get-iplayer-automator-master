@@ -1,0 +1,632 @@
+{
+ "id": "r1-coinniollach",
+ "lessons": [
+  {
+   "title": "Séimhiú agus -fadh / -feadh",
+   "en": "Lenition and -fadh / -feadh",
+   "rule": "To say what someone would do, put séimhiú on the verb and add -fadh to a broad root or -feadh to a slender root: glan becomes ghlanfadh sé, cuir becomes chuirfeadh sé. L, n, r and sc, sp, st, sm take no séimhiú (lasfadh, rithfeadh).",
+   "steps": [
+    "Find the root: glan.",
+    "Add séimhiú: ghlan.",
+    "The last vowel is broad (a), so add -fadh: ghlanfadh.",
+    "Put the verb first: Ghlanfadh sé an scáileán."
+   ],
+   "example": {
+    "prompt": "(Glan) sé an scáileán.",
+    "answer": "Ghlanfadh sé an scáileán."
+   },
+   "more": [
+    {
+     "prompt": "(Cuir) sé an mála sa charr.",
+     "answer": "Chuirfeadh sé an mála sa charr."
+    }
+   ],
+   "hint": "Séimhiú, then -fadh (broad) or -feadh (slender).",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Croch) sé a chóta.",
+     "answer": "Chrochfadh sé a chóta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cas) sé an eochair.",
+     "answer": "Chasfadh sé an eochair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gearr) sé an císte.",
+     "answer": "Ghearrfadh sé an císte."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díol) sé an rothar.",
+     "answer": "Dhíolfadh sé an rothar."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Blais) sé an caife.",
+     "answer": "Bhlaisfeadh sé an caife."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Caith) sé an éide scoile.",
+     "answer": "Chaithfeadh sé an éide scoile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Druid) sé an doras.",
+     "answer": "Dhruidfeadh sé an doras."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Las) sé an ríomhaire glúine.",
+     "answer": "Lasfadh sé an ríomhaire glúine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Rith) sé go dtí an stad bus.",
+     "answer": "Rithfeadh sé go dtí an stad bus."
+    }
+   ]
+  },
+  {
+   "title": "D' roimh ghuta agus roimh f",
+   "en": "D' before a vowel and before f",
+   "rule": "If the verb begins with a vowel, put d' in front of it (ól becomes d'ólfadh sé); if it begins with f, add séimhiú and put d' in front (fan becomes d'fhanfadh sé).",
+   "steps": [
+    "Find the root: ól.",
+    "It begins with a vowel, so put d' in front: d'ól.",
+    "Add -fadh (broad): d'ólfadh.",
+    "Put the verb first: D'ólfadh sé an t-uisce."
+   ],
+   "example": {
+    "prompt": "(Ól) sé an t-uisce.",
+    "answer": "D'ólfadh sé an t-uisce."
+   },
+   "more": [
+    {
+     "prompt": "(Fág) sé an fón sa mhála.",
+     "answer": "D'fhágfadh sé an fón sa mhála."
+    }
+   ],
+   "hint": "Vowel: d'. F: d'fh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Amharc) sé ar an chluiche.",
+     "answer": "D'amharcfadh sé ar an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Íoc) sé as an bhus.",
+     "answer": "D'íocfadh sé as an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Úsáid) sé an ríomhaire glúine.",
+     "answer": "D'úsáidfeadh sé an ríomhaire glúine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Éist) sé leis an cheol.",
+     "answer": "D'éistfeadh sé leis an cheol."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fan) sé ag an stad bus.",
+     "answer": "D'fhanfadh sé ag an stad bus."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm dhiúltach: Ní",
+   "en": "The negative: Ní",
+   "rule": "Put Ní before the verb, keep the séimhiú and drop any d': Mholfadh muid becomes Ní mholfadh muid, D'éistfidís becomes Ní éistfidís.",
+   "steps": [
+    "Start with the positive verb: D'éistfidís.",
+    "Drop the d': éistfidís.",
+    "Put Ní in front: Ní éistfidís."
+   ],
+   "example": {
+    "prompt": "D'éistfidís.",
+    "answer": "Ní éistfidís."
+   },
+   "more": [
+    {
+     "prompt": "Mholfadh muid.",
+     "answer": "Ní mholfadh muid."
+    },
+    {
+     "prompt": "D'amharcfadh sé.",
+     "answer": "Ní amharcfadh sé."
+    }
+   ],
+   "hint": "Ní + séimhiú, no d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "D'íocfaidís.",
+     "answer": "Ní íocfaidís."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Scríobhfainn.",
+     "answer": "Ní scríobhfainn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'úsáidfeadh sí.",
+     "answer": "Ní úsáidfeadh sí."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mhúchfadh sibh.",
+     "answer": "Ní mhúchfadh sibh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Ghearrfainn.",
+     "answer": "Ní ghearrfainn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Dhíolfá.",
+     "answer": "Ní dhíolfá."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Roinnfeadh sí.",
+     "answer": "Ní roinnfeadh sí."
+    }
+   ]
+  },
+  {
+   "title": "Freagra: -fainn / -finn",
+   "en": "Answering: -fainn / -finn",
+   "rule": "When the question asks tú (-fá / -feá), answer with mé: add -fainn to a broad root or -finn to a slender root, with séimhiú or d' for yes and Ní for no (Chaithfinn nó ní chaithfinn).",
+   "steps": [
+    "Find the root in the question: an gcaithfeá has the root caith.",
+    "Add séimhiú and -finn (slender) for yes: Chaithfinn.",
+    "Put ní before it for no: ní chaithfinn.",
+    "Fill both gaps: Chaithfinn nó ní chaithfinn."
+   ],
+   "example": {
+    "prompt": "An gcaithfeá an éide scoile? ____ nó ní ____.",
+    "answer": "An gcaithfeá an éide scoile? Chaithfinn nó ní chaithfinn."
+   },
+   "more": [
+    {
+     "prompt": "An amharcfá ar an chluiche? ____ nó ní ____.",
+     "answer": "An amharcfá ar an chluiche? D'amharcfainn nó ní amharcfainn."
+    }
+   ],
+   "hint": "Asked with tú, answer with -fainn / -finn.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "An rithfeá go dtí an bus? ____ nó ní ____.",
+     "answer": "An rithfeá go dtí an bus? Rithfinn nó ní rithfinn.",
+     "gap": "Rithfinn nó ní rithfinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An nglanfá do sheomra? ____ nó ní ____.",
+     "answer": "An nglanfá do sheomra? Ghlanfainn nó ní ghlanfainn.",
+     "gap": "Ghlanfainn nó ní ghlanfainn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An scuabfá an chistin dom? ____ nó ní ____.",
+     "answer": "An scuabfá an chistin dom? Scuabfainn nó ní scuabfainn.",
+     "gap": "Scuabfainn nó ní scuabfainn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfanfá ag an stad bus? ____ nó ní ____.",
+     "answer": "An bhfanfá ag an stad bus? D'fhanfainn nó ní fhanfainn.",
+     "gap": "D'fhanfainn nó ní fhanfainn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An éistfeá leis an cheol? ____ nó ní ____.",
+     "answer": "An éistfeá leis an cheol? D'éistfinn nó ní éistfinn.",
+     "gap": "D'éistfinn nó ní éistfinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An gcuirfeá teachtaireacht chuig do chara? ____ nó ní ____.",
+     "answer": "An gcuirfeá teachtaireacht chuig do chara? Chuirfinn nó ní chuirfinn.",
+     "gap": "Chuirfinn nó ní chuirfinn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An lasfá an ríomhaire dom? ____ nó ní ____.",
+     "answer": "An lasfá an ríomhaire dom? Lasfainn nó ní lasfainn.",
+     "gap": "Lasfainn nó ní lasfainn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An bhfágfá an fón sa bhaile? ____ nó ní ____.",
+     "answer": "An bhfágfá an fón sa bhaile? D'fhágfainn nó ní fhágfainn.",
+     "gap": "D'fhágfainn nó ní fhágfainn"
+    },
+    {
+     "shape": "gap",
+     "prompt": "An mbuailfeá le do chairde in Iúr Cinn Trá? ____ nó ní ____.",
+     "answer": "An mbuailfeá le do chairde in Iúr Cinn Trá? Bhuailfinn nó ní bhuailfinn.",
+     "gap": "Bhuailfinn nó ní bhuailfinn"
+    }
+   ]
+  },
+  {
+   "title": "Dá: an modh coinníollach sa dá leath",
+   "en": "Dá: the conditional in both halves",
+   "rule": "After dá (if), both halves of the sentence use the conditional: Dá mbeadh tart orm, d'ólfainn tae. Work out the person from the dá half (orm, mo, mbeinn all point to mé).",
+   "steps": [
+    "Read the dá half to find the person: orm, so mé.",
+    "Put the verb in the conditional with the mé ending: cuir becomes chuirfinn.",
+    "Write the whole sentence: Dá mbeadh an lá fliuch, chuirfinn cóta fearthainne orm."
+   ],
+   "example": {
+    "prompt": "Dá mbeadh an lá fliuch, (cuir) cóta fearthainne orm.",
+    "answer": "Dá mbeadh an lá fliuch, chuirfinn cóta fearthainne orm."
+   },
+   "more": [
+    {
+     "prompt": "Dá mbeinn tinn, (fan) sa leaba.",
+     "answer": "Dá mbeinn tinn, d'fhanfainn sa leaba."
+    }
+   ],
+   "hint": "Dá mbeadh ..., then the conditional.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh tart orm i ndiaidh na traenála, (ól) buidéal uisce.",
+     "answer": "Dá mbeadh tart orm i ndiaidh na traenála, d'ólfainn buidéal uisce."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh mo scáileán salach, (glan) é.",
+     "answer": "Dá mbeadh mo scáileán salach, ghlanfainn é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh fuinneog mo sheomra ar oscailt, (druid) í.",
+     "answer": "Dá mbeadh fuinneog mo sheomra ar oscailt, dhruidfinn í."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh sé fuar ar Shliabh gCuillinn, (cuir) hata orm.",
+     "answer": "Dá mbeadh sé fuar ar Shliabh gCuillinn, chuirfinn hata orm."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeinn tuirseach, (fan) sa bhaile.",
+     "answer": "Dá mbeinn tuirseach, d'fhanfainn sa bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh am ag an mhúinteoir, (scríobh) sé nóta sa dialann obair bhaile.",
+     "answer": "Dá mbeadh am ag an mhúinteoir, scríobhfadh sé nóta sa dialann obair bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Dá mbeadh aip foclóra agam, (úsáid) í.",
+     "answer": "Dá mbeadh aip foclóra agam, d'úsáidfinn í."
+    }
+   ]
+  },
+  {
+   "title": "Cad é a dhéanfá?",
+   "en": "What would you do?",
+   "rule": "Answer Cad é a dhéanfá? with a verb in the conditional with the mé ending, and Cad é a dhéanfadh sé / sí / siad? with the same person (dhéanfainn, ghlanfadh sí, d'amharcfaidís).",
+   "steps": [
+    "Read the question: dhéanfá asks about tú, so answer with mé.",
+    "Choose a verb: ól.",
+    "Put it in the conditional with the mé ending: D'ólfainn gloine uisce."
+   ],
+   "example": {
+    "prompt": "Cad é a dhéanfá dá mbeadh tart ort?",
+    "answer": "D'ólfainn gloine uisce."
+   },
+   "more": [
+    {
+     "prompt": "Cad é a dhéanfadh do mháthair dá mbeadh an lá fliuch?",
+     "answer": "Chuirfeadh sí cóta fearthainne uirthi."
+    }
+   ],
+   "hint": "Asked with dhéanfá, answer with -fainn / -finn.",
+   "items": [
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeadh scrúdú agat amárach?",
+     "answer": "Dhéanfainn staidéar.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeadh ocras ort i ndiaidh na scoile?",
+     "answer": "Dhéanfainn ceapaire.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfadh do mháthair dá mbeadh do sheomra salach?",
+     "answer": "Ghlanfadh sí an seomra.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfadh na gasúir dá mbeadh cluiche camógaíochta ar siúl?",
+     "answer": "D'amharcfaidís ar an chluiche.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfadh d'athair dá mbeadh cluiche ar an raidió?",
+     "answer": "D'éistfeadh sé leis an chluiche.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfadh do dheartháir dá mbeadh sé tuirseach?",
+     "answer": "D'fhanfadh sé sa leaba.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeifeá tinn ar lá an chluiche?",
+     "answer": "D'fhanfainn sa bhaile.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeadh sé dorcha ar an bhealach abhaile?",
+     "answer": "Lasfainn solas an fhóin.",
+     "self": true
+    },
+    {
+     "shape": "free",
+     "prompt": "Cad é a dhéanfá dá mbeadh an lá fliuch?",
+     "answer": "Chuirfinn cóta fearthainne orm.",
+     "self": true
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -faí",
+   "en": "The autonomous form: -faí",
+   "rule": "When no one is named (it would be done), add -faí to a broad root, with séimhiú or d' as usual: mol becomes mholfaí, ól becomes d'ólfaí.",
+   "steps": [
+    "Find the root: mol.",
+    "Add séimhiú: mhol.",
+    "The root is broad, so add -faí: mholfaí.",
+    "Put the verb first: Mholfaí na gasúir dá mbeidís ciúin."
+   ],
+   "example": {
+    "prompt": "(Mol) na gasúir dá mbeidís ciúin.",
+    "answer": "Mholfaí na gasúir dá mbeidís ciúin."
+   },
+   "more": [
+    {
+     "prompt": "(Seol) an ríomhphost.",
+     "answer": "Sheolfaí an ríomhphost."
+    }
+   ],
+   "hint": "Broad root + -faí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ól) an tae.",
+     "answer": "D'ólfaí an tae."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scríobh) an ríomhphost.",
+     "answer": "Scríobhfaí an ríomhphost."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan) an obair bhaile.",
+     "answer": "Dhéanfaí an obair bhaile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Díol) na ticéid.",
+     "answer": "Dhíolfaí na ticéid."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Can) an t-amhrán sa halla.",
+     "answer": "Chanfaí an t-amhrán sa halla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Leag) an seanteach.",
+     "answer": "Leagfaí an seanteach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Las) na ríomhairí.",
+     "answer": "Lasfaí na ríomhairí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Mol) an fhoireann.",
+     "answer": "Mholfaí an fhoireann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Scuab) an halla spóirt.",
+     "answer": "Scuabfaí an halla spóirt."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -fí",
+   "en": "The autonomous form: -fí",
+   "rule": "With a slender root, add -fí instead, with séimhiú or d' as usual: cuir becomes chuirfí, éist becomes d'éistfí.",
+   "steps": [
+    "Find the root: caith.",
+    "Add séimhiú: chaith.",
+    "The root is slender, so add -fí: chaithfí.",
+    "Put the verb first: Chaithfí an éide scoile."
+   ],
+   "example": {
+    "prompt": "(Caith) an éide scoile.",
+    "answer": "Chaithfí an éide scoile."
+   },
+   "more": [
+    {
+     "prompt": "(Druid) na siopaí.",
+     "answer": "Dhruidfí na siopaí."
+    }
+   ],
+   "hint": "Slender root + -fí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Caill) an bus.",
+     "answer": "Chaillfí an bus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Buail) an liathróid.",
+     "answer": "Bhuailfí an liathróid."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tuig) na rialacha.",
+     "answer": "Thuigfí na rialacha."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bris) an fhuinneog.",
+     "answer": "Bhrisfí an fhuinneog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cuir) teachtaireacht chuig na tuismitheoirí.",
+     "answer": "Chuirfí teachtaireacht chuig na tuismitheoirí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Éist) leis an cheol.",
+     "answer": "D'éistfí leis an cheol."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Múin) na daltaí sa Ghaeltacht.",
+     "answer": "Mhúinfí na daltaí sa Ghaeltacht."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. Ordú / Cad é a dhéanfadh sé? (briathra leathana)",
+   "forms": [
+    "Croch do chóta. : Chrochfadh sé a chóta.",
+    "Glan an bord. : Ghlanfadh sé an bord.",
+    "Cíor do chuid gruaige. : Chíorfadh sé a chuid gruaige.",
+    "Cas timpeall. : Chasfadh sé timpeall.",
+    "Cnag ar an doras. : Chnagfadh sé ar an doras.",
+    "Gearr an fheoil. : Ghearrfadh sé an fheoil.",
+    "Múch na soilse. : Mhúchfadh sé na soilse.",
+    "Díol an leabhar. : Dhíolfadh sé an leabhar.",
+    "Las an tine. : Lasfadh sé an tine."
+   ]
+  },
+  {
+   "title": "A. Ceist: glan (briathar leathan)",
+   "forms": [
+    "An nglanfá an bord? : Ghlanfainn/Ní ghlanfainn.",
+    "An nglanfadh sé an bord? : Ghlanfadh sé/Ní ghlanfadh sé.",
+    "An nglanfadh sí an bord? : Ghlanfadh sí/Ní ghlanfadh sí.",
+    "An nglanfadh sibh an bord? : Ghlanfadh muid/Ní ghlanfadh muid.",
+    "An nglanfaidís an bord? : Ghlanfaidís/Ní ghlanfaidís.",
+    "An nglanfaí an bord? : Ghlanfaí/Ní ghlanfaí."
+   ]
+  },
+  {
+   "title": "B. Ordú / Cad é a dhéanfadh sé? (briathra caola)",
+   "forms": [
+    "Cuir an pláta ar an bhord. : Chuirfeadh sé an pláta ar an bhord.",
+    "Blais an deoch. : Bhlaisfeadh sé an deoch.",
+    "Caith an liathróid. : Chaithfeadh sé an liathróid.",
+    "Bain an féar. : Bhainfeadh sé an féar.",
+    "Druid an fhuinneog. : Dhruidfeadh sé an fhuinneog.",
+    "Sín amach do lámh. : Shínfeadh sé amach a lámh.",
+    "Rith go dtí an líne. : Rithfeadh sé go dtí an líne."
+   ]
+  },
+  {
+   "title": "B. Ceist: cuir (briathar caol)",
+   "forms": [
+    "An gcuirfeá an pláta ar an bhord? : Chuirfinn/Ní chuirfinn.",
+    "An gcuirfeadh sé an pláta ar an bhord? : Chuirfeadh sé/Ní chuirfeadh sé.",
+    "An gcuirfeadh sí an pláta ar an bhord? : Chuirfeadh sí/Ní chuirfeadh sí.",
+    "An gcuirfeadh sibh an pláta ar an bhord? : Chuirfeadh muid/Ní chuirfeadh muid.",
+    "An gcuirfidís an pláta ar an bhord? : Chuirfidís/Ní chuirfidís.",
+    "An gcuirfí an pláta ar an bhord? : Chuirfí/Ní chuirfí."
+   ]
+  },
+  {
+   "title": "C. Ordú / Cad é a dhéanfadh sé? (briathra leathana a thosaíonn ar ghuta)",
+   "forms": [
+    "Ól an deoch. : D'ólfadh sé an deoch.",
+    "Amharc ar an phictiúr. : D'amharcfadh sé ar an phictiúr.",
+    "Íoc as an ticéad. : D'íocfadh sé as an ticéad."
+   ]
+  },
+  {
+   "title": "C. Ceist: ól (guta, leathan)",
+   "forms": [
+    "An ólfá an deoch? : D'ólfainn/Ní ólfainn.",
+    "An ólfadh sé an deoch? : D'ólfadh sé/Ní ólfadh sé.",
+    "An ólfadh sí an deoch? : D'ólfadh sí/Ní ólfadh sí.",
+    "An ólfadh sibh an deoch? : D'ólfadh muid/Ní ólfadh muid.",
+    "An ólfaidís an deoch? : D'ólfaidís/Ní ólfaidís.",
+    "An ólfaí an deoch? : D'ólfaí/Ní ólfaí."
+   ]
+  },
+  {
+   "title": "D. Ordú / Cad é a dhéanfadh sé? (briathra caola a thosaíonn ar ghuta)",
+   "forms": [
+    "Úsáid an peann dearg. : D'úsáidfeadh sé an peann dearg.",
+    "Éist leis an nuacht. : D'éistfeadh sé leis an nuacht."
+   ]
+  },
+  {
+   "title": "D. Ceist: úsáid (guta, caol)",
+   "forms": [
+    "An úsáidfeá an peann dearg? : D'úsáidfinn/Ní úsáidfinn.",
+    "An úsáidfeadh sé an peann dearg? : D'úsáidfeadh sé/Ní úsáidfeadh sé.",
+    "An úsáidfeadh sí an peann dearg? : D'úsáidfeadh sí/Ní úsáidfeadh sí.",
+    "An úsáidfeadh sibh an peann dearg? : D'úsáidfeadh muid/Ní úsáidfeadh muid.",
+    "An úsáidfidís an peann dearg? : D'úsáidfidís/Ní úsáidfidís.",
+    "An úsáidfí an peann dearg? : D'úsáidfí/Ní úsáidfí."
+   ]
+  },
+  {
+   "title": "E. Ordú / Cad é a dhéanfadh sé? (briathra a thosaíonn ar f)",
+   "forms": [
+    "Fág an leabhar anseo. : D'fhágfadh sé an leabhar anseo.",
+    "Fan sa teach. : D'fhanfadh sé sa teach.",
+    "Féach ar an chlár dubh. : D'fhéachfadh sé ar an chlár dubh."
+   ]
+  },
+  {
+   "title": "E. Ceist: fág (briathar a thosaíonn ar f)",
+   "forms": [
+    "An bhfágfá an leabhar anseo? : D'fhágfainn/Ní fhágfainn.",
+    "An bhfágfadh sé an leabhar anseo? : D'fhágfadh sé/Ní fhágfadh sé.",
+    "An bhfágfadh sí an leabhar anseo? : D'fhágfadh sí/Ní fhágfadh sí.",
+    "An bhfágfadh sibh an leabhar anseo? : D'fhágfadh muid/Ní fhágfadh muid.",
+    "An bhfágfaidís an leabhar anseo? : D'fhágfaidís/Ní fhágfaidís.",
+    "An bhfágfaí an leabhar anseo? : D'fhágfaí/Ní fhágfaí."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "dobhriathar",
+ "lessons": [
+  {
+   "title": "Isteach, istigh, amach, amuigh",
+   "en": "In and out: moving or staying put",
+   "rule": "Use isteach (in) and amach (out) when someone is moving; use istigh (inside) and amuigh (outside) when someone is already there and staying put.",
+   "steps": [
+    "Ask whether Dara is moving or staying put: chuaigh (went) means moving.",
+    "He is moving into the library, so use isteach.",
+    "Write the sentence: Chuaigh Dara isteach sa leabharlann ag am lóin."
+   ],
+   "example": {
+    "prompt": "Chuaigh Dara ________ sa leabharlann ag am lóin.",
+    "answer": "Chuaigh Dara isteach sa leabharlann ag am lóin."
+   },
+   "more": [
+    {
+     "prompt": "Anois tá sé ________ ag obair ar an ríomhaire.",
+     "answer": "Anois tá sé istigh ag obair ar an ríomhaire."
+    }
+   ],
+   "hint": "Moving: isteach, amach. Staying put: istigh, amuigh.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Rith an gasúr ________ as an scoil nuair a bhuail an clog.",
+     "answer": "Rith an gasúr amach as an scoil nuair a bhuail an clog.",
+     "gap": "amach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cá bhfuil Méabh? Tá sí ________ sa seomra ranga ag caint leis an mhúinteoir.",
+     "answer": "Cá bhfuil Méabh? Tá sí istigh sa seomra ranga ag caint leis an mhúinteoir.",
+     "gap": "istigh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Shiúil Róise ________ as an siopa agus a fón ina lámh.",
+     "answer": "Shiúil Róise amach as an siopa agus a fón ina lámh.",
+     "gap": "amach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Shiúil Máirtín amach as an teach. Anois tá sé ________ sa ghairdín.",
+     "answer": "Shiúil Máirtín amach as an teach. Anois tá sé amuigh sa ghairdín.",
+     "gap": "amuigh"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuaigh Aoife ________ sa teach. Anois tá sí istigh.",
+     "answer": "Chuaigh Aoife isteach sa teach. Anois tá sí istigh.",
+     "gap": "isteach"
+    }
+   ]
+  },
+  {
+   "title": "Suas, thuas, anuas",
+   "en": "Up: going up, up there, coming down",
+   "rule": "Use suas for going up, away from the speaker; thuas for being up there and staying put; anuas for coming down towards the speaker.",
+   "steps": [
+    "Ask whether Ciara is moving or staying put: ag dul (going) means moving.",
+    "She is going upwards, away from us, so use suas.",
+    "Write the sentence: Tá Ciara ag dul suas Sliabh gCuillinn lena rang."
+   ],
+   "example": {
+    "prompt": "Tá Ciara ag dul ________ Sliabh gCuillinn lena rang.",
+    "answer": "Tá Ciara ag dul suas Sliabh gCuillinn lena rang."
+   },
+   "more": [
+    {
+     "prompt": "Tá sí ag teacht ________ arís mar tá an bus ag fanacht.",
+     "answer": "Tá sí ag teacht anuas arís mar tá an bus ag fanacht."
+    }
+   ],
+   "hint": "Going up: suas. Up there: thuas. Coming down to us: anuas.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Chuaigh Rang 9 ________ an staighre go dtí an seomra ríomhairí i ndiaidh an tsosa.",
+     "answer": "Chuaigh Rang 9 suas an staighre go dtí an seomra ríomhairí i ndiaidh an tsosa.",
+     "gap": "suas"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuaigh Pól suas an staighre. Anois tá sé ________ staighre.",
+     "answer": "Chuaigh Pól suas an staighre. Anois tá sé thuas staighre.",
+     "gap": "thuas"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá Pól ag teacht ________ an staighre don dinnéar.",
+     "answer": "Tá Pól ag teacht anuas an staighre don dinnéar.",
+     "gap": "anuas"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá an cat ________ ar bharr an bhalla.",
+     "answer": "Tá an cat thuas ar bharr an bhalla.",
+     "gap": "thuas"
+    }
+   ]
+  },
+  {
+   "title": "Síos, thíos, aníos",
+   "en": "Down: going down, down there, coming up",
+   "rule": "Use síos for going down, away from the speaker; thíos for being down there and staying put; aníos for coming up towards the speaker from below.",
+   "steps": [
+    "Ask whether Aoibhinn is moving or staying put: ag dul (going) means moving.",
+    "She is going downwards, away from us, so use síos.",
+    "Write the sentence: Tá Aoibhinn ag dul síos go dtí an pháirc don chluiche camógaíochta."
+   ],
+   "example": {
+    "prompt": "Tá Aoibhinn ag dul ________ go dtí an pháirc don chluiche camógaíochta.",
+    "answer": "Tá Aoibhinn ag dul síos go dtí an pháirc don chluiche camógaíochta."
+   },
+   "more": [
+    {
+     "prompt": "Anois tá sí ________ sa pháirc agus tá an cluiche ag tosú.",
+     "answer": "Anois tá sí thíos sa pháirc agus tá an cluiche ag tosú."
+    }
+   ],
+   "hint": "Going down: síos. Down there: thíos. Coming up to us: aníos.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Tá sí ag teacht ________ arís i ndiaidh an chluiche.",
+     "answer": "Tá sí ag teacht aníos arís i ndiaidh an chluiche.",
+     "gap": "aníos"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Chuaigh an rang ________ go bun an chnoic.",
+     "answer": "Chuaigh an rang síos go bun an chnoic.",
+     "gap": "síos"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá siad ________ ag bun an chnoic anois.",
+     "answer": "Tá siad thíos ag bun an chnoic anois.",
+     "gap": "thíos"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá na gasúir ag teacht ________ ón trá.",
+     "answer": "Tá na gasúir ag teacht aníos ón trá.",
+     "gap": "aníos"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "A. suas, thuas, anuas",
+   "forms": [
+    "suas: going up, away from you",
+    "thuas: up there, staying put",
+    "anuas: coming down towards you"
+   ]
+  },
+  {
+   "title": "B. síos, thíos, aníos",
+   "forms": [
+    "síos: going down, away from you",
+    "thíos: down there, staying put",
+    "aníos: coming up towards you"
+   ]
+  },
+  {
+   "title": "C. isteach, istigh",
+   "forms": [
+    "isteach: going in",
+    "istigh: inside, staying put"
+   ]
+  },
+  {
+   "title": "D. amach, amuigh",
+   "forms": [
+    "amach: going out",
+    "amuigh: outside, staying put"
+   ]
+  }
+ ]
+}

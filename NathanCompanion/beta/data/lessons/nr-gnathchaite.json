@@ -1,0 +1,533 @@
+{
+ "id": "nr-gnathchaite",
+ "lessons": [
+  {
+   "title": "Séimhiú agus -adh",
+   "en": "Lenition and -adh",
+   "rule": "Most irregular verbs work like regular ones in this tense: put séimhiú on the stem and add -adh or -eadh (bí gives bhíodh, téigh gives théadh, tar gives thagadh, tabhair gives thugadh, déan gives dhéanadh, clois gives chloiseadh, beir gives bheireadh).",
+   "steps": [
+    "Find the stem of the verb: téigh uses té.",
+    "Add séimhiú: thé.",
+    "Add -adh: théadh.",
+    "Put the verb first: Théadh sé chuig traenáil peile achan oíche."
+   ],
+   "example": {
+    "prompt": "(Téigh) sé chuig traenáil peile achan oíche.",
+    "answer": "Théadh sé chuig traenáil peile achan oíche."
+   },
+   "more": [
+    {
+     "prompt": "(Tabhair) sí a camán léi achan mhaidin.",
+     "answer": "Thugadh sí a camán léi achan mhaidin."
+    }
+   ],
+   "hint": "Learn the stem, then séimhiú + -adh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Tar) m'aintín ó Thír Chonaill chugainn achan samhradh.",
+     "answer": "Thagadh m'aintín ó Thír Chonaill chugainn achan samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mo sheanmháthair i gcónaí ag caint faoin Ghaeltacht.",
+     "answer": "Bhíodh mo sheanmháthair i gcónaí ag caint faoin Ghaeltacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan) na gasúir an obair bhaile ar an ríomhaire glúine.",
+     "answer": "Dhéanadh na gasúir an obair bhaile ar an ríomhaire glúine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Clois) sí an nuacht ar an raidió achan mhaidin.",
+     "answer": "Chloiseadh sí an nuacht ar an raidió achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Beir) sé ar an bhus ag a hocht a chlog.",
+     "answer": "Bheireadh sé ar an bhus ag a hocht a chlog."
+    }
+   ]
+  },
+  {
+   "title": "Ith, feic, faigh agus abair",
+   "en": "Ith, feic, faigh and abair",
+   "rule": "Ith, feic and faigh take d' in front (d'itheadh, d'fheiceadh, d'fhaigheadh), but abair takes neither d' nor séimhiú: deireadh.",
+   "steps": [
+    "Find the verb: feic.",
+    "It begins with f, so add séimhiú and d': d'fheic.",
+    "Add -eadh: d'fheiceadh.",
+    "Put the verb first: D'fheiceadh sé a chairde ag an stad bus achan mhaidin."
+   ],
+   "example": {
+    "prompt": "(Feic) sé a chairde ag an stad bus achan mhaidin.",
+    "answer": "D'fheiceadh sé a chairde ag an stad bus achan mhaidin."
+   },
+   "more": [
+    {
+     "prompt": "(Faigh) sé sú úll ag am lóin.",
+     "answer": "D'fhaigheadh sé sú úll ag am lóin."
+    },
+    {
+     "prompt": "(Abair) sé a chuid paidreacha achan oíche.",
+     "answer": "Deireadh sé a chuid paidreacha achan oíche."
+    }
+   ],
+   "hint": "Ith, feic, faigh: d'. Abair: deireadh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ith) na girseacha bricfeasta ar an bhus.",
+     "answer": "D'itheadh na girseacha bricfeasta ar an bhus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ith) sí bricfeasta roimh an scoil.",
+     "answer": "D'itheadh sí bricfeasta roimh an scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Faigh) sé teachtaireacht óna chara achan oíche.",
+     "answer": "D'fhaigheadh sé teachtaireacht óna chara achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Feic) sé an madadh sa pháirc achan lá.",
+     "answer": "D'fheiceadh sé an madadh sa pháirc achan lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Abair) an múinteoir paidir sa halla ar maidin.",
+     "answer": "Deireadh an múinteoir paidir sa halla ar maidin."
+    }
+   ]
+  },
+  {
+   "title": "Mé, tú agus siad",
+   "en": "I, you and they",
+   "rule": "With mé, tú and siad the pronoun joins the verb as an ending, just as with regular verbs: -inn for mé, -teá or -tá for tú, -idís or -aidís for siad (théinn, dhéantá, d'fhaighidís).",
+   "steps": [
+    "Find the stem and add séimhiú: téigh gives thé.",
+    "The subject is mé, so add -inn: théinn.",
+    "Drop the word mé and put the verb first: Théinn chuig an linn snámha achan Satharn."
+   ],
+   "example": {
+    "prompt": "(Téigh) mé chuig an linn snámha achan Satharn.",
+    "answer": "Théinn chuig an linn snámha achan Satharn."
+   },
+   "more": [
+    {
+     "prompt": "(Ith) tú glasraí ag am dinnéir.",
+     "answer": "D'iteá glasraí ag am dinnéir."
+    }
+   ],
+   "hint": "mé -inn, tú -teá/-tá, siad -idís/-aidís; drop the pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Faigh) siad ticéid don chluiche ceannais achan bhliain.",
+     "answer": "D'fhaighidís ticéid don chluiche ceannais achan bhliain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Abair) siad go raibh an cluiche camógaíochta iontach.",
+     "answer": "Deiridís go raibh an cluiche camógaíochta iontach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) mé i gcónaí tuirseach ar an Luan.",
+     "answer": "Bhínn i gcónaí tuirseach ar an Luan."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tar) siad chuig an teach achan Domhnach.",
+     "answer": "Thagaidís chuig an teach achan Domhnach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Déan) tú an obair bhaile sa leabharlann.",
+     "answer": "Dhéantá an obair bhaile sa leabharlann."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm dhiúltach: Ní",
+   "en": "The negative: Ní",
+   "rule": "Put Ní before the verb, keep the séimhiú and drop any d' (D'fhaighinn becomes Ní fhaighinn); abair never takes séimhiú, so Deirteá becomes Ní deirteá.",
+   "steps": [
+    "Start with the positive verb: Théadh sé.",
+    "Keep the séimhiú and put Ní in front: Ní théadh sé chuig an Ghaeltacht achan samhradh."
+   ],
+   "example": {
+    "prompt": "Théadh sé chuig an Ghaeltacht achan samhradh.",
+    "answer": "Ní théadh sé chuig an Ghaeltacht achan samhradh."
+   },
+   "more": [
+    {
+     "prompt": "Deireadh sé a chuid paidreacha achan oíche.",
+     "answer": "Ní deireadh sé a chuid paidreacha achan oíche."
+    }
+   ],
+   "hint": "Ní + séimhiú, no d'; abair: ní deir-.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "D'iteá glasraí ag am dinnéir.",
+     "answer": "Ní iteá glasraí ag am dinnéir."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Thugadh sibh na leabhair ar ais chuig an leabharlann.",
+     "answer": "Ní thugadh sibh na leabhair ar ais chuig an leabharlann."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bheiridís ar an bhus in am.",
+     "answer": "Ní bheiridís ar an bhus in am."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'fhaighinn téacs ó mo chara achan lá.",
+     "answer": "Ní fhaighinn téacs ó mo chara achan lá."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Deirteá an freagra os ard sa rang.",
+     "answer": "Ní deirteá an freagra os ard sa rang."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Dhéanaidís traenáil sa gheimhreadh.",
+     "answer": "Ní dhéanaidís traenáil sa gheimhreadh."
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chloiseadh sibh an clog ar maidin.",
+     "answer": "Ní chloiseadh sibh an clog ar maidin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'fheicidís an scannán sa phictiúrlann.",
+     "answer": "Ní fheicidís an scannán sa phictiúrlann."
+    }
+   ]
+  },
+  {
+   "title": "Ceist a fhreagairt",
+   "en": "Answering a question",
+   "rule": "To answer, drop An, take away the urú and put the séimhiú or d' back (An dtéadh? becomes Théadh; An itheadh? becomes D'itheadh), and change do to mo where the question is about you.",
+   "steps": [
+    "Start with the question verb: An mbíodh.",
+    "Drop An and take away the urú: bíodh.",
+    "Put the séimhiú back: Bhíodh sí sásta ar scoil anuraidh."
+   ],
+   "example": {
+    "prompt": "An mbíodh sí sásta ar scoil anuraidh?",
+    "answer": "Bhíodh sí sásta ar scoil anuraidh."
+   },
+   "more": [
+    {
+     "prompt": "An dtugadh sí cuidiú dá deartháir lena obair bhaile?",
+     "answer": "Thugadh sí cuidiú dá deartháir lena obair bhaile."
+    }
+   ],
+   "hint": "Drop An and the urú; add séimhiú or d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "An dtéadh na gasúir chuig an chlub obair bhaile achan lá?",
+     "answer": "Théadh na gasúir chuig an chlub obair bhaile achan lá."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An mbíodh cluiche peile ann achan Satharn?",
+     "answer": "Bhíodh cluiche peile ann achan Satharn."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An gcloiseadh na gasúir ceol sa halla spóirt?",
+     "answer": "Chloiseadh na gasúir ceol sa halla spóirt."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An ndéanadh an fhoireann traenáil sa pháirc achan Mháirt?",
+     "answer": "Dhéanadh an fhoireann traenáil sa pháirc achan Mháirt."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtagadh do chairde chuig an teach ag an deireadh seachtaine?",
+     "answer": "Thagadh mo chairde chuig an teach ag an deireadh seachtaine."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An bhfeiceadh daoine fóin phóca sa scoil fadó?",
+     "answer": "Ní fheiceadh daoine fóin phóca sa scoil fadó."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An dtugadh an múinteoir cuidiú do na gasúir sa rang?",
+     "answer": "Thugadh an múinteoir cuidiú do na gasúir sa rang."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An ndeireadh an príomhoide paidir sa halla ar maidin?",
+     "answer": "Deireadh an príomhoide paidir sa halla ar maidin."
+    },
+    {
+     "shape": "transform",
+     "prompt": "An itheadh na gasúir ceapairí sa halla ag am lóin?",
+     "answer": "D'itheadh na gasúir ceapairí sa halla ag am lóin."
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -tí / -taí",
+   "en": "The autonomous form: -tí / -taí",
+   "rule": "When no one is named (people used to...), add -tí or -taí to the stem with séimhiú or d' as usual: chloistí, d'ití, d'fheictí, thugtaí, deirtí, bhítí, thagtaí, dhéantaí, théití.",
+   "steps": [
+    "Find the stem: clois.",
+    "Add séimhiú: chlois.",
+    "Add -tí: chloistí.",
+    "Put the verb first: Chloistí ceol sa halla achan mhaidin."
+   ],
+   "example": {
+    "prompt": "(Clois) ceol sa halla achan mhaidin.",
+    "answer": "Chloistí ceol sa halla achan mhaidin."
+   },
+   "more": [
+    {
+     "prompt": "(Tabhair) duais don fhoireann ab fhearr achan bhliain.",
+     "answer": "Thugtaí duais don fhoireann ab fhearr achan bhliain."
+    }
+   ],
+   "hint": "Stem + -tí or -taí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Ith) lón sa seomra ranga nuair a bhíodh báisteach ann.",
+     "answer": "D'ití lón sa seomra ranga nuair a bhíodh báisteach ann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Feic) na gasúir ag imirt peile sa pháirc achan tráthnóna.",
+     "answer": "D'fheictí na gasúir ag imirt peile sa pháirc achan tráthnóna."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Faigh) tuairisc scoile roimh an Nollaig.",
+     "answer": "D'fhaightí tuairisc scoile roimh an Nollaig."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Abair) go raibh an fhoireann camógaíochta iontach maith.",
+     "answer": "Deirtí go raibh an fhoireann camógaíochta iontach maith."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bí) ag súil leis an bhus ag a hocht a chlog.",
+     "answer": "Bhítí ag súil leis an bhus ag a hocht a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tar) ar fhreagra sa leabharlann nuair a bhíodh ceist ann.",
+     "answer": "Thagtaí ar fhreagra sa leabharlann nuair a bhíodh ceist ann."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Beir: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: bheirinn",
+    "tú: bheirteá",
+    "sé/sí: bheireadh sé/sí",
+    "muid: bheireadh muid",
+    "sibh: bheireadh sibh",
+    "siad: bheiridís",
+    "saorbhriathar: bheirtí",
+    "diúltach: ní bheirinn",
+    "ceisteach: an mbeirinn?",
+    "saorbhriathar diúltach: ní bheirtí",
+    "saorbhriathar ceisteach: an mbeirtí?"
+   ]
+  },
+  {
+   "title": "Clois: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: chloisinn",
+    "tú: chloisteá",
+    "sé/sí: chloiseadh sé/sí",
+    "muid: chloiseadh muid",
+    "sibh: chloiseadh sibh",
+    "siad: chloisidís",
+    "saorbhriathar: chloistí",
+    "diúltach: ní chloisinn",
+    "ceisteach: an gcloisinn?",
+    "saorbhriathar diúltach: ní chloistí",
+    "saorbhriathar ceisteach: an gcloistí?"
+   ]
+  },
+  {
+   "title": "Tar: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: thagainn",
+    "tú: thagtá",
+    "sé/sí: thagadh sé/sí",
+    "muid: thagadh muid",
+    "sibh: thagadh sibh",
+    "siad: thagaidís",
+    "saorbhriathar: thagtaí",
+    "diúltach: ní thagainn",
+    "ceisteach: an dtagainn?",
+    "saorbhriathar diúltach: ní thagtaí",
+    "saorbhriathar ceisteach: an dtagtaí?"
+   ]
+  },
+  {
+   "title": "Ith: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: d'ithinn",
+    "tú: d'iteá",
+    "sé/sí: d'itheadh sé/sí",
+    "muid: d'itheadh muid",
+    "sibh: d'itheadh sibh",
+    "siad: d'ithidís",
+    "saorbhriathar: d'ití",
+    "diúltach: ní ithinn",
+    "ceisteach: an ithinn?",
+    "saorbhriathar diúltach: ní ití",
+    "saorbhriathar ceisteach: an ití?"
+   ]
+  },
+  {
+   "title": "Tabhair: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: thugainn",
+    "tú: thugtá",
+    "sé/sí: thugadh sé/sí",
+    "muid: thugadh muid",
+    "sibh: thugadh sibh",
+    "siad: thugaidís",
+    "saorbhriathar: thugtaí",
+    "diúltach: ní thugainn",
+    "ceisteach: an dtugainn?",
+    "saorbhriathar diúltach: ní thugtaí",
+    "saorbhriathar ceisteach: an dtugtaí?"
+   ]
+  },
+  {
+   "title": "Déan: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: dhéanainn",
+    "tú: dhéantá",
+    "sé/sí: dhéanadh sé/sí",
+    "muid: dhéanadh muid",
+    "sibh: dhéanadh sibh",
+    "siad: dhéanaidís",
+    "saorbhriathar: dhéantaí",
+    "diúltach: ní dhéanainn",
+    "ceisteach: an ndéanainn?",
+    "saorbhriathar diúltach: ní dhéantaí",
+    "saorbhriathar ceisteach: an ndéantaí?"
+   ]
+  },
+  {
+   "title": "Feic: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: d'fheicinn",
+    "tú: d'fheicteá",
+    "sé/sí: d'fheiceadh sé/sí",
+    "muid: d'fheiceadh muid",
+    "sibh: d'fheiceadh sibh",
+    "siad: d'fheicidís",
+    "saorbhriathar: d'fheictí",
+    "diúltach: ní fheicinn",
+    "ceisteach: an bhfeicinn?",
+    "saorbhriathar diúltach: ní fheictí",
+    "saorbhriathar ceisteach: an bhfeictí?"
+   ]
+  },
+  {
+   "title": "Abair: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: deirinn",
+    "tú: deirteá",
+    "sé/sí: deireadh sé/sí",
+    "muid: deireadh muid",
+    "sibh: deireadh sibh",
+    "siad: deiridís",
+    "saorbhriathar: deirtí",
+    "diúltach: ní deirinn",
+    "ceisteach: an ndeirinn?",
+    "saorbhriathar diúltach: ní deirtí",
+    "saorbhriathar ceisteach: an ndeirtí?"
+   ]
+  },
+  {
+   "title": "Téigh: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: théinn",
+    "tú: théiteá",
+    "sé/sí: théadh sé/sí",
+    "muid: théadh muid",
+    "sibh: théadh sibh",
+    "siad: théidís",
+    "saorbhriathar: théití",
+    "diúltach: ní théinn",
+    "ceisteach: an dtéinn?",
+    "saorbhriathar diúltach: ní théití",
+    "saorbhriathar ceisteach: an dtéití?"
+   ]
+  },
+  {
+   "title": "Faigh: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: d'fhaighinn",
+    "tú: d'fhaighteá",
+    "sé/sí: d'fhaigheadh sé/sí",
+    "muid: d'fhaigheadh muid",
+    "sibh: d'fhaigheadh sibh",
+    "siad: d'fhaighidís",
+    "saorbhriathar: d'fhaightí",
+    "diúltach: ní fhaighinn",
+    "ceisteach: an bhfaighinn?",
+    "saorbhriathar diúltach: ní fhaightí",
+    "saorbhriathar ceisteach: an bhfaightí?"
+   ]
+  },
+  {
+   "title": "Bí: an aimsir ghnáthchaite",
+   "forms": [
+    "mé: bhínn",
+    "tú: bhíteá",
+    "sé/sí: bhíodh sé/sí",
+    "muid: bhíodh muid",
+    "sibh: bhíodh sibh",
+    "siad: bhídís",
+    "saorbhriathar: bhítí",
+    "diúltach: ní bhínn",
+    "ceisteach: an mbínn?",
+    "saorbhriathar diúltach: ní bhítí",
+    "saorbhriathar ceisteach: an mbítí?"
+   ]
+  },
+  {
+   "title": "Freagraí gearra: dearfach agus diúltach, an aimsir ghnáthchaite",
+   "forms": [
+    "Bí: Bhíodh sé. / Ní bhíodh sé.",
+    "Téigh: Théadh sé. / Ní théadh sé.",
+    "Tabhair: Thugadh sé. / Ní thugadh sé.",
+    "Feic: D'fheiceadh sé. / Ní fheiceadh sé.",
+    "Clois: Chloiseadh sé. / Ní chloiseadh sé.",
+    "Tar: Thagadh sé. / Ní thagadh sé.",
+    "Faigh: D'fhaigheadh sé. / Ní fhaigheadh sé.",
+    "Ith: D'itheadh sé. / Ní itheadh sé.",
+    "Beir: Bheireadh sé. / Ní bheireadh sé.",
+    "Déan: Dhéanadh sé. / Ní dhéanadh sé.",
+    "Abair: Deireadh sé. / Ní deireadh sé."
+   ]
+  }
+ ]
+}

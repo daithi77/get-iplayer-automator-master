@@ -1,0 +1,660 @@
+{
+  "id": "nr-fhaistineach",
+  "lessons": [
+    {
+      "title": "Foirmeacha an bhriathair",
+      "en": "The future forms of the irregular verbs",
+      "rule": "Each irregular verb has its own future form, which you learn from the table (beir: béarfaidh, ith: íosfaidh, tar: tiocfaidh, téigh: rachaidh, faigh: gheobhaidh, bí: beidh). Put that form first, then the subject.",
+      "steps": [
+        "Find the verb in brackets: tabhair.",
+        "Look up its future form: tabharfaidh.",
+        "Put it first, then the pronoun sé: Tabharfaidh sé an ticéad dom."
+      ],
+      "example": {
+        "prompt": "(tabhair:sé) an ticéad dom.",
+        "answer": "Tabharfaidh sé an ticéad dom.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(beir:sí) ar a geansaí.",
+          "answer": "Béarfaidh sí ar a geansaí.",
+          "shape": "stem"
+        },
+        {
+          "prompt": "(abair:sí) leis éirí don bhus scoile.",
+          "answer": "Déarfaidh sí leis éirí don bhus scoile.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "Learn the future form; it goes first.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(clois:sí) an t-amhrán nua ar an raidió anocht.",
+          "answer": "Cloisfidh sí an t-amhrán nua ar an raidió anocht."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(ith:mé) úll ag am lóin.",
+          "answer": "Íosfaidh mé úll ag am lóin."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(faigh:sé) fón póca nua ar a bhreithlá.",
+          "answer": "Gheobhaidh sé fón póca nua ar a bhreithlá."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(bí:siad) ag traenáil sa halla spóirt amárach.",
+          "answer": "Beidh siad ag traenáil sa halla spóirt amárach."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(abair) do mháthair leat gan an fón a úsáid sa rang.",
+          "answer": "Déarfaidh do mháthair leat gan an fón a úsáid sa rang."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(feic:mé) ag an chluiche é.",
+          "answer": "Feicfidh mé ag an chluiche é."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(déan:sí) an scrúdú an tseachtain seo chugainn.",
+          "answer": "Déanfaidh sí an scrúdú an tseachtain seo chugainn."
+        }
+      ]
+    },
+    {
+      "title": "An chéad phearsa iolra: muid",
+      "en": "Saying we: the verb + muid",
+      "rule": "To say we, put muid after the future form: rachaidh muid, beidh muid, gheobhaidh muid.",
+      "steps": [
+        "Find the verb in brackets: ith.",
+        "Look up its future form: íosfaidh.",
+        "Put muid after it: Íosfaidh muid ár lón sa cheaintín."
+      ],
+      "example": {
+        "prompt": "(ith:muid) ár lón sa cheaintín.",
+        "answer": "Íosfaidh muid ár lón sa cheaintín.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(faigh:muid) síob abhaile.",
+          "answer": "Gheobhaidh muid síob abhaile.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "Future form + muid.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(téigh:muid) abhaile ar an bhus anois.",
+          "answer": "Rachaidh muid abhaile ar an bhus anois."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(tar:muid) ar ais chuig an siopa amárach más maith leat.",
+          "answer": "Tiocfaidh muid ar ais chuig an siopa amárach más maith leat."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(tabhair:muid) an nóta don mhúinteoir amárach.",
+          "answer": "Tabharfaidh muid an nóta don mhúinteoir amárach."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(bí:muid) an-ghnóthach ag an chomórtas amárach.",
+          "answer": "Beidh muid an-ghnóthach ag an chomórtas amárach."
+        }
+      ]
+    },
+    {
+      "title": "An fhoirm dhiúltach: Ní + séimhiú",
+      "en": "Saying what will not happen: Ní + lenition",
+      "rule": "Put Ní in front of the verb and add h after the first letter: tiocfaidh becomes Ní thiocfaidh. Déarfaidh, rachaidh and verbs beginning with a vowel do not change (Ní rachaidh, Ní íosfaidh), and gheobhaidh becomes Ní bhfaighidh.",
+      "steps": [
+        "Find the verb: Béarfaidh.",
+        "Put Ní in front of it.",
+        "Add h after the first letter: Ní bhéarfaidh na póilíní ar an ghadaí."
+      ],
+      "example": {
+        "prompt": "Béarfaidh na póilíní ar an ghadaí.",
+        "answer": "Béarfaidh na póilíní ar an ghadaí. Diúltach: Ní bhéarfaidh na póilíní ar an ghadaí.",
+        "shape": "transform"
+      },
+      "more": [
+        {
+          "prompt": "Déarfaidh sí leis an mhúinteoir é.",
+          "answer": "Déarfaidh sí leis an mhúinteoir é. Diúltach: Ní déarfaidh sí leis an mhúinteoir é.",
+          "shape": "transform"
+        }
+      ],
+      "hint": "Ní + h; déarfaidh, rachaidh and vowels stay the same; gheobhaidh becomes Ní bhfaighidh.",
+      "items": [
+        {
+          "shape": "transform",
+          "prompt": "Rachaidh siad ar an traein go dtí an tIúr.",
+          "answer": "Rachaidh siad ar an traein go dtí an tIúr. Diúltach: Ní rachaidh siad ar an traein go dtí an tIúr."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Déanfaidh muid an obair bhaile ar an bhus.",
+          "answer": "Déanfaidh muid an obair bhaile ar an bhus. Diúltach: Ní dhéanfaidh muid an obair bhaile ar an bhus."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Feicfidh mé an cluiche ceannais Dé Domhnaigh.",
+          "answer": "Feicfidh mé an cluiche ceannais Dé Domhnaigh. Diúltach: Ní fheicfidh mé an cluiche ceannais Dé Domhnaigh."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Cloisfidh mé an t-amhrán nua ar an aip.",
+          "answer": "Cloisfidh mé an t-amhrán nua ar an aip. Diúltach: Ní chloisfidh mé an t-amhrán nua ar an aip."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Gheobhaidh muid an bus ar a hocht a chlog.",
+          "answer": "Gheobhaidh muid an bus ar a hocht a chlog. Diúltach: Ní bhfaighidh muid an bus ar a hocht a chlog."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Íosfaidh siad píotsa i ndiaidh an chluiche.",
+          "answer": "Íosfaidh siad píotsa i ndiaidh an chluiche. Diúltach: Ní íosfaidh siad píotsa i ndiaidh an chluiche."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Tabharfaidh muid an t-airgead don mhúinteoir amárach.",
+          "answer": "Tabharfaidh muid an t-airgead don mhúinteoir amárach. Diúltach: Ní thabharfaidh muid an t-airgead don mhúinteoir amárach."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Tiocfaidh mé chuig an chóisir Dé Sathairn.",
+          "answer": "Tiocfaidh mé chuig an chóisir Dé Sathairn. Diúltach: Ní thiocfaidh mé chuig an chóisir Dé Sathairn."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Beidh muid sa Ghaeltacht i mí Iúil.",
+          "answer": "Beidh muid sa Ghaeltacht i mí Iúil. Diúltach: Ní bheidh muid sa Ghaeltacht i mí Iúil."
+        },
+        {
+          "shape": "transform",
+          "prompt": "Béarfaidh sé ar an liathróid sa pháirc.",
+          "answer": "Béarfaidh sé ar an liathróid sa pháirc. Diúltach: Ní bhéarfaidh sé ar an liathróid sa pháirc."
+        }
+      ]
+    },
+    {
+      "title": "Freagra gairid: dearfach agus diúltach",
+      "en": "Short answers: yes and no",
+      "rule": "Irish has no word for yes or no: repeat the verb with the pronoun for yes (Tiocfaidh mé) and put Ní in front for no (Ní thiocfaidh mé). For faigh the answers are Gheobhaidh mé and Ní bhfaighidh mé.",
+      "steps": [
+        "Take the verb from the question and remove the eclipsis: gcloisfidh becomes cloisfidh.",
+        "For yes, repeat it with the pronoun: Cloisfidh sí.",
+        "For no, put Ní in front and add h: Ní chloisfidh sí.",
+        "Write both answers after the question: (a) Cloisfidh sí. (b) Ní chloisfidh sí."
+      ],
+      "example": {
+        "prompt": "An gcloisfidh sí an nuacht faoin chluiche?",
+        "answer": "An gcloisfidh sí an nuacht faoin chluiche? (a) Cloisfidh sí. (b) Ní chloisfidh sí.",
+        "shape": "transform"
+      },
+      "more": [
+        {
+          "prompt": "An bhfaighidh sí duais sa chomórtas?",
+          "answer": "An bhfaighidh sí duais sa chomórtas? (a) Gheobhaidh sí. (b) Ní bhfaighidh sí.",
+          "shape": "transform"
+        }
+      ],
+      "hint": "Repeat the verb for yes; Ní for no.",
+      "items": [
+        {
+          "shape": "transform",
+          "prompt": "An rachaidh tú go dtí an tIúr ag siopadóireacht Dé Sathairn?",
+          "answer": "An rachaidh tú go dtí an tIúr ag siopadóireacht Dé Sathairn? (a) Rachaidh mé. (b) Ní rachaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An íosfaidh tú an ceapaire seo ar an bhus?",
+          "answer": "An íosfaidh tú an ceapaire seo ar an bhus? (a) Íosfaidh mé. (b) Ní íosfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An dtabharfaidh tú síob chun na scoile dom?",
+          "answer": "An dtabharfaidh tú síob chun na scoile dom? (a) Tabharfaidh mé. (b) Ní thabharfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An ndéanfaidh tú an obair bhaile ar an táibléad anocht?",
+          "answer": "An ndéanfaidh tú an obair bhaile ar an táibléad anocht? (a) Déanfaidh mé. (b) Ní dhéanfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An bhfeicfidh tú do chairde ag an chóisir?",
+          "answer": "An bhfeicfidh tú do chairde ag an chóisir? (a) Feicfidh mé. (b) Ní fheicfidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An dtiocfaidh tú go dtí an phictiúrlann liom Dé hAoine?",
+          "answer": "An dtiocfaidh tú go dtí an phictiúrlann liom Dé hAoine? (a) Tiocfaidh mé. (b) Ní thiocfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An ndéarfaidh tú leis an rang bheith ciúin?",
+          "answer": "An ndéarfaidh tú leis an rang bheith ciúin? (a) Déarfaidh mé. (b) Ní déarfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An mbéarfaidh tú ar an sliotar má chaithim é?",
+          "answer": "An mbéarfaidh tú ar an sliotar má chaithim é? (a) Béarfaidh mé. (b) Ní bhéarfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An gcloisfidh tú an clog aláraim ar maidin?",
+          "answer": "An gcloisfidh tú an clog aláraim ar maidin? (a) Cloisfidh mé. (b) Ní chloisfidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An mbeidh áthas ort an scrúdú a chríochnú?",
+          "answer": "An mbeidh áthas ort an scrúdú a chríochnú? (a) Beidh. (b) Ní bheidh."
+        }
+      ]
+    },
+    {
+      "title": "Ceist a scríobh: An + urú",
+      "en": "Writing the question: An + eclipsis",
+      "rule": "To write the question, take away Ní and its h, put An in front and eclipse the verb (An dtiocfaidh?); gheobhaidh becomes An bhfaighidh, and rachaidh and vowels do not change. If the answer says mé, the question asks tú.",
+      "steps": [
+        "Find the verb: Déarfaidh.",
+        "Put An in front and eclipse it: d takes n, so An ndéarfaidh.",
+        "Keep the rest and add a question mark: An ndéarfaidh sí leis an mhúinteoir é?",
+        "Add the answer after it: Déarfaidh sí."
+      ],
+      "example": {
+        "prompt": "Déarfaidh sí leis an mhúinteoir é.",
+        "answer": "An ndéarfaidh sí leis an mhúinteoir é? Déarfaidh sí.",
+        "shape": "question",
+        "self": true
+      },
+      "more": [
+        {
+          "prompt": "Ní bheidh sé ag an chluiche.",
+          "answer": "An mbeidh sé ag an chluiche? Ní bheidh sé.",
+          "shape": "question",
+          "self": true
+        }
+      ],
+      "hint": "An + eclipsis; gheobhaidh becomes An bhfaighidh.",
+      "items": [
+        {
+          "shape": "question",
+          "prompt": "Tiocfaidh sí ar an bhus scoile.",
+          "answer": "An dtiocfaidh sí ar an bhus scoile? Tiocfaidh sí.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní fheicfidh siad an cluiche ar an teilifís.",
+          "answer": "An bhfeicfidh siad an cluiche ar an teilifís? Ní fheicfidh siad.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Gheobhaidh mé ticéad don cheolchoirm.",
+          "answer": "An bhfaighidh tú ticéad don cheolchoirm? Gheobhaidh mé.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Béarfaidh mé ar an liathróid sa chúl.",
+          "answer": "An mbéarfaidh tú ar an liathróid sa chúl? Béarfaidh mé.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Íosfaidh siad sceallóga i ndiaidh an chluiche.",
+          "answer": "An íosfaidh siad sceallóga i ndiaidh an chluiche? Íosfaidh siad.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní chloisfidh sí an fón sa mhála.",
+          "answer": "An gcloisfidh sí an fón sa mhála? Ní chloisfidh sí.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní bheidh mé ar scoil amárach.",
+          "answer": "An mbeidh tú ar scoil amárach? Ní bheidh mé.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Déanfaidh mé cáca don chóisir.",
+          "answer": "An ndéanfaidh tú cáca don chóisir? Déanfaidh mé.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní bhfaighidh sí duais ag an chomórtas.",
+          "answer": "An bhfaighidh sí duais ag an chomórtas? Ní bhfaighidh sí.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Rachaidh siad go dtí an leabharlann inniu.",
+          "answer": "An rachaidh siad go dtí an leabharlann inniu? Rachaidh siad.",
+          "self": true
+        }
+      ]
+    },
+    {
+      "title": "Ceist do sibh, freagra le muid",
+      "en": "Answers with muid: the question asks sibh",
+      "rule": "If the answer says muid, the question is put to sibh: Rachaidh muid gives An rachaidh sibh?",
+      "steps": [
+        "Find the verb and muid: Beidh muid.",
+        "Put An in front and eclipse the verb: An mbeidh.",
+        "Change muid to sibh: An mbeidh sibh ag an chluiche Dé Sathairn?",
+        "Add the answer after it: Beidh muid."
+      ],
+      "example": {
+        "prompt": "Beidh muid ag an chluiche Dé Sathairn.",
+        "answer": "An mbeidh sibh ag an chluiche Dé Sathairn? Beidh muid.",
+        "shape": "question",
+        "self": true
+      },
+      "more": [
+        {
+          "prompt": "Tabharfaidh muid cabhair don mhúinteoir.",
+          "answer": "An dtabharfaidh sibh cabhair don mhúinteoir? Tabharfaidh muid.",
+          "shape": "question",
+          "self": true
+        }
+      ],
+      "hint": "muid in the answer, sibh in the question.",
+      "items": [
+        {
+          "shape": "question",
+          "prompt": "Rachaidh muid chun na Gaeltachta i mí Iúil.",
+          "answer": "An rachaidh sibh chun na Gaeltachta i mí Iúil? Rachaidh muid.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní dhéanfaidh muid an traenáil sa bháisteach.",
+          "answer": "An ndéanfaidh sibh an traenáil sa bháisteach? Ní dhéanfaidh muid.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Tabharfaidh muid bronntanas di ar a breithlá.",
+          "answer": "An dtabharfaidh sibh bronntanas di ar a breithlá? Tabharfaidh muid.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Feicfidh muid Sliabh gCuillinn ón bhus.",
+          "answer": "An bhfeicfidh sibh Sliabh gCuillinn ón bhus? Feicfidh muid.",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní íosfaidh muid an dinnéar sa bhialann.",
+          "answer": "An íosfaidh sibh an dinnéar sa bhialann? Ní íosfaidh muid.",
+          "self": true
+        }
+      ]
+    },
+    {
+      "title": "An saorbhriathar",
+      "en": "The autonomous form: when nobody is named",
+      "rule": "When you do not say who does the action, use the autonomous form with no pronoun after it: clois becomes cloisfear, faigh becomes gheofar, bí becomes beifear.",
+      "steps": [
+        "Find the verb in brackets: clois.",
+        "Take its autonomous future form: cloisfear.",
+        "Put it first, with no pronoun after it: Cloisfear an toradh ar an raidió anocht."
+      ],
+      "example": {
+        "prompt": "(clois) an toradh ar an raidió anocht.",
+        "answer": "Cloisfear an toradh ar an raidió anocht.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(téigh) chun na Gaeltachta sa samhradh.",
+          "answer": "Rachfar chun na Gaeltachta sa samhradh.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "No pronoun: use the -far or -fear form.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(faigh) na torthaí ar an aip go luath.",
+          "answer": "Gheofar na torthaí ar an aip go luath."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(ith) an lón sa halla ar a haon a chlog.",
+          "answer": "Íosfar an lón sa halla ar a haon a chlog."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(tabhair) duais don fhoireann is fearr.",
+          "answer": "Tabharfar duais don fhoireann is fearr."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(tar) ar an eolas ar an idirlíon go gasta.",
+          "answer": "Tiocfar ar an eolas ar an idirlíon go gasta."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(bí) ag súil leat ag an traenáil anocht.",
+          "answer": "Beifear ag súil leat ag an traenáil anocht."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(abair) an t-am leat ar ball beag.",
+          "answer": "Déarfar an t-am leat ar ball beag."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(déan) an obair bhaile ar an ríomhaire roimh i bhfad.",
+          "answer": "Déanfar an obair bhaile ar an ríomhaire roimh i bhfad."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(beir) ar an ghadaí amach anseo.",
+          "answer": "Béarfar ar an ghadaí amach anseo."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(clois) na ceoltóirí ag an cheolchoirm anocht.",
+          "answer": "Cloisfear na ceoltóirí ag an cheolchoirm anocht."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Beir, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Béarfaidh mé",
+        "Béarfaidh tú",
+        "Béarfaidh sé/sí",
+        "Béarfaidh muid",
+        "Béarfaidh sibh",
+        "Béarfaidh siad",
+        "SB Béarfar",
+        "Diúltach: Ní bhéarfaidh mé",
+        "Ceisteach: An mbéarfaidh mé?",
+        "Diúltach SB: Ní bhéarfar",
+        "Ceisteach SB: An mbéarfar?"
+      ]
+    },
+    {
+      "title": "Clois, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Cloisfidh mé",
+        "Cloisfidh tú",
+        "Cloisfidh sé/sí",
+        "Cloisfidh muid",
+        "Cloisfidh sibh",
+        "Cloisfidh siad",
+        "SB Cloisfear",
+        "Diúltach: Ní chloisfidh mé",
+        "Ceisteach: An gcloisfidh mé?",
+        "Diúltach SB: Ní chloisfear",
+        "Ceisteach SB: An gcloisfear?"
+      ]
+    },
+    {
+      "title": "Tar, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Tiocfaidh mé",
+        "Tiocfaidh tú",
+        "Tiocfaidh sé/sí",
+        "Tiocfaidh muid",
+        "Tiocfaidh sibh",
+        "Tiocfaidh siad",
+        "SB Tiocfar",
+        "Diúltach: Ní thiocfaidh mé",
+        "Ceisteach: An dtiocfaidh mé?",
+        "Diúltach SB: Ní thiocfar",
+        "Ceisteach SB: An dtiocfar?"
+      ]
+    },
+    {
+      "title": "Ith, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Íosfaidh mé",
+        "Íosfaidh tú",
+        "Íosfaidh sé/sí",
+        "Íosfaidh muid",
+        "Íosfaidh sibh",
+        "Íosfaidh siad",
+        "SB Íosfar",
+        "Diúltach: Ní íosfaidh mé",
+        "Ceisteach: An íosfaidh mé?",
+        "Diúltach SB: Ní íosfar",
+        "Ceisteach SB: An íosfar?"
+      ]
+    },
+    {
+      "title": "Tabhair, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Tabharfaidh mé",
+        "Tabharfaidh tú",
+        "Tabharfaidh sé/sí",
+        "Tabharfaidh muid",
+        "Tabharfaidh sibh",
+        "Tabharfaidh siad",
+        "SB Tabharfar",
+        "Diúltach: Ní thabharfaidh mé",
+        "Ceisteach: An dtabharfaidh mé?",
+        "Diúltach SB: Ní thabharfar",
+        "Ceisteach SB: An dtabharfar?"
+      ]
+    },
+    {
+      "title": "Déan, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Déanfaidh mé",
+        "Déanfaidh tú",
+        "Déanfaidh sé/sí",
+        "Déanfaidh muid",
+        "Déanfaidh sibh",
+        "Déanfaidh siad",
+        "SB Déanfar",
+        "Diúltach: Ní dhéanfaidh mé",
+        "Ceisteach: An ndéanfaidh mé?",
+        "Diúltach SB: Ní dhéanfar",
+        "Ceisteach SB: An ndéanfar?"
+      ]
+    },
+    {
+      "title": "Feic, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Feicfidh mé",
+        "Feicfidh tú",
+        "Feicfidh sé/sí",
+        "Feicfidh muid",
+        "Feicfidh sibh",
+        "Feicfidh siad",
+        "SB Feicfear",
+        "Diúltach: Ní fheicfidh mé",
+        "Ceisteach: An bhfeicfidh mé?",
+        "Diúltach SB: Ní fheicfear",
+        "Ceisteach SB: An bhfeicfear?"
+      ]
+    },
+    {
+      "title": "Abair, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Déarfaidh mé",
+        "Déarfaidh tú",
+        "Déarfaidh sé/sí",
+        "Déarfaidh muid",
+        "Déarfaidh sibh",
+        "Déarfaidh siad",
+        "SB Déarfar",
+        "Diúltach: Ní déarfaidh mé",
+        "Ceisteach: An ndéarfaidh mé?",
+        "Diúltach SB: Ní déarfar",
+        "Ceisteach SB: An ndéarfar?"
+      ]
+    },
+    {
+      "title": "Téigh, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Rachaidh mé",
+        "Rachaidh tú",
+        "Rachaidh sé/sí",
+        "Rachaidh muid",
+        "Rachaidh sibh",
+        "Rachaidh siad",
+        "SB Rachfar",
+        "Diúltach: Ní rachaidh mé",
+        "Ceisteach: An rachaidh mé?",
+        "Diúltach SB: Ní rachfar",
+        "Ceisteach SB: An rachfar?"
+      ]
+    },
+    {
+      "title": "Faigh, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Gheobhaidh mé",
+        "Gheobhaidh tú",
+        "Gheobhaidh sé/sí",
+        "Gheobhaidh muid",
+        "Gheobhaidh sibh",
+        "Gheobhaidh siad",
+        "SB Gheofar",
+        "Diúltach: Ní bhfaighidh mé",
+        "Ceisteach: An bhfaighidh mé?",
+        "Diúltach SB: Ní bhfaighfear",
+        "Ceisteach SB: An bhfaighfear?"
+      ]
+    },
+    {
+      "title": "Bí, an aimsir fháistineach (Uladh)",
+      "forms": [
+        "Beidh mé",
+        "Beidh tú",
+        "Beidh sé/sí",
+        "Beidh muid",
+        "Beidh sibh",
+        "Beidh siad",
+        "SB Beifear",
+        "Diúltach: Ní bheidh mé",
+        "Ceisteach: An mbeidh mé?",
+        "Diúltach SB: Ní bheifear",
+        "Ceisteach SB: An mbeifear?"
+      ]
+    }
+  ]
+}

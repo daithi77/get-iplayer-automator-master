@@ -134,8 +134,8 @@
     },
     {
      "shape": "stem",
-     "prompt": "Chuaigh Bríd go Dún na nGall lena (aintín) an samhradh seo caite.",
-     "answer": "Chuaigh Bríd go Dún na nGall lena haintín an samhradh seo caite."
+     "prompt": "Chuaigh Bríd go Gaoth Dobhair lena (aintín) an samhradh seo caite.",
+     "answer": "Chuaigh Bríd go Gaoth Dobhair lena haintín an samhradh seo caite."
     },
     {
      "shape": "stem",

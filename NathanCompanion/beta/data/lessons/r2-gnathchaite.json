@@ -1,0 +1,514 @@
+{
+ "id": "r2-gnathchaite",
+ "lessons": [
+  {
+   "title": "Briathra in -aigh: -aíodh",
+   "en": "Verbs in -aigh: -aíodh",
+   "rule": "For a verb ending in -aigh, put séimhiú on the first letter and change -aigh to -aíodh: ceannaigh becomes cheannaíodh sé. A verb beginning with l, n or r takes no séimhiú (neadaíodh).",
+   "steps": [
+    "Find the root: brostaigh.",
+    "Add séimhiú: bhrostaigh.",
+    "Change -aigh to -aíodh: bhrostaíodh.",
+    "Put the verb first: Bhrostaíodh sé go dtí an stad bus achan mhaidin."
+   ],
+   "example": {
+    "prompt": "(Brostaigh) sé go dtí an stad bus achan mhaidin.",
+    "answer": "Bhrostaíodh sé go dtí an stad bus achan mhaidin."
+   },
+   "more": [
+    {
+     "prompt": "(Corraigh) sé an tae le spúnóg.",
+     "answer": "Chorraíodh sé an tae le spúnóg."
+    }
+   ],
+   "hint": "Séimhiú, then -aigh becomes -aíodh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Beannaigh) an múinteoir dúinn achan mhaidin ag an doras.",
+     "answer": "Bheannaíodh an múinteoir dúinn achan mhaidin ag an doras."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh) mo mháthair na héadaí scoile ar líne achan samhradh.",
+     "answer": "Cheannaíodh mo mháthair na héadaí scoile ar líne achan samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceartaigh) an múinteoir an obair bhaile ar an ríomhaire achan oíche.",
+     "answer": "Cheartaíodh an múinteoir an obair bhaile ar an ríomhaire achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Gríosaigh) sí foireann na camógaíochta ón taobhlíne.",
+     "answer": "Ghríosaíodh sí foireann na camógaíochta ón taobhlíne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Tosaigh) sí ag traenáil achan tráthnóna ar a sé.",
+     "answer": "Thosaíodh sí ag traenáil achan tráthnóna ar a sé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Críochnaigh) sí an obair bhaile achan oíche roimh a hocht.",
+     "answer": "Chríochnaíodh sí an obair bhaile achan oíche roimh a hocht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Clúdaigh) sí na cóipleabhair nua achan bhliain i mí Mheán Fómhair.",
+     "answer": "Chlúdaíodh sí na cóipleabhair nua achan bhliain i mí Mheán Fómhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Neadaigh) na spideoga sa ghairdín taobh thiar den teach achan earrach.",
+     "answer": "Neadaíodh na spideoga sa ghairdín taobh thiar den teach achan earrach."
+    }
+   ]
+  },
+  {
+   "title": "Briathra in -igh: -íodh",
+   "en": "Verbs in -igh: -íodh",
+   "rule": "For a verb ending in -igh (not -aigh), put séimhiú on the first letter and change -igh to -íodh: bailigh becomes bhailíodh sé.",
+   "steps": [
+    "Find the root: bailigh.",
+    "Add séimhiú: bhailigh.",
+    "Change -igh to -íodh: bhailíodh.",
+    "Put the verb first: Bhailíodh an múinteoir na fóin phóca ag tús an ranga."
+   ],
+   "example": {
+    "prompt": "(Bailigh) an múinteoir na fóin phóca ag tús an ranga.",
+    "answer": "Bhailíodh an múinteoir na fóin phóca ag tús an ranga."
+   },
+   "more": [
+    {
+     "prompt": "(Dúisigh) mo mháthair mé ar a seacht achan mhaidin.",
+     "answer": "Dhúisíodh mo mháthair mé ar a seacht achan mhaidin."
+    }
+   ],
+   "hint": "Séimhiú, then -igh becomes -íodh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Maisigh) na daltaí an halla don Nollaig achan bhliain.",
+     "answer": "Mhaisíodh na daltaí an halla don Nollaig achan bhliain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Mínigh) sí na rialacha don fhoireann.",
+     "answer": "Mhíníodh sí na rialacha don fhoireann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Deisigh) mo sheanathair an ríomhaire dúinn.",
+     "answer": "Dheisíodh mo sheanathair an ríomhaire dúinn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Sínigh) mo mháthair an dialann obair bhaile achan oíche.",
+     "answer": "Shíníodh mo mháthair an dialann obair bhaile achan oíche."
+    }
+   ]
+  },
+  {
+   "title": "D' roimh ghuta agus roimh f",
+   "en": "D' before a vowel and before f",
+   "rule": "If the verb begins with a vowel, put d' in front of it (athraigh becomes d'athraíodh sé); if it begins with f, add séimhiú and put d' in front (fiosraigh becomes d'fhiosraíodh sé).",
+   "steps": [
+    "Find the root: fiosraigh.",
+    "It begins with f, so add séimhiú and d': d'fhiosraigh.",
+    "Change -aigh to -aíodh: d'fhiosraíodh.",
+    "Put the verb first: D'fhiosraíodh an múinteoir achan ghearán go cúramach."
+   ],
+   "example": {
+    "prompt": "(Fiosraigh) an múinteoir achan ghearán go cúramach.",
+    "answer": "D'fhiosraíodh an múinteoir achan ghearán go cúramach."
+   },
+   "more": [
+    {
+     "prompt": "(Folmhaigh) sé an bosca bruscair achan Aoine.",
+     "answer": "D'fholmhaíodh sé an bosca bruscair achan Aoine."
+    }
+   ],
+   "hint": "Vowel: d'. F: d'fh.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Athraigh) an feirmeoir na caoirigh ón pháirc go Sliabh gCuillinn achan samhradh.",
+     "answer": "D'athraíodh an feirmeoir na caoirigh ón pháirc go Sliabh gCuillinn achan samhradh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ullmhaigh) sé an bricfeasta don teaghlach achan mhaidin.",
+     "answer": "D'ullmhaíodh sé an bricfeasta don teaghlach achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Folmhaigh) sé an miasniteoir achan oíche i ndiaidh an dinnéir.",
+     "answer": "D'fholmhaíodh sé an miasniteoir achan oíche i ndiaidh an dinnéir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Feidhmigh) sé mar chaptaen ar an fhoireann peile ar feadh trí bliana.",
+     "answer": "D'fheidhmíodh sé mar chaptaen ar an fhoireann peile ar feadh trí bliana."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Oibrigh) sí sa siopa ar an Satharn go dtí go bhfuair sí post san Iúr.",
+     "answer": "D'oibríodh sí sa siopa ar an Satharn go dtí go bhfuair sí post san Iúr."
+    }
+   ]
+  },
+  {
+   "title": "Mé, tú agus siad",
+   "en": "I, you and they",
+   "rule": "With mé, tú and siad the pronoun joins the verb as an ending: -aínn / -ínn for mé, -aíteá / -íteá for tú, -aídís / -ídís for siad (cheannaínn, cheannaíteá, cheannaídís).",
+   "steps": [
+    "Find the root and add séimhiú: ceannaigh becomes cheannaigh.",
+    "The subject is mé, so change -aigh to -aínn: cheannaínn.",
+    "Drop the word mé and put the verb first: Cheannaínn greannán achan seachtain."
+   ],
+   "example": {
+    "prompt": "(Ceannaigh) mé greannán achan seachtain.",
+    "answer": "Cheannaínn greannán achan seachtain."
+   },
+   "more": [
+    {
+     "prompt": "(Bailigh) siad na liathróidí i ndiaidh na traenála.",
+     "answer": "Bhailídís na liathróidí i ndiaidh na traenála."
+    }
+   ],
+   "hint": "mé -(a)ínn, tú -(a)íteá, siad -(a)ídís; drop the pronoun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Brostaigh) mé go dtí an stad bus nuair a bhínn mall.",
+     "answer": "Bhrostaínn go dtí an stad bus nuair a bhínn mall."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Eagraigh) siad cluiche peile achan Satharn.",
+     "answer": "D'eagraídís cluiche peile achan Satharn."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cónaigh) siad in aice le Sliabh gCuillinn sular bhog siad go dtí an Iúr.",
+     "answer": "Chónaídís in aice le Sliabh gCuillinn sular bhog siad go dtí an Iúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bailigh) mé airgead don charthanacht.",
+     "answer": "Bhailínn airgead don charthanacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceannaigh) tú milseáin sa siopa.",
+     "answer": "Cheannaíteá milseáin sa siopa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fiosraigh) tú na torthaí ar líne.",
+     "answer": "D'fhiosraíteá na torthaí ar líne."
+    }
+   ]
+  },
+  {
+   "title": "An fhoirm dhiúltach: Ní",
+   "en": "The negative: Ní",
+   "rule": "To make the verb negative, put Ní in front of it and keep the séimhiú: Cheannaíodh sí becomes Ní cheannaíodh sí.",
+   "steps": [
+    "Start with the positive verb: Cheannaíodh sí.",
+    "Keep the séimhiú and put Ní in front: Ní cheannaíodh sí irisleabhar achan mhí."
+   ],
+   "example": {
+    "prompt": "Cheannaíodh sí irisleabhar achan mhí.",
+    "answer": "Ní cheannaíodh sí irisleabhar achan mhí."
+   },
+   "more": [
+    {
+     "prompt": "Bhailínn",
+     "answer": "Ní bhailínn"
+    }
+   ],
+   "hint": "Ní + séimhiú.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "Cheannaídís",
+     "answer": "Ní cheannaídís"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chuardaíodh sí",
+     "answer": "Ní chuardaíodh sí"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Chríochnaíodh muid",
+     "answer": "Ní chríochnaíodh muid"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Cheartaínn",
+     "answer": "Ní cheartaínn"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mhíníodh sé",
+     "answer": "Ní mhíníodh sé"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Mhaisídís",
+     "answer": "Ní mhaisídís"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Dhamhsaíodh muid",
+     "answer": "Ní dhamhsaíodh muid"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Scrúdaídís",
+     "answer": "Ní scrúdaídís"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Thriomaíodh muid",
+     "answer": "Ní thriomaíodh muid"
+    },
+    {
+     "shape": "transform",
+     "prompt": "Bhrostaíodh sé",
+     "answer": "Ní bhrostaíodh sé"
+    }
+   ]
+  },
+  {
+   "title": "Ní le guta agus le f: fág an d' ar lár",
+   "en": "Ní with a vowel or f: drop the d'",
+   "rule": "After Ní, drop the d': D'aimsínn becomes Ní aimsínn, and D'fhostaíodh sé becomes Ní fhostaíodh sé (the fh stays).",
+   "steps": [
+    "Start with the positive verb: D'fhiosraíodh sé.",
+    "Drop the d' and keep fh: fhiosraíodh.",
+    "Put Ní in front: Ní fhiosraíodh sé na torthaí ar líne."
+   ],
+   "example": {
+    "prompt": "D'fhiosraíodh sé na torthaí ar líne.",
+    "answer": "Ní fhiosraíodh sé na torthaí ar líne."
+   },
+   "more": [
+    {
+     "prompt": "D'ullmhaínn",
+     "answer": "Ní ullmhaínn"
+    }
+   ],
+   "hint": "Ní, no d'.",
+   "items": [
+    {
+     "shape": "transform",
+     "prompt": "D'aistríodh sé",
+     "answer": "Ní aistríodh sé"
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'aontaíodh muid",
+     "answer": "Ní aontaíodh muid"
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'athraíteá",
+     "answer": "Ní athraíteá"
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'fhostaíodh sé",
+     "answer": "Ní fhostaíodh sé"
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'eagraídís",
+     "answer": "Ní eagraídís"
+    },
+    {
+     "shape": "transform",
+     "prompt": "D'aimsínn",
+     "answer": "Ní aimsínn"
+    }
+   ]
+  },
+  {
+   "title": "An saorbhriathar: -aítí / -ítí",
+   "en": "The autonomous form: -aítí / -ítí",
+   "rule": "When no one is named (people used to...), change -aigh to -aítí or -igh to -ítí, with séimhiú or d' as usual: ceannaigh becomes cheannaítí, fostaigh becomes d'fhostaítí.",
+   "steps": [
+    "Find the root: ceannaigh.",
+    "Add séimhiú: cheannaigh.",
+    "Change -aigh to -aítí: cheannaítí.",
+    "Put the verb first: Cheannaítí arán sa siopa sin."
+   ],
+   "example": {
+    "prompt": "(Ceannaigh) arán sa siopa sin.",
+    "answer": "Cheannaítí arán sa siopa sin."
+   },
+   "more": [
+    {
+     "prompt": "(Bailigh) na fóin phóca ag tús an ranga.",
+     "answer": "Bhailítí na fóin phóca ag tús an ranga."
+    }
+   ],
+   "hint": "-aigh becomes -aítí, -igh becomes -ítí.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "(Aslonnaigh) an scoil nuair a bhíodh aláram dóiteáin ann.",
+     "answer": "D'aslonnaítí an scoil nuair a bhíodh aláram dóiteáin ann."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Bréagnaigh) na ráflaí ar líne achan seachtain.",
+     "answer": "Bhréagnaítí na ráflaí ar líne achan seachtain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ciontaigh) daoine fadó as rudaí beaga.",
+     "answer": "Chiontaítí daoine fadó as rudaí beaga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Diúltaigh) do na hiarratais ó na daltaí.",
+     "answer": "Dhiúltaítí do na hiarratais ó na daltaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Fostaigh) daltaí sa siopa sin i rith an tsamhraidh.",
+     "answer": "D'fhostaítí daltaí sa siopa sin i rith an tsamhraidh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Triomaigh) na geansaithe peile ar an líne i ndiaidh an chluiche.",
+     "answer": "Thriomaítí na geansaithe peile ar an líne i ndiaidh an chluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Foilsigh) an blag scoile uair sa tseachtain.",
+     "answer": "D'fhoilsítí an blag scoile uair sa tseachtain."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Aeraigh) an seomra ranga achan mhaidin.",
+     "answer": "D'aeraítí an seomra ranga achan mhaidin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Ceartaigh) an obair bhaile ar líne achan oíche.",
+     "answer": "Cheartaítí an obair bhaile ar líne achan oíche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "(Cnuasaigh) sméara dubha ar Shliabh gCuillinn achan fhómhar.",
+     "answer": "Chnuasaítí sméara dubha ar Shliabh gCuillinn achan fhómhar."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Ceannaigh: an aimsir ghnáthchaite, ceist agus freagra (A)",
+   "forms": [
+    "An gceannaíteá nuachtán? Cheannaínn/Ní cheannaínn",
+    "An gceannaíodh sé nuachtán? Cheannaíodh sé/Ní cheannaíodh sé",
+    "An gceannaíodh sí nuachtán? Cheannaíodh sí/Ní cheannaíodh sí",
+    "An gceannaíodh sibh nuachtán? Cheannaíodh muid/Ní cheannaíodh muid",
+    "An gceannaídís nuachtán? Cheannaídís/Ní cheannaídís",
+    "An gceannaítí nuachtán? Cheannaítí/Ní cheannaítí"
+   ]
+  },
+  {
+   "title": "Bailigh: an aimsir ghnáthchaite, ceist agus freagra (B)",
+   "forms": [
+    "An mbailíteá na cóipleabhair? Bhailínn/Ní bhailínn",
+    "An mbailíodh sé na cóipleabhair? Bhailíodh sé/Ní bhailíodh sé",
+    "An mbailíodh sí na cóipleabhair? Bhailíodh sí/Ní bhailíodh sí",
+    "An mbailíodh sibh na cóipleabhair? Bhailíodh muid/Ní bhailíodh muid",
+    "An mbailídís na cóipleabhair? Bhailídís/Ní bhailídís",
+    "An mbailítí na cóipleabhair? Bhailítí/Ní bhailítí"
+   ]
+  },
+  {
+   "title": "Fiosraigh: briathra sa dara réimniú a thosaíonn ar f, ceist agus freagra (E)",
+   "forms": [
+    "An bhfiosraíteá an scéal? D'fhiosraínn/Ní fhiosraínn",
+    "An bhfiosraíodh sé an scéal? D'fhiosraíodh sé/Ní fhiosraíodh sé",
+    "An bhfiosraíodh sí an scéal? D'fhiosraíodh sí/Ní fhiosraíodh sí",
+    "An bhfiosraíodh sibh an scéal? D'fhiosraíodh muid/Ní fhiosraíodh muid",
+    "An bhfiosraídís an scéal? D'fhiosraídís/Ní fhiosraídís",
+    "An bhfiosraítí an scéal? D'fhiosraítí/Ní fhiosraítí"
+   ]
+  },
+  {
+   "title": "Ceannaigh: an aimsir ghnáthchaite agus an modh coinníollach",
+   "forms": [
+    "Gnáthchaite: Cheannaínn, Cheannaíteá, Cheannaíodh sé/sí, Cheannaíodh muid, Cheannaíodh sibh, Cheannaídís",
+    "Gnáthchaite SB: Cheannaítí",
+    "Gnáthchaite Diúltach: Ní cheannaínn",
+    "Gnáthchaite Ceist: An gceannaíteá?",
+    "Coinníollach: Cheannóinn, Cheannófá, Cheannódh sé/sí, Cheannódh muid, Cheannódh sibh, Cheannóidís",
+    "Coinníollach SB: Cheannófaí",
+    "Coinníollach Diúltach: Ní cheannóinn",
+    "Coinníollach Ceist: An gceannófá?"
+   ]
+  },
+  {
+   "title": "Bailigh: an aimsir ghnáthchaite agus an modh coinníollach",
+   "forms": [
+    "Gnáthchaite: Bhailínn, Bhailíteá, Bhailíodh sé/sí, Bhailíodh muid, Bhailíodh sibh, Bhailídís",
+    "Gnáthchaite SB: Bhailítí",
+    "Gnáthchaite Diúltach: Ní bhailínn",
+    "Gnáthchaite Ceist: An mbailíteá?",
+    "Coinníollach: Bhaileoinn, Bhaileofá, Bhaileodh sé/sí, Bhaileodh muid, Bhaileodh sibh, Bhaileoidís",
+    "Coinníollach SB: Bhaileofaí",
+    "Coinníollach Diúltach: Ní bhaileoinn",
+    "Coinníollach Ceist: An mbaileofá?"
+   ]
+  },
+  {
+   "title": "Ullmhaigh: an aimsir ghnáthchaite agus an modh coinníollach",
+   "forms": [
+    "Gnáthchaite: D'ullmhaínn, D'ullmhaíteá, D'ullmhaíodh sé/sí, D'ullmhaíodh muid, D'ullmhaíodh sibh, D'ullmhaídís",
+    "Gnáthchaite SB: D'ullmhaítí",
+    "Gnáthchaite Diúltach: Ní ullmhaínn",
+    "Gnáthchaite Ceist: An ullmhaíteá?",
+    "Coinníollach: D'ullmhóinn, D'ullmhófá, D'ullmhódh sé/sí, D'ullmhódh muid, D'ullmhódh sibh, D'ullmhóidís",
+    "Coinníollach SB: D'ullmhófaí",
+    "Coinníollach Diúltach: Ní ullmhóinn",
+    "Coinníollach Ceist: An ullmhófá?"
+   ]
+  },
+  {
+   "title": "Aimsigh: an aimsir ghnáthchaite agus an modh coinníollach",
+   "forms": [
+    "Gnáthchaite: D'aimsínn, D'aimsíteá, D'aimsíodh sé/sí, D'aimsíodh muid, D'aimsíodh sibh, D'aimsídís",
+    "Gnáthchaite SB: D'aimsítí",
+    "Gnáthchaite Diúltach: Ní aimsínn",
+    "Gnáthchaite Ceist: An aimsíteá?",
+    "Coinníollach: D'aimseoinn, D'aimseofá, D'aimseodh sé/sí, D'aimseodh muid, D'aimseodh sibh, D'aimseoidís",
+    "Coinníollach SB: D'aimseofaí",
+    "Coinníollach Diúltach: Ní aimseoinn",
+    "Coinníollach Ceist: An aimseofá?"
+   ]
+  },
+  {
+   "title": "Fiosraigh: an aimsir ghnáthchaite agus an modh coinníollach",
+   "forms": [
+    "Gnáthchaite: D'fhiosraínn, D'fhiosraíteá, D'fhiosraíodh sé/sí, D'fhiosraíodh muid, D'fhiosraíodh sibh, D'fhiosraídís",
+    "Gnáthchaite SB: D'fhiosraítí",
+    "Gnáthchaite Diúltach: Ní fhiosraínn",
+    "Gnáthchaite Ceist: An bhfiosraíteá?",
+    "Coinníollach: D'fhiosróinn, D'fhiosrófá, D'fhiosródh sé/sí, D'fhiosródh muid, D'fhiosródh sibh, D'fhiosróidís",
+    "Coinníollach SB: D'fhiosrófaí",
+    "Coinníollach Diúltach: Ní fhiosróinn",
+    "Coinníollach Ceist: An bhfiosrófá?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,930 @@
+{
+  "id": "r1-fhaistineach",
+  "lessons": [
+    {
+      "title": "Briathra leathana: -faidh",
+      "en": "Broad verbs: add -faidh",
+      "rule": "If the last vowel of the root is broad (a, o or u), add -faidh to the root to make the future: glan becomes glanfaidh.",
+      "steps": [
+        "Find the root of the verb: glan.",
+        "Look at the last vowel: a is broad, so the ending is -faidh.",
+        "Add the ending to the root: glanfaidh.",
+        "Put the verb first, then the pronoun: Glanfaidh sé an seomra ranga."
+      ],
+      "example": {
+        "prompt": "(Glan: sé) an seomra ranga.",
+        "answer": "Glanfaidh sé an seomra ranga.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(Gearr: sé) an píotsa.",
+          "answer": "Gearrfaidh sé an píotsa.",
+          "shape": "stem"
+        },
+        {
+          "prompt": "(Scuab: sé) urlár na cistine.",
+          "answer": "Scuabfaidh sé urlár na cistine.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "Broad root: root + -faidh.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(Glan: mé) an seomra ranga amárach.",
+          "answer": "Glanfaidh mé an seomra ranga amárach."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Múch: sí) an ríomhaire glúine anois.",
+          "answer": "Múchfaidh sí an ríomhaire glúine anois."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Cíor: sí) a cuid gruaige roimh an ghrianghraf.",
+          "answer": "Cíorfaidh sí a cuid gruaige roimh an ghrianghraf."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Tóg: muid) an bus go dtí an tIúr.",
+          "answer": "Tógfaidh muid an bus go dtí an tIúr."
+        }
+      ]
+    },
+    {
+      "title": "Briathra caola: -fidh",
+      "en": "Slender verbs: add -fidh",
+      "rule": "If the last vowel of the root is slender (i or e), add -fidh to the root: cuir becomes cuirfidh.",
+      "steps": [
+        "Find the root of the verb: caith.",
+        "Look at the last vowel: i is slender, so the ending is -fidh.",
+        "Add the ending to the root: caithfidh.",
+        "Put the verb first, then the pronoun: Caithfidh sé an liathróid chuig an réiteoir."
+      ],
+      "example": {
+        "prompt": "(Caith: sé) an liathróid chuig an réiteoir.",
+        "answer": "Caithfidh sé an liathróid chuig an réiteoir.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(Druid: sé) doras an bhus.",
+          "answer": "Druidfidh sé doras an bhus.",
+          "shape": "stem"
+        },
+        {
+          "prompt": "(Bain: sé) an féar sa ghairdín.",
+          "answer": "Bainfidh sé an féar sa ghairdín.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "Slender root: root + -fidh.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(Buail: sí) lena cairde ag an stad bus.",
+          "answer": "Buailfidh sí lena cairde ag an stad bus."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Bris: sé) an guthán mura bhfuil sé cúramach.",
+          "answer": "Brisfidh sé an guthán mura bhfuil sé cúramach."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Cuir: muid) ár mbróga reatha orainn roimh an traenáil.",
+          "answer": "Cuirfidh muid ár mbróga reatha orainn roimh an traenáil."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Blais: mé) an píotsa.",
+          "answer": "Blaisfidh mé an píotsa."
+        }
+      ]
+    },
+    {
+      "title": "Ceist agus freagra: An + urú, Ní + séimhiú",
+      "en": "Answering a question in the future: yes and no",
+      "rule": "Answer a question by repeating the verb with the right pronoun (Glanfaidh mé), and for no put Ní in front and add h (Ní ghlanfaidh mé). The question itself has An and eclipsis (An nglanfaidh tú?); l, n, r and s show no eclipsis.",
+      "steps": [
+        "Take the verb from the question and remove the eclipsis: nglanfaidh becomes glanfaidh.",
+        "The question asks tú, so answer with mé: Glanfaidh mé.",
+        "For no, put Ní in front and add h: Ní ghlanfaidh mé.",
+        "Write both answers after the question: Glanfaidh mé / Ní ghlanfaidh mé."
+      ],
+      "example": {
+        "prompt": "An nglanfaidh tú an seomra ranga?",
+        "answer": "An nglanfaidh tú an seomra ranga? Glanfaidh mé / Ní ghlanfaidh mé.",
+        "shape": "transform"
+      },
+      "more": [
+        {
+          "prompt": "An ndruidfidh tú doras an bhus?",
+          "answer": "An ndruidfidh tú doras an bhus? Druidfidh mé / Ní dhruidfidh mé.",
+          "shape": "transform"
+        }
+      ],
+      "hint": "Repeat the verb for yes; Ní + h for no.",
+      "items": [
+        {
+          "shape": "transform",
+          "prompt": "An ndéanfaidh tú an obair bhaile ar an ríomhaire glúine anocht?",
+          "answer": "An ndéanfaidh tú an obair bhaile ar an ríomhaire glúine anocht? Déanfaidh mé / Ní dhéanfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An scríobhfaidh tú ríomhphost chuig an mhúinteoir amárach?",
+          "answer": "An scríobhfaidh tú ríomhphost chuig an mhúinteoir amárach? Scríobhfaidh mé / Ní scríobhfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An mbuailfidh tú le do chairde san Iúr Dé Sathairn?",
+          "answer": "An mbuailfidh tú le do chairde san Iúr Dé Sathairn? Buailfidh mé / Ní bhuailfidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An nglanfaidh tú do sheomra leapa inniu?",
+          "answer": "An nglanfaidh tú do sheomra leapa inniu? Glanfaidh mé / Ní ghlanfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An lasfaidh tú an clár bán don mhúinteoir?",
+          "answer": "An lasfaidh tú an clár bán don mhúinteoir? Lasfaidh mé / Ní lasfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An gcuirfidh tú teachtaireacht chuig do dheartháir anocht?",
+          "answer": "An gcuirfidh tú teachtaireacht chuig do dheartháir anocht? Cuirfidh mé / Ní chuirfidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An rithfidh tú chuig an bhus i ndiaidh na scoile?",
+          "answer": "An rithfidh tú chuig an bhus i ndiaidh na scoile? Rithfidh mé / Ní rithfidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An siúlfaidh tú chuig an scoil liom amárach?",
+          "answer": "An siúlfaidh tú chuig an scoil liom amárach? Siúlfaidh mé / Ní shiúlfaidh mé."
+        }
+      ]
+    },
+    {
+      "title": "Briathra a thosaíonn ar ghuta nó ar f",
+      "en": "Verbs beginning with a vowel or f",
+      "rule": "A verb that begins with a vowel never changes after An or Ní: An ólfaidh tú? Ní ólfaidh mé. A verb that begins with f takes bhf after An and fh after Ní: An bhfágfaidh tú? Ní fhágfaidh mé.",
+      "steps": [
+        "Take the verb from the question: íocfaidh.",
+        "It begins with a vowel, so nothing is added: Íocfaidh mé.",
+        "For no, put Ní in front and leave the verb as it is: Ní íocfaidh mé.",
+        "Write both answers after the question: Íocfaidh mé / Ní íocfaidh mé."
+      ],
+      "example": {
+        "prompt": "An íocfaidh tú as an ticéad?",
+        "answer": "An íocfaidh tú as an ticéad? Íocfaidh mé / Ní íocfaidh mé.",
+        "shape": "transform"
+      },
+      "more": [
+        {
+          "prompt": "An bhfanfaidh tú sa Ghaeltacht?",
+          "answer": "An bhfanfaidh tú sa Ghaeltacht? Fanfaidh mé / Ní fhanfaidh mé.",
+          "shape": "transform"
+        }
+      ],
+      "hint": "Vowel: no change. F: An bhf-, Ní fh-.",
+      "items": [
+        {
+          "shape": "transform",
+          "prompt": "An ólfaidh tú uisce i ndiaidh na traenála?",
+          "answer": "An ólfaidh tú uisce i ndiaidh na traenála? Ólfaidh mé / Ní ólfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An bhfanfaidh tú sa bhaile Dé Domhnaigh?",
+          "answer": "An bhfanfaidh tú sa bhaile Dé Domhnaigh? Fanfaidh mé / Ní fhanfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An bhfágfaidh tú an teach ar a hocht a chlog?",
+          "answer": "An bhfágfaidh tú an teach ar a hocht a chlog? Fágfaidh mé / Ní fhágfaidh mé."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An éistfidh tú leis an phodchraoladh anocht?",
+          "answer": "An éistfidh tú leis an phodchraoladh anocht? Éistfidh mé / Ní éistfidh mé."
+        },
+        {
+          "shape": "question",
+          "prompt": "Íocfaidh sé",
+          "answer": "Íocfaidh sé. An íocfaidh sé?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Éistfidh sí",
+          "answer": "Éistfidh sí. An éistfidh sí?",
+          "self": true
+        }
+      ]
+    },
+    {
+      "title": "Ceist do sibh: freagra le muid",
+      "en": "Questions to sibh: answer with muid",
+      "rule": "When the question is put to sibh, answer for the group with the verb followed by muid: An gcuirfidh sibh? Cuirfidh muid / Ní chuirfidh muid.",
+      "steps": [
+        "Take the verb from the question and remove the eclipsis: nglanfaidh becomes glanfaidh.",
+        "The question asks sibh, so answer with muid: Glanfaidh muid.",
+        "For no, put Ní in front and add h: Ní ghlanfaidh muid.",
+        "Write both answers after the question: Glanfaidh muid / Ní ghlanfaidh muid."
+      ],
+      "example": {
+        "prompt": "An nglanfaidh sibh an seomra ranga?",
+        "answer": "An nglanfaidh sibh an seomra ranga? Glanfaidh muid / Ní ghlanfaidh muid.",
+        "shape": "transform"
+      },
+      "more": [
+        {
+          "prompt": "An íocfaidh sibh as an ticéad?",
+          "answer": "An íocfaidh sibh as an ticéad? Íocfaidh muid / Ní íocfaidh muid.",
+          "shape": "transform"
+        }
+      ],
+      "hint": "sibh in the question, muid in the answer.",
+      "items": [
+        {
+          "shape": "transform",
+          "prompt": "An dtógfaidh sibh amach na ríomhairí glúine?",
+          "answer": "An dtógfaidh sibh amach na ríomhairí glúine? Tógfaidh muid / Ní thógfaidh muid."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An bhfillfidh sibh ón Ghaeltacht Dé hAoine?",
+          "answer": "An bhfillfidh sibh ón Ghaeltacht Dé hAoine? Fillfidh muid / Ní fhillfidh muid."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An seinnfidh sibh amhrán ag an cheolchoirm?",
+          "answer": "An seinnfidh sibh amhrán ag an cheolchoirm? Seinnfidh muid / Ní sheinnfidh muid."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An mbuailfidh sibh linn ag an pháirc anocht?",
+          "answer": "An mbuailfidh sibh linn ag an pháirc anocht? Buailfidh muid / Ní bhuailfidh muid."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An gcuirfidh sibh bhur ngutháin sa mhála?",
+          "answer": "An gcuirfidh sibh bhur ngutháin sa mhála? Cuirfidh muid / Ní chuirfidh muid."
+        },
+        {
+          "shape": "transform",
+          "prompt": "An bhfanfaidh sibh sa halla spóirt i ndiaidh na scoile?",
+          "answer": "An bhfanfaidh sibh sa halla spóirt i ndiaidh na scoile? Fanfaidh muid / Ní fhanfaidh muid."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Ól: muid) uisce i ndiaidh an chluiche.",
+          "answer": "Ólfaidh muid uisce i ndiaidh an chluiche."
+        },
+        {
+          "shape": "question",
+          "prompt": "Fanfaidh muid",
+          "answer": "Fanfaidh muid. An bhfanfaidh sibh?",
+          "self": true
+        }
+      ]
+    },
+    {
+      "title": "Ceist a scríobh don fhreagra",
+      "en": "Writing the question for an answer",
+      "rule": "To write the question, take away Ní and its h, put An in front and eclipse the verb where you can, and swap mé for tú or muid for sibh: Ní chuirfidh mé becomes An gcuirfidh tú?",
+      "steps": [
+        "Take away Ní and the h: chuirfidh becomes cuirfidh.",
+        "Put An in front and eclipse the verb: An gcuirfidh.",
+        "Swap mé for tú and add a question mark: An gcuirfidh tú?"
+      ],
+      "example": {
+        "prompt": "Ní chuirfidh mé",
+        "answer": "Ní chuirfidh mé. An gcuirfidh tú?",
+        "shape": "question",
+        "self": true
+      },
+      "more": [
+        {
+          "prompt": "Glanfaidh muid",
+          "answer": "Glanfaidh muid. An nglanfaidh sibh?",
+          "shape": "question",
+          "self": true
+        }
+      ],
+      "hint": "Drop Ní, add An + eclipsis, swap mé for tú.",
+      "items": [
+        {
+          "shape": "question",
+          "prompt": "Siúlfaidh mé",
+          "answer": "Siúlfaidh mé. An siúlfaidh tú?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Druidfidh mé",
+          "answer": "Druidfidh mé. An ndruidfidh tú?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní bhrisfidh sí",
+          "answer": "Ní bhrisfidh sí. An mbrisfidh sí?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Buailfidh muid",
+          "answer": "Buailfidh muid. An mbuailfidh sibh?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Caithfear",
+          "answer": "Caithfear. An gcaithfear?",
+          "self": true
+        },
+        {
+          "shape": "question",
+          "prompt": "Ní ghearrfaidh mé",
+          "answer": "Ní ghearrfaidh mé. An ngearrfaidh tú?",
+          "self": true
+        }
+      ]
+    },
+    {
+      "title": "An saorbhriathar: -far agus -fear",
+      "en": "The autonomous form: -far and -fear",
+      "rule": "When you do not say who does the action, add -far to a broad root or -fear to a slender root, with no pronoun after it: glan becomes glanfar, cuir becomes cuirfear.",
+      "steps": [
+        "Find the root: druid.",
+        "The last vowel is slender, so the ending is -fear: druidfear.",
+        "Put it first, with no pronoun after it: Druidfear an scoil go luath amárach."
+      ],
+      "example": {
+        "prompt": "(Druid) an scoil go luath amárach.",
+        "answer": "Druidfear an scoil go luath amárach.",
+        "shape": "stem"
+      },
+      "more": [
+        {
+          "prompt": "(Scuab) urlár na cistine.",
+          "answer": "Scuabfar urlár na cistine.",
+          "shape": "stem"
+        }
+      ],
+      "hint": "No pronoun: broad + -far, slender + -fear.",
+      "items": [
+        {
+          "shape": "stem",
+          "prompt": "(Glan) na seomraí ranga amárach.",
+          "answer": "Glanfar na seomraí ranga amárach."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Ól) tae sa halla i ndiaidh an chluiche.",
+          "answer": "Ólfar tae sa halla i ndiaidh an chluiche."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Líon) na málaí le leabhair.",
+          "answer": "Líonfar na málaí le leabhair."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Tóg) grianghraf den fhoireann.",
+          "answer": "Tógfar grianghraf den fhoireann."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Múch) na gutháin achan mhaidin sa rang.",
+          "answer": "Múchfar na gutháin achan mhaidin sa rang."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Cuir) teachtaireacht chuig na tuismitheoirí anocht.",
+          "answer": "Cuirfear teachtaireacht chuig na tuismitheoirí anocht."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Bris) an fhuinneog leis an liathróid.",
+          "answer": "Brisfear an fhuinneog leis an liathróid."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Las) na soilse sa halla spóirt anocht.",
+          "answer": "Lasfar na soilse sa halla spóirt anocht."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Blais) na cácaí ag an chóisir.",
+          "answer": "Blaisfear na cácaí ag an chóisir."
+        },
+        {
+          "shape": "stem",
+          "prompt": "(Druid) doirse an bhus ar ball beag.",
+          "answer": "Druidfear doirse an bhus ar ball beag."
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "A. Ordú agus Cad é a dhéanfaidh sé? (briathra leathana)",
+      "forms": [
+        "Tóg do mhála: Tógfaidh sé a mhála",
+        "Glan an bord: Glanfaidh sé an bord",
+        "Cíor do chuid gruaige: Cíorfaidh sé a chuid gruaige",
+        "Cas timpeall: Casfaidh sé timpeall",
+        "Cnag ar an doras: Cnagfaidh sé ar an doras",
+        "Gearr an fheoil: Gearrfaidh sé an fheoil",
+        "Múch na soilse: Múchfaidh sé na soilse",
+        "Díol an leabhar: Díolfaidh sé an leabhar",
+        "Las an tine: Lasfaidh sé an tine",
+        "Scuab an t-urlár: Scuabfaidh sé an t-urlár"
+      ]
+    },
+    {
+      "title": "A. Ceist agus freagra: Glan",
+      "forms": [
+        "An nglanfaidh tú an bord? Glanfaidh mé / Ní ghlanfaidh mé",
+        "An nglanfaidh sé an bord? Glanfaidh sé / Ní ghlanfaidh sé",
+        "An nglanfaidh sí an bord? Glanfaidh sí / Ní ghlanfaidh sí",
+        "An nglanfaidh sibh an bord? Glanfaidh muid / Ní ghlanfaidh muid",
+        "An nglanfaidh siad an bord? Glanfaidh siad / Ní ghlanfaidh siad",
+        "An nglanfar an bord? Glanfar / Ní ghlanfar"
+      ]
+    },
+    {
+      "title": "B. Ordú agus Cad é a dhéanfaidh sé? (briathra caola)",
+      "forms": [
+        "Cuir an pláta ar an bhord: Cuirfidh sé an pláta ar an bhord",
+        "Blais an deoch: Blaisfidh sé an deoch",
+        "Caith an liathróid: Caithfidh sé an liathróid",
+        "Bain an féar: Bainfidh sé an féar",
+        "Druid an fhuinneog: Druidfidh sé an fhuinneog",
+        "Sín amach do lámh: Sínfidh sé amach a lámh",
+        "Rith go dtí an líne: Rithfidh sé go dtí an líne"
+      ]
+    },
+    {
+      "title": "B. Ceist agus freagra: Cuir",
+      "forms": [
+        "An gcuirfidh tú an pláta ar an bhord? Cuirfidh mé / Ní chuirfidh mé",
+        "An gcuirfidh sé an pláta ar an bhord? Cuirfidh sé / Ní chuirfidh sé",
+        "An gcuirfidh sí an pláta ar an bhord? Cuirfidh sí / Ní chuirfidh sí",
+        "An gcuirfidh sibh an pláta ar an bhord? Cuirfidh muid / Ní chuirfidh muid",
+        "An gcuirfidh siad an pláta ar an bhord? Cuirfidh siad / Ní chuirfidh siad",
+        "An gcuirfear an pláta ar an bhord? Cuirfear / Ní chuirfear"
+      ]
+    },
+    {
+      "title": "C. Briathra a thosaíonn ar ghuta (leathan): Ordú agus Cad é a dhéanfaidh sé?",
+      "forms": [
+        "Ól an deoch: Ólfaidh sé an deoch",
+        "Amharc ar an phictiúr: Amharcfaidh sé ar an phictiúr",
+        "Íoc as an ticéad: Íocfaidh sé as an ticéad"
+      ]
+    },
+    {
+      "title": "C. Ceist agus freagra: Ól",
+      "forms": [
+        "An ólfaidh tú an deoch? Ólfaidh mé / Ní ólfaidh mé",
+        "An ólfaidh sé an deoch? Ólfaidh sé / Ní ólfaidh sé",
+        "An ólfaidh sí an deoch? Ólfaidh sí / Ní ólfaidh sí",
+        "An ólfaidh sibh an deoch? Ólfaidh muid / Ní ólfaidh muid",
+        "An ólfaidh siad an deoch? Ólfaidh siad / Ní ólfaidh siad",
+        "An ólfar an deoch? Ólfar / Ní ólfar"
+      ]
+    },
+    {
+      "title": "D. Briathra a thosaíonn ar ghuta (caol): Ordú agus Cad é a dhéanfaidh sé?",
+      "forms": [
+        "Úsáid an peann dearg: Úsáidfidh sé an peann dearg",
+        "Éist leis an nuacht: Éistfidh sé leis an nuacht"
+      ]
+    },
+    {
+      "title": "D. Ceist agus freagra: Úsáid",
+      "forms": [
+        "An úsáidfidh tú an peann? Úsáidfidh mé / Ní úsáidfidh mé",
+        "An úsáidfidh sé an peann? Úsáidfidh sé / Ní úsáidfidh sé",
+        "An úsáidfidh sí an peann? Úsáidfidh sí / Ní úsáidfidh sí",
+        "An úsáidfidh sibh an peann? Úsáidfidh muid / Ní úsáidfidh muid",
+        "An úsáidfidh siad an peann? Úsáidfidh siad / Ní úsáidfidh siad",
+        "An úsáidfear an peann? Úsáidfear / Ní úsáidfear"
+      ]
+    },
+    {
+      "title": "E. Briathra a thosaíonn ar F: Ordú agus Cad é a dhéanfaidh sé?",
+      "forms": [
+        "Fág an peann ar an bhord: Fágfaidh sé an peann ar an bhord",
+        "Fan sa teach: Fanfaidh sé sa teach",
+        "Féach ar an chlár dubh: Féachfaidh sé ar an chlár dubh"
+      ]
+    },
+    {
+      "title": "E. Ceist agus freagra: Fág",
+      "forms": [
+        "An bhfágfaidh tú an peann? Fágfaidh mé / Ní fhágfaidh mé",
+        "An bhfágfaidh sé an peann? Fágfaidh sé / Ní fhágfaidh sé",
+        "An bhfágfaidh sí an peann? Fágfaidh sí / Ní fhágfaidh sí",
+        "An bhfágfaidh sibh an peann? Fágfaidh muid / Ní fhágfaidh muid",
+        "An bhfágfaidh siad an peann? Fágfaidh siad / Ní fhágfaidh siad",
+        "An bhfágfar an peann? Fágfar / Ní fhágfar"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Glan, an aimsir láithreach",
+      "forms": [
+        "Glanaim",
+        "Glanann tú",
+        "Glanann sé/sí",
+        "Glanann muid",
+        "Glanann sibh",
+        "Glanann siad",
+        "SB: Glantar",
+        "Diúl.: Ní ghlanaim",
+        "Ceist: An nglanann tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Cuir, an aimsir láithreach",
+      "forms": [
+        "Cuirim",
+        "Cuireann tú",
+        "Cuireann sé/sí",
+        "Cuireann muid",
+        "Cuireann sibh",
+        "Cuireann siad",
+        "SB: Cuirtear",
+        "Diúl.: Ní chuirim",
+        "Ceist: An gcuireann tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Ól, an aimsir láithreach",
+      "forms": [
+        "Ólaim",
+        "Ólann tú",
+        "Ólann sé/sí",
+        "Ólann muid",
+        "Ólann sibh",
+        "Ólann siad",
+        "SB: Óltar",
+        "Diúl.: Ní ólaim",
+        "Ceist: An ólann tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Úsáid, an aimsir láithreach",
+      "forms": [
+        "Úsáidim",
+        "Úsáideann tú",
+        "Úsáideann sé/sí",
+        "Úsáideann muid",
+        "Úsáideann sibh",
+        "Úsáideann siad",
+        "SB: Úsáidtear",
+        "Diúl.: Ní úsáidim",
+        "Ceist: An úsáideann tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Fág, an aimsir láithreach",
+      "forms": [
+        "Fágaim",
+        "Fágann tú",
+        "Fágann sé/sí",
+        "Fágann muid",
+        "Fágann sibh",
+        "Fágann siad",
+        "SB: Fágtar",
+        "Diúl.: Ní fhágaim",
+        "Ceist: An bhfágann tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Glan, an aimsir chaite",
+      "forms": [
+        "Ghlan mé",
+        "Ghlan tú",
+        "Ghlan sé/sí",
+        "Ghlan muid",
+        "Ghlan sibh",
+        "Ghlan siad",
+        "SB: Glanadh",
+        "Diúl.: Níor ghlan mé",
+        "Ceist: Ar ghlan tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Cuir, an aimsir chaite",
+      "forms": [
+        "Chuir mé",
+        "Chuir tú",
+        "Chuir sé/sí",
+        "Chuir muid",
+        "Chuir sibh",
+        "Chuir siad",
+        "SB: Cuireadh",
+        "Diúl.: Níor chuir mé",
+        "Ceist: Ar chuir tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Ól, an aimsir chaite",
+      "forms": [
+        "D'ól mé",
+        "D'ól tú",
+        "D'ól sé/sí",
+        "D'ól muid",
+        "D'ól sibh",
+        "D'ól siad",
+        "SB: Óladh",
+        "Diúl.: Níor ól mé",
+        "Ceist: Ar ól tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Úsáid, an aimsir chaite",
+      "forms": [
+        "D'úsáid mé",
+        "D'úsáid tú",
+        "D'úsáid sé/sí",
+        "D'úsáid muid",
+        "D'úsáid sibh",
+        "D'úsáid siad",
+        "SB: Úsáideadh",
+        "Diúl.: Níor úsáid mé",
+        "Ceist: Ar úsáid tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Fág, an aimsir chaite",
+      "forms": [
+        "D'fhág mé",
+        "D'fhág tú",
+        "D'fhág sé/sí",
+        "D'fhág muid",
+        "D'fhág sibh",
+        "D'fhág siad",
+        "SB: Fágadh",
+        "Diúl.: Níor fhág mé",
+        "Ceist: Ar fhág tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Glan, an aimsir fháistineach",
+      "forms": [
+        "Glanfaidh mé",
+        "Glanfaidh tú",
+        "Glanfaidh sé/sí",
+        "Glanfaidh muid",
+        "Glanfaidh sibh",
+        "Glanfaidh siad",
+        "SB: Glanfar",
+        "Diúl.: Ní ghlanfaidh mé",
+        "Ceist: An nglanfaidh tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Cuir, an aimsir fháistineach",
+      "forms": [
+        "Cuirfidh mé",
+        "Cuirfidh tú",
+        "Cuirfidh sé/sí",
+        "Cuirfidh muid",
+        "Cuirfidh sibh",
+        "Cuirfidh siad",
+        "SB: Cuirfear",
+        "Diúl.: Ní chuirfidh mé",
+        "Ceist: An gcuirfidh tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Ól, an aimsir fháistineach",
+      "forms": [
+        "Ólfaidh mé",
+        "Ólfaidh tú",
+        "Ólfaidh sé/sí",
+        "Ólfaidh muid",
+        "Ólfaidh sibh",
+        "Ólfaidh siad",
+        "SB: Ólfar",
+        "Diúl.: Ní ólfaidh mé",
+        "Ceist: An ólfaidh tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Úsáid, an aimsir fháistineach",
+      "forms": [
+        "Úsáidfidh mé",
+        "Úsáidfidh tú",
+        "Úsáidfidh sé/sí",
+        "Úsáidfidh muid",
+        "Úsáidfidh sibh",
+        "Úsáidfidh siad",
+        "SB: Úsáidfear",
+        "Diúl.: Ní úsáidfidh mé",
+        "Ceist: An úsáidfidh tú?"
+      ]
+    },
+    {
+      "title": "An Chéad Réimniú: Fág, an aimsir fháistineach",
+      "forms": [
+        "Fágfaidh mé",
+        "Fágfaidh tú",
+        "Fágfaidh sé/sí",
+        "Fágfaidh muid",
+        "Fágfaidh sibh",
+        "Fágfaidh siad",
+        "SB: Fágfar",
+        "Diúl.: Ní fhágfaidh mé",
+        "Ceist: An bhfágfaidh tú?"
+      ]
+    },
+    {
+      "title": "Fréamh an Bhriathair, An t-Ainm Briathartha, An Aidiacht Bhriathartha (briathra leathana, aisíoc go féach)",
+      "forms": [
+        "aisíoc (repay): aisíoc, aisíoctha",
+        "alp (devour): alpadh, alptha",
+        "amharc (look): amharc, amharctha",
+        "at (swell): at, ata",
+        "bac (hinder): bacadh, bactha",
+        "ballbhasc (maim): ballbhascadh, ballbhasctha",
+        "bíog (jump/start): bíogadh, bíogtha",
+        "breac (write, jot down): breacadh, breactha",
+        "briog (provoke): briogadh, briogtha",
+        "bronn (grant/bestow): bronnadh, bronnta",
+        "can (sing): canadh, canta",
+        "caoch (wink): caochadh, caochta",
+        "cas (twist): casadh, casta",
+        "ceap (think/appoint): ceapadh, ceaptha",
+        "céas (torment): céasadh, céasta",
+        "cíor (comb): cíoradh, cíortha",
+        "cleacht (practise): cleachtadh, cleachta",
+        "cnag (knock): cnagadh, cnagtha",
+        "coimeád (keep): coimeád, coimeádta",
+        "corn (roll): cornadh, corntha",
+        "craol (broadcast): craoladh, craolta",
+        "creach (ruin/loot): creachadh, creachta",
+        "críon (decay/wither): críonadh, críonta",
+        "croch (hang): crochadh, crochta",
+        "crom (bend): cromadh, cromtha",
+        "cum (compose): cumadh, cumtha",
+        "dall (blind): dalladh, dallta",
+        "daor (convict/condemn): daoradh, daortha",
+        "dearg (blush/light): deargadh, deargtha",
+        "dearmad (forget): dearmad, dearmadta",
+        "díobh (extinguish): díobhadh, díofa",
+        "díol (sell): díol, díolta",
+        "díon (shelter/protect): díonadh, díonta",
+        "díosc (creak): díoscadh, díosctha",
+        "dreap (climb): dreapadh, dreaptha",
+        "éag (die): éag, éagtha",
+        "fág (leave): fágáil, fágtha",
+        "fan (stay/remain): fanacht, fanta",
+        "fás (grow): fás, fásta",
+        "féach (look): féachaint, féachta"
+      ]
+    },
+    {
+      "title": "Fréamh an Bhriathair, An t-Ainm Briathartha, An Aidiacht Bhriathartha (briathra leathana, fiuch go scríobh)",
+      "forms": [
+        "fiuch (boil): fiuchadh, fiuchta",
+        "folc (bathe/wash): folcadh, folctha",
+        "geall (promise): gealladh, geallta",
+        "gearr (cut): gearradh, gearrtha",
+        "glan (clean): glanadh, glanta",
+        "gléas (dress): gléasadh, gléasta",
+        "iarr (ask): iarraidh, iarrtha",
+        "iniúch (inspect): iniúchadh, iniúchta",
+        "íoc (pay): íoc, íoctha",
+        "lámhach (shoot): lámhach, lámhachta",
+        "las (light): lasadh, lasta",
+        "leag (knock): leagan, leagtha",
+        "lean (follow): leanúint, leanta",
+        "leath (spread): leathadh, leata",
+        "líon (fill): líonadh, líonta",
+        "lobh (rot/decay): lobhadh, lofa",
+        "luasc (swing): luascadh, luasctha",
+        "lúb (turn/twist/bend): lúbadh, lúbtha",
+        "meall (entice): mealladh, meallta",
+        "measc (mix): meascadh, measctha",
+        "meath (decay/decline): meath, meata",
+        "mol (praise): moladh, molta",
+        "múch (quench/suffocate): múchadh, múchta",
+        "nasc (tie/link): nascadh, nasctha",
+        "nocht (bare): nochtadh, nochta",
+        "ól (drink): ól, ólta",
+        "pioc (pick): piocadh, pioctha",
+        "plab (slam): plabadh, plabtha",
+        "pléasc (explode): pléascadh, pléasctha",
+        "plúch (smother/stifle): plúchadh, plúchta",
+        "póg (kiss): pógadh, pógtha",
+        "pós (marry): pósadh, pósta",
+        "rad (throw/fling): radadh, radta",
+        "saor (free): saoradh, saortha",
+        "scar (part): scaradh, scartha",
+        "sciob (snatch): sciobadh, sciobtha",
+        "sciorr (slip/slide): sciorradh, sciorrtha",
+        "scréach (screech/shriek): scréachadh, scréachta",
+        "scread (scream): screadadh, screadta",
+        "scríob (scrape/scratch): scríobadh, scríobtha",
+        "scríobh (write): scríobh, scríofa"
+      ]
+    },
+    {
+      "title": "Fréamh an Bhriathair, An t-Ainm Briathartha, An Aidiacht Bhriathartha (briathra leathana, scrios go tum)",
+      "forms": [
+        "scrios (destroy): scriosadh, scriosta",
+        "scuab (brush/sweep): scuabadh, scuabtha",
+        "seas (stand): seasamh, seasta",
+        "sioc (freeze): siocadh, sioctha",
+        "slad (plunder/loot): slad, sladta",
+        "slog (swallow): slogadh, slogtha",
+        "snámh (swim): snámh, snáfa",
+        "spíon (tease/comb): spíonadh, spíonta",
+        "spreag (encourage/incite/stimulate): spreagadh, spreagtha",
+        "stad (stop): stad, stadta",
+        "stop (stop): stopadh, stoptha",
+        "tacht (choke): tachtadh, tachta",
+        "taifead (tape): taifeadadh, taifeadta",
+        "teagasc (teach): teagasc, teagasctha",
+        "teann (tighten): teannadh, teannta",
+        "tóg (take/lift/raise): tógáil, tógtha",
+        "tolg (smash): tolgadh, tolgtha",
+        "treabh (plough): treabhadh, treafa",
+        "tum (dip/plunge): tumadh, tumtha"
+      ]
+    },
+    {
+      "title": "Fréamh an Bhriathair, An t-Ainm Briathartha, An Aidiacht Bhriathartha (briathra caola, bain go éist)",
+      "forms": [
+        "bain (take/extract): baint, bainte",
+        "baist (baptize): baisteadh, baiste",
+        "béic (shout): béiceadh, béicthe",
+        "blais (taste): blaiseadh, blasta",
+        "braith (feel): brath, braite",
+        "bris (break): briseadh, briste",
+        "buail (hit): bualadh, buailte",
+        "caill (lose): cailleadh, caillte",
+        "caith (wear/throw): caitheamh, caite",
+        "caoin (cry/lament): caoineadh, caointe",
+        "creid (believe): creidiúint, creidte",
+        "croith (shake): croitheadh, croite",
+        "cuir (sow/put): cur, curtha",
+        "doirt (pour/spill): doirteadh, doirte",
+        "druid (close/shut): druidim, druidte",
+        "éist (listen): éisteacht, éiste"
+      ]
+    },
+    {
+      "title": "Fréamh an Bhriathair, An t-Ainm Briathartha, An Aidiacht Bhriathartha (briathra caola, fáisc go úsáid)",
+      "forms": [
+        "fáisc (squeeze): fáscadh, fáiscthe",
+        "fill (return): filleadh, fillte",
+        "gluais (move): gluaiseacht, gluaiste",
+        "goid (steal): goid, goidte",
+        "goin (wound): goin, gonta",
+        "lig (let/allow): ligean, ligthe",
+        "loisc (burn/scorch): loscadh, loiscthe",
+        "loit (destroy): lot, loite",
+        "mair (live): maireachtáil, martha",
+        "maith (forgive): maitheamh, maite",
+        "mill (ruin): milleadh, millte",
+        "múin (teach): múineadh, múinte",
+        "rinc (dance): rince, rincthe",
+        "rith (run): rith, rite",
+        "roinn (divide/share): roinnt, roinnte",
+        "scaip (scatter): scaipeadh, scaipthe",
+        "scairt (call out): scairteadh, scairte",
+        "scaoil (release): scaoileadh, scaoilte",
+        "scoilt (split): scoilteadh, scoilte",
+        "séid (blow): séideadh, séidte",
+        "seinn (play music): seinm, seinte",
+        "sil (drip): sileadh, silte",
+        "síl (think): síleadh, sílte",
+        "sín (stretch): síneadh, sínte",
+        "stróic (tear): stróiceadh, stróicthe",
+        "tairg (offer): tairgeadh, tairgthe",
+        "teip (fail): teip, teipthe",
+        "tiomáin (drive): tiomáint, tiomáinte",
+        "tit (fall): titim, tite",
+        "tochais (scratch): tochas, tochaiste",
+        "tomhais (guess): tomhas, tomhaiste",
+        "tréig (abandon): tréigean, tréigthe",
+        "troid (fight): troid, troidte",
+        "tuig (understand): tuiscint, tuigthe",
+        "tuill (earn): tuilleamh, tuillte",
+        "úsáid (use): úsáid, úsáidte"
+      ]
+    }
+  ]
+}

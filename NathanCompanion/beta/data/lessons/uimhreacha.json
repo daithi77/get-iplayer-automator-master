@@ -1,0 +1,831 @@
+{
+ "id": "uimhreacha",
+ "lessons": [
+  {
+   "title": "A haon, a dó: uimhreacha leo féin",
+   "en": "Numbers on their own: labels and sums",
+   "rule": "When a number stands on its own, as a label or in a sum, put a in front of it, with h before aon and ocht: seomra a dó, bus a haon, Bliain a hocht. In sums say is for plus, óna for minus (smaller number first), faoina for times and sin for equals.",
+   "steps": [
+    "Say the number in Irish: 8 is ocht.",
+    "Put a in front, with h because ocht begins with a vowel: a hocht.",
+    "Put it after the noun: Seomra a hocht."
+   ],
+   "example": {
+    "prompt": "Seomra (8)",
+    "answer": "Seomra a hocht."
+   },
+   "more": [
+    {
+     "prompt": "5 + 3 = 8",
+     "answer": "A cúig is a trí sin a hocht."
+    },
+    {
+     "prompt": "4 x 5 = 20",
+     "answer": "A ceathair faoina cúig sin fiche."
+    }
+   ],
+   "hint": "a + number, and h before aon and ocht.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Seomra (12)",
+     "answer": "Seomra a dó dhéag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ceacht (3)",
+     "answer": "Ceacht a trí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Ceacht (18)",
+     "answer": "Ceacht a hocht déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bliain (8)",
+     "answer": "Bliain a hocht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bus (1)",
+     "answer": "Bus a haon."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Leathanach (11)",
+     "answer": "Leathanach a haon déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "4 + 3 = 7",
+     "answer": "A ceathair is a trí sin a seacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "3 x 5 = 15",
+     "answer": "A trí faoina cúig sin a cúig déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "9 - 7 = 2",
+     "answer": "A seacht óna naoi sin a dó."
+    },
+    {
+     "shape": "stem",
+     "prompt": "7 + 5 = 12",
+     "answer": "A seacht is a cúig sin a dó dhéag."
+    }
+   ]
+  },
+  {
+   "title": "An t-am",
+   "en": "Telling the time",
+   "rule": "For the hour say Tá sé + a + number + a chlog: Tá sé a trí a chlog. For minutes, say the minutes, then tar éis (past) or chun (to), then the hour with a: Tá sé fiche bomaite tar éis a sé.",
+   "steps": [
+    "Say the minutes: 20 minutes is fiche bomaite.",
+    "It is not yet half past, so use tar éis (past).",
+    "Add the hour with a, and start with Tá sé: Tá sé fiche bomaite tar éis a sé."
+   ],
+   "example": {
+    "prompt": "6.20",
+    "answer": "Tá sé fiche bomaite tar éis a sé."
+   },
+   "more": [
+    {
+     "prompt": "4.45",
+     "answer": "Tá sé ceathrú chun a cúig."
+    },
+    {
+     "prompt": "10.30",
+     "answer": "Tá sé leathuair tar éis a deich."
+    }
+   ],
+   "hint": "Up to half past: tar éis. After half past: chun the next hour. Cúig bhomaite, deich mbomaite.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "3.00",
+     "answer": "Tá sé a trí a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "8.00",
+     "answer": "Tá sé a hocht a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "1.00",
+     "answer": "Tá sé a haon a chlog."
+    },
+    {
+     "shape": "stem",
+     "prompt": "9.30",
+     "answer": "Tá sé leathuair tar éis a naoi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "10.15",
+     "answer": "Tá sé ceathrú tar éis a deich."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2.45",
+     "answer": "Tá sé ceathrú chun a trí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "4.20",
+     "answer": "Tá sé fiche bomaite tar éis a ceathair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "5.40",
+     "answer": "Tá sé fiche bomaite chun a sé."
+    },
+    {
+     "shape": "stem",
+     "prompt": "9.10",
+     "answer": "Tá sé deich mbomaite tar éis a naoi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "4.50",
+     "answer": "Tá sé deich mbomaite chun a cúig."
+    }
+   ]
+  },
+  {
+   "title": "Uimhir + ainmfhocal: 1 go 10",
+   "en": "Numbers with nouns: 1 to 10",
+   "rule": "For one, say the noun + amháin: ticéad amháin. After 2 to 6 add h after the first letter of the noun (trí ghrianghraf), after 7 to 10 eclipse it (seacht gcárta, naoi n-oráiste), and keep the noun singular.",
+   "steps": [
+    "Say the number: 4 is ceithre.",
+    "Ceithre is between 2 and 6, so add h after the first letter: bád becomes bhád.",
+    "Keep the noun singular: Ceithre bhád."
+   ],
+   "example": {
+    "prompt": "4 (bád)",
+    "answer": "Ceithre bhád."
+   },
+   "more": [
+    {
+     "prompt": "9 (carr)",
+     "answer": "Naoi gcarr."
+    },
+    {
+     "prompt": "2 (úll)",
+     "answer": "Dhá úll."
+    }
+   ],
+   "hint": "2 to 6: add h. 7 to 10: eclipse. A vowel: no change after 2 to 6, n- after 7 to 10.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "1 (ticéad)",
+     "answer": "Ticéad amháin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "3 (grianghraf)",
+     "answer": "Trí ghrianghraf."
+    },
+    {
+     "shape": "stem",
+     "prompt": "7 (cárta)",
+     "answer": "Seacht gcárta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2 (fón póca)",
+     "answer": "Dhá fhón póca."
+    },
+    {
+     "shape": "stem",
+     "prompt": "5 (úll)",
+     "answer": "Cúig úll."
+    },
+    {
+     "shape": "stem",
+     "prompt": "9 (oráiste)",
+     "answer": "Naoi n-oráiste."
+    },
+    {
+     "shape": "stem",
+     "prompt": "4 (carr)",
+     "answer": "Ceithre charr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2 (geansaí)",
+     "answer": "Dhá gheansaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Chaith muid (3 lá) sa Ghaeltacht i nGaoth Dobhair.",
+     "answer": "Chaith muid trí lá sa Ghaeltacht i nGaoth Dobhair."
+    }
+   ]
+  },
+  {
+   "title": "Uimhir + ainmfhocal: 11 agus os a chionn",
+   "en": "Numbers with nouns: 11 and above",
+   "rule": "For 11 to 19, put the noun between the number and déag: aon mhadadh déag, ocht dteach déag. After fiche, tríocha and the other tens the noun does not change (tríocha ceist); for 21 and above, say the number and noun first, then is and the ten: cúig bhus is daichead.",
+   "steps": [
+    "Split the number: 12 is dhá + déag.",
+    "Put the noun after dhá and add h, as after any number from 2 to 6: dhá theachtaireacht.",
+    "Finish with déag: Dhá theachtaireacht déag."
+   ],
+   "example": {
+    "prompt": "12 (teachtaireacht)",
+    "answer": "Dhá theachtaireacht déag."
+   },
+   "more": [
+    {
+     "prompt": "34 (capall)",
+     "answer": "Ceithre chapall is tríocha."
+    }
+   ],
+   "hint": "11 to 19: number + noun + déag. Above 20: number + noun + is + ten.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "11 (madadh)",
+     "answer": "Aon mhadadh déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "18 (teach)",
+     "answer": "Ocht dteach déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "14 (peann)",
+     "answer": "Ceithre pheann déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "12 (múinteoir)",
+     "answer": "Dhá mhúinteoir déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "19 (cailín)",
+     "answer": "Naoi gcailín déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "30 (ceist)",
+     "answer": "Tríocha ceist."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cheannaigh muid (20 ticéad) san Iúr.",
+     "answer": "Cheannaigh muid fiche ticéad san Iúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "45 (bus)",
+     "answer": "Cúig bhus is daichead."
+    },
+    {
+     "shape": "stem",
+     "prompt": "27 (éan)",
+     "answer": "Seacht n-éan is fiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "36 (úll)",
+     "answer": "Sé úll is tríocha."
+    }
+   ]
+  },
+  {
+   "title": "Airgead",
+   "en": "Prices",
+   "rule": "Punt follows the usual number rules and stays singular: trí phunt, ocht bpunt, fiche punt. Say the pence after it as a plain number: cúig phunt nócha a naoi (£5.99).",
+   "steps": [
+    "Say the pounds: 6 is sé, and sé adds h: sé phunt.",
+    "Say the pence as a plain number: 99 is nócha a naoi.",
+    "Put them together: Sé phunt nócha a naoi."
+   ],
+   "example": {
+    "prompt": "£6.99",
+    "answer": "Sé phunt nócha a naoi."
+   },
+   "more": [
+    {
+     "prompt": "£4.00",
+     "answer": "Ceithre phunt."
+    }
+   ],
+   "hint": "Pounds with the number rules, then the pence as a plain number.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "£3.00",
+     "answer": "Trí phunt."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£8.50",
+     "answer": "Ocht bpunt caoga."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£5.99",
+     "answer": "Cúig phunt nócha a naoi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£40",
+     "answer": "Daichead punt."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£11.45",
+     "answer": "Aon phunt déag daichead a cúig."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£10.99",
+     "answer": "Deich bpunt nócha a naoi."
+    },
+    {
+     "shape": "stem",
+     "prompt": "£90",
+     "answer": "Nócha punt."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Thug mé (£8) ar an ticéad don chluiche.",
+     "answer": "Thug mé ocht bpunt ar an ticéad don chluiche."
+    }
+   ]
+  },
+  {
+   "title": "Beirt, triúr, ceathrar",
+   "en": "Counting people",
+   "rule": "Count people with beirt, triúr, ceathrar, cúigear, seisear, seachtar, ochtar, naonúr, deichniúr (on their own for duine: seisear), then put the noun in the plural: triúr daltaí. Only beirt adds h: beirt dhochtúirí.",
+   "steps": [
+    "Choose the people number: 4 people is ceathrar.",
+    "Make the noun plural: múinteoir becomes múinteoirí.",
+    "Only beirt adds h, so nothing more changes: Ceathrar múinteoirí."
+   ],
+   "example": {
+    "prompt": "4 (múinteoir)",
+    "answer": "Ceathrar múinteoirí."
+   },
+   "more": [
+    {
+     "prompt": "2 (cailín)",
+     "answer": "Beirt chailíní."
+    }
+   ],
+   "hint": "People number + plural noun. Beirt adds h.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "7 (imreoir)",
+     "answer": "Seachtar imreoirí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2 (dochtúir)",
+     "answer": "Beirt dhochtúirí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2 (feirmeoir)",
+     "answer": "Beirt fheirmeoirí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "3 (dalta)",
+     "answer": "Triúr daltaí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "6 (cara)",
+     "answer": "Seisear cairde."
+    },
+    {
+     "shape": "stem",
+     "prompt": "10 (páiste)",
+     "answer": "Deichniúr páistí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "8 (cailín)",
+     "answer": "Ochtar cailíní."
+    },
+    {
+     "shape": "stem",
+     "prompt": "10 (feirmeoir)",
+     "answer": "Deichniúr feirmeoirí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "9 (duine)",
+     "answer": "Naonúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "6 (duine)",
+     "answer": "Seisear."
+    }
+   ]
+  },
+  {
+   "title": "An chéad, an dara, an tríú",
+   "en": "First, second, third: ordinal numbers",
+   "rule": "Put an before the ordinal and the noun after it: an tríú bus. An ordinal beginning with a vowel takes t- (an t-ochtú), an chéad adds h to the noun (an chéad cheacht), 11th to 19th put déag after the noun and 21st upwards put is + the ten after it.",
+   "steps": [
+    "Say the ordinal: 8th is ochtú.",
+    "Ochtú begins with a vowel, so put t- after an: an t-ochtú.",
+    "Add the noun: An t-ochtú rang."
+   ],
+   "example": {
+    "prompt": "An (8ú rang)",
+    "answer": "An t-ochtú rang."
+   },
+   "more": [
+    {
+     "prompt": "An (13ú ceist)",
+     "answer": "An tríú ceist déag."
+    }
+   ],
+   "hint": "an + ordinal + noun; t- before a vowel, déag or is + ten after the noun.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "An (3ú bus)",
+     "answer": "An tríú bus."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (1ú ceacht)",
+     "answer": "An chéad cheacht."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (5ú lá)",
+     "answer": "An cúigiú lá."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (8ú seomra)",
+     "answer": "An t-ochtú seomra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (10ú ceist)",
+     "answer": "An deichiú ceist."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (9ú cluiche)",
+     "answer": "An naoú cluiche."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (3ú cara)",
+     "answer": "An tríú cara."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (12ú cluiche)",
+     "answer": "An dóú cluiche déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (19ú ceist)",
+     "answer": "An naoú ceist déag."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An (24ú leathanach)",
+     "answer": "An ceathrú leathanach is fiche."
+    }
+   ]
+  },
+  {
+   "title": "Na dátaí",
+   "en": "Dates",
+   "rule": "Say an + ordinal + lá de + the month, with h after the first letter of the month: an tríú lá de Mhárta. Before a vowel or fh, de becomes d': an dara lá d'Fheabhra.",
+   "steps": [
+    "Say the day as an ordinal: 3rd is an tríú.",
+    "Add lá de: an tríú lá de.",
+    "Add the month with h after the first letter: Márta becomes Mhárta. An tríú lá de Mhárta."
+   ],
+   "example": {
+    "prompt": "3/3",
+    "answer": "An tríú lá de Mhárta."
+   },
+   "more": [
+    {
+     "prompt": "4/4",
+     "answer": "An ceathrú lá d'Aibreán."
+    }
+   ],
+   "hint": "an + ordinal + lá de + month with h. L, N and R show no change: de Lúnasa, de Nollaig.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "1/3",
+     "answer": "An chéad lá de Mhárta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "8/5",
+     "answer": "An t-ochtú lá de Bhealtaine."
+    },
+    {
+     "shape": "stem",
+     "prompt": "18/8",
+     "answer": "An t-ochtú lá déag de Lúnasa."
+    },
+    {
+     "shape": "stem",
+     "prompt": "30/4",
+     "answer": "An tríochadú lá d'Aibreán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "6/6",
+     "answer": "An séú lá de Mheitheamh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "13/1",
+     "answer": "An tríú lá déag d'Eanáir."
+    },
+    {
+     "shape": "stem",
+     "prompt": "26/9",
+     "answer": "An séú lá is fiche de Mheán Fómhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "2/2",
+     "answer": "An dara lá d'Fheabhra."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Oíche Shamhna",
+     "answer": "An t-aonú lá is tríocha de Dheireadh Fómhair."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Oíche Nollag",
+     "answer": "An ceathrú lá is fiche de Nollaig."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Na maoluimhreacha 1 go 21",
+   "forms": [
+    "1: A haon",
+    "2: A dó",
+    "3: A trí",
+    "4: A ceathair",
+    "5: A cúig",
+    "6: A sé",
+    "7: A seacht",
+    "8: A hocht",
+    "9: A naoi",
+    "10: A deich",
+    "11: A haon déag",
+    "12: A dó dhéag",
+    "13: A trí déag",
+    "14: A ceathair déag",
+    "15: A cúig déag",
+    "16: A sé déag",
+    "17: A seacht déag",
+    "18: A hocht déag",
+    "19: A naoi déag",
+    "20: Fiche",
+    "21: Fiche a haon"
+   ]
+  },
+  {
+   "title": "Na deicheanna 10 go 100",
+   "forms": [
+    "10: Deich",
+    "20: Fiche",
+    "30: Tríocha",
+    "40: Daichead",
+    "50: Caoga",
+    "60: Seasca",
+    "70: Seachtó",
+    "80: Ochtó",
+    "90: Nócha",
+    "100: Céad"
+   ]
+  },
+  {
+   "title": "Samplaí: airgead",
+   "forms": [
+    "£10.00: Deich bpunt",
+    "£20.00: Fiche punt",
+    "£60.00: Seasca punt",
+    "10p: Deich bpingin",
+    "70p: Seachtó pingin"
+   ]
+  },
+  {
+   "title": "Na bunuimhreacha 1 go 20 le capall",
+   "forms": [
+    "1: Aon chapall amháin nó (capall amháin)",
+    "2: Dhá chapall",
+    "3: Trí chapall",
+    "4: Ceithre chapall",
+    "5: Cúig chapall",
+    "6: Sé chapall",
+    "7: Seacht gcapall",
+    "8: Ocht gcapall",
+    "9: Naoi gcapall",
+    "10: Deich gcapall",
+    "11: Aon chapall déag",
+    "12: Dhá chapall déag",
+    "13: Trí chapall déag",
+    "14: Ceithre chapall déag",
+    "15: Cúig chapall déag",
+    "16: Sé chapall déag",
+    "17: Seacht gcapall déag",
+    "18: Ocht gcapall déag",
+    "19: Naoi gcapall déag",
+    "20: Fiche capall"
+   ]
+  },
+  {
+   "title": "Na bunuimhreacha os cionn 20 le capall",
+   "forms": [
+    "21: Aon chapall is fiche nó capall is fiche",
+    "22: Dhá chapall is fiche",
+    "27: Seacht gcapall is fiche",
+    "30: Tríocha capall",
+    "34: Ceithre chapall is tríocha",
+    "38: Ocht gcapall is tríocha",
+    "46: Sé chapall is daichead",
+    "49: Naoi gcapall is daichead",
+    "53: Trí chapall is caoga",
+    "58: Ocht gcapall is caoga",
+    "2 go 6: Séimhiú",
+    "7 go 9: Urú",
+    "(eisceacht: 10, deich gcapall)"
+   ]
+  },
+  {
+   "title": "Tabhair faoi deara: ainmfhocail a thosaíonn ar ghuta",
+   "forms": [
+    "Dhá úll",
+    "Trí iasc",
+    "Sé uan",
+    "Seacht n-úll",
+    "Ocht n-iasc",
+    "Naoi n-uan"
+   ]
+  },
+  {
+   "title": "Na horduimhreacha 1ú go 20ú",
+   "forms": [
+    "1ú: An chéad chapall",
+    "2ú: An dara capall",
+    "3ú: An tríú capall",
+    "4ú: An ceathrú capall",
+    "5ú: An cúigiú capall",
+    "6ú: An séú capall",
+    "7ú: An seachtú capall",
+    "8ú: An t-ochtú capall",
+    "9ú: An naoú capall",
+    "10ú: An deichiú capall",
+    "11ú: An t-aonú capall déag",
+    "12ú: An dóú capall déag",
+    "13ú: An tríú capall déag",
+    "14ú: An ceathrú capall déag",
+    "15ú: An cúigiú capall déag",
+    "16ú: An séú capall déag",
+    "17ú: An seachtú capall déag",
+    "18ú: An t-ochtú capall déag",
+    "19ú: An naoú capall déag",
+    "20ú: An fichiú capall"
+   ]
+  },
+  {
+   "title": "Na horduimhreacha os cionn 20",
+   "forms": [
+    "21ú: An t-aonú capall is fiche",
+    "22ú: An dara capall is fiche",
+    "23ú: An tríú capall is fiche",
+    "33ú: An tríú capall is tríocha",
+    "48ú: An t-ochtú capall is daichead"
+   ]
+  },
+  {
+   "title": "Na horduimhreacha: na deicheanna 30ú go 100ú",
+   "forms": [
+    "30ú: An tríochadú capall",
+    "40ú: An daicheadú capall",
+    "50ú: An caogadú capall",
+    "60ú: An seascadú capall",
+    "70ú: An seachtódú capall",
+    "80ú: An t-ochtódú capall",
+    "90ú: An nóchadú capall",
+    "100ú: An céadú capall"
+   ]
+  },
+  {
+   "title": "Na huimhreacha pearsanta 1 go 14",
+   "forms": [
+    "1: Duine",
+    "2: Beirt",
+    "3: Triúr",
+    "4: Ceathrar",
+    "5: Cúigear",
+    "6: Seisear",
+    "7: Seachtar",
+    "8: Ochtar",
+    "9: Naonúr",
+    "10: Deichniúr",
+    "11: Aon duine dhéag",
+    "12: Dáréag",
+    "13: Trí dhuine dhéag",
+    "14: Ceithre dhuine dhéag"
+   ]
+  },
+  {
+   "title": "Samplaí: na huimhreacha pearsanta le fear, 1 go 20",
+   "forms": [
+    "1: Fear amháin",
+    "2: Beirt fhear",
+    "3: Triúr fear",
+    "4: Ceathrar fear",
+    "5: Cúigear fear",
+    "6: Seisear fear",
+    "7: Seachtar fear",
+    "8: Ochtar fear",
+    "9: Naonúr fear",
+    "10: Deichniúr fear",
+    "11: Aon fhear déag",
+    "12: Dáréag fear",
+    "13: Trí fhear déag",
+    "14: Ceithre fhear déag",
+    "15: Cúig fhear déag",
+    "16: Sé fhear déag",
+    "17: Seacht bhfear déag",
+    "18: Ocht bhfear déag",
+    "19: Naoi bhfear déag",
+    "20: Fiche fear"
+   ]
+  },
+  {
+   "title": "Ach: bean i ndiaidh na n-uimhreacha pearsanta",
+   "forms": [
+    "2: Beirt bhan",
+    "3: Triúr ban",
+    "4: Ceathrar ban"
+   ]
+  },
+  {
+   "title": "Na huimhreacha pearsanta os cionn 20",
+   "forms": [
+    "21: Duine is fiche",
+    "33: Trí dhuine is tríocha",
+    "44: Ceithre dhuine is daichead",
+    "57: Seacht nduine is caoga",
+    "69: Naoi nduine is seasca",
+    "75: Cúig dhuine is seachtó",
+    "88: Ocht nduine is ochtó",
+    "96: Sé dhuine is nócha",
+    "100: Céad duine"
+   ]
+  },
+  {
+   "title": "Samplaí: na dátaí",
+   "forms": [
+    "3/3: An tríú lá de Mhárta.",
+    "15/5: An cúigiú lá déag de Bhealtaine."
+   ]
+  },
+  {
+   "title": "An t-am le bomaite (Ulaidh)",
+   "forms": [
+    "Cúig bhomaite tar éis a hocht (8.05)",
+    "Deich mbomaite tar éis a seacht (7.10)",
+    "Ceathrú tar éis a trí (3.15)",
+    "Fiche bomaite tar éis a sé (6.20)",
+    "Cúig bhomaite is fiche tar éis a naoi (9.25)",
+    "Leathuair tar éis a deich (10.30)",
+    "Cúig bhomaite is fiche chun a hocht (7.35)",
+    "Fiche bomaite chun a trí (2.40)",
+    "Ceathrú chun a cúig (4.45)",
+    "Deich mbomaite chun a dó dhéag (11.50)",
+    "Cúig bhomaite chun a naoi (8.55)",
+    "(Cluintear fosta: i ndiaidh in áit tar éis, go dtí in áit chun)"
+   ]
+  }
+ ]
+}

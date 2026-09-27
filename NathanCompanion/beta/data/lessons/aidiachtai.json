@@ -1,0 +1,516 @@
+{
+ "id": "aidiachtai",
+ "lessons": [
+  {
+   "title": "An aidiacht i ndiaidh tá",
+   "en": "Adjectives after tá",
+   "rule": "After tá (or bhí, bíonn), write the adjective in its plain form with no change: Tá Ciara díograiseach.",
+   "steps": [
+    "Find the verb: tá.",
+    "Take the adjective in brackets: tuirseach (tired).",
+    "Write it as it is after the person: Tá mé tuirseach i ndiaidh an chluiche."
+   ],
+   "example": {
+    "prompt": "Tá mé ________ (tuirseach) i ndiaidh an chluiche.",
+    "answer": "Tá mé tuirseach i ndiaidh an chluiche."
+   },
+   "more": [
+    {
+     "prompt": "Tá an lá ________ (fuar) ar Shliabh gCuillinn.",
+     "answer": "Tá an lá fuar ar Shliabh gCuillinn."
+    }
+   ],
+   "hint": "After tá the adjective does not change.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Tá Ciara _______ (díograiseach). Bíonn sí ag traenáil achan lá.",
+     "answer": "Tá Ciara díograiseach. Bíonn sí ag traenáil achan lá.",
+     "gap": "díograiseach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cé go raibh an fón póca _______ (costasach), cheannaigh mé é.",
+     "answer": "Cé go raibh an fón póca costasach, cheannaigh mé é.",
+     "gap": "costasach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Is maith liom an Ghaeltacht i dTír Chonaill. Tá sí ciúin agus _______ (sítheach).",
+     "answer": "Is maith liom an Ghaeltacht i dTír Chonaill. Tá sí ciúin agus sítheach.",
+     "gap": "sítheach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ná téigh ag snámh sa loch sin. Tá sé _______ (contúirteach).",
+     "answer": "Ná téigh ag snámh sa loch sin. Tá sé contúirteach.",
+     "gap": "contúirteach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá an tiománaí bus s'againne _______ (poncúil). Bíonn sé i gcónaí in am.",
+     "answer": "Tá an tiománaí bus s'againne poncúil. Bíonn sé i gcónaí in am.",
+     "gap": "poncúil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá barr Shliabh gCuillinn _______ (sceirdiúil). Ní bhíonn duine ar bith ina chónaí thuas ansin.",
+     "answer": "Tá barr Shliabh gCuillinn sceirdiúil. Ní bhíonn duine ar bith ina chónaí thuas ansin.",
+     "gap": "sceirdiúil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá an cat sin _______ (fíochmhar). Bíonn sé i gcónaí ag scríobadh achan duine.",
+     "answer": "Tá an cat sin fíochmhar. Bíonn sé i gcónaí ag scríobadh achan duine.",
+     "gap": "fíochmhar"
+    }
+   ]
+  },
+  {
+   "title": "Séimhiú ar an aidiacht",
+   "en": "Adjectives after a feminine noun",
+   "rule": "After a feminine noun, add h after the first letter of the adjective (girseach bheag, obair shealadach); after a masculine noun, leave it alone (gasúr fiosrach, amhránaí cáiliúil).",
+   "steps": [
+    "Find the noun before the gap: girseach, which is feminine.",
+    "Feminine noun, so add h after the first letter of the adjective: beag becomes bheag.",
+    "Write the sentence: Tá girseach bheag ag an stad bus."
+   ],
+   "example": {
+    "prompt": "Tá girseach ________ (beag) ag an stad bus.",
+    "answer": "Tá girseach bheag ag an stad bus."
+   },
+   "more": [
+    {
+     "prompt": "Cheannaigh mé fón póca ________ (beag) dubh.",
+     "answer": "Cheannaigh mé fón póca beag dubh."
+    }
+   ],
+   "hint": "Feminine noun: add h to the adjective. Masculine noun: no change.",
+   "items": [
+    {
+     "shape": "gap",
+     "prompt": "Tá aithne agam ar an ghirseach _______ (cráifeach). Téann sí chuig an Aifreann achan Domhnach.",
+     "answer": "Tá aithne agam ar an ghirseach chráifeach. Téann sí chuig an Aifreann achan Domhnach.",
+     "gap": "chráifeach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Níl post buan ag mo dheartháir go fóill ach fuair sé obair _______ (sealadach) sa siopa.",
+     "answer": "Níl post buan ag mo dheartháir go fóill ach fuair sé obair shealadach sa siopa.",
+     "gap": "shealadach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bíonn turas scoile go Sliabh gCuillinn againn i mí an Mheithimh. Is ócáid _______ (bliantúil) í anois.",
+     "answer": "Bíonn turas scoile go Sliabh gCuillinn againn i mí an Mheithimh. Is ócáid bhliantúil í anois.",
+     "gap": "bhliantúil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Ní bhíonn an ghaoth láidir sa ghairdín s'againne mar is áit _______ (fothainiúil) í.",
+     "answer": "Ní bhíonn an ghaoth láidir sa ghairdín s'againne mar is áit fhothainiúil í.",
+     "gap": "fhothainiúil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Is gasúr _______ (fiosrach) é. Cuireann sé barraíocht ceisteanna ar an mhúinteoir.",
+     "answer": "Is gasúr fiosrach é. Cuireann sé barraíocht ceisteanna ar an mhúinteoir.",
+     "gap": "fiosrach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Is gasúr _______ (leisciúil) é. Ní dhéanann sé a chuid obair bhaile choíche.",
+     "answer": "Is gasúr leisciúil é. Ní dhéanann sé a chuid obair bhaile choíche.",
+     "gap": "leisciúil"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bíonn achan duine ag caint uirthi ar líne. Is amhránaí _______ (iomráiteach) í.",
+     "answer": "Bíonn achan duine ag caint uirthi ar líne. Is amhránaí iomráiteach í.",
+     "gap": "iomráiteach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Cuireann sí an rang ag gáire achan lá. Is duine _______ (greannmhar) í.",
+     "answer": "Cuireann sí an rang ag gáire achan lá. Is duine greannmhar í.",
+     "gap": "greannmhar"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Bhí lá fuar _______ (feannaideach) ann ag an chluiche agus bhí mé préachta.",
+     "answer": "Bhí lá fuar feannaideach ann ag an chluiche agus bhí mé préachta.",
+     "gap": "feannaideach"
+    },
+    {
+     "shape": "gap",
+     "prompt": "Tá an sionnach an-ghasta. Is ainmhí _______ (lúfar) é.",
+     "answer": "Tá an sionnach an-ghasta. Is ainmhí lúfar é.",
+     "gap": "lúfar"
+    }
+   ]
+  },
+  {
+   "title": "Chomh ... le",
+   "en": "As ... as",
+   "rule": "To say as ... as, use chomh + the plain adjective + le: chomh fiosrach le Liam. Put h before an adjective beginning with a vowel (chomh hard), and write leis an before a noun with the article (leis an mhadadh).",
+   "steps": [
+    "Find chomh: it takes the plain adjective, never the níos form.",
+    "Keep ard as it is, but add h because it begins with a vowel: hard.",
+    "Add le before the other person: Tá Ciara chomh hard lena deartháir."
+   ],
+   "example": {
+    "prompt": "Tá Ciara chomh (ard) lena deartháir.",
+    "answer": "Tá Ciara chomh hard lena deartháir."
+   },
+   "more": [
+    {
+     "prompt": "Níl Muiris chomh (fiosrach) le Liam.",
+     "answer": "Níl Muiris chomh fiosrach le Liam."
+    }
+   ],
+   "hint": "chomh + plain adjective + le (or is a before a verb).",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Níl Cathal chomh (fiosrach) le hAoife.",
+     "answer": "Níl Cathal chomh fiosrach le hAoife."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl an cat chomh (ceanúil) leis an mhadadh.",
+     "answer": "Níl an cat chomh ceanúil leis an mhadadh."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl sé chomh (ceomhar) ar Shliabh gCuillinn inniu is a bhí sé inné.",
+     "answer": "Níl sé chomh ceomhar ar Shliabh gCuillinn inniu is a bhí sé inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Níl an traein chomh (callánach) leis an bhus scoile.",
+     "answer": "Níl an traein chomh callánach leis an bhus scoile."
+    }
+   ]
+  },
+  {
+   "title": "Níos ... / is ...: -ach, -each",
+   "en": "Comparing: adjectives ending in -ach, -each",
+   "rule": "After níos (more) or is (most), change -ach to -aí and -each to -í: costasach becomes níos costasaí, díreach becomes is dírí.",
+   "steps": [
+    "Find níos or is before the brackets: you need the comparative form.",
+    "The adjective ends in -ach, so change -ach to -aí: feargach becomes feargaí.",
+    "Write the sentence: Tá Ciara níos feargaí."
+   ],
+   "example": {
+    "prompt": "Tá Ciara níos (feargach).",
+    "answer": "Tá Ciara níos feargaí."
+   },
+   "more": [
+    {
+     "prompt": "Tá an áit seo níos (contúirteach) ná an áit eile.",
+     "answer": "Tá an áit seo níos contúirtí ná an áit eile."
+    }
+   ],
+   "hint": "-ach becomes -aí, -each becomes -í.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Is é seo an bóthar is (díreach) go dtí an tIúr.",
+     "answer": "Is é seo an bóthar is dírí go dtí an tIúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá cluichí ríomhaire i bhfad níos (flúirseach) anois.",
+     "answer": "Tá cluichí ríomhaire i bhfad níos flúirsí anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is í mo sheanmháthair an duine is (cráifeach) sa teaghlach.",
+     "answer": "Is í mo sheanmháthair an duine is cráifí sa teaghlach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is é seo an stad bus is (uaigneach) ar fad.",
+     "answer": "Is é seo an stad bus is uaigní ar fad."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an bus scoile níos (callánach) ná an traein.",
+     "answer": "Tá an bus scoile níos callánaí ná an traein."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sin í an ghirseach is (cainteach) sa chór.",
+     "answer": "Sin í an ghirseach is caintí sa chór."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an bóthar seo níos (contúirteach) ná an mótarbhealach.",
+     "answer": "Tá an bóthar seo níos contúirtí ná an mótarbhealach."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sin í an teachtaireacht is (práinneach) ar mo ghuthán.",
+     "answer": "Sin í an teachtaireacht is práinní ar mo ghuthán."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Seo é an fón póca is (costasach) sa siopa.",
+     "answer": "Seo é an fón póca is costasaí sa siopa."
+    }
+   ]
+  },
+  {
+   "title": "Níos ... / is ...: -úil",
+   "en": "Comparing: adjectives ending in -úil",
+   "rule": "After níos or is, add -a to an adjective ending in -úil: cairdiúil becomes níos cairdiúla.",
+   "steps": [
+    "Find níos or is before the brackets: you need the comparative form.",
+    "The adjective ends in -úil, so add -a: éirimiúil becomes éirimiúla.",
+    "Write the sentence: Tá Clíodhna níos éirimiúla."
+   ],
+   "example": {
+    "prompt": "Tá Clíodhna níos (éirimiúil).",
+    "answer": "Tá Clíodhna níos éirimiúla."
+   },
+   "more": [
+    {
+     "prompt": "Is í Réaltín an duine is (éirimiúil) sa rang.",
+     "answer": "Is í Réaltín an duine is éirimiúla sa rang."
+    }
+   ],
+   "hint": "-úil becomes -úla.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Is í Aoife an duine is (spórtúil) ar an fhoireann camógaíochta.",
+     "answer": "Is í Aoife an duine is spórtúla ar an fhoireann camógaíochta."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí Rang 9 i bhfad níos (flaithiúil) ná Rang 10 ag an aonach cístí.",
+     "answer": "Bhí Rang 9 i bhfad níos flaithiúla ná Rang 10 ag an aonach cístí."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sílim go bhfuil an podchraoladh seo níos (suimiúil).",
+     "answer": "Sílim go bhfuil an podchraoladh seo níos suimiúla."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Síleann Rónán gurb é an duine is (fearúil) ar an fhoireann é.",
+     "answer": "Síleann Rónán gurb é an duine is fearúla ar an fhoireann é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is í Niamh an ghirseach is (cairdiúil) sa chlub óige.",
+     "answer": "Is í Niamh an ghirseach is cairdiúla sa chlub óige."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sílim go bhfuil an traenáil seo níos (tuirsiúil) ná an cluiche féin.",
+     "answer": "Sílim go bhfuil an traenáil seo níos tuirsiúla ná an cluiche féin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is é an síota an t-ainmhí is (tapúil) ar fad.",
+     "answer": "Is é an síota an t-ainmhí is tapúla ar fad."
+    }
+   ]
+  },
+  {
+   "title": "Níos ... / is ...: -mhar",
+   "en": "Comparing: adjectives ending in -mhar",
+   "rule": "After níos or is, change -mhar to -mhaire: greannmhar becomes níos greannmhaire (and lúfar becomes lúfaire).",
+   "steps": [
+    "Find níos or is before the brackets: you need the comparative form.",
+    "The adjective ends in -mhar, so change it to -mhaire: luachmhar becomes luachmhaire.",
+    "Write the sentence: Tá an ríomhaire glúine seo níos luachmhaire."
+   ],
+   "example": {
+    "prompt": "Tá an ríomhaire glúine seo níos (luachmhar).",
+    "answer": "Tá an ríomhaire glúine seo níos luachmhaire."
+   },
+   "more": [
+    {
+     "prompt": "Is é seo an t-uaireadóir is (luachmhar) sa siopa.",
+     "answer": "Is é seo an t-uaireadóir is luachmhaire sa siopa."
+    }
+   ],
+   "hint": "-mhar becomes -mhaire.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Shíl mé go raibh do dheartháir níos (ciallmhar) ná sin.",
+     "answer": "Shíl mé go raibh do dheartháir níos ciallmhaire ná sin."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Sin é an madadh is (fíochmhar) ar an tsráid s'againne.",
+     "answer": "Sin é an madadh is fíochmhaire ar an tsráid s'againne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bhí an scannán eile níos (greannmhar).",
+     "answer": "Bhí an scannán eile níos greannmhaire."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is í Réaltín an duine is (ceolmhar) sa chór.",
+     "answer": "Is í Réaltín an duine is ceolmhaire sa chór."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá fóin phóca i bhfad níos (líonmhar) sa scoil anois.",
+     "answer": "Tá fóin phóca i bhfad níos líonmhaire sa scoil anois."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an tolg seo níos (sómhar) ná an ceann eile.",
+     "answer": "Tá an tolg seo níos sómhaire ná an ceann eile."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is é seo an seomra ranga is (slachtmhar) sa scoil.",
+     "answer": "Is é seo an seomra ranga is slachtmhaire sa scoil."
+    }
+   ]
+  },
+  {
+   "title": "Breischéimeanna neamhrialta",
+   "en": "Comparing: irregular adjectives",
+   "rule": "A few common adjectives have their own form after níos and is, which you learn by heart: maith, fearr; olc, measa; mór, mó; beag, lú; fada, faide; furast, fusa; te, teo; tréan, treise.",
+   "steps": [
+    "Find níos or is before the brackets: you need the comparative form.",
+    "Mór is irregular: its form is mó.",
+    "Write the sentence: Tá mo dheartháir níos mó ná mo dheirfiúr."
+   ],
+   "example": {
+    "prompt": "Tá mo dheartháir níos (mór) ná mo dheirfiúr.",
+    "answer": "Tá mo dheartháir níos mó ná mo dheirfiúr."
+   },
+   "more": [
+    {
+     "prompt": "Is é seo an lá is (breá) sa bhliain.",
+     "answer": "Is é seo an lá is breátha sa bhliain."
+    }
+   ],
+   "hint": "maith: fearr, olc: measa, mór: mó, beag: lú, fada: faide, furast: fusa, te: teo.",
+   "items": [
+    {
+     "shape": "stem",
+     "prompt": "Tá Aoife níos (maith) ag an pheil ná Cathal.",
+     "answer": "Tá Aoife níos fearr ag an pheil ná Cathal."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is é an ceol an t-ábhar is (furast) sa scoil.",
+     "answer": "Is é an ceol an t-ábhar is fusa sa scoil."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Bíonn an Spáinn níos (te) ná Ard Mhacha.",
+     "answer": "Bíonn an Spáinn níos teo ná Ard Mhacha."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Síleann Eoghan gurb é an duine is (tréan) ar an fhoireann é.",
+     "answer": "Síleann Eoghan gurb é an duine is treise ar an fhoireann é."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an turas bus go Béal Feirste níos (fada) ná an turas go dtí an tIúr.",
+     "answer": "Tá an turas bus go Béal Feirste níos faide ná an turas go dtí an tIúr."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá an aimsir inniu níos (olc) ná inné.",
+     "answer": "Tá an aimsir inniu níos measa ná inné."
+    },
+    {
+     "shape": "stem",
+     "prompt": "Tá cárta SIM níos (beag) ná cipín cuimhne.",
+     "answer": "Tá cárta SIM níos lú ná cipín cuimhne."
+    },
+    {
+     "shape": "stem",
+     "prompt": "An bhfuil an cluiche seo níos (maith) ná an ceann eile?",
+     "answer": "An bhfuil an cluiche seo níos fearr ná an ceann eile?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Cad é an contae is (beag) in Éirinn?",
+     "answer": "Cad é an contae is lú in Éirinn?"
+    },
+    {
+     "shape": "stem",
+     "prompt": "Is é mí Iúil an mhí is (te) sa bhliain.",
+     "answer": "Is é mí Iúil an mhí is teo sa bhliain."
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Céimeanna comparáide: na cúig chineál (bunchéim, breischéim, sárchéim)",
+   "forms": [
+    "ard: níos airde: is airde",
+    "feargach: níos feargaí: is feargaí",
+    "éirimiúil: níos éirimiúla: is éirimiúla",
+    "luachmhar: níos luachmhaire: is luachmhaire",
+    "ramhar: níos raimhre: is raimhre"
+   ]
+  },
+  {
+   "title": "ach agus each sa bhreischéim",
+   "forms": [
+    "-ach: -aí",
+    "-each: -í"
+   ]
+  },
+  {
+   "title": "Samplaí eile, cineál 1 (consan leathan, cuir -e)",
+   "forms": [
+    "bán, bocht, bog, caol, dearg, fuar, glas."
+   ]
+  },
+  {
+   "title": "Samplaí eile, cineál 2 (-ach, -each)",
+   "forms": [
+    "cruógach, corrthónach, réasúnach, cúramach, callánach, aerach, baolach, ciontach, costasach, iontach, díreach, díograiseach, faiteach, flúirseach, náireach, práinneach, clúiteach, contúirteach, cráifeach, uaigneach, sítheach, cainteach, scléipeach, aisteach."
+   ]
+  },
+  {
+   "title": "Samplaí eile, cineál 3 (-úil)",
+   "forms": [
+    "áitiúil, poncúil, cairdiúil, flaithiúil, críochnúil, sceirdiúil, misniúil, cáiliúil, bliantúil, dathúil."
+   ]
+  },
+  {
+   "title": "Samplaí eile, cineál 4 (-mhar, -ar)",
+   "forms": [
+    "bríomhar, lúfar, ceolmhar, ciallmhar, fíochmhar, greannmhar, ceomhar, grámhar."
+   ]
+  },
+  {
+   "title": "Samplaí eile, cineál 5 (coimriú)",
+   "forms": [
+    "folamh, daingean, íseal, uasal, álainn, domhain, saibhir, deacair, aoibhinn."
+   ]
+  },
+  {
+   "title": "Aidiachtaí a bhfuil breischéim ar leith acu",
+   "forms": [
+    "maith: níos fearr: is fearr",
+    "olc: níos measa: is measa",
+    "mór: níos mó: is mó",
+    "beag: níos lú: is lú",
+    "fada: níos faide: is faide",
+    "furast: níos fusa: is fusa",
+    "te: níos teo: is teo",
+    "tréan: níos treise/tréine: is treise/tréine",
+    "breá: níos breátha: is breátha"
+   ]
+  }
+ ]
+}

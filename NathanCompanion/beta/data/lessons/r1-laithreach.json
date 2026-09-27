@@ -1,0 +1,172 @@
+{
+  "id": "r1-laithreach",
+  "lessons": [
+    {
+      "title": "-ann agus -eann",
+      "en": "Adding -ann or -eann",
+      "rule": "In the present tense, add -ann to a broad root (last vowel a, o or u) and -eann to a slender root (last vowel i or e), then put the subject: glan becomes glanann sí, cuir becomes cuireann sí. With muid use the same form: glanann muid.",
+      "steps": [
+        "Find the root of the verb in brackets: glan.",
+        "The last vowel is a, so the root is broad: add -ann to get glanann.",
+        "Put the verb first, then the subject: Glanann sí a seomra leapa."
+      ],
+      "example": {"prompt": "(Glan) sí a seomra leapa.", "answer": "Glanann sí a seomra leapa."},
+      "more": [
+        {"prompt": "(Cuir) sí an mála ar an chathaoir.", "answer": "Cuireann sí an mála ar an chathaoir."},
+        {"prompt": "(Rith) sí go dtí an stad bus.", "answer": "Ritheann sí go dtí an stad bus."}
+      ],
+      "hint": "Broad root: -ann. Slender root: -eann.",
+      "items": [
+        {"shape": "stem", "prompt": "(Glan: muid) an seomra ranga gach Aoine.", "answer": "Glanann muid an seomra ranga gach Aoine."},
+        {"shape": "stem", "prompt": "(Druid) siad na geataí ar a ceathair a chlog.", "answer": "Druideann siad na geataí ar a ceathair a chlog."},
+        {"shape": "stem", "prompt": "(Fás) féar ar an pháirc peile.", "answer": "Fásann féar ar an pháirc peile."},
+        {"shape": "stem", "prompt": "(Díol) an siopa sin cártaí SIM.", "answer": "Díolann an siopa sin cártaí SIM."}
+      ]
+    },
+    {
+      "title": "-aim agus -im: ceist a fhreagairt",
+      "en": "Answering with -aim or -im",
+      "rule": "To answer a question with tú, use the mé ending, -aim for a broad root and -im for a slender root, with no pronoun after it: An nglanann tú? Glanaim. Change do to mo, ort to orm and leat to liom.",
+      "steps": [
+        "Take An and the eclipsis off the verb: gcuireann becomes cuireann.",
+        "Swap -eann for -im: cuirim.",
+        "Drop tú and write the answer: Cuirim an pláta ar an bhord."
+      ],
+      "example": {"prompt": "An gcuireann tú an pláta ar an bhord?", "answer": "Cuirim an pláta ar an bhord."},
+      "more": [
+        {"prompt": "An bhfágann tú an leabhar anseo?", "answer": "Fágaim an leabhar anseo."},
+        {"prompt": "An scuabann tú an t-urlár?", "answer": "Scuabaim an t-urlár."}
+      ],
+      "hint": "tú in the question, -aim or -im in the answer.",
+      "items": [
+        {"shape": "transform", "prompt": "An ndéanann tú obair bhaile ar an ríomhaire glúine?", "answer": "Déanaim obair bhaile ar an ríomhaire glúine."},
+        {"shape": "transform", "prompt": "An scríobhann tú ríomhphost go minic?", "answer": "Scríobhaim ríomhphost go minic."},
+        {"shape": "transform", "prompt": "An bhfanann tú sa bhaile nuair a bhíonn sé fliuch?", "answer": "Fanaim sa bhaile nuair a bhíonn sé fliuch."},
+        {"shape": "transform", "prompt": "An gcuireann tú éide scoile ort gach maidin?", "answer": "Cuirim éide scoile orm gach maidin."},
+        {"shape": "transform", "prompt": "An mbuaileann tú le do chairde ag an chlub óige?", "answer": "Buailim le mo chairde ag an chlub óige."},
+        {"shape": "transform", "prompt": "An dtógann tú do ríomhaire glúine ar scoil leat?", "answer": "Tógaim mo ríomhaire glúine ar scoil liom."},
+        {"shape": "transform", "prompt": "An mbriseann tú rialacha go minic?", "answer": "Brisim rialacha go minic."},
+        {"shape": "transform", "prompt": "An nglanann tú do bhróga peile gach seachtain?", "answer": "Glanaim mo bhróga peile gach seachtain."},
+        {"shape": "transform", "prompt": "An dtuigeann tú an clár ama nua?", "answer": "Tuigim an clár ama nua."}
+      ]
+    },
+    {
+      "title": "Ceist le An, diúltach le Ní",
+      "en": "Questions with An, negatives with Ní",
+      "rule": "For a question put An before the verb and eclipse it (An gcaitheann, An bhfágann); for a negative put Ní before it and lenite it (Ní chaitheann, Ní fhágann). l, m, n, r and s do not change after An, and l, n, r, sc, sm, sp and st do not change after Ní.",
+      "steps": [
+        "Start from the answer and take off Ní and the h: Ní chuireann siad becomes cuireann siad.",
+        "Put An in front and eclipse the c: An gcuireann siad.",
+        "Finish the question: An gcuireann siad an pláta ar an bhord?"
+      ],
+      "example": {"prompt": "Ní chuireann siad", "answer": "An gcuireann siad an pláta ar an bhord?"},
+      "more": [
+        {"prompt": "Ní (fág) sí an leabhar anseo.", "answer": "Ní fhágann sí an leabhar anseo."},
+        {"prompt": "An (buail) sibh le chéile ag an chlub óige?", "answer": "An mbuaileann sibh le chéile ag an chlub óige?"}
+      ],
+      "hint": "An eclipses, Ní lenites.",
+      "items": [
+        {"shape": "stem", "prompt": "An (siúil) sibh abhaile ón scoil, a chailíní?", "answer": "An siúlann sibh abhaile ón scoil, a chailíní?"},
+        {"shape": "stem", "prompt": "Ní (las: mé) an teilifís roimh an obair bhaile.", "answer": "Ní lasaim an teilifís roimh an obair bhaile."},
+        {"shape": "question", "prompt": "Ní chaithim", "answer": "An gcaitheann tú éide scoile ag an deireadh seachtaine?", "self": true},
+        {"shape": "question", "prompt": "Ritheann muid", "answer": "An ritheann sibh timpeall na páirce ag an traenáil?", "self": true},
+        {"shape": "question", "prompt": "Múchann sí", "answer": "An múchann sí an fón póca sa rang?", "self": true},
+        {"shape": "question", "prompt": "Fágann muid", "answer": "An bhfágann sibh na málaí sa halla?", "self": true},
+        {"shape": "question", "prompt": "Ní ghlanann siad", "answer": "An nglanann siad an seomra ranga?", "self": true},
+        {"shape": "question", "prompt": "Siúlaim", "answer": "An siúlann tú ar scoil?", "self": true}
+      ]
+    },
+    {
+      "title": "An saorbhriathar: -tar",
+      "en": "The autonomous form with -tar",
+      "rule": "When nobody is named as doing the action, add -tar to a broad root and put no pronoun after it: glan becomes glantar. After An it is eclipsed and after Ní lenited: An nglantar? Ní ghlantar.",
+      "steps": [
+        "Find the root of the verb in brackets: múch.",
+        "The last vowel is u, so the root is broad: add -tar to get múchtar.",
+        "Put it first, with no pronoun: Múchtar na soilse ar a deich a chlog."
+      ],
+      "example": {"prompt": "(Múch) na soilse ar a deich a chlog.", "answer": "Múchtar na soilse ar a deich a chlog."},
+      "more": [
+        {"prompt": "(Díol) ceapairí sa siopa scoile.", "answer": "Díoltar ceapairí sa siopa scoile."},
+        {"prompt": "Ní ghlantar", "answer": "An nglantar an seomra ranga gach lá?"}
+      ],
+      "hint": "Broad root + -tar, no pronoun.",
+      "items": [
+        {"shape": "stem", "prompt": "(Can) amhráin Ghaeilge sa halla gach Aoine.", "answer": "Cantar amhráin Ghaeilge sa halla gach Aoine."},
+        {"shape": "stem", "prompt": "(Cas) na cairde ar a chéile ag an chlub óige.", "answer": "Castar na cairde ar a chéile ag an chlub óige."},
+        {"shape": "stem", "prompt": "(Craol) an cluiche ar an teilifís gach Domhnach.", "answer": "Craoltar an cluiche ar an teilifís gach Domhnach."},
+        {"shape": "stem", "prompt": "(Las) na soilse sa halla spóirt ar a seacht a chlog.", "answer": "Lastar na soilse sa halla spóirt ar a seacht a chlog."},
+        {"shape": "stem", "prompt": "(Scuab) an seomra ranga gach tráthnóna.", "answer": "Scuabtar an seomra ranga gach tráthnóna."},
+        {"shape": "stem", "prompt": "(Treabh) na páirceanna thart ar an Iúr san earrach.", "answer": "Treabhtar na páirceanna thart ar an Iúr san earrach."},
+        {"shape": "stem", "prompt": "(Glan) an halla spóirt gach oíche.", "answer": "Glantar an halla spóirt gach oíche."},
+        {"shape": "stem", "prompt": "(Mol) na gasúir nuair a bhaineann siad an cluiche.", "answer": "Moltar na gasúir nuair a bhaineann siad an cluiche."},
+        {"shape": "question", "prompt": "Glantar", "answer": "An nglantar an halla spóirt gach oíche?", "self": true},
+        {"shape": "question", "prompt": "Ní dhíoltar", "answer": "An ndíoltar milseáin sa siopa scoile?", "self": true}
+      ]
+    },
+    {
+      "title": "An saorbhriathar: -tear",
+      "en": "The autonomous form with -tear",
+      "rule": "If the last vowel of the root is i or e (a slender root), add -tear instead, still with no pronoun: cuir becomes cuirtear, druid becomes druidtear.",
+      "steps": [
+        "Find the root of the verb in brackets: blais.",
+        "The last vowel is i, so the root is slender: add -tear to get blaistear.",
+        "Put it first, with no pronoun: Blaistear an bia sa cheaintín."
+      ],
+      "example": {"prompt": "(Blais) an bia sa cheaintín.", "answer": "Blaistear an bia sa cheaintín."},
+      "more": [
+        {"prompt": "(Tuig) an scéal go maith.", "answer": "Tuigtear an scéal go maith."}
+      ],
+      "hint": "Slender root + -tear, no pronoun.",
+      "items": [
+        {"shape": "stem", "prompt": "(Bain) an féar ar an pháirc peile gach seachtain.", "answer": "Baintear an féar ar an pháirc peile gach seachtain."},
+        {"shape": "stem", "prompt": "(Scaip) an nuacht ar na meáin shóisialta go gasta.", "answer": "Scaiptear an nuacht ar na meáin shóisialta go gasta."},
+        {"shape": "stem", "prompt": "(Druid) an leabharlann ar a cúig a chlog.", "answer": "Druidtear an leabharlann ar a cúig a chlog."},
+        {"shape": "stem", "prompt": "(Múin) Gaeilge sa scoil seo.", "answer": "Múintear Gaeilge sa scoil seo."},
+        {"shape": "stem", "prompt": "(Roinn) na grianghraif ar an aip.", "answer": "Roinntear na grianghraif ar an aip."},
+        {"shape": "stem", "prompt": "(Úsáid) ríomhairí glúine in ionad cóipleabhar.", "answer": "Úsáidtear ríomhairí glúine in ionad cóipleabhar."},
+        {"shape": "stem", "prompt": "(Cuir) stop leis an chluiche nuair a bhíonn sé dorcha.", "answer": "Cuirtear stop leis an chluiche nuair a bhíonn sé dorcha."},
+        {"shape": "stem", "prompt": "(Caill) a lán peann sa tseomra ranga gach seachtain.", "answer": "Cailltear a lán peann sa tseomra ranga gach seachtain."}
+      ]
+    },
+    {
+      "title": "Briathra a thosaíonn ar ghuta",
+      "en": "Verbs beginning with a vowel",
+      "rule": "A verb beginning with a vowel takes the same endings (ólann, ólaim, óltar) but never changes after An or Ní, because a vowel cannot be eclipsed or lenited: An ólann tú? Ní ólaim.",
+      "steps": [
+        "Find the root of the verb in brackets: éist.",
+        "The last vowel is i, so add -eann: éisteann.",
+        "Ní does not change a vowel, so write it as it is: Ní éisteann sé leis an nuacht."
+      ],
+      "example": {"prompt": "Ní (éist) sé leis an nuacht.", "answer": "Ní éisteann sé leis an nuacht."},
+      "more": [
+        {"prompt": "An (amharc) tú ar an scáileán?", "answer": "An amharcann tú ar an scáileán?"},
+        {"prompt": "(Úsáid) an peann dearg sa scrúdú.", "answer": "Úsáidtear an peann dearg sa scrúdú."}
+      ],
+      "hint": "Vowel verb: same endings, no change after An or Ní.",
+      "items": [
+        {"shape": "stem", "prompt": "Ní (ól) gasúir caife ar scoil.", "answer": "Ní ólann gasúir caife ar scoil."},
+        {"shape": "stem", "prompt": "An (ith) tú sceallóga, a Chiara?", "answer": "An itheann tú sceallóga, a Chiara?"},
+        {"shape": "stem", "prompt": "(Íoc) as an ticéad ar an aip.", "answer": "Íoctar as an ticéad ar an aip."},
+        {"shape": "stem", "prompt": "(Ól) a lán uisce ag an traenáil.", "answer": "Óltar a lán uisce ag an traenáil."},
+        {"shape": "transform", "prompt": "An ólann tú uisce ag an traenáil?", "answer": "Ólaim uisce ag an traenáil."},
+        {"shape": "transform", "prompt": "An itheann tú ceapaire ag am lóin?", "answer": "Ithim ceapaire ag am lóin."},
+        {"shape": "transform", "prompt": "An éisteann tú le podchraoladh ar an bhus?", "answer": "Éistim le podchraoladh ar an bhus."},
+        {"shape": "transform", "prompt": "An itheann tú torthaí?", "answer": "Ithim torthaí."},
+        {"shape": "question", "prompt": "Ólann muid", "answer": "An ólann sibh tae sa cheaintín?", "self": true}
+      ]
+    }
+  ],
+  "tables": [
+    {"title": "A. Ordú agus an aimsir láithreach: briathra leathana (Cad é a dhéanann sé?)", "forms": ["Tóg an mála: Tógann sé an mála", "Glan an bord: Glanann sé an bord", "Cíor do chuid gruaige: Cíorann sé a chuid gruaige", "Cas timpeall: Casann sé timpeall", "Cnag ar an doras: Cnagann sé ar an doras", "Gearr an fheoil: Gearrann sé an fheoil", "Múch na soilse: Múchann sé na soilse", "Díol an leabhar: Díolann sé an leabhar", "Las an tine: Lasann sé an tine", "Scuab an t-urlár: Scuabann sé an t-urlár"]},
+    {"title": "A. Ceist agus freagra: glan", "forms": ["An nglanann tú an bord?: Glanaim / Ní ghlanaim", "An nglanann sé an bord?: Glanann sé / Ní ghlanann sé", "An nglanann sí an bord?: Glanann sí / Ní ghlanann sí", "An nglanann sibh an bord?: Glanann muid / Ní ghlanann muid", "An nglanann siad an bord?: Glanann siad / Ní ghlanann siad", "An nglantar an bord?: Glantar / Ní ghlantar"]},
+    {"title": "B. Ordú agus an aimsir láithreach: briathra caola (Cad é a dhéanann sé?)", "forms": ["Cuir an pláta ar an bhord: Cuireann sé an pláta ar an bhord", "Blais an deoch: Blaiseann sé an deoch", "Caith an liathróid: Caitheann sé an liathróid", "Bain an féar: Baineann sé an féar", "Druid an fhuinneog: Druideann sé an fhuinneog", "Sín amach do lámh: Síneann sé amach a lámh", "Rith go dtí an líne: Ritheann sé go dtí an líne"]},
+    {"title": "B. Ceist agus freagra: cuir", "forms": ["An gcuireann tú an pláta ar an bhord?: Cuirim / Ní chuirim", "An gcuireann sé an pláta ar an bhord?: Cuireann sé / Ní chuireann sé", "An gcuireann sí an pláta ar an bhord?: Cuireann sí / Ní chuireann sí", "An gcuireann sibh an pláta ar an bhord?: Cuireann muid / Ní chuireann muid", "An gcuireann siad an pláta ar an bhord?: Cuireann siad / Ní chuireann siad", "An gcuirtear an pláta ar an bhord?: Cuirtear / Ní chuirtear"]},
+    {"title": "C. Briathra a thosaíonn ar ghuta: Ordú agus an aimsir láithreach", "forms": ["Ól an deoch: Ólann sé an deoch", "Amharc ar an phictiúr: Amharcann sé ar an phictiúr", "Íoc as an ticéad: Íocann sé as an ticéad"]},
+    {"title": "C. Ceist agus freagra: ól", "forms": ["An ólann tú an deoch?: Ólaim / Ní ólaim", "An ólann sé an deoch?: Ólann sé / Ní ólann sé", "An ólann sí an deoch?: Ólann sí / Ní ólann sí", "An ólann sibh an deoch?: Ólann muid / Ní ólann muid", "An ólann siad an deoch?: Ólann siad / Ní ólann siad", "An óltar an deoch?: Óltar / Ní óltar"]},
+    {"title": "D. Briathra caola a thosaíonn ar ghuta: Ordú agus an aimsir láithreach", "forms": ["Úsáid an peann dearg: Úsáideann sé an peann dearg", "Éist leis an nuacht: Éisteann sé leis an nuacht"]},
+    {"title": "D. Ceist agus freagra: úsáid", "forms": ["An úsáideann tú an peann dearg?: Úsáidim / Ní úsáidim", "An úsáideann sé an peann dearg?: Úsáideann sé / Ní úsáideann sé", "An úsáideann sí an peann dearg?: Úsáideann sí / Ní úsáideann sí", "An úsáideann sibh an peann dearg?: Úsáideann muid / Ní úsáideann muid", "An úsáideann siad an peann dearg?: Úsáideann siad / Ní úsáideann siad", "An úsáidtear an peann dearg?: Úsáidtear / Ní úsáidtear"]},
+    {"title": "E. Briathra a thosaíonn ar f: Ordú agus an aimsir láithreach", "forms": ["Fág an leabhar anseo: Fágann sé an leabhar anseo", "Fan sa teach: Fanann sé sa teach", "Fill abhaile: Filleann sé abhaile"]},
+    {"title": "E. Ceist agus freagra: fág", "forms": ["An bhfágann tú an leabhar anseo?: Fágaim / Ní fhágaim", "An bhfágann sé an leabhar anseo?: Fágann sé / Ní fhágann sé", "An bhfágann sí an leabhar anseo?: Fágann sí / Ní fhágann sí", "An bhfágann sibh an leabhar anseo?: Fágann muid / Ní fhágann muid", "An bhfágann siad an leabhar anseo?: Fágann siad / Ní fhágann siad", "An bhfágtar an leabhar anseo?: Fágtar / Ní fhágtar"]}
+  ]
+}
