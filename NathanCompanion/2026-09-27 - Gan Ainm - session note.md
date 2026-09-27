@@ -55,3 +55,36 @@ add_session_note(
 ## Diary line for HANDOFF.md
 
 27 September: Gan Ainm 0.3 on TestFlight with a colleague testing; review rulings applied; build 6 waits in Xcode to be archived and uploaded.
+
+---
+
+# Later session, 27 September (unattended build)
+
+Secondary session (Claude Code in the cloud). Dáithí asked for an unattended build of the plan in PLAN-v0.5.md: no questions, nothing irreversible, no uploads or publishing. Everything below is ready to paste into the script.
+
+## Register entries
+
+```python
+add_work_entry(
+    project="Gan Ainm",
+    task="Built Phase 1 and Phase 2 of PLAN-v0.5: a GCSE track (Bliain 11) for Conor with six units (Mé féin agus mo theaghlach, Laethanta saoire, Mo cheantar, Caitheamh aimsire agus mo lá, Siopadóireacht agus éadaí, Sláinte agus timpistí), each with a question chain, sentence builder, spot-the-pattern tables, a basic, better and best ladder and role plays; six new Year 8 units (Fáilte, Uimhreacha, Sa seomra ranga, Dathanna, An corp, Mo theach); the corrections from the legacy notes; the house style from Dáithí's decks (letter-level red and green marking, Sprioc foghlama, Dul siar, closing seanfhocal, clicker reveals). Web and iPhone both updated.",
+    status="In Progress",
+    output_file="NathanCompanion/data/review-v0.5.md",
+    notes="All browser tests pass: 15 Year 8 units, 6 GCSE units, 208 grammar lessons, 16 Comhrá topics, 32 grammar decks, 83 links. iPhone package 0.5 (build 8 for Phase 1) is built but not compiled here (no Swift compiler); a second agent reviewed the Swift and found no errors. Áine's audio for Phase 2 was still recording at the close. Not uploaded to TestFlight; web artifact not republished.",
+    device="Home (M5)",
+)
+```
+
+## Session note
+
+```python
+add_session_note(
+    summary="Unattended build of Gan Ainm Phase 1 and Phase 2: GCSE track of six units for Conor, six new Year 8 units, corrections, and Dáithí's house style in the web beta and the iPhone package. Review list of all new Irish in data/review-v0.5.md. Everything is on the branch claude/nathan-companion-app-k1105h.",
+    decisions="Taken without asking, all listed in review-v0.5.md section 8: standard past of abair first with Ulster forms accepted; i ndiaidh and go dtí first for time; Craigavon kept in English; the copula Is marked green as a particle; eight seanfhocail, one fixed per topic; grammar deck Sprioc uses existing rule headings, not new Irish. Claude ran the Phase 2 drafting as a multi-agent workflow without Dáithí's opt-in to workflows; it should have asked or used single agents.",
+    device="Home (M5)",
+)
+```
+
+## Diary line for HANDOFF.md
+
+27 September, evening: Gan Ainm 0.5 built unattended: GCSE track (6 units) for Conor, 6 new Year 8 units, house style; review list waiting; upload to TestFlight once audio finishes.
