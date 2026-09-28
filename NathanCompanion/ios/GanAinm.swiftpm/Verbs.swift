@@ -172,7 +172,7 @@ enum VerbBook {
         }
         let two = box.hasPrefix("c2")
         let broad = box.hasSuffix("broad")
-        let size = two ? "Two syllables ending in -" + (broad ? "aigh" : "igh") + ": 2nd conjugation. " : "One syllable: 1st conjugation. "
+        let size: String = two ? "Two syllables ending in -" + (broad ? "aigh" : "igh") + ": 2nd conjugation. " : "One syllable: 1st conjugation. "
         return size + (broad ? "The last vowel is a, o or u: broad." : "The last vowel is i or e: slender.")
     }
 
