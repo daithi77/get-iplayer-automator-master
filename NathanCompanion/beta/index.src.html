@@ -5,11 +5,11 @@
 @font-face{font-family:'Marking Hand';src:url(data:font/otf;base64,__HAND__) format('opentype');font-display:block}
 :root{--ground:#F3F5F9;--surface:#FFFFFF;--ink:#172031;--muted:#5B6576;--rule:#DDE2E9;
 --k0:#E3EEFF;--k0i:#1D45B0;--k1:#DDF5E7;--k1i:#16704F;--k2:#FFF0C7;--k2i:#8A5800;--k3:#F1E6FF;--k3i:#6B3FB5;
---pen:#C8102E;--penw:#FCEEF0;--good:#16704F;--btn:#172031;--btni:#FFFFFF;--hi:#FFD84D;color-scheme:light}
+--pen:#C8102E;--penw:#FCEEF0;--bx-c1-broad:#FDC99A;--bx-c1-slender:#FFFF99;--bx-c2-broad:#CCFFCC;--bx-c2-slender:#99CCFF;--bx-sync:#CC99FF;--bx-irreg:#FF99CC;--tn-past:#FFFF99;--tn-present:#99CCFF;--tn-future:#FF99CC;--tn-conditional:#CC99FF;--bx-ink:#172031;--good:#16704F;--btn:#172031;--btni:#FFFFFF;--hi:#FFD84D;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#0F141C;--surface:#171E2A;--ink:#E7EBF1;--muted:#A1AABA;--rule:#283245;
---k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}}
+--k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--bx-c1-broad:#6A4220;--bx-c1-slender:#5A5616;--bx-c2-broad:#1F5130;--bx-c2-slender:#1D4470;--bx-sync:#4A3275;--bx-irreg:#6C2A50;--tn-past:#5A5616;--tn-present:#1D4470;--tn-future:#6C2A50;--tn-conditional:#4A3275;--bx-ink:#F3F5F9;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}}
 :root[data-theme="dark"]{--ground:#0F141C;--surface:#171E2A;--ink:#E7EBF1;--muted:#A1AABA;--rule:#283245;
---k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}
+--k0:#1B2A48;--k0i:#A9C3FF;--k1:#15352A;--k1i:#8FE0B8;--k2:#3A2E10;--k2i:#F5CF73;--k3:#2C2045;--k3i:#CDB2FF;--bx-c1-broad:#6A4220;--bx-c1-slender:#5A5616;--bx-c2-broad:#1F5130;--bx-c2-slender:#1D4470;--bx-sync:#4A3275;--bx-irreg:#6C2A50;--tn-past:#5A5616;--tn-present:#1D4470;--tn-future:#6C2A50;--tn-conditional:#4A3275;--bx-ink:#F3F5F9;--pen:#FF6F6F;--penw:#3A1D24;--good:#5CCB9E;--btn:#E7EBF1;--btni:#0F141C;--hi:#8A6A00;color-scheme:dark}
 *{box-sizing:border-box}[hidden]{display:none!important}
 html,body{height:100%}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:'Atkinson Hyperlegible',system-ui,sans-serif;font-size:16px;line-height:1.4}
@@ -159,6 +159,17 @@ mark.chg{background:var(--hi);color:inherit;border-radius:4px;padding:0 3px}
 .photo{border:2px dashed var(--rule);border-radius:14px;padding:16px;text-align:center}.photo>span{font-size:56px;display:block}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.chip{border:1px solid var(--rule);border-radius:10px;padding:6px 10px}
 .passage p{font-size:18px;line-height:1.6}
+.bx{display:inline-block;background:var(--bx,var(--rule));color:var(--bx-ink);border-radius:6px;padding:0 6px;font-weight:700;border:1px solid rgba(0,0,0,.18)}
+.bx small{font-weight:600;font-size:.7em;margin-left:4px;opacity:.85;vertical-align:middle}
+.boxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.boxt{background:var(--bx);color:var(--bx-ink);border-radius:12px;padding:10px 12px;border:1px solid rgba(0,0,0,.18)}
+.boxt summary{cursor:pointer;font-weight:700}.boxt .vl{columns:2;font-size:14px;margin-top:6px}
+.vgrid{border-collapse:collapse;font-size:14px;min-width:980px}.vgrid th,.vgrid td{border:1px solid var(--rule);padding:6px 8px;vertical-align:top;text-align:left}
+.vgrid th{background:var(--tn,var(--surface));color:var(--bx-ink)}.vgrid ol{margin:0;padding-left:1.1em}.scroll{overflow-x:auto}
+.vcard{border-left:8px solid var(--vc);}.vtab{border-collapse:collapse;width:100%;font-size:15px}.vtab th,.vtab td{border:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+.vtab th{background:var(--tn);color:var(--bx-ink);white-space:nowrap}.vtab .rk{font-weight:700;width:2.2em;text-align:center}
+.rhyme b{font-weight:800}.rhyme .ecl{color:var(--pen);text-decoration:underline}.rhyme .orig{color:#1D45B0;text-decoration:underline}
+:root:not([data-theme="light"]) .rhyme .orig{color:#A9C3FF}
 .part{color:var(--good);font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
 .track.g{background:var(--k0);color:var(--k0i)}
 .sprioc{border-left:4px solid var(--k1i);padding:4px 0 4px 12px;display:flex;flex-direction:column;gap:6px}
@@ -261,6 +272,13 @@ function render(){
   const app=$('#app');
   if(view==='gram'){app.classList.remove('wide');app.innerHTML=gramHomeHTML();return;}
   if(view==='comhra'){app.classList.remove('wide');app.innerHTML=comhraHomeHTML();return;}
+  if(view==='verbs'){app.classList.remove('wide');app.innerHTML=verbsHTML();return;}
+  if(view==='vsort'){app.classList.remove('wide');app.innerHTML=vsortHTML();return;}
+  if(view==='vgrid'){app.classList.add('wide');app.innerHTML=vgridHTML();return;}
+  if(view==='vsync'){app.classList.remove('wide');app.innerHTML=vsyncHTML();return;}
+  if(view==='vcards'){app.classList.remove('wide');app.innerHTML=vcardsHTML();return;}
+  if(view==='vcard'){app.classList.add('wide');app.innerHTML=vcardHTML();return;}
+  if(view==='vdrill'){app.classList.remove('wide');app.innerHTML=vdrillHTML();const i=$('#vdP');if(i&&!vd.res)setTimeout(()=>{if(!(document.activeElement&&document.activeElement.tagName==='INPUT'))i.focus();},30);return;}
   if(view==='spreag'){app.classList.remove('wide');app.innerHTML=spHomeHTML();return;}
   if(view==='sp'){app.classList.remove('wide');app.innerHTML=spHTML();return;}
   if(view==='leamh'){app.classList.remove('wide');app.innerHTML=leHomeHTML();return;}
@@ -396,6 +414,86 @@ function introHTML(){return `<div class="card intro">${INTRO[introPage]()}</div>
 
 /* grammar track, AS and A2: pattern, rule, practice (text only for now) */
 let G=null, gs=null;
+/* Dáithí's verb booklet: the colour boxes, the master grid, the syncopated table and the eleven irregular verb cards. */
+let V=null, VBOX={}, vs=null, vd=null, vn=0;
+const BOXLBL={'c1-broad':'1 leathan','c1-slender':'1 caol','c2-broad':'2 leathan','c2-slender':'2 caol','sync':'coimrithe','irreg':'neamhrialta'};
+const chip=(w,b)=>`<span class="bx" style="--bx:var(--bx-${b})" title="${esc(BOXLBL[b])}">${esc(w)}<small>${esc(BOXLBL[b])}</small></span>`;
+/* A verb named in brackets in a prompt, e.g. (ceannaigh, an aimsir chaite), carries its box colour. */
+function pv(t){t=String(t);let out='',last=0;t.replace(/\(([^)]*)\)/g,(m,inner,off)=>{out+=esc(t.slice(last,off))+'('+inner.split(/([\s,\/]+)/).map(w=>{const b=VBOX[w.toLowerCase()];return b?chip(w,b):esc(w);}).join('')+')';last=off+m.length;return m;});return out+esc(t.slice(last));}
+const vfirst=s=>String(s||'').split(/ \/ |\. Usually|\? Usually/)[0].replace(/\s*\(.*\)\s*$/,'').trim();
+function whyBox(v,b){if(b==='irreg')return 'One of the eleven irregular verbs: learn its card.';
+  if(b==='sync')return 'Two syllables ending in -il, -ir, -is or -in: it shortens (oscail, osclaím) and takes 2nd conjugation endings.';
+  const two=b.startsWith('c2'),bro=b.endsWith('broad');
+  return (two?'Two syllables ending in -'+(bro?'aigh':'igh')+': 2nd conjugation. ':'One syllable: 1st conjugation. ')+(bro?'The last vowel is a, o or u: broad.':'The last vowel is i or e: slender.');}
+const vtop=(t,s,back)=>`<div class="top"><button class="icon" data-act="${back}" aria-label="Siar. Back">←</button><h1 lang="ga">${t}<span class="sub">${s}</span></h1></div>`;
+const RHYME=[['Many','boys'],['go','camping'],['near','ditches'],['behind','fences'],['nice','girls'],['buy','pens'],['down','town']];
+function rhymeHTML(){return RHYME.map(([a,b],i)=>{const n=a==='behind'?2:1;return `${i===4?'<i>while</i> ':''}<b><span class="ecl">${a.slice(0,n)}</span>${a.slice(n)}</b> <b><span class="orig">${b[0]}</span>${b.slice(1)}</b>`;}).join(' ')+'.';}
+function verbsHTML(){
+  return `${vtop('Na briathra','Verbs: boxes, grid and cards','gram')}${DRAFT}
+    <p class="lede">Box first. Which box is the verb in? Then the grid tells you what to do in every tense.</p>
+    <div class="boxes">${V.boxes.map(b=>`<details class="boxt" style="--bx:var(--bx-${b.id})"><summary>${esc(b.title)}</summary><span lang="ga">${esc(b.ga)}</span> · ${b.verbs.length}<div class="vl" lang="ga">${b.verbs.map(([v,en])=>`<div>${esc(v)} <span style="opacity:.75">${esc(en)}</span></div>`).join('')}</div></details>`).join('')}</div>
+    <div class="units" style="margin-top:14px">
+      <button class="unit" data-act="vsort"><span class="em" aria-hidden="true">🗂️</span><span class="t"><b lang="ga">Cén bosca?</b><span class="s">Which box? Sort ten verbs into their boxes</span></span><span class="go">→</span></button>
+      <button class="unit" data-act="vgrid"><span class="em" aria-hidden="true">🧮</span><span class="t"><b lang="ga">An ghreille</b><span class="s">The grid: every tense on one page, as numbered moves</span></span><span class="go">→</span></button>
+      <button class="unit" data-act="vsync"><span class="em" aria-hidden="true">✂️</span><span class="t"><b lang="ga">Briathra coimrithe</b><span class="s">Syncopated verbs: oscail, imir, inis, aithin</span></span><span class="go">→</span></button>
+      <button class="unit" data-act="vcards"><span class="em" aria-hidden="true">🃏</span><span class="t"><b lang="ga">Na briathra neamhrialta</b><span class="s">The 11 irregular verbs: one card each, P, N and Q in four tenses</span></span><span class="go">→</span></button>
+      <button class="unit" data-act="vdrill"><span class="em" aria-hidden="true">✍️</span><span class="t"><b lang="ga">Dearfach, diúltach, ceist</b><span class="s">Positive, negative and question, always together</span></span><span class="go">→</span></button>
+    </div>
+    <div class="card"><p class="lab">Séimhiú agus urú · aspirate and eclipse</p>
+      ${V.mnemonics.map(m=>`<div style="margin:12px 0"><p style="margin:0"><b>${esc(m.title)}</b> <span class="gloss">${esc(m.what)}</span></p><p style="margin:4px 0" lang="ga"><b>${esc(m.letters)}</b></p>${m.id==='uru'?`<p class="rhyme" style="margin:4px 0">${rhymeHTML()}</p><p class="gloss" style="margin:0">Red: the eclipsing letter. Blue: the letter it eclipses.</p><div lang="ga" style="margin-top:6px">${m.examples.map(e=>`<div>${mk(e)}</div>`).join('')}</div>`:m.rhyme?`<p style="margin:4px 0"><i>${esc(m.rhyme)}</i></p>`:''}</div>`).join('')}</div>`;
+}
+function vsortHTML(){
+  if(vs.i>=vs.items.length) return `${vtop('Cén bosca?','Which box?','verbs')}<div class="card"><p class="big" style="text-align:center">${vs.ok} / ${vs.items.length}</p></div><div class="actions"><button class="btn ghost" data-act="verbs">Na briathra</button><button class="btn" data-act="vsort">Arís</button></div>`;
+  const it=vs.items[vs.i],r=vs.res;
+  return `${vtop('Cén bosca?','Which box? '+(vs.i+1)+' / '+vs.items.length,'verbs')}
+    <div class="card"><p class="big" lang="ga" style="text-align:center;font-size:34px;margin:6px 0">${esc(it.v)}</p><p class="gloss" style="text-align:center">${esc(it.en)}</p>
+    <div class="boxes">${V.boxes.map(b=>`<button class="boxt" style="--bx:var(--bx-${b.id});text-align:left;${r&&b.id===it.b?'outline:3px solid var(--good)':''}${r&&r.pick===b.id&&!r.ok?'outline:3px solid var(--pen)':''}" data-act="vpick" data-b="${b.id}" ${r?'disabled':''}><b>${esc(b.title)}</b><br><span lang="ga">${esc(b.ga)}</span></button>`).join('')}</div>
+    ${r?`<div class="fix"><span class="pen">${r.ok?'✓ ceart!':'✗ '+esc(BOXLBL[it.b])}</span><span>${esc(whyBox(it.v,it.b))}</span></div>`:''}</div>
+    ${r?`<div class="actions"><span></span><button class="btn" data-act="vnext">Ar aghaidh</button></div>`:''}`;
+}
+function vcellHTML(steps){return `<ol>${(steps||[]).map(x=>`<li>${mk(x).replace(/(^|[\s(])-(?=[a-záéíóú])/g,'$1\u2011')}</li>`).join('')}</ol>`;}
+function vgridHTML(){
+  const T=V.grid.tenses,col=t=>`style="--tn:var(--tn-${t})"`;
+  return `${vtop('An ghreille','The grid: every tense, one page','verbs')}
+    <p class="lede">Find the verb's box, then read down its column. <span class="gloss">Red: the letter you add. Green: the particle.</span></p>
+    <div class="scroll"><table class="vgrid" lang="ga"><thead><tr><th></th>${T.map(t=>`<th ${col(t.id)} colspan="${t.id==='past'?1:2}">${esc(t.ga)}<br><span style="font-weight:400">${esc(t.en)}</span></th>`).join('')}</tr>
+      <tr><th></th>${T.map(t=>t.id==='past'?`<th ${col(t.id)}></th>`:`<th ${col(t.id)}>1ú réimniú</th><th ${col(t.id)}>2ú réimniú</th>`).join('')}</tr></thead>
+      <tbody>${V.grid.rows.map(r=>`<tr><th>${esc(r.label)}</th>${T.map(t=>{const c=r.cells;if(t.id==='past')return `<td>${vcellHTML(c.past)}</td>`;
+        if(c[t.id+'-1'])return `<td>${vcellHTML(c[t.id+'-1'])}</td><td>${vcellHTML(c[t.id+'-2'])}</td>`;return `<td colspan="2">${vcellHTML(c.all||c[t.id])}</td>`;}).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function vsyncHTML(){const T=V.grid.tenses;
+  return `${vtop('Briathra coimrithe','Syncopated verbs','verbs')}<div class="card">${vcellHTML(V.syncopated.rule)}</div>
+    <div class="scroll"><table class="vtab" lang="ga"><thead><tr><th style="--tn:var(--bx-sync)">Briathar</th>${T.map(t=>`<th style="--tn:var(--tn-${t.id})">${esc(t.en)}</th>`).join('')}</tr></thead>
+    <tbody>${V.syncopated.table.map(r=>`<tr><td><b>${esc(r.verb)}</b></td>${T.map(t=>`<td>${esc(r[t.id])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
+function vcardsHTML(){
+  return `${vtop('Na briathra neamhrialta','The 11 irregular verbs','verbs')}<p class="lede">One card per verb: positive, negative and question in all four tenses.</p>
+    <div class="units">${V.irregular.map((c,i)=>`<button class="unit vcard" style="--vc:${c.colour}" data-act="vcard" data-n="${i}"><span class="em" aria-hidden="true">${c.n}</span><span class="t"><b lang="ga">${esc(c.verb)}</b><span class="s">to ${esc(c.en)}</span></span><span class="go">→</span></button>`).join('')}</div>`;
+}
+function vcardHTML(){
+  const c=V.irregular[vn],T=V.grid.tenses;
+  const row=(k,l)=>`<tr><td class="rk">${k}</td>${T.map(t=>`<td>${esc(c[t.id][k])}</td>`).join('')}</tr>`;
+  const ul=T.filter(t=>c[t.id].ulster);
+  return `${vtop(c.n+'. '+esc(c.verb),'to '+esc(c.en)+' · '+chip(c.verb,'irreg'),'vcards')}
+    <div class="card vcard" style="--vc:${c.colour}"><div class="scroll"><table class="vtab" lang="ga"><thead><tr><th style="--tn:var(--surface)"></th>${T.map(t=>`<th style="--tn:var(--tn-${t.id})">${esc(t.ga)}<br><span style="font-weight:400">${esc(t.en)}</span></th>`).join('')}</tr></thead>
+    <tbody>${row('P')}${row('N')}${row('Q')}<tr><td class="rk" title="saorbhriathar">S</td>${T.map(t=>`<td><i>${esc(c[t.id].saor)}</i></td>`).join('')}</tr></tbody></table></div>
+    <p class="gloss">P positive · N negative · Q question · S autonomous (nobody named). The form in brackets is the other way to say we; both are right.</p>
+    ${ul.length?`<p><b>Uladh · Ulster:</b> <span lang="ga">${ul.map(t=>`${esc(t.en)}: ${esc(c[t.id].ulster)}`).join(' · ')}</span></p>`:''}</div>
+    <div class="actions">${vn>0?`<button class="btn ghost" data-act="vcard" data-n="${vn-1}">◀ ${esc(V.irregular[vn-1].verb)}</button>`:'<span></span>'}<button class="btn" data-act="vdrill" data-n="${vn}">Cleachtadh · drill ${esc(c.verb)}</button>${vn<10?`<button class="btn ghost" data-act="vcard" data-n="${vn+1}">${esc(V.irregular[vn+1].verb)} ▶</button>`:''}</div>`;
+}
+function vdrillHTML(){
+  if(vd.i>=vd.items.length) return `${vtop('Dearfach, diúltach, ceist','Positive, negative, question','verbs')}<div class="card"><p class="big" style="text-align:center">${vd.ok} / ${vd.tot}</p></div><div class="actions"><button class="btn ghost" data-act="vcards">Na cártaí</button><button class="btn" data-act="vdrill" ${vd.n!=null?`data-n="${vd.n}"`:''}>Arís</button></div>`;
+  const it=vd.items[vd.i],c=V.irregular[it.c],t=V.grid.tenses.find(x=>x.id===it.t),r=vd.res;
+  const box=(k,l,who)=>{const res=r&&r[k];return `<div style="margin:10px 0"><label for="vd${k}"><b>${l}</b> <span class="gloss">(${who})</span></label>
+    <input class="input" id="vd${k}" lang="ga" autocomplete="off" spellcheck="false" value="${esc(res?res.typed:'')}" ${r?'disabled':''}>
+    ${res?(res.ok?`<div class="fix"><span class="pen">✓ ${res.fada?'seiceáil na fadaí':'ceart!'}</span><span lang="ga">${esc(res.want)}</span></div>`:`<div class="fix"><span class="gloss">An freagra ceart · the answer</span><span lang="ga" style="font-weight:700">${hl(res.typed||'',res.want)}</span></div>`):''}</div>`;};
+  return `${vtop('Dearfach, diúltach, ceist',(vd.i+1)+' / '+vd.items.length,'verbs')}
+    <div class="card"><p class="lab" style="--tn:var(--tn-${t.id})"><span class="bx" style="--bx:var(--tn-${t.id})">${esc(t.ga)}</span> ${esc(t.en)}</p>
+    <p class="big" lang="ga" style="font-size:30px;margin:6px 0">${chip(c.verb,'irreg')} <span class="gloss" style="font-size:16px">to ${esc(c.en)}</span></p>
+    ${box('P','Dearfach · positive','mé')}${box('N','Diúltach · negative','mé')}${box('Q','Ceist · question','tú')}
+    ${r?'':`<div><button class="btn" data-act="vdcheck">Seiceáil · check</button></div>`}</div>
+    ${r?`<div class="actions"><button class="btn ghost" data-act="vcard" data-n="${it.c}">An cárta · the card</button><button class="btn" data-act="vdnext">Ar aghaidh</button></div>`:''}`;
+}
+
 const DRAFT=`<p class="draft">Dréacht: níor seiceáil múinteoir an Ghaeilge seo go fóill. Draft: a teacher has not yet checked the Irish here.</p>`;
 const gid=t=>'g:'+[...t].reduce((h,c)=>(h*31+c.charCodeAt(0))>>>0,7).toString(36);
 /* Present and future first person plural: the synthetic and analytic forms are both right (cuirimid = cuireann muid). */
@@ -412,6 +510,7 @@ function gramHomeHTML(){
   return `${head('Gramadach','AS agus A2 · Years 13 and 14',true)}${DRAFT}
     <div><button class="pill" data-act="teach">📺 Don rang · slides for the class screen</button></div>
     <p class="lede">Gach alt: patrún, riail, cleachtadh. Each section: see the pattern, learn the rule, then practise.</p>
+    ${V?`<button class="track" data-act="verbs" style="margin-bottom:12px"><span class="em" aria-hidden="true">🗂️</span><span><b>Na briathra · the verbs</b><span class="s">Box first: the colour boxes, the grid for every tense, the syncopated verbs and the 11 irregular verb cards.</span></span></button>`:''}
     ${G.groups.map(g=>`<div class="ggroup"><h2><span aria-hidden="true">${g.emoji}</span> ${esc(g.ga)} · ${esc(g.en)}</h2>
       ${g.sections.map(id=>{const x=G.sections[id];const p=gProgress(x);return `<button class="gsec" data-act="gopen" data-id="${id}"><span class="t"><b lang="ga">${esc(x.title)}</b><span class="s">${esc(x.en)} · ${x.lessons&&x.lessons.length?x.lessons.length+' ceacht':x.items.length+' cleachtadh'}</span><span class="bar"><i style="width:${p}%"></i></span></span><span class="go">→</span></button>`;}).join('')}</div>`).join('')}`;
 }
@@ -456,7 +555,7 @@ function gramSecHTML(){
       :`<div class="fix"><span class="pen">✗</span><span class="gloss">An freagra ceart · the right answer</span>${ansHTML}${miss.length?`<span class="gloss">De dhíth · missing or different: <b lang="ga">${esc(miss.join(', '))}</b></span>`:''}${gs.res.self===false||!gs.typed?'':`<button class="btn link" style="align-self:flex-start" data-act="gmine">Tá mo leagan ceart freisin · my version is right too</button>`}</div>`):'';
     body=`<div class="card"><p class="lab">${gs.i+1} / ${gs.items.length} · <span lang="ga">${esc(it.point)}</span></p>
       <p class="big">${t[0]}</p><p class="gloss">${t[1]}${gapOnly?' Type only the missing word or words.':''}</p>
-      <p class="prompt" lang="ga">${esc(it.prompt)}</p>
+      <p class="prompt" lang="ga">${pv(it.prompt)}</p>
       <input class="input ${gs.res?(gs.res.ok?'right':'wrong'):''}" id="typed" lang="ga" autocomplete="off" autocapitalize="sentences" spellcheck="false" value="${esc(gs.typed)}" ${gs.res?'readonly':''}>
       ${fb}</div>${gs.res?'':FADAS}
       <div class="actions">${gs.res?'<span></span>':'<button class="btn link" data-act="gskip">Níl a fhios agam</button>'}
@@ -732,8 +831,8 @@ function lessonHTML(){
       <p class="rulebig">${esc(l.rule)}</p>
       <p class="lab">An dóigh a ndéantar é · step by step</p>
       <ol class="steps-list">${l.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>
-      <div class="worked"><span class="from" lang="ga">${esc(l.example.prompt)}</span><span aria-hidden="true">↓</span><span class="to" lang="ga">${hl(l.example.prompt,l.example.answer)}</span>${altHTML(l.example)}</div>
-      ${(l.more||[]).length?`<p class="lab">Tuilleadh samplaí · more examples</p>${l.more.map(m=>`<div class="worked"><span class="from" lang="ga">${esc(m.prompt)}</span><span class="to" lang="ga">${hl(m.prompt,m.answer)}</span>${altHTML(m)}</div>`).join('')}`:''}
+      <div class="worked"><span class="from" lang="ga">${pv(l.example.prompt)}</span><span aria-hidden="true">↓</span><span class="to" lang="ga">${hl(l.example.prompt,l.example.answer)}</span>${altHTML(l.example)}</div>
+      ${(l.more||[]).length?`<p class="lab">Tuilleadh samplaí · more examples</p>${l.more.map(m=>`<div class="worked"><span class="from" lang="ga">${pv(m.prompt)}</span><span class="to" lang="ga">${hl(m.prompt,m.answer)}</span>${altHTML(m)}</div>`).join('')}`:''}
     </div>
     <div class="actions"><button class="btn ghost" data-act="lback">Na ceachtanna</button><button class="btn" data-act="lstart">Anois tusa</button></div>`;
   }else if(st===1){
@@ -747,7 +846,7 @@ function lessonHTML(){
           <span class="gloss">Riail · rule: ${esc(l.rule)}</span>${gl.res.self===false||!gl.typed?'':`<button class="btn link" style="align-self:flex-start" data-act="lmine">Tá mo leagan ceart freisin · my version is right too</button>`}</div>`):'';
     body=`<div class="card"><p class="lab">${gl.i+1} / ${gl.items.length} · <span lang="ga">${esc(l.title)}</span></p>
       <p class="big">${t[0]}</p><p class="gloss">${t[1]}${gapOnly?' Type only the missing word or words.':''}</p>
-      <p class="prompt" lang="ga">${esc(it.prompt)}</p>
+      <p class="prompt" lang="ga">${pv(it.prompt)}</p>
       <input class="input ${gl.res?(gl.res.ok?'right':(gl.res.self===undefined&&it.self?'':'wrong')):''}" id="typed" lang="ga" autocomplete="off" autocapitalize="sentences" spellcheck="false" value="${esc(gl.typed)}" ${gl.res?'readonly':''}>
       ${!gl.res?(gl.hint?`<p class="hintbox"><b>Leid · hint:</b> ${esc(l.hint)}</p>`:`<div><button class="btn link" style="padding:0" data-act="lhint">Leid · show a hint</button></div>`):''}
       ${fb}</div>${gl.res?'':FADAS}
@@ -970,6 +1069,24 @@ const A={
   cback:()=>{view='ctopic';render();scrollTo(0,0);},
   gcse:el=>{hush();if(el&&el.dataset&&el.dataset.t)trk=el.dataset.t;view='gcse';render();scrollTo(0,0);},
   gopenU:el=>{gt=TL()[+el.dataset.i];ensurePack(gt);view='gunit';render();scrollTo(0,0);},
+  verbs:()=>{hush();view='verbs';render();scrollTo(0,0);},
+  vsort:()=>{const all=V.boxes.flatMap(b=>b.verbs.map(([v,en])=>({v:v.split(' (')[0],en,b:b.id})));const by=V.boxes.map(b=>shuffle(all.filter(x=>x.b===b.id)));
+    const items=shuffle(by.flatMap(x=>x.slice(0,2)).slice(0,10));vs={items,i:0,ok:0,res:null};view='vsort';render();scrollTo(0,0);},
+  vpick:el=>{const it=vs.items[vs.i],ok=el.dataset.b===it.b;vs.res={pick:el.dataset.b,ok};if(ok)vs.ok++;render();},
+  vnext:()=>{vs.i++;vs.res=null;render();scrollTo(0,0);},
+  vgrid:()=>{view='vgrid';render();scrollTo(0,0);},
+  vsync:()=>{view='vsync';render();scrollTo(0,0);},
+  vcards:()=>{view='vcards';render();scrollTo(0,0);},
+  vcard:el=>{vn=+el.dataset.n;view='vcard';render();scrollTo(0,0);},
+  vdrill:el=>{const n=el&&el.dataset&&el.dataset.n!=null?+el.dataset.n:null;const T=['past','present','future','conditional'];
+    const items=n!=null?shuffle(T.map(t=>({c:n,t}))):shuffle(V.irregular.flatMap((c,i)=>T.map(t=>({c:i,t})))).slice(0,8);
+    vd={items,i:0,ok:0,tot:0,res:null,n};view='vdrill';render();scrollTo(0,0);},
+  vdcheck:()=>{const it=vd.items[vd.i],f=V.irregular[it.c][it.t];const ul=String(f.ulster||'').split(/ \/ /).map(vfirst).filter(Boolean);vd.res={};
+    for(const k of ['P','N','Q']){const typed=($('#vd'+k)||{}).value||'',want=vfirst(f[k]);let r=gMatch(typed,want);
+      if(!r.ok)for(const u of ul){const a=gMatch(typed,u);if(a.ok){r=a;break;}}
+      vd.res[k]=Object.assign(r,{typed,want});vd.tot++;if(r.ok)vd.ok++;}
+    render();},
+  vdnext:()=>{vd.i++;vd.res=null;render();scrollTo(0,0);},
   spreag:()=>{hush();view='spreag';render();scrollTo(0,0);},
   spopen:el=>{sp=SP[+el.dataset.i];view='sp';render();scrollTo(0,0);},
   leamh:()=>{hush();view='leamh';render();scrollTo(0,0);},
@@ -1049,7 +1166,10 @@ Promise.all([fetch('data/units.json').then(r=>{if(!r.ok)throw new Error(r.status
   fetch('data/gcse.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
   fetch('data/a2.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
   fetch('data/spreag.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
-  fetch('data/leamh.json').then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([d,pk,gr,cm,gc,a2,spx,lex])=>{U=d;PACKS=pk;G=gr;C=cm||[];GC=gc||[];A2=a2||[];SP=spx||[];LE=lex||[];window.__t={U,C:()=>C,GC:()=>GC,A2:()=>A2,SP:()=>SP,LE:()=>LE,le:()=>le,trk:()=>trk,gt:()=>gt,rp:()=>rp,ct:()=>ct,cr:()=>cr,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,gd:()=>gd,gl:()=>gl,canon,hl};
+  fetch('data/leamh.json').then(r=>r.ok?r.json():[]).catch(()=>[]),
+  fetch('data/verbs.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,pk,gr,cm,gc,a2,spx,lex,vb])=>{U=d;PACKS=pk;G=gr;C=cm||[];GC=gc||[];A2=a2||[];SP=spx||[];LE=lex||[];
+    V=vb;VBOX={};if(V)V.boxes.forEach(b=>b.verbs.forEach(([v])=>{VBOX[v.split(' (')[0].toLowerCase()]=b.id;}));
+    window.__t={V:()=>V,vs:()=>vs,vd:()=>vd,pv,U,C:()=>C,GC:()=>GC,A2:()=>A2,SP:()=>SP,LE:()=>LE,le:()=>le,trk:()=>trk,gt:()=>gt,rp:()=>rp,ct:()=>ct,cr:()=>cr,S:()=>S,sess:()=>sess,deck:()=>deck,gs:()=>gs,G:()=>G,gd:()=>gd,gl:()=>gl,canon,hl};
     let seen=false;try{seen=!!localStorage.getItem('abair-leat.intro');}catch(e){}
     view=location.hash==='#rang'?'teach':(seen?'home':'intro');render();})
   .catch(e=>{$('#app').innerHTML='<p class="note">Níor lódáladh na sonraí. Could not load the data. Reload the page.</p>';});

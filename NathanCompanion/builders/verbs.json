@@ -24,7 +24,7 @@
   ],
   "rows": [
    {"id": "pos-cons", "label": "Positive: a verb that can take h", "cells": {
-     "past": ["Séimhiú.", "Add the pronoun: [ch]uir mé, [bh]ris sí."],
+     "past": ["Séimhiú.", "Add the pronoun: c[h]uir mé, b[h]ris sí."],
      "present-1": ["Broad: add -aim (mé) or -ann (everyone else).", "Slender: add -im or -eann.", "We: -ann muid or -aimid."],
      "present-2": ["Remove -aigh or -igh.", "Broad: add -aím or -aíonn. Slender: add -ím or -íonn.", "We: -aíonn muid or -aímid."],
      "future-1": ["Broad: add -faidh. Slender: add -fidh.", "We: -faidh muid or -faimid."],
@@ -40,18 +40,18 @@
      "conditional-1": ["Put d' in front: d'ólfainn, d'éistfeadh sé."],
      "conditional-2": ["Put d' in front: d'ullmhóinn, d'oibreodh sé."]}},
    {"id": "pos-f", "label": "Positive: a verb that starts with f", "cells": {
-     "past": ["Put d' in front.", "Séimhiú on the f.", "Add the pronoun: d'[fh]ág mé."],
+     "past": ["Put d' in front.", "Séimhiú on the f.", "Add the pronoun: d'f[h]ág mé."],
      "present-1": ["No change at the front: fágaim."],
      "present-2": ["No change at the front: fiafraím."],
      "future-1": ["No change at the front: fágfaidh mé."],
      "future-2": ["No change at the front: fiafróidh sé."],
-     "conditional-1": ["Put d' in front and séimhiú on the f: d'[fh]ágfainn."],
-     "conditional-2": ["Put d' in front and séimhiú on the f: d'[fh]iafróinn."]}},
+     "conditional-1": ["Put d' in front and séimhiú on the f: d'f[h]ágfainn."],
+     "conditional-2": ["Put d' in front and séimhiú on the f: d'f[h]iafróinn."]}},
    {"id": "neg", "label": "Negative", "cells": {
-     "past": ["{Níor} and séimhiú where you can.", "No d': {Níor} [fh]ág mé, {Níor} ól mé."],
-     "all": ["{Ní} and séimhiú.", "Take away d': {Ní} [fh]ágfainn, {Ní} ólann sé."]}},
+     "past": ["{Níor} and séimhiú where you can.", "No d': {Níor} f[h]ág mé, {Níor} ól mé."],
+     "all": ["{Ní} and séimhiú.", "Take away d': {Ní} f[h]ágfainn, {Ní} ólann sé."]}},
    {"id": "q", "label": "Question", "cells": {
-     "past": ["{Ar} and séimhiú where you can.", "No d': {Ar} [fh]ág tú? {Ar} ól tú?"],
+     "past": ["{Ar} and séimhiú where you can.", "No d': {Ar} f[h]ág tú? {Ar} ól tú?"],
      "all": ["{An} and urú.", "Take away d': {An} [bh]fágann tú? {An} ólann tú? (a vowel takes no urú after An)"]}},
    {"id": "saor", "label": "Autonomous (nobody named)", "cells": {
      "past": ["No séimhiú.", "Broad: add -adh. Slender: add -eadh: fágadh, briseadh; ceannaíodh, bailíodh (2nd)."],
@@ -59,8 +59,8 @@
      "present-2": ["Remove -aigh or -igh. Broad: add -aítear. Slender: add -ítear: ceannaítear, bailítear."],
      "future-1": ["Broad: add -far. Slender: add -fear: fágfar, cuirfear."],
      "future-2": ["Remove -aigh or -igh. Broad: add -ófar. Slender: add -eofar: ceannófar, baileofar."],
-     "conditional-1": ["Séimhiú. Broad: add -faí. Slender: add -fí: [fh]ágfaí, [ch]uirfí."],
-     "conditional-2": ["Remove -aigh or -igh, séimhiú. Broad: add -ófaí. Slender: add -eofaí: [ch]eannófaí."]}}
+     "conditional-1": ["Séimhiú. Broad: add -faí. Slender: add -fí: f[h]ágfaí, c[h]uirfí."],
+     "conditional-2": ["Remove -aigh or -igh, séimhiú. Broad: add -ófaí. Slender: add -eofaí: c[h]eannófaí."]}}
   ]
  },
  "syncopated": {
