@@ -1071,7 +1071,7 @@ const A={
   gopenU:el=>{gt=TL()[+el.dataset.i];ensurePack(gt);view='gunit';render();scrollTo(0,0);},
   verbs:()=>{hush();view='verbs';render();scrollTo(0,0);},
   vsort:()=>{const all=V.boxes.flatMap(b=>b.verbs.map(([v,en])=>({v:v.split(' (')[0],en,b:b.id})));const by=V.boxes.map(b=>shuffle(all.filter(x=>x.b===b.id)));
-    const items=shuffle(by.flatMap(x=>x.slice(0,2)).slice(0,10));vs={items,i:0,ok:0,res:null};view='vsort';render();scrollTo(0,0);},
+    const items=shuffle(by.flatMap(x=>x.slice(0,2))).slice(0,10);vs={items,i:0,ok:0,res:null};view='vsort';render();scrollTo(0,0);},
   vpick:el=>{const it=vs.items[vs.i],ok=el.dataset.b===it.b;vs.res={pick:el.dataset.b,ok};if(ok)vs.ok++;render();},
   vnext:()=>{vs.i++;vs.res=null;render();scrollTo(0,0);},
   vgrid:()=>{view='vgrid';render();scrollTo(0,0);},

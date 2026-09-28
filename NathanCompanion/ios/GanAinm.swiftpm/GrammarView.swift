@@ -25,6 +25,16 @@ struct GrammarHome: View {
                 DraftBanner()
                 Text("Gach alt: patrún, riail, cleachtadh. Each section: see the pattern, learn the rule, then practise.")
                     .foregroundStyle(Theme.muted)
+                if let verbs = store.verbs {
+                    NavigationLink {
+                        VerbsHub(verbs: verbs)
+                    } label: {
+                        TrackTile(emoji: "🗂️", title: "Na briathra · the verbs",
+                                  detail: "Box first: the colour boxes, the grid for every tense, the syncopated verbs and the 11 irregular verb cards.",
+                                  colour: 3)
+                    }
+                    .buttonStyle(.plain)
+                }
                 ForEach(grammar.groups, id: \.ga) { group in
                     VStack(alignment: .leading, spacing: 8) {
                         Text("\(group.emoji) \(group.ga) · \(group.en)")
@@ -217,7 +227,8 @@ struct GrammarSessionView: View {
                     .foregroundStyle(Theme.muted)
                 Text(it.task.ga).font(.title2.weight(.bold))
                 Text(it.task.en).foregroundStyle(Theme.muted)
-                Text(it.prompt)
+                // A verb named in brackets carries its box colour and label.
+                Text(VerbBook.chipped(it.prompt))
                     .font(.title3.weight(.bold))
                     .foregroundStyle(Theme.columnInk(0))
                     .padding(14)

@@ -17,7 +17,7 @@ let package = Package(
             targets: ["AppModule"],
             bundleIdentifier: "com.feirste.gaeilge",
             displayVersion: "0.5",
-            bundleVersion: "9",
+            bundleVersion: "10",
             appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.blue),
             supportedDeviceFamilies: [

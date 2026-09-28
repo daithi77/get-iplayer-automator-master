@@ -423,6 +423,13 @@ final class Store: ObservableObject {
               let data = try? Data(contentsOf: url) else { return [] }
         return (try? JSONDecoder().decode([LeamhPassage].self, from: data)) ?? []
     }()
+    /// Dáithí's verb booklet: the colour boxes, the grid, the syncopated verbs and the irregular verb cards.
+    /// Nil if verbs.json is missing; the grammar screen then hides the verbs.
+    let verbs: VerbData? = VerbBook.data
+
+    /// The box a verb is in, by its root (lower case, the text before " ("). Nil when it is in no box.
+    func verbBox(_ verb: String) -> String? { VerbBook.box(of: verb) }
+
     /// The pupil's own answers to the conversation questions, by question.
     @Published private(set) var own: [String: String] = [:]
 

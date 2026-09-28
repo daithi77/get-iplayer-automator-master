@@ -300,7 +300,7 @@ struct LessonSessionView: View {
 
     private func worked(_ ex: GrammarExample) -> some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(ex.prompt).font(.body)
+            Text(VerbBook.chipped(ex.prompt)).font(.body)
             Image(systemName: "arrow.down").font(.footnote).accessibilityHidden(true)
             Text(Highlight.changes(from: ex.prompt, to: ex.answer))
                 .font(.title3.weight(.bold))
@@ -345,7 +345,8 @@ struct LessonSessionView: View {
                     .font(.caption.weight(.bold)).foregroundStyle(Theme.muted)
                 Text(it.task.ga).font(.title2.weight(.bold))
                 Text(it.task.en).foregroundStyle(Theme.muted)
-                Text(it.prompt)
+                // A verb named in brackets carries its box colour and label.
+                Text(VerbBook.chipped(it.prompt))
                     .font(.title3.weight(.bold))
                     .foregroundStyle(Theme.columnInk(0))
                     .padding(14)

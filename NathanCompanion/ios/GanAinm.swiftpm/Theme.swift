@@ -46,6 +46,45 @@ enum Theme {
     ]
     static func fill(_ column: Int) -> Color { fills[column % 4] }
     static func columnInk(_ column: Int) -> Color { inks[column % 4] }
+
+    /// Dáithí's verb boxes (GRAMMAR-STYLE.md), the web's --bx-* tokens, each with a dark-mode variant of the same hue.
+    static let boxC1Broad = Color(light: 0xFDC99A, dark: 0x6A4220)
+    static let boxC1Slender = Color(light: 0xFFFF99, dark: 0x5A5616)
+    static let boxC2Broad = Color(light: 0xCCFFCC, dark: 0x1F5130)
+    static let boxC2Slender = Color(light: 0x99CCFF, dark: 0x1D4470)
+    static let boxSync = Color(light: 0xCC99FF, dark: 0x4A3275)
+    static let boxIrreg = Color(light: 0xFF99CC, dark: 0x6C2A50)
+    /// The tense colours of the grid and the cards, the web's --tn-* tokens: past yellow, present blue, future pink, conditional purple.
+    static let tensePast = Color(light: 0xFFFF99, dark: 0x5A5616)
+    static let tensePresent = Color(light: 0x99CCFF, dark: 0x1D4470)
+    static let tenseFuture = Color(light: 0xFF99CC, dark: 0x6C2A50)
+    static let tenseConditional = Color(light: 0xCC99FF, dark: 0x4A3275)
+    /// Text on a box or tense colour: dark in light mode, light in dark mode (the web's --bx-ink).
+    static let boxInk = Color(light: 0x172031, dark: 0xF3F5F9)
+
+    /// A box's colour by its id in verbs.json (c1-broad, c1-slender, c2-broad, c2-slender, sync, irreg).
+    static func box(_ id: String) -> Color {
+        switch id {
+        case "c1-broad": return boxC1Broad
+        case "c1-slender": return boxC1Slender
+        case "c2-broad": return boxC2Broad
+        case "c2-slender": return boxC2Slender
+        case "sync": return boxSync
+        case "irreg": return boxIrreg
+        default: return rule
+        }
+    }
+
+    /// A tense's colour by its id in verbs.json (past, present, future, conditional).
+    static func tense(_ id: String) -> Color {
+        switch id {
+        case "past": return tensePast
+        case "present": return tensePresent
+        case "future": return tenseFuture
+        case "conditional": return tenseConditional
+        default: return surface
+        }
+    }
 }
 
 /// House marks in the data: [x] marks letters or words that change or are new (red), {x} marks a particle (green).
