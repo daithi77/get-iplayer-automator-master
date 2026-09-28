@@ -29,6 +29,16 @@ Every grammar asset in Gan Ainm (lessons, practice items, overview tables, slide
 11. **Examples you would say to someone.** Prefer questions to tú, real situations and local places (Bessbrook, Newry, Camlough, Dún Dealgan), with humour where it fits: "An dtiocfaidh tú chuig an dioscó liom?"
 12. **The whole pattern on one screen.** If an overview needs scrolling, split it by group, not by tense.
 
+## Ruling, 28 September 2026: the colour-coded boxes are a key asset of the whole app
+
+Dáithí: "The colour coded boxes is a key asset to preserve and develop across the app." So the boxes are not a grammar-section feature; they are part of how Gan Ainm shows every verb.
+
+- **One source.** The boxes, their verbs and their colours live in `builders/verbs.json`. Web and iPhone read the same colours as named tokens (box-c1-broad, box-c1-slender, box-c2-broad, box-c2-slender, box-sync, box-irreg), each with a dark-mode variant of the same hue.
+- **Everywhere a verb is taught.** Grammar lessons, the verb cards, the overview grid, sentence builder rows whose chunk is a verb, GCSE and A2 pattern boxes, Comhrá rows and the class slides all show the verb's box colour and its label (for example "2 caol"). Colour is never the only signal.
+- **Grow the boxes.** Every new verb that appears in new content is added to its box in `builders/verbs.json`, so the boxes become the app's verb dictionary.
+- **Develop them as an activity.** A "Cén bosca?" sorting activity (drag or tap the verb into its box), a verb look-up that opens on the verb's box and card, and a box legend on every grammar screen and deck.
+- **Preserve them.** No redesign may drop, merge or recolour the boxes without Dáithí's say.
+
 ## Standing language rulings (unchanged)
 
 Ulster Irish. Never "dún" as a verb (druid). Never -amar/-eamar. "cluin", not "clois". "tábla", not "bord". British spelling, "pupil" not "student", no em or en dashes, never name an exam board or specification.
